@@ -36,6 +36,7 @@ from indicadores import (INDICADORES, REGIOES, NAO_SOBERANOS, NOMES_EXTRA,
                          APELIDOS_EXTRA, UE27, VETADAS, FATIA_0_100,
                          regiao_de)
 from linguas import cartas_de_linguas
+from brasil import cartas_do_brasil
 from notas import NOTAS
 
 WB = "https://api.worldbank.org/v2"
@@ -115,6 +116,11 @@ def get_texto(url, chave):
     open(caminho, "w", encoding="utf-8").write(r.text)
     time.sleep(0.3)
     return r.text
+
+
+def get_json(url, chave):
+    """GET de JSON por URL inteira (as APIs do IBGE já vêm com querystring)."""
+    return get(url, None, chave)
 
 
 def sparql(query, chave):
@@ -299,6 +305,7 @@ def monta_carta(linhas, ano, paises, nomes, pop, ind, pergunta, maior,
 
     return {
         "tema": "paises",
+        "tipo_resposta": "pais",
         "pergunta": texto_regional(pergunta, REGIOES[regiao]) if regiao else pergunta,
         "escopo": regiao or "mundo",
         "fonte": "Banco Mundial",
@@ -309,14 +316,14 @@ def monta_carta(linhas, ano, paises, nomes, pop, ind, pergunta, maior,
         "disputada": disputada,
         "folga": round(abs(a - b) / max(a, b, 1e-9), 4),
         "respostas": [
-            {"pos": i + 1, "iso3": iso, "nome": nomes[iso]["nome"],
+            {"pos": i + 1, "chave": iso, "nome": nomes[iso]["nome"],
              "valor": val, "valor_fmt": fmt_valor(val, ind["fmt"])}
             for i, (iso, val) in enumerate(dez)
         ],
     }
 
 
-def deduplica(cartas, teto, problemas):
+def deduplica(cartas, teto, problemas, global_tambem=True):
     """
     Dentro de um mesmo escopo, "quem mais exporta", "maior PIB" e "quem mais
     emite CO2" devolvem quase a mesma lista. Pergunta diferente com a mesma
@@ -326,20 +333,30 @@ def deduplica(cartas, teto, problemas):
     Percorre as cartas na ordem do catálogo e só mantém a que não repete
     mais de `teto` do top 10 de alguma carta já mantida no mesmo escopo.
     """
-    mantidas, vistas = [], defaultdict(list)
+    mantidas, vistas, todas = [], defaultdict(list), []
     for c in cartas:
-        atual = {r.get("iso3") or r["nome"] for r in c["respostas"]}
+        atual = {r.get("chave") or r["nome"] for r in c["respostas"]}
         choque = None
         for anterior, conj in vistas[c["escopo"]]:
             if len(atual & conj) / len(atual | conj) > teto:
                 choque = anterior
                 break
+        # Recorte diferente do MESMO indicador é carta legítima (a Ásia é um
+        # pedaço do mundo). Mas "nomes mais comuns em SP" e "em MG" devolvem
+        # a mesma lista com outra bandeira — isso é repetição, não recorte.
+        # Daí a segunda passada, que compara tudo com tudo, com régua maior.
+        if not choque and global_tambem:
+            for anterior, conj in todas:
+                if len(atual & conj) / len(atual | conj) > 0.7:
+                    choque = anterior
+                    break
         if choque:
             problemas.append(f"repetida: '{c['pergunta']}' devolve quase o mesmo "
                              f"top 10 de '{choque}'")
         else:
             mantidas.append(c)
             vistas[c["escopo"]].append((c["pergunta"], atual))
+            todas.append((c["pergunta"], atual))
     return mantidas
 
 
@@ -453,11 +470,30 @@ def main():
 
         print(f"  {ind['cod']:<24} {ano}  +{len(cartas)-n0} cartas")
 
+    itens = {"pais": {iso: nomes[iso] for iso in sorted(nomes)}}
+
     iso2_para_iso3 = {p["iso2"]: iso for iso, p in paises.items()}
     n0 = len(cartas)
-    cartas += cartas_de_linguas(paises, nomes, iso2_para_iso3, get_texto,
-                                sparql, norm, problemas, args.min_paises_regiao)
+    novas = cartas_de_linguas(paises, nomes, iso2_para_iso3, get_texto,
+                              sparql, norm, problemas, args.min_paises_regiao)
+    cartas += novas
     print(f"  {'línguas':<24} --    +{len(cartas)-n0} cartas")
+    for c in novas:
+        for r in c["respostas"]:
+            tipo = c["tipo_resposta"]
+            itens.setdefault(tipo, {})
+            if tipo != "pais":
+                itens[tipo].setdefault(r["chave"],
+                                       {"nome": r["nome"],
+                                        "apelidos": r.pop("apelidos", [])})
+            r.pop("apelidos", None)
+
+    n0 = len(cartas)
+    br, ind_mun, ind_nome = cartas_do_brasil(get_json, norm, problemas)
+    cartas += br
+    itens["municipio"] = ind_mun
+    itens["nome"] = ind_nome
+    print(f"  {'brasil':<24} --    +{len(cartas)-n0} cartas")
 
     # regra do jogo: carta sem explicação vira discussão na mesa
     for c in cartas:
@@ -484,7 +520,7 @@ def main():
     banco = {
         "gerado_em": time.strftime("%Y-%m-%d"),
         "indicadores": {k: v for k, v in fichas.items() if k in usados},
-        "paises": {iso: nomes[iso] for iso in sorted(nomes)},
+        "itens": itens,
         "cartas": cartas,
     }
     with open("banco.json", "w", encoding="utf-8") as f:

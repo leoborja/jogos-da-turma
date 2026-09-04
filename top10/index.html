@@ -271,7 +271,7 @@
 
 /* ------------------------------------------------------------------ dados */
 const S = {
-  banco:null, indice:new Map(), jogadores:[], vidas:3, modo:"juiz",
+  banco:null, itens:{}, indices:{}, jogadores:[], vidas:3, modo:"juiz",
   temas:new Set(), escopos:new Set(), baralho:[], usadas:new Set(),
   carta:null, achados:new Set(), ditos:[], vez:0, fim:false, ultimo:null, pendente:null,
   partida:{total:5, rodada:0}, verLista:false, sugestoes:[],
@@ -287,9 +287,10 @@ const $$ = s => [...document.querySelectorAll(s)];
 const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g,"")
   .toLowerCase().replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
 
-/* Levenshtein com corte: só precisamos saber se a distância é <= max. */
-function perto(a, b, max){
-  if (Math.abs(a.length - b.length) > max) return false;
+/* Levenshtein com corte. Devolve a distância, ou Infinity se passar de max —
+   o número importa pra ordenar sugestão de erro de digitação. */
+function distancia(a, b, max){
+  if (Math.abs(a.length - b.length) > max) return Infinity;
   let ant = [...Array(b.length+1).keys()];
   for (let i=1;i<=a.length;i++){
     const cur=[i]; let min=i;
@@ -297,33 +298,42 @@ function perto(a, b, max){
       const c = Math.min(cur[j-1]+1, ant[j]+1, ant[j-1]+(a[i-1]===b[j-1]?0:1));
       cur.push(c); if (c<min) min=c;
     }
-    if (min>max) return false;
+    if (min>max) return Infinity;
     ant=cur;
   }
-  return ant[b.length]<=max;
+  return ant[b.length] <= max ? ant[b.length] : Infinity;
 }
+const perto = (a, b, max) => distancia(a, b, max) < Infinity;
 
-/* Resolve o que a pessoa falou. Devolve {tipo, chave, nome} ou null.
-   Primeiro procura no índice global de países (assim "Holanda" vira NLD mesmo
-   que a carta seja de língua), depois tenta erro de digitação. */
+/* Resolve o que a pessoa falou, contra o índice do TIPO da carta: carta de
+   país procura em país, de município em município, de nome em nome. Misturar
+   os índices daria falso positivo — "São Paulo" é município e nome de estado,
+   e o jogo estaria perguntando de um só. */
+function tipoDaCarta(){ return (S.carta && S.carta.tipo_resposta) || "pais"; }
+
+/* Tipos em que o índice NÃO é a lista completa do mundo. Só conhecemos os
+   nomes que aparecem em algum ranking do IBGE, mas "Roberto" é um palpite
+   perfeitamente válido — só não está no top 10. Mandar o juiz decidir a cada
+   palpite desses seria fricção à toa. Para país e município o índice é
+   completo, então o que não bate é erro de digitação e o juiz decide. */
+const TIPOS_ABERTOS = new Set(["nome"]);
+
 function resolver(txt){
   const n = norm(txt);
   if (!n) return null;
-  if (S.indice.has(n)) { const i=S.indice.get(n); return {tipo:"pais",chave:i,nome:S.banco.paises[i].nome}; }
+  const tipo = tipoDaCarta();
+  const idx = S.indices[tipo], itens = S.itens[tipo];
+  if (!idx) return null;
 
-  // resposta da carta que não é país (língua, família linguística)
-  for (const r of S.carta.respostas){
-    if (!r.iso3 && (norm(r.nome)===n || (r.apelidos||[]).includes(n)))
-      return {tipo:"outro", chave:r.nome, nome:r.nome};
-  }
+  if (idx.has(n)){ const c = idx.get(n); return {chave:c, nome:itens[c].nome}; }
 
-  // erro de digitação: aceita só se sobrar um candidato
-  const max = n.length<=5 ? 1 : 2;
+  // erro de digitação: só vale se sobrar um candidato
+  const max = n.length <= 5 ? 1 : 2;
   const achados = new Set();
-  for (const [alias,iso] of S.indice) if (perto(n,alias,max)) achados.add(iso);
-  if (achados.size===1){
-    const iso=[...achados][0];
-    return {tipo:"pais",chave:iso,nome:S.banco.paises[iso].nome,quase:true};
+  for (const [alias, chave] of idx) if (perto(n, alias, max)) achados.add(chave);
+  if (achados.size === 1){
+    const c = [...achados][0];
+    return {chave:c, nome:itens[c].nome, quase:true};
   }
   return null;
 }
@@ -333,9 +343,14 @@ async function carregar(){
   const r = await fetch("banco.json", {cache:"no-cache"});
   if (!r.ok) throw new Error("banco.json não carregou (HTTP "+r.status+")");
   S.banco = await r.json();
-  for (const [iso,p] of Object.entries(S.banco.paises)){
-    S.indice.set(norm(p.nome), iso);
-    for (const a of p.apelidos) if (!S.indice.has(a)) S.indice.set(a, iso);
+  S.itens = S.banco.itens || {};
+  for (const [tipo, itens] of Object.entries(S.itens)){
+    const idx = new Map();
+    for (const [chave, it] of Object.entries(itens)){
+      idx.set(norm(it.nome), chave);
+      for (const a of (it.apelidos || [])) if (!idx.has(a)) idx.set(a, chave);
+    }
+    S.indices[tipo] = idx;
   }
   const c = S.banco.cartas;
   $("#resumo-banco").textContent = c.length + " no total";
@@ -345,7 +360,7 @@ async function carregar(){
     + "palavra final na mesa.";
 
   montarFiltro("#filtro-tema", [...new Set(c.map(x=>x.tema))],
-               t=>({paises:"Países", linguas:"Línguas"}[t]||t), S.temas);
+               t=>({paises:"Países", linguas:"Línguas", brasil:"Brasil"}[t]||t), S.temas);
   const ORDEM = ["mundo","Europa","África","Ásia","Américas","União Europeia"];
   const escopos = [...new Set(c.map(x=>x.escopo))]
     .sort((a,b)=>ORDEM.indexOf(a) - ORDEM.indexOf(b));
@@ -429,8 +444,6 @@ function comecar(){
     S.usadas = new Set(); gravarVistas();
   }
   S.baralho = embaralhar(todas);
-  $("#lista-paises").hidden = !S.verLista;
-  if (S.verLista) desenharListaPaises();
   mostrar("jogo");
   proximaRodada();
 }
@@ -457,7 +470,7 @@ function proximaRodada(){
   S.achados=new Set(); S.ditos=[]; S.fim=false; S.ultimo=null; S.pendente=null;
   $("#acoes-contesto").hidden=true; $("#acoes-juiz").hidden=true;
   $("#resultado").innerHTML=""; $("#placar-rodada").hidden=true;
-  $("#palpite").value=""; limparSugestoes();
+  $("#palpite").value=""; limparSugestoes(); desenharListaPaises();
   S.jogadores.forEach(j=>{ j.vidas=S.vidas; j.ganhou=0; });
   S.vez = 0;
   desenharRodada();
@@ -579,6 +592,10 @@ function palpitar(txt){
   $("#acoes-juiz").hidden = true;
 
   if (!alvo){
+    if (TIPOS_ABERTOS.has(tipoDaCarta())){
+      registrar(txt, "livre:" + norm(txt), null, null, false);
+      return;
+    }
     S.ultimo = {texto:txt};
     avisar("duvida", `Não reconheci "${txt}".`);
     $("#acoes-juiz").hidden = false;
@@ -589,7 +606,7 @@ function palpitar(txt){
     return;
   }
 
-  const r = S.carta.respostas.find(x => (x.iso3||x.nome) === alvo.chave) || null;
+  const r = S.carta.respostas.find(x => x.chave === alvo.chave) || null;
 
   // No modo sem juiz ninguém pode ver se acertou: o palpite fica pendurado
   // até alguém contestar ou a mesa deixar passar.
@@ -762,8 +779,11 @@ $("#form-palpite").onsubmit = e => {
   e.preventDefault();
   const v=$("#palpite").value.trim();
   if (!v) return;
-  // com o dropdown aberto, Enter pega a primeira sugestão: é o que a pessoa vê
-  const alvo = S.sugestoes.length ? S.banco.paises[S.sugestoes[0]].nome : v;
+  // Enter respeita o que foi digitado quando aquilo já resolve sozinho; só
+  // cai na primeira sugestão quando o texto não bate com nada exatamente
+  const alvo = resolver(v) ? v
+             : S.sugestoes.length ? S.itens[tipoDaCarta()][S.sugestoes[0]].nome
+             : v;
   $("#palpite").value=""; limparSugestoes();
   palpitar(alvo);
   $("#palpite").focus();
@@ -782,27 +802,41 @@ $("#forcar-errado").onclick = () => {
 };
 $("#passou").onclick = () => resolverContesto(null);
 
-/* Dropdown de países. Lista TODOS os 195, não só os do gabarito — se ele só
-   sugerisse resposta certa, entregava a carta. Um toque resolve o palpite. */
+/* Dropdown. Lista TODOS os itens do tipo da carta, não só os do gabarito —
+   se ele sugerisse só resposta certa, entregava a carta. */
 function desenharSugestoes(texto){
   const n = norm(texto), caixa = $("#sugestoes");
-  if (n.length < 2){ caixa.hidden = true; caixa.innerHTML = ""; S.sugestoes = []; return; }
+  const tipo = tipoDaCarta(), idx = S.indices[tipo], itens = S.itens[tipo];
+  if (n.length < 2 || !idx){ limparSugestoes(); return; }
 
-  const comeca = [], contem = [], visto = new Set();
-  for (const [alias, iso] of S.indice){
-    if (visto.has(iso)) continue;
+  // exato primeiro, senão "fortaleza" cai em Fortaleza dos Nogueiras
+  const exato = [], comeca = [], contem = [], visto = new Set();
+  for (const [alias, chave] of idx){
+    if (visto.has(chave)) continue;
+    if (alias === n){ visto.add(chave); exato.push(chave); continue; }
     const i = alias.indexOf(n);
-    if (i === 0){ visto.add(iso); comeca.push(iso); }
-    else if (i > 0){ visto.add(iso); contem.push(iso); }
+    if (i === 0){ visto.add(chave); comeca.push(chave); }
+    else if (i > 0){ visto.add(chave); contem.push(chave); }
   }
-  S.sugestoes = [...comeca, ...contem].slice(0, 6);
+  // nada bateu por prefixo? tenta erro de digitação, senão "curitba" não
+  // oferece nada e o juiz tem que arbitrar um simples dedo trocado
+  if (!exato.length && !comeca.length && !contem.length && n.length >= 4){
+    const perto2 = [];
+    for (const [alias, chave] of idx){
+      if (visto.has(chave)) continue;
+      const d = distancia(n, alias, 2);
+      if (d < Infinity){ visto.add(chave); perto2.push([d, chave]); }
+    }
+    perto2.sort((a, b) => a[0] - b[0]);          // o mais parecido primeiro
+    contem.push(...perto2.slice(0, 6).map(x => x[1]));
+  }
+  S.sugestoes = [...exato, ...comeca, ...contem].slice(0, 6);
 
   caixa.hidden = !S.sugestoes.length;
-  caixa.innerHTML = S.sugestoes.map(iso => {
-    const p = S.banco.paises[iso];
-    const jaFoi = S.ditos.some(d => d.chave === iso);
-    return `<button type="button" class="sug${jaFoi ? " usado" : ""}" data-iso="${iso}"
-             ${jaFoi ? "disabled" : ""}>${escapar(p.nome)}${jaFoi ? " · já foi" : ""}</button>`;
+  caixa.innerHTML = S.sugestoes.map(chave => {
+    const jaFoi = S.ditos.some(d => d.chave === chave);
+    return `<button type="button" class="sug${jaFoi ? " usado" : ""}" data-chave="${escapar(chave)}"
+             ${jaFoi ? "disabled" : ""}>${escapar(itens[chave].nome)}${jaFoi ? " · já foi" : ""}</button>`;
   }).join("");
 }
 
@@ -812,18 +846,39 @@ function limparSugestoes(){
 
 $("#palpite").oninput = e => desenharSugestoes(e.target.value);
 $("#sugestoes").onclick = e => {
-  const b = e.target.closest("button[data-iso]");
+  const b = e.target.closest("button[data-chave]");
   if (!b) return;
   $("#palpite").value = "";
   limparSugestoes();
-  palpitar(S.banco.paises[b.dataset.iso].nome);
+  palpitar(S.itens[tipoDaCarta()][b.dataset.chave].nome);
   $("#palpite").focus();
 };
 
-/* Lista de países A-Z, pra quem ligou a opção. Não marca quem está no
-   gabarito — é lembrete de que o país existe, não dica de resposta. */
+/* Lista de consulta A-Z, pra quem ligou a opção. Segue o tipo da carta e não
+   marca quem está no gabarito — é lembrete de que a coisa existe, não dica.
+   Município fica de fora: 5.570 numa gaveta não ajuda ninguém. */
+const ROTULO_TIPO = {pais:"países", lingua:"línguas", familia:"famílias",
+                     nome:"nomes", municipio:"municípios"};
+const CABE_NA_LISTA = 400;
+
 function desenharListaPaises(){
-  const nomes = Object.values(S.banco.paises).map(p => p.nome)
+  const tipo = tipoDaCarta(), itens = S.itens[tipo] || {};
+  const total = Object.keys(itens).length;
+  $("#lista-paises").hidden = !S.verLista;
+  if (!S.verLista) return;
+
+  const rotulo = ROTULO_TIPO[tipo] || "itens";
+  $("#lista-paises").querySelector("summary").textContent =
+    total > CABE_NA_LISTA ? `Lista de ${rotulo} — longa demais pra caber`
+                          : `Lista de ${rotulo} (A a Z)`;
+  if (total > CABE_NA_LISTA){
+    $("#az").innerHTML = `<p class="fraco" style="margin-top:10px">São ${total.toLocaleString("pt-BR")}
+      ${escapar(rotulo)}. Uma lista desse tamanho não ajuda a lembrar de nada,
+      então nessa carta ela não aparece — use o campo de digitar, que sugere
+      conforme você escreve.</p>`;
+    return;
+  }
+  const nomes = Object.values(itens).map(i => i.nome)
     .sort((a, b) => a.localeCompare(b, "pt-BR"));
   const grupos = new Map();
   for (const nome of nomes){

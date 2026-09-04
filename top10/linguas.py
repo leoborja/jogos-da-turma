@@ -76,17 +76,18 @@ def carta(pergunta, fonte, unidade, itens, universo, tipo, escopo="mundo",
     a, b = abs(dez[-1][1]), abs(onze[1])
     respostas = []
     for i, it in enumerate(dez):
-        r = {"pos": i + 1, "nome": it[0], "valor": it[1],
+        ehPais = len(it) > 3 and bool(it[3])
+        r = {"pos": i + 1, "chave": it[3] if ehPais else it[0],
+             "nome": it[0], "valor": it[1],
              "valor_fmt": f"{it[1]:,}".replace(",", ".")}
-        if len(it) > 3 and it[3]:
-            r["iso3"] = it[3]          # resposta é país: apelido vem do índice
-        else:
+        if not ehPais:                 # língua e família têm índice próprio
             r["apelidos"] = sorted(set(it[2]))
         respostas.append(r)
     return {
         "tema": "linguas", "pergunta": pergunta, "escopo": escopo,
+        "tipo_resposta": tipo,
         "fonte": fonte, "indicador": "", "ano": None, "unidade": unidade,
-        "universo": universo, "tipo_resposta": tipo,
+        "universo": universo,
         "disputada": abs(a - b) <= tol * max(a, b, 1e-9),
         "folga": round(abs(a - b) / max(a, b, 1e-9), 4),
         "nota": nota, "respostas": respostas,

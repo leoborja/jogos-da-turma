@@ -34,25 +34,39 @@ pendurado até alguém apertar *Contesto*. Se o palpite não valia, quem falou
 perde a vida; se valia, quem contestou é que se dá mal. É o formato do
 *É Top!?* (Grok Games, 2021).
 
+## Cada carta tem um tipo de resposta
+
+País, município, nome de pessoa, língua e família linguística. O palpite é
+resolvido contra o índice **daquele tipo**, nunca contra todos: "São Paulo" é
+município e é estado, e a carta pergunta de um só.
+
+Para país e município o índice é a lista completa do mundo, então palpite que
+não bate é erro de digitação e o juiz arbitra. Nome de pessoa é lista aberta —
+só conhecemos os nomes que aparecem em algum ranking do IBGE, mas "Roberto" é
+palpite legítimo, só não está no top 10. Nesse tipo, o que não bate conta como
+erro direto, sem incomodar o juiz.
+
 ## Na hora de digitar
 
-O juiz digita duas letras e o dropdown mostra os países que batem — um toque
+O juiz digita duas letras e o dropdown mostra o que bate — um toque
 resolve o palpite. Ele lista **todos** os 195, não só os do gabarito: sugerir
 só resposta certa entregaria a carta. Quem já foi falado aparece apagado.
 
-Quem quiser jogar mais leve pode ligar a **lista de países A-Z** no começo:
-fica uma gaveta com os 195 em ordem alfabética pra consultar durante a rodada.
-Ela não marca quem está no gabarito — é lembrete de que o país existe, não dica.
+Quem quiser jogar mais leve pode ligar a **lista A-Z** no começo: fica uma
+gaveta com tudo do tipo da carta em ordem alfabética. Ela não marca quem está
+no gabarito — é lembrete de que a coisa existe, não dica. Em carta de
+município ela não aparece: 5.570 numa gaveta não ajuda ninguém.
 
 ## O banco de cartas
 
-249 cartas, temas países e línguas, geradas de bases abertas — nada escrito à
+262 cartas em três temas — países, Brasil e línguas — geradas de bases abertas — nada escrito à
 mão, porque carta errada quebra o jogo:
 
 | Fonte | O que vem de lá |
 |---|---|
 | Banco Mundial (WDI) | 101 indicadores: economia, população, saúde, energia, meio ambiente |
 | Glottolog (CLDF) | quantas línguas se fala em cada país, tamanho das famílias linguísticas |
+| IBGE | os 5.570 municípios (Censo 2022) e o ranking de nomes de pessoa (Censo 2010) |
 | Wikidata (SPARQL) | nome do país em pt-BR e os apelidos que a gente fala na mesa |
 
 Cada carta guarda o indicador, o ano e quantos países entraram no ranking, e o
