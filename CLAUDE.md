@@ -9,6 +9,8 @@ branch `main`, pasta raiz).
 ```
 index.html            a base: lista os jogos. NÃO é de nenhum jogo.
 comum.css             o visual que todos os jogos dividem
+logo.svg              a marca; icone.svg + icone-*.png são o ícone de app
+manifest.webmanifest  deixa a base virar app na tela de início do celular
 jogos.json            índice gerado — não edite à mão
 atualizar_jogos.py    gera o jogos.json varrendo */jogo.json
 top10/                um jogo, autocontido
@@ -24,8 +26,9 @@ jogo diferente ao mesmo tempo. Então:
 
 **Pode mexer à vontade:** qualquer arquivo dentro da pasta do SEU jogo.
 
-**Não mexa:** `comum.css`, o `index.html` da raiz, o `atualizar_jogos.py`, e a
-pasta de qualquer outro jogo. Se o seu jogo precisa de um estilo que o
+**Não mexa:** `comum.css`, o `index.html` da raiz, o `atualizar_jogos.py`,
+`logo.svg`, `icone*.png`, `manifest.webmanifest`, e a pasta de qualquer outro
+jogo. O jogo pode ter ícone próprio — coloque na pasta dele. Se o seu jogo precisa de um estilo que o
 `comum.css` não tem, escreva no `<style>` do próprio jogo — duplicar um pouco
 de CSS custa menos que dois jogos brigando pelo mesmo arquivo.
 

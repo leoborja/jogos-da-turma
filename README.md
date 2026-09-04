@@ -19,9 +19,18 @@ lista, o CSS que todos dividem e o script que gera o índice.
 ```
 index.html            a base
 comum.css             o visual comum
+logo.svg              a marca (a turma espiando por cima de uma carta)
+icone.svg             a mesma marca em cima de um quadrado amarelo
+icone-180.png         ícone de app (iOS)
+icone-512.png         ícone de app (Android)
+manifest.webmanifest  deixa a base virar app na tela de início
 jogos.json            índice gerado por atualizar_jogos.py
 top10/                um jogo
 ```
+
+A marca é SVG desenhado à mão, no mesmo traço do site: contorno preto grosso e
+cor chapada. A interrogação da carta é traço, não texto — assim ela sai igual
+em qualquer sistema, inclusive como favicon.
 
 Pra rodar local, sirva a raiz por HTTP (`fetch` não funciona em `file://`):
 
