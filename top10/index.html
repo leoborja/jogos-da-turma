@@ -70,6 +70,32 @@
 .dito.certo{background:var(--verde)}
 .dito.errado{background:var(--coral)}
 #btn-palpite{background:var(--amarelo);padding:13px 17px;font-size:16px}
+.pontos{font-family:var(--display);font-weight:900;font-size:11px;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--cinza)}
+.jogador.vez .pontos{color:var(--preto)}
+
+/* dropdown de países */
+.sugestoes{display:flex;flex-wrap:wrap;gap:7px}
+.sug{font-family:var(--display);font-weight:800;font-size:14.5px;padding:10px 13px;
+  border:2.5px solid var(--preto);border-radius:10px;background:var(--azul);
+  box-shadow:3px 3px 0 var(--preto)}
+.sug:active{transform:translate(3px,3px);box-shadow:0 0 0 var(--preto)}
+.sug.usado{background:#EDE9E2;color:var(--cinza);box-shadow:1px 1px 0 var(--preto);
+  transform:translate(2px,2px);cursor:not-allowed}
+
+/* caixinha de opção do setup */
+.opcao{display:flex;gap:11px;align-items:flex-start;margin-top:4px;font-size:13px;line-height:1.45;
+  font-weight:400;color:var(--cinza);cursor:pointer;margin:0}
+.opcao b{font-family:var(--display);font-weight:900;font-size:13px;color:var(--preto);
+  letter-spacing:.02em}
+.opcao input{width:22px;height:22px;flex:0 0 auto;margin-top:1px;accent-color:var(--preto)}
+
+/* lista de países A-Z */
+.az{margin-top:12px;display:grid;gap:9px}
+.grupo{display:flex;gap:10px;align-items:baseline;font-size:13px;line-height:1.5}
+.grupo b{font-family:var(--display);font-weight:900;font-size:15px;min-width:18px;
+  flex:0 0 auto}
+.grupo span{color:var(--cinza)}
 .grade2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .modo{padding:15px 12px;text-align:center;line-height:1.25;font-size:16px}
 .modo.on{background:var(--amarelo)}
@@ -107,12 +133,30 @@
       <button class="modo" data-modo="contesto">Sem juiz</button>
     </div>
     <p class="fraco" id="explica-modo"></p>
-    <div>
-      <label for="vidas">Vidas por jogador</label>
-      <select id="vidas">
-        <option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option>
-      </select>
+    <div class="grade2">
+      <div>
+        <label for="vidas">Vidas por rodada</label>
+        <select id="vidas">
+          <option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option>
+        </select>
+      </div>
+      <div>
+        <label for="rodadas">Partida de</label>
+        <select id="rodadas">
+          <option value="3">3 rodadas</option>
+          <option value="5" selected>5 rodadas</option>
+          <option value="7">7 rodadas</option>
+          <option value="10">10 rodadas</option>
+          <option value="sem-fim">sem fim</option>
+        </select>
+      </div>
     </div>
+    <label class="opcao">
+      <input type="checkbox" id="ver-lista">
+      <span><b>Deixar a lista de países à mão</b><br>
+      Uma lista de todos os 195, em ordem alfabética, pra consultar durante a
+      rodada. Ajuda a lembrar quem existe — e deixa o jogo bem mais fácil.</span>
+    </label>
   </div>
 
   <div class="bloco pilha">
@@ -156,14 +200,16 @@
     <span class="chips" id="contestantes"></span>
   </div>
 
+  <div class="bloco" id="placar-rodada" hidden style="margin-top:14px"></div>
+
   <div class="bloco pilha" id="painel-palpite" style="margin-top:14px">
     <p class="rotulo" id="titulo-palpite"></p>
     <form id="form-palpite" class="linha">
       <input id="palpite" placeholder="o que a pessoa falou" autocomplete="off"
-             autocapitalize="off" spellcheck="false" list="sugestoes" style="flex:1;min-width:0">
-      <datalist id="sugestoes"></datalist>
+             autocapitalize="off" spellcheck="false" style="flex:1;min-width:0">
       <button type="submit" id="btn-palpite">Vale?</button>
     </form>
+    <div class="sugestoes" id="sugestoes" hidden></div>
     <div class="linha" id="acoes-juiz" hidden>
       <span class="fraco">Não reconheci. O juiz decide:</span>
       <button class="mini" id="forcar-certo">Foi acerto</button>
@@ -171,6 +217,11 @@
     </div>
     <div class="chips" id="ditos"></div>
   </div>
+
+  <details class="bloco" id="lista-paises" hidden style="margin-top:14px">
+    <summary>Lista de países (A a Z)</summary>
+    <div class="az" id="az"></div>
+  </details>
 
   <details class="bloco" id="fonte-caixa" hidden style="margin-top:14px">
     <summary>Definição oficial da fonte</summary>
@@ -192,6 +243,25 @@
   </div>
 </section>
 
+<!-- ------------------------------------------------ fim da partida -->
+<section id="tela-fim" class="tela">
+  <div class="carta" style="transform:rotate(-1deg)">
+    <div class="faixa" style="--cor:var(--verde)"><span>Fim da partida</span><span>Top 10</span></div>
+    <div class="corpo" style="text-align:center;padding:26px 18px 22px">
+      <p class="marca" id="titulo-fim" style="font-size:clamp(34px,10vw,48px)"></p>
+      <p class="fraco" id="sub-fim" style="margin-top:10px"></p>
+    </div>
+  </div>
+  <div class="bloco" style="margin-top:18px">
+    <p class="rotulo">Placar final</p>
+    <ul class="lista" id="placar-final"></ul>
+  </div>
+  <div class="pilha" style="margin-top:18px">
+    <button class="principal" id="revanche">Jogar de novo</button>
+    <button class="mini" id="fim-setup" style="width:100%">Mudar jogadores e opções</button>
+  </div>
+</section>
+
 </div>
 
 <script>
@@ -204,7 +274,13 @@ const S = {
   banco:null, indice:new Map(), jogadores:[], vidas:3, modo:"juiz",
   temas:new Set(), escopos:new Set(), baralho:[], usadas:new Set(),
   carta:null, achados:new Set(), ditos:[], vez:0, fim:false, ultimo:null, pendente:null,
+  partida:{total:5, rodada:0}, verLista:false, sugestoes:[],
 };
+
+/* Pontuação: 1 por acerto, 3 por sobrar de pé, 2 por pegar um blefe.
+   Acertar dá ponto mesmo pra quem cair antes do fim — senão só o último
+   sobrevivente pontua e quem jogou bem a rodada inteira sai sem nada. */
+const PONTOS = {acerto:1, sobreviveu:3, blefe:2};
 const $ = s => document.querySelector(s);
 const $$ = s => [...document.querySelectorAll(s)];
 
@@ -318,6 +394,21 @@ function desenharJogadores(){
 const escapar = s => s.replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
 /* ------------------------------------------------------------------ jogo */
+/* O que já saiu fica no navegador de quem segura o celular. A chave leva a
+   data do banco junto: se o banco for regerado os ids mudam, e aí a memória
+   velha apontaria pras cartas erradas. */
+function chaveVistas(){ return "top10:vistas:" + (S.banco.gerado_em || "0"); }
+
+function lerVistas(){
+  try { return new Set(JSON.parse(localStorage.getItem(chaveVistas()) || "[]")); }
+  catch (e) { return new Set(); }
+}
+
+function gravarVistas(){
+  try { localStorage.setItem(chaveVistas(), JSON.stringify([...S.usadas])); }
+  catch (e) { /* navegador anônimo ou storage bloqueado: joga sem lembrar */ }
+}
+
 function embaralhar(a){
   for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
   return a;
@@ -325,11 +416,54 @@ function embaralhar(a){
 
 function comecar(){
   S.vidas = +$("#vidas").value;
-  S.jogadores.forEach(j=>{ j.vidas=S.vidas; });
-  S.baralho = embaralhar(elegiveis().map(c=>c.id));
-  S.usadas = new Set();
+  S.verLista = $("#ver-lista").checked;
+  const r = $("#rodadas").value;
+  S.partida = {total: r === "sem-fim" ? Infinity : +r, rodada: 0};
+  S.jogadores.forEach(j=>{ j.vidas=S.vidas; j.pontos=0; j.acertos=0; });
+  S.usadas = lerVistas();
+
+  const todas = elegiveis().map(c=>c.id);
+  const novas = todas.filter(id=>!S.usadas.has(id));
+  if (!novas.length){
+    if (!confirm("Já saíram todas as cartas desse baralho. Recomeçar do zero?")) return;
+    S.usadas = new Set(); gravarVistas();
+  }
+  S.baralho = embaralhar(todas);
+  $("#lista-paises").hidden = !S.verLista;
+  if (S.verLista) desenharListaPaises();
   mostrar("jogo");
-  proximaCarta();
+  proximaRodada();
+}
+
+function comecarPartida(){
+  S.partida.rodada = 0;
+  S.jogadores.forEach(j=>{ j.pontos=0; j.acertos=0; j.vidas=S.vidas; });
+  proximaRodada();
+}
+
+function proximaRodada(){
+  if (S.partida.rodada >= S.partida.total){ fimDePartida(); return; }
+  const id = S.baralho.find(x=>!S.usadas.has(x));
+  if (!id){
+    if (S.jogadores.length && confirm("Acabaram as cartas novas. Encerrar a partida aqui?")){
+      fimDePartida(); return;
+    }
+    S.usadas = new Set(); gravarVistas();
+    return proximaRodada();
+  }
+  S.partida.rodada++;
+  S.usadas.add(id); gravarVistas();
+  S.carta = S.banco.cartas.find(c=>c.id===id);
+  S.achados=new Set(); S.ditos=[]; S.fim=false; S.ultimo=null; S.pendente=null;
+  $("#acoes-contesto").hidden=true; $("#acoes-juiz").hidden=true;
+  $("#resultado").innerHTML=""; $("#placar-rodada").hidden=true;
+  $("#palpite").value=""; limparSugestoes();
+  S.jogadores.forEach(j=>{ j.vidas=S.vidas; j.ganhou=0; });
+  S.vez = 0;
+  desenharRodada();
+  const el = $("#carta-jogo");
+  el.classList.remove("entra"); void el.offsetWidth; el.classList.add("entra");
+  $("#palpite").focus();
 }
 
 function proximaCarta(){
@@ -369,7 +503,9 @@ function desenharRodada(){
     $("#definicao").textContent = ficha.definicao;
     $("#link-fonte").href = ficha.url || "#";
   }
-  $("#placar-baralho").textContent = "carta " + S.usadas.size + " de " + S.baralho.length;
+  $("#placar-baralho").textContent = S.partida.total === Infinity
+    ? "rodada " + S.partida.rodada
+    : "rodada " + S.partida.rodada + " de " + S.partida.total;
   $("#progresso").textContent = S.achados.size === 10
     ? "top 10 completo" : "faltam " + (10 - S.achados.size);
   // cada recorte tem sua cor: o baralho não parece a mesma carta 248 vezes
@@ -395,7 +531,8 @@ function desenharRodada(){
     const d=document.createElement("div");
     d.className="jogador"+(i===S.vez&&!S.fim&&j.vidas>0?" vez":"")+(j.vidas>0?"":" fora");
     d.innerHTML=`<span>${escapar(j.nome)}</span>
-      <span class="vidas">${j.vidas>0 ? "●".repeat(j.vidas)+"○".repeat(S.vidas-j.vidas) : "fora"}</span>`;
+      <span class="vidas">${j.vidas>0 ? "●".repeat(j.vidas)+"○".repeat(S.vidas-j.vidas) : "fora"}</span>
+      <span class="pontos">${j.pontos||0} pt${(j.pontos||0)===1?"":"s"}</span>`;
     alvo.append(d);
   });
 
@@ -485,20 +622,26 @@ function resolverContesto(quemContestou){
   S.pendente=null; $("#acoes-contesto").hidden=true; $("#painel-palpite").hidden=false;
   S.ditos.push({nome:p.nome, chave:p.chave, certo:!!p.resposta});
 
+  const falou = S.jogadores[p.de];
   if (quemContestou === null){                     // ninguém contestou
-    if (p.resposta) S.achados.add(p.resposta.pos);
+    if (p.resposta){
+      S.achados.add(p.resposta.pos);
+      falou.pontos += PONTOS.acerto; falou.ganhou += PONTOS.acerto; falou.acertos++;
+    }
     avisar("duvida", p.nome + " passou sem contestação.");
     proximaVez();
   } else if (p.resposta){                          // contestou e o palpite valia
     const c=S.jogadores[quemContestou]; c.vidas--;
     S.achados.add(p.resposta.pos);
+    falou.pontos += PONTOS.acerto; falou.ganhou += PONTOS.acerto; falou.acertos++;
     avisar("certo", `${p.nome} estava em ${p.resposta.pos}º — ${p.resposta.valor_fmt}. `
                     + `${c.nome} contestou à toa e perde uma vida.`);
     proximaVez();
   } else {                                         // contestou e pegou o blefe
-    const d=S.jogadores[p.de]; d.vidas--;
+    const d=S.jogadores[p.de], c=S.jogadores[quemContestou];
+    d.vidas--; c.pontos += PONTOS.blefe; c.ganhou += PONTOS.blefe;
     avisar("errado", `${p.nome} não está no top 10. `
-                     + `${S.jogadores[quemContestou].nome} pegou o blefe: ${d.nome} perde uma vida.`);
+                     + `${c.nome} pegou o blefe: ${d.nome} perde uma vida.`);
     proximaVez();
   }
   fecharSePreciso();
@@ -512,10 +655,12 @@ function fecharSePreciso(){
 
 function registrar(nome, chave, resposta, corrigido, forcado){
   const certo = forcado === undefined ? !!resposta : forcado;
+  const quem = vivos().length ? S.jogadores[S.vez] : null;   // antes de passar a vez
   S.ditos.push({nome, chave, certo});
   const prefixo = corrigido ? `Entendi "${corrigido}" como ${nome}. ` : "";
   if (certo){
     if (resposta) S.achados.add(resposta.pos);
+    if (quem){ quem.pontos += PONTOS.acerto; quem.ganhou += PONTOS.acerto; quem.acertos++; }
     avisar("certo", prefixo + (resposta
       ? `${nome} está em ${resposta.pos}º — ${resposta.valor_fmt}.`
       : `${nome} vale, o juiz mandou.`));
@@ -533,10 +678,49 @@ function registrar(nome, chave, resposta, corrigido, forcado){
 
 function fimDeRodada(){
   const vs=vivos();
+  if (vs.length===1 && S.jogadores.length>1){
+    vs[0].pontos += PONTOS.sobreviveu; vs[0].ganhou += PONTOS.sobreviveu;
+  }
   if (S.achados.size===10) avisar("certo","Top 10 completo! A mesa ganhou essa.");
-  else if (vs.length===1) avisar("certo", vs[0].nome + " sobrou de pé e venceu a rodada.");
+  else if (vs.length===1 && S.jogadores.length>1)
+    avisar("certo", vs[0].nome + ` sobrou de pé: +${PONTOS.sobreviveu} pontos.`);
   else if (!vs.length) avisar("errado","Todo mundo caiu.");
   else avisar("duvida","Rodada encerrada. Gabarito aberto.");
+
+  if (S.jogadores.length){
+    const ord=[...S.jogadores].sort((a,b)=>b.pontos-a.pontos);
+    $("#placar-rodada").hidden=false;
+    $("#placar-rodada").innerHTML =
+      `<p class="rotulo">Placar depois da rodada ${S.partida.rodada}</p>` +
+      `<ul class="lista">` + ord.map((j,i)=>
+        `<li class="item${j.ganhou?" achado":""}">
+           <span class="pos">${i+1}</span>
+           <span class="nome">${escapar(j.nome)}</span>
+           <span class="val">${j.ganhou?`+${j.ganhou} · `:""}${j.pontos} pts</span>
+         </li>`).join("") + `</ul>`;
+  }
+  const ultima = S.partida.rodada >= S.partida.total;
+  $("#proxima").textContent = ultima ? "Ver o resultado da partida"
+                                     : `Próxima rodada (${S.partida.rodada+1} de ${S.partida.total})`;
+  if (S.partida.total === Infinity) $("#proxima").textContent = "Próxima carta";
+}
+
+function fimDePartida(){
+  const ord=[...S.jogadores].sort((a,b)=>b.pontos-a.pontos);
+  const topo = ord.length ? ord[0].pontos : 0;
+  const campeoes = ord.filter(j=>j.pontos===topo);
+  $("#titulo-fim").textContent = !ord.length ? "Fim"
+    : campeoes.length>1 ? "Empate!" : campeoes[0].nome + " venceu";
+  $("#sub-fim").textContent = ord.length
+    ? `${S.partida.rodada} rodada${S.partida.rodada===1?"":"s"} · ${topo} ponto${topo===1?"":"s"}`
+    : "";
+  $("#placar-final").innerHTML = ord.map((j,i)=>
+    `<li class="item${j.pontos===topo?" achado":""}">
+       <span class="pos">${i+1}</span>
+       <span class="nome">${escapar(j.nome)}</span>
+       <span class="val">${j.acertos} acerto${j.acertos===1?"":"s"} · ${j.pontos} pts</span>
+     </li>`).join("");
+  mostrar("fim");
 }
 
 function mostrar(qual){
@@ -571,16 +755,21 @@ $("#explica-modo").textContent = EXPLICA.juiz;
 
 $("#comecar").onclick = comecar;
 $("#voltar").onclick = () => mostrar("setup");
-$("#proxima").onclick = proximaCarta;
+$("#proxima").onclick = proximaRodada;
 $("#desistir").onclick = () => { S.fim=true; fimDeRodada(); desenharRodada(); };
 
 $("#form-palpite").onsubmit = e => {
   e.preventDefault();
   const v=$("#palpite").value.trim();
   if (!v) return;
-  palpitar(v);
-  $("#palpite").value=""; $("#palpite").focus();
+  // com o dropdown aberto, Enter pega a primeira sugestão: é o que a pessoa vê
+  const alvo = S.sugestoes.length ? S.banco.paises[S.sugestoes[0]].nome : v;
+  $("#palpite").value=""; limparSugestoes();
+  palpitar(alvo);
+  $("#palpite").focus();
 };
+$("#revanche").onclick = () => { mostrar("jogo"); comecarPartida(); };
+$("#fim-setup").onclick = () => mostrar("setup");
 $("#forcar-certo").onclick = () => {
   const t=S.ultimo?.texto; if(!t) return;
   registrar(t, "livre:"+t, null, null, true);
@@ -593,19 +782,59 @@ $("#forcar-errado").onclick = () => {
 };
 $("#passou").onclick = () => resolverContesto(null);
 
-/* sugestões de digitação: só depois de 3 letras, pra não entregar resposta */
-$("#palpite").oninput = e => {
-  const n=norm(e.target.value); const dl=$("#sugestoes");
-  if (n.length<3){ dl.innerHTML=""; return; }
-  const vistos=new Set(); const out=[];
-  for (const [alias,iso] of S.indice){
-    if (alias.startsWith(n) && !vistos.has(iso)){
-      vistos.add(iso); out.push(S.banco.paises[iso].nome);
-      if (out.length>=8) break;
-    }
+/* Dropdown de países. Lista TODOS os 195, não só os do gabarito — se ele só
+   sugerisse resposta certa, entregava a carta. Um toque resolve o palpite. */
+function desenharSugestoes(texto){
+  const n = norm(texto), caixa = $("#sugestoes");
+  if (n.length < 2){ caixa.hidden = true; caixa.innerHTML = ""; S.sugestoes = []; return; }
+
+  const comeca = [], contem = [], visto = new Set();
+  for (const [alias, iso] of S.indice){
+    if (visto.has(iso)) continue;
+    const i = alias.indexOf(n);
+    if (i === 0){ visto.add(iso); comeca.push(iso); }
+    else if (i > 0){ visto.add(iso); contem.push(iso); }
   }
-  dl.innerHTML = out.map(x=>`<option value="${escapar(x)}">`).join("");
+  S.sugestoes = [...comeca, ...contem].slice(0, 6);
+
+  caixa.hidden = !S.sugestoes.length;
+  caixa.innerHTML = S.sugestoes.map(iso => {
+    const p = S.banco.paises[iso];
+    const jaFoi = S.ditos.some(d => d.chave === iso);
+    return `<button type="button" class="sug${jaFoi ? " usado" : ""}" data-iso="${iso}"
+             ${jaFoi ? "disabled" : ""}>${escapar(p.nome)}${jaFoi ? " · já foi" : ""}</button>`;
+  }).join("");
+}
+
+function limparSugestoes(){
+  $("#sugestoes").hidden = true; $("#sugestoes").innerHTML = ""; S.sugestoes = [];
+}
+
+$("#palpite").oninput = e => desenharSugestoes(e.target.value);
+$("#sugestoes").onclick = e => {
+  const b = e.target.closest("button[data-iso]");
+  if (!b) return;
+  $("#palpite").value = "";
+  limparSugestoes();
+  palpitar(S.banco.paises[b.dataset.iso].nome);
+  $("#palpite").focus();
 };
+
+/* Lista de países A-Z, pra quem ligou a opção. Não marca quem está no
+   gabarito — é lembrete de que o país existe, não dica de resposta. */
+function desenharListaPaises(){
+  const nomes = Object.values(S.banco.paises).map(p => p.nome)
+    .sort((a, b) => a.localeCompare(b, "pt-BR"));
+  const grupos = new Map();
+  for (const nome of nomes){
+    const letra = norm(nome)[0].toUpperCase();
+    if (!grupos.has(letra)) grupos.set(letra, []);
+    grupos.get(letra).push(nome);
+  }
+  $("#az").innerHTML = [...grupos].map(([letra, lista]) =>
+    `<div class="grupo"><b>${letra}</b><span>${lista.map(escapar).join(" · ")}</span></div>`
+  ).join("");
+}
 
 desenharJogadores();
 carregar().catch(e => {

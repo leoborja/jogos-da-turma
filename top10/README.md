@@ -6,6 +6,24 @@ acham que estão na lista, sem repetir.
 
 **Jogar:** https://leoborja.github.io/jogos-da-turma/
 
+## A partida
+
+Uma rodada é uma carta. Uma partida é um punhado de rodadas (3, 5, 7, 10 ou
+sem fim), e o placar acumula:
+
+| | |
+|---|---|
+| acertar um item | **+1** |
+| sobrar de pé no fim da rodada | **+3** |
+| pegar um blefe (modo sem juiz) | **+2** |
+
+Acerto pontua mesmo pra quem cai antes do fim — senão só o último sobrevivente
+pontuaria e quem jogou bem a rodada inteira sairia sem nada.
+
+O baralho lembra o que já saiu, no navegador de quem segura o celular, então a
+turma pode jogar semana que vem sem repetir carta. A memória é apagada sozinha
+quando o banco é regerado (os ids mudam). Nada disso sai do aparelho.
+
 ## Os dois modos
 
 **Com juiz** — uma pessoa segura o celular, não joga e digita o que cada um
@@ -15,6 +33,16 @@ fala. Errou, perde uma vida. Sai quem zerar.
 pendurado até alguém apertar *Contesto*. Se o palpite não valia, quem falou
 perde a vida; se valia, quem contestou é que se dá mal. É o formato do
 *É Top!?* (Grok Games, 2021).
+
+## Na hora de digitar
+
+O juiz digita duas letras e o dropdown mostra os países que batem — um toque
+resolve o palpite. Ele lista **todos** os 195, não só os do gabarito: sugerir
+só resposta certa entregaria a carta. Quem já foi falado aparece apagado.
+
+Quem quiser jogar mais leve pode ligar a **lista de países A-Z** no começo:
+fica uma gaveta com os 195 em ordem alfabética pra consultar durante a rodada.
+Ela não marca quem está no gabarito — é lembrete de que o país existe, não dica.
 
 ## O banco de cartas
 
