@@ -339,7 +339,13 @@ INDICADORES = [
          max="Quais os países que mais usam energia renovável no consumo total?",
          min="Quais os países que menos usam energia renovável?",
          unidade="% do consumo final", fmt="pct", min_pop=1_000_000, regioes=True),
-    dict(cod="EG.IMP.CONS.ZS", curto="dependência energética",
+    # VETADO. O IEA define isso como (importação − exportação) / "energy use",
+    # e "energy use" desconta o combustível abastecido em navio e avião de
+    # rota internacional. Singapura e Panamá são os maiores portos de
+    # abastecimento do mundo: esse combustível conta inteiro em cima e é
+    # descontado embaixo, então dá 258% e 171%. O número é o que o IEA
+    # publica, mas "258% da energia usada" só rende briga na mesa.
+    dict(cod="EG.IMP.CONS.ZS", curto="dependência energética", _quebrado=True,
          max="Quais os países mais dependentes de energia importada?",
          min=None, unidade="% da energia usada", fmt="pct", min_pop=1_000_000, regioes=False),
     dict(cod="TX.VAL.FUEL.ZS.UN", curto="exportação de combustível",
@@ -436,6 +442,21 @@ REGIOES = {
     "Ásia": "na Ásia",
     "Américas": "nas Américas",
     "União Europeia": "na União Europeia",
+}
+
+# Indicadores que são fatia de um todo: o valor TEM que ficar entre 0 e 100.
+# Se sair disso, a métrica não é o que o enunciado promete e a carta cai.
+# (% do PIB não entra aqui: dívida, bolsa e comércio passam de 100 legitimamente,
+#  e matrícula bruta também — o próprio rótulo já avisa.)
+FATIA_0_100 = {
+    "EG.ELC.RNEW.ZS", "EG.FEC.RNEW.ZS", "EG.ELC.ACCS.ZS", "AG.LND.FRST.ZS",
+    "AG.LND.ARBL.ZS", "ER.PTD.TOTL.ZS", "SP.URB.TOTL.IN.ZS", "SP.POP.65UP.TO.ZS",
+    "IT.NET.USER.ZS", "SH.H2O.BASW.ZS", "SH.STA.BASS.ZS", "SH.IMM.MEAS",
+    "SE.ADT.LITR.ZS", "SL.UEM.TOTL.ZS", "SL.AGR.EMPL.ZS", "SL.TLF.CACT.FE.ZS",
+    "SG.GEN.PARL.ZS", "TX.VAL.FUEL.ZS.UN", "TX.VAL.AGRI.ZS.UN", "SN.ITK.DEFC.ZS",
+    "SH.PRV.SMOK", "SH.DYN.AIDS.ZS", "SL.TLF.0714.ZS", "SH.STA.STNT.ZS",
+    "SH.STA.OWGH.ME.ZS", "SI.DST.10TH.10", "SH.DYN.NCOM.ZS", "NV.AGR.TOTL.ZS",
+    "NV.IND.MANF.ZS", "NY.GDP.PETR.RT.ZS", "NY.GDP.MINR.RT.ZS",
 }
 
 # Cartas que o gerador monta certo mas que são ruins de jogar. Cortadas pelo

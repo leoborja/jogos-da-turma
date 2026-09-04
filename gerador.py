@@ -33,7 +33,8 @@ from collections import defaultdict
 import requests
 
 from indicadores import (INDICADORES, REGIOES, NAO_SOBERANOS, NOMES_EXTRA,
-                         APELIDOS_EXTRA, UE27, VETADAS, regiao_de)
+                         APELIDOS_EXTRA, UE27, VETADAS, FATIA_0_100,
+                         regiao_de)
 from linguas import cartas_de_linguas
 
 WB = "https://api.worldbank.org/v2"
@@ -272,6 +273,13 @@ def monta_carta(linhas, ano, paises, nomes, pop, ind, pergunta, maior,
     cand.sort(key=lambda x: x[1], reverse=maior)
     dez, onze = cand[:10], cand[10]
 
+    # fatia de um todo que passa de 100% não é a fatia que o enunciado promete
+    if ind["cod"] in FATIA_0_100:
+        fora = [v for _, v in dez if v < 0 or v > 100]
+        if fora:
+            return {"_furada": f"{ind['cod']}: valor fora de 0-100% ({max(fora):.1f}) "
+                               f"— a métrica não é a fatia que a pergunta promete"}
+
     # 10º e 11º empatados na prática = carta injusta: o jogador acerta e "erra"
     a, b = abs(dez[-1][1]), abs(onze[1])
     disputada = abs(a - b) <= tol * max(a, b, 1e-9)
@@ -396,6 +404,8 @@ def main():
                 continue
             c = monta_carta(linhas, ano, paises, nomes, pop, ind, pergunta,
                             maior, None, args.min_paises, args.tolerancia)
+            if c and c.get("_furada"):
+                problemas.append(c["_furada"]); c = None
             if c:
                 cartas.append(c)
             else:
@@ -407,6 +417,8 @@ def main():
             for regiao in REGIOES:
                 c = monta_carta(linhas, ano, paises, nomes, pop, ind, ind["max"],
                                 True, regiao, args.min_paises_regiao, args.tolerancia)
+                if c and c.get("_furada"):
+                    problemas.append(c["_furada"]); c = None
                 if c:
                     cartas.append(c)
 

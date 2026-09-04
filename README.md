@@ -18,7 +18,7 @@ perde a vida; se valia, quem contestou é que se dá mal. É o formato do
 
 ## O banco de cartas
 
-249 cartas, temas países e línguas, geradas de bases abertas — nada escrito à
+248 cartas, temas países e línguas, geradas de bases abertas — nada escrito à
 mão, porque carta errada quebra o jogo:
 
 | Fonte | O que vem de lá |
@@ -75,6 +75,12 @@ O gerador joga carta fora sozinha, porque carta ruim estraga a rodada:
 - **microestado** — todo ranking per capita vira lista de paraíso fiscal, então
   cada indicador tem um `min_pop`.
 - **base pequena** — carta global precisa de pelo menos 60 países com dado.
+- **fatia que estoura o próprio rótulo** — se a pergunta promete uma parte de um
+  todo, o valor tem que caber entre 0 e 100%. Foi assim que caiu a carta de
+  energia importada: o IEA divide (importação − exportação) por um denominador
+  que desconta o combustível de navio e avião internacional, então Singapura e
+  Panamá, os maiores portos de abastecimento do mundo, davam 258% e 171%. O
+  número é o que o IEA publica, mas não é o que a pergunta promete.
 
 ## Sinônimos
 
