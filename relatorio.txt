@@ -1,0 +1,164 @@
+cartas geradas: 249
+descartadas por repetir o top 10 de outra: 95
+descartadas por empate no 10º/11º: 55
+  - Quais os países que mais exportam? (2024, folga 0.25%)
+  - Quais os países que mais exportam na Europa? (2024, folga 0.21%)
+  - Quais os países com o maior PIB por habitante? (2025, folga 0.32%)
+  - Quais os países com o menor PIB por habitante? (2025, folga 0.41%)
+  - Quais os países que mais recebem investimento estrangeiro direto? (2024, folga 0.35%)
+  - Quais os países que menos arrecadam imposto em relação à economia? (2022, folga 0.43%)
+  - Quais os países mais desiguais do mundo? (2021, folga 0.47%)
+  - Quais os países menos desiguais do mundo? (2021, folga 0.00%)
+  - Em quais países mais mulheres participam da força de trabalho? (2025, folga 0.04%)
+  - Quais os países mais urbanizados na África? (2025, folga 0.48%)
+  - Quais os países com mais gente vivendo na zona rural? (2025, folga 0.35%)
+  - Quais os países onde as mulheres têm menos filhos? (2024, folga 0.00%)
+  - Quais os países onde as mulheres têm mais filhos na Europa? (2024, folga 0.00%)
+  - Quais os países mais envelhecidos na Europa? (2025, folga 0.11%)
+  - Quais os países onde as pessoas vivem mais? (2024, folga 0.11%)
+  - Quais os países onde as pessoas vivem menos? (2024, folga 0.23%)
+  - Quais os países onde as pessoas vivem mais na Europa? (2024, folga 0.02%)
+  - Quais os países onde as pessoas vivem mais na África? (2024, folga 0.29%)
+  - Quais os países onde as pessoas vivem mais nas Américas? (2024, folga 0.05%)
+  - Quais os países onde as pessoas vivem mais na União Europeia? (2024, folga 0.31%)
+  - Quais os países com a maior mortalidade infantil? (2024, folga 0.00%)
+  - Quais os países com a maior mortalidade infantil na África? (2024, folga 0.00%)
+  - Quais os países que mais gastam com saúde por habitante? (2023, folga 0.32%)
+  - Quais os países que mais gastam com saúde por habitante na África? (2023, folga 0.49%)
+  - Quais os países que mais gastam com saúde por habitante na Ásia? (2023, folga 0.47%)
+  - Quais os países que mais gastam com saúde em relação à economia? (2023, folga 0.00%)
+  - Quais os países que mais bebem na União Europeia? (2020, folga 0.09%)
+  - Quais os países com mais crianças acima do peso? (2024, folga 0.00%)
+  - Quais os países com a maior taxa de suicídio na Europa? (2021, folga 0.46%)
+  - Quais os países com a maior taxa de matrícula no ensino superior na União Europeia? (2023, folga 0.07%)
+  - Quais os países mais conectados à internet? (2024, folga 0.16%)
+  - Quais os países com mais linhas de celular por habitante? (2023, folga 0.42%)
+  - Quais os países com mais assinaturas de banda larga fixa por habitante? (2023, folga 0.30%)
+  - Quais os países com a matriz elétrica mais renovável? (2021, folga 0.47%)
+  - Quais os países com a matriz elétrica mais renovável na África? (2021, folga 0.44%)
+  - Quais os países que mais emitem CO₂ por habitante na União Europeia? (2024, folga 0.40%)
+  - Quais os países que mais emitem CO₂? (2024, folga 0.34%)
+  - Quais os países mais cobertos por floresta? (2023, folga 0.04%)
+  - Quais os países que mais produzem cereais? (2023, folga 0.13%)
+  - Quais os países com mais mulheres no parlamento na Europa? (2025, folga 0.43%)
+  - Quais os países com mais mulheres no parlamento na África? (2025, folga 0.49%)
+  - Quais os países com mais mortes no trânsito? (2019, folga 0.29%)
+  - Quais os países com menos mortes no trânsito? (2019, folga 0.00%)
+  - Quais os países com mais mortes no trânsito na Europa? (2019, folga 0.00%)
+  - Em quais países a maior fatia da população passa fome na Europa? (2023, folga 0.00%)
+  - Em quais países a maior fatia da população passa fome na União Europeia? (2023, folga 0.00%)
+  - Quais os países que mais usam energia renovável no consumo total? (2021, folga 0.12%)
+  - Quais os países que menos usam energia renovável? (2021, folga 0.00%)
+  - Quais os países que mais usam energia renovável no consumo total na África? (2021, folga 0.12%)
+  - Em quais países produto agrícola é a maior parte do que se exporta? (2023, folga 0.19%)
+  - Quais os países com mais anos de escola obrigatória? (2025, folga 0.00%)
+  - Quais os países com menos anos de escola obrigatória? (2025, folga 0.00%)
+  - Quais os países onde mais gente morre por habitante na África? (2024, folga 0.10%)
+  - Quais os países que mais aumentaram a produção pecuária? (2022, folga 0.38%)
+  - Quais as línguas oficiais em mais países? (None, folga 0.00%)
+
+problemas (104):
+  - apelido ambíguo descartado: 'terra santa' -> ISR, PSE
+  - SM.POP.REFG (refugiados acolhidos): marcado como quebrado, pulado
+  - SM.POP.REFG.OR (refugiados de origem): marcado como quebrado, pulado
+  - SE.ADT.LITR.ZS global (menores): menos de 60 países com dado em 2022
+  - GC.DOD.TOTL.GD.ZS global (maiores): menos de 60 países com dado em 2021
+  - SH.STA.STNT.ZS global (maiores): menos de 60 países com dado em 2019
+  - SL.TLF.0714.ZS global (maiores): menos de 60 países com dado em 2012
+  - IC.REG.DURS (abrir empresa): marcado como quebrado, pulado
+  - vetada à mão (fraca de jogar): 'Quais os países mais populosos?'
+  - repetida: 'Quais os países que mais importam na África?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na África?'
+  - repetida: 'Quais os países que mais importam na Ásia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na Ásia?'
+  - repetida: 'Quais os países que mais importam nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam nas Américas?'
+  - repetida: 'Quais os países que mais importam na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na União Europeia?'
+  - repetida: 'Quais os países com o maior PIB na Europa?' devolve quase o mesmo top 10 de 'Quais os países que mais importam na Europa?'
+  - repetida: 'Quais os países com o maior PIB na Ásia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na Ásia?'
+  - repetida: 'Quais os países com o maior PIB nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam nas Américas?'
+  - repetida: 'Quais os países com o maior PIB na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na União Europeia?'
+  - repetida: 'Quais os países com o maior PIB por habitante na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na União Europeia?'
+  - repetida: 'Quais os países mais ricos por habitante (ajustado por poder de compra) na Europa?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB por habitante na Europa?'
+  - repetida: 'Quais os países mais ricos por habitante (ajustado por poder de compra) na África?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB por habitante na África?'
+  - repetida: 'Quais os países mais ricos por habitante (ajustado por poder de compra) na Ásia?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB por habitante na Ásia?'
+  - repetida: 'Quais os países mais ricos por habitante (ajustado por poder de compra) nas Américas?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB por habitante nas Américas?'
+  - repetida: 'Quais os países com as maiores reservas internacionais na Ásia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na Ásia?'
+  - repetida: 'Quais os países com as maiores reservas internacionais nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam nas Américas?'
+  - repetida: 'Quais os países com as maiores reservas internacionais na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na União Europeia?'
+  - repetida: 'Quais os países que mais recebem investimento estrangeiro direto na Ásia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na Ásia?'
+  - repetida: 'Quais os países que mais recebem investimento estrangeiro direto nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam nas Américas?'
+  - repetida: 'Quais os países que mais exportam mercadorias (sem contar serviços) na Europa?' devolve quase o mesmo top 10 de 'Quais os países que mais importam na Europa?'
+  - repetida: 'Quais os países que mais exportam mercadorias (sem contar serviços) na África?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na África?'
+  - repetida: 'Quais os países que mais exportam mercadorias (sem contar serviços) na Ásia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na Ásia?'
+  - repetida: 'Quais os países que mais exportam mercadorias (sem contar serviços) nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam nas Américas?'
+  - repetida: 'Quais os países que mais exportam mercadorias (sem contar serviços) na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na União Europeia?'
+  - repetida: 'Quais os países que mais exportam produtos de alta tecnologia?' devolve quase o mesmo top 10 de 'Quais os países que mais importam?'
+  - repetida: 'Quais os países que mais exportam produtos de alta tecnologia na Europa?' devolve quase o mesmo top 10 de 'Quais os países que mais importam na Europa?'
+  - repetida: 'Quais os países que mais exportam produtos de alta tecnologia na Ásia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na Ásia?'
+  - repetida: 'Quais os países que mais exportam produtos de alta tecnologia na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na União Europeia?'
+  - repetida: 'Quais os países em desenvolvimento com a maior dívida externa na África?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam produtos de alta tecnologia na África?'
+  - repetida: 'Quais os países em desenvolvimento com a maior dívida externa na Ásia?' devolve quase o mesmo top 10 de 'Quais os países que mais recebem dinheiro enviado por emigrantes na Ásia?'
+  - repetida: 'Quais os países mais populosos nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam nas Américas?'
+  - repetida: 'Quais os países mais populosos na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países que mais recebem dinheiro enviado por emigrantes na União Europeia?'
+  - repetida: 'Quais os maiores países em território nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam nas Américas?'
+  - repetida: 'Quais os países mais urbanizados na Europa?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB por habitante na Europa?'
+  - repetida: 'Quais os países com mais gente vivendo na zona rural na Europa?' devolve quase o mesmo top 10 de 'Quais os países mais populosos na Europa?'
+  - repetida: 'Quais os países com mais gente vivendo na zona rural na África?' devolve quase o mesmo top 10 de 'Quais os países mais populosos na África?'
+  - repetida: 'Quais os países com mais gente vivendo na zona rural na Ásia?' devolve quase o mesmo top 10 de 'Quais os países mais populosos na Ásia?'
+  - repetida: 'Quais os países que mais abrigam imigrantes na Europa?' devolve quase o mesmo top 10 de 'Quais os países mais populosos na Europa?'
+  - repetida: 'Quais os países que mais abrigam imigrantes na África?' devolve quase o mesmo top 10 de 'Quais os países mais populosos na África?'
+  - repetida: 'Quais os países que mais abrigam imigrantes nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam nas Américas?'
+  - repetida: 'Quais os países que mais abrigam imigrantes na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na União Europeia?'
+  - repetida: 'Quais os países onde as pessoas vivem mais na Ásia?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB por habitante na Ásia?'
+  - repetida: 'Quais os países que mais gastam com saúde por habitante na Europa?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB por habitante na Europa?'
+  - repetida: 'Quais os países que mais gastam com saúde por habitante nas Américas?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB por habitante nas Américas?'
+  - repetida: 'Quais os países que mais gastam com saúde por habitante na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na União Europeia?'
+  - repetida: 'Quais os países com a maior taxa de suicídio nas Américas?' devolve quase o mesmo top 10 de 'Quais os países mais envelhecidos nas Américas?'
+  - repetida: 'Quais os países que mais gastam com educação em relação à economia na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países mais ricos por habitante (ajustado por poder de compra) na União Europeia?'
+  - repetida: 'Quais os países que mais registram patentes?' devolve quase o mesmo top 10 de 'Quais os países que mais importam?'
+  - repetida: 'Quais os países que mais registram patentes na Ásia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na Ásia?'
+  - repetida: 'Quais os países que mais registram patentes na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na União Europeia?'
+  - repetida: 'Quais os países mais conectados à internet na Europa?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB por habitante na Europa?'
+  - repetida: 'Quais os países mais conectados à internet na África?' devolve quase o mesmo top 10 de 'Quais os países mais envelhecidos na África?'
+  - repetida: 'Quais os países mais conectados à internet nas Américas?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB por habitante nas Américas?'
+  - repetida: 'Quais os países mais conectados à internet na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países mais ricos por habitante (ajustado por poder de compra) na União Europeia?'
+  - repetida: 'Quais os países que mais emitem CO₂ por habitante?' devolve quase o mesmo top 10 de 'Quais os países que mais consomem energia por habitante?'
+  - repetida: 'Quais os países que mais emitem CO₂ por habitante na África?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB por habitante na África?'
+  - repetida: 'Quais os países que mais emitem CO₂ por habitante na Ásia?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB por habitante na Ásia?'
+  - repetida: 'Quais os países que mais emitem CO₂ por habitante nas Américas?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB por habitante nas Américas?'
+  - repetida: 'Quais os países que mais emitem CO₂ na Europa?' devolve quase o mesmo top 10 de 'Quais os países mais populosos na Europa?'
+  - repetida: 'Quais os países que mais emitem CO₂ na África?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na África?'
+  - repetida: 'Quais os países que mais emitem CO₂ na Ásia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na Ásia?'
+  - repetida: 'Quais os países que mais emitem CO₂ nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam nas Américas?'
+  - repetida: 'Quais os países que mais emitem CO₂ na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países que mais recebem dinheiro enviado por emigrantes na União Europeia?'
+  - repetida: 'Quais os países que mais produzem cereais na Europa?' devolve quase o mesmo top 10 de 'Quais os países mais populosos na Europa?'
+  - repetida: 'Quais os países que mais produzem cereais na Ásia?' devolve quase o mesmo top 10 de 'Quais os países mais populosos na Ásia?'
+  - repetida: 'Quais os países que mais produzem cereais na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países com mais gente vivendo na zona rural na União Europeia?'
+  - repetida: 'Quais os países onde mais gente trabalha na agricultura na Ásia?' devolve quase o mesmo top 10 de 'Quais os países com a maior mortalidade infantil na Ásia?'
+  - repetida: 'Quais os países onde mais gente trabalha na agricultura nas Américas?' devolve quase o mesmo top 10 de 'Quais os países onde as mulheres têm mais filhos nas Américas?'
+  - repetida: 'Quais os países que mais recebem turistas na Ásia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na Ásia?'
+  - repetida: 'Quais os países que mais recebem turistas nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam nas Américas?'
+  - repetida: 'Quais os países que mais faturam com turismo na Ásia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na Ásia?'
+  - repetida: 'Quais os países que mais faturam com turismo nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam nas Américas?'
+  - repetida: 'Quais os países que mais transportam passageiros de avião na África?' devolve quase o mesmo top 10 de 'Quais os países que mais faturam com turismo na África?'
+  - repetida: 'Quais os países que mais transportam passageiros de avião na Ásia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na Ásia?'
+  - repetida: 'Quais os países que mais transportam passageiros de avião nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam nas Américas?'
+  - repetida: 'Quais os países que mais gastam com as forças armadas?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB?'
+  - repetida: 'Quais os países que mais gastam com as forças armadas na Europa?' devolve quase o mesmo top 10 de 'Quais os países mais populosos na Europa?'
+  - repetida: 'Quais os países que mais gastam com as forças armadas nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam nas Américas?'
+  - repetida: 'Quais os países que mais gastam com as forças armadas na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na União Europeia?'
+  - repetida: 'Quais os países com as maiores forças armadas na Europa?' devolve quase o mesmo top 10 de 'Quais os países mais populosos na Europa?'
+  - repetida: 'Quais os países com as maiores forças armadas nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam nas Américas?'
+  - repetida: 'Quais os países com as maiores forças armadas na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países que mais recebem dinheiro enviado por emigrantes na União Europeia?'
+  - repetida: 'Quais os países com mais mortes no trânsito nas Américas?' devolve quase o mesmo top 10 de 'Quais os países onde as mulheres têm mais filhos nas Américas?'
+  - repetida: 'Quais os países com mais mortes no trânsito na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países onde mais gente trabalha na agricultura na União Europeia?'
+  - repetida: 'Quais os países onde menos gente tem saneamento básico?' devolve quase o mesmo top 10 de 'Quais os países onde menos gente tem acesso a água potável?'
+  - repetida: 'Quais os países com o ar mais poluído nas Américas?' devolve quase o mesmo top 10 de 'Em quais países a maior fatia da população passa fome nas Américas?'
+  - repetida: 'Quais os países com o ar mais poluído na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países com mais gravidez na adolescência na União Europeia?'
+  - repetida: 'Quais os países que mais usam energia renovável no consumo total na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países com a matriz elétrica mais renovável na União Europeia?'
+  - repetida: 'Em quais países produto agrícola é a maior parte do que se exporta na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países com a matriz elétrica mais renovável na União Europeia?'
+  - repetida: 'Quais os países onde menos chove?' devolve quase o mesmo top 10 de 'Quais os países com menos água doce por habitante?'
+  - repetida: 'Quais os países onde mais gente morre por habitante na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países onde mais gente trabalha na agricultura na União Europeia?'
+  - repetida: 'Em quais países a agricultura mais pesa na economia na Europa?' devolve quase o mesmo top 10 de 'Quais os países onde mais gente trabalha na agricultura na Europa?'
+  - repetida: 'Em quais países a agricultura mais pesa na economia na União Europeia?' devolve quase o mesmo top 10 de 'Quais os países onde mais gente trabalha na agricultura na União Europeia?'
+  - repetida: 'Quais os países com a maior malha ferroviária?' devolve quase o mesmo top 10 de 'Quais os países com o maior PIB?'
+  - repetida: 'Em quais países se fala o maior número de línguas nas Américas?' devolve quase o mesmo top 10 de 'Quais os países que mais produzem cereais nas Américas?'
+  - repetida: 'Em quais países se fala o maior número de línguas na Europa?' devolve quase o mesmo top 10 de 'Quais os países mais populosos na Europa?'

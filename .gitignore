@@ -1,0 +1,5 @@
+.venv/
+cache/
+__pycache__/
+indicadores_wdi.csv
+.DS_Store

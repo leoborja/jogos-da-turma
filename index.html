@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Top 10 — Jogos da Turma</title>
+<meta name="description" content="Jogo de Top 10 com países e línguas. Dados do Banco Mundial, Glottolog e Wikidata.">
+<style>
+:root{
+  --fundo:#12131a; --painel:#1b1d27; --painel2:#232634; --borda:#31344a;
+  --texto:#eceefb; --fraco:#9297b5; --acento:#7c8cff; --certo:#3ddc97;
+  --errado:#ff6b6b; --aviso:#ffc857;
+  --raio:14px; --gap:12px;
+}
+*{box-sizing:border-box;margin:0}
+[hidden]{display:none!important}
+html,body{height:100%}
+body{
+  background:var(--fundo); color:var(--texto);
+  font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  -webkit-text-size-adjust:100%;
+}
+#app{max-width:600px;margin:0 auto;padding:16px 16px 40px}
+h1{font-size:22px;letter-spacing:-.01em}
+h2{font-size:15px;text-transform:uppercase;letter-spacing:.08em;color:var(--fraco);font-weight:600}
+.tela{display:none}.tela.on{display:block}
+.cartao{background:var(--painel);border:1px solid var(--borda);border-radius:var(--raio);padding:16px;margin-bottom:var(--gap)}
+.linha{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.entre{display:flex;justify-content:space-between;align-items:center;gap:8px}
+button{
+  font:inherit;font-weight:600;color:var(--texto);background:var(--painel2);
+  border:1px solid var(--borda);border-radius:10px;padding:11px 15px;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+}
+button:hover{border-color:var(--acento)}
+button:disabled{opacity:.4;cursor:not-allowed}
+button.principal{background:var(--acento);border-color:var(--acento);color:#0d0f18;width:100%;padding:15px;font-size:17px}
+button.perigo{color:var(--errado)}
+button.mini{padding:7px 11px;font-size:14px;font-weight:500}
+button.on{background:var(--acento);border-color:var(--acento);color:#0d0f18}
+input,select{
+  font:inherit;color:var(--texto);background:var(--painel2);border:1px solid var(--borda);
+  border-radius:10px;padding:12px;width:100%;
+}
+input:focus,select:focus{outline:2px solid var(--acento);outline-offset:-1px}
+label{font-size:13px;color:var(--fraco);display:block;margin-bottom:5px}
+.fraco{color:var(--fraco);font-size:13px}
+.pergunta{font-size:25px;line-height:1.25;font-weight:700;letter-spacing:-.02em;margin-bottom:10px}
+.meta{font-size:12.5px;color:var(--fraco)}
+.jogador{display:flex;justify-content:space-between;align-items:center;padding:9px 12px;border-radius:10px;background:var(--painel2);border:1px solid transparent}
+.jogador.vez{border-color:var(--acento);background:#242a4d}
+.jogador.fora{opacity:.35}
+.jogador+.jogador{margin-top:6px}
+.vidas{letter-spacing:2px;font-size:15px}
+.lista{list-style:none;display:grid;gap:5px}
+.item{display:flex;gap:10px;align-items:baseline;padding:9px 11px;border-radius:9px;background:var(--painel2);font-size:15px}
+.item .pos{color:var(--fraco);font-variant-numeric:tabular-nums;min-width:22px;font-size:13px}
+.item .val{margin-left:auto;color:var(--fraco);font-size:13px;font-variant-numeric:tabular-nums;text-align:right}
+.item.oculto .nome,.item.oculto .val{filter:blur(6px);user-select:none}
+.item.achado{background:#1c3a2e;color:var(--certo)}
+.aviso{padding:12px 14px;border-radius:10px;font-size:15px;font-weight:600;margin-bottom:var(--gap)}
+.aviso.certo{background:#173d2f;color:var(--certo)}
+.aviso.errado{background:#3d1c1f;color:var(--errado)}
+.aviso.duvida{background:#3d3320;color:var(--aviso)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.dito{font-size:13px;padding:4px 9px;border-radius:99px;background:var(--painel2);color:var(--fraco)}
+.dito.certo{color:var(--certo)}.dito.errado{color:var(--errado)}
+details summary{cursor:pointer;color:var(--fraco);font-size:14px;padding:6px 0}
+.pilha>*+*{margin-top:var(--gap)}
+#titulo-palpite{text-transform:none;font-size:16px;color:var(--texto);letter-spacing:0}
+.grade2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.contador{font-variant-numeric:tabular-nums}
+</style>
+</head>
+<body>
+<div id="app">
+
+<!-- ------------------------------------------------ configuração -->
+<section id="tela-setup" class="tela on">
+  <header class="entre" style="margin-bottom:16px">
+    <h1>Top&nbsp;10</h1>
+    <span class="fraco" id="resumo-banco">carregando…</span>
+  </header>
+
+  <div class="cartao pilha">
+    <h2>Jogadores</h2>
+    <div id="lista-jogadores" class="pilha"></div>
+    <form id="form-jogador" class="linha">
+      <input id="nome-jogador" placeholder="nome do jogador" autocomplete="off" style="flex:1;min-width:0">
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+
+  <div class="cartao pilha">
+    <h2>Como vocês jogam</h2>
+    <div class="grade2">
+      <button class="modo on" data-modo="juiz">Com juiz</button>
+      <button class="modo" data-modo="contesto">Sem juiz</button>
+    </div>
+    <p class="fraco" id="explica-modo"></p>
+    <div>
+      <label for="vidas">Vidas por jogador</label>
+      <select id="vidas">
+        <option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="cartao pilha">
+    <h2>Baralho</h2>
+    <div>
+      <label>Tema</label>
+      <div class="chips" id="filtro-tema"></div>
+    </div>
+    <div>
+      <label>Recorte</label>
+      <div class="chips" id="filtro-escopo"></div>
+    </div>
+    <p class="fraco" id="conta-cartas"></p>
+  </div>
+
+  <button class="principal" id="comecar">Começar</button>
+  <p class="fraco" style="margin-top:14px" id="creditos"></p>
+</section>
+
+<!-- ------------------------------------------------ rodada -->
+<section id="tela-jogo" class="tela">
+  <div class="entre" style="margin-bottom:12px">
+    <button class="mini" id="voltar">‹ Sair</button>
+    <span class="fraco contador" id="placar-baralho"></span>
+  </div>
+
+  <div class="cartao">
+    <p class="pergunta" id="pergunta"></p>
+    <p class="meta" id="meta"></p>
+    <p class="meta contador" id="progresso" style="margin-top:6px"></p>
+  </div>
+
+  <div id="painel-jogadores" class="cartao pilha"></div>
+
+  <div id="resultado"></div>
+
+  <div class="cartao linha" id="acoes-contesto" hidden>
+    <button class="mini" id="passou">Ninguém contestou</button>
+    <span class="fraco">ou quem contestou:</span>
+    <span class="chips" id="contestantes"></span>
+  </div>
+
+  <div class="cartao pilha" id="painel-palpite">
+    <h2 id="titulo-palpite"></h2>
+    <form id="form-palpite" class="linha">
+      <input id="palpite" placeholder="o que a pessoa falou" autocomplete="off"
+             autocapitalize="off" spellcheck="false" list="sugestoes" style="flex:1;min-width:0">
+      <datalist id="sugestoes"></datalist>
+      <button type="submit" id="btn-palpite">Vale?</button>
+    </form>
+    <div class="linha" id="acoes-juiz" hidden>
+      <span class="fraco">Não reconheci. O juiz decide:</span>
+      <button class="mini" id="forcar-certo">Foi acerto</button>
+      <button class="mini perigo" id="forcar-errado">Foi erro</button>
+    </div>
+    <div class="chips" id="ditos"></div>
+  </div>
+
+  <details class="cartao" id="gabarito-caixa">
+    <summary>Ver o gabarito (só o juiz)</summary>
+    <ul class="lista" id="gabarito" style="margin-top:10px"></ul>
+  </details>
+
+  <div class="pilha">
+    <button class="principal" id="proxima" hidden>Próxima carta</button>
+    <button class="mini" id="desistir">Encerrar rodada e revelar</button>
+  </div>
+</section>
+
+</div>
+
+<script>
+"use strict";
+
+/* ------------------------------------------------------------------ dados */
+const S = {
+  banco:null, indice:new Map(), jogadores:[], vidas:3, modo:"juiz",
+  temas:new Set(), escopos:new Set(), baralho:[], usadas:new Set(),
+  carta:null, achados:new Set(), ditos:[], vez:0, fim:false, ultimo:null, pendente:null,
+};
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+
+const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g,"")
+  .toLowerCase().replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
+
+/* Levenshtein com corte: só precisamos saber se a distância é <= max. */
+function perto(a, b, max){
+  if (Math.abs(a.length - b.length) > max) return false;
+  let ant = [...Array(b.length+1).keys()];
+  for (let i=1;i<=a.length;i++){
+    const cur=[i]; let min=i;
+    for (let j=1;j<=b.length;j++){
+      const c = Math.min(cur[j-1]+1, ant[j]+1, ant[j-1]+(a[i-1]===b[j-1]?0:1));
+      cur.push(c); if (c<min) min=c;
+    }
+    if (min>max) return false;
+    ant=cur;
+  }
+  return ant[b.length]<=max;
+}
+
+/* Resolve o que a pessoa falou. Devolve {tipo, chave, nome} ou null.
+   Primeiro procura no índice global de países (assim "Holanda" vira NLD mesmo
+   que a carta seja de língua), depois tenta erro de digitação. */
+function resolver(txt){
+  const n = norm(txt);
+  if (!n) return null;
+  if (S.indice.has(n)) { const i=S.indice.get(n); return {tipo:"pais",chave:i,nome:S.banco.paises[i].nome}; }
+
+  // resposta da carta que não é país (língua, família linguística)
+  for (const r of S.carta.respostas){
+    if (!r.iso3 && (norm(r.nome)===n || (r.apelidos||[]).includes(n)))
+      return {tipo:"outro", chave:r.nome, nome:r.nome};
+  }
+
+  // erro de digitação: aceita só se sobrar um candidato
+  const max = n.length<=5 ? 1 : 2;
+  const achados = new Set();
+  for (const [alias,iso] of S.indice) if (perto(n,alias,max)) achados.add(iso);
+  if (achados.size===1){
+    const iso=[...achados][0];
+    return {tipo:"pais",chave:iso,nome:S.banco.paises[iso].nome,quase:true};
+  }
+  return null;
+}
+
+/* ------------------------------------------------------------------ setup */
+async function carregar(){
+  const r = await fetch("banco.json", {cache:"no-cache"});
+  if (!r.ok) throw new Error("banco.json não carregou (HTTP "+r.status+")");
+  S.banco = await r.json();
+  for (const [iso,p] of Object.entries(S.banco.paises)){
+    S.indice.set(norm(p.nome), iso);
+    for (const a of p.apelidos) if (!S.indice.has(a)) S.indice.set(a, iso);
+  }
+  const c = S.banco.cartas;
+  $("#resumo-banco").textContent = c.length + " cartas";
+  $("#creditos").innerHTML =
+    "Dados do Banco Mundial, Glottolog e Wikidata. Banco gerado em " +
+    S.banco.gerado_em + ". Cada carta mostra o ano e a fonte — o gabarito é a "
+    + "palavra final na mesa.";
+
+  montarFiltro("#filtro-tema", [...new Set(c.map(x=>x.tema))],
+               t=>({paises:"Países", linguas:"Línguas"}[t]||t), S.temas);
+  montarFiltro("#filtro-escopo", [...new Set(c.map(x=>x.escopo))],
+               t=>t==="mundo"?"Mundo":t, S.escopos);
+  contar();
+}
+
+function montarFiltro(alvo, valores, rotulo, conjunto){
+  valores.forEach(v=>conjunto.add(v));
+  $(alvo).innerHTML = "";
+  for (const v of valores){
+    const b=document.createElement("button");
+    b.className="mini on"; b.textContent=rotulo(v);
+    b.onclick=()=>{
+      if (conjunto.has(v)){
+        if (conjunto.size===1) return;      // não deixa zerar o baralho
+        conjunto.delete(v); b.classList.remove("on");
+      } else { conjunto.add(v); b.classList.add("on"); }
+      contar();
+    };
+    $(alvo).append(b);
+  }
+}
+
+const elegiveis = () => S.banco.cartas.filter(
+  c => S.temas.has(c.tema) && S.escopos.has(c.escopo));
+
+function contar(){
+  const n = elegiveis().length;
+  $("#conta-cartas").textContent = n + (n===1?" carta no baralho":" cartas no baralho");
+  $("#comecar").disabled = n===0;
+}
+
+function desenharJogadores(){
+  const alvo = $("#lista-jogadores");
+  alvo.innerHTML = S.jogadores.length ? "" :
+    '<p class="fraco">Ninguém ainda. No modo com juiz, quem segura o celular não joga.</p>';
+  S.jogadores.forEach((j,i)=>{
+    const d=document.createElement("div"); d.className="jogador";
+    d.innerHTML=`<span>${escapar(j.nome)}</span>`;
+    const b=document.createElement("button");
+    b.className="mini perigo"; b.textContent="Sair"; b.onclick=()=>{
+      S.jogadores.splice(i,1); desenharJogadores();
+    };
+    d.append(b); alvo.append(d);
+  });
+}
+const escapar = s => s.replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+/* ------------------------------------------------------------------ jogo */
+function embaralhar(a){
+  for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
+  return a;
+}
+
+function comecar(){
+  S.vidas = +$("#vidas").value;
+  S.jogadores.forEach(j=>{ j.vidas=S.vidas; });
+  S.baralho = embaralhar(elegiveis().map(c=>c.id));
+  S.usadas = new Set();
+  mostrar("jogo");
+  proximaCarta();
+}
+
+function proximaCarta(){
+  const id = S.baralho.find(x=>!S.usadas.has(x));
+  if (!id){ alert("Acabaram as cartas desse baralho. Voltando pro começo."); mostrar("setup"); return; }
+  S.usadas.add(id);
+  S.carta = S.banco.cartas.find(c=>c.id===id);
+  S.achados=new Set(); S.ditos=[]; S.fim=false; S.ultimo=null; S.pendente=null;
+  $("#acoes-contesto").hidden=true; $("#acoes-juiz").hidden=true; $("#resultado").innerHTML="";
+  S.jogadores.forEach(j=>{ j.vidas=S.vidas; });
+  S.vez = 0;
+  desenharRodada();
+  $("#palpite").focus();
+}
+
+function vivos(){ return S.jogadores.filter(j=>j.vidas>0); }
+
+function desenharRodada(){
+  const c=S.carta;
+  $("#pergunta").textContent = c.pergunta;
+  const partes=[c.fonte];
+  if (c.ano) partes.push(c.ano);
+  partes.push(c.unidade);
+  partes.push(c.universo + " países no ranking");
+  $("#meta").textContent = partes.join(" · ") + (c.nota ? " — " + c.nota : "");
+  $("#placar-baralho").textContent = "carta " + S.usadas.size + " de " + S.baralho.length;
+  $("#progresso").textContent = S.achados.size + " de 10 já saíram · faltam "
+                              + (10 - S.achados.size);
+
+  // jogadores
+  const alvo=$("#painel-jogadores"); alvo.innerHTML="";
+  if (!S.jogadores.length){
+    alvo.innerHTML='<p class="fraco">Sem jogadores cadastrados — dá pra usar só como consulta.</p>';
+  }
+  S.jogadores.forEach((j,i)=>{
+    const d=document.createElement("div");
+    d.className="jogador"+(i===S.vez&&!S.fim&&j.vidas>0?" vez":"")+(j.vidas>0?"":" fora");
+    d.innerHTML=`<span>${escapar(j.nome)}</span>
+      <span class="vidas">${j.vidas>0 ? "●".repeat(j.vidas)+"○".repeat(S.vidas-j.vidas) : "fora"}</span>`;
+    alvo.append(d);
+  });
+
+  // gabarito
+  const g=$("#gabarito"); g.innerHTML="";
+  c.respostas.forEach(r=>{
+    const achado=S.achados.has(r.pos);
+    const li=document.createElement("li");
+    li.className="item"+(achado?" achado":(S.fim?"":" oculto"));
+    li.innerHTML=`<span class="pos">${r.pos}</span><span class="nome">${escapar(r.nome)}</span>
+                  <span class="val">${escapar(r.valor_fmt)}</span>`;
+    g.append(li);
+  });
+
+  // já falados
+  $("#ditos").innerHTML = S.ditos.map(d=>
+    `<span class="dito ${d.certo?"certo":"errado"}">${escapar(d.nome)}</span>`).join("");
+
+  const jogando = !S.fim && vivos().length>0;
+  $("#painel-palpite").hidden = !jogando || !!S.pendente;
+  $("#proxima").hidden = jogando;
+  $("#desistir").hidden = !jogando;
+  const dono = vivos().length ? S.jogadores[S.vez] : null;
+  $("#titulo-palpite").textContent = S.modo==="juiz"
+    ? (dono ? "Vez de " + dono.nome : "Palpite")
+    : (dono ? dono.nome + " falou — alguém contesta?" : "Palpite");
+  $("#btn-palpite").textContent = S.modo==="juiz" ? "Vale?" : "Contesto!";
+  $("#gabarito-caixa").open = S.fim;
+  if (S.fim) $("#gabarito-caixa").querySelector("summary").textContent = "Gabarito";
+}
+
+function proximaVez(){
+  const vs=vivos();
+  if (!vs.length) return;
+  do { S.vez=(S.vez+1)%S.jogadores.length; } while (S.jogadores[S.vez].vidas<=0);
+}
+
+function avisar(classe, texto){
+  $("#resultado").innerHTML = `<div class="aviso ${classe}">${escapar(texto)}</div>`;
+}
+
+function palpitar(txt){
+  const alvo=resolver(txt);
+  $("#acoes-juiz").hidden = true;
+
+  if (!alvo){
+    S.ultimo = {texto:txt};
+    avisar("duvida", `Não reconheci "${txt}".`);
+    $("#acoes-juiz").hidden = false;
+    return;
+  }
+  if (S.ditos.some(d=>d.chave===alvo.chave)){
+    avisar("duvida", alvo.nome + " já foi falado nessa rodada.");
+    return;
+  }
+
+  const r = S.carta.respostas.find(x => (x.iso3||x.nome) === alvo.chave) || null;
+
+  // No modo sem juiz ninguém pode ver se acertou: o palpite fica pendurado
+  // até alguém contestar ou a mesa deixar passar.
+  if (S.modo === "contesto"){
+    S.pendente = {nome:alvo.nome, chave:alvo.chave, resposta:r,
+                  corrigido: alvo.quase ? txt : null, de:S.vez};
+    avisar("duvida", alvo.nome + " está na mesa. Contesta ou deixa passar?");
+    $("#painel-palpite").hidden = true;
+    desenharContesto();
+    return;
+  }
+  registrar(alvo.nome, alvo.chave, r, alvo.quase ? txt : null);
+}
+
+function desenharContesto(){
+  const box=$("#acoes-contesto"); box.hidden = !S.pendente;
+  if (!S.pendente) return;
+  const alvo=$("#contestantes"); alvo.innerHTML="";
+  S.jogadores.forEach((j,i)=>{
+    if (i===S.pendente.de || j.vidas<=0) return;
+    const b=document.createElement("button");
+    b.className="mini perigo"; b.textContent=j.nome;
+    b.onclick=()=>resolverContesto(i);
+    alvo.append(b);
+  });
+}
+
+function resolverContesto(quemContestou){
+  const p=S.pendente; if (!p) return;
+  S.pendente=null; $("#acoes-contesto").hidden=true; $("#painel-palpite").hidden=false;
+  S.ditos.push({nome:p.nome, chave:p.chave, certo:!!p.resposta});
+
+  if (quemContestou === null){                     // ninguém contestou
+    if (p.resposta) S.achados.add(p.resposta.pos);
+    avisar("duvida", p.nome + " passou sem contestação.");
+    proximaVez();
+  } else if (p.resposta){                          // contestou e o palpite valia
+    const c=S.jogadores[quemContestou]; c.vidas--;
+    S.achados.add(p.resposta.pos);
+    avisar("certo", `${p.nome} estava em ${p.resposta.pos}º — ${p.resposta.valor_fmt}. `
+                    + `${c.nome} contestou à toa e perde uma vida.`);
+    proximaVez();
+  } else {                                         // contestou e pegou o blefe
+    const d=S.jogadores[p.de]; d.vidas--;
+    avisar("errado", `${p.nome} não está no top 10. `
+                     + `${S.jogadores[quemContestou].nome} pegou o blefe: ${d.nome} perde uma vida.`);
+    proximaVez();
+  }
+  fecharSePreciso();
+  desenharRodada();
+}
+
+function fecharSePreciso(){
+  if (S.achados.size===10 || vivos().length<=1) S.fim=true;
+  if (S.fim) fimDeRodada();
+}
+
+function registrar(nome, chave, resposta, corrigido, forcado){
+  const certo = forcado === undefined ? !!resposta : forcado;
+  S.ditos.push({nome, chave, certo});
+  const prefixo = corrigido ? `Entendi "${corrigido}" como ${nome}. ` : "";
+  if (certo){
+    if (resposta) S.achados.add(resposta.pos);
+    avisar("certo", prefixo + (resposta
+      ? `${nome} está em ${resposta.pos}º — ${resposta.valor_fmt}.`
+      : `${nome} vale, o juiz mandou.`));
+    proximaVez();
+  } else {
+    const j = vivos().length ? S.jogadores[S.vez] : null;
+    if (j) j.vidas--;
+    avisar("errado", prefixo + `${nome} não está no top 10.`
+                     + (j ? ` ${j.nome} perde uma vida.` : ""));
+    proximaVez();
+  }
+  fecharSePreciso();
+  desenharRodada();
+}
+
+function fimDeRodada(){
+  const vs=vivos();
+  if (S.achados.size===10) avisar("certo","Top 10 completo! A mesa ganhou essa.");
+  else if (vs.length===1) avisar("certo", vs[0].nome + " sobrou de pé e venceu a rodada.");
+  else if (!vs.length) avisar("errado","Todo mundo caiu.");
+  else avisar("duvida","Rodada encerrada. Gabarito aberto.");
+}
+
+function mostrar(qual){
+  $$(".tela").forEach(t=>t.classList.remove("on"));
+  $("#tela-"+qual).classList.add("on");
+  window.scrollTo(0,0);
+}
+
+/* ------------------------------------------------------------------ liga */
+$("#form-jogador").onsubmit = e => {
+  e.preventDefault();
+  const n = $("#nome-jogador").value.trim();
+  if (!n) return;
+  if (S.jogadores.some(j=>j.nome.toLowerCase()===n.toLowerCase())) return;
+  S.jogadores.push({nome:n, vidas:3});
+  $("#nome-jogador").value=""; desenharJogadores();
+};
+
+const EXPLICA = {
+  juiz:"Uma pessoa segura o celular, não joga e digita o que cada um fala. "
+      +"Errou, perde vida. Sai quem zerar.",
+  contesto:"O celular fica no meio. Ninguém vê o gabarito. Quando alguém "
+      +"desconfiar do palpite do outro, aperta Contesto — aí o app revela. "
+      +"Quem contestou errado é que perde a vida.",
+};
+$$(".modo").forEach(b => b.onclick = () => {
+  $$(".modo").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on"); S.modo=b.dataset.modo;
+  $("#explica-modo").textContent = EXPLICA[S.modo];
+});
+$("#explica-modo").textContent = EXPLICA.juiz;
+
+$("#comecar").onclick = comecar;
+$("#voltar").onclick = () => mostrar("setup");
+$("#proxima").onclick = proximaCarta;
+$("#desistir").onclick = () => { S.fim=true; fimDeRodada(); desenharRodada(); };
+
+$("#form-palpite").onsubmit = e => {
+  e.preventDefault();
+  const v=$("#palpite").value.trim();
+  if (!v) return;
+  palpitar(v);
+  $("#palpite").value=""; $("#palpite").focus();
+};
+$("#forcar-certo").onclick = () => {
+  const t=S.ultimo?.texto; if(!t) return;
+  registrar(t, "livre:"+t, null, null, true);
+  $("#acoes-juiz").hidden=true;
+};
+$("#forcar-errado").onclick = () => {
+  const t=S.ultimo?.texto; if(!t) return;
+  registrar(t, "livre:"+t, null, null, false);
+  $("#acoes-juiz").hidden=true;
+};
+$("#passou").onclick = () => resolverContesto(null);
+
+/* sugestões de digitação: só depois de 3 letras, pra não entregar resposta */
+$("#palpite").oninput = e => {
+  const n=norm(e.target.value); const dl=$("#sugestoes");
+  if (n.length<3){ dl.innerHTML=""; return; }
+  const vistos=new Set(); const out=[];
+  for (const [alias,iso] of S.indice){
+    if (alias.startsWith(n) && !vistos.has(iso)){
+      vistos.add(iso); out.push(S.banco.paises[iso].nome);
+      if (out.length>=8) break;
+    }
+  }
+  dl.innerHTML = out.map(x=>`<option value="${escapar(x)}">`).join("");
+};
+
+desenharJogadores();
+carregar().catch(e => {
+  $("#resumo-banco").textContent = "erro";
+  $("#tela-setup").insertAdjacentHTML("afterbegin",
+    `<div class="aviso errado">${escapar(e.message)} — rode <code>python gerador.py</code> e sirva a pasta por HTTP.</div>`);
+});
+</script>
+</body>
+</html>
