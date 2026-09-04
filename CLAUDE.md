@@ -1,7 +1,7 @@
 # Jogos da Turma — como mexer neste repositório
 
 Coleção de jogos de mesa pra jogar com amigos pelo celular. Site estático, sem
-backend, no ar em **https://leoborja.github.io/jogos-da-turma/** (GitHub Pages,
+backend, no ar em **https://jogosdaturma.com.br/** (GitHub Pages,
 branch `main`, pasta raiz).
 
 ## Estrutura

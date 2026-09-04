@@ -3,7 +3,7 @@
 Jogos de mesa pra jogar com os amigos, direto do celular. Site estático, sem
 baixar nada, sem cadastro.
 
-**→ https://leoborja.github.io/jogos-da-turma/**
+**→ https://jogosdaturma.com.br/**
 
 ## Os jogos
 
