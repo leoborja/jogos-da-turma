@@ -1,6 +1,18 @@
 {
  "jogos": [
   {
+   "slug": "tabu",
+   "nome": "Tabu",
+   "tagline": "Faça seu time acertar a palavra sem dizer as cinco proibidas.",
+   "descricao": "Um time descreve, o outro cronometra e vigia a tela. Vale tudo, menos falar a palavra, as cinco proibidas, um pedaço delas, uma rima ou fazer mímica. As proibidas de cada carta são as palavras mais características do artigo da Wikipédia sobre ela — a carta diz de onde vieram e leva pro artigo.",
+   "emoji": "🤐",
+   "cor": "coral",
+   "jogadores": "4 a 12",
+   "duracao": "20 min",
+   "precisa": "um celular passando de mão em mão",
+   "status": "pronto"
+  },
+  {
    "slug": "top10",
    "nome": "Top 10",
    "tagline": "A carta pergunta, a resposta é um ranking de dez.",

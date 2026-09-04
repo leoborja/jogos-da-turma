@@ -1,0 +1,1511 @@
+{
+ "gerado_em": "2026-09-04",
+ "fontes": [
+  {
+   "nome": "Wikipédia em português",
+   "papel": "de onde saem as cinco proibidas de cada carta",
+   "url": "https://pt.wikipedia.org",
+   "licenca": "CC BY-SA 4.0"
+  },
+  {
+   "nome": "Wikcionário em português",
+   "papel": "diz o que é substantivo, adjetivo e verbo",
+   "url": "https://pt.wiktionary.org",
+   "licenca": "CC BY-SA 4.0"
+  },
+  {
+   "nome": "FrequencyWords (OpenSubtitles 2018, pt-BR)",
+   "papel": "escolhe as palavras-chave e mede a dificuldade",
+   "url": "https://github.com/hermitdave/FrequencyWords",
+   "licenca": "CC BY-SA 4.0"
+  }
+ ],
+ "metodo": "As cinco proibidas são os substantivos mais característicos do artigo da Wikipédia sobre a palavra — TF-IDF do texto do artigo contra o resto do baralho e contra o português falado. Palavra que aparece em todo artigo não conta como característica. A dificuldade é a posição da palavra-chave numa lista de frequência do português falado.",
+ "cartas": [
+  {
+   "palavra": "CASA",
+   "sentido": "estrutura de habitação",
+   "proibidas": [
+    "RESIDÊNCIA",
+    "ABRIGO",
+    "APARTAMENTO",
+    "REFÚGIO",
+    "TETO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 95,
+   "artigo": "Casa",
+   "url": "https://pt.wikipedia.org/wiki/Casa"
+  },
+  {
+   "palavra": "HOMEM",
+   "sentido": "ser humano do gênero masculino",
+   "proibidas": [
+    "MASCULINO",
+    "SEXO",
+    "SEXUAL",
+    "HUMANO",
+    "ADULTO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 145,
+   "artigo": "Homem",
+   "url": "https://pt.wikipedia.org/wiki/Homem"
+  },
+  {
+   "palavra": "DINHEIRO",
+   "sentido": "unidade de valor; objeto aceite como pagamento",
+   "proibidas": [
+    "MOEDA",
+    "GASTO",
+    "BENS",
+    "INFORMAÇÃO",
+    "TROCA"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 180,
+   "artigo": "Dinheiro",
+   "url": "https://pt.wikipedia.org/wiki/Dinheiro"
+  },
+  {
+   "palavra": "IRMÃO",
+   "sentido": "pessoa filho do mesmo pai ou mãe de outra",
+   "proibidas": [
+    "SEXO",
+    "FILHO",
+    "CRIANÇA",
+    "MASCULINO",
+    "GÊMEOS"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 304,
+   "artigo": "Irmão",
+   "url": "https://pt.wikipedia.org/wiki/Irm%C3%A3o"
+  },
+  {
+   "palavra": "ÁGUA",
+   "sentido": "composto químico formado por moléculas com dois átomos de hidrogénio e um de oxigénio",
+   "proibidas": [
+    "OXIGÊNIO",
+    "SUPERFÍCIE",
+    "LIGAÇÃO",
+    "PLANETA",
+    "SUBSTÂNCIA"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 367,
+   "artigo": "Água",
+   "url": "https://pt.wikipedia.org/wiki/%C3%81gua"
+  },
+  {
+   "palavra": "CORAÇÃO",
+   "sentido": "órgão muscular que bombeia o sangue através dos vasos sanguíneos do sistema circulatório dos animais",
+   "proibidas": [
+    "SANGUE",
+    "ARTÉRIA",
+    "PULMÕES",
+    "RITMO",
+    "CORPO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 383,
+   "artigo": "Coração",
+   "url": "https://pt.wikipedia.org/wiki/Cora%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "ARMA",
+   "sentido": "instrumento usado para causar dano ou ferimento em seres vivos, estruturas ou sistemas",
+   "proibidas": [
+    "CAÇA",
+    "PÓLVORA",
+    "EVOLUÇÃO",
+    "DANO",
+    "SPRAY"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 411,
+   "artigo": "Arma",
+   "url": "https://pt.wikipedia.org/wiki/Arma"
+  },
+  {
+   "palavra": "ESCOLA",
+   "sentido": "instituição destinada ao ensino de alunos sob a direção de professores",
+   "proibidas": [
+    "ENSINO",
+    "FUNDAMENTAL",
+    "INSTITUIÇÃO",
+    "CONFERÊNCIA",
+    "ALUNO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 413,
+   "artigo": "Escola",
+   "url": "https://pt.wikipedia.org/wiki/Escola"
+  },
+  {
+   "palavra": "TERRA",
+   "sentido": "terceiro planeta a partir do Sol no Sistema Solar",
+   "proibidas": [
+    "PLANETA",
+    "SOLAR",
+    "SUPERFÍCIE",
+    "ATMOSFERA",
+    "ÓRBITA"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 416,
+   "artigo": "Terra",
+   "url": "https://pt.wikipedia.org/wiki/Terra"
+  },
+  {
+   "palavra": "GUERRA",
+   "sentido": "conflito organizado e prolongado entre Estados",
+   "proibidas": [
+    "CONFLITO",
+    "MILITAR",
+    "ALVO",
+    "EXTREMA",
+    "AGRESSÃO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 424,
+   "artigo": "Guerra",
+   "url": "https://pt.wikipedia.org/wiki/Guerra"
+  },
+  {
+   "palavra": "SANGUE",
+   "sentido": "fluido corporal",
+   "proibidas": [
+    "CÉLULA",
+    "OXIGÊNIO",
+    "ANIMAL",
+    "CARBONO",
+    "VERMELHO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 432,
+   "artigo": "Sangue",
+   "url": "https://pt.wikipedia.org/wiki/Sangue"
+  },
+  {
+   "palavra": "CAPITÃO",
+   "sentido": "posto de oficial existente na maioria dos exércitos do mundo",
+   "proibidas": [
+    "COMANDO",
+    "COMPANHIA",
+    "MILITAR",
+    "OFICIAL",
+    "FORÇA"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 456,
+   "artigo": "Capitão",
+   "url": "https://pt.wikipedia.org/wiki/Capit%C3%A3o"
+  },
+  {
+   "palavra": "SAIA",
+   "sentido": "roupa",
+   "proibidas": [
+    "ROUPA",
+    "MODA",
+    "PERNA",
+    "COMPRIMENTO",
+    "DECORAÇÃO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 477,
+   "artigo": "Saia",
+   "url": "https://pt.wikipedia.org/wiki/Saia"
+  },
+  {
+   "palavra": "CRIANÇA",
+   "sentido": "estágio de desenvolvimento humano entre o nascimento e a puberdade",
+   "proibidas": [
+    "NASCIMENTO",
+    "BEBÊ",
+    "DESENVOLVIMENTO",
+    "IDADE",
+    "INFÂNCIA"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 494,
+   "artigo": "Criança",
+   "url": "https://pt.wikipedia.org/wiki/Crian%C3%A7a"
+  },
+  {
+   "palavra": "MÉDICO",
+   "sentido": "profissional que pratica medicina",
+   "proibidas": [
+    "SAÚDE",
+    "DOENÇA",
+    "BIOLOGIA",
+    "ESPECIALIDADE",
+    "CURSO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 589,
+   "artigo": "Médico",
+   "url": "https://pt.wikipedia.org/wiki/M%C3%A9dico"
+  },
+  {
+   "palavra": "FOGO",
+   "sentido": "processo de rápida oxidação de um material que emite luz e calor",
+   "proibidas": [
+    "OXIGÊNIO",
+    "CHAMA",
+    "REAÇÃO",
+    "CALOR",
+    "CARBONO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 597,
+   "artigo": "Fogo",
+   "url": "https://pt.wikipedia.org/wiki/Fogo"
+  },
+  {
+   "palavra": "PRESIDENTE",
+   "sentido": "líder de um Estado",
+   "proibidas": [
+    "CARGO",
+    "ELEITO",
+    "FUNCIONÁRIO",
+    "CHEFE",
+    "TRIBUNAL"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 650,
+   "artigo": "Presidente",
+   "url": "https://pt.wikipedia.org/wiki/Presidente"
+  },
+  {
+   "palavra": "CABELO",
+   "sentido": "filamento de proteínas que cresce a partir de folículos encontrados na derme ou pele; uma das características definidoras dos mamíferos",
+   "proibidas": [
+    "CÉLULA",
+    "CAMADA",
+    "COURO",
+    "LIGAÇÃO",
+    "FIO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 684,
+   "artigo": "Cabelo",
+   "url": "https://pt.wikipedia.org/wiki/Cabelo"
+  },
+  {
+   "palavra": "NATAL",
+   "sentido": "comemoração anual do nascimento de Jesus Cristo",
+   "proibidas": [
+    "DEZEMBRO",
+    "FESTA",
+    "CRISTÃO",
+    "NASCIMENTO",
+    "CELEBRAÇÃO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 781,
+   "artigo": "Natal",
+   "url": "https://pt.wikipedia.org/wiki/Natal"
+  },
+  {
+   "palavra": "OLHO",
+   "sentido": "órgão da visão",
+   "proibidas": [
+    "PERCEPÇÃO",
+    "IMAGEM",
+    "VISÃO",
+    "ESCURO",
+    "CÉLULA"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 806,
+   "artigo": "Olho",
+   "url": "https://pt.wikipedia.org/wiki/Olho"
+  },
+  {
+   "palavra": "ANIVERSÁRIO",
+   "sentido": "quando algum ser \"vivo\" e as vezes mortos comemora vários vezes no ano o dia em que nasceu",
+   "proibidas": [
+    "VELAS",
+    "PARABÉNS",
+    "NASCIMENTO",
+    "CELEBRAÇÃO",
+    "ESPÍRITO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 826,
+   "artigo": "Aniversário",
+   "url": "https://pt.wikipedia.org/wiki/Anivers%C3%A1rio"
+  },
+  {
+   "palavra": "LUTA",
+   "sentido": "forma de desporto de combate envolvendo técnicas de agarramento",
+   "proibidas": [
+    "CORPO",
+    "ESPORTE",
+    "COMPETIÇÃO",
+    "ARTE",
+    "COMBATE"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 897,
+   "artigo": "Luta",
+   "url": "https://pt.wikipedia.org/wiki/Luta"
+  },
+  {
+   "palavra": "AVIÃO",
+   "sentido": "aeronave que necessita de asas fixas e motores para se sustentar no ar",
+   "proibidas": [
+    "MOTOR",
+    "JATO",
+    "ASA",
+    "MÁQUINA",
+    "FOGUETE"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 929,
+   "artigo": "Avião",
+   "url": "https://pt.wikipedia.org/wiki/Avi%C3%A3o"
+  },
+  {
+   "palavra": "FRIO",
+   "sentido": "estado relativo ou subjetivo de baixa temperatura",
+   "proibidas": [
+    "ESCALA",
+    "TEMPERATURA",
+    "GELO",
+    "ZERO",
+    "ABSOLUTO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 938,
+   "artigo": "Frio",
+   "url": "https://pt.wikipedia.org/wiki/Frio"
+  },
+  {
+   "palavra": "IGREJA",
+   "sentido": "comunidade dos fiéis que professam sua fé em Jesus Cristo",
+   "proibidas": [
+    "CRISTÃO",
+    "REUNIÃO",
+    "CONTEXTO",
+    "COMUNIDADE",
+    "RELIGIOSO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 947,
+   "artigo": "Igreja",
+   "url": "https://pt.wikipedia.org/wiki/Igreja"
+  },
+  {
+   "palavra": "OURO",
+   "sentido": "elemento químico com número atómico 79",
+   "proibidas": [
+    "METAL",
+    "QUÍMICO",
+    "AMARELO",
+    "ELETRÔNICA",
+    "INDÚSTRIA"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 974,
+   "artigo": "Ouro",
+   "url": "https://pt.wikipedia.org/wiki/Ouro"
+  },
+  {
+   "palavra": "GENERAL",
+   "sentido": "patente militar",
+   "proibidas": [
+    "OFICIAL",
+    "EXÉRCITO",
+    "ALMIRANTE",
+    "CAPITÃO",
+    "COMANDO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 991,
+   "artigo": "General",
+   "url": "https://pt.wikipedia.org/wiki/General"
+  },
+  {
+   "palavra": "CARNE",
+   "sentido": "músculo, quando usado para alimentação",
+   "proibidas": [
+    "ALIMENTO",
+    "ANIMAL",
+    "GORDURA",
+    "DIETA",
+    "CÂNCER"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 1015,
+   "artigo": "Carne",
+   "url": "https://pt.wikipedia.org/wiki/Carne"
+  },
+  {
+   "palavra": "PLANETA",
+   "sentido": "corpo celeste sem processo interno de fusão nuclear que orbita sistemas estelares",
+   "proibidas": [
+    "MASSA",
+    "ESTRELA",
+    "TAMANHO",
+    "PERCEPÇÃO",
+    "VIZINHANÇA"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 1029,
+   "artigo": "Planeta",
+   "url": "https://pt.wikipedia.org/wiki/Planeta"
+  },
+  {
+   "palavra": "EMPRESA",
+   "sentido": "atividade econômica organizada exercida profissionalmente pelo empresário para a produção ou a circulação de bens ou de serviços",
+   "proibidas": [
+    "PERFIL",
+    "DIREITO",
+    "BENS",
+    "SUJEITO",
+    "COMÉRCIO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 1068,
+   "artigo": "Empresa",
+   "url": "https://pt.wikipedia.org/wiki/Empresa"
+  },
+  {
+   "palavra": "BRANCO",
+   "sentido": "cor mais clara",
+   "proibidas": [
+    "PRETO",
+    "NEVE",
+    "CLARA",
+    "CORDEIRO",
+    "SÍMBOLO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 1083,
+   "artigo": "Branco",
+   "url": "https://pt.wikipedia.org/wiki/Branco"
+  },
+  {
+   "palavra": "TREM",
+   "sentido": "meio de transporte sobre carris",
+   "proibidas": [
+    "TRILHO",
+    "VAPOR",
+    "FERROVIA",
+    "PASSAGEIRO",
+    "TRANSPORTE"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 1123,
+   "artigo": "Trem",
+   "url": "https://pt.wikipedia.org/wiki/Trem"
+  },
+  {
+   "palavra": "SARGENTO",
+   "sentido": "graduação militar",
+   "proibidas": [
+    "OFICIAL",
+    "MILITAR",
+    "FORÇA",
+    "COMANDO",
+    "EXÉRCITO"
+   ],
+   "dificuldade": "fácil",
+   "posicao": 1132,
+   "artigo": "Sargento",
+   "url": "https://pt.wikipedia.org/wiki/Sargento"
+  },
+  {
+   "palavra": "VERMELHO",
+   "sentido": "cor primária",
+   "proibidas": [
+    "CORES",
+    "AMARELO",
+    "AZUL",
+    "ONDA",
+    "OLHO"
+   ],
+   "dificuldade": "média",
+   "posicao": 1219,
+   "artigo": "Vermelho",
+   "url": "https://pt.wikipedia.org/wiki/Vermelho"
+  },
+  {
+   "palavra": "NOTÍCIA",
+   "sentido": "comunicação de informações selecionadas sobre eventos atuais",
+   "proibidas": [
+    "EVENTO",
+    "IMPRENSA",
+    "SOCIAL",
+    "VEÍCULO",
+    "PRODUTO"
+   ],
+   "dificuldade": "média",
+   "posicao": 1232,
+   "artigo": "Notícia",
+   "url": "https://pt.wikipedia.org/wiki/Not%C3%ADcia"
+  },
+  {
+   "palavra": "ARTE",
+   "sentido": "conceito e processo criativo",
+   "proibidas": [
+    "DANÇA",
+    "EMOÇÃO",
+    "FILOSOFIA",
+    "PRODUTO",
+    "MÚSICA"
+   ],
+   "dificuldade": "média",
+   "posicao": 1260,
+   "artigo": "Arte",
+   "url": "https://pt.wikipedia.org/wiki/Arte"
+  },
+  {
+   "palavra": "COMPUTADOR",
+   "sentido": "dispositivo simples de uso geral para executar operações aritméticas ou lógicas",
+   "proibidas": [
+    "OPERAÇÃO",
+    "MÁQUINA",
+    "CONTAGEM",
+    "TAREFA",
+    "CÁLCULO"
+   ],
+   "dificuldade": "média",
+   "posicao": 1278,
+   "artigo": "Computador",
+   "url": "https://pt.wikipedia.org/wiki/Computador"
+  },
+  {
+   "palavra": "RÁDIO",
+   "sentido": "meio de telecomunicação através de ondas eletromagnéticas",
+   "proibidas": [
+    "ONDA",
+    "COMUNICAÇÃO",
+    "RADAR",
+    "REMOTO",
+    "DISPOSITIVO"
+   ],
+   "dificuldade": "média",
+   "posicao": 1287,
+   "artigo": "Rádio",
+   "url": "https://pt.wikipedia.org/wiki/R%C3%A1dio"
+  },
+  {
+   "palavra": "DANÇA",
+   "sentido": "arte de mover o corpo humano consistindo de uma sequência de movimentos ordenados usualmente acompanhados de música.",
+   "proibidas": [
+    "ARTE",
+    "MOVIMENTO",
+    "MÚSICA",
+    "EXPRESSÃO",
+    "TEATRO"
+   ],
+   "dificuldade": "média",
+   "posicao": 1297,
+   "artigo": "Dança",
+   "url": "https://pt.wikipedia.org/wiki/Dan%C3%A7a"
+  },
+  {
+   "palavra": "JULGAMENTO",
+   "sentido": "decisão formal tomada por um tribunal",
+   "proibidas": [
+    "DECISÃO",
+    "JUIZ",
+    "AVALIAÇÃO",
+    "RECOMPENSA",
+    "SALVAÇÃO"
+   ],
+   "dificuldade": "média",
+   "posicao": 1335,
+   "artigo": "Julgamento",
+   "url": "https://pt.wikipedia.org/wiki/Julgamento"
+  },
+  {
+   "palavra": "HERÓI",
+   "sentido": "pessoa que enfrenta a adversidade com engenhosidade, coragem ou força",
+   "proibidas": [
+    "PERSONAGEM",
+    "DIMENSÃO",
+    "CORAGEM",
+    "DEUS",
+    "FIGURA"
+   ],
+   "dificuldade": "média",
+   "posicao": 1394,
+   "artigo": "Herói",
+   "url": "https://pt.wikipedia.org/wiki/Her%C3%B3i"
+  },
+  {
+   "palavra": "GELO",
+   "sentido": "estado sólido da água",
+   "proibidas": [
+    "SÓLIDO",
+    "FUSÃO",
+    "ÁGUA",
+    "LÍQUIDO",
+    "ATMOSFERA"
+   ],
+   "dificuldade": "média",
+   "posicao": 1401,
+   "artigo": "Gelo",
+   "url": "https://pt.wikipedia.org/wiki/Gelo"
+  },
+  {
+   "palavra": "ÁRVORE",
+   "sentido": "planta lenhosa perene",
+   "proibidas": [
+    "TRONCO",
+    "SOLO",
+    "PLANTA",
+    "RAIZ",
+    "ALTURA"
+   ],
+   "dificuldade": "média",
+   "posicao": 1414,
+   "artigo": "Árvore",
+   "url": "https://pt.wikipedia.org/wiki/%C3%81rvore"
+  },
+  {
+   "palavra": "VÍDEO",
+   "sentido": "Gravação que pode ser reproduzida",
+   "proibidas": [
+    "IMAGEM",
+    "FITA",
+    "DIGITAL",
+    "FORMATO",
+    "DISCO"
+   ],
+   "dificuldade": "média",
+   "posicao": 1420,
+   "artigo": "Vídeo",
+   "url": "https://pt.wikipedia.org/wiki/V%C3%ADdeo"
+  },
+  {
+   "palavra": "MONSTRO",
+   "sentido": "criatura muitas vezes horrível que pode produzir medo ou dano físico",
+   "proibidas": [
+    "CRIATURA",
+    "MORAL",
+    "FICÇÃO",
+    "ZUMBI",
+    "HORROR"
+   ],
+   "dificuldade": "média",
+   "posicao": 1523,
+   "artigo": "Monstro",
+   "url": "https://pt.wikipedia.org/wiki/Monstro"
+  },
+  {
+   "palavra": "FACA",
+   "sentido": "objeto cortante capaz de ser empunhado",
+   "proibidas": [
+    "LÂMINA",
+    "FERRAMENTA",
+    "CABO",
+    "PEDRA",
+    "FERRO"
+   ],
+   "dificuldade": "média",
+   "posicao": 1544,
+   "artigo": "Faca",
+   "url": "https://pt.wikipedia.org/wiki/Faca"
+  },
+  {
+   "palavra": "VERDE",
+   "sentido": "cor primária aditiva visível entre o ciano e o amarelo",
+   "proibidas": [
+    "CORES",
+    "AMARELO",
+    "AZUL",
+    "VERMELHO",
+    "ONDA"
+   ],
+   "dificuldade": "média",
+   "posicao": 1567,
+   "artigo": "Verde",
+   "url": "https://pt.wikipedia.org/wiki/Verde"
+  },
+  {
+   "palavra": "MERCADO",
+   "sentido": "conceito económico",
+   "proibidas": [
+    "BENS",
+    "PRODUTO",
+    "VENDA",
+    "ECONOMIA",
+    "TROCA"
+   ],
+   "dificuldade": "média",
+   "posicao": 1580,
+   "artigo": "Mercado",
+   "url": "https://pt.wikipedia.org/wiki/Mercado"
+  },
+  {
+   "palavra": "BOLO",
+   "sentido": "alimento à base de massa de farinha cozido no forno",
+   "proibidas": [
+    "CAFÉ",
+    "FESTA",
+    "CASAMENTO",
+    "FARINHA",
+    "DOCE"
+   ],
+   "dificuldade": "média",
+   "posicao": 1583,
+   "artigo": "Bolo",
+   "url": "https://pt.wikipedia.org/wiki/Bolo"
+  },
+  {
+   "palavra": "CINEMA",
+   "sentido": "arte cinematográfica",
+   "proibidas": [
+    "FOTOGRAFIA",
+    "DIRETOR",
+    "FILME",
+    "IMAGEM",
+    "ARTE"
+   ],
+   "dificuldade": "média",
+   "posicao": 1640,
+   "artigo": "Cinema",
+   "url": "https://pt.wikipedia.org/wiki/Cinema"
+  },
+  {
+   "palavra": "VENTO",
+   "sentido": "fluxo de ar",
+   "proibidas": [
+    "ESCALA",
+    "SOLAR",
+    "DIREÇÃO",
+    "ATMOSFERA",
+    "MOVIMENTO"
+   ],
+   "dificuldade": "média",
+   "posicao": 1647,
+   "artigo": "Vento",
+   "url": "https://pt.wikipedia.org/wiki/Vento"
+  },
+  {
+   "palavra": "CONTRATO",
+   "sentido": "compromisso mútuo legal celebrado voluntariamente entre duas ou mais partes",
+   "proibidas": [
+    "DIREITO",
+    "ACORDO",
+    "OPERAÇÃO",
+    "FIGURA",
+    "VONTADE"
+   ],
+   "dificuldade": "média",
+   "posicao": 1727,
+   "artigo": "Contrato",
+   "url": "https://pt.wikipedia.org/wiki/Contrato"
+  },
+  {
+   "palavra": "FUTEBOL",
+   "sentido": "esporte praticado entre duas equipes de onze jogadores",
+   "proibidas": [
+    "CAMPO",
+    "JOGO",
+    "BOLA",
+    "EQUIPE",
+    "JOGADOR"
+   ],
+   "dificuldade": "média",
+   "posicao": 1745,
+   "artigo": "Futebol",
+   "url": "https://pt.wikipedia.org/wiki/Futebol"
+  },
+  {
+   "palavra": "FANTASMA",
+   "sentido": "alma ou espírito de uma pessoa ou animal falecido que pode aparecer para os vivos",
+   "proibidas": [
+    "ESPÍRITO",
+    "MORTO",
+    "CRENÇA",
+    "VIVO",
+    "ALMA"
+   ],
+   "dificuldade": "média",
+   "posicao": 1781,
+   "artigo": "Fantasma",
+   "url": "https://pt.wikipedia.org/wiki/Fantasma"
+  },
+  {
+   "palavra": "CALOR",
+   "sentido": "energia transferida entre sistemas devido à diferença de temperatura",
+   "proibidas": [
+    "ENERGIA",
+    "TRANSFERÊNCIA",
+    "CORPO",
+    "PANELA",
+    "TEMPERATURA"
+   ],
+   "dificuldade": "média",
+   "posicao": 1784,
+   "artigo": "Calor",
+   "url": "https://pt.wikipedia.org/wiki/Calor"
+  },
+  {
+   "palavra": "CANÇÃO",
+   "sentido": "composição para voz humana",
+   "proibidas": [
+    "MÚSICA",
+    "MUSICAL",
+    "MELODIA",
+    "INSTRUMENTO",
+    "LETRA"
+   ],
+   "dificuldade": "média",
+   "posicao": 1859,
+   "artigo": "Canção",
+   "url": "https://pt.wikipedia.org/wiki/Can%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "SÁBADO",
+   "sentido": "sétimo dia da semana",
+   "proibidas": [
+    "DESCANSO",
+    "CRISTÃO",
+    "JUDEU",
+    "ROMANO",
+    "DOMINGO"
+   ],
+   "dificuldade": "média",
+   "posicao": 1879,
+   "artigo": "Sábado",
+   "url": "https://pt.wikipedia.org/wiki/S%C3%A1bado"
+  },
+  {
+   "palavra": "FELICIDADE",
+   "sentido": "estado mental ou emocional de bem-estar caracterizado por emoções agradáveis",
+   "proibidas": [
+    "SENTIMENTO",
+    "SATISFAÇÃO",
+    "EMOÇÃO",
+    "SOFRIMENTO",
+    "PSICOLOGIA"
+   ],
+   "dificuldade": "média",
+   "posicao": 1963,
+   "artigo": "Felicidade",
+   "url": "https://pt.wikipedia.org/wiki/Felicidade"
+  },
+  {
+   "palavra": "ROCK",
+   "sentido": "Gênero musical",
+   "proibidas": [
+    "BLUES",
+    "MUSICAL",
+    "MÚSICA",
+    "JAZZ",
+    "COUNTRY"
+   ],
+   "dificuldade": "média",
+   "posicao": 1976,
+   "artigo": "Rock",
+   "url": "https://pt.wikipedia.org/wiki/Rock"
+  },
+  {
+   "palavra": "AEROPORTO",
+   "sentido": "tipo de aeródromo",
+   "proibidas": [
+    "PASSAGEIRO",
+    "PISTA",
+    "CARGA",
+    "POUSO",
+    "OPERAÇÃO"
+   ],
+   "dificuldade": "média",
+   "posicao": 1987,
+   "artigo": "Aeroporto",
+   "url": "https://pt.wikipedia.org/wiki/Aeroporto"
+  },
+  {
+   "palavra": "HOMICÍDIO",
+   "sentido": "assassinato de um humano por outro humano",
+   "proibidas": [
+    "MORTE",
+    "ASSASSINATO",
+    "CRIME",
+    "INTENÇÃO",
+    "CIRCUNSTÂNCIA"
+   ],
+   "dificuldade": "média",
+   "posicao": 1994,
+   "artigo": "Homicídio",
+   "url": "https://pt.wikipedia.org/wiki/Homic%C3%ADdio"
+  },
+  {
+   "palavra": "EXPLOSÃO",
+   "sentido": "liberação repentina de calor e gás",
+   "proibidas": [
+    "ONDA",
+    "EXPLOSIVO",
+    "CHOQUE",
+    "ENERGIA",
+    "VELOCIDADE"
+   ],
+   "dificuldade": "média",
+   "posicao": 2019,
+   "artigo": "Explosão",
+   "url": "https://pt.wikipedia.org/wiki/Explos%C3%A3o"
+  },
+  {
+   "palavra": "TECNOLOGIA",
+   "sentido": "criação, modificação, uso e conhecimento de ferramentas, máquinas, técnicas, ofícios, sistemas e métodos de organização",
+   "proibidas": [
+    "FERRAMENTA",
+    "CIÊNCIA",
+    "MÁQUINA",
+    "CONHECIMENTO",
+    "BENS"
+   ],
+   "dificuldade": "média",
+   "posicao": 2037,
+   "artigo": "Tecnologia",
+   "url": "https://pt.wikipedia.org/wiki/Tecnologia"
+  },
+  {
+   "palavra": "GOLPE",
+   "sentido": "ataque físico direcionado",
+   "proibidas": [
+    "PUNHO",
+    "ATAQUE",
+    "SOCO",
+    "DEDO",
+    "PALMAS"
+   ],
+   "dificuldade": "média",
+   "posicao": 2055,
+   "artigo": "Golpe",
+   "url": "https://pt.wikipedia.org/wiki/Golpe"
+  },
+  {
+   "palavra": "CÂNCER",
+   "sentido": "grupo de doenças onde células anormais se multiplicam incontrolavelmente, destroem o tecido do corpo, prejudicam as funções normais e tem o potencial de se espalhar e invadir outros tecidos e Órgãos do corpo",
+   "proibidas": [
+    "SINTOMA",
+    "DOENÇA",
+    "CÉLULA",
+    "ANORMAL",
+    "TOSSE"
+   ],
+   "dificuldade": "média",
+   "posicao": 2070,
+   "artigo": "Câncer",
+   "url": "https://pt.wikipedia.org/wiki/C%C3%A2ncer"
+  },
+  {
+   "palavra": "TEATRO",
+   "sentido": "ramo artístico",
+   "proibidas": [
+    "ATOR",
+    "PÚBLICO",
+    "ARTE",
+    "ESPETÁCULO",
+    "SENTIMENTO"
+   ],
+   "dificuldade": "média",
+   "posicao": 2073,
+   "artigo": "Teatro",
+   "url": "https://pt.wikipedia.org/wiki/Teatro"
+  },
+  {
+   "palavra": "RESPIRAÇÃO",
+   "sentido": "Processo de ventilação pulmonar e oxigenação sanguínea",
+   "proibidas": [
+    "TROCA",
+    "CARBONO",
+    "CELULAR",
+    "PULMÕES",
+    "OXIGÊNIO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 3528,
+   "artigo": "Respiração",
+   "url": "https://pt.wikipedia.org/wiki/Respira%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "FROTA",
+   "sentido": "formação de navios de guerra",
+   "proibidas": [
+    "NAVIOS",
+    "GUERRA",
+    "MARINHA",
+    "ALMIRANTE",
+    "FORÇA"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 3554,
+   "artigo": "Frota",
+   "url": "https://pt.wikipedia.org/wiki/Frota"
+  },
+  {
+   "palavra": "TRAIÇÃO",
+   "sentido": "Problema causado pela falta de fidelidade proveniente de um contrato social",
+   "proibidas": [
+    "CRIME",
+    "ESTRANGEIRO",
+    "MILITAR",
+    "PRISÃO",
+    "POLÍTICO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 3596,
+   "artigo": "Traição",
+   "url": "https://pt.wikipedia.org/wiki/Trai%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "GOLFE",
+   "sentido": "desporto de origem escocesa",
+   "proibidas": [
+    "BURACO",
+    "JOGADOR",
+    "BOLA",
+    "JOGO",
+    "TACO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 3613,
+   "artigo": "Golfe",
+   "url": "https://pt.wikipedia.org/wiki/Golfe"
+  },
+  {
+   "palavra": "CAVALEIRO",
+   "sentido": "pessoa condecorada com um título honorífico por um monarca ou outro líder político",
+   "proibidas": [
+    "CAVALARIA",
+    "GUERREIRO",
+    "MILITAR",
+    "SERVIÇO",
+    "ARMADURA"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 3632,
+   "artigo": "Cavaleiro",
+   "url": "https://pt.wikipedia.org/wiki/Cavaleiro"
+  },
+  {
+   "palavra": "DESENHO",
+   "sentido": "obra de arte visual em meio bidimensional",
+   "proibidas": [
+    "PINTURA",
+    "INSTRUMENTO",
+    "ARTE",
+    "LÁPIS",
+    "ARTISTA"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 3696,
+   "artigo": "Desenho",
+   "url": "https://pt.wikipedia.org/wiki/Desenho"
+  },
+  {
+   "palavra": "DRAMA",
+   "sentido": "qualquer narrativa no âmbito da prosa literária em que haja conflito ou atrito",
+   "proibidas": [
+    "ÓPERA",
+    "PERFORMANCE",
+    "MODOS",
+    "TEATRO",
+    "BALÉ"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 3777,
+   "artigo": "Drama",
+   "url": "https://pt.wikipedia.org/wiki/Drama"
+  },
+  {
+   "palavra": "ESPANHA",
+   "sentido": "país europeu",
+   "proibidas": [
+    "ILHA",
+    "TERRITÓRIO",
+    "TERRESTRE",
+    "FRONTEIRA",
+    "NORTE"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 3778,
+   "artigo": "Espanha",
+   "url": "https://pt.wikipedia.org/wiki/Espanha"
+  },
+  {
+   "palavra": "LANÇAMENTO",
+   "sentido": "ato administrativo feito pela autoridade administrativa, que independe da coadjuvação do contribuinte",
+   "proibidas": [
+    "SUJEITO",
+    "OBRIGAÇÃO",
+    "IDENTIFICAÇÃO",
+    "ATIVO",
+    "DECLARAÇÃO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 3788,
+   "artigo": "Lançamento",
+   "url": "https://pt.wikipedia.org/wiki/Lan%C3%A7amento"
+  },
+  {
+   "palavra": "CANETA",
+   "sentido": "instrumento de escrita e desenho",
+   "proibidas": [
+    "TINTA",
+    "ESCRITA",
+    "PENA",
+    "INSTRUMENTO",
+    "DESENHO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 3793,
+   "artigo": "Caneta",
+   "url": "https://pt.wikipedia.org/wiki/Caneta"
+  },
+  {
+   "palavra": "MANTEIGA",
+   "sentido": "produto feito a partir do leite de vaca",
+   "proibidas": [
+    "LEITE",
+    "GORDURA",
+    "VACA",
+    "BISCOITO",
+    "ALIMENTO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 3802,
+   "artigo": "Manteiga",
+   "url": "https://pt.wikipedia.org/wiki/Manteiga"
+  },
+  {
+   "palavra": "FRAUDE",
+   "sentido": "esquema ilícito ou de má fé criado para obter ganhos pessoais",
+   "proibidas": [
+    "ESQUEMA",
+    "PESSOAL",
+    "CRIME",
+    "LUCRO",
+    "ILUSÃO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 3815,
+   "artigo": "Fraude",
+   "url": "https://pt.wikipedia.org/wiki/Fraude"
+  },
+  {
+   "palavra": "AUTORIZAÇÃO",
+   "sentido": "mecanismo responsável por garantir que apenas usuários autorizados consumam determinados tipos de serviços e recursos",
+   "proibidas": [
+    "RECURSO",
+    "ACESSO",
+    "SEGURANÇA",
+    "PROGRAMA",
+    "COMPUTADOR"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 3976,
+   "artigo": "Autorização",
+   "url": "https://pt.wikipedia.org/wiki/Autoriza%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "TRÂNSITO",
+   "sentido": "movimento de usuários de uma via, incluindo pedestres e veículos para fins de deslocamento",
+   "proibidas": [
+    "VEÍCULO",
+    "VELOCIDADE",
+    "TRÁFEGO",
+    "REGRA",
+    "LIMITE"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4010,
+   "artigo": "Trânsito",
+   "url": "https://pt.wikipedia.org/wiki/Tr%C3%A2nsito"
+  },
+  {
+   "palavra": "SENTENÇA",
+   "sentido": "determinação jurídica de que se aplique uma sanção",
+   "proibidas": [
+    "JUÍZO",
+    "JUIZ",
+    "DECISÃO",
+    "EXECUÇÃO",
+    "EXAME"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4041,
+   "artigo": "Sentença",
+   "url": "https://pt.wikipedia.org/wiki/Senten%C3%A7a"
+  },
+  {
+   "palavra": "MAÇÃ",
+   "sentido": "fruto comestível da macieira",
+   "proibidas": [
+    "ÁRVORE",
+    "FRUTA",
+    "OUTONO",
+    "FRUTO",
+    "CASCA"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4053,
+   "artigo": "Maçã",
+   "url": "https://pt.wikipedia.org/wiki/Ma%C3%A7%C3%A3"
+  },
+  {
+   "palavra": "ROTEIRO",
+   "sentido": "documento narrativo utilizado como diretriz para espetáculos audiovisuais",
+   "proibidas": [
+    "ARGUMENTO",
+    "FILME",
+    "CENA",
+    "ESPETÁCULO",
+    "CINEMA"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4137,
+   "artigo": "Roteiro",
+   "url": "https://pt.wikipedia.org/wiki/Roteiro"
+  },
+  {
+   "palavra": "AMARELO",
+   "sentido": "cor entre o laranja e o verde no espectro visível da luz",
+   "proibidas": [
+    "CORES",
+    "ONDA",
+    "VERDE",
+    "COMPRIMENTO",
+    "IMPRESSÃO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4145,
+   "artigo": "Amarelo",
+   "url": "https://pt.wikipedia.org/wiki/Amarelo"
+  },
+  {
+   "palavra": "GRAVIDADE",
+   "sentido": "curvatura espaço-tempo que regula o movimento de objetos inertes",
+   "proibidas": [
+    "ATRAÇÃO",
+    "FORÇA",
+    "UNIVERSO",
+    "PARTÍCULA",
+    "PLANETA"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4160,
+   "artigo": "Gravidade",
+   "url": "https://pt.wikipedia.org/wiki/Gravidade"
+  },
+  {
+   "palavra": "JUNHO",
+   "sentido": "sexto mês do ano no calendário gregoriano com 30 dias",
+   "proibidas": [
+    "NORTE",
+    "INVERNO",
+    "VERÃO",
+    "CALENDÁRIO",
+    "DEUSA"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4165,
+   "artigo": "Junho",
+   "url": "https://pt.wikipedia.org/wiki/Junho"
+  },
+  {
+   "palavra": "PARTO",
+   "sentido": "saída de um bebê do útero da grávida",
+   "proibidas": [
+    "ÚTERO",
+    "BEBÊ",
+    "FASE",
+    "APRESENTAÇÃO",
+    "GRAVIDEZ"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4247,
+   "artigo": "Parto",
+   "url": "https://pt.wikipedia.org/wiki/Parto"
+  },
+  {
+   "palavra": "RADIAÇÃO",
+   "sentido": "Propagação física de enegia",
+   "proibidas": [
+    "ENERGIA",
+    "ONDA",
+    "PARTÍCULA",
+    "RAIO",
+    "VELOCIDADE"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4275,
+   "artigo": "Radiação",
+   "url": "https://pt.wikipedia.org/wiki/Radia%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "TRANSFERÊNCIA",
+   "sentido": "o redirecionamento inconsciente dos sentimentos que uma pessoa tem sobre outra pessoa",
+   "proibidas": [
+    "PACIENTE",
+    "SENTIMENTO",
+    "TRATAMENTO",
+    "INCONSCIENTE",
+    "DESEJO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4295,
+   "artigo": "Transferência",
+   "url": "https://pt.wikipedia.org/wiki/Transfer%C3%AAncia"
+  },
+  {
+   "palavra": "ECONOMIA",
+   "sentido": "ciência social",
+   "proibidas": [
+    "CIÊNCIA",
+    "ESCOLHA",
+    "POLÍTICA",
+    "RIQUEZA",
+    "DISTRIBUIÇÃO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4326,
+   "artigo": "Economia",
+   "url": "https://pt.wikipedia.org/wiki/Economia"
+  },
+  {
+   "palavra": "CRÂNIO",
+   "sentido": "estrutura óssea que forma o esqueleto da cabeça",
+   "proibidas": [
+    "OSSO",
+    "TEMPORAL",
+    "INTERNO",
+    "ÓRGÃOS",
+    "CÉREBRO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4332,
+   "artigo": "Crânio",
+   "url": "https://pt.wikipedia.org/wiki/Cr%C3%A2nio"
+  },
+  {
+   "palavra": "PSIQUIATRA",
+   "sentido": "profissional da Psiquiatria",
+   "proibidas": [
+    "MÉDICO",
+    "DOENÇA",
+    "MEDICINA",
+    "TREINAMENTO",
+    "EXAME"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4336,
+   "artigo": "Psiquiatra",
+   "url": "https://pt.wikipedia.org/wiki/Psiquiatra"
+  },
+  {
+   "palavra": "AUDIÇÃO",
+   "sentido": "percepção sensorial do som por organismos vivos",
+   "proibidas": [
+    "ORELHA",
+    "NERVOSO",
+    "CABEÇA",
+    "MÚSCULO",
+    "CADEIA"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4367,
+   "artigo": "Audição",
+   "url": "https://pt.wikipedia.org/wiki/Audi%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "BONDADE",
+   "sentido": "Oposto da maldade",
+   "proibidas": [
+    "DISPOSIÇÃO",
+    "GENTILEZA",
+    "AGRADÁVEL",
+    "PREOCUPAÇÃO",
+    "PERFEIÇÃO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4383,
+   "artigo": "Bondade",
+   "url": "https://pt.wikipedia.org/wiki/Bondade"
+  },
+  {
+   "palavra": "ELEIÇÃO",
+   "sentido": "processo pelo qual uma população escolhe indivíduos para cargos públicos",
+   "proibidas": [
+    "VOTO",
+    "COMUNIDADE",
+    "VOTAÇÃO",
+    "ASSENTO",
+    "POVO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4392,
+   "artigo": "Eleição",
+   "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "ÁLBUM",
+   "sentido": "coleção de músicas, palavras e sons",
+   "proibidas": [
+    "DISCO",
+    "MUSICAL",
+    "ÁUDIO",
+    "FITA",
+    "FORMATO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4449,
+   "artigo": "Álbum",
+   "url": "https://pt.wikipedia.org/wiki/%C3%81lbum"
+  },
+  {
+   "palavra": "JORNALISTA",
+   "sentido": "pessoa que coleta, escreve e distribui notícias e outros tipos de informação",
+   "proibidas": [
+    "NOTÍCIAS",
+    "IMPRENSA",
+    "REPÓRTER",
+    "ENTREVISTA",
+    "INFORMAÇÃO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4493,
+   "artigo": "Jornalista",
+   "url": "https://pt.wikipedia.org/wiki/Jornalista"
+  },
+  {
+   "palavra": "JANEIRO",
+   "sentido": "primeiro mês do ano no calendário gregoriano com 31 dias",
+   "proibidas": [
+    "CALENDÁRIO",
+    "NORTE",
+    "DEZEMBRO",
+    "INVERNO",
+    "SANTA"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4498,
+   "artigo": "Janeiro",
+   "url": "https://pt.wikipedia.org/wiki/Janeiro"
+  },
+  {
+   "palavra": "FÍGADO",
+   "sentido": "órgão do sistema digestivo",
+   "proibidas": [
+    "ÓRGÃOS",
+    "DIREITO",
+    "PESO",
+    "COSTELA",
+    "ESQUERDO"
+   ],
+   "dificuldade": "difícil",
+   "posicao": 4507,
+   "artigo": "Fígado",
+   "url": "https://pt.wikipedia.org/wiki/F%C3%ADgado"
+  }
+ ]
+}
