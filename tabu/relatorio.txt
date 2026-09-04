@@ -1,42 +1,118 @@
 gerado em 2026-09-04
-99 cartas de 300 artigos lidos
+221 cartas de 573 artigos lidos
 
-dificuldade: fácil 33, média 33, difícil 33
+dificuldade: fácil 55, média 83, difícil 83
 
 o que caiu e por quê
-    448  sem artigo na Wikipédia
-    413  página de desambiguação
-    205  sem descrição no Wikidata
-    161  resumo curto
-     54  artigo curto
-      3  não é conceito: desambiguação
+    689  sem artigo na Wikipédia
+    592  página de desambiguação
+    324  sem descrição no Wikidata
+    242  resumo curto
+    104  artigo curto
+     99  5ª proibida fraca
+     10  descrição de nome próprio: estado dos Estados Unidos
+      4  descrição de nome próprio: continente
+      4  não é conceito: desambiguação
+      3  descrição de nome próprio: município de Portugal
+      2  descrição de nome próprio: país no noroeste da Europa, parte do Rei
+      2  descrição de nome próprio: país na América do Norte
+      2  descrição de nome próprio: município brasileiro do estado de Santa
+      2  descrição de nome próprio: país na América do Sul
+      2  descrição de nome próprio: município brasileiro do estado de Minas
+      2  não é conceito: pessoa
       1  descrição de nome próprio: empresa de telecomunicações brasileira
       1  descrição de nome próprio: marca comerical de telecomunicações bras
       1  descrição de nome próprio: processo mental de pensamento envolvendo
       1  descrição de nome próprio: empresa que fornece alojamento temporári
       1  descrição de nome próprio: Rei de Israel e Judá
+      1  descrição de nome próprio: cidade no Líbano Meridional, Líbano
+      1  descrição de nome próprio: freguesia do município da Guarda, Portug
+      1  descrição de nome próprio: capital e maior cidade da França
+      1  descrição de nome próprio: capital e maior cidade da Inglaterra e d
       1  descrição de nome próprio: filme de 2018 dirigido por André Novais
       1  descrição de nome próprio: personagem bíblico, Governador da Babilô
+      1  descrição de nome próprio: país na Europa Ocidental
+      1  descrição de nome próprio: autoridade máxima do executivo em uma ci
       1  descrição de nome próprio: série de perguntas e respostas
       1  descrição de nome próprio: Titã Grego
       1  descrição de nome próprio: extinto site de choque brasileiro
+      1  descrição de nome próprio: capital da Itália
+      1  descrição de nome próprio: município brasileiro do estado de Mato G
       1  descrição de nome próprio: afirmação expressa para transmitir segur
+      1  descrição de nome próprio: país na Ásia
+      1  descrição de nome próprio: país da Europa Central
       1  descrição de nome próprio: veículo equipado para transportar e cuid
+      1  descrição de nome próprio: povoação que tem categoria superior a um
+      1  descrição de nome próprio: região da Itália
+      1  descrição de nome próprio: comunidade ou região dentro de uma cidad
+      1  descrição de nome próprio: país na Ásia Meridional
+      1  descrição de nome próprio: região escura projetada por um objeto pe
+      1  descrição de nome próprio: município do Distrito do Porto, em Portu
       1  descrição de nome próprio: pessoa que interpreta um personagem em u
+      1  descrição de nome próprio: principal cidade de uma entidade polític
       1  descrição de nome próprio: filme de 1941 dirigido por Alfred Hitchc
+      1  descrição de nome próprio: capital do estado de Massachusetts, Esta
       1  descrição de nome próprio: filme de 2020 dirigido por André Øvredal
+      1  descrição de nome próprio: país insular na Ásia Oriental
+      1  descrição de nome próprio: símbolo visual de um estado soberana, pa
+      1  descrição de nome próprio: país eurasiático
+      1  descrição de nome próprio: país no sul da Europa
       1  descrição de nome próprio: Marca de amaciante de propriedade da Uni
-      1  descrição de nome próprio: município brasileiro do estado de Santa
+      1  descrição de nome próprio: cidade no estado da Flórida, Estados Uni
+      1  descrição de nome próprio: país europeu
       1  descrição de nome próprio: marca manuscrita feita como prova de ide
+      1  descrição de nome próprio: capital e maior cidade da Alemanha
       1  descrição de nome próprio: grupo de empresas que fabricam produtos
       1  descrição de nome próprio: jornalista que pesquisa a informação apr
       1  descrição de nome próprio: cidade em Santa Catarina
+      1  descrição de nome próprio: município dos Açores, Portugal
       1  descrição de nome próprio: canção de Vanessa Rangel
+      1  descrição de nome próprio: período prolongado em que uma região reg
       1  descrição de nome próprio: Personagem da literatura medieval
       1  descrição de nome próprio: anúncio para um filme ou série
+      1  descrição de nome próprio: país no Oriente Médio
+      1  descrição de nome próprio: país na Ásia Ocidental
       1  descrição de nome próprio: herói da mitologia grega
+      1  descrição de nome próprio: capital da República Tcheca
+      1  descrição de nome próprio: pessoa que não é um cidadão ou natural d
       1  descrição de nome próprio: filme de 2019 dirigido por Rupert Goold
-      1  não é conceito: pessoa
+      1  descrição de nome próprio: município no estado de São Paulo, no Bra
+      1  descrição de nome próprio: município brasileiro no estado do Rio Gr
+      1  descrição de nome próprio: município brasileiro, e a capital do est
+      1  descrição de nome próprio: país transcontinental, localizado na Áfr
+      1  descrição de nome próprio: país da Oceania
+      1  descrição de nome próprio: país da Ásia
+      1  descrição de nome próprio: município capital do estado brasileiro d
+      1  descrição de nome próprio: estado da matéria
+      1  descrição de nome próprio: país na Ásia Central e Meridional
+      1  descrição de nome próprio: capital do estado do Texas, Estados Unid
+      1  descrição de nome próprio: município do Estado de Santa Catarina
+      1  descrição de nome próprio: capital e maior cidade do Japão
+      1  descrição de nome próprio: profeta bíblico e corânico
+      1  descrição de nome próprio: antiga freguesia do Município de Arcos d
+      1  descrição de nome próprio: cidade no estado da Pensilvânia, Estados
+      1  descrição de nome próprio: país insular no Caribe
+      1  descrição de nome próprio: personagem mau em uma história
+      1  descrição de nome próprio: personificação de um personagem em uma a
+      1  descrição de nome próprio: país na Europa Central
+      1  descrição de nome próprio: município brasileiro, capital do estado
+      1  descrição de nome próprio: país no noroeste da Europa
+      1  descrição de nome próprio: cidade no estado do Michigan, Estados Un
+      1  descrição de nome próprio: pai dos pais de alguém
+      1  descrição de nome próprio: capital do estado da Geórgia, Estados Un
+      1  descrição de nome próprio: Deus grego da guerra
+      1  descrição de nome próprio: movimento de pessoas para outro país ou
+      1  descrição de nome próprio: cidade na Ásia Ocidental, reivindicada p
+      1  descrição de nome próprio: cantora e dançarina sueca
+      1  descrição de nome próprio: país na Europa
+      1  descrição de nome próprio: capital e maior cidade da Áustria
+      1  descrição de nome próprio: cidade italiana
+      1  descrição de nome próprio: empresa multinacional americana de tecno
+      1  descrição de nome próprio: profeta no judaismo e islamismo, lider r
+      1  descrição de nome próprio: sítio autoral que publica periodicamente
+      1  descrição de nome próprio: país asiático
+      1  descrição de nome próprio: comuna italiana
+      1  descrição de nome próprio: país da Europa
 
 detalhe (só os que chegaram a ter artigo lido)
   noite: artigo curto (929 car.)
@@ -61,7 +137,6 @@ detalhe (só os que chegaram a ter artigo lido)
   norte: artigo curto (1512 car.)
   direção: artigo curto (741 car.)
   clube: artigo curto (1049 car.)
-  pega: artigo curto (1642 car.)
   verão: artigo curto (1520 car.)
   bomba: artigo curto (703 car.)
   coragem: artigo curto (1506 car.)
@@ -74,6 +149,23 @@ detalhe (só os que chegaram a ter artigo lido)
   orgulho: artigo curto (1685 car.)
   oeste: artigo curto (763 car.)
   leste: artigo curto (473 car.)
+  fábrica: artigo curto (1792 car.)
+  corda: artigo curto (845 car.)
+  padrão: artigo curto (862 car.)
+  funeral: artigo curto (1640 car.)
+  fila: artigo curto (915 car.)
+  pesadelo: artigo curto (1247 car.)
+  estúdio: artigo curto (1591 car.)
+  uniforme: artigo curto (969 car.)
+  equipamento: artigo curto (673 car.)
+  botão: artigo curto (1399 car.)
+  coincidência: artigo curto (1562 car.)
+  torta: artigo curto (841 car.)
+  amém: artigo curto (1495 car.)
+  tripulação: artigo curto (785 car.)
+  papo: artigo curto (801 car.)
+  veículo: artigo curto (702 car.)
+  localização: artigo curto (1329 car.)
   cadáver: artigo curto (766 car.)
   espetáculo: artigo curto (480 car.)
   princípio: artigo curto (1082 car.)
@@ -93,3 +185,136 @@ detalhe (só os que chegaram a ter artigo lido)
   mochila: artigo curto (739 car.)
   tubo: artigo curto (733 car.)
   barra: artigo curto (1620 car.)
+  hall: artigo curto (1371 car.)
+  motel: artigo curto (1219 car.)
+  sotaque: artigo curto (919 car.)
+  rancho: artigo curto (1524 car.)
+  condado: artigo curto (967 car.)
+  celeiro: artigo curto (490 car.)
+  medalha: artigo curto (904 car.)
+  cinza: artigo curto (1437 car.)
+  blusa: artigo curto (1119 car.)
+  punição: artigo curto (1621 car.)
+  feriado: artigo curto (1625 car.)
+  vaso: artigo curto (695 car.)
+  lança: artigo curto (1579 car.)
+  herança: artigo curto (952 car.)
+  lâmina: artigo curto (921 car.)
+  fusão: artigo curto (1722 car.)
+  bosque: artigo curto (1534 car.)
+  envelope: artigo curto (980 car.)
+  barão: artigo curto (1594 car.)
+  calcinha: artigo curto (649 car.)
+  necrotério: artigo curto (476 car.)
+  fritas: artigo curto (1194 car.)
+  morro: artigo curto (789 car.)
+  cristão: artigo curto (1407 car.)
+  espadas: artigo curto (1589 car.)
+  fruta: artigo curto (610 car.)
+  asilo: artigo curto (1523 car.)
+  diagnóstico: artigo curto (1526 car.)
+  fotógrafo: artigo curto (1376 car.)
+  volante: artigo curto (1771 car.)
+  essência: artigo curto (593 car.)
+  homenagem: artigo curto (1275 car.)
+  delta: artigo curto (1480 car.)
+  recibo: artigo curto (1419 car.)
+  casa: 5ª proibida fraca (27% da 1ª)
+  dinheiro: 5ª proibida fraca (20% da 1ª)
+  coração: 5ª proibida fraca (22% da 1ª)
+  jogo: 5ª proibida fraca (24% da 1ª)
+  escola: 5ª proibida fraca (21% da 1ª)
+  terra: 5ª proibida fraca (19% da 1ª)
+  música: 5ª proibida fraca (27% da 1ª)
+  governo: 5ª proibida fraca (28% da 1ª)
+  prova: 5ª proibida fraca (21% da 1ª)
+  loucura: 5ª proibida fraca (26% da 1ª)
+  paul: 5ª proibida fraca (12% da 1ª)
+  padre: 5ª proibida fraca (27% da 1ª)
+  rainha: 5ª proibida fraca (16% da 1ª)
+  azul: 5ª proibida fraca (17% da 1ª)
+  vermelho: 5ª proibida fraca (24% da 1ª)
+  ônibus: 5ª proibida fraca (26% da 1ª)
+  rádio: 5ª proibida fraca (18% da 1ª)
+  brilhante: 5ª proibida fraca (20% da 1ª)
+  navio: 5ª proibida fraca (17% da 1ª)
+  floresta: 5ª proibida fraca (26% da 1ª)
+  soldado: 5ª proibida fraca (24% da 1ª)
+  responsabilidade: 5ª proibida fraca (24% da 1ª)
+  espada: 5ª proibida fraca (17% da 1ª)
+  internet: 5ª proibida fraca (14% da 1ª)
+  rock: 5ª proibida fraca (25% da 1ª)
+  neve: 5ª proibida fraca (22% da 1ª)
+  queijo: 5ª proibida fraca (20% da 1ª)
+  arquivo: 5ª proibida fraca (16% da 1ª)
+  sono: 5ª proibida fraca (21% da 1ª)
+  inteligência: 5ª proibida fraca (27% da 1ª)
+  motor: 5ª proibida fraca (22% da 1ª)
+  piscina: 5ª proibida fraca (26% da 1ª)
+  delegacia: 5ª proibida fraca (20% da 1ª)
+  cigarro: 5ª proibida fraca (22% da 1ª)
+  revista: 5ª proibida fraca (24% da 1ª)
+  chef: 5ª proibida fraca (17% da 1ª)
+  marinha: 5ª proibida fraca (19% da 1ª)
+  acusação: 5ª proibida fraca (22% da 1ª)
+  gasolina: 5ª proibida fraca (18% da 1ª)
+  bicicleta: 5ª proibida fraca (16% da 1ª)
+  colégio: 5ª proibida fraca (13% da 1ª)
+  primavera: 5ª proibida fraca (19% da 1ª)
+  matéria: 5ª proibida fraca (20% da 1ª)
+  correio: 5ª proibida fraca (22% da 1ª)
+  flor: 5ª proibida fraca (27% da 1ª)
+  piano: 5ª proibida fraca (23% da 1ª)
+  combustível: 5ª proibida fraca (26% da 1ª)
+  aventura: 5ª proibida fraca (21% da 1ª)
+  boneca: 5ª proibida fraca (19% da 1ª)
+  sapato: 5ª proibida fraca (18% da 1ª)
+  adulto: 5ª proibida fraca (26% da 1ª)
+  caverna: 5ª proibida fraca (27% da 1ª)
+  golfe: 5ª proibida fraca (27% da 1ª)
+  setembro: 5ª proibida fraca (17% da 1ª)
+  tristeza: 5ª proibida fraca (24% da 1ª)
+  laranja: 5ª proibida fraca (12% da 1ª)
+  tratado: 5ª proibida fraca (26% da 1ª)
+  folha: 5ª proibida fraca (26% da 1ª)
+  frequência: 5ª proibida fraca (17% da 1ª)
+  amarelo: 5ª proibida fraca (23% da 1ª)
+  brinquedo: 5ª proibida fraca (15% da 1ª)
+  economia: 5ª proibida fraca (25% da 1ª)
+  distrito: 5ª proibida fraca (25% da 1ª)
+  crânio: 5ª proibida fraca (25% da 1ª)
+  audição: 5ª proibida fraca (15% da 1ª)
+  liderança: 5ª proibida fraca (25% da 1ª)
+  escrita: 5ª proibida fraca (28% da 1ª)
+  jersey: 5ª proibida fraca (16% da 1ª)
+  votação: 5ª proibida fraca (13% da 1ª)
+  pato: 5ª proibida fraca (19% da 1ª)
+  novembro: 5ª proibida fraca (22% da 1ª)
+  xadrez: 5ª proibida fraca (24% da 1ª)
+  radar: 5ª proibida fraca (21% da 1ª)
+  dezembro: 5ª proibida fraca (26% da 1ª)
+  diamante: 5ª proibida fraca (19% da 1ª)
+  gravidez: 5ª proibida fraca (17% da 1ª)
+  ilusão: 5ª proibida fraca (24% da 1ª)
+  galáxia: 5ª proibida fraca (16% da 1ª)
+  nojo: 5ª proibida fraca (24% da 1ª)
+  argumento: 5ª proibida fraca (10% da 1ª)
+  bigode: 5ª proibida fraca (22% da 1ª)
+  crítica: 5ª proibida fraca (14% da 1ª)
+  bife: 5ª proibida fraca (18% da 1ª)
+  lavanderia: 5ª proibida fraca (25% da 1ª)
+  engenharia: 5ª proibida fraca (24% da 1ª)
+  fevereiro: 5ª proibida fraca (26% da 1ª)
+  tornado: 5ª proibida fraca (23% da 1ª)
+  poeta: 5ª proibida fraca (22% da 1ª)
+  pirata: 5ª proibida fraca (20% da 1ª)
+  sindicato: 5ª proibida fraca (24% da 1ª)
+  seda: 5ª proibida fraca (23% da 1ª)
+  boliche: 5ª proibida fraca (26% da 1ª)
+  dimensão: 5ª proibida fraca (22% da 1ª)
+  pôquer: 5ª proibida fraca (24% da 1ª)
+  levada: 5ª proibida fraca (26% da 1ª)
+  bico: 5ª proibida fraca (18% da 1ª)
+  estoque: 5ª proibida fraca (20% da 1ª)
+  farmácia: 5ª proibida fraca (27% da 1ª)
+  boxe: 5ª proibida fraca (26% da 1ª)

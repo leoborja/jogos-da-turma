@@ -115,7 +115,9 @@ vadia puta putas piranha vagabunda cadela biscate rapariga
 caralho porra buceta cu cuzao foda fodido merda bosta viado bicha
 sapatao traveco crioulo macaco preta retardado mongoloide aleijado
 suicidio estupro estuprador pedofilia aborto incesto
-overdose heroina cocaina maconha crack
+overdose heroina cocaina maconha crack baseado
+penis vagina vulva clitoris testiculo esperma orgasmo masturbacao
+sexo lesbica gay heterossexual travesti transexual
 """.split())
 VETADAS_CHAVE |= PESADAS
 
@@ -133,6 +135,8 @@ fica ficam deixa deixam mostra mostram conta contam trata tratam apresenta
 serve servem parte partem volta voltam segue seguem cria criam gera geram
 carrega leve dispoe disposto disposta mesma mesmo maiores menores suficiente
 imediato delicada novidade astro alfa socio virtude juizes atriz cobre
+nada deve gira perca vulgar boa boas inves carater permanente momento passo
+gen figura contexto laco extrema perfil sujeito
 """.split())
 
 VETADAS_PROIBIDA |= PESADAS

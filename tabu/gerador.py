@@ -16,9 +16,13 @@ pessoa usaria pra explicar ISTO?". A resposta não é opinião — é medida:
 
   dificuldade    é a posição da palavra-chave na lista de frequência.
 
+O teto de --cartas é por faixa, não total: nunca se raspa mais de 70% de uma
+faixa, porque só existem tantas palavras muito comuns e o fundo da faixa
+"fácil" é onde mora a carta ruim.
+
 Uso:
-    python3 gerador.py                # gera o baralho
-    python3 gerador.py --cartas 100   # quantas cartas no fim
+    python3 gerador.py                # gera o baralho (221 cartas hoje)
+    python3 gerador.py --cartas 400   # sobe o teto por faixa
     python3 gerador.py --sem-cache    # ignora cache/ e rebaixa tudo
 
 Saídas:
@@ -207,6 +211,12 @@ DESCRICAO_SUSPEITA = re.compile(
     r"imperador|papa |ap[óo]stolo|patriarca|s[íi]tio|site|website|jogo eletr|"
     r"empresa|marca|banda|[áa]lbum|can[çc][ãa]o|filme|s[ée]rie|programa de|revista|"
     r"jornal|editora|partido|clube de|equipa|equipe de|sele[çc][ãa]o|"
+    # Lugar: o artigo do topônimo sequestra a palavra comum — "Guarda" vira
+    # município de Portugal, "Praga" vira capital tcheca, "Palmas" vira
+    # município do Tocantins. Perde-se Paris junto; vale a troca.
+    r"munic[íi]pio|cidade|capital|comuna|distrito|freguesia|vila |aldeia|"
+    r"estado (dos|do|da|norte-|brasileiro|federado)|prov[íi]ncia|condado|"
+    r"pa[íi]s |continente|regi[ãa]o |ilha |arquip[ée]lago|"
     r"nome (pr[óo]prio|masculino|feminino|de batismo)|sobrenome|apelido|"
     r"personalidade|cantor|ator|atriz|escritor|pol[íi]tico brasileiro|futebolista)",
     re.IGNORECASE)
@@ -313,7 +323,9 @@ class Extrator:
                     continue
                 if perto(sem(lema), salvo):
                     continue
-                tf[r] += peso * (1.0 if é_subst else 0.6)
+                if not é_subst:      # adjetivo puro não trava ninguém: "fresca",
+                    continue         # "antigos", "necessária" não é o que se diz
+                tf[r] += peso
                 if r not in forma or self.freq.get(lema, 0) > self.freq.get(forma[r], 0):
                     forma[r] = lema
 
@@ -344,8 +356,8 @@ def dificuldade(pos):
 def main():
     global SEM_CACHE
     ap = argparse.ArgumentParser()
-    ap.add_argument("--cartas", type=int, default=110, help="quantas cartas no baralho")
-    ap.add_argument("--candidatos", type=int, default=6000,
+    ap.add_argument("--cartas", type=int, default=250, help="teto de cartas no baralho")
+    ap.add_argument("--candidatos", type=int, default=9000,
                     help="até que posição da lista de frequência procurar")
     ap.add_argument("--sem-cache", action="store_true")
     a = ap.parse_args()
@@ -422,8 +434,8 @@ def main():
         top = ex.proibidas(w, art["texto"])
         if len(top) < 5:
             falhas.append((w, "menos de 5 proibidas")); continue
-        if top[4][0] < 2.0:
-            falhas.append((w, f"5ª proibida fraca ({top[4][0]:.2f})")); continue
+        if top[4][0] < 0.28 * top[0][0]:
+            falhas.append((w, f"5ª proibida fraca ({top[4][0]/top[0][0]:.0%} da 1ª)")); continue
         cartas.append({
             "palavra": w.upper(),
             "sentido": art["descricao"],
@@ -435,15 +447,16 @@ def main():
             "url": art["url"],
         })
 
-    # as melhores de cada faixa, em partes iguais — e o resto no geral
-    escolhidas, cota = [], a.cartas // 3
+    # As melhores de cada faixa, em partes iguais. A faixa "fácil" é finita —
+    # só existem tantas palavras muito comuns —, então nunca raspamos mais de
+    # 70% dela: o fundo de uma faixa magra é onde mora a carta ruim.
+    escolhidas = []
     for f in ("fácil", "média", "difícil"):
         da_faixa = sorted((c for c in cartas if c["dificuldade"] == f),
                           key=lambda c: -min(c["forca"]))
+        cota = min(a.cartas // 3, int(len(da_faixa) * 0.7))
         escolhidas += da_faixa[:cota]
-    resto = sorted((c for c in cartas if c not in escolhidas),
-                   key=lambda c: -min(c["forca"]))
-    escolhidas += resto[: a.cartas - len(escolhidas)]
+        print(f"    {f}: {len(da_faixa)} boas, {cota} escolhidas")
     cartas = sorted(escolhidas, key=lambda c: c["posicao"])
 
     banco = {

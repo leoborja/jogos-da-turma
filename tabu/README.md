@@ -50,8 +50,14 @@ O que o gerador joga fora antes de pontuar: palavra de função, forma verbal,
 particípio, meta-texto de enciclopédia (etimologia, gentílico, unidade), nome
 próprio (detectado pela maiúscula no meio da frase) e qualquer palavra parecida
 demais com a própria palavra-chave — `CÂMERA` não pode ter `CÂMARA` como
-proibida. Página de desambiguação, pessoa, marca, partido e personagem caem
-antes, pelo `P31` do Wikidata e pela descrição.
+proibida. Só substantivo vira proibida: adjetivo não trava ninguém — ninguém
+perde a vez por dizer "fresca".
+
+Página de desambiguação, pessoa, marca, partido, personagem e **topônimo** caem
+antes, pelo `P31` do Wikidata e pela descrição. O topônimo importa mais do que
+parece: sem esse filtro, `GUARDA` vira o município de Portugal, `PRAGA` vira a
+capital tcheca e `PALMAS` vira a capital do Tocantins — o artigo sequestra a
+palavra comum. Perde-se `PARIS` junto, e vale a troca.
 
 [freq]: https://github.com/hermitdave/FrequencyWords
 [wikt]: https://pt.wiktionary.org
@@ -60,10 +66,15 @@ antes, pelo `P31` do Wikidata e pela descrição.
 ## Refazer o baralho
 
 ```bash
-python3 gerador.py                 # 99 cartas, 33 de cada dificuldade
-python3 gerador.py --cartas 150    # mais cartas
+python3 gerador.py                 # 221 cartas: 55 fáceis, 83 médias, 83 difíceis
+python3 gerador.py --cartas 400    # sobe o teto por faixa
 python3 gerador.py --sem-cache     # ignora cache/ e rebaixa tudo
 ```
+
+`--cartas` é teto **por faixa**, não total, e nunca se raspa mais de 70% de uma
+faixa. A faixa "fácil" é finita — só existem tantas palavras muito comuns —,
+então pedir mais cartas engorda "média" e "difícil", não "fácil". O fundo de uma
+faixa magra é justamente onde mora a carta ruim.
 
 Saídas: `banco.json` (o que o jogo lê), `revisao.csv` (uma linha por carta, pra
 conferir com o olho) e `relatorio.txt` (o que caiu e por quê). O `cache/` guarda
