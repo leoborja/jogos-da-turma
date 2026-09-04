@@ -1,0 +1,99 @@
+/* ===========================================================================
+   Jogos da Turma — visual comum a todos os jogos.
+
+   NÃO EDITE ESTE ARQUIVO PRA FAZER UM JOGO NOVO. Dois jogos sendo escritos ao
+   mesmo tempo vão brigar por ele. Se o seu jogo precisa de um estilo próprio,
+   escreva no <style> do próprio jogo — o que está aqui é só a base que todo
+   mundo divide: cor, fonte, botão, painel, aviso e a carta.
+
+   Linguagem: neobrutalismo. Contorno preto grosso, sombra dura sem blur,
+   cor chapada. Botão afunda na própria sombra quando é apertado.
+   =========================================================================== */
+
+:root{
+  color-scheme:light;
+  --preto:#141110; --papel:#FFFCF2; --branco:#fff;
+  --amarelo:#FFD23F; --coral:#FF6B6B; --azul:#74B9FF;
+  --verde:#7FE0A5; --laranja:#FFA552; --lilas:#B8A9FA;
+  --cinza:#6F6960;
+  --display:"Gabarito",system-ui,sans-serif;
+  --ui:"Space Grotesk",system-ui,-apple-system,sans-serif;
+  --b:3px solid var(--preto);
+  --sombra:5px 5px 0 var(--preto);
+  --sombra-g:8px 8px 0 var(--preto);
+}
+*{box-sizing:border-box;margin:0}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{
+  min-height:100%;font-family:var(--ui);font-size:16px;line-height:1.45;color:var(--preto);
+  background:var(--papel);
+  background-image:radial-gradient(rgba(20,17,16,.11) 1.7px,transparent 1.7px);
+  background-size:22px 22px;background-attachment:fixed;
+  padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+#app{max-width:560px;margin:0 auto;padding:20px 18px 48px}
+
+/* ---------------------------------------------------------------- carta */
+.carta{--cor:var(--amarelo);background:var(--branco);border:var(--b);border-radius:16px;
+  box-shadow:var(--sombra-g);overflow:hidden}
+.faixa{background:var(--cor);border-bottom:var(--b);padding:9px 15px;
+  display:flex;justify-content:space-between;align-items:center;gap:10px;
+  font-family:var(--display);font-weight:800;font-size:11.5px;letter-spacing:.13em;
+  text-transform:uppercase}
+.corpo{padding:18px 16px 16px}
+
+/* ---------------------------------------------------------------- painéis */
+.bloco{background:var(--branco);border:var(--b);border-radius:14px;box-shadow:var(--sombra);padding:16px}
+.rotulo{font-family:var(--display);font-weight:900;font-size:13px;letter-spacing:.11em;
+  text-transform:uppercase;margin-bottom:12px}
+.fraco{color:var(--cinza);font-size:13.5px;line-height:1.5}
+.linha{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+.entre{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.pilha>*+*{margin-top:14px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.marca{font-family:var(--display);font-weight:900;letter-spacing:-.045em;line-height:.86}
+.contador{font-family:var(--display);font-weight:800;font-size:13px;color:var(--cinza)}
+
+/* ---------------------------------------------------------------- controles */
+button,.botao{font:inherit;font-family:var(--display);font-weight:800;color:var(--preto);
+  background:var(--branco);border:var(--b);border-radius:11px;padding:11px 15px;cursor:pointer;
+  text-decoration:none;display:inline-block;-webkit-tap-highlight-color:transparent;
+  box-shadow:4px 4px 0 var(--preto);
+  transition:transform .08s ease,box-shadow .08s ease,background .12s ease}
+button:hover,.botao:hover{transform:translate(-1px,-1px);box-shadow:5px 5px 0 var(--preto)}
+button:active,.botao:active{transform:translate(4px,4px);box-shadow:0 0 0 var(--preto)}
+button:focus-visible,.botao:focus-visible{outline:3px solid var(--azul);outline-offset:3px}
+button:disabled{opacity:.4;cursor:not-allowed;box-shadow:2px 2px 0 var(--preto)}
+button.principal{width:100%;padding:17px;font-size:19px;background:var(--amarelo);
+  box-shadow:var(--sombra-g)}
+button.principal:hover{background:#ffdc63;box-shadow:9px 9px 0 var(--preto)}
+button.principal:active{transform:translate(8px,8px);box-shadow:0 0 0 var(--preto)}
+button.mini{padding:8px 12px;font-size:13.5px;border-radius:9px;box-shadow:3px 3px 0 var(--preto)}
+button.mini:active{transform:translate(3px,3px);box-shadow:0 0 0 var(--preto)}
+button.perigo{background:var(--coral)}
+button.on{background:var(--azul)}
+input,select{font:inherit;font-weight:500;color:var(--preto);background:var(--branco);
+  border:var(--b);border-radius:11px;padding:13px;width:100%}
+input::placeholder{color:#9c948a}
+input:focus,select:focus{outline:none;box-shadow:inset 3px 3px 0 rgba(116,185,255,.4)}
+label{font-size:12.5px;font-weight:700;color:var(--cinza);display:block;margin-bottom:6px}
+
+/* ---------------------------------------------------------------- feedback */
+.aviso{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;border:var(--b);
+  border-radius:13px;box-shadow:var(--sombra);font-weight:700;font-size:15.5px;line-height:1.35;
+  animation:pula .28s cubic-bezier(.2,1.3,.4,1)}
+@keyframes pula{from{opacity:0;transform:translateY(-8px) scale(.96)}}
+.aviso::before{font-family:var(--display);font-weight:900;font-size:19px;line-height:1.05;flex:0 0 auto}
+.aviso.certo{background:var(--verde)}   .aviso.certo::before{content:"✓"}
+.aviso.errado{background:var(--coral)}  .aviso.errado::before{content:"✕"}
+.aviso.duvida{background:var(--amarelo)}.aviso.duvida::before{content:"?"}
+
+/* ---------------------------------------------------------------- gavetas */
+details>summary{cursor:pointer;list-style:none;font-family:var(--display);font-weight:800;
+  font-size:14.5px;display:flex;justify-content:space-between;align-items:center}
+details>summary::-webkit-details-marker{display:none}
+details>summary::after{content:"▾";transition:transform .2s}
+details[open]>summary::after{transform:rotate(180deg)}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
