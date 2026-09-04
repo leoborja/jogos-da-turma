@@ -13,8 +13,8 @@
 :root{
   color-scheme:light;
   --preto:#141110; --papel:#FFFCF2; --branco:#fff;
-  --amarelo:#FFD23F; --coral:#FF6B6B; --azul:#74B9FF;
-  --verde:#7FE0A5; --laranja:#FFA552; --lilas:#B8A9FA;
+  --amarelo:#FFD23F; --coral:#FF6B6B; --laranja:#FFA552;
+  --verde:#7FE0A5; --rosa:#FF9CC8; --lilas:#C9A7F5;
   --cinza:#6F6960;
   --display:"Gabarito",system-ui,sans-serif;
   --ui:"Space Grotesk",system-ui,-apple-system,sans-serif;
@@ -63,7 +63,7 @@ button,.botao{font:inherit;font-family:var(--display);font-weight:800;color:var(
   transition:transform .08s ease,box-shadow .08s ease,background .12s ease}
 button:hover,.botao:hover{transform:translate(-1px,-1px);box-shadow:5px 5px 0 var(--preto)}
 button:active,.botao:active{transform:translate(4px,4px);box-shadow:0 0 0 var(--preto)}
-button:focus-visible,.botao:focus-visible{outline:3px solid var(--azul);outline-offset:3px}
+button:focus-visible,.botao:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
 button:disabled{opacity:.4;cursor:not-allowed;box-shadow:2px 2px 0 var(--preto)}
 button.principal{width:100%;padding:17px;font-size:19px;background:var(--amarelo);
   box-shadow:var(--sombra-g)}
@@ -72,11 +72,11 @@ button.principal:active{transform:translate(8px,8px);box-shadow:0 0 0 var(--pret
 button.mini{padding:8px 12px;font-size:13.5px;border-radius:9px;box-shadow:3px 3px 0 var(--preto)}
 button.mini:active{transform:translate(3px,3px);box-shadow:0 0 0 var(--preto)}
 button.perigo{background:var(--coral)}
-button.on{background:var(--azul)}
+button.on{background:var(--verde)}
 input,select{font:inherit;font-weight:500;color:var(--preto);background:var(--branco);
   border:var(--b);border-radius:11px;padding:13px;width:100%}
 input::placeholder{color:#9c948a}
-input:focus,select:focus{outline:none;box-shadow:inset 3px 3px 0 rgba(116,185,255,.4)}
+input:focus,select:focus{outline:none;box-shadow:inset 3px 3px 0 rgba(255,210,63,.55)}
 label{font-size:12.5px;font-weight:700;color:var(--cinza);display:block;margin-bottom:6px}
 
 /* ---------------------------------------------------------------- feedback */

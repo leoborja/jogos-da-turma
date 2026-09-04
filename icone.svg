@@ -4,7 +4,7 @@
   <g stroke="#141110" stroke-width="5" stroke-linejoin="round">
     <!-- a turma: três cabeças espiando por cima da carta -->
     <circle cx="30" cy="46" r="14" fill="#FF6B6B"/>
-    <circle cx="90" cy="46" r="14" fill="#74B9FF"/>
+    <circle cx="90" cy="46" r="14" fill="#7FE0A5"/>
     <circle cx="60" cy="36" r="16" fill="#FFD23F"/>
     <g fill="#141110" stroke="none">
       <circle cx="25" cy="43" r="2.6"/><circle cx="35" cy="43" r="2.6"/>

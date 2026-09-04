@@ -47,7 +47,7 @@ rode `python3 atualizar_jogos.py` de novo.
   "tagline": "Uma frase dizendo do que se trata.",
   "descricao": "Um parágrafo curto: como joga e de onde vem o conteúdo.",
   "emoji": "🎭",
-  "cor": "azul",
+  "cor": "verde",
   "jogadores": "4 a 12",
   "duracao": "30 min",
   "precisa": "um celular na mesa",
@@ -56,7 +56,7 @@ rode `python3 atualizar_jogos.py` de novo.
 ```
 
 `slug` tem que ser igual ao nome da pasta. `cor` é uma das do `comum.css`:
-`amarelo`, `coral`, `azul`, `verde`, `laranja`, `lilas` — escolha uma que
+`amarelo`, `coral`, `laranja`, `verde`, `rosa`, `lilas` — escolha uma que
 outro jogo ainda não usou. `status` é `ideia`, `construindo` ou `pronto`;
 só `pronto` fica clicável na base, e só passa na validação se existir
 `<slug>/index.html`.
