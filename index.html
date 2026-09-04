@@ -5,72 +5,149 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Top 10 — Jogos da Turma</title>
 <meta name="description" content="Jogo de Top 10 com países e línguas. Dados do Banco Mundial, Glottolog e Wikidata.">
+<meta name="theme-color" content="#0b120e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23FBF6E9'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='17' font-weight='700' text-anchor='middle' fill='%23141310'%3E10%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --fundo:#12131a; --painel:#1b1d27; --painel2:#232634; --borda:#31344a;
-  --texto:#eceefb; --fraco:#9297b5; --acento:#7c8cff; --certo:#3ddc97;
-  --errado:#ff6b6b; --aviso:#ffc857;
-  --raio:14px; --gap:12px;
+  color-scheme:dark;
+  --feltro:#0d1712; --feltro-alto:#16241d;
+  --painel:rgba(255,255,255,.045); --painel-forte:rgba(255,255,255,.08);
+  --borda:rgba(255,255,255,.11); --borda-forte:rgba(255,255,255,.2);
+  --texto:#eef2ee; --fraco:#93a49a;
+  --carta:#FBF6E9; --tinta:#171512; --tinta-fraca:#7c7566;
+  --ouro:#E9B949; --certo:#4fdf9d; --errado:#ff7a6b; --duvida:#f0c674;
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
 }
 *{box-sizing:border-box;margin:0}
 [hidden]{display:none!important}
-html,body{height:100%}
+html{-webkit-text-size-adjust:100%}
 body{
-  background:var(--fundo); color:var(--texto);
-  font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  min-height:100%;font-family:var(--sans);font-size:16px;line-height:1.45;color:var(--texto);
+  background:var(--feltro);
+  background-image:radial-gradient(ellipse 120% 70% at 50% -10%,var(--feltro-alto) 0%,var(--feltro) 62%);
+  background-attachment:fixed;
   padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
-  -webkit-text-size-adjust:100%;
 }
-#app{max-width:600px;margin:0 auto;padding:16px 16px 40px}
-h1{font-size:22px;letter-spacing:-.01em}
-h2{font-size:15px;text-transform:uppercase;letter-spacing:.08em;color:var(--fraco);font-weight:600}
+#app{max-width:560px;margin:0 auto;padding:18px 16px 44px}
 .tela{display:none}.tela.on{display:block}
-.cartao{background:var(--painel);border:1px solid var(--borda);border-radius:var(--raio);padding:16px;margin-bottom:var(--gap)}
+.pilha>*+*{margin-top:14px}
+
+/* ---------------------------------------------------------- a carta */
+.carta{
+  position:relative;background:linear-gradient(168deg,#FEFBF3 0%,#F4EDDC 100%);
+  color:var(--tinta);border-radius:20px;padding:22px 20px 18px;
+  box-shadow:0 22px 45px -18px rgba(0,0,0,.85),0 3px 10px -4px rgba(0,0,0,.5),
+             inset 0 1px 0 rgba(255,255,255,.85);
+}
+.carta::after{content:"";position:absolute;inset:9px;border:1px solid rgba(23,21,18,.14);
+  border-radius:13px;pointer-events:none}
+.carta.entra{animation:sobe .34s cubic-bezier(.2,.9,.25,1)}
+@keyframes sobe{from{opacity:0;transform:translateY(14px) rotate(-1.2deg) scale(.97)}}
+.selo{display:flex;justify-content:space-between;align-items:center;gap:10px;
+  font-size:10.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--tinta-fraca);margin-bottom:14px}
+.pergunta{font-family:var(--serif);font-weight:800;font-size:clamp(27px,7.4vw,37px);
+  line-height:1.06;letter-spacing:-.022em;text-wrap:balance}
+.meta{font-size:12px;line-height:1.5;color:var(--tinta-fraca);margin-top:14px}
+.pips{display:flex;gap:5px;margin-top:13px;align-items:center}
+.pip{width:100%;height:7px;border-radius:99px;background:rgba(23,21,18,.13);
+  transition:background .25s ease}
+.pip.on{background:#1f9d63}
+.restam{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--tinta-fraca);margin-top:9px}
+
+/* ---------------------------------------------------------- painéis */
+.bloco{background:var(--painel);border:1px solid var(--borda);border-radius:16px;padding:15px}
+.rotulo{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ouro);margin-bottom:11px}
+.fraco{color:var(--fraco);font-size:13.5px;line-height:1.5}
 .linha{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
-.entre{display:flex;justify-content:space-between;align-items:center;gap:8px}
-button{
-  font:inherit;font-weight:600;color:var(--texto);background:var(--painel2);
-  border:1px solid var(--borda);border-radius:10px;padding:11px 15px;cursor:pointer;
-  -webkit-tap-highlight-color:transparent;
-}
-button:hover{border-color:var(--acento)}
-button:disabled{opacity:.4;cursor:not-allowed}
-button.principal{background:var(--acento);border-color:var(--acento);color:#0d0f18;width:100%;padding:15px;font-size:17px}
-button.perigo{color:var(--errado)}
-button.mini{padding:7px 11px;font-size:14px;font-weight:500}
-button.on{background:var(--acento);border-color:var(--acento);color:#0d0f18}
-input,select{
-  font:inherit;color:var(--texto);background:var(--painel2);border:1px solid var(--borda);
-  border-radius:10px;padding:12px;width:100%;
-}
-input:focus,select:focus{outline:2px solid var(--acento);outline-offset:-1px}
-label{font-size:13px;color:var(--fraco);display:block;margin-bottom:5px}
-.fraco{color:var(--fraco);font-size:13px}
-.pergunta{font-size:25px;line-height:1.25;font-weight:700;letter-spacing:-.02em;margin-bottom:10px}
-.meta{font-size:12.5px;color:var(--fraco)}
-.jogador{display:flex;justify-content:space-between;align-items:center;padding:9px 12px;border-radius:10px;background:var(--painel2);border:1px solid transparent}
-.jogador.vez{border-color:var(--acento);background:#242a4d}
-.jogador.fora{opacity:.35}
-.jogador+.jogador{margin-top:6px}
-.vidas{letter-spacing:2px;font-size:15px}
-.lista{list-style:none;display:grid;gap:5px}
-.item{display:flex;gap:10px;align-items:baseline;padding:9px 11px;border-radius:9px;background:var(--painel2);font-size:15px}
-.item .pos{color:var(--fraco);font-variant-numeric:tabular-nums;min-width:22px;font-size:13px}
-.item .val{margin-left:auto;color:var(--fraco);font-size:13px;font-variant-numeric:tabular-nums;text-align:right}
-.item.oculto .nome,.item.oculto .val{filter:blur(6px);user-select:none}
-.item.achado{background:#1c3a2e;color:var(--certo)}
-.aviso{padding:12px 14px;border-radius:10px;font-size:15px;font-weight:600;margin-bottom:var(--gap)}
-.aviso.certo{background:#173d2f;color:var(--certo)}
-.aviso.errado{background:#3d1c1f;color:var(--errado)}
-.aviso.duvida{background:#3d3320;color:var(--aviso)}
+.entre{display:flex;justify-content:space-between;align-items:center;gap:10px}
+
+/* ---------------------------------------------------------- controles */
+button{font:inherit;font-weight:600;color:var(--texto);background:var(--painel-forte);
+  border:1px solid var(--borda);border-radius:11px;padding:11px 15px;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;transition:transform .1s,border-color .15s,background .15s}
+button:hover{border-color:var(--borda-forte)}
+button:active{transform:scale(.97)}
+button:disabled{opacity:.35;cursor:not-allowed}
+button.principal{width:100%;padding:16px;font-size:17px;font-weight:700;letter-spacing:.01em;
+  background:var(--ouro);border-color:var(--ouro);color:#1a1405;
+  box-shadow:0 8px 22px -10px rgba(233,185,73,.75)}
+button.principal:hover{background:#f2c65e;border-color:#f2c65e}
+button.mini{padding:8px 12px;font-size:13.5px;font-weight:600;border-radius:9px}
+button.perigo{color:var(--errado);border-color:rgba(255,122,107,.3)}
+button.on{background:rgba(233,185,73,.15);border-color:rgba(233,185,73,.55);color:var(--ouro)}
+button.modo,button.mini{opacity:.62}
+button.modo.on,button.mini.on{opacity:1}
+#lista-jogadores button,#contestantes button,#acoes-juiz button,#passou{opacity:1}
+#btn-palpite{background:var(--ouro);border-color:var(--ouro);color:#1a1405;opacity:1;
+  padding:13px 18px;font-weight:700}
+#btn-palpite:hover{background:#f2c65e}
+input,select{font:inherit;color:var(--texto);background:rgba(0,0,0,.28);
+  border:1px solid var(--borda);border-radius:11px;padding:13px;width:100%}
+input::placeholder{color:#6d7c73}
+input:focus,select:focus{outline:none;border-color:var(--ouro);box-shadow:0 0 0 3px rgba(233,185,73,.16)}
+label{font-size:12.5px;color:var(--fraco);display:block;margin-bottom:6px}
+
+/* ---------------------------------------------------------- jogadores */
+.jogadores{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}
+.jogadores::-webkit-scrollbar{display:none}
+.jogador{flex:0 0 auto;display:flex;flex-direction:column;gap:5px;align-items:center;
+  padding:9px 15px;border-radius:13px;background:var(--painel);border:1px solid var(--borda);
+  transition:all .2s}
+.jogador span:first-child{font-weight:600;font-size:14.5px;white-space:nowrap}
+.jogador.vez{background:rgba(233,185,73,.14);border-color:var(--ouro);
+  box-shadow:0 0 0 3px rgba(233,185,73,.12)}
+.jogador.fora{opacity:.32}
+.vidas{display:flex;gap:4px;font-size:11px;color:var(--ouro);letter-spacing:1px}
+.jogador.fora .vidas{color:var(--fraco);letter-spacing:0;font-size:10.5px;font-weight:700;
+  text-transform:uppercase}
+
+/* ---------------------------------------------------------- feedback */
+.aviso{display:flex;gap:11px;align-items:flex-start;padding:14px 16px;border-radius:14px;
+  font-size:15px;font-weight:600;line-height:1.4;border:1px solid;animation:aparece .22s ease}
+@keyframes aparece{from{opacity:0;transform:translateY(-6px)}}
+.aviso::before{font-family:var(--serif);font-size:17px;line-height:1.15;flex:0 0 auto}
+.aviso.certo{background:rgba(79,223,157,.11);border-color:rgba(79,223,157,.32);color:var(--certo)}
+.aviso.certo::before{content:"✓"}
+.aviso.errado{background:rgba(255,122,107,.11);border-color:rgba(255,122,107,.32);color:var(--errado)}
+.aviso.errado::before{content:"✕"}
+.aviso.duvida{background:rgba(240,198,116,.1);border-color:rgba(240,198,116,.3);color:var(--duvida)}
+.aviso.duvida::before{content:"?"}
+
+/* ---------------------------------------------------------- gabarito */
+.lista{list-style:none;padding:0;display:grid;gap:5px}
+.item{display:flex;gap:11px;align-items:baseline;padding:10px 12px;border-radius:10px;
+  background:rgba(0,0,0,.24);font-size:15px}
+.item .pos{font-family:var(--serif);font-weight:800;color:var(--fraco);
+  font-variant-numeric:tabular-nums;min-width:20px;font-size:14px}
+.item .val{margin-left:auto;color:var(--fraco);font-size:12.5px;
+  font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.item.oculto .nome,.item.oculto .val{filter:blur(7px);user-select:none}
+.item.achado{background:rgba(79,223,157,.13);color:var(--certo)}
+.item.achado .pos,.item.achado .val{color:var(--certo);opacity:.75}
+details>summary{cursor:pointer;list-style:none;font-size:13.5px;font-weight:600;color:var(--fraco);
+  display:flex;justify-content:space-between;align-items:center}
+details>summary::-webkit-details-marker{display:none}
+details>summary::after{content:"▾";transition:transform .2s}
+details[open]>summary::after{transform:rotate(180deg)}
+
+/* ---------------------------------------------------------- diversos */
 .chips{display:flex;gap:6px;flex-wrap:wrap}
-.dito{font-size:13px;padding:4px 9px;border-radius:99px;background:var(--painel2);color:var(--fraco)}
-.dito.certo{color:var(--certo)}.dito.errado{color:var(--errado)}
-details summary{cursor:pointer;color:var(--fraco);font-size:14px;padding:6px 0}
-.pilha>*+*{margin-top:var(--gap)}
-#titulo-palpite{text-transform:none;font-size:16px;color:var(--texto);letter-spacing:0}
-.grade2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.contador{font-variant-numeric:tabular-nums}
+.dito{font-size:12.5px;font-weight:600;padding:5px 10px;border-radius:99px;
+  background:rgba(0,0,0,.28);color:var(--fraco);border:1px solid transparent}
+.dito.certo{color:var(--certo);border-color:rgba(79,223,157,.28)}
+.dito.errado{color:var(--errado);border-color:rgba(255,122,107,.26)}
+.grade2{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.modo{padding:14px 12px;text-align:center;line-height:1.3;border-radius:13px}
+.contador{font-variant-numeric:tabular-nums;font-size:12.5px;color:var(--fraco)}
+.marca{font-family:var(--serif);font-weight:800;letter-spacing:-.03em;line-height:.88}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
 <body>
@@ -78,22 +155,26 @@ details summary{cursor:pointer;color:var(--fraco);font-size:14px;padding:6px 0}
 
 <!-- ------------------------------------------------ configuração -->
 <section id="tela-setup" class="tela on">
-  <header class="entre" style="margin-bottom:16px">
-    <h1>Top&nbsp;10</h1>
-    <span class="fraco" id="resumo-banco">carregando…</span>
-  </header>
+  <div class="carta" style="text-align:center;padding:30px 20px 24px">
+    <p class="selo" style="justify-content:center;margin-bottom:10px">Jogos da Turma</p>
+    <p class="marca" style="font-size:clamp(52px,17vw,76px)">Top 10</p>
+    <p class="meta" style="margin-top:12px;max-width:34ch;margin-inline:auto">
+      A carta pergunta, a resposta é um ranking de dez. Vocês vão falando —
+      sem repetir, e sem errar.
+    </p>
+  </div>
 
-  <div class="cartao pilha">
-    <h2>Jogadores</h2>
-    <div id="lista-jogadores" class="pilha"></div>
+  <div class="bloco pilha" style="margin-top:14px">
+    <p class="rotulo">Quem vai jogar</p>
+    <div id="lista-jogadores" class="chips"></div>
     <form id="form-jogador" class="linha">
-      <input id="nome-jogador" placeholder="nome do jogador" autocomplete="off" style="flex:1;min-width:0">
+      <input id="nome-jogador" placeholder="nome" autocomplete="off" style="flex:1;min-width:0">
       <button type="submit">Entrar</button>
     </form>
   </div>
 
-  <div class="cartao pilha">
-    <h2>Como vocês jogam</h2>
+  <div class="bloco pilha">
+    <p class="rotulo">Como vocês jogam</p>
     <div class="grade2">
       <button class="modo on" data-modo="juiz">Com juiz</button>
       <button class="modo" data-modo="contesto">Sem juiz</button>
@@ -107,48 +188,45 @@ details summary{cursor:pointer;color:var(--fraco);font-size:14px;padding:6px 0}
     </div>
   </div>
 
-  <div class="cartao pilha">
-    <h2>Baralho</h2>
-    <div>
-      <label>Tema</label>
-      <div class="chips" id="filtro-tema"></div>
-    </div>
-    <div>
-      <label>Recorte</label>
-      <div class="chips" id="filtro-escopo"></div>
-    </div>
+  <div class="bloco pilha">
+    <div class="entre"><p class="rotulo" style="margin:0">Baralho</p>
+      <span class="contador" id="resumo-banco">carregando…</span></div>
+    <div><label>Tema</label><div class="chips" id="filtro-tema"></div></div>
+    <div><label>Recorte</label><div class="chips" id="filtro-escopo"></div></div>
     <p class="fraco" id="conta-cartas"></p>
   </div>
 
-  <button class="principal" id="comecar">Começar</button>
-  <p class="fraco" style="margin-top:14px" id="creditos"></p>
+  <button class="principal" id="comecar" style="margin-top:16px">Embaralhar e começar</button>
+  <p class="fraco" style="margin-top:16px;font-size:12px;opacity:.7" id="creditos"></p>
 </section>
 
 <!-- ------------------------------------------------ rodada -->
 <section id="tela-jogo" class="tela">
-  <div class="entre" style="margin-bottom:12px">
+  <div class="entre" style="margin-bottom:14px">
     <button class="mini" id="voltar">‹ Sair</button>
-    <span class="fraco contador" id="placar-baralho"></span>
+    <span class="contador" id="placar-baralho"></span>
   </div>
 
-  <div class="cartao">
+  <div class="carta" id="carta-jogo">
+    <div class="selo"><span id="badge"></span><span>Top 10</span></div>
     <p class="pergunta" id="pergunta"></p>
+    <div class="pips" id="pips"></div>
+    <p class="restam" id="progresso"></p>
     <p class="meta" id="meta"></p>
-    <p class="meta contador" id="progresso" style="margin-top:6px"></p>
   </div>
 
-  <div id="painel-jogadores" class="cartao pilha"></div>
+  <div class="jogadores" id="painel-jogadores" style="margin-top:14px"></div>
 
-  <div id="resultado"></div>
+  <div id="resultado" style="margin-top:14px"></div>
 
-  <div class="cartao linha" id="acoes-contesto" hidden>
+  <div class="bloco linha" id="acoes-contesto" hidden style="margin-top:14px">
     <button class="mini" id="passou">Ninguém contestou</button>
     <span class="fraco">ou quem contestou:</span>
     <span class="chips" id="contestantes"></span>
   </div>
 
-  <div class="cartao pilha" id="painel-palpite">
-    <h2 id="titulo-palpite"></h2>
+  <div class="bloco pilha" id="painel-palpite" style="margin-top:14px">
+    <p class="rotulo" id="titulo-palpite" style="color:var(--ouro)"></p>
     <form id="form-palpite" class="linha">
       <input id="palpite" placeholder="o que a pessoa falou" autocomplete="off"
              autocapitalize="off" spellcheck="false" list="sugestoes" style="flex:1;min-width:0">
@@ -163,20 +241,21 @@ details summary{cursor:pointer;color:var(--fraco);font-size:14px;padding:6px 0}
     <div class="chips" id="ditos"></div>
   </div>
 
-  <details class="cartao" id="gabarito-caixa">
+  <details class="bloco" id="gabarito-caixa" style="margin-top:14px">
     <summary>Ver o gabarito (só o juiz)</summary>
-    <ul class="lista" id="gabarito" style="margin-top:10px"></ul>
+    <ul class="lista" id="gabarito" style="margin-top:12px"></ul>
   </details>
 
-  <div class="pilha">
+  <div class="pilha" style="margin-top:14px">
     <button class="principal" id="proxima" hidden>Próxima carta</button>
-    <button class="mini" id="desistir">Encerrar rodada e revelar</button>
+    <button class="mini" id="desistir" style="width:100%">Encerrar rodada e revelar</button>
   </div>
 </section>
 
 </div>
 
 <script>
+
 "use strict";
 
 /* ------------------------------------------------------------------ dados */
@@ -242,7 +321,7 @@ async function carregar(){
     for (const a of p.apelidos) if (!S.indice.has(a)) S.indice.set(a, iso);
   }
   const c = S.banco.cartas;
-  $("#resumo-banco").textContent = c.length + " cartas";
+  $("#resumo-banco").textContent = c.length + " no total";
   $("#creditos").innerHTML =
     "Dados do Banco Mundial, Glottolog e Wikidata. Banco gerado em " +
     S.banco.gerado_em + ". Cada carta mostra o ano e a fonte — o gabarito é a "
@@ -250,8 +329,10 @@ async function carregar(){
 
   montarFiltro("#filtro-tema", [...new Set(c.map(x=>x.tema))],
                t=>({paises:"Países", linguas:"Línguas"}[t]||t), S.temas);
-  montarFiltro("#filtro-escopo", [...new Set(c.map(x=>x.escopo))],
-               t=>t==="mundo"?"Mundo":t, S.escopos);
+  const ORDEM = ["mundo","Europa","África","Ásia","Américas","União Europeia"];
+  const escopos = [...new Set(c.map(x=>x.escopo))]
+    .sort((a,b)=>ORDEM.indexOf(a) - ORDEM.indexOf(b));
+  montarFiltro("#filtro-escopo", escopos, t=>t==="mundo"?"Mundo":t, S.escopos);
   contar();
 }
 
@@ -286,13 +367,11 @@ function desenharJogadores(){
   alvo.innerHTML = S.jogadores.length ? "" :
     '<p class="fraco">Ninguém ainda. No modo com juiz, quem segura o celular não joga.</p>';
   S.jogadores.forEach((j,i)=>{
-    const d=document.createElement("div"); d.className="jogador";
-    d.innerHTML=`<span>${escapar(j.nome)}</span>`;
     const b=document.createElement("button");
-    b.className="mini perigo"; b.textContent="Sair"; b.onclick=()=>{
-      S.jogadores.splice(i,1); desenharJogadores();
-    };
-    d.append(b); alvo.append(d);
+    b.type="button"; b.className="mini"; b.title="tirar da mesa";
+    b.innerHTML = escapar(j.nome) + ' <span style="opacity:.45;margin-left:3px">✕</span>';
+    b.onclick = () => { S.jogadores.splice(i,1); desenharJogadores(); };
+    alvo.append(b);
   });
 }
 const escapar = s => s.replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -322,6 +401,8 @@ function proximaCarta(){
   S.jogadores.forEach(j=>{ j.vidas=S.vidas; });
   S.vez = 0;
   desenharRodada();
+  const el = $("#carta-jogo");
+  el.classList.remove("entra"); void el.offsetWidth; el.classList.add("entra");
   $("#palpite").focus();
 }
 
@@ -336,8 +417,16 @@ function desenharRodada(){
   partes.push(c.universo + " países no ranking");
   $("#meta").textContent = partes.join(" · ") + (c.nota ? " — " + c.nota : "");
   $("#placar-baralho").textContent = "carta " + S.usadas.size + " de " + S.baralho.length;
-  $("#progresso").textContent = S.achados.size + " de 10 já saíram · faltam "
-                              + (10 - S.achados.size);
+  $("#progresso").textContent = S.achados.size === 10
+    ? "top 10 completo" : "faltam " + (10 - S.achados.size);
+  $("#badge").textContent = (c.tema === "linguas" ? "Línguas" : "Países")
+    + (c.escopo === "mundo" ? "" : " · " + c.escopo);
+  const pips = $("#pips"); pips.innerHTML = "";
+  for (let i = 0; i < 10; i++){
+    const d = document.createElement("span");
+    d.className = "pip" + (i < S.achados.size ? " on" : "");
+    pips.append(d);
+  }
 
   // jogadores
   const alvo=$("#painel-jogadores"); alvo.innerHTML="";
@@ -374,7 +463,7 @@ function desenharRodada(){
   const dono = vivos().length ? S.jogadores[S.vez] : null;
   $("#titulo-palpite").textContent = S.modo==="juiz"
     ? (dono ? "Vez de " + dono.nome : "Palpite")
-    : (dono ? dono.nome + " falou — alguém contesta?" : "Palpite");
+    : (dono ? dono.nome + " falou" : "Palpite");
   $("#btn-palpite").textContent = S.modo==="juiz" ? "Vale?" : "Contesto!";
   $("#gabarito-caixa").open = S.fim;
   if (S.fim) $("#gabarito-caixa").querySelector("summary").textContent = "Gabarito";
