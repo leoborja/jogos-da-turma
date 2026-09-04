@@ -18,7 +18,7 @@ perde a vida; se valia, quem contestou é que se dá mal. É o formato do
 
 ## O banco de cartas
 
-248 cartas, temas países e línguas, geradas de bases abertas — nada escrito à
+249 cartas, temas países e línguas, geradas de bases abertas — nada escrito à
 mão, porque carta errada quebra o jogo:
 
 | Fonte | O que vem de lá |
@@ -27,8 +27,18 @@ mão, porque carta errada quebra o jogo:
 | Glottolog (CLDF) | quantas línguas se fala em cada país, tamanho das famílias linguísticas |
 | Wikidata (SPARQL) | nome do país em pt-BR e os apelidos que a gente fala na mesa |
 
-Cada carta guarda o indicador, o ano e quantos países entraram no ranking. O
-gabarito mostra o valor de cada resposta — é o que encerra discussão na mesa.
+Cada carta guarda o indicador, o ano e quantos países entraram no ranking, e o
+gabarito mostra o valor de cada resposta.
+
+**Toda carta explica o que o número mede.** É a parte que encerra discussão na
+mesa: por que Singapura aparece com 258% de energia importada (o denominador
+desconta o combustível de navio e avião internacional, o numerador não), por
+que matrícula no ensino superior passa de 100% (aluno de qualquer idade conta),
+por que a Irlanda lidera passageiros de avião (a Ryanair é registrada lá). As
+notas estão em `notas.py`, escritas a partir da definição oficial — que vai
+junto no `banco.json`, palavra por palavra, com link pra fonte.
+
+Carta sem nota não passa: o gerador reclama no `relatorio.txt`.
 
 > O REST Countries, que o projeto usava para nome e apelido, foi descontinuado
 > (v3.1, v4 e v5 respondem `deprecated`). Trocado por Wikidata.
@@ -76,11 +86,11 @@ O gerador joga carta fora sozinha, porque carta ruim estraga a rodada:
   cada indicador tem um `min_pop`.
 - **base pequena** — carta global precisa de pelo menos 60 países com dado.
 - **fatia que estoura o próprio rótulo** — se a pergunta promete uma parte de um
-  todo, o valor tem que caber entre 0 e 100%. Foi assim que caiu a carta de
-  energia importada: o IEA divide (importação − exportação) por um denominador
-  que desconta o combustível de navio e avião internacional, então Singapura e
-  Panamá, os maiores portos de abastecimento do mundo, davam 258% e 171%. O
-  número é o que o IEA publica, mas não é o que a pergunta promete.
+  todo, o valor tem que caber entre 0 e 100%. Os indicadores sujeitos a essa
+  regra estão em `FATIA_0_100`; quem estoura por definição (energia importada)
+  fica de fora da lista e explica o motivo na nota da carta.
+- **carta sem explicação** — toda carta precisa de uma nota dizendo o que o
+  número mede. Sem isso a rodada vira discussão.
 
 ## Sinônimos
 

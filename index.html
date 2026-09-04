@@ -58,6 +58,12 @@ body{
   text-transform:uppercase;margin-top:10px}
 .meta{font-size:12.5px;line-height:1.5;color:var(--cinza);margin-top:12px;
   border-top:2px dashed rgba(20,17,16,.18);padding-top:11px}
+.nota{margin-top:11px;padding:11px 13px;background:#FFF4CE;border:2.5px solid var(--preto);
+  border-radius:10px;font-size:13px;line-height:1.5;font-weight:500}
+.nota b{display:block;font-family:var(--display);font-weight:900;font-size:10.5px;
+  letter-spacing:.13em;text-transform:uppercase;margin-bottom:5px}
+.oficial{font-size:13px;line-height:1.55;color:var(--cinza);margin-top:11px}
+.oficial em{font-style:normal;font-weight:700;color:var(--preto)}
 
 /* ---------------------------------------------------------- painéis */
 .bloco{background:var(--branco);border:var(--b);border-radius:14px;box-shadow:var(--sombra);padding:16px}
@@ -216,6 +222,7 @@ details[open]>summary::after{transform:rotate(180deg)}
       <div class="pips" id="pips"></div>
       <p class="restam" id="progresso"></p>
       <p class="meta" id="meta"></p>
+      <p class="nota" id="nota" hidden></p>
     </div>
   </div>
 
@@ -244,6 +251,15 @@ details[open]>summary::after{transform:rotate(180deg)}
     </div>
     <div class="chips" id="ditos"></div>
   </div>
+
+  <details class="bloco" id="fonte-caixa" hidden style="margin-top:14px">
+    <summary>Definição oficial da fonte</summary>
+    <p class="oficial"><em id="nome-indicador"></em></p>
+    <p class="oficial" id="definicao"></p>
+    <p class="oficial" style="margin-top:10px">
+      <a id="link-fonte" href="#" target="_blank" rel="noopener">Conferir na fonte ↗</a>
+    </p>
+  </details>
 
   <details class="bloco" id="gabarito-caixa" style="margin-top:14px">
     <summary>Ver o gabarito (só o juiz)</summary>
@@ -420,7 +436,19 @@ function desenharRodada(){
   if (c.ano) partes.push(c.ano);
   partes.push(c.unidade);
   partes.push(c.universo + " países no ranking");
-  $("#meta").textContent = partes.join(" · ") + (c.nota ? " — " + c.nota : "");
+  $("#meta").textContent = partes.join(" · ");
+
+  // o que o número mede: é isso que encerra a discussão na mesa
+  const ficha = (S.banco.indicadores || {})[c.indicador] || {};
+  const nota = c.nota || ficha.nota || "";
+  $("#nota").hidden = !nota;
+  if (nota) $("#nota").innerHTML = "<b>O que esse número mede</b>" + escapar(nota);
+  $("#fonte-caixa").hidden = !ficha.definicao;
+  if (ficha.definicao){
+    $("#nome-indicador").textContent = ficha.nome || "";
+    $("#definicao").textContent = ficha.definicao;
+    $("#link-fonte").href = ficha.url || "#";
+  }
   $("#placar-baralho").textContent = "carta " + S.usadas.size + " de " + S.baralho.length;
   $("#progresso").textContent = S.achados.size === 10
     ? "top 10 completo" : "faltam " + (10 - S.achados.size);

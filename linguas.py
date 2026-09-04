@@ -154,7 +154,12 @@ def cartas_de_linguas(paises, nomes, iso2_para_iso3, get_texto, sparql, norm,
                {norm(FAMILIAS_PT.get(f, f)), norm(f)}, None)
               for f, n in fam.most_common()]
         saida.append(carta("Quais as famílias linguísticas com mais línguas?",
-                           "Glottolog", "línguas na família", it, len(fam), "familia"))
+                           "Glottolog", "línguas na família", it, len(fam), "familia",
+                           nota="Família é o grupo de línguas que descendem de um "
+                                "ancestral comum. Conta língua viva catalogada pelo "
+                                "Glottolog: dialeto não entra, e as gavetas internas "
+                                "do catálogo (língua de sinais, não classificadas) "
+                                "ficam de fora."))
 
     # ---------------------------------------------------- Wikidata: língua oficial
     q = """

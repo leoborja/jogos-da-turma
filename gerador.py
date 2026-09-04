@@ -36,6 +36,7 @@ from indicadores import (INDICADORES, REGIOES, NAO_SOBERANOS, NOMES_EXTRA,
                          APELIDOS_EXTRA, UE27, VETADAS, FATIA_0_100,
                          regiao_de)
 from linguas import cartas_de_linguas
+from notas import NOTAS
 
 WB = "https://api.worldbank.org/v2"
 SPARQL = "https://query.wikidata.org/sparql"
@@ -205,6 +206,18 @@ def carrega_nomes_pt(paises, problemas):
             problemas.append(f"sem nome em português no Wikidata: {iso} "
                              f"({p['nome_en']}) — usando o nome em inglês")
     return saida
+
+
+def definicao(codigo):
+    """
+    Definição oficial do indicador, palavra por palavra como o Banco Mundial
+    publica. É o que sustenta a nota em português quando alguém na mesa duvida.
+    """
+    d = get(f"{WB}/indicator/{codigo}", {"format": "json"}, f"def_{codigo}")
+    try:
+        return d[1][0]
+    except (TypeError, IndexError, KeyError):
+        return None
 
 
 def serie(codigo):
@@ -377,7 +390,7 @@ def main():
     pop = populacoes(paises)
     print(f"  {len(paises)} países (agregados e territórios descartados)")
 
-    cartas = []
+    cartas, fichas = [], {}
     for ind in INDICADORES:
         if ind.get("_quebrado"):
             problemas.append(f"{ind['cod']} ({ind['curto']}): marcado como quebrado, pulado")
@@ -397,6 +410,22 @@ def main():
         if not ano:
             problemas.append(f"{ind['cod']}: nenhum ano com cobertura")
             continue
+
+        if ind["cod"] not in NOTAS:
+            problemas.append(f"{ind['cod']}: SEM NOTA em notas.py — carta sai "
+                             "sem explicação pro juiz")
+        try:
+            oficial = definicao(ind["cod"]) or {}
+        except Exception as e:
+            oficial = {}
+            problemas.append(f"{ind['cod']}: não baixou a definição oficial ({e})")
+        fichas[ind["cod"]] = {
+            "nome": oficial.get("name", ind["curto"]),
+            "nota": NOTAS.get(ind["cod"], ""),
+            "definicao": " ".join((oficial.get("sourceNote") or "").split()),
+            "fonte_org": " ".join((oficial.get("sourceOrganization") or "").split())[:300],
+            "url": f"https://data.worldbank.org/indicator/{ind['cod']}",
+        }
 
         n0 = len(cartas)
         for maior, pergunta in ((True, ind["max"]), (False, ind["min"])):
@@ -430,6 +459,11 @@ def main():
                                 sparql, norm, problemas, args.min_paises_regiao)
     print(f"  {'línguas':<24} --    +{len(cartas)-n0} cartas")
 
+    # regra do jogo: carta sem explicação vira discussão na mesa
+    for c in cartas:
+        if not (c.get("nota") or fichas.get(c.get("indicador"), {}).get("nota")):
+            problemas.append(f"SEM NOTA: '{c['pergunta']}' — o juiz não tem o que ler")
+
     disputadas = [c for c in cartas if c["disputada"]]
     if not args.manter_disputadas:
         cartas = [c for c in cartas if not c["disputada"]]
@@ -446,8 +480,10 @@ def main():
     for i, c in enumerate(cartas):
         c["id"] = f"c{i+1:04d}"
 
+    usados = {c.get("indicador") for c in cartas}
     banco = {
         "gerado_em": time.strftime("%Y-%m-%d"),
+        "indicadores": {k: v for k, v in fichas.items() if k in usados},
         "paises": {iso: nomes[iso] for iso in sorted(nomes)},
         "cartas": cartas,
     }
@@ -457,11 +493,12 @@ def main():
     with open("revisao.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["id", "tema", "escopo", "pergunta", "indicador", "ano",
-                    "universo", "folga_10_11", "top10"])
+                    "universo", "folga_10_11", "nota", "top10"])
         for c in cartas:
             w.writerow([c["id"], c["tema"], c["escopo"], c["pergunta"],
                         c.get("indicador", ""), c["ano"], c["universo"],
                         c["folga"],
+                        c.get("nota") or fichas.get(c.get("indicador"), {}).get("nota", ""),
                         " | ".join(f"{r['pos']}. {r['nome']} ({r['valor_fmt']})"
                                    for r in c["respostas"])])
 

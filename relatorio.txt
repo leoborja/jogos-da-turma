@@ -1,4 +1,4 @@
-cartas geradas: 248
+cartas geradas: 249
 descartadas por repetir o top 10 de outra: 95
 descartadas por empate no 10º/11º: 55
   - Quais os países que mais exportam? (2024, folga 0.25%)
@@ -57,7 +57,7 @@ descartadas por empate no 10º/11º: 55
   - Quais os países que mais aumentaram a produção pecuária? (2022, folga 0.38%)
   - Quais as línguas oficiais em mais países? (None, folga 0.00%)
 
-problemas (105):
+problemas (104):
   - apelido ambíguo descartado: 'terra santa' -> ISR, PSE
   - SM.POP.REFG (refugiados acolhidos): marcado como quebrado, pulado
   - SM.POP.REFG.OR (refugiados de origem): marcado como quebrado, pulado
@@ -65,7 +65,6 @@ problemas (105):
   - GC.DOD.TOTL.GD.ZS global (maiores): menos de 60 países com dado em 2021
   - SH.STA.STNT.ZS global (maiores): menos de 60 países com dado em 2019
   - SL.TLF.0714.ZS global (maiores): menos de 60 países com dado em 2012
-  - EG.IMP.CONS.ZS (dependência energética): marcado como quebrado, pulado
   - IC.REG.DURS (abrir empresa): marcado como quebrado, pulado
   - vetada à mão (fraca de jogar): 'Quais os países mais populosos?'
   - repetida: 'Quais os países que mais importam na África?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na África?'

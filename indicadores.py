@@ -339,15 +339,14 @@ INDICADORES = [
          max="Quais os países que mais usam energia renovável no consumo total?",
          min="Quais os países que menos usam energia renovável?",
          unidade="% do consumo final", fmt="pct", min_pop=1_000_000, regioes=True),
-    # VETADO. O IEA define isso como (importação − exportação) / "energy use",
-    # e "energy use" desconta o combustível abastecido em navio e avião de
-    # rota internacional. Singapura e Panamá são os maiores portos de
-    # abastecimento do mundo: esse combustível conta inteiro em cima e é
-    # descontado embaixo, então dá 258% e 171%. O número é o que o IEA
-    # publica, mas "258% da energia usada" só rende briga na mesa.
-    dict(cod="EG.IMP.CONS.ZS", curto="dependência energética", _quebrado=True,
+    # Passa de 100% e está certo: o IEA divide (importação − exportação) por um
+    # "energy use" que desconta o combustível abastecido em navio e avião de
+    # rota internacional, e o numerador não desconta. Singapura e Panamá, os
+    # maiores portos de abastecimento do mundo, dão 258% e 171%. Quem explica
+    # isso na mesa é a nota da carta, em notas.py.
+    dict(cod="EG.IMP.CONS.ZS", curto="dependência energética",
          max="Quais os países mais dependentes de energia importada?",
-         min=None, unidade="% da energia usada", fmt="pct", min_pop=1_000_000, regioes=False),
+         min=None, unidade="% do consumo interno (líquido)", fmt="pct", min_pop=1_000_000, regioes=False),
     dict(cod="TX.VAL.FUEL.ZS.UN", curto="exportação de combustível",
          max="Em quais países combustível é a maior parte do que se exporta?",
          min=None, unidade="% das exportações", fmt="pct", min_pop=1_000_000, regioes=True),
@@ -454,7 +453,7 @@ FATIA_0_100 = {
     "IT.NET.USER.ZS", "SH.H2O.BASW.ZS", "SH.STA.BASS.ZS", "SH.IMM.MEAS",
     "SE.ADT.LITR.ZS", "SL.UEM.TOTL.ZS", "SL.AGR.EMPL.ZS", "SL.TLF.CACT.FE.ZS",
     "SG.GEN.PARL.ZS", "TX.VAL.FUEL.ZS.UN", "TX.VAL.AGRI.ZS.UN", "SN.ITK.DEFC.ZS",
-    "SH.PRV.SMOK", "SH.DYN.AIDS.ZS", "SL.TLF.0714.ZS", "SH.STA.STNT.ZS",
+    "SH.PRV.SMOK", "SH.DYN.AIDS.ZS",   # EG.IMP.CONS.ZS fica FORA: estoura por definição "SL.TLF.0714.ZS", "SH.STA.STNT.ZS",
     "SH.STA.OWGH.ME.ZS", "SI.DST.10TH.10", "SH.DYN.NCOM.ZS", "NV.AGR.TOTL.ZS",
     "NV.IND.MANF.ZS", "NY.GDP.PETR.RT.ZS", "NY.GDP.MINR.RT.ZS",
 }
