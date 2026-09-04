@@ -59,7 +59,7 @@ município ela não aparece: 5.570 numa gaveta não ajuda ninguém.
 
 ## O banco de cartas
 
-262 cartas em três temas — países, Brasil e línguas — geradas de bases abertas — nada escrito à
+274 cartas em cinco temas — países, Brasil, cinema, esporte e línguas — geradas de bases abertas — nada escrito à
 mão, porque carta errada quebra o jogo:
 
 | Fonte | O que vem de lá |
@@ -67,7 +67,7 @@ mão, porque carta errada quebra o jogo:
 | Banco Mundial (WDI) | 101 indicadores: economia, população, saúde, energia, meio ambiente |
 | Glottolog (CLDF) | quantas línguas se fala em cada país, tamanho das famílias linguísticas |
 | IBGE | os 5.570 municípios (Censo 2022) e o ranking de nomes de pessoa (Censo 2010) |
-| Wikidata (SPARQL) | nome do país em pt-BR e os apelidos que a gente fala na mesa |
+| Wikidata (SPARQL) | bilheteria de filme, capacidade de estádio, nome do país em pt-BR e os apelidos que a gente fala na mesa |
 
 Cada carta guarda o indicador, o ano e quantos países entraram no ranking, e o
 gabarito mostra o valor de cada resposta.
@@ -110,6 +110,23 @@ Os códigos de indicador do Banco Mundial são descontinuados sem aviso. Quando
 um cair, ele aparece em `relatorio.txt` — ache o substituto com `--listar` e
 troque em `indicadores.py`.
 
+## O que ficou de fora, e por quê
+
+Vale mais não ter a carta do que ter uma que a mesa desminta:
+
+- **Clubes com mais Brasileirões.** O Wikidata não tem as edições de 1964,
+  2000, 2005, 2020, 2023 e 2024. Com isso o Palmeiras sairia com 11 títulos e
+  o Corinthians com 6, e qualquer brasileiro perceberia. Copa do Brasil e
+  Paulista param em 2020; o Carioca tem seis buracos. Daí a regra em
+  `esporte.py`: antes de contar título, o gerador confere se a série de
+  edições está inteira e chega até hoje. Só a Libertadores passa hoje.
+- **Clubes com mais Libertadores.** A série está completa, mas cinco clubes
+  empatam em 3 títulos bem na fronteira do 10º. Não existe top 10 honesto ali.
+- **Filmes por gênero.** O `P136` do Wikidata é etiqueta frouxa: o top de
+  "terror" veio com *Gravidade* e *Doutor Estranho no Multiverso da Loucura*.
+- **Bola de Ouro.** Cristiano Ronaldo não aparece e Cruyff sai com 1 em vez
+  de 3.
+
 ## Os filtros de qualidade
 
 O gerador joga carta fora sozinha, porque carta ruim estraga a rodada:
@@ -119,8 +136,10 @@ O gerador joga carta fora sozinha, porque carta ruim estraga a rodada:
   não soberanos (Hong Kong, Porto Rico) também.
 - **ano misturado** — ranking só vale comparando o mesmo ano, então cada carta
   usa o ano mais recente com cobertura decente e ranqueia só nele.
-- **empate no 10º e 11º** — se a diferença é menor que 0,5%, o jogador acerta e
-  “erra”. Carta descartada (55 caíram aqui).
+- **empate no 10º e 11º** — o jogador acerta e “erra”. A régua depende da
+  fonte: indicador do Banco Mundial é estimativa, então 0,5% ali é ruído;
+  bilheteria, capacidade de estádio, censo e contagem de título são número
+  exato, e ali só empate de verdade conta.
 - **carta repetida** — “quem mais exporta” e “maior PIB” devolvem quase a mesma
   lista; se o top 10 repete mais de 60% de outra carta do mesmo recorte, sai
   (95 caíram aqui).

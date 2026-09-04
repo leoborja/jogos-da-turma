@@ -37,6 +37,8 @@ from indicadores import (INDICADORES, REGIOES, NAO_SOBERANOS, NOMES_EXTRA,
                          regiao_de)
 from linguas import cartas_de_linguas
 from brasil import cartas_do_brasil
+from cinema import cartas_de_cinema
+from esporte import cartas_de_esporte
 from notas import NOTAS
 
 WB = "https://api.worldbank.org/v2"
@@ -94,10 +96,19 @@ def get(url, params=None, chave=None, headers=None):
     if caminho and os.path.exists(caminho):
         with open(caminho, encoding="utf-8") as f:
             return json.load(f)
-    r = requests.get(url, params=params, timeout=120,
-                     headers={"User-Agent": UA, **(headers or {})})
-    r.raise_for_status()
-    dados = r.json()
+    ultimo = None
+    for tentativa in range(3):
+        try:
+            r = requests.get(url, params=params, timeout=180,
+                             headers={"User-Agent": UA, **(headers or {})})
+            r.raise_for_status()
+            dados = r.json()
+            break
+        except Exception as e:
+            ultimo = e
+            time.sleep(4 * (tentativa + 1))
+    else:
+        raise RuntimeError(str(ultimo).split(" for url:")[0])
     if caminho:
         with open(caminho, "w", encoding="utf-8") as f:
             json.dump(dados, f)
@@ -494,6 +505,16 @@ def main():
     itens["municipio"] = ind_mun
     itens["nome"] = ind_nome
     print(f"  {'brasil':<24} --    +{len(cartas)-n0} cartas")
+
+    for rotulo, funcao in (("cinema", cartas_de_cinema), ("esporte", cartas_de_esporte)):
+        n0 = len(cartas)
+        novas, indices = funcao(sparql, norm, problemas)
+        cartas += novas
+        # o índice de cada tipo entra inteiro: o dropdown precisa sugerir
+        # também o que NÃO é resposta, senão entrega o gabarito
+        for tipo, idx in indices.items():
+            itens.setdefault(tipo, {}).update(idx)
+        print(f"  {rotulo:<24} --    +{len(cartas)-n0} cartas")
 
     # regra do jogo: carta sem explicação vira discussão na mesa
     for c in cartas:

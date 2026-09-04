@@ -311,12 +311,15 @@ const perto = (a, b, max) => distancia(a, b, max) < Infinity;
    e o jogo estaria perguntando de um só. */
 function tipoDaCarta(){ return (S.carta && S.carta.tipo_resposta) || "pais"; }
 
-/* Tipos em que o índice NÃO é a lista completa do mundo. Só conhecemos os
-   nomes que aparecem em algum ranking do IBGE, mas "Roberto" é um palpite
-   perfeitamente válido — só não está no top 10. Mandar o juiz decidir a cada
-   palpite desses seria fricção à toa. Para país e município o índice é
-   completo, então o que não bate é erro de digitação e o juiz decide. */
-const TIPOS_ABERTOS = new Set(["nome"]);
+/* Só nestes dois o índice é a lista COMPLETA do mundo — 195 países, 5.570
+   municípios. Ali, palpite que não bate é dedo trocado e o juiz arbitra.
+
+   Em todo o resto o índice é só o que apareceu em algum ranking: "Roberto",
+   "Corinthians" e "De Volta Para o Futuro" são palpites perfeitamente
+   válidos que simplesmente não estão no top 10. Chamar o juiz a cada um
+   deles seria fricção a cada rodada. */
+const TIPOS_FECHADOS = new Set(["pais", "municipio"]);
+const ehAberto = () => !TIPOS_FECHADOS.has(tipoDaCarta());
 
 function resolver(txt){
   const n = norm(txt);
@@ -360,7 +363,8 @@ async function carregar(){
     + "palavra final na mesa.";
 
   montarFiltro("#filtro-tema", [...new Set(c.map(x=>x.tema))],
-               t=>({paises:"Países", linguas:"Línguas", brasil:"Brasil"}[t]||t), S.temas);
+               t=>({paises:"Países", linguas:"Línguas", brasil:"Brasil",
+                    cinema:"Cinema", esporte:"Esporte"}[t]||t), S.temas);
   const ORDEM = ["mundo","Europa","África","Ásia","Américas","União Europeia"];
   const escopos = [...new Set(c.map(x=>x.escopo))]
     .sort((a,b)=>ORDEM.indexOf(a) - ORDEM.indexOf(b));
@@ -592,7 +596,7 @@ function palpitar(txt){
   $("#acoes-juiz").hidden = true;
 
   if (!alvo){
-    if (TIPOS_ABERTOS.has(tipoDaCarta())){
+    if (ehAberto()){
       registrar(txt, "livre:" + norm(txt), null, null, false);
       return;
     }
@@ -858,7 +862,8 @@ $("#sugestoes").onclick = e => {
    marca quem está no gabarito — é lembrete de que a coisa existe, não dica.
    Município fica de fora: 5.570 numa gaveta não ajuda ninguém. */
 const ROTULO_TIPO = {pais:"países", lingua:"línguas", familia:"famílias",
-                     nome:"nomes", municipio:"municípios"};
+                     nome:"nomes", municipio:"municípios", filme:"filmes",
+                     pessoa:"pessoas", clube:"clubes", estadio:"estádios"};
 const CABE_NA_LISTA = 400;
 
 function desenharListaPaises(){

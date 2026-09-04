@@ -149,8 +149,9 @@ def carrega_nomes(get_json, problemas):
 
 # ---------------------------------------------------------------- as cartas
 
+# censo é contagem, não estimativa: só empate exato é empate
 def carta(pergunta, fonte, unidade, itens, universo, tipo, escopo, nota,
-          ano=None, tol=0.005, fmt=None):
+          ano=None, tol=0.0, fmt=None):
     """itens = [(chave, nome, valor), ...] já ordenado. None se não der top 10."""
     if len(itens) < 11:
         return None

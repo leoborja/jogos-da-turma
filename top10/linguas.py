@@ -68,7 +68,7 @@ FAMILIAS_PT = {
 
 
 def carta(pergunta, fonte, unidade, itens, universo, tipo, escopo="mundo",
-          nota=None, tol=0.005):
+          nota=None, tol=0.001):
     """Monta uma carta a partir de [(nome, valor, apelidos, iso3?), ...] já ordenado."""
     if len(itens) < 11:
         return None

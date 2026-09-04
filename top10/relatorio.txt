@@ -1,6 +1,6 @@
-cartas geradas: 262
-descartadas por repetir o top 10 de outra: 122
-descartadas por empate no 10º/11º: 59
+cartas geradas: 274
+descartadas por repetir o top 10 de outra: 123
+descartadas por empate no 10º/11º: 56
   - Quais os países que mais exportam? (2024, folga 0.25%)
   - Quais os países que mais exportam na Europa? (2024, folga 0.21%)
   - Quais os países com o maior PIB por habitante? (2025, folga 0.32%)
@@ -56,12 +56,9 @@ descartadas por empate no 10º/11º: 59
   - Quais os países onde mais gente morre por habitante na África? (2024, folga 0.10%)
   - Quais os países que mais aumentaram a produção pecuária? (2022, folga 0.38%)
   - Quais as línguas oficiais em mais países? (None, folga 0.00%)
-  - Quais os municípios mais populosos do Norte? (2022, folga 0.49%)
-  - Quais os municípios mais populosos do Centro-Oeste? (2022, folga 0.00%)
-  - Quais os municípios mais populosos do Sul? (2022, folga 0.11%)
-  - Quais os nomes que mais se deu a quem nasceu nos anos 1940? (2010, folga 0.35%)
+  - Quais os clubes que mais venceram a Copa Libertadores? (None, folga 0.00%)
 
-problemas (131):
+problemas (136):
   - apelido ambíguo descartado: 'terra santa' -> ISR, PSE
   - SM.POP.REFG (refugiados acolhidos): marcado como quebrado, pulado
   - SM.POP.REFG.OR (refugiados de origem): marcado como quebrado, pulado
@@ -70,6 +67,10 @@ problemas (131):
   - SH.STA.STNT.ZS global (maiores): menos de 60 países com dado em 2019
   - SL.TLF.0714.ZS global (maiores): menos de 60 países com dado em 2012
   - IC.REG.DURS (abrir empresa): marcado como quebrado, pulado
+  - esporte: o Campeonato Brasileiro descartado — faltam as edições de 1964, 2000, 2005, 2020, 2023, 2024. Contagem de título com edição faltando sai errada.
+  - esporte: a Copa do Brasil descartado — a série para em 2020, então falta título recente. Contagem de título com edição faltando sai errada.
+  - esporte: o Campeonato Paulista descartado — faltam as edições de 1914. Contagem de título com edição faltando sai errada.
+  - esporte: o Campeonato Carioca descartado — faltam as edições de 1933, 1934, 2020, 2021, 2022, 2023. Contagem de título com edição faltando sai errada.
   - vetada à mão (fraca de jogar): 'Quais os países mais populosos?'
   - repetida: 'Quais os países que mais importam na África?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na África?'
   - repetida: 'Quais os países que mais importam na Ásia?' devolve quase o mesmo top 10 de 'Quais os países que mais exportam na Ásia?'
@@ -177,6 +178,7 @@ problemas (131):
   - repetida: 'Em quais países se fala o maior número de línguas na Europa?' devolve quase o mesmo top 10 de 'Quais os países mais populosos na Europa?'
   - repetida: 'Quais as capitais mais populosas do Brasil?' devolve quase o mesmo top 10 de 'Quais os municípios mais populosos do Brasil?'
   - repetida: 'Quais os nomes de homem mais comuns do Brasil?' devolve quase o mesmo top 10 de 'Quais os nomes mais comuns do Brasil?'
+  - repetida: 'Quais os nomes que mais se deu a quem nasceu nos anos 1940?' devolve quase o mesmo top 10 de 'Quais os nomes que mais se deu a quem nasceu nos anos 1930?'
   - repetida: 'Quais os nomes que mais se deu a quem nasceu nos anos 1950?' devolve quase o mesmo top 10 de 'Quais os nomes que mais se deu a quem nasceu nos anos 1930?'
   - repetida: 'Quais os nomes que mais se deu a quem nasceu nos anos 1960?' devolve quase o mesmo top 10 de 'Quais os nomes mais comuns do Brasil?'
   - repetida: 'Quais os nomes que mais se deu a quem nasceu nos anos 1970?' devolve quase o mesmo top 10 de 'Quais os nomes mais comuns do Brasil?'
