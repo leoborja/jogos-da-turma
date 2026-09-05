@@ -1,0 +1,12 @@
+{
+  "slug": "bandeiras",
+  "nome": "Bandeiras",
+  "tagline": "A bandeira aparece, você digita o país.",
+  "descricao": "O celular passa de mão em mão: na sua vez você vê uma bandeira e digita de quem ela é. Acertou de cara vale 3; pediu dica vale menos. Depois a carta abre e explica a bandeira — desde quando é aquela, o que ela mostra e de onde veio. São 240 cartas: os 195 países mais 45 territórios, com a lista da ISO 3166-1, bandeira do Wikimedia Commons e nota da Wikipédia. Dá pra jogar sozinho.",
+  "emoji": "🏁",
+  "cor": "verde",
+  "jogadores": "1 a 12",
+  "duracao": "15 min",
+  "precisa": "um celular passando de mão em mão",
+  "status": "pronto"
+}
