@@ -4,7 +4,7 @@ Jogo de mesa digital: a carta traz uma pergunta cuja resposta é um ranking de
 dez (“quais os países que mais exportam?”) e os jogadores vão dizendo itens que
 acham que estão na lista, sem repetir.
 
-**Jogar:** https://leoborja.github.io/jogos-da-turma/
+**Jogar:** https://jogosdaturma.com.br/top10/
 
 ## A partida
 
