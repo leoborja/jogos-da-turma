@@ -1,0 +1,193 @@
+{
+ "lote": 2,
+ "cartas": {
+  "EMPRESA": {
+   "proibidas": ["NEGÓCIO", "ESCRITÓRIO", "FUNCIONÁRIO", "LUCRO", "SÓCIO"],
+   "no_artigo": [],
+   "nota": "consenso deu 6 palavras de chão-de-fábrica; as 18 do artigo eram jargão jurídico-econômico (direito, comércio, sociedade) e não confirmam nenhuma das 5 — o consenso pesou mais que o artigo"
+  },
+  "CÉREBRO": {
+   "proibidas": ["CABEÇA", "NEURÔNIO", "PENSAR", "MEMÓRIA", "CRÂNIO"],
+   "no_artigo": ["CRÂNIO", "CABEÇA"]
+  },
+  "BRANCO": {
+   "proibidas": ["PRETO", "NEVE", "CLARO", "PAPEL", "ARROZ"],
+   "no_artigo": ["PRETO", "NEVE"],
+   "nota": "sobravam 7 no consenso, quase todas variações de 'branco como X' (neve, papel, giz, arroz, nuvem); preto (oposto) e claro (quase sinônimo) fecham rotas diferentes das quatro similes"
+  },
+  "PÚBLICO": {
+   "proibidas": ["PLATEIA", "MULTIDÃO", "TORCIDA", "SHOW", "AUDIÊNCIA"],
+   "no_artigo": ["AUDIÊNCIA"]
+  },
+  "COZINHA": {
+   "proibidas": ["FOGÃO", "GELADEIRA", "FORNO", "PIA", "COMIDA"],
+   "no_artigo": ["FORNO"]
+  },
+  "HUMANO": {
+   "proibidas": ["PESSOA", "GENTE", "ESPÉCIE", "MORTAL", "SOCIEDADE"],
+   "no_artigo": ["SOCIEDADE"]
+  },
+  "TREM": {
+   "proibidas": ["TRILHO", "VAGÃO", "ESTAÇÃO", "LOCOMOTIVA", "BILHETE"],
+   "no_artigo": ["TRILHO"]
+  },
+  "SARGENTO": {
+   "proibidas": ["PATENTE", "EXÉRCITO", "SOLDADO", "GENERAL", "FARDA"],
+   "no_artigo": ["EXÉRCITO", "GENERAL"]
+  },
+  "LIBERDADE": {
+   "proibidas": ["PRISÃO", "VOAR", "ESCOLHA", "DIREITO", "INDEPENDÊNCIA"],
+   "no_artigo": ["DIREITO", "INDEPENDÊNCIA"]
+  },
+  "SILÊNCIO": {
+   "proibidas": ["MUDO", "BIBLIOTECA", "PAZ", "SUSSURRO", "QUIETO"],
+   "no_artigo": ["MUDO"]
+  },
+  "ARTE": {
+   "proibidas": ["PINTURA", "MUSEU", "ESCULTURA", "EXPOSIÇÃO", "CULTURA"],
+   "no_artigo": ["PINTURA"]
+  },
+  "PELE": {
+   "proibidas": ["COURO", "PORO", "CAMADA", "CORPO", "TATUAGEM"],
+   "no_artigo": ["CAMADA", "CORPO"],
+   "nota": "consenso baixo entre as duas listas cegas (só couro e poro batem); camada e corpo vieram de uma lista só mas o artigo confirma os dois; tatuagem ficou sem confirmação do artigo mas é a associação mais óbvia que sobrou"
+  },
+  "COMPUTADOR": {
+   "proibidas": ["TECLADO", "MOUSE", "TELA", "INTERNET", "PROGRAMA"],
+   "no_artigo": ["PROGRAMA"]
+  },
+  "DANÇA": {
+   "proibidas": ["MÚSICA", "BALÉ", "FESTA", "RITMO", "COREOGRAFIA"],
+   "no_artigo": ["MÚSICA", "BALÉ"]
+  },
+  "JULGAMENTO": {
+   "proibidas": ["TRIBUNAL", "JUIZ", "RÉU", "SENTENÇA", "PROCESSO"],
+   "no_artigo": ["JUIZ"]
+  },
+  "JUIZ": {
+   "proibidas": ["TRIBUNAL", "LEI", "TOGA", "MARTELO", "SENTENÇA"],
+   "no_artigo": ["TRIBUNAL", "LEI"]
+  },
+  "PIADA": {
+   "proibidas": ["RIR", "HUMOR", "ENGRAÇADO", "COMEDIANTE", "GOZAÇÃO"],
+   "no_artigo": ["HUMOR"]
+  },
+  "HERÓI": {
+   "proibidas": ["CORAGEM", "SALVAR", "CAPA", "VILÃO", "MOCINHO"],
+   "no_artigo": ["CORAGEM", "VILÃO"],
+   "nota": "só 4 no consenso das duas listas; mocinho entrou sozinho do associador pra fechar a rota categoria/oposto a vilão"
+  },
+  "GELO": {
+   "proibidas": ["FRIO", "CUBO", "ÁGUA", "GELADEIRA", "SORVETE"],
+   "no_artigo": ["FRIO", "ÁGUA"]
+  },
+  "VISÃO": {
+   "proibidas": ["OLHO", "ENXERGAR", "ÓCULOS", "IMAGEM", "FOCO"],
+   "no_artigo": ["OLHO", "FOCO"]
+  },
+  "ÁRVORE": {
+   "proibidas": ["TRONCO", "FOLHA", "RAIZ", "FLORESTA", "MADEIRA"],
+   "no_artigo": ["TRONCO", "RAIZ", "FLORESTA", "FOLHA"]
+  },
+  "VÍDEO": {
+   "proibidas": ["CÂMERA", "YOUTUBE", "GRAVAR", "ASSISTIR", "IMAGEM"],
+   "no_artigo": ["IMAGEM"]
+  },
+  "MONSTRO": {
+   "proibidas": ["MEDO", "ASSUSTADOR", "CRIATURA", "TERROR", "ARMÁRIO"],
+   "no_artigo": ["CRIATURA", "TERROR", "MEDO"]
+  },
+  "FACA": {
+   "proibidas": ["CORTAR", "LÂMINA", "COZINHA", "CABO", "GARFO"],
+   "no_artigo": ["LÂMINA", "CABO"]
+  },
+  "VERDE": {
+   "proibidas": ["FOLHA", "GRAMA", "SEMÁFORO", "FLORESTA", "NATUREZA"],
+   "no_artigo": ["NATUREZA"]
+  },
+  "MERCADO": {
+   "proibidas": ["ECONOMIA", "FEIRA", "AÇÕES", "OFERTA", "NEGÓCIO"],
+   "no_artigo": ["ECONOMIA", "OFERTA"]
+  },
+  "BOLO": {
+   "proibidas": ["ANIVERSÁRIO", "DOCE", "FATIA", "FORNO", "COBERTURA"],
+   "no_artigo": ["ANIVERSÁRIO", "DOCE", "FORNO"]
+  },
+  "MARCA": {
+   "proibidas": ["LOGO", "SÍMBOLO", "EMPRESA", "PRODUTO", "PROPAGANDA"],
+   "no_artigo": ["SÍMBOLO", "EMPRESA", "PRODUTO"]
+  },
+  "CINEMA": {
+   "proibidas": ["FILME", "PIPOCA", "SALA", "DIRETOR", "INGRESSO"],
+   "no_artigo": ["FILME", "SALA", "DIRETOR"]
+  },
+  "VENTO": {
+   "proibidas": ["AR", "SOPRAR", "FURACÃO", "BRISA", "MOINHO"],
+   "no_artigo": ["BRISA"]
+  },
+  "PONTE": {
+   "proibidas": ["RIO", "ATRAVESSAR", "CONSTRUÇÃO", "VIADUTO", "ARCO"],
+   "no_artigo": ["CONSTRUÇÃO", "RIO", "ARCO"]
+  },
+  "CONTRATO": {
+   "proibidas": ["ASSINAR", "ACORDO", "CLÁUSULA", "ADVOGADO", "DIREITO"],
+   "no_artigo": ["ACORDO", "DIREITO"]
+  },
+  "FUTEBOL": {
+   "proibidas": ["BOLA", "GOL", "CAMPO", "TIME", "TORCIDA"],
+   "no_artigo": ["CAMPO", "BOLA", "TIME"]
+  },
+  "FANTASMA": {
+   "proibidas": ["ASSOMBRAÇÃO", "LENÇOL", "MEDO", "ALMA", "MORTO"],
+   "no_artigo": ["ALMA", "MORTO"],
+   "nota": "consenso deu 4; morto entrou do descritor, confirmado pelo artigo, fechando a rota de quem morre em vez de repetir alma/espírito"
+  },
+  "CALOR": {
+   "proibidas": ["QUENTE", "TEMPERATURA", "SOL", "FOGO", "SUOR"],
+   "no_artigo": ["TEMPERATURA"]
+  },
+  "CANÇÃO": {
+   "proibidas": ["MÚSICA", "LETRA", "MELODIA", "RÁDIO", "REFRÃO"],
+   "no_artigo": ["MÚSICA", "LETRA", "MELODIA"]
+  },
+  "SÁBADO": {
+   "proibidas": ["DOMINGO", "SEXTA", "FOLGA", "FESTA", "DESCANSO"],
+   "no_artigo": ["DESCANSO", "DOMINGO"]
+  },
+  "FELICIDADE": {
+   "proibidas": ["ALEGRIA", "SORRISO", "AMOR", "SONHO", "SATISFAÇÃO"],
+   "no_artigo": ["ALEGRIA", "SATISFAÇÃO"]
+  },
+  "AEROPORTO": {
+   "proibidas": ["AVIÃO", "PISTA", "PASSAPORTE", "EMBARQUE", "VOO"],
+   "no_artigo": ["AVIÃO", "PISTA"]
+  },
+  "HOMICÍDIO": {
+   "proibidas": ["MATAR", "CRIME", "ASSASSINO", "VÍTIMA", "ARMA"],
+   "no_artigo": ["CRIME"]
+  },
+  "COPO": {
+   "proibidas": ["BEBER", "VIDRO", "LÍQUIDO", "ÁGUA", "TAÇA"],
+   "no_artigo": ["VIDRO"]
+  },
+  "ANJO": {
+   "proibidas": ["ASA", "CÉU", "DEUS", "RELIGIÃO", "BRANCO"],
+   "no_artigo": ["ASA"],
+   "nota": "descritor deu 'asa' e associador deu 'asas' — tratado como o mesmo consenso, só variando o número"
+  },
+  "EXPLOSÃO": {
+   "proibidas": ["BOMBA", "FOGO", "BARULHO", "FUMAÇA", "DESTRUIÇÃO"],
+   "no_artigo": []
+  },
+  "TECNOLOGIA": {
+   "proibidas": ["CIÊNCIA", "CELULAR", "COMPUTADOR", "INTERNET", "FUTURO"],
+   "no_artigo": ["CIÊNCIA"]
+  },
+  "GOLPE": {
+   "proibidas": ["SOCO", "ATAQUE", "LUTA", "CHUTE", "MARTELO"],
+   "no_artigo": ["SOCO", "ATAQUE", "CHUTE", "MARTELO"],
+   "nota": "consenso baixo (só soco, ataque, luta batem nas duas listas cegas); chute e martelo vieram do descritor sozinho, mas o artigo confirma os quatro"
+  }
+ },
+ "descartadas": {}
+}

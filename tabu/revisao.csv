@@ -1,222 +1,218 @@
-palavra,sentido,proibidas,5a_forca,dificuldade,posicao_na_fala,artigo
-VIDA,condição própria dos seres vivos,CÉLULA · CELULAR · BIOLOGIA · VÍRUS · MATÉRIA,26.57,fácil,121,https://pt.wikipedia.org/wiki/Vida
-HOMEM,ser humano do gênero masculino,MASCULINO · HUMANO · ADULTO · MENINO · IDENTIDADE,25.79,fácil,145,https://pt.wikipedia.org/wiki/Homem
-AMOR,sentimento positivo baseado no afeto,SENTIMENTO · EMOÇÃO · CASAMENTO · FILOSOFIA · AVES,26.29,fácil,233,https://pt.wikipedia.org/wiki/Amor
-MEDO,sensação que proporciona um estado de alerta demonstrado pelo receio de fazer alguma coisa,ALERTA · RECEIO · ANSIEDADE · RATO · REAÇÃO,25.19,fácil,301,https://pt.wikipedia.org/wiki/Medo
-IRMÃO,pessoa filho do mesmo pai ou mãe de outra,FILHO · CRIANÇA · MASCULINO · GÊMEOS · FEMININO,28.1,fácil,304,https://pt.wikipedia.org/wiki/Irm%C3%A3o
-HISTÓRIA,eventos ocorridos no passado,EVENTO · ACONTECIMENTO · DOCUMENTO · ESCRITA · DESCOBERTA,26.89,fácil,306,https://pt.wikipedia.org/wiki/Hist%C3%B3ria
-POLÍCIA,instituição constituída pelo Estado para o cumprimento da lei,INSTITUIÇÃO · ÓRGÃOS · LEI · EXERCÍCIO · FORÇA,26.8,fácil,329,https://pt.wikipedia.org/wiki/Pol%C3%ADcia
-ÁGUA,composto químico formado por moléculas com dois átomos de hidrogénio e um de oxigénio,OXIGÊNIO · SUPERFÍCIE · LIGAÇÃO · PLANETA · GELO,39.03,fácil,367,https://pt.wikipedia.org/wiki/%C3%81gua
-ARMA,"instrumento usado para causar dano ou ferimento em seres vivos, estruturas ou sistemas",CAÇA · PÓLVORA · EVOLUÇÃO · SPRAY · DANO,37.17,fácil,411,https://pt.wikipedia.org/wiki/Arma
-GUERRA,conflito organizado e prolongado entre Estados,CONFLITO · MILITAR · MORTE · SOFRIMENTO · AGRESSÃO,30.95,fácil,424,https://pt.wikipedia.org/wiki/Guerra
-SANGUE,fluido corporal,CÉLULA · OXIGÊNIO · ANIMAL · VERMELHO · CARBONO,33.92,fácil,432,https://pt.wikipedia.org/wiki/Sangue
-LICENÇA,conjunto de permissões para usar algo,DIREITO · SOFTWARE · INTELECTUAL · RAMO · PROPRIETÁRIO,25.63,fácil,455,https://pt.wikipedia.org/wiki/Licen%C3%A7a
-CAPITÃO,posto de oficial existente na maioria dos exércitos do mundo,COMANDO · COMPANHIA · MILITAR · FORÇA · OFICIAL,45.82,fácil,456,https://pt.wikipedia.org/wiki/Capit%C3%A3o
-SAIA,roupa,MODA · ROUPA · PERNA · DECORAÇÃO · COMPRIMENTO,29.33,fácil,477,https://pt.wikipedia.org/wiki/Saia
-CRIANÇA,estágio de desenvolvimento humano entre o nascimento e a puberdade,NASCIMENTO · BEBÊ · DESENVOLVIMENTO · INFÂNCIA · IDADE,44.95,fácil,494,https://pt.wikipedia.org/wiki/Crian%C3%A7a
-CASAMENTO,união social ou contrato jurídico entre pessoas denominadas cônjuges que cria o parentesco,PARCEIRO · CONTRATO · RELIGIOSO · MULHER · HOMEM,29.81,fácil,503,https://pt.wikipedia.org/wiki/Casamento
-TELEFONE,dispositivo de telecomunicações,DISPOSITIVO · COMUNICAÇÃO · CONVERSA · ELÉTRICO · SINAL,29.09,fácil,514,https://pt.wikipedia.org/wiki/Telefone
-CAMA,peça de mobília usada como lugar para dormir ou relaxar,CORTINA · MADEIRA · LEITO · RESIDÊNCIA · HOTEL,28.34,fácil,566,https://pt.wikipedia.org/wiki/Cama
-PENA,estrutura de cobertura corporal das aves,AVES · DINOSSAURO · ISOLAMENTO · CAUDA · COBERTURA,29.2,fácil,569,https://pt.wikipedia.org/wiki/Pena
-FILME,produto audiovisual derivado de uma sequencia de imagens que gera uma impressão de movimento,CINEMA · HERÓI · TELEVISÃO · FITA · ASSUNTO,27.42,fácil,577,https://pt.wikipedia.org/wiki/Filme
-MÉDICO,profissional que pratica medicina,DOENÇA · SAÚDE · BIOLOGIA · ESPECIALIDADE · CURSO,31.1,fácil,589,https://pt.wikipedia.org/wiki/M%C3%A9dico
-FORÇA,influência que faz com que um objeto mude seu movimento,VELOCIDADE · MOVIMENTO · LEI · FÍSICA · PARTÍCULA,26.74,fácil,593,https://pt.wikipedia.org/wiki/For%C3%A7a
-FOGO,processo de rápida oxidação de um material que emite luz e calor,OXIGÊNIO · CHAMA · REAÇÃO · CALOR · CARBONO,33.92,fácil,597,https://pt.wikipedia.org/wiki/Fogo
-PRESIDENTE,líder de um Estado,CARGO · ELEITO · FUNCIONÁRIO · CHEFE · TRIBUNAL,33.87,fácil,650,https://pt.wikipedia.org/wiki/Presidente
-DOUTOR,título acadêmico atribuído a quem conclui curso de doutorado,TRATAMENTO · GRAU · CANDIDATO · CIÊNCIA · ENSINO,25.81,fácil,657,https://pt.wikipedia.org/wiki/Doutor
-CABELO,filamento de proteínas que cresce a partir de folículos encontrados na derme ou pele; uma das características definidoras dos mamíferos,CÉLULA · CAMADA · COURO · LIGAÇÃO · FIO,30.24,fácil,684,https://pt.wikipedia.org/wiki/Cabelo
-MESA,mobília com uma superfície plana,JANTAR · MADEIRA · COZINHA · JARDIM · REUNIÃO,27.6,fácil,719,https://pt.wikipedia.org/wiki/Mesa
-NATAL,comemoração anual do nascimento de Jesus Cristo,DEZEMBRO · FESTA · CRISTÃO · NASCIMENTO · CELEBRAÇÃO,47.81,fácil,781,https://pt.wikipedia.org/wiki/Natal
-SONHO,fenômenos imaginários experienciados durante o sono,CIÊNCIA · FASE · INCONSCIENTE · IMAGINAÇÃO · DEBATE,27.24,fácil,805,https://pt.wikipedia.org/wiki/Sonho
-OLHO,órgão da visão,PERCEPÇÃO · IMAGEM · VISÃO · ESCURO · CÉLULA,31.54,fácil,806,https://pt.wikipedia.org/wiki/Olho
-ACIDENTE,evento ou circunstância imprevista e não planejada,DANO · VENENO · COMPROMISSO · ELÉTRICO · LESÃO,29.6,fácil,819,https://pt.wikipedia.org/wiki/Acidente
-ADVOGADO,jurista que auxilia clientes e os representa num tribunal de justiça,JUÍZO · DOUTOR · EXAME · APROVAÇÃO · INTERESSE,28.87,fácil,823,https://pt.wikipedia.org/wiki/Advogado
-ANIVERSÁRIO,"quando algum ser ""vivo"" e as vezes mortos comemora vários vezes no ano o dia em que nasceu",VELAS · PARABÉNS · NASCIMENTO · CELEBRAÇÃO · FESTA,30.78,fácil,826,https://pt.wikipedia.org/wiki/Anivers%C3%A1rio
-ENERGIA,conceito de energia,CIÊNCIA · DESCRIÇÃO · MUDANÇA · FÍSICO · RELACIONAMENTO,25.21,fácil,846,https://pt.wikipedia.org/wiki/Energia
-BANCO,instituição financeira,EMPRÉSTIMO · DINHEIRO · DEPÓSITO · FINANCEIRA · INSTITUIÇÃO,25.61,fácil,855,https://pt.wikipedia.org/wiki/Banco
-LUTA,forma de desporto de combate envolvendo técnicas de agarramento,CORPO · ESPORTE · COMPETIÇÃO · ARTE · COMBATE,38.65,fácil,897,https://pt.wikipedia.org/wiki/Luta
-BARCO,pequena embarcação aquática,NAVIO · COMÉRCIO · TRONCO · RIO · SUBMARINO,25.72,fácil,916,https://pt.wikipedia.org/wiki/Barco
-AVIÃO,aeronave que necessita de asas fixas e motores para se sustentar no ar,MOTOR · JATO · ASA · FOGUETE · MÁQUINA,33.13,fácil,929,https://pt.wikipedia.org/wiki/Avi%C3%A3o
-FRIO,estado relativo ou subjetivo de baixa temperatura,ESCALA · TEMPERATURA · GELO · ZERO · ABSOLUTO,48.18,fácil,938,https://pt.wikipedia.org/wiki/Frio
-IGREJA,comunidade dos fiéis que professam sua fé em Jesus Cristo,CRISTÃO · REUNIÃO · COMUNIDADE · LIDERANÇA · RELIGIOSO,31.82,fácil,947,https://pt.wikipedia.org/wiki/Igreja
-OURO,elemento químico com número atómico 79,METAL · QUÍMICO · AMARELO · ELETRÔNICA · INDÚSTRIA,29.14,fácil,974,https://pt.wikipedia.org/wiki/Ouro
-GENERAL,patente militar,OFICIAL · EXÉRCITO · ALMIRANTE · CAPITÃO · COMANDO,34.79,fácil,991,https://pt.wikipedia.org/wiki/General
-CAVALO,tipo de mamífero domesticado para o trabalho,DEDO · IDADE · ALTURA · SANGUE · CRIATURA,28.08,fácil,997,https://pt.wikipedia.org/wiki/Cavalo
-CARNE,"músculo, quando usado para alimentação",ALIMENTO · ANIMAL · GORDURA · DIETA · CÂNCER,42.54,fácil,1015,https://pt.wikipedia.org/wiki/Carne
-PLANETA,corpo celeste sem processo interno de fusão nuclear que orbita sistemas estelares,MASSA · ESTRELA · TAMANHO · PERCEPÇÃO · VIZINHANÇA,34.48,fácil,1029,https://pt.wikipedia.org/wiki/Planeta
-EMPRESA,atividade econômica organizada exercida profissionalmente pelo empresário para a produção ou a circulação de bens ou de serviços,DIREITO · BENS · COMÉRCIO · COMERCIAL · SERVIÇO,25.98,fácil,1068,https://pt.wikipedia.org/wiki/Empresa
-CÉREBRO,órgão principal do sistema nervoso em animais vertebrados e na maioria dos invertebrados,ANIMAL · AUDIÇÃO · CRÂNIO · SENSO · EQUILÍBRIO,25.5,fácil,1071,https://pt.wikipedia.org/wiki/C%C3%A9rebro
-BRANCO,cor mais clara,PRETO · CLARA · NEVE · CORDEIRO · SÍMBOLO,33.17,fácil,1083,https://pt.wikipedia.org/wiki/Branco
-PÚBLICO,grupo de pessoas individuais,CIÊNCIA · COMUNICAÇÃO · AUDIÊNCIA · FUSÃO · PSICOLOGIA,26.31,fácil,1094,https://pt.wikipedia.org/wiki/P%C3%BAblico
-COZINHA,espaço arquitetónico,FORNO · MÁQUINA · CASA · ROUPA · INSTALAÇÃO,27.47,fácil,1100,https://pt.wikipedia.org/wiki/Cozinha
-HUMANO,único membro vivo da espécie Homo sapiens,DESENVOLVIMENTO · MANIPULAR · FERRAMENTA · CURIOSIDADE · CÉREBRO,29.95,fácil,1112,https://pt.wikipedia.org/wiki/Humano
-TREM,meio de transporte sobre carris,TRILHO · FERROVIA · VAPOR · PASSAGEIRO · COMBOIO,38.7,fácil,1123,https://pt.wikipedia.org/wiki/Trem
-SARGENTO,graduação militar,OFICIAL · MILITAR · FORÇA · COMANDO · EXÉRCITO,38.27,fácil,1132,https://pt.wikipedia.org/wiki/Sargento
-LIBERDADE,"conceito que pode assumir uma grande variedade de significados tais como autonomia, independência, autodeterminação, autodomínio, ausência de subordinação, ausência de restrições e limitações, livre-arbítrio, espontaneidade, entre outros",POLÍTICA · AUTORIDADE · DIREITO · OPOSIÇÃO · INDEPENDÊNCIA,28.05,fácil,1168,https://pt.wikipedia.org/wiki/Liberdade
-SILÊNCIO,Ausência de som total,MUDO · BARREIRA · ESPIRITUAL · COMUNICAÇÃO · INTERIOR,27.31,fácil,1185,https://pt.wikipedia.org/wiki/Sil%C3%AAncio
-ARTE,conceito e processo criativo,DANÇA · EMOÇÃO · FILOSOFIA · PRODUTO · MÚSICA,37.2,média,1260,https://pt.wikipedia.org/wiki/Arte
-PELE,órgão que cobre o corpo dos vertebrados,CAMADA · CÉLULA · CORPO · ANIMAL · SENSAÇÃO,30.82,média,1273,https://pt.wikipedia.org/wiki/Pele
-COMPUTADOR,dispositivo simples de uso geral para executar operações aritméticas ou lógicas,OPERAÇÃO · CONTAGEM · MÁQUINA · TAREFA · CÁLCULO,34.34,média,1278,https://pt.wikipedia.org/wiki/Computador
-DANÇA,arte de mover o corpo humano consistindo de uma sequência de movimentos ordenados usualmente acompanhados de música.,ARTE · MOVIMENTO · MÚSICA · EXPRESSÃO · TEATRO,39.57,média,1297,https://pt.wikipedia.org/wiki/Dan%C3%A7a
-JULGAMENTO,decisão formal tomada por um tribunal,DECISÃO · JUIZ · AVALIAÇÃO · RECOMPENSA · PUNIÇÃO,32.72,média,1335,https://pt.wikipedia.org/wiki/Julgamento
-JUIZ,profissional que aplica a lei,CIDADÃO · AUTORIDADE · INTERESSE · TRIBUNAL · DIVÓRCIO,32.8,média,1343,https://pt.wikipedia.org/wiki/Juiz
-PIADA,história curta de ficção com a intenção de fazer as pessoas rirem,HUMOR · IRONIA · ABSURDO · HISTÓRIA · EXIBIÇÃO,30.82,média,1348,https://pt.wikipedia.org/wiki/Piada
-HERÓI,"pessoa que enfrenta a adversidade com engenhosidade, coragem ou força",PERSONAGEM · CORAGEM · DIMENSÃO · DEUS · LITERATURA,41.42,média,1394,https://pt.wikipedia.org/wiki/Her%C3%B3i
-GELO,estado sólido da água,SÓLIDO · FUSÃO · ÁGUA · LÍQUIDO · TEMPERATURA,32.53,média,1401,https://pt.wikipedia.org/wiki/Gelo
-VISÃO,sistema do corpo para percepção de imagens,OLHO · PERCEPÇÃO · INSTRUMENTO · CORPO · ÓRGÃOS,31.52,média,1407,https://pt.wikipedia.org/wiki/Vis%C3%A3o
-ÁRVORE,planta lenhosa perene,TRONCO · SOLO · PLANTA · RAIZ · ALTURA,33.23,média,1414,https://pt.wikipedia.org/wiki/%C3%81rvore
-VÍDEO,Gravação que pode ser reproduzida,IMAGEM · FITA · DIGITAL · FORMATO · GRAVAÇÃO,64.11,média,1420,https://pt.wikipedia.org/wiki/V%C3%ADdeo
-MONSTRO,criatura muitas vezes horrível que pode produzir medo ou dano físico,CRIATURA · MORAL · HORROR · ZUMBI · FICÇÃO,34.79,média,1523,https://pt.wikipedia.org/wiki/Monstro
-FACA,objeto cortante capaz de ser empunhado,LÂMINA · FERRAMENTA · CABO · PEDRA · PUNHO,34.63,média,1544,https://pt.wikipedia.org/wiki/Faca
-VERDE,cor primária aditiva visível entre o ciano e o amarelo,CORES · AMARELO · AZUL · VERMELHO · ONDA,60.81,média,1567,https://pt.wikipedia.org/wiki/Verde
-MERCADO,conceito económico,BENS · PRODUTO · VENDA · ECONOMIA · TROCA,41.2,média,1580,https://pt.wikipedia.org/wiki/Mercado
-BOLO,alimento à base de massa de farinha cozido no forno,CAFÉ · FESTA · CASAMENTO · FARINHA · DOCE,41.35,média,1583,https://pt.wikipedia.org/wiki/Bolo
-MARCA,reapresentação simbólica de algo. Símbolo que identifica algo imediatamente,PRODUTO · SINAL · EMPRESA · SÍMBOLO · IMAGEM,30.79,média,1638,https://pt.wikipedia.org/wiki/Marca
-CINEMA,arte cinematográfica,FOTOGRAFIA · DIRETOR · FILME · IMAGEM · CÂMERA,58.13,média,1640,https://pt.wikipedia.org/wiki/Cinema
-VENTO,fluxo de ar,ESCALA · SOLAR · DIREÇÃO · ATMOSFERA · FORÇA,34.46,média,1647,https://pt.wikipedia.org/wiki/Vento
-PONTE,estrutura construída para superar obstáculos físicos,CONSTRUÇÃO · OBSTÁCULO · ARCO · FERRO · RIO,30.53,média,1690,https://pt.wikipedia.org/wiki/Ponte
-CONTRATO,compromisso mútuo legal celebrado voluntariamente entre duas ou mais partes,DIREITO · ACORDO · OPERAÇÃO · VONTADE · NEGÓCIO,39.5,média,1727,https://pt.wikipedia.org/wiki/Contrato
-FUTEBOL,esporte praticado entre duas equipes de onze jogadores,CAMPO · JOGO · EQUIPE · BOLA · JOGADOR,56.84,média,1745,https://pt.wikipedia.org/wiki/Futebol
-FANTASMA,alma ou espírito de uma pessoa ou animal falecido que pode aparecer para os vivos,ESPÍRITO · MORTO · CRENÇA · VIVO · ALMA,31.55,média,1781,https://pt.wikipedia.org/wiki/Fantasma
-CALOR,energia transferida entre sistemas devido à diferença de temperatura,ENERGIA · TRANSFERÊNCIA · CORPO · PANELA · TEMPERATURA,43.38,média,1784,https://pt.wikipedia.org/wiki/Calor
-CANÇÃO,composição para voz humana,MÚSICA · MUSICAL · MELODIA · INSTRUMENTO · CAPELA,35.96,média,1859,https://pt.wikipedia.org/wiki/Can%C3%A7%C3%A3o
-SÁBADO,sétimo dia da semana,DESCANSO · CRISTÃO · JUDEU · ROMANO · DOMINGO,48.33,média,1879,https://pt.wikipedia.org/wiki/S%C3%A1bado
-FELICIDADE,estado mental ou emocional de bem-estar caracterizado por emoções agradáveis,SENTIMENTO · SATISFAÇÃO · EMOÇÃO · SOFRIMENTO · PSICOLOGIA,32.88,média,1963,https://pt.wikipedia.org/wiki/Felicidade
-AEROPORTO,tipo de aeródromo,PASSAGEIRO · PISTA · POUSO · CARGA · OPERAÇÃO,56.39,média,1987,https://pt.wikipedia.org/wiki/Aeroporto
-HOMICÍDIO,assassinato de um humano por outro humano,MORTE · ASSASSINATO · CRIME · INTENÇÃO · CIRCUNSTÂNCIA,42.98,média,1994,https://pt.wikipedia.org/wiki/Homic%C3%ADdio
-COPO,recipiente sem asa e nem tampa utilizado para armazenar e beber líquidos,PLÁSTICO · VIDRO · CERVEJA · TAMPA · FORMATO,31.52,média,1996,https://pt.wikipedia.org/wiki/Copo
-ANJO,"ser sobrenatural, criatura celeste presente em várias tradições religiosas",TRADIÇÃO · ASA · INOCÊNCIA · MENSAGEIRO · BRILHO,30.03,média,2004,https://pt.wikipedia.org/wiki/Anjo
-EXPLOSÃO,liberação repentina de calor e gás,ONDA · EXPLOSIVO · CHOQUE · ENERGIA · VELOCIDADE,44.29,média,2019,https://pt.wikipedia.org/wiki/Explos%C3%A3o
-TECNOLOGIA,"criação, modificação, uso e conhecimento de ferramentas, máquinas, técnicas, ofícios, sistemas e métodos de organização",FERRAMENTA · CIÊNCIA · CONHECIMENTO · MÁQUINA · BENS,31.23,média,2037,https://pt.wikipedia.org/wiki/Tecnologia
-GOLPE,ataque físico direcionado,PUNHO · SOCO · ATAQUE · DEDO · PALMAS,65.61,média,2055,https://pt.wikipedia.org/wiki/Golpe
-CÂNCER,"grupo de doenças onde células anormais se multiplicam incontrolavelmente, destroem o tecido do corpo, prejudicam as funções normais e tem o potencial de se espalhar e invadir outros tecidos e Órgãos do corpo",SINTOMA · DOENÇA · CÉLULA · SANGRAMENTO · TOSSE,37.49,média,2070,https://pt.wikipedia.org/wiki/C%C3%A2ncer
-TEATRO,ramo artístico,ATOR · PÚBLICO · ARTE · ESPETÁCULO · SENTIMENTO,35.81,média,2073,https://pt.wikipedia.org/wiki/Teatro
-PRATO,recipiente plano no qual os alimentos podem ser servidos,PLÁSTICO · VIDRO · SOPA · ALIMENTO · REFEIÇÃO,35.65,média,2110,https://pt.wikipedia.org/wiki/Prato
-AMIZADE,"Relação afetiva, a princípio sem características romântico-sexuais, entre duas pessoas",AMIGO · LEALDADE · RELACIONAMENTO · FAMILIAR · ROMÂNTICO,30.6,média,2137,https://pt.wikipedia.org/wiki/Amizade
-CONSCIÊNCIA,qualidade cognitiva da mente,MENTE · CONSCIENTE · EXPERIÊNCIA · CONHECIMENTO · OPINIÃO,29.86,média,2189,https://pt.wikipedia.org/wiki/Consci%C3%AAncia
-TREINADOR,"pessoa envolvida na direção, instrução e treinamento de esportistas",ESPORTE · ATLETA · EQUIPE · JOGADOR · JOGO,29.93,média,2196,https://pt.wikipedia.org/wiki/Treinador
-VIOLÊNCIA,uso de força física ou poder com a intenção de infligir dano,MORTE · MAU · CRIANÇA · FERIMENTO · DANO,30.97,média,2211,https://pt.wikipedia.org/wiki/Viol%C3%AAncia
-PASSEIO,trilha para pedestres ao longo da lateral de uma estrada ou rua,PISO · FAIXA · BORRACHA · PNEU · TRÂNSITO,30.22,média,2241,https://pt.wikipedia.org/wiki/Passeio
-PIZZA,alimento,FARINHA · TOMATE · FORNO · INGREDIENTE · QUEIJO,40.71,média,2257,https://pt.wikipedia.org/wiki/Pizza
-TELEVISÃO,sistema eletrónico de reprodução de imagens e áudio de forma instantânea,TRANSMISSÃO · RÁDIO · IMAGEM · SINAL · APARELHO,42.1,média,2368,https://pt.wikipedia.org/wiki/Televis%C3%A3o
-DESERTO,porção árida de terra onde ocorre pouca precipitação,CHUVA · ÁGUA · SOLO · VENTOS · REPUTAÇÃO,31.59,média,2378,https://pt.wikipedia.org/wiki/Deserto
-MODA,tendência de estilos e vestuários verificada em uma época e cultura,ESTILO · ROUPA · FENÔMENO · MAQUIAGEM · POSTURA,34.44,média,2415,https://pt.wikipedia.org/wiki/Moda
-MILAGRE,Acontecimento sem causa e/ou explicação natural,LEI · CIÊNCIA · EXPLICAÇÃO · DIVINA · CRENÇA,31.56,média,2437,https://pt.wikipedia.org/wiki/Milagre
-SEDE,sensação fisiológica,SINTOMA · SENSAÇÃO · MOTIVAÇÃO · PRESSÃO · SATISFAÇÃO,31.27,média,2448,https://pt.wikipedia.org/wiki/Sede
-CONTO,obra literária curta,ACONTECIMENTO · LÁBIO · FANTASIA · PAISAGEM · PERSONAGEM,31.07,média,2460,https://pt.wikipedia.org/wiki/Conto
-INVERNO,estação do ano,ESTAÇÃO · NEVE · QUEDA · FRIO · VERÃO,38.97,média,2461,https://pt.wikipedia.org/wiki/Inverno
-MADEIRA,"material duro, fibroso obtido das árvores",ÁRVORE · TRONCO · PLANTA · CRESCIMENTO · CÂMBIO,32.67,média,2463,https://pt.wikipedia.org/wiki/Madeira
-CASTELO,fortificação construída na Idade Média pela nobreza,RESIDÊNCIA · NOBRE · DEFESA · LORDE · FORTALEZA,35.79,média,2467,https://pt.wikipedia.org/wiki/Castelo
-DIVÓRCIO,rompimento legal de vínculo de matrimônio,CIVIL · SEPARAÇÃO · CASAMENTO · BENS · CASAL,30.29,média,2491,https://pt.wikipedia.org/wiki/Div%C3%B3rcio
-MINISTRO,político que ocupa um cargo público significativo num governo nacional ou regional,PASTA · SECRETÁRIO · CHEFE · GABINETE · GOVERNO,70.76,média,2493,https://pt.wikipedia.org/wiki/Ministro
-PAGAMENTO,transferência de valor de uma parte para outra em troca de bens ou serviços ou para cumprir uma obrigação,OBRIGAÇÃO · SERVIÇO · MULTA · DINHEIRO · BENS,31.23,média,2542,https://pt.wikipedia.org/wiki/Pagamento
-ESPELHO,"superfície, geralmente de vidro revestida com um amálgama de metal, que reflete uma imagem nítida",RAIO · IMAGEM · OLHO · VIDRO · SUPERFÍCIE,39.62,média,2565,https://pt.wikipedia.org/wiki/Espelho
-SORVETE,alimento congelado adoçado tipicamente comido como lanche ou sobremesa,INGREDIENTE · LEITE · FRUTA · SOBREMESA · GELO,39.03,média,2645,https://pt.wikipedia.org/wiki/Sorvete
-EDUCAÇÃO,aprendizado de conhecimento e técnicas através do ensino,ENSINO · ALUNO · HABILIDADE · OBJETIVO · CICLO,51.39,média,2652,https://pt.wikipedia.org/wiki/Educa%C3%A7%C3%A3o
-OCEANO,grande corpo de água salgada,ÁGUA · CORPO · CICLO · CARBONO · SUPERFÍCIE,39.62,média,2661,https://pt.wikipedia.org/wiki/Oceano
-PENSAMENTO,processo mental,PERCEPÇÃO · JUÍZO · IDEIA · IMAGINAÇÃO · MEMÓRIA,30.78,média,2672,https://pt.wikipedia.org/wiki/Pensamento
-VÍRUS,entidade biológica infecciosa,ENVELOPE · TABACO · CÉLULA · DUPLA · DOENÇA,29.92,média,2676,https://pt.wikipedia.org/wiki/V%C3%ADrus
-FERRO,elemento químico com número atómico 26,CARBONO · TEMPERATURA · LIGA · PESO · NÚCLEO,37.09,média,2730,https://pt.wikipedia.org/wiki/Ferro
-ÓDIO,profunda e extrema antipatia emocional,RAIVA · RESPOSTA · DESPREZO · NOJO · SENTIMENTO,29.84,média,2749,https://pt.wikipedia.org/wiki/%C3%93dio
-FÍSICA,ciência que estuda as propriedades e comportamento da matéria e da enegia,CIÊNCIA · DESENVOLVIMENTO · PARTÍCULA · CONSEQUÊNCIA · DESCRIÇÃO,32.34,média,2756,https://pt.wikipedia.org/wiki/F%C3%ADsica
-TRANSPORTE,"movimento de um lugar a outro de algum elemento, geralmente pessoas ou bens",VEÍCULO · REDE · OPERAÇÃO · COMERCIAL · AVIÃO,39.6,média,2865,https://pt.wikipedia.org/wiki/Transporte
-TERNO,Conjunto de peças de roupa executivas,PASSEIO · CALÇAS · NEGÓCIO · SAIA · ROUPA,60.43,média,2904,https://pt.wikipedia.org/wiki/Terno
-DRAGÃO,criatura lendária,CRIATURA · DEUS · SERPENTE · FERA · MÁGICO,36.52,média,2911,https://pt.wikipedia.org/wiki/Drag%C3%A3o
-MEDICINA,ciência que busca a prevenção e cura de enfermidades,SAÚDE · ANIMAL · DOENÇA · CURA · PROMOÇÃO,40.63,média,2985,https://pt.wikipedia.org/wiki/Medicina
-ONDA,oscilação que viaja através do espaço e da matéria,FREQUÊNCIA · COMPRIMENTO · VELOCIDADE · FÍSICA · CORDA,34.48,média,3047,https://pt.wikipedia.org/wiki/Onda
-CRUZ,figura geométrica,CRISTÃO · LINHA · SÍMBOLO · ÂNGULO · BARRAS,32.11,média,3063,https://pt.wikipedia.org/wiki/Cruz
-FEBRE,aumento da temperatura do corpo acima do normal,TEMPERATURA · CORPO · NORMAL · DOENÇA · CALOR,56.59,média,3085,https://pt.wikipedia.org/wiki/Febre
-REVOLUÇÃO,mudança política rápida e fundamental,POLÍTICA · MUDANÇA · POLÍTICO · CIÊNCIA · SOCIEDADE,31.01,média,3131,https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o
-TEMPERATURA,propriedade física da matéria que expressa quantiativamente as noções comuns de frio e quente,ENERGIA · PARTÍCULA · EQUILÍBRIO · CALOR · GRAU,38.83,média,3133,https://pt.wikipedia.org/wiki/Temperatura
-PAPA,líder mundial da Igreja Católica Apostólica Romana,JURISDIÇÃO · PEDRO · AUTORIDADE · ESPIRITUAL · ELEITO,33.52,média,3159,https://pt.wikipedia.org/wiki/Papa
-GALINHA,ave domesticada mantida por humanos primariamente como fonte de alimento,AVES · GALO · OVO · MACHO · SEMENTE,36.18,média,3267,https://pt.wikipedia.org/wiki/Galinha
-IMPÉRIO,território geográfico extenso (o estado imperial),POLÍTICA · AUTORIDADE · POLÍTICO · UNIFORME · MILITAR,33.02,média,3289,https://pt.wikipedia.org/wiki/Imp%C3%A9rio
-ATIRADOR,Soldado,ARMA · TIRO · COMBATE · CAVALARIA · INIMIGO,43.49,média,3295,https://pt.wikipedia.org/wiki/Atirador
-TÉCNICA,maneira de realizar uma ação ou um conjunto de ações,PROCEDIMENTO · ESFORÇO · ARTE · TECNOLOGIA · DESVIO,31.33,média,3339,https://pt.wikipedia.org/wiki/T%C3%A9cnica
-OSSO,órgão rígido que constitui parte do endoesqueleto de alguns vertebrados,ESQUELETO · CRÂNIO · MÚSCULO · CÉLULA · ÓRGÃOS,31.52,média,3359,https://pt.wikipedia.org/wiki/Osso
-PALHAÇO,artista cômico,RUA · PERSONAGEM · COLCHÃO · CORTE · PIZZA,33.53,média,3452,https://pt.wikipedia.org/wiki/Palha%C3%A7o
-ROBÔ,dispositivo mecânico ou virtual capaz de realizar trabalhos de maneira autônoma,TAREFA · HUMANO · RESGATE · DISPOSITIVO · LIXO,30.61,média,3497,https://pt.wikipedia.org/wiki/Rob%C3%B4
-MOEDA,"unidade monetária, meio de pagamento",TEMPLO · TROCA · PRATA · PRODUTO · ATIVO,30.04,média,3499,https://pt.wikipedia.org/wiki/Moeda
-RESPIRAÇÃO,Processo de ventilação pulmonar e oxigenação sanguínea,TROCA · CELULAR · PULMÕES · CARBONO · OXIGÊNIO,53.96,difícil,3528,https://pt.wikipedia.org/wiki/Respira%C3%A7%C3%A3o
-FROTA,formação de navios de guerra,NAVIOS · GUERRA · MARINHA · ALMIRANTE · FORÇA,49.77,difícil,3554,https://pt.wikipedia.org/wiki/Frota
-TRAIÇÃO,Problema causado pela falta de fidelidade proveniente de um contrato social,CRIME · MILITAR · ESTRANGEIRO · PRISÃO · POLÍTICO,42.73,difícil,3596,https://pt.wikipedia.org/wiki/Trai%C3%A7%C3%A3o
-CAVALEIRO,pessoa condecorada com um título honorífico por um monarca ou outro líder político,CAVALARIA · GUERREIRO · MILITAR · SERVIÇO · ARMADURA,33.52,difícil,3632,https://pt.wikipedia.org/wiki/Cavaleiro
-DESENHO,obra de arte visual em meio bidimensional,PINTURA · INSTRUMENTO · ARTE · LÁPIS · ARTISTA,37.69,difícil,3696,https://pt.wikipedia.org/wiki/Desenho
-DRAMA,qualquer narrativa no âmbito da prosa literária em que haja conflito ou atrito,ÓPERA · TEATRO · MODOS · PERFORMANCE · BALÉ,36.1,difícil,3777,https://pt.wikipedia.org/wiki/Drama
-LANÇAMENTO,"ato administrativo feito pela autoridade administrativa, que independe da coadjuvação do contribuinte",OBRIGAÇÃO · IDENTIFICAÇÃO · ATIVO · GERADOR · DECLARAÇÃO,43.29,difícil,3788,https://pt.wikipedia.org/wiki/Lan%C3%A7amento
-CANETA,instrumento de escrita e desenho,TINTA · ESCRITA · PENA · INSTRUMENTO · DESENHO,38.38,difícil,3793,https://pt.wikipedia.org/wiki/Caneta
-MANTEIGA,produto feito a partir do leite de vaca,LEITE · GORDURA · VACA · BISCOITO · ALIMENTO,31.07,difícil,3802,https://pt.wikipedia.org/wiki/Manteiga
-FRAUDE,esquema ilícito ou de má fé criado para obter ganhos pessoais,ESQUEMA · PESSOAL · CRIME · ILUSÃO · LUCRO,32.04,difícil,3815,https://pt.wikipedia.org/wiki/Fraude
-TRAGÉDIA,gênero de drama baseado no sofrimento humano,DRAMA · DEUS · PERSONAGEM · DESTINO · DIGNIDADE,31.52,difícil,3837,https://pt.wikipedia.org/wiki/Trag%C3%A9dia
-AUTORIZAÇÃO,mecanismo responsável por garantir que apenas usuários autorizados consumam determinados tipos de serviços e recursos,RECURSO · ACESSO · PROGRAMA · SEGURANÇA · COMPUTADOR,51.7,difícil,3976,https://pt.wikipedia.org/wiki/Autoriza%C3%A7%C3%A3o
-TRÂNSITO,"movimento de usuários de uma via, incluindo pedestres e veículos para fins de deslocamento",VEÍCULO · VELOCIDADE · TRÁFEGO · REGRA · LIMITE,45.11,difícil,4010,https://pt.wikipedia.org/wiki/Tr%C3%A2nsito
-SENTENÇA,determinação jurídica de que se aplique uma sanção,JUÍZO · JUIZ · DECISÃO · EXECUÇÃO · EXAME,33.98,difícil,4041,https://pt.wikipedia.org/wiki/Senten%C3%A7a
-ROTEIRO,documento narrativo utilizado como diretriz para espetáculos audiovisuais,ARGUMENTO · FILME · CENA · ESPETÁCULO · CINEMA,38.04,difícil,4137,https://pt.wikipedia.org/wiki/Roteiro
-GRAVIDADE,curvatura espaço-tempo que regula o movimento de objetos inertes,ATRAÇÃO · FORÇA · UNIVERSO · PARTÍCULA · PLANETA,32.15,difícil,4160,https://pt.wikipedia.org/wiki/Gravidade
-JUNHO,sexto mês do ano no calendário gregoriano com 30 dias,NORTE · INVERNO · VERÃO · CALENDÁRIO · DEUSA,41.21,difícil,4165,https://pt.wikipedia.org/wiki/Junho
-PARTO,saída de um bebê do útero da grávida,ÚTERO · BEBÊ · FASE · APRESENTAÇÃO · GRAVIDEZ,42.68,difícil,4247,https://pt.wikipedia.org/wiki/Parto
-RADIAÇÃO,Propagação física de enegia,ENERGIA · ONDA · PARTÍCULA · RAIO · VELOCIDADE,38.75,difícil,4275,https://pt.wikipedia.org/wiki/Radia%C3%A7%C3%A3o
-TRANSFERÊNCIA,o redirecionamento inconsciente dos sentimentos que uma pessoa tem sobre outra pessoa,PACIENTE · SENTIMENTO · TRATAMENTO · INCONSCIENTE · DESEJO,36.94,difícil,4295,https://pt.wikipedia.org/wiki/Transfer%C3%AAncia
-PSIQUIATRA,profissional da Psiquiatria,MÉDICO · DOENÇA · MEDICINA · TREINAMENTO · EXAME,54.37,difícil,4336,https://pt.wikipedia.org/wiki/Psiquiatra
-BONDADE,Oposto da maldade,DISPOSIÇÃO · GENTILEZA · AGRADÁVEL · PREOCUPAÇÃO · PERFEIÇÃO,31.75,difícil,4383,https://pt.wikipedia.org/wiki/Bondade
-ELEIÇÃO,processo pelo qual uma população escolhe indivíduos para cargos públicos,VOTO · COMUNIDADE · ASSENTO · VOTAÇÃO · POVO,40.4,difícil,4392,https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o
-ÁLBUM,"coleção de músicas, palavras e sons",DISCO · MUSICAL · ÁUDIO · FITA · FORMATO,44.12,difícil,4449,https://pt.wikipedia.org/wiki/%C3%81lbum
-JORNALISTA,"pessoa que coleta, escreve e distribui notícias e outros tipos de informação",NOTÍCIAS · IMPRENSA · REPÓRTER · ENTREVISTA · INFORMAÇÃO,32.35,difícil,4493,https://pt.wikipedia.org/wiki/Jornalista
-JANEIRO,primeiro mês do ano no calendário gregoriano com 31 dias,CALENDÁRIO · NORTE · DEZEMBRO · INVERNO · SANTA,36.37,difícil,4498,https://pt.wikipedia.org/wiki/Janeiro
-FÍGADO,órgão do sistema digestivo,ÓRGÃOS · DIREITO · PESO · COSTELA · SANGUE,34.07,difícil,4507,https://pt.wikipedia.org/wiki/F%C3%ADgado
-AGOSTO,oitavo mês do ano no calendário gregoriano com 31 dias,CALENDÁRIO · NORTE · IMPERADOR · POLÍTICO · REFORMA,30.54,difícil,4567,https://pt.wikipedia.org/wiki/Agosto
-PUBLICIDADE,atividade destinada a divulgação de algo,JORNAL · SERVIÇO · ANÚNCIO · PRODUTO · COMERCIAL,37.49,difícil,4598,https://pt.wikipedia.org/wiki/Publicidade
-ORELHA,parte do corpo responsável pela audição,ÓRGÃOS · OSSO · LATERAL · ANIMAL · PATA,32.6,difícil,4640,https://pt.wikipedia.org/wiki/Orelha
-MILHO,espécie de gramínea cultivada para alimento,PLANTA · CEREAL · GRÃO · TRIGO · ARROZ,38.75,difícil,4678,https://pt.wikipedia.org/wiki/Milho
-ESTRESSE,resposta do corpo às situações de pressão ou ameaça,SINTOMA · ACONTECIMENTO · REAÇÃO · ANSIEDADE · EXPOSIÇÃO,33.13,difícil,4680,https://pt.wikipedia.org/wiki/Estresse
-ETERNIDADE,conceito filosófico,TEMPO · COBRA · DRAGÃO · COMEÇO · CAUDA,30.22,difícil,4744,https://pt.wikipedia.org/wiki/Eternidade
-INFECÇÃO,"entrada, desenvolvimento e multiplicação de um patógeno no corpo de um organismo vivo",DOENÇA · PACIENTE · HOSPITAL · BOLSA · SAÚDE,34.44,difícil,4801,https://pt.wikipedia.org/wiki/Infec%C3%A7%C3%A3o
-MUNIÇÃO,termo genérico para o material ou componente disparado a partir de qualquer arma,ARMA · FLECHA · CANHÃO · BALA · ARCO,30.21,difícil,4851,https://pt.wikipedia.org/wiki/Muni%C3%A7%C3%A3o
-DIETA,Prática de comer alimentos de forma regulamentada e supervisionada,HÁBITO · SAÚDE · PESO · ALIMENTAÇÃO · EMPREGO,30.22,difícil,4863,https://pt.wikipedia.org/wiki/Dieta
-ARANHA,ordem de aracnídeo,SEDA · PRESA · VENENO · CIENTISTA · RESPIRAÇÃO,30.43,difícil,4916,https://pt.wikipedia.org/wiki/Aranha
-ORÇAMENTO,orçamentos de obras,DESPESA · PLANO · PREVISÃO · PLANEJAMENTO · ADMINISTRAÇÃO,30.99,difícil,4996,https://pt.wikipedia.org/wiki/Or%C3%A7amento
-OUTONO,estação do ano,ESTAÇÃO · QUEDA · CLIMA · INVERNO · VERÃO,45.46,difícil,5000,https://pt.wikipedia.org/wiki/Outono
-DAMAS,jogo de tabuleiro,CASA · JOGO · JOGADOR · LANCE · VERSÃO,51.49,difícil,5019,https://pt.wikipedia.org/wiki/Damas
-REPÚBLICA,forma de governo,GOVERNO · CIDADÃO · REGIME · POVO · POLÍTICO,32.04,difícil,5043,https://pt.wikipedia.org/wiki/Rep%C3%BAblica
-NUVEM,massa visível de líquidos na atmosfera,PARTÍCULA · GELO · ÁGUA · SUSPENSÃO · ATMOSFERA,37.96,difícil,5066,https://pt.wikipedia.org/wiki/Nuvem
-GORDURA,termo genérico para uma classe de lipídios,CARBONO · ÁGUA · CADEIA · VEGETAL · ÁCIDO,40.75,difícil,5113,https://pt.wikipedia.org/wiki/Gordura
-MARTELO,ferramenta destinada a causar impacto em um objeto,CABO · FERRAMENTA · MADEIRA · GOLPE · IMPACTO,44.1,difícil,5189,https://pt.wikipedia.org/wiki/Martelo
-MÁFIA,organizações criminosas,CRIMINOSO · ORGANIZAÇÃO · TRÁFICO · VIOLÊNCIA · FRAUDE,33.61,difícil,5190,https://pt.wikipedia.org/wiki/M%C3%A1fia
-COMÉRCIO,intercâmbio de bens e serviços,TROCA · PARCEIRO · PRODUTO · DINHEIRO · PROMOÇÃO,32.51,difícil,5192,https://pt.wikipedia.org/wiki/Com%C3%A9rcio
-ENGENHEIRO,profissional que pratica engenharia,TÉCNICO · ENGENHARIA · PROFISSÃO · PROBLEMA · CIENTÍFICO,36.66,difícil,5264,https://pt.wikipedia.org/wiki/Engenheiro
-SINO,instrumento musical de percussão,METAL · MARTELO · INTERNO · RELÓGIO · CÍRCULO,33.98,difícil,5290,https://pt.wikipedia.org/wiki/Sino
-ÓPERA,gênero artístico teatral,DRAMA · MÚSICA · ORQUESTRA · CANTO · MUSICAL,49.22,difícil,5304,https://pt.wikipedia.org/wiki/%C3%93pera
-ORAÇÃO,ato religioso de invocação ou conversa com algum ser transcendente,AGRADECIMENTO · CRENÇA · CREDO · BENEFÍCIO · EXPRESSÃO,31.09,difícil,5338,https://pt.wikipedia.org/wiki/Ora%C3%A7%C3%A3o
-EVOLUÇÃO,Conjunto de processos,GENÉTICA · GERAÇÃO · EVIDÊNCIA · MUDANÇA · SELEÇÃO,34.5,difícil,5353,https://pt.wikipedia.org/wiki/Evolu%C3%A7%C3%A3o
-EMPREGADO,"pessoa contratada para prestar serviços para um empregador, numa carga horária definida, mediante salário",SERVIÇO · REGIME · TRABALHO · EMPRESA · SALÁRIO,31.07,difícil,5357,https://pt.wikipedia.org/wiki/Empregado
-BINGO,jogo de azar,JOGO · SALA · CASA · AZAR · DIVERSÃO,31.47,difícil,5382,https://pt.wikipedia.org/wiki/Bingo
-PESCA,"extração de organismos aquáticos, do meio onde se desenvolveram para diversos fins",PEIXE · REDE · FÍGADO · ALIMENTAÇÃO · PEIXES,32.52,difícil,5383,https://pt.wikipedia.org/wiki/Pesca
-BARATA,subordem de insetos,INSETO · ASA · PRAGA · HÁBITO · CIENTÍFICO,30.55,difícil,5389,https://pt.wikipedia.org/wiki/Barata
-ALIMENTO,substancia utilizada pelos seres vivos,REFEIÇÃO · ANIMAL · DIETA · ENERGIA · HUMANO,32.16,difícil,5390,https://pt.wikipedia.org/wiki/Alimento
-GREVE,"protestos para exigir justiça, respeito e bens para o trabalhador",FUNCIONÁRIO · INDUSTRIAL · FEDERAL · MINA · MASSA,40.51,difícil,5454,https://pt.wikipedia.org/wiki/Greve
-RIQUEZA,abundância de valor,CAPITAL · RENDA · BENS · OURO · DOAÇÃO,35.92,difícil,5492,https://pt.wikipedia.org/wiki/Riqueza
-REFRIGERANTE,"bebida não alcoólica, frequentemente carbonada",ÁCIDO · SABOR · AÇÚCAR · FRUTA · ÁGUA,47.61,difícil,5499,https://pt.wikipedia.org/wiki/Refrigerante
-LENÇO,acessório de moda,CABEÇA · PESCOÇO · MULHER · PANO · REDOR,32.75,difícil,5507,https://pt.wikipedia.org/wiki/Len%C3%A7o
-DENTISTA,profissional da odontologia,CIRURGIÃO · MÉDICO · SAÚDE · DIAGNÓSTICO · DOENÇA,44.88,difícil,5528,https://pt.wikipedia.org/wiki/Dentista
-INVESTIMENTO,conjunto de ações com o intuito de se obter lucro,FASE · CAPITAL · EMPRESA · DESPESA · LUCRO,32.04,difícil,5586,https://pt.wikipedia.org/wiki/Investimento
-COMÉDIA,genêro de peças dramáticas com o intuito de ser engraçado,HUMOR · LUTA · IRONIA · JOVEM · PERFORMANCE,37.65,difícil,5599,https://pt.wikipedia.org/wiki/Com%C3%A9dia
-CANHÃO,arma de artilharia,ARTILHARIA · FOGO · CALIBRE · TIRO · LIBRA,36.09,difícil,5663,https://pt.wikipedia.org/wiki/Canh%C3%A3o
-CARRUAGEM,meio de transporte geralmente puxado por cavalos,RODAS · CAVALO · TRANSPORTE · GUERRA · PASSAGEIRO,44.69,difícil,5697,https://pt.wikipedia.org/wiki/Carruagem
-ÓRBITA,trajetória,PLANETA · MOVIMENTO · CENTRO · REDOR · ESTRELA,42.85,difícil,5703,https://pt.wikipedia.org/wiki/%C3%93rbita
-DEMOCRACIA,forma de governo,GOVERNO · DIREITO · POVO · ELEIÇÃO · LIBERDADE,35.63,difícil,5722,https://pt.wikipedia.org/wiki/Democracia
-GUITARRA,instrumento musical de cordas,INSTRUMENTO · CORDA · VIOLÃO · BRAÇO · CAIXA,57.71,difícil,5758,https://pt.wikipedia.org/wiki/Guitarra
-MACHADO,ferramenta de corte,MARTELO · CABO · CORTE · FERRAMENTA · LÂMINA,53.91,difícil,5922,https://pt.wikipedia.org/wiki/Machado
-GRIPE,doença infecciosa provocada por diversos vírus ARN da família Orthomyxoviridae,DOR · VÍRUS · SINTOMA · FEBRE · TOSSE,65.6,difícil,5931,https://pt.wikipedia.org/wiki/Gripe
-MARINHEIRO,pessoa que trabalha a bordo de um barco; homem do mar (principalmente quando embarcado),OFICIAL · MÁQUINA · CONVÉS · NAVIO · PESCA,53.78,difícil,5934,https://pt.wikipedia.org/wiki/Marinheiro
-SANTUÁRIO,lugar sagrado,ALTAR · TEMPLO · SACRIFÍCIO · TÚMULO · CULTO,36.72,difícil,5967,https://pt.wikipedia.org/wiki/Santu%C3%A1rio
-PRIVILÉGIO,Benefícios a um certo grupo de pessoas,EDUCAÇÃO · ESPECIAL · ORIENTAÇÃO · RELIGIÃO · IDENTIDADE,32.24,difícil,5983,https://pt.wikipedia.org/wiki/Privil%C3%A9gio
-LEILÃO,"processo de compra e venda de bens ou serviços, oferecendo-os para licitação, recebendo licitações e vendendo o item ao licitante com a melhor oferta",LANCE · OFERTA · PREÇO · NEGOCIAÇÃO · LOTE,55.68,difícil,6030,https://pt.wikipedia.org/wiki/Leil%C3%A3o
-MARROM,cor,CORES · LARANJA · ESCURO · AZUL · AMARELO,44.26,difícil,6053,https://pt.wikipedia.org/wiki/Marrom
-VAPOR,Substâncias na fase gasosa a uma temperatura inferior ao seu ponto crítico,PRESSÃO · TEMPERATURA · LÍQUIDO · FASE · SÓLIDO,54.07,difícil,6064,https://pt.wikipedia.org/wiki/Vapor
-NINJA,tipo de agente ou mercenário no japão feudal,ESPIÃO · COMBATE · ESPIONAGEM · SAMURAI · MITO,36.17,difícil,6065,https://pt.wikipedia.org/wiki/Ninja
-ZUMBI,ser mítico morto-vivo,CADÁVER · CRIATURA · MÁGICO · FILME · TERROR,32.16,difícil,6074,https://pt.wikipedia.org/wiki/Zumbi
-PELOTÃO,pequena unidade militar,SARGENTO · COMANDO · TENENTE · COMPANHIA · COMBATE,64.42,difícil,6193,https://pt.wikipedia.org/wiki/Pelot%C3%A3o
-ANSIEDADE,sensação intensa de preocupação pelo futuro ou pela incerteza,MEDO · SENTIMENTO · TENSÃO · AMEAÇA · PREOCUPAÇÃO,39.02,difícil,6494,https://pt.wikipedia.org/wiki/Ansiedade
-BATOM,Produto cosmético,LÁBIO · MULHER · MAQUIAGEM · TUBO · BASTÃO,33.77,difícil,6652,https://pt.wikipedia.org/wiki/Batom
-COMETA,pequeno objeto astronômico gelado,CAUDA · COMA · POEIRA · NÚCLEO · GELO,52.04,difícil,6689,https://pt.wikipedia.org/wiki/Cometa
-INSTITUIÇÃO,estrutura social abstra que regula o comportamento de um grupo de indivíduos,COMPORTAMENTO · POLÍTICA · POLÍTICO · REGRA · INTENÇÃO,31.67,difícil,6706,https://pt.wikipedia.org/wiki/Institui%C3%A7%C3%A3o
+palavra,sentido,proibidas,revisada,no_artigo,5a_forca,dificuldade,posicao_na_fala,artigo
+VIDA,condição própria dos seres vivos,MORTE · NASCER · RESPIRAR · EXISTIR · CICLO,sim,1/5,999.0,fácil,121,https://pt.wikipedia.org/wiki/Vida
+HOMEM,ser humano do gênero masculino,MULHER · MACHO · ADULTO · RAPAZ · MASCULINO,sim,5/5,999.0,fácil,145,https://pt.wikipedia.org/wiki/Homem
+AMOR,sentimento positivo baseado no afeto,CORAÇÃO · PAIXÃO · CARINHO · ROMANCE · BEIJO,sim,2/5,999.0,fácil,233,https://pt.wikipedia.org/wiki/Amor
+MEDO,sensação que proporciona um estado de alerta demonstrado pelo receio de fazer alguma coisa,CORAGEM · ESCURO · FOBIA · TREMER · SUSTO,sim,0/5,999.0,fácil,301,https://pt.wikipedia.org/wiki/Medo
+IRMÃO,pessoa filho do mesmo pai ou mãe de outra,PAI · MÃE · PRIMO · SANGUE · GÊMEO,sim,0/5,999.0,fácil,304,https://pt.wikipedia.org/wiki/Irm%C3%A3o
+HISTÓRIA,eventos ocorridos no passado,PASSADO · LIVRO · FATO · MEMÓRIA · AULA,sim,1/5,999.0,fácil,306,https://pt.wikipedia.org/wiki/Hist%C3%B3ria
+POLÍCIA,instituição constituída pelo Estado para o cumprimento da lei,VIATURA · LEI · CRIME · DELEGACIA · FARDA,sim,1/5,999.0,fácil,329,https://pt.wikipedia.org/wiki/Pol%C3%ADcia
+ÁGUA,composto químico formado por moléculas com dois átomos de hidrogénio e um de oxigénio,LÍQUIDO · SEDE · GELO · CHUVA · TORNEIRA,sim,2/5,999.0,fácil,367,https://pt.wikipedia.org/wiki/%C3%81gua
+ARMA,"instrumento usado para causar dano ou ferimento em seres vivos, estruturas ou sistemas",BALA · REVÓLVER · FACA · GUERRA · MATAR,sim,1/5,999.0,fácil,411,https://pt.wikipedia.org/wiki/Arma
+GUERRA,conflito organizado e prolongado entre Estados,CONFLITO · MORTE · ARMA · PAZ · BATALHA,sim,3/5,999.0,fácil,424,https://pt.wikipedia.org/wiki/Guerra
+SANGUE,fluido corporal,VERMELHO · VEIA · CORAÇÃO · TRANSFUSÃO · CORPO,sim,2/5,999.0,fácil,432,https://pt.wikipedia.org/wiki/Sangue
+LICENÇA,conjunto de permissões para usar algo,PERMISSÃO · AUTORIZAÇÃO · DOCUMENTO · SOFTWARE · CARTEIRA,sim,2/5,999.0,fácil,455,https://pt.wikipedia.org/wiki/Licen%C3%A7a
+CAPITÃO,posto de oficial existente na maioria dos exércitos do mundo,PATENTE · EXÉRCITO · NAVIO · GENERAL · MARINHA,sim,2/5,999.0,fácil,456,https://pt.wikipedia.org/wiki/Capit%C3%A3o
+SAIA,roupa,ROUPA · VESTIDO · MULHER · JOELHO · TECIDO,sim,2/5,999.0,fácil,477,https://pt.wikipedia.org/wiki/Saia
+CRIANÇA,estágio de desenvolvimento humano entre o nascimento e a puberdade,BEBÊ · BRINQUEDO · ESCOLA · INFÂNCIA · FILHO,sim,2/5,999.0,fácil,494,https://pt.wikipedia.org/wiki/Crian%C3%A7a
+CASAMENTO,união social ou contrato jurídico entre pessoas denominadas cônjuges que cria o parentesco,NOIVA · ALIANÇA · IGREJA · FESTA · ALTAR,sim,0/5,999.0,fácil,503,https://pt.wikipedia.org/wiki/Casamento
+TELEFONE,dispositivo de telecomunicações,CELULAR · TOCAR · NÚMERO · APARELHO · LIGAR,sim,2/5,999.0,fácil,514,https://pt.wikipedia.org/wiki/Telefone
+CAMA,peça de mobília usada como lugar para dormir ou relaxar,DORMIR · QUARTO · COLCHÃO · SONO · TRAVESSEIRO,sim,0/5,999.0,fácil,566,https://pt.wikipedia.org/wiki/Cama
+PENA,estrutura de cobertura corporal das aves,AVE · ASA · LEVE · VOAR · NINHO,sim,1/5,999.0,fácil,569,https://pt.wikipedia.org/wiki/Pena
+FILME,produto audiovisual derivado de uma sequencia de imagens que gera uma impressão de movimento,CINEMA · ATOR · TELA · ROTEIRO · DIRETOR,sim,1/5,999.0,fácil,577,https://pt.wikipedia.org/wiki/Filme
+MÉDICO,profissional que pratica medicina,HOSPITAL · REMÉDIO · CONSULTA · JALECO · ENFERMEIRO,sim,0/5,999.0,fácil,589,https://pt.wikipedia.org/wiki/M%C3%A9dico
+FORÇA,influência que faz com que um objeto mude seu movimento,MÚSCULO · EMPURRAR · PUXAR · GRAVIDADE · ENERGIA,sim,1/5,999.0,fácil,593,https://pt.wikipedia.org/wiki/For%C3%A7a
+FOGO,processo de rápida oxidação de um material que emite luz e calor,CHAMA · CALOR · INCÊNDIO · QUEIMAR · LENHA,sim,3/5,999.0,fácil,597,https://pt.wikipedia.org/wiki/Fogo
+PRESIDENTE,líder de um Estado,LÍDER · PAÍS · ELEIÇÃO · PALÁCIO · MANDATO,sim,1/5,999.0,fácil,650,https://pt.wikipedia.org/wiki/Presidente
+DOUTOR,título acadêmico atribuído a quem conclui curso de doutorado,TÍTULO · UNIVERSIDADE · TESE · PROFESSOR · MÉDICO,sim,1/5,999.0,fácil,657,https://pt.wikipedia.org/wiki/Doutor
+CABELO,filamento de proteínas que cresce a partir de folículos encontrados na derme ou pele; uma das características definidoras dos mamíferos,SALÃO · CARECA · ESCOVA · FIO · CORTAR,sim,1/5,999.0,fácil,684,https://pt.wikipedia.org/wiki/Cabelo
+MESA,mobília com uma superfície plana,CADEIRA · JANTAR · MADEIRA · SALA · REUNIÃO,sim,4/5,999.0,fácil,719,https://pt.wikipedia.org/wiki/Mesa
+NATAL,comemoração anual do nascimento de Jesus Cristo,ÁRVORE · PRESENTE · DEZEMBRO · CEIA · JESUS,sim,1/5,999.0,fácil,781,https://pt.wikipedia.org/wiki/Natal
+SONHO,fenômenos imaginários experienciados durante o sono,DORMIR · PESADELO · ACORDAR · IMAGINAÇÃO · FANTASIA,sim,1/5,999.0,fácil,805,https://pt.wikipedia.org/wiki/Sonho
+OLHO,órgão da visão,ENXERGAR · LÁGRIMA · CÍLIO · VISÃO · PUPILA,sim,1/5,999.0,fácil,806,https://pt.wikipedia.org/wiki/Olho
+ACIDENTE,evento ou circunstância imprevista e não planejada,MACHUCAR · HOSPITAL · CARRO · COLISÃO · IMPREVISTO,sim,0/5,999.0,fácil,819,https://pt.wikipedia.org/wiki/Acidente
+ADVOGADO,jurista que auxilia clientes e os representa num tribunal de justiça,TRIBUNAL · PROCESSO · JUIZ · DIREITO · DOUTOR,sim,1/5,999.0,fácil,823,https://pt.wikipedia.org/wiki/Advogado
+ANIVERSÁRIO,"quando algum ser ""vivo"" e as vezes mortos comemora vários vezes no ano o dia em que nasceu",BOLO · VELAS · FESTA · PARABÉNS · IDADE,sim,4/5,999.0,fácil,826,https://pt.wikipedia.org/wiki/Anivers%C3%A1rio
+ENERGIA,conceito de energia,ELÉTRICA · FORÇA · LUZ · MOVIMENTO · POTÊNCIA,sim,2/5,999.0,fácil,846,https://pt.wikipedia.org/wiki/Energia
+BANCO,instituição financeira,EMPRÉSTIMO · DINHEIRO · CHEQUE · CONTA · GERENTE,sim,3/5,999.0,fácil,855,https://pt.wikipedia.org/wiki/Banco
+BARCO,pequena embarcação aquática,ÁGUA · PORTO · ÂNCORA · CAPITÃO · VELA,sim,1/5,999.0,fácil,916,https://pt.wikipedia.org/wiki/Barco
+AVIÃO,aeronave que necessita de asas fixas e motores para se sustentar no ar,ASA · PILOTO · PASSAGEIRO · VOAR · AEROPORTO,sim,3/5,999.0,fácil,929,https://pt.wikipedia.org/wiki/Avi%C3%A3o
+FRIO,estado relativo ou subjetivo de baixa temperatura,TEMPERATURA · GELO · CALOR · CASACO · TREMER,sim,3/5,999.0,fácil,938,https://pt.wikipedia.org/wiki/Frio
+IGREJA,comunidade dos fiéis que professam sua fé em Jesus Cristo,PADRE · MISSA · DEUS · FÉ · ALTAR,sim,0/5,999.0,fácil,947,https://pt.wikipedia.org/wiki/Igreja
+OURO,elemento químico com número atómico 79,METAL · BRILHO · JOIA · MEDALHA · MINA,sim,2/5,999.0,fácil,974,https://pt.wikipedia.org/wiki/Ouro
+GENERAL,patente militar,PATENTE · EXÉRCITO · FARDA · GUERRA · ESTRELA,sim,2/5,999.0,fácil,991,https://pt.wikipedia.org/wiki/General
+CAVALO,tipo de mamífero domesticado para o trabalho,ANIMAL · MONTAR · ÉGUA · PATAS · FAZENDA,sim,1/5,999.0,fácil,997,https://pt.wikipedia.org/wiki/Cavalo
+CARNE,"músculo, quando usado para alimentação",CHURRASCO · BOI · AÇOUGUE · BIFE · COSTELA,sim,0/5,999.0,fácil,1015,https://pt.wikipedia.org/wiki/Carne
+PLANETA,corpo celeste sem processo interno de fusão nuclear que orbita sistemas estelares,TERRA · ÓRBITA · MARTE · LUA · SOL,sim,1/5,999.0,fácil,1029,https://pt.wikipedia.org/wiki/Planeta
+EMPRESA,atividade econômica organizada exercida profissionalmente pelo empresário para a produção ou a circulação de bens ou de serviços,NEGÓCIO · ESCRITÓRIO · FUNCIONÁRIO · LUCRO · SÓCIO,sim,0/5,999.0,fácil,1068,https://pt.wikipedia.org/wiki/Empresa
+CÉREBRO,órgão principal do sistema nervoso em animais vertebrados e na maioria dos invertebrados,CABEÇA · NEURÔNIO · PENSAR · MEMÓRIA · CRÂNIO,sim,2/5,999.0,fácil,1071,https://pt.wikipedia.org/wiki/C%C3%A9rebro
+BRANCO,cor mais clara,PRETO · NEVE · CLARO · PAPEL · ARROZ,sim,2/5,999.0,fácil,1083,https://pt.wikipedia.org/wiki/Branco
+PÚBLICO,grupo de pessoas individuais,PLATEIA · MULTIDÃO · TORCIDA · SHOW · AUDIÊNCIA,sim,1/5,999.0,fácil,1094,https://pt.wikipedia.org/wiki/P%C3%BAblico
+COZINHA,espaço arquitetónico,FOGÃO · GELADEIRA · FORNO · PIA · COMIDA,sim,1/5,999.0,fácil,1100,https://pt.wikipedia.org/wiki/Cozinha
+HUMANO,único membro vivo da espécie Homo sapiens,PESSOA · GENTE · ESPÉCIE · MORTAL · SOCIEDADE,sim,1/5,999.0,fácil,1112,https://pt.wikipedia.org/wiki/Humano
+TREM,meio de transporte sobre carris,TRILHO · VAGÃO · ESTAÇÃO · LOCOMOTIVA · BILHETE,sim,1/5,999.0,fácil,1123,https://pt.wikipedia.org/wiki/Trem
+SARGENTO,graduação militar,PATENTE · EXÉRCITO · SOLDADO · GENERAL · FARDA,sim,2/5,999.0,fácil,1132,https://pt.wikipedia.org/wiki/Sargento
+LIBERDADE,"conceito que pode assumir uma grande variedade de significados tais como autonomia, independência, autodeterminação, autodomínio, ausência de subordinação, ausência de restrições e limitações, livre-arbítrio, espontaneidade, entre outros",PRISÃO · VOAR · ESCOLHA · DIREITO · INDEPENDÊNCIA,sim,2/5,999.0,fácil,1168,https://pt.wikipedia.org/wiki/Liberdade
+SILÊNCIO,Ausência de som total,MUDO · BIBLIOTECA · PAZ · SUSSURRO · QUIETO,sim,1/5,999.0,fácil,1185,https://pt.wikipedia.org/wiki/Sil%C3%AAncio
+ARTE,conceito e processo criativo,PINTURA · MUSEU · ESCULTURA · EXPOSIÇÃO · CULTURA,sim,1/5,999.0,média,1260,https://pt.wikipedia.org/wiki/Arte
+PELE,órgão que cobre o corpo dos vertebrados,COURO · PORO · CAMADA · CORPO · TATUAGEM,sim,2/5,999.0,média,1273,https://pt.wikipedia.org/wiki/Pele
+COMPUTADOR,dispositivo simples de uso geral para executar operações aritméticas ou lógicas,TECLADO · MOUSE · TELA · INTERNET · PROGRAMA,sim,1/5,999.0,média,1278,https://pt.wikipedia.org/wiki/Computador
+DANÇA,arte de mover o corpo humano consistindo de uma sequência de movimentos ordenados usualmente acompanhados de música.,MÚSICA · BALÉ · FESTA · RITMO · COREOGRAFIA,sim,2/5,999.0,média,1297,https://pt.wikipedia.org/wiki/Dan%C3%A7a
+JULGAMENTO,decisão formal tomada por um tribunal,TRIBUNAL · JUIZ · RÉU · SENTENÇA · PROCESSO,sim,1/5,999.0,média,1335,https://pt.wikipedia.org/wiki/Julgamento
+JUIZ,profissional que aplica a lei,TRIBUNAL · LEI · TOGA · MARTELO · SENTENÇA,sim,2/5,999.0,média,1343,https://pt.wikipedia.org/wiki/Juiz
+PIADA,história curta de ficção com a intenção de fazer as pessoas rirem,RIR · HUMOR · ENGRAÇADO · COMEDIANTE · GOZAÇÃO,sim,1/5,999.0,média,1348,https://pt.wikipedia.org/wiki/Piada
+HERÓI,"pessoa que enfrenta a adversidade com engenhosidade, coragem ou força",CORAGEM · SALVAR · CAPA · VILÃO · MOCINHO,sim,2/5,999.0,média,1394,https://pt.wikipedia.org/wiki/Her%C3%B3i
+GELO,estado sólido da água,FRIO · CUBO · ÁGUA · GELADEIRA · SORVETE,sim,2/5,999.0,média,1401,https://pt.wikipedia.org/wiki/Gelo
+VISÃO,sistema do corpo para percepção de imagens,OLHO · ENXERGAR · ÓCULOS · IMAGEM · FOCO,sim,2/5,999.0,média,1407,https://pt.wikipedia.org/wiki/Vis%C3%A3o
+ÁRVORE,planta lenhosa perene,TRONCO · FOLHA · RAIZ · FLORESTA · MADEIRA,sim,4/5,999.0,média,1414,https://pt.wikipedia.org/wiki/%C3%81rvore
+VÍDEO,Gravação que pode ser reproduzida,CÂMERA · YOUTUBE · GRAVAR · ASSISTIR · IMAGEM,sim,1/5,999.0,média,1420,https://pt.wikipedia.org/wiki/V%C3%ADdeo
+MONSTRO,criatura muitas vezes horrível que pode produzir medo ou dano físico,MEDO · ASSUSTADOR · CRIATURA · TERROR · ARMÁRIO,sim,3/5,999.0,média,1523,https://pt.wikipedia.org/wiki/Monstro
+FACA,objeto cortante capaz de ser empunhado,CORTAR · LÂMINA · COZINHA · CABO · GARFO,sim,2/5,999.0,média,1544,https://pt.wikipedia.org/wiki/Faca
+VERDE,cor primária aditiva visível entre o ciano e o amarelo,FOLHA · GRAMA · SEMÁFORO · FLORESTA · NATUREZA,sim,1/5,999.0,média,1567,https://pt.wikipedia.org/wiki/Verde
+MERCADO,conceito económico,ECONOMIA · FEIRA · AÇÕES · OFERTA · NEGÓCIO,sim,2/5,999.0,média,1580,https://pt.wikipedia.org/wiki/Mercado
+BOLO,alimento à base de massa de farinha cozido no forno,ANIVERSÁRIO · DOCE · FATIA · FORNO · COBERTURA,sim,3/5,999.0,média,1583,https://pt.wikipedia.org/wiki/Bolo
+MARCA,reapresentação simbólica de algo. Símbolo que identifica algo imediatamente,LOGO · SÍMBOLO · EMPRESA · PRODUTO · PROPAGANDA,sim,3/5,999.0,média,1638,https://pt.wikipedia.org/wiki/Marca
+CINEMA,arte cinematográfica,FILME · PIPOCA · SALA · DIRETOR · INGRESSO,sim,3/5,999.0,média,1640,https://pt.wikipedia.org/wiki/Cinema
+VENTO,fluxo de ar,AR · SOPRAR · FURACÃO · BRISA · MOINHO,sim,1/5,999.0,média,1647,https://pt.wikipedia.org/wiki/Vento
+PONTE,estrutura construída para superar obstáculos físicos,RIO · ATRAVESSAR · CONSTRUÇÃO · VIADUTO · ARCO,sim,3/5,999.0,média,1690,https://pt.wikipedia.org/wiki/Ponte
+CONTRATO,compromisso mútuo legal celebrado voluntariamente entre duas ou mais partes,ASSINAR · ACORDO · CLÁUSULA · ADVOGADO · DIREITO,sim,2/5,999.0,média,1727,https://pt.wikipedia.org/wiki/Contrato
+FUTEBOL,esporte praticado entre duas equipes de onze jogadores,BOLA · GOL · CAMPO · TIME · TORCIDA,sim,3/5,999.0,média,1745,https://pt.wikipedia.org/wiki/Futebol
+FANTASMA,alma ou espírito de uma pessoa ou animal falecido que pode aparecer para os vivos,ASSOMBRAÇÃO · LENÇOL · MEDO · ALMA · MORTO,sim,2/5,999.0,média,1781,https://pt.wikipedia.org/wiki/Fantasma
+CALOR,energia transferida entre sistemas devido à diferença de temperatura,QUENTE · TEMPERATURA · SOL · FOGO · SUOR,sim,1/5,999.0,média,1784,https://pt.wikipedia.org/wiki/Calor
+CANÇÃO,composição para voz humana,MÚSICA · LETRA · MELODIA · RÁDIO · REFRÃO,sim,3/5,999.0,média,1859,https://pt.wikipedia.org/wiki/Can%C3%A7%C3%A3o
+SÁBADO,sétimo dia da semana,DOMINGO · SEXTA · FOLGA · FESTA · DESCANSO,sim,2/5,999.0,média,1879,https://pt.wikipedia.org/wiki/S%C3%A1bado
+FELICIDADE,estado mental ou emocional de bem-estar caracterizado por emoções agradáveis,ALEGRIA · SORRISO · AMOR · SONHO · SATISFAÇÃO,sim,2/5,999.0,média,1963,https://pt.wikipedia.org/wiki/Felicidade
+AEROPORTO,tipo de aeródromo,AVIÃO · PISTA · PASSAPORTE · EMBARQUE · VOO,sim,2/5,999.0,média,1987,https://pt.wikipedia.org/wiki/Aeroporto
+HOMICÍDIO,assassinato de um humano por outro humano,MATAR · CRIME · ASSASSINO · VÍTIMA · ARMA,sim,1/5,999.0,média,1994,https://pt.wikipedia.org/wiki/Homic%C3%ADdio
+COPO,recipiente sem asa e nem tampa utilizado para armazenar e beber líquidos,BEBER · VIDRO · LÍQUIDO · ÁGUA · TAÇA,sim,1/5,999.0,média,1996,https://pt.wikipedia.org/wiki/Copo
+ANJO,"ser sobrenatural, criatura celeste presente em várias tradições religiosas",ASA · CÉU · DEUS · RELIGIÃO · BRANCO,sim,1/5,999.0,média,2004,https://pt.wikipedia.org/wiki/Anjo
+EXPLOSÃO,liberação repentina de calor e gás,BOMBA · FOGO · BARULHO · FUMAÇA · DESTRUIÇÃO,sim,0/5,999.0,média,2019,https://pt.wikipedia.org/wiki/Explos%C3%A3o
+TECNOLOGIA,"criação, modificação, uso e conhecimento de ferramentas, máquinas, técnicas, ofícios, sistemas e métodos de organização",CIÊNCIA · CELULAR · COMPUTADOR · INTERNET · FUTURO,sim,1/5,999.0,média,2037,https://pt.wikipedia.org/wiki/Tecnologia
+GOLPE,ataque físico direcionado,SOCO · ATAQUE · LUTA · CHUTE · MARTELO,sim,4/5,999.0,média,2055,https://pt.wikipedia.org/wiki/Golpe
+CÂNCER,"grupo de doenças onde células anormais se multiplicam incontrolavelmente, destroem o tecido do corpo, prejudicam as funções normais e tem o potencial de se espalhar e invadir outros tecidos e Órgãos do corpo",DOENÇA · TUMOR · QUIMIOTERAPIA · HOSPITAL · MEDO,sim,1/5,999.0,média,2070,https://pt.wikipedia.org/wiki/C%C3%A2ncer
+TEATRO,ramo artístico,PEÇA · ATOR · PALCO · PLATEIA · CORTINA,sim,1/5,999.0,média,2073,https://pt.wikipedia.org/wiki/Teatro
+PRATO,recipiente plano no qual os alimentos podem ser servidos,COMIDA · MESA · TALHER · GARFO · SERVIR,sim,0/5,999.0,média,2110,https://pt.wikipedia.org/wiki/Prato
+AMIZADE,"Relação afetiva, a princípio sem características romântico-sexuais, entre duas pessoas",COLEGA · CONFIANÇA · COMPANHEIRO · APOIO · IRMÃO,sim,3/5,999.0,média,2137,https://pt.wikipedia.org/wiki/Amizade
+CONSCIÊNCIA,qualidade cognitiva da mente,MENTE · CULPA · MORAL · REMORSO · PERCEPÇÃO,sim,2/5,999.0,média,2189,https://pt.wikipedia.org/wiki/Consci%C3%AAncia
+TREINADOR,"pessoa envolvida na direção, instrução e treinamento de esportistas",TÉCNICO · TIME · FUTEBOL · APITO · TÁTICA,sim,1/5,999.0,média,2196,https://pt.wikipedia.org/wiki/Treinador
+VIOLÊNCIA,uso de força física ou poder com a intenção de infligir dano,AGRESSÃO · FORÇA · SANGUE · ARMA · MEDO,sim,1/5,999.0,média,2211,https://pt.wikipedia.org/wiki/Viol%C3%AAncia
+PIZZA,alimento,MASSA · QUEIJO · FORNO · MOLHO · REDONDA,sim,4/5,999.0,média,2257,https://pt.wikipedia.org/wiki/Pizza
+TELEVISÃO,sistema eletrónico de reprodução de imagens e áudio de forma instantânea,TELA · APARELHO · CANAL · ANTENA · PROGRAMA,sim,2/5,999.0,média,2368,https://pt.wikipedia.org/wiki/Televis%C3%A3o
+DESERTO,porção árida de terra onde ocorre pouca precipitação,AREIA · CALOR · CAMELO · OÁSIS · CACTO,sim,0/5,999.0,média,2378,https://pt.wikipedia.org/wiki/Deserto
+MODA,tendência de estilos e vestuários verificada em uma época e cultura,ROUPA · ESTILO · TENDÊNCIA · VESTIR · DESFILE,sim,2/5,999.0,média,2415,https://pt.wikipedia.org/wiki/Moda
+MILAGRE,Acontecimento sem causa e/ou explicação natural,DEUS · FÉ · CURA · SANTO · ORAÇÃO,sim,1/5,999.0,média,2437,https://pt.wikipedia.org/wiki/Milagre
+SEDE,sensação fisiológica,ÁGUA · CALOR · BEBER · BOCA · SECO,sim,2/5,999.0,média,2448,https://pt.wikipedia.org/wiki/Sede
+CONTO,obra literária curta,HISTÓRIA · FÁBULA · ESCRITOR · FICÇÃO · LIVRO,sim,2/5,999.0,média,2460,https://pt.wikipedia.org/wiki/Conto
+INVERNO,estação do ano,ESTAÇÃO · NEVE · FRIO · GELO · CASACO,sim,4/5,999.0,média,2461,https://pt.wikipedia.org/wiki/Inverno
+MADEIRA,"material duro, fibroso obtido das árvores",ÁRVORE · TRONCO · FLORESTA · MARCENARIA · MÓVEL,sim,3/5,999.0,média,2463,https://pt.wikipedia.org/wiki/Madeira
+CASTELO,fortificação construída na Idade Média pela nobreza,TORRE · FORTALEZA · REI · MEDIEVAL · MURALHA,sim,2/5,999.0,média,2467,https://pt.wikipedia.org/wiki/Castelo
+DIVÓRCIO,rompimento legal de vínculo de matrimônio,SEPARAÇÃO · CASAMENTO · CASAL · ADVOGADO · CUSTÓDIA,sim,3/5,999.0,média,2491,https://pt.wikipedia.org/wiki/Div%C3%B3rcio
+MINISTRO,político que ocupa um cargo público significativo num governo nacional ou regional,GOVERNO · CARGO · POLÍTICA · GABINETE · PRESIDENTE,sim,4/5,999.0,média,2493,https://pt.wikipedia.org/wiki/Ministro
+PAGAMENTO,transferência de valor de uma parte para outra em troca de bens ou serviços ou para cumprir uma obrigação,DINHEIRO · TRANSFERÊNCIA · BOLETO · CARTÃO · SALÁRIO,sim,2/5,999.0,média,2542,https://pt.wikipedia.org/wiki/Pagamento
+ESPELHO,"superfície, geralmente de vidro revestida com um amálgama de metal, que reflete uma imagem nítida",IMAGEM · VIDRO · REFLEXO · BANHEIRO · QUEBRAR,sim,2/5,999.0,média,2565,https://pt.wikipedia.org/wiki/Espelho
+SORVETE,alimento congelado adoçado tipicamente comido como lanche ou sobremesa,GELADO · CASQUINHA · VERÃO · CHOCOLATE · DOCE,sim,0/5,999.0,média,2645,https://pt.wikipedia.org/wiki/Sorvete
+EDUCAÇÃO,aprendizado de conhecimento e técnicas através do ensino,ESCOLA · ENSINO · PROFESSOR · CONHECIMENTO · FORMAÇÃO,sim,2/5,999.0,média,2652,https://pt.wikipedia.org/wiki/Educa%C3%A7%C3%A3o
+OCEANO,grande corpo de água salgada,MAR · ÁGUA · PEIXE · ONDA · PRAIA,sim,1/5,999.0,média,2661,https://pt.wikipedia.org/wiki/Oceano
+PENSAMENTO,processo mental,MENTE · IDEIA · CÉREBRO · RACIOCÍNIO · CONSCIÊNCIA,sim,2/5,999.0,média,2672,https://pt.wikipedia.org/wiki/Pensamento
+VÍRUS,entidade biológica infecciosa,DOENÇA · INFECÇÃO · GRIPE · VACINA · CONTÁGIO,sim,2/5,999.0,média,2676,https://pt.wikipedia.org/wiki/V%C3%ADrus
+FERRO,elemento químico com número atómico 26,METAL · AÇO · ÍMÃ · ELEMENTO · PESO,sim,2/5,999.0,média,2730,https://pt.wikipedia.org/wiki/Ferro
+ÓDIO,profunda e extrema antipatia emocional,RAIVA · RANCOR · INIMIGO · VINGANÇA · GUERRA,sim,1/5,999.0,média,2749,https://pt.wikipedia.org/wiki/%C3%93dio
+FÍSICA,ciência que estuda as propriedades e comportamento da matéria e da enegia,CIÊNCIA · ENERGIA · MATÉRIA · EINSTEIN · GRAVIDADE,sim,2/5,999.0,média,2756,https://pt.wikipedia.org/wiki/F%C3%ADsica
+TRANSPORTE,"movimento de um lugar a outro de algum elemento, geralmente pessoas ou bens",VEÍCULO · AVIÃO · ÔNIBUS · CARRO · VIAGEM,sim,2/5,999.0,média,2865,https://pt.wikipedia.org/wiki/Transporte
+TERNO,Conjunto de peças de roupa executivas,GRAVATA · CAMISA · FORMAL · PALETÓ · CASAMENTO,sim,2/5,999.0,média,2904,https://pt.wikipedia.org/wiki/Terno
+DRAGÃO,criatura lendária,FOGO · ASAS · ESCAMAS · CAVALEIRO · MÍTICO,sim,1/5,999.0,média,2911,https://pt.wikipedia.org/wiki/Drag%C3%A3o
+MEDICINA,ciência que busca a prevenção e cura de enfermidades,SAÚDE · DOENÇA · TRATAMENTO · HOSPITAL · REMÉDIO,sim,3/5,999.0,média,2985,https://pt.wikipedia.org/wiki/Medicina
+ONDA,oscilação que viaja através do espaço e da matéria,MAR · SURFE · SOM · RÁDIO · MOVIMENTO,sim,0/5,999.0,média,3047,https://pt.wikipedia.org/wiki/Onda
+CRUZ,figura geométrica,IGREJA · SÍMBOLO · VERMELHA · SINAL · HOSPITAL,sim,1/5,999.0,média,3063,https://pt.wikipedia.org/wiki/Cruz
+FEBRE,aumento da temperatura do corpo acima do normal,TEMPERATURA · DOENÇA · TERMÔMETRO · GRIPE · CALAFRIO,sim,2/5,999.0,média,3085,https://pt.wikipedia.org/wiki/Febre
+REVOLUÇÃO,mudança política rápida e fundamental,MUDANÇA · LUTA · PROTESTO · POVO · GREVE,sim,2/5,999.0,média,3131,https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o
+TEMPERATURA,propriedade física da matéria que expressa quantiativamente as noções comuns de frio e quente,CALOR · GRAU · TERMÔMETRO · FRIO · MEDIR,sim,2/5,999.0,média,3133,https://pt.wikipedia.org/wiki/Temperatura
+PAPA,líder mundial da Igreja Católica Apostólica Romana,IGREJA · VATICANO · CATÓLICO · LÍDER · RELIGIOSO,sim,2/5,999.0,média,3159,https://pt.wikipedia.org/wiki/Papa
+GALINHA,ave domesticada mantida por humanos primariamente como fonte de alimento,AVE · BICAR · FAZENDA · FRANGO · OVO,sim,1/5,999.0,média,3267,https://pt.wikipedia.org/wiki/Galinha
+IMPÉRIO,território geográfico extenso (o estado imperial),TERRITÓRIO · PODER · ROMANO · COLÔNIA · CONQUISTA,sim,2/5,999.0,média,3289,https://pt.wikipedia.org/wiki/Imp%C3%A9rio
+ATIRADOR,Soldado,ARMA · SOLDADO · SNIPER · ALVO · FUZIL,sim,1/5,999.0,média,3295,https://pt.wikipedia.org/wiki/Atirador
+TÉCNICA,maneira de realizar uma ação ou um conjunto de ações,MÉTODO · HABILIDADE · JEITO · PROCEDIMENTO · ESTRATÉGIA,sim,1/5,999.0,média,3339,https://pt.wikipedia.org/wiki/T%C3%A9cnica
+OSSO,órgão rígido que constitui parte do endoesqueleto de alguns vertebrados,ESQUELETO · CORPO · CACHORRO · DURO · QUEBRAR,sim,2/5,999.0,média,3359,https://pt.wikipedia.org/wiki/Osso
+PALHAÇO,artista cômico,CIRCO · NARIZ · MAQUIAGEM · MEDO · RIR,sim,1/5,999.0,média,3452,https://pt.wikipedia.org/wiki/Palha%C3%A7o
+ROBÔ,dispositivo mecânico ou virtual capaz de realizar trabalhos de maneira autônoma,MÁQUINA · METAL · FUTURO · ANDROIDE · COMANDO,sim,0/5,999.0,média,3497,https://pt.wikipedia.org/wiki/Rob%C3%B4
+MOEDA,"unidade monetária, meio de pagamento",DINHEIRO · METAL · BOLSO · DÓLAR · TROCA,sim,3/5,999.0,média,3499,https://pt.wikipedia.org/wiki/Moeda
+RESPIRAÇÃO,Processo de ventilação pulmonar e oxigenação sanguínea,AR · PULMÃO · INSPIRAR · EXPIRAR · OXIGÊNIO,sim,2/5,999.0,difícil,3528,https://pt.wikipedia.org/wiki/Respira%C3%A7%C3%A3o
+FROTA,formação de navios de guerra,NAVIOS · ESQUADRA · MARINHA · MAR · GUERRA,sim,3/5,999.0,difícil,3554,https://pt.wikipedia.org/wiki/Frota
+TRAIÇÃO,Problema causado pela falta de fidelidade proveniente de um contrato social,FACADA · MENTIRA · JUDAS · TRAIDOR · CONFIANÇA,sim,1/5,999.0,difícil,3596,https://pt.wikipedia.org/wiki/Trai%C3%A7%C3%A3o
+CAVALEIRO,pessoa condecorada com um título honorífico por um monarca ou outro líder político,ARMADURA · ESPADA · MEDIEVAL · CASTELO · CAVALARIA,sim,2/5,999.0,difícil,3632,https://pt.wikipedia.org/wiki/Cavaleiro
+DESENHO,obra de arte visual em meio bidimensional,LÁPIS · PAPEL · ARTE · TRAÇO · ESBOÇO,sim,3/5,999.0,difícil,3696,https://pt.wikipedia.org/wiki/Desenho
+DRAMA,qualquer narrativa no âmbito da prosa literária em que haja conflito ou atrito,TEATRO · PEÇA · NOVELA · ATOR · CONFLITO,sim,1/5,999.0,difícil,3777,https://pt.wikipedia.org/wiki/Drama
+CANETA,instrumento de escrita e desenho,TINTA · PAPEL · ESCREVER · BIC · LÁPIS,sim,2/5,999.0,difícil,3793,https://pt.wikipedia.org/wiki/Caneta
+MANTEIGA,produto feito a partir do leite de vaca,LEITE · GORDURA · VACA · PÃO · AMARELA,sim,3/5,999.0,difícil,3802,https://pt.wikipedia.org/wiki/Manteiga
+FRAUDE,esquema ilícito ou de má fé criado para obter ganhos pessoais,GOLPE · DINHEIRO · MENTIRA · CARTÃO · POLÍCIA,sim,1/5,999.0,difícil,3815,https://pt.wikipedia.org/wiki/Fraude
+TRAGÉDIA,gênero de drama baseado no sofrimento humano,MORTE · SOFRIMENTO · CHORO · DESGRAÇA · LUTO,sim,0/5,999.0,difícil,3837,https://pt.wikipedia.org/wiki/Trag%C3%A9dia
+AUTORIZAÇÃO,mecanismo responsável por garantir que apenas usuários autorizados consumam determinados tipos de serviços e recursos,ACESSO · SENHA · PERMISSÃO · LOGIN · SEGURANÇA,sim,3/5,999.0,difícil,3976,https://pt.wikipedia.org/wiki/Autoriza%C3%A7%C3%A3o
+TRÂNSITO,"movimento de usuários de uma via, incluindo pedestres e veículos para fins de deslocamento",CARRO · RUA · ENGARRAFAMENTO · SEMÁFORO · BUZINA,sim,0/5,999.0,difícil,4010,https://pt.wikipedia.org/wiki/Tr%C3%A2nsito
+SENTENÇA,determinação jurídica de que se aplique uma sanção,JUIZ · TRIBUNAL · PRISÃO · LEI · RÉU,sim,1/5,999.0,difícil,4041,https://pt.wikipedia.org/wiki/Senten%C3%A7a
+ROTEIRO,documento narrativo utilizado como diretriz para espetáculos audiovisuais,FILME · CENA · ATOR · NOVELA · HISTÓRIA,sim,3/5,999.0,difícil,4137,https://pt.wikipedia.org/wiki/Roteiro
+GRAVIDADE,curvatura espaço-tempo que regula o movimento de objetos inertes,ATRAÇÃO · FÍSICA · PESO · QUEDA · NEWTON,sim,4/5,999.0,difícil,4160,https://pt.wikipedia.org/wiki/Gravidade
+JUNHO,sexto mês do ano no calendário gregoriano com 30 dias,CALENDÁRIO · FOGUEIRA · QUADRILHA · MILHO · INVERNO,sim,2/5,999.0,difícil,4165,https://pt.wikipedia.org/wiki/Junho
+PARTO,saída de um bebê do útero da grávida,BEBÊ · HOSPITAL · DOR · NASCIMENTO · MATERNIDADE,sim,4/5,999.0,difícil,4247,https://pt.wikipedia.org/wiki/Parto
+RADIAÇÃO,Propagação física de enegia,NUCLEAR · USINA · SOL · ENERGIA · CONTAMINAÇÃO,sim,1/5,999.0,difícil,4275,https://pt.wikipedia.org/wiki/Radia%C3%A7%C3%A3o
+PSIQUIATRA,profissional da Psiquiatria,MÉDICO · CONSULTA · DEPRESSÃO · REMÉDIO · HOSPITAL,sim,1/5,999.0,difícil,4336,https://pt.wikipedia.org/wiki/Psiquiatra
+BONDADE,Oposto da maldade,GENTILEZA · AJUDAR · CORAÇÃO · ALTRUÍSMO · CARIDADE,sim,1/5,999.0,difícil,4383,https://pt.wikipedia.org/wiki/Bondade
+ELEIÇÃO,processo pelo qual uma população escolhe indivíduos para cargos públicos,VOTO · DEMOCRACIA · CANDIDATO · URNA · PRESIDENTE,sim,3/5,999.0,difícil,4392,https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o
+ÁLBUM,"coleção de músicas, palavras e sons",MÚSICA · DISCO · FAIXA · BANDA · CAPA,sim,2/5,999.0,difícil,4449,https://pt.wikipedia.org/wiki/%C3%81lbum
+JORNALISTA,"pessoa que coleta, escreve e distribui notícias e outros tipos de informação",REPÓRTER · ENTREVISTA · IMPRENSA · NOTÍCIA · CÂMERA,sim,3/5,999.0,difícil,4493,https://pt.wikipedia.org/wiki/Jornalista
+JANEIRO,primeiro mês do ano no calendário gregoriano com 31 dias,CALENDÁRIO · RÉVEILLON · FOGOS · VIRADA · PRAIA,sim,1/5,999.0,difícil,4498,https://pt.wikipedia.org/wiki/Janeiro
+FÍGADO,órgão do sistema digestivo,ÓRGÃO · ÁLCOOL · CIRROSE · BILE · DIGESTÃO,sim,0/5,999.0,difícil,4507,https://pt.wikipedia.org/wiki/F%C3%ADgado
+AGOSTO,oitavo mês do ano no calendário gregoriano com 31 dias,MÊS · CALENDÁRIO · VENTO · QUEIMADA · INVERNO,sim,1/5,999.0,difícil,4567,https://pt.wikipedia.org/wiki/Agosto
+PUBLICIDADE,atividade destinada a divulgação de algo,ANÚNCIO · COMERCIAL · PRODUTO · PROPAGANDA · MARCA,sim,3/5,999.0,difícil,4598,https://pt.wikipedia.org/wiki/Publicidade
+ORELHA,parte do corpo responsável pela audição,CABEÇA · BRINCO · SOM · ESCUTAR · SURDO,sim,1/5,999.0,difícil,4640,https://pt.wikipedia.org/wiki/Orelha
+MILHO,espécie de gramínea cultivada para alimento,ESPIGA · PIPOCA · AMARELO · CANJICA · PLANTAÇÃO,sim,0/5,999.0,difícil,4678,https://pt.wikipedia.org/wiki/Milho
+ESTRESSE,resposta do corpo às situações de pressão ou ameaça,ANSIEDADE · PRESSÃO · TRABALHO · CANSAÇO · NERVOSO,sim,2/5,999.0,difícil,4680,https://pt.wikipedia.org/wiki/Estresse
+ETERNIDADE,conceito filosófico,SEMPRE · INFINITO · TEMPO · AMOR · DEUS,sim,1/5,999.0,difícil,4744,https://pt.wikipedia.org/wiki/Eternidade
+INFECÇÃO,"entrada, desenvolvimento e multiplicação de um patógeno no corpo de um organismo vivo",DOENÇA · HOSPITAL · VÍRUS · BACTÉRIA · FEBRE,sim,3/5,999.0,difícil,4801,https://pt.wikipedia.org/wiki/Infec%C3%A7%C3%A3o
+MUNIÇÃO,termo genérico para o material ou componente disparado a partir de qualquer arma,ARMA · BALA · GUERRA · PÓLVORA · CARTUCHO,sim,3/5,999.0,difícil,4851,https://pt.wikipedia.org/wiki/Muni%C3%A7%C3%A3o
+DIETA,Prática de comer alimentos de forma regulamentada e supervisionada,EMAGRECER · NUTRICIONISTA · EXERCÍCIO · REGIME · SAUDÁVEL,sim,1/5,999.0,difícil,4863,https://pt.wikipedia.org/wiki/Dieta
+ARANHA,ordem de aracnídeo,TEIA · VENENO · PICAR · MEDO · PERNAS,sim,1/5,999.0,difícil,4916,https://pt.wikipedia.org/wiki/Aranha
+ORÇAMENTO,orçamentos de obras,DINHEIRO · OBRA · REFORMA · CUSTO · PREVISÃO,sim,1/5,999.0,difícil,4996,https://pt.wikipedia.org/wiki/Or%C3%A7amento
+OUTONO,estação do ano,FOLHAS · FRIO · ESTAÇÃO · AMARELO · VENTO,sim,2/5,999.0,difícil,5000,https://pt.wikipedia.org/wiki/Outono
+DAMAS,jogo de tabuleiro,JOGO · XADREZ · TABULEIRO · CASAS · REI,sim,2/5,999.0,difícil,5019,https://pt.wikipedia.org/wiki/Damas
+REPÚBLICA,forma de governo,GOVERNO · PRESIDENTE · BRASIL · FEDERATIVA · DEMOCRACIA,sim,1/5,999.0,difícil,5043,https://pt.wikipedia.org/wiki/Rep%C3%BAblica
+NUVEM,massa visível de líquidos na atmosfera,CÉU · ALGODÃO · CHUVA · VENTO · CINZA,sim,1/5,999.0,difícil,5066,https://pt.wikipedia.org/wiki/Nuvem
+GORDURA,termo genérico para uma classe de lipídios,ÓLEO · BANHA · MANTEIGA · COLESTEROL · CALORIA,sim,1/5,999.0,difícil,5113,https://pt.wikipedia.org/wiki/Gordura
+MARTELO,ferramenta destinada a causar impacto em um objeto,PREGO · BATER · CARPINTEIRO · MARRETA · CAIXA,sim,0/5,999.0,difícil,5189,https://pt.wikipedia.org/wiki/Martelo
+MÁFIA,organizações criminosas,CRIME · GÂNGSTER · EXTORSÃO · ITALIANO · FAMÍLIA,sim,1/5,999.0,difícil,5190,https://pt.wikipedia.org/wiki/M%C3%A1fia
+COMÉRCIO,intercâmbio de bens e serviços,VENDA · COMPRA · MERCADO · LUCRO · DINHEIRO,sim,3/5,999.0,difícil,5192,https://pt.wikipedia.org/wiki/Com%C3%A9rcio
+ENGENHEIRO,profissional que pratica engenharia,CAPACETE · PONTE · PROJETO · CÁLCULO · OBRA,sim,1/5,999.0,difícil,5264,https://pt.wikipedia.org/wiki/Engenheiro
+SINO,instrumento musical de percussão,IGREJA · BADALO · TORRE · ESCOLA · BRONZE,sim,1/5,999.0,difícil,5290,https://pt.wikipedia.org/wiki/Sino
+ÓPERA,gênero artístico teatral,TEATRO · SOPRANO · ORQUESTRA · DRAMA · CANTAR,sim,4/5,999.0,difícil,5304,https://pt.wikipedia.org/wiki/%C3%93pera
+ORAÇÃO,ato religioso de invocação ou conversa com algum ser transcendente,DEUS · IGREJA · MISSA · AJOELHAR · REZAR,sim,0/5,999.0,difícil,5338,https://pt.wikipedia.org/wiki/Ora%C3%A7%C3%A3o
+EVOLUÇÃO,Conjunto de processos,DARWIN · MACACO · ESPÉCIE · ADAPTAÇÃO · SELEÇÃO,sim,1/5,999.0,difícil,5353,https://pt.wikipedia.org/wiki/Evolu%C3%A7%C3%A3o
+EMPREGADO,"pessoa contratada para prestar serviços para um empregador, numa carga horária definida, mediante salário",PATRÃO · SALÁRIO · FUNCIONÁRIO · CONTRATO · CARTEIRA,sim,1/5,999.0,difícil,5357,https://pt.wikipedia.org/wiki/Empregado
+BINGO,jogo de azar,CARTELA · NÚMERO · BOLA · GRITAR · PRÊMIO,sim,0/5,999.0,difícil,5382,https://pt.wikipedia.org/wiki/Bingo
+PESCA,"extração de organismos aquáticos, do meio onde se desenvolveram para diversos fins",PEIXE · VARA · ANZOL · REDE · BARCO,sim,3/5,999.0,difícil,5383,https://pt.wikipedia.org/wiki/Pesca
+BARATA,subordem de insetos,INSETO · NOJO · ANTENA · VENENO · COZINHA,sim,1/5,999.0,difícil,5389,https://pt.wikipedia.org/wiki/Barata
+ALIMENTO,substancia utilizada pelos seres vivos,COMIDA · NUTRIÇÃO · FOME · REFEIÇÃO · PRATO,sim,1/5,999.0,difícil,5390,https://pt.wikipedia.org/wiki/Alimento
+GREVE,"protestos para exigir justiça, respeito e bens para o trabalhador",PARALISAÇÃO · PROTESTO · SINDICATO · TRABALHADOR · CARTAZ,sim,1/5,999.0,difícil,5454,https://pt.wikipedia.org/wiki/Greve
+RIQUEZA,abundância de valor,DINHEIRO · OURO · FORTUNA · MILIONÁRIO · MANSÃO,sim,1/5,999.0,difícil,5492,https://pt.wikipedia.org/wiki/Riqueza
+REFRIGERANTE,"bebida não alcoólica, frequentemente carbonada",GÁS · GARRAFA · LATA · AÇÚCAR · REFRESCO,sim,1/5,999.0,difícil,5499,https://pt.wikipedia.org/wiki/Refrigerante
+LENÇO,acessório de moda,PESCOÇO · SEDA · CABEÇA · MODA · ELEGANTE,sim,3/5,999.0,difícil,5507,https://pt.wikipedia.org/wiki/Len%C3%A7o
+DENTISTA,profissional da odontologia,BROCA · CÁRIE · APARELHO · CONSULTÓRIO · CIRURGIÃO,sim,2/5,999.0,difícil,5528,https://pt.wikipedia.org/wiki/Dentista
+INVESTIMENTO,conjunto de ações com o intuito de se obter lucro,APLICAÇÃO · AÇÕES · LUCRO · RISCO · BOLSA,sim,1/5,999.0,difícil,5586,https://pt.wikipedia.org/wiki/Investimento
+COMÉDIA,genêro de peças dramáticas com o intuito de ser engraçado,ENGRAÇADO · RIR · PIADA · HUMOR · TEATRO,sim,2/5,999.0,difícil,5599,https://pt.wikipedia.org/wiki/Com%C3%A9dia
+CANHÃO,arma de artilharia,TIRO · PÓLVORA · EXÉRCITO · NAVIO · EXPLOSÃO,sim,2/5,999.0,difícil,5663,https://pt.wikipedia.org/wiki/Canh%C3%A3o
+CARRUAGEM,meio de transporte geralmente puxado por cavalos,CAVALO · COCHEIRO · CASTELO · CINDERELA · RODA,sim,1/5,999.0,difícil,5697,https://pt.wikipedia.org/wiki/Carruagem
+ÓRBITA,trajetória,PLANETA · LUA · SOL · ESPAÇO · GRAVIDADE,sim,2/5,999.0,difícil,5703,https://pt.wikipedia.org/wiki/%C3%93rbita
+DEMOCRACIA,forma de governo,VOTO · ELEIÇÃO · POVO · LIBERDADE · PRESIDENTE,sim,4/5,999.0,difícil,5722,https://pt.wikipedia.org/wiki/Democracia
+GUITARRA,instrumento musical de cordas,CORDA · ELÉTRICA · ROCK · AMPLIFICADOR · SOLO,sim,1/5,999.0,difícil,5758,https://pt.wikipedia.org/wiki/Guitarra
+MACHADO,ferramenta de corte,CORTAR · LENHADOR · ÁRVORE · LÂMINA · CABO,sim,3/5,999.0,difícil,5922,https://pt.wikipedia.org/wiki/Machado
+GRIPE,doença infecciosa provocada por diversos vírus ARN da família Orthomyxoviridae,VÍRUS · FEBRE · TOSSE · REMÉDIO · VACINA,sim,4/5,999.0,difícil,5931,https://pt.wikipedia.org/wiki/Gripe
+MARINHEIRO,pessoa que trabalha a bordo de um barco; homem do mar (principalmente quando embarcado),NAVIO · ÂNCORA · CAPITÃO · POPEYE · OFICIAL,sim,2/5,999.0,difícil,5934,https://pt.wikipedia.org/wiki/Marinheiro
+SANTUÁRIO,lugar sagrado,RELIGIÃO · TEMPLO · PEREGRINAÇÃO · ALTAR · SACRIFÍCIO,sim,3/5,999.0,difícil,5967,https://pt.wikipedia.org/wiki/Santu%C3%A1rio
+PRIVILÉGIO,Benefícios a um certo grupo de pessoas,VANTAGEM · ELITE · EXCLUSIVIDADE · CLASSE · INJUSTIÇA,sim,1/5,999.0,difícil,5983,https://pt.wikipedia.org/wiki/Privil%C3%A9gio
+LEILÃO,"processo de compra e venda de bens ou serviços, oferecendo-os para licitação, recebendo licitações e vendendo o item ao licitante com a melhor oferta",LANCE · ARREMATAR · MARTELO · COMPRADOR · GADO,sim,1/5,999.0,difícil,6030,https://pt.wikipedia.org/wiki/Leil%C3%A3o
+MARROM,cor,CASTANHO · CHOCOLATE · CAFÉ · MADEIRA · TERRA,sim,1/5,999.0,difícil,6053,https://pt.wikipedia.org/wiki/Marrom
+VAPOR,Substâncias na fase gasosa a uma temperatura inferior ao seu ponto crítico,ÁGUA · FERVURA · GÁS · PANELA · FERRO,sim,1/5,999.0,difícil,6064,https://pt.wikipedia.org/wiki/Vapor
+NINJA,tipo de agente ou mercenário no japão feudal,JAPÃO · SAMURAI · SOMBRA · TARTARUGA · SILENCIOSO,sim,1/5,999.0,difícil,6065,https://pt.wikipedia.org/wiki/Ninja
+ZUMBI,ser mítico morto-vivo,MORTO · CÉREBRO · APOCALIPSE · TERROR · FILME,sim,2/5,999.0,difícil,6074,https://pt.wikipedia.org/wiki/Zumbi
+PELOTÃO,pequena unidade militar,FUZILAMENTO · SOLDADO · EXÉRCITO · COMANDANTE · MARCHA,sim,0/5,999.0,difícil,6193,https://pt.wikipedia.org/wiki/Pelot%C3%A3o
+ANSIEDADE,sensação intensa de preocupação pelo futuro ou pela incerteza,PREOCUPAÇÃO · PÂNICO · CORAÇÃO · RESPIRAR · REMÉDIO,sim,1/5,999.0,difícil,6494,https://pt.wikipedia.org/wiki/Ansiedade
+BATOM,Produto cosmético,LÁBIO · VERMELHO · MAQUIAGEM · BEIJO · BRILHO,sim,4/5,999.0,difícil,6652,https://pt.wikipedia.org/wiki/Batom
+COMETA,pequeno objeto astronômico gelado,CAUDA · GELO · HALLEY · ÓRBITA · ESTRELA,sim,3/5,999.0,difícil,6689,https://pt.wikipedia.org/wiki/Cometa
+INSTITUIÇÃO,estrutura social abstra que regula o comportamento de um grupo de indivíduos,ORGANIZAÇÃO · GOVERNO · ESCOLA · EMPRESA · IGREJA,sim,1/5,999.0,difícil,6706,https://pt.wikipedia.org/wiki/Institui%C3%A7%C3%A3o

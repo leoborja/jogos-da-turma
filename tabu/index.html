@@ -31,6 +31,9 @@
   font-family:var(--display);font-weight:800;font-size:17px;letter-spacing:-.01em}
 .proibidas li::before{content:"";flex:0 0 auto;width:17px;height:5px;border-radius:2px;
   background:var(--preto)}
+/* ponto = essa proibida também aparece no artigo da Wikipédia que a carta linka */
+.proibidas li.confere::after{content:"";flex:0 0 auto;margin-left:auto;width:7px;height:7px;
+  border-radius:50%;background:var(--preto);opacity:.32}
 
 /* ----------------------------------------------------------- relógio */
 .relogio{display:flex;align-items:center;gap:11px;margin-bottom:14px}
@@ -170,6 +173,26 @@
         </select>
       </div>
     </div>
+    <div class="linha">
+      <div style="flex:1;min-width:120px">
+        <label for="pulos">Pulos por rodada</label>
+        <select id="pulos">
+          <option value="0">nenhum</option>
+          <option value="1" selected>1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="-1">sem limite</option>
+        </select>
+      </div>
+      <div style="flex:1;min-width:160px">
+        <label for="castigo">Falou proibida…</label>
+        <select id="castigo">
+          <option value="ponto" selected>ponto pro adversário</option>
+          <option value="passa">só passa a carta</option>
+          <option value="fim">acaba a rodada</option>
+        </select>
+      </div>
+    </div>
     <div>
       <label>Dificuldade das cartas</label>
       <div class="chips" id="filtro-dif"></div>
@@ -188,10 +211,13 @@
       <li>Não vale dizer a palavra, nem as cinco proibidas, nem <strong>pedaço, plural,
         conjugação, sigla ou rima</strong> de nenhuma delas.</li>
       <li>Não vale <strong>mímica, gesto nem imitar som</strong>. Só falar.</li>
-      <li>Cada acerto vale <strong>1 ponto</strong>. Falar proibida ou pular
-        <strong>dá 1 ponto pro time adversário</strong>.</li>
+      <li>Cada acerto vale <strong>1 ponto</strong>. Pular <strong>dá 1 ponto pro
+        adversário</strong>, e no jogo de caixa falar proibida também — mas aqui
+        dá pra trocar isso, e pra limitar quantos pulos cabem numa rodada.</li>
       <li>Acaba quando todo time descreveu o mesmo número de vezes. Ganha quem tiver
         mais pontos.</li>
+      <li>O <strong>ponto</strong> ao lado de uma proibida quer dizer que ela também
+        aparece no artigo da Wikipédia sobre a palavra.</li>
     </ol>
     <p class="fraco" style="margin-top:12px;font-size:12px">Regras conferidas nas
       <a href="https://instructions.hasbro.com/en-us/instruction/taboo-game-instructions-manual"
@@ -289,8 +315,9 @@ let BANCO = null;
 const J = {
   times: [{nome:"Time 1", pontos:0}, {nome:"Time 2", pontos:0}],
   tempo: 60, rodadas: 3, difs: new Set(DIFS),
+  maxPulos: 1, castigo: "ponto",
   vez: 0, rodada: 1, baralho: [], i: 0, log: [], carta: null,
-  raf: 0, fim: 0, avisou: false, acabou: false, trava: null,
+  pulados: 0, raf: 0, fim: 0, avisou: false, acabou: false, trava: null,
 };
 
 /* ------------------------------------------------------------- telas */
@@ -331,9 +358,25 @@ function desenhaTimes(){
   });
   $("#mais-time").disabled = J.times.length >= 4;
   $("#menos-time").disabled = J.times.length <= 2;
-  $("#regra-erro").textContent = J.times.length === 2
-    ? "Com dois times, falar proibida ou pular dá 1 ponto pro adversário."
-    : "Com mais de dois times não dá pra saber pra quem vai o ponto, então falar proibida ou pular tira 1 ponto de quem estava descrevendo.";
+  explicaRegras();
+}
+
+/* Quem vai jogar precisa saber, antes de começar, o que custa o quê. */
+function explicaRegras(){
+  const p = +$("#pulos").value, c = $("#castigo").value;
+  const doisTimes = J.times.length === 2;
+  const pra = doisTimes ? "1 ponto pro adversário" : "−1 pro time que está descrevendo";
+  const castigo = {
+    ponto: `Falar proibida dá ${pra} e a carta passa — é a regra do jogo de caixa.`,
+    passa: "Falar proibida só queima a carta: ninguém ganha ponto.",
+    fim:   "Falar proibida acaba a rodada na hora, e não dá ponto pro adversário — perder o resto do tempo já é o castigo.",
+  }[c];
+  const pulo = p === 0 ? "Não dá pra pular."
+             : p < 0   ? `Pular à vontade, e cada pulo dá ${pra}.`
+             : `${p} pulo${p === 1 ? "" : "s"} por rodada, e cada um dá ${pra}.`;
+  const times = doisTimes ? ""
+    : " Com mais de dois times não existe \u201co adversário\u201d, então o castigo é tirar ponto de quem descrevia.";
+  $("#regra-erro").textContent = castigo + " " + pulo + times;
 }
 
 function desenhaFiltro(){
@@ -373,6 +416,8 @@ function embaralha(a){
 function comecar(){
   J.tempo = +$("#tempo").value;
   J.rodadas = +$("#rodadas").value;
+  J.maxPulos = +$("#pulos").value;
+  J.castigo = $("#castigo").value;
   J.times.forEach(t => t.pontos = 0);
   J.baralho = embaralha(disponiveis().slice());
   J.i = 0; J.vez = 0; J.rodada = 1; J.acabou = false;
@@ -416,7 +461,8 @@ function soltarTela(){
 }
 
 function iniciaRodada(){
-  J.log = []; J.avisou = false;
+  J.log = []; J.avisou = false; J.pulados = 0;
+  desenhaPular();
   bip(660, 90);
   segurarTela();
   proximaCarta();
@@ -446,9 +492,14 @@ function proximaCarta(){
   $("#carta-restam").textContent = (J.baralho.length - J.i) + " no monte";
   const ul = $("#proibidas");
   ul.innerHTML = "";
+  const confere = new Set(c.no_artigo || []);
   c.proibidas.forEach(p => {
     const li = document.createElement("li");
     li.textContent = p;
+    if (confere.has(p)){
+      li.className = "confere";
+      li.title = "esta também aparece no artigo da Wikipédia";
+    }
     ul.appendChild(li);
   });
   const carta = $("#carta");
@@ -457,12 +508,26 @@ function proximaCarta(){
   carta.classList.add("entra");
 }
 
+function podePular(){ return J.maxPulos < 0 || J.pulados < J.maxPulos; }
+
+function desenhaPular(){
+  const b = $("#pulou");
+  if (J.maxPulos < 0){ b.textContent = "Pular"; b.disabled = false; return; }
+  const restam = Math.max(0, J.maxPulos - J.pulados);
+  b.textContent = restam ? `Pular (${restam})` : "Sem pulo";
+  b.disabled = restam === 0;
+}
+
 function acao(tipo){
   if (!J.carta) return;
+  if (tipo === "pulo" && !podePular()) return;
   J.log.push({carta: J.carta, tipo});
+  if (tipo === "pulo") J.pulados++;
   if (tipo === "acerto"){ bip(880, 70); tremer(25); }
   else { bip(180, 180); tremer([40, 50, 40]); }
+  if (tipo === "tabu" && J.castigo === "fim"){ fimRodada("alguém falou proibida"); return; }
   proximaCarta();
+  desenhaPular();
 }
 
 function fimRodada(porque){
@@ -472,19 +537,27 @@ function fimRodada(porque){
   bip(300, 320); tremer([90, 60, 90]);
 
   const time = J.times[J.vez], vigia = J.times[(J.vez + 1) % J.times.length];
-  const acertos = J.log.filter(l => l.tipo === "acerto").length;
-  const erros = J.log.length - acertos;
-  time.pontos += acertos;
+  const conta = t => J.log.filter(l => l.tipo === t).length;
+  const acertos = conta("acerto"), tabus = conta("tabu"), pulos = conta("pulo");
   const doisTimes = J.times.length === 2;
-  if (doisTimes) vigia.pontos += erros; else time.pontos -= erros;
+  // Pular sempre custa. Falar proibida custa ou não, conforme a mesa escolheu.
+  const punicoes = pulos + (J.castigo === "ponto" ? tabus : 0);
+  time.pontos += acertos;
+  if (doisTimes) vigia.pontos += punicoes; else time.pontos -= punicoes;
 
   $("#resumo-time").textContent = time.nome;
   $("#resumo-placar").textContent = acertos + (acertos === 1 ? " acerto" : " acertos");
-  const detalhe = erros === 0
-    ? "Nenhuma proibida, nenhum pulo."
-    : `${erros} entre proibida e pulo — ` + (doisTimes
-        ? `${erros} ponto${erros === 1 ? "" : "s"} pro ${vigia.nome}.`
-        : `−${erros} pro ${time.nome}.`);
+  const pedacos = [];
+  if (tabus) pedacos.push(`${tabus} proibida${tabus === 1 ? "" : "s"}` +
+    (J.castigo === "ponto" ? "" :
+     J.castigo === "fim" ? " (acabou a rodada)" : " (sem ponto)"));
+  if (pulos) pedacos.push(`${pulos} pulo${pulos === 1 ? "" : "s"}`);
+  const custo = punicoes === 0 ? "." : doisTimes
+    ? ` — ${punicoes} ponto${punicoes === 1 ? "" : "s"} pro ${vigia.nome}.`
+    : ` — −${punicoes} pro ${time.nome}.`;
+  const detalhe = pedacos.length
+    ? pedacos.join(" e ") + custo
+    : "Nenhuma proibida, nenhum pulo.";
   $("#resumo-conta").textContent =
     porque[0].toUpperCase() + porque.slice(1) + ". " + detalhe;
 
@@ -501,9 +574,10 @@ function fimRodada(porque){
   if (J.log.length){
     $("#resumo-nota").hidden = false;
     $("#resumo-nota").innerHTML = "<b>Deu discussão?</b>" +
-      "As cinco proibidas de cada carta são as palavras mais características do artigo " +
-      "da Wikipédia sobre ela. O link de cada carta acima abre o artigo — é lá que se " +
-      "confere de onde saiu cada palavra.";
+      "As cinco proibidas de cada carta saem do cruzamento de duas listas feitas às " +
+      "cegas: as palavras que alguém usaria pra fazer a mesa acertar, e as que vêm à " +
+      "cabeça. O <b>ponto</b> ao lado de uma proibida diz que ela também aparece no " +
+      "artigo da Wikipédia — e o link de cada carta acima abre o artigo pra conferir.";
   } else {
     $("#resumo-nota").hidden = true;
   }
@@ -554,6 +628,8 @@ $("#mais-time").onclick = () => {
 $("#menos-time").onclick = () => {
   if (J.times.length > 2){ J.times.pop(); desenhaTimes(); }
 };
+$("#pulos").onchange = explicaRegras;
+$("#castigo").onchange = explicaRegras;
 $("#comecar").onclick = comecar;
 $("#vai").onclick = iniciaRodada;
 $("#acertou").onclick = () => acao("acerto");

@@ -20,18 +20,22 @@
    "licenca": "CC BY-SA 4.0"
   }
  ],
- "metodo": "As cinco proibidas são os substantivos mais característicos do artigo da Wikipédia sobre a palavra — TF-IDF do texto do artigo contra o resto do baralho e contra o português falado. Palavra que aparece em todo artigo não conta como característica. A dificuldade é a posição da palavra-chave numa lista de frequência do português falado.",
+ "metodo": "Cada carta nasce de um TF-IDF sobre o artigo da Wikipédia e passa por três revisores que não se veem: um escreve as dez palavras que usaria pra mesa acertar, outro as dez que lhe vêm à cabeça, e um terceiro cruza as duas listas com as candidatas do artigo e fecha as cinco. O ponto ao lado de uma proibida diz que ela também aparece no artigo — o link abre e confere. A dificuldade é a posição da palavra-chave numa lista de frequência do português falado.",
  "cartas": [
   {
    "palavra": "VIDA",
    "sentido": "condição própria dos seres vivos",
    "proibidas": [
-    "CÉLULA",
-    "CELULAR",
-    "BIOLOGIA",
-    "VÍRUS",
-    "MATÉRIA"
+    "MORTE",
+    "NASCER",
+    "RESPIRAR",
+    "EXISTIR",
+    "CICLO"
    ],
+   "no_artigo": [
+    "CICLO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 121,
    "artigo": "Vida",
@@ -41,12 +45,20 @@
    "palavra": "HOMEM",
    "sentido": "ser humano do gênero masculino",
    "proibidas": [
-    "MASCULINO",
-    "HUMANO",
+    "MULHER",
+    "MACHO",
     "ADULTO",
-    "MENINO",
-    "IDENTIDADE"
+    "RAPAZ",
+    "MASCULINO"
    ],
+   "no_artigo": [
+    "MULHER",
+    "MACHO",
+    "ADULTO",
+    "RAPAZ",
+    "MASCULINO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 145,
    "artigo": "Homem",
@@ -56,12 +68,17 @@
    "palavra": "AMOR",
    "sentido": "sentimento positivo baseado no afeto",
    "proibidas": [
-    "SENTIMENTO",
-    "EMOÇÃO",
-    "CASAMENTO",
-    "FILOSOFIA",
-    "AVES"
+    "CORAÇÃO",
+    "PAIXÃO",
+    "CARINHO",
+    "ROMANCE",
+    "BEIJO"
    ],
+   "no_artigo": [
+    "PAIXÃO",
+    "CARINHO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 233,
    "artigo": "Amor",
@@ -71,12 +88,14 @@
    "palavra": "MEDO",
    "sentido": "sensação que proporciona um estado de alerta demonstrado pelo receio de fazer alguma coisa",
    "proibidas": [
-    "ALERTA",
-    "RECEIO",
-    "ANSIEDADE",
-    "RATO",
-    "REAÇÃO"
+    "CORAGEM",
+    "ESCURO",
+    "FOBIA",
+    "TREMER",
+    "SUSTO"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 301,
    "artigo": "Medo",
@@ -86,12 +105,14 @@
    "palavra": "IRMÃO",
    "sentido": "pessoa filho do mesmo pai ou mãe de outra",
    "proibidas": [
-    "FILHO",
-    "CRIANÇA",
-    "MASCULINO",
-    "GÊMEOS",
-    "FEMININO"
+    "PAI",
+    "MÃE",
+    "PRIMO",
+    "SANGUE",
+    "GÊMEO"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 304,
    "artigo": "Irmão",
@@ -101,12 +122,16 @@
    "palavra": "HISTÓRIA",
    "sentido": "eventos ocorridos no passado",
    "proibidas": [
-    "EVENTO",
-    "ACONTECIMENTO",
-    "DOCUMENTO",
-    "ESCRITA",
-    "DESCOBERTA"
+    "PASSADO",
+    "LIVRO",
+    "FATO",
+    "MEMÓRIA",
+    "AULA"
    ],
+   "no_artigo": [
+    "MEMÓRIA"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 306,
    "artigo": "História",
@@ -116,12 +141,16 @@
    "palavra": "POLÍCIA",
    "sentido": "instituição constituída pelo Estado para o cumprimento da lei",
    "proibidas": [
-    "INSTITUIÇÃO",
-    "ÓRGÃOS",
+    "VIATURA",
     "LEI",
-    "EXERCÍCIO",
-    "FORÇA"
+    "CRIME",
+    "DELEGACIA",
+    "FARDA"
    ],
+   "no_artigo": [
+    "LEI"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 329,
    "artigo": "Polícia",
@@ -131,12 +160,17 @@
    "palavra": "ÁGUA",
    "sentido": "composto químico formado por moléculas com dois átomos de hidrogénio e um de oxigénio",
    "proibidas": [
-    "OXIGÊNIO",
-    "SUPERFÍCIE",
-    "LIGAÇÃO",
-    "PLANETA",
+    "LÍQUIDO",
+    "SEDE",
+    "GELO",
+    "CHUVA",
+    "TORNEIRA"
+   ],
+   "no_artigo": [
+    "LÍQUIDO",
     "GELO"
    ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 367,
    "artigo": "Água",
@@ -146,12 +180,16 @@
    "palavra": "ARMA",
    "sentido": "instrumento usado para causar dano ou ferimento em seres vivos, estruturas ou sistemas",
    "proibidas": [
-    "CAÇA",
-    "PÓLVORA",
-    "EVOLUÇÃO",
-    "SPRAY",
-    "DANO"
+    "BALA",
+    "REVÓLVER",
+    "FACA",
+    "GUERRA",
+    "MATAR"
    ],
+   "no_artigo": [
+    "GUERRA"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 411,
    "artigo": "Arma",
@@ -162,11 +200,17 @@
    "sentido": "conflito organizado e prolongado entre Estados",
    "proibidas": [
     "CONFLITO",
-    "MILITAR",
     "MORTE",
-    "SOFRIMENTO",
-    "AGRESSÃO"
+    "ARMA",
+    "PAZ",
+    "BATALHA"
    ],
+   "no_artigo": [
+    "CONFLITO",
+    "MORTE",
+    "ARMA"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 424,
    "artigo": "Guerra",
@@ -176,12 +220,17 @@
    "palavra": "SANGUE",
    "sentido": "fluido corporal",
    "proibidas": [
-    "CÉLULA",
-    "OXIGÊNIO",
-    "ANIMAL",
     "VERMELHO",
-    "CARBONO"
+    "VEIA",
+    "CORAÇÃO",
+    "TRANSFUSÃO",
+    "CORPO"
    ],
+   "no_artigo": [
+    "VERMELHO",
+    "CORAÇÃO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 432,
    "artigo": "Sangue",
@@ -191,12 +240,17 @@
    "palavra": "LICENÇA",
    "sentido": "conjunto de permissões para usar algo",
    "proibidas": [
-    "DIREITO",
+    "PERMISSÃO",
+    "AUTORIZAÇÃO",
+    "DOCUMENTO",
     "SOFTWARE",
-    "INTELECTUAL",
-    "RAMO",
-    "PROPRIETÁRIO"
+    "CARTEIRA"
    ],
+   "no_artigo": [
+    "AUTORIZAÇÃO",
+    "SOFTWARE"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 455,
    "artigo": "Licença",
@@ -206,12 +260,17 @@
    "palavra": "CAPITÃO",
    "sentido": "posto de oficial existente na maioria dos exércitos do mundo",
    "proibidas": [
-    "COMANDO",
-    "COMPANHIA",
-    "MILITAR",
-    "FORÇA",
-    "OFICIAL"
+    "PATENTE",
+    "EXÉRCITO",
+    "NAVIO",
+    "GENERAL",
+    "MARINHA"
    ],
+   "no_artigo": [
+    "GENERAL",
+    "MARINHA"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 456,
    "artigo": "Capitão",
@@ -221,12 +280,17 @@
    "palavra": "SAIA",
    "sentido": "roupa",
    "proibidas": [
-    "MODA",
     "ROUPA",
-    "PERNA",
-    "DECORAÇÃO",
-    "COMPRIMENTO"
+    "VESTIDO",
+    "MULHER",
+    "JOELHO",
+    "TECIDO"
    ],
+   "no_artigo": [
+    "ROUPA",
+    "MULHER"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 477,
    "artigo": "Saia",
@@ -236,12 +300,17 @@
    "palavra": "CRIANÇA",
    "sentido": "estágio de desenvolvimento humano entre o nascimento e a puberdade",
    "proibidas": [
-    "NASCIMENTO",
     "BEBÊ",
-    "DESENVOLVIMENTO",
+    "BRINQUEDO",
+    "ESCOLA",
     "INFÂNCIA",
-    "IDADE"
+    "FILHO"
    ],
+   "no_artigo": [
+    "BEBÊ",
+    "INFÂNCIA"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 494,
    "artigo": "Criança",
@@ -251,12 +320,14 @@
    "palavra": "CASAMENTO",
    "sentido": "união social ou contrato jurídico entre pessoas denominadas cônjuges que cria o parentesco",
    "proibidas": [
-    "PARCEIRO",
-    "CONTRATO",
-    "RELIGIOSO",
-    "MULHER",
-    "HOMEM"
+    "NOIVA",
+    "ALIANÇA",
+    "IGREJA",
+    "FESTA",
+    "ALTAR"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 503,
    "artigo": "Casamento",
@@ -266,12 +337,17 @@
    "palavra": "TELEFONE",
    "sentido": "dispositivo de telecomunicações",
    "proibidas": [
-    "DISPOSITIVO",
-    "COMUNICAÇÃO",
-    "CONVERSA",
-    "ELÉTRICO",
-    "SINAL"
+    "CELULAR",
+    "TOCAR",
+    "NÚMERO",
+    "APARELHO",
+    "LIGAR"
    ],
+   "no_artigo": [
+    "CELULAR",
+    "APARELHO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 514,
    "artigo": "Telefone",
@@ -281,12 +357,14 @@
    "palavra": "CAMA",
    "sentido": "peça de mobília usada como lugar para dormir ou relaxar",
    "proibidas": [
-    "CORTINA",
-    "MADEIRA",
-    "LEITO",
-    "RESIDÊNCIA",
-    "HOTEL"
+    "DORMIR",
+    "QUARTO",
+    "COLCHÃO",
+    "SONO",
+    "TRAVESSEIRO"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 566,
    "artigo": "Cama",
@@ -296,12 +374,16 @@
    "palavra": "PENA",
    "sentido": "estrutura de cobertura corporal das aves",
    "proibidas": [
-    "AVES",
-    "DINOSSAURO",
-    "ISOLAMENTO",
-    "CAUDA",
-    "COBERTURA"
+    "AVE",
+    "ASA",
+    "LEVE",
+    "VOAR",
+    "NINHO"
    ],
+   "no_artigo": [
+    "ASA"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 569,
    "artigo": "Pena",
@@ -312,11 +394,15 @@
    "sentido": "produto audiovisual derivado de uma sequencia de imagens que gera uma impressão de movimento",
    "proibidas": [
     "CINEMA",
-    "HERÓI",
-    "TELEVISÃO",
-    "FITA",
-    "ASSUNTO"
+    "ATOR",
+    "TELA",
+    "ROTEIRO",
+    "DIRETOR"
    ],
+   "no_artigo": [
+    "CINEMA"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 577,
    "artigo": "Filme",
@@ -326,12 +412,14 @@
    "palavra": "MÉDICO",
    "sentido": "profissional que pratica medicina",
    "proibidas": [
-    "DOENÇA",
-    "SAÚDE",
-    "BIOLOGIA",
-    "ESPECIALIDADE",
-    "CURSO"
+    "HOSPITAL",
+    "REMÉDIO",
+    "CONSULTA",
+    "JALECO",
+    "ENFERMEIRO"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 589,
    "artigo": "Médico",
@@ -341,12 +429,16 @@
    "palavra": "FORÇA",
    "sentido": "influência que faz com que um objeto mude seu movimento",
    "proibidas": [
-    "VELOCIDADE",
-    "MOVIMENTO",
-    "LEI",
-    "FÍSICA",
-    "PARTÍCULA"
+    "MÚSCULO",
+    "EMPURRAR",
+    "PUXAR",
+    "GRAVIDADE",
+    "ENERGIA"
    ],
+   "no_artigo": [
+    "GRAVIDADE"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 593,
    "artigo": "Força",
@@ -356,12 +448,18 @@
    "palavra": "FOGO",
    "sentido": "processo de rápida oxidação de um material que emite luz e calor",
    "proibidas": [
-    "OXIGÊNIO",
     "CHAMA",
-    "REAÇÃO",
     "CALOR",
-    "CARBONO"
+    "INCÊNDIO",
+    "QUEIMAR",
+    "LENHA"
    ],
+   "no_artigo": [
+    "CHAMA",
+    "CALOR",
+    "INCÊNDIO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 597,
    "artigo": "Fogo",
@@ -371,12 +469,16 @@
    "palavra": "PRESIDENTE",
    "sentido": "líder de um Estado",
    "proibidas": [
-    "CARGO",
-    "ELEITO",
-    "FUNCIONÁRIO",
-    "CHEFE",
-    "TRIBUNAL"
+    "LÍDER",
+    "PAÍS",
+    "ELEIÇÃO",
+    "PALÁCIO",
+    "MANDATO"
    ],
+   "no_artigo": [
+    "LÍDER"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 650,
    "artigo": "Presidente",
@@ -386,12 +488,16 @@
    "palavra": "DOUTOR",
    "sentido": "título acadêmico atribuído a quem conclui curso de doutorado",
    "proibidas": [
-    "TRATAMENTO",
-    "GRAU",
-    "CANDIDATO",
-    "CIÊNCIA",
-    "ENSINO"
+    "TÍTULO",
+    "UNIVERSIDADE",
+    "TESE",
+    "PROFESSOR",
+    "MÉDICO"
    ],
+   "no_artigo": [
+    "MÉDICO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 657,
    "artigo": "Doutor",
@@ -401,12 +507,16 @@
    "palavra": "CABELO",
    "sentido": "filamento de proteínas que cresce a partir de folículos encontrados na derme ou pele; uma das características definidoras dos mamíferos",
    "proibidas": [
-    "CÉLULA",
-    "CAMADA",
-    "COURO",
-    "LIGAÇÃO",
+    "SALÃO",
+    "CARECA",
+    "ESCOVA",
+    "FIO",
+    "CORTAR"
+   ],
+   "no_artigo": [
     "FIO"
    ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 684,
    "artigo": "Cabelo",
@@ -416,12 +526,19 @@
    "palavra": "MESA",
    "sentido": "mobília com uma superfície plana",
    "proibidas": [
+    "CADEIRA",
     "JANTAR",
     "MADEIRA",
-    "COZINHA",
-    "JARDIM",
+    "SALA",
     "REUNIÃO"
    ],
+   "no_artigo": [
+    "JANTAR",
+    "MADEIRA",
+    "SALA",
+    "REUNIÃO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 719,
    "artigo": "Mesa",
@@ -431,12 +548,16 @@
    "palavra": "NATAL",
    "sentido": "comemoração anual do nascimento de Jesus Cristo",
    "proibidas": [
+    "ÁRVORE",
+    "PRESENTE",
     "DEZEMBRO",
-    "FESTA",
-    "CRISTÃO",
-    "NASCIMENTO",
-    "CELEBRAÇÃO"
+    "CEIA",
+    "JESUS"
    ],
+   "no_artigo": [
+    "DEZEMBRO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 781,
    "artigo": "Natal",
@@ -446,12 +567,16 @@
    "palavra": "SONHO",
    "sentido": "fenômenos imaginários experienciados durante o sono",
    "proibidas": [
-    "CIÊNCIA",
-    "FASE",
-    "INCONSCIENTE",
+    "DORMIR",
+    "PESADELO",
+    "ACORDAR",
     "IMAGINAÇÃO",
-    "DEBATE"
+    "FANTASIA"
    ],
+   "no_artigo": [
+    "IMAGINAÇÃO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 805,
    "artigo": "Sonho",
@@ -461,12 +586,16 @@
    "palavra": "OLHO",
    "sentido": "órgão da visão",
    "proibidas": [
-    "PERCEPÇÃO",
-    "IMAGEM",
+    "ENXERGAR",
+    "LÁGRIMA",
+    "CÍLIO",
     "VISÃO",
-    "ESCURO",
-    "CÉLULA"
+    "PUPILA"
    ],
+   "no_artigo": [
+    "VISÃO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 806,
    "artigo": "Olho",
@@ -476,12 +605,14 @@
    "palavra": "ACIDENTE",
    "sentido": "evento ou circunstância imprevista e não planejada",
    "proibidas": [
-    "DANO",
-    "VENENO",
-    "COMPROMISSO",
-    "ELÉTRICO",
-    "LESÃO"
+    "MACHUCAR",
+    "HOSPITAL",
+    "CARRO",
+    "COLISÃO",
+    "IMPREVISTO"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 819,
    "artigo": "Acidente",
@@ -491,12 +622,16 @@
    "palavra": "ADVOGADO",
    "sentido": "jurista que auxilia clientes e os representa num tribunal de justiça",
    "proibidas": [
-    "JUÍZO",
-    "DOUTOR",
-    "EXAME",
-    "APROVAÇÃO",
-    "INTERESSE"
+    "TRIBUNAL",
+    "PROCESSO",
+    "JUIZ",
+    "DIREITO",
+    "DOUTOR"
    ],
+   "no_artigo": [
+    "DOUTOR"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 823,
    "artigo": "Advogado",
@@ -506,12 +641,19 @@
    "palavra": "ANIVERSÁRIO",
    "sentido": "quando algum ser \"vivo\" e as vezes mortos comemora vários vezes no ano o dia em que nasceu",
    "proibidas": [
+    "BOLO",
     "VELAS",
+    "FESTA",
     "PARABÉNS",
-    "NASCIMENTO",
-    "CELEBRAÇÃO",
-    "FESTA"
+    "IDADE"
    ],
+   "no_artigo": [
+    "BOLO",
+    "VELAS",
+    "FESTA",
+    "PARABÉNS"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 826,
    "artigo": "Aniversário",
@@ -521,12 +663,17 @@
    "palavra": "ENERGIA",
    "sentido": "conceito de energia",
    "proibidas": [
-    "CIÊNCIA",
-    "DESCRIÇÃO",
-    "MUDANÇA",
-    "FÍSICO",
-    "RELACIONAMENTO"
+    "ELÉTRICA",
+    "FORÇA",
+    "LUZ",
+    "MOVIMENTO",
+    "POTÊNCIA"
    ],
+   "no_artigo": [
+    "FORÇA",
+    "POTÊNCIA"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 846,
    "artigo": "Energia",
@@ -538,40 +685,35 @@
    "proibidas": [
     "EMPRÉSTIMO",
     "DINHEIRO",
-    "DEPÓSITO",
-    "FINANCEIRA",
-    "INSTITUIÇÃO"
+    "CHEQUE",
+    "CONTA",
+    "GERENTE"
    ],
+   "no_artigo": [
+    "EMPRÉSTIMO",
+    "DINHEIRO",
+    "CHEQUE"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 855,
    "artigo": "Banco",
    "url": "https://pt.wikipedia.org/wiki/Banco"
   },
   {
-   "palavra": "LUTA",
-   "sentido": "forma de desporto de combate envolvendo técnicas de agarramento",
-   "proibidas": [
-    "CORPO",
-    "ESPORTE",
-    "COMPETIÇÃO",
-    "ARTE",
-    "COMBATE"
-   ],
-   "dificuldade": "fácil",
-   "posicao": 897,
-   "artigo": "Luta",
-   "url": "https://pt.wikipedia.org/wiki/Luta"
-  },
-  {
    "palavra": "BARCO",
    "sentido": "pequena embarcação aquática",
    "proibidas": [
-    "NAVIO",
-    "COMÉRCIO",
-    "TRONCO",
-    "RIO",
-    "SUBMARINO"
+    "ÁGUA",
+    "PORTO",
+    "ÂNCORA",
+    "CAPITÃO",
+    "VELA"
    ],
+   "no_artigo": [
+    "ÁGUA"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 916,
    "artigo": "Barco",
@@ -581,12 +723,18 @@
    "palavra": "AVIÃO",
    "sentido": "aeronave que necessita de asas fixas e motores para se sustentar no ar",
    "proibidas": [
-    "MOTOR",
-    "JATO",
     "ASA",
-    "FOGUETE",
-    "MÁQUINA"
+    "PILOTO",
+    "PASSAGEIRO",
+    "VOAR",
+    "AEROPORTO"
    ],
+   "no_artigo": [
+    "ASA",
+    "PILOTO",
+    "PASSAGEIRO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 929,
    "artigo": "Avião",
@@ -596,12 +744,18 @@
    "palavra": "FRIO",
    "sentido": "estado relativo ou subjetivo de baixa temperatura",
    "proibidas": [
-    "ESCALA",
     "TEMPERATURA",
     "GELO",
-    "ZERO",
-    "ABSOLUTO"
+    "CALOR",
+    "CASACO",
+    "TREMER"
    ],
+   "no_artigo": [
+    "TEMPERATURA",
+    "GELO",
+    "CALOR"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 938,
    "artigo": "Frio",
@@ -611,12 +765,14 @@
    "palavra": "IGREJA",
    "sentido": "comunidade dos fiéis que professam sua fé em Jesus Cristo",
    "proibidas": [
-    "CRISTÃO",
-    "REUNIÃO",
-    "COMUNIDADE",
-    "LIDERANÇA",
-    "RELIGIOSO"
+    "PADRE",
+    "MISSA",
+    "DEUS",
+    "FÉ",
+    "ALTAR"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 947,
    "artigo": "Igreja",
@@ -627,11 +783,16 @@
    "sentido": "elemento químico com número atómico 79",
    "proibidas": [
     "METAL",
-    "QUÍMICO",
-    "AMARELO",
-    "ELETRÔNICA",
-    "INDÚSTRIA"
+    "BRILHO",
+    "JOIA",
+    "MEDALHA",
+    "MINA"
    ],
+   "no_artigo": [
+    "METAL",
+    "JOIA"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 974,
    "artigo": "Ouro",
@@ -641,12 +802,17 @@
    "palavra": "GENERAL",
    "sentido": "patente militar",
    "proibidas": [
-    "OFICIAL",
+    "PATENTE",
     "EXÉRCITO",
-    "ALMIRANTE",
-    "CAPITÃO",
-    "COMANDO"
+    "FARDA",
+    "GUERRA",
+    "ESTRELA"
    ],
+   "no_artigo": [
+    "EXÉRCITO",
+    "ESTRELA"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 991,
    "artigo": "General",
@@ -656,12 +822,16 @@
    "palavra": "CAVALO",
    "sentido": "tipo de mamífero domesticado para o trabalho",
    "proibidas": [
-    "DEDO",
-    "IDADE",
-    "ALTURA",
-    "SANGUE",
-    "CRIATURA"
+    "ANIMAL",
+    "MONTAR",
+    "ÉGUA",
+    "PATAS",
+    "FAZENDA"
    ],
+   "no_artigo": [
+    "ANIMAL"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 997,
    "artigo": "Cavalo",
@@ -671,12 +841,14 @@
    "palavra": "CARNE",
    "sentido": "músculo, quando usado para alimentação",
    "proibidas": [
-    "ALIMENTO",
-    "ANIMAL",
-    "GORDURA",
-    "DIETA",
-    "CÂNCER"
+    "CHURRASCO",
+    "BOI",
+    "AÇOUGUE",
+    "BIFE",
+    "COSTELA"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 1015,
    "artigo": "Carne",
@@ -686,12 +858,16 @@
    "palavra": "PLANETA",
    "sentido": "corpo celeste sem processo interno de fusão nuclear que orbita sistemas estelares",
    "proibidas": [
-    "MASSA",
-    "ESTRELA",
-    "TAMANHO",
-    "PERCEPÇÃO",
-    "VIZINHANÇA"
+    "TERRA",
+    "ÓRBITA",
+    "MARTE",
+    "LUA",
+    "SOL"
    ],
+   "no_artigo": [
+    "ÓRBITA"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 1029,
    "artigo": "Planeta",
@@ -701,12 +877,14 @@
    "palavra": "EMPRESA",
    "sentido": "atividade econômica organizada exercida profissionalmente pelo empresário para a produção ou a circulação de bens ou de serviços",
    "proibidas": [
-    "DIREITO",
-    "BENS",
-    "COMÉRCIO",
-    "COMERCIAL",
-    "SERVIÇO"
+    "NEGÓCIO",
+    "ESCRITÓRIO",
+    "FUNCIONÁRIO",
+    "LUCRO",
+    "SÓCIO"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 1068,
    "artigo": "Empresa",
@@ -716,12 +894,17 @@
    "palavra": "CÉREBRO",
    "sentido": "órgão principal do sistema nervoso em animais vertebrados e na maioria dos invertebrados",
    "proibidas": [
-    "ANIMAL",
-    "AUDIÇÃO",
-    "CRÂNIO",
-    "SENSO",
-    "EQUILÍBRIO"
+    "CABEÇA",
+    "NEURÔNIO",
+    "PENSAR",
+    "MEMÓRIA",
+    "CRÂNIO"
    ],
+   "no_artigo": [
+    "CABEÇA",
+    "CRÂNIO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 1071,
    "artigo": "Cérebro",
@@ -732,11 +915,16 @@
    "sentido": "cor mais clara",
    "proibidas": [
     "PRETO",
-    "CLARA",
     "NEVE",
-    "CORDEIRO",
-    "SÍMBOLO"
+    "CLARO",
+    "PAPEL",
+    "ARROZ"
    ],
+   "no_artigo": [
+    "PRETO",
+    "NEVE"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 1083,
    "artigo": "Branco",
@@ -746,12 +934,16 @@
    "palavra": "PÚBLICO",
    "sentido": "grupo de pessoas individuais",
    "proibidas": [
-    "CIÊNCIA",
-    "COMUNICAÇÃO",
-    "AUDIÊNCIA",
-    "FUSÃO",
-    "PSICOLOGIA"
+    "PLATEIA",
+    "MULTIDÃO",
+    "TORCIDA",
+    "SHOW",
+    "AUDIÊNCIA"
    ],
+   "no_artigo": [
+    "AUDIÊNCIA"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 1094,
    "artigo": "Público",
@@ -761,12 +953,16 @@
    "palavra": "COZINHA",
    "sentido": "espaço arquitetónico",
    "proibidas": [
+    "FOGÃO",
+    "GELADEIRA",
     "FORNO",
-    "MÁQUINA",
-    "CASA",
-    "ROUPA",
-    "INSTALAÇÃO"
+    "PIA",
+    "COMIDA"
    ],
+   "no_artigo": [
+    "FORNO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 1100,
    "artigo": "Cozinha",
@@ -776,12 +972,16 @@
    "palavra": "HUMANO",
    "sentido": "único membro vivo da espécie Homo sapiens",
    "proibidas": [
-    "DESENVOLVIMENTO",
-    "MANIPULAR",
-    "FERRAMENTA",
-    "CURIOSIDADE",
-    "CÉREBRO"
+    "PESSOA",
+    "GENTE",
+    "ESPÉCIE",
+    "MORTAL",
+    "SOCIEDADE"
    ],
+   "no_artigo": [
+    "SOCIEDADE"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 1112,
    "artigo": "Humano",
@@ -792,11 +992,15 @@
    "sentido": "meio de transporte sobre carris",
    "proibidas": [
     "TRILHO",
-    "FERROVIA",
-    "VAPOR",
-    "PASSAGEIRO",
-    "COMBOIO"
+    "VAGÃO",
+    "ESTAÇÃO",
+    "LOCOMOTIVA",
+    "BILHETE"
    ],
+   "no_artigo": [
+    "TRILHO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 1123,
    "artigo": "Trem",
@@ -806,12 +1010,17 @@
    "palavra": "SARGENTO",
    "sentido": "graduação militar",
    "proibidas": [
-    "OFICIAL",
-    "MILITAR",
-    "FORÇA",
-    "COMANDO",
-    "EXÉRCITO"
+    "PATENTE",
+    "EXÉRCITO",
+    "SOLDADO",
+    "GENERAL",
+    "FARDA"
    ],
+   "no_artigo": [
+    "EXÉRCITO",
+    "GENERAL"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 1132,
    "artigo": "Sargento",
@@ -821,12 +1030,17 @@
    "palavra": "LIBERDADE",
    "sentido": "conceito que pode assumir uma grande variedade de significados tais como autonomia, independência, autodeterminação, autodomínio, ausência de subordinação, ausência de restrições e limitações, livre-arbítrio, espontaneidade, entre outros",
    "proibidas": [
-    "POLÍTICA",
-    "AUTORIDADE",
+    "PRISÃO",
+    "VOAR",
+    "ESCOLHA",
     "DIREITO",
-    "OPOSIÇÃO",
     "INDEPENDÊNCIA"
    ],
+   "no_artigo": [
+    "DIREITO",
+    "INDEPENDÊNCIA"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 1168,
    "artigo": "Liberdade",
@@ -837,11 +1051,15 @@
    "sentido": "Ausência de som total",
    "proibidas": [
     "MUDO",
-    "BARREIRA",
-    "ESPIRITUAL",
-    "COMUNICAÇÃO",
-    "INTERIOR"
+    "BIBLIOTECA",
+    "PAZ",
+    "SUSSURRO",
+    "QUIETO"
    ],
+   "no_artigo": [
+    "MUDO"
+   ],
+   "revisada": true,
    "dificuldade": "fácil",
    "posicao": 1185,
    "artigo": "Silêncio",
@@ -851,12 +1069,16 @@
    "palavra": "ARTE",
    "sentido": "conceito e processo criativo",
    "proibidas": [
-    "DANÇA",
-    "EMOÇÃO",
-    "FILOSOFIA",
-    "PRODUTO",
-    "MÚSICA"
+    "PINTURA",
+    "MUSEU",
+    "ESCULTURA",
+    "EXPOSIÇÃO",
+    "CULTURA"
    ],
+   "no_artigo": [
+    "PINTURA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1260,
    "artigo": "Arte",
@@ -866,12 +1088,17 @@
    "palavra": "PELE",
    "sentido": "órgão que cobre o corpo dos vertebrados",
    "proibidas": [
+    "COURO",
+    "PORO",
     "CAMADA",
-    "CÉLULA",
     "CORPO",
-    "ANIMAL",
-    "SENSAÇÃO"
+    "TATUAGEM"
    ],
+   "no_artigo": [
+    "CAMADA",
+    "CORPO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1273,
    "artigo": "Pele",
@@ -881,12 +1108,16 @@
    "palavra": "COMPUTADOR",
    "sentido": "dispositivo simples de uso geral para executar operações aritméticas ou lógicas",
    "proibidas": [
-    "OPERAÇÃO",
-    "CONTAGEM",
-    "MÁQUINA",
-    "TAREFA",
-    "CÁLCULO"
+    "TECLADO",
+    "MOUSE",
+    "TELA",
+    "INTERNET",
+    "PROGRAMA"
    ],
+   "no_artigo": [
+    "PROGRAMA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1278,
    "artigo": "Computador",
@@ -896,12 +1127,17 @@
    "palavra": "DANÇA",
    "sentido": "arte de mover o corpo humano consistindo de uma sequência de movimentos ordenados usualmente acompanhados de música.",
    "proibidas": [
-    "ARTE",
-    "MOVIMENTO",
     "MÚSICA",
-    "EXPRESSÃO",
-    "TEATRO"
+    "BALÉ",
+    "FESTA",
+    "RITMO",
+    "COREOGRAFIA"
    ],
+   "no_artigo": [
+    "MÚSICA",
+    "BALÉ"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1297,
    "artigo": "Dança",
@@ -911,12 +1147,16 @@
    "palavra": "JULGAMENTO",
    "sentido": "decisão formal tomada por um tribunal",
    "proibidas": [
-    "DECISÃO",
+    "TRIBUNAL",
     "JUIZ",
-    "AVALIAÇÃO",
-    "RECOMPENSA",
-    "PUNIÇÃO"
+    "RÉU",
+    "SENTENÇA",
+    "PROCESSO"
    ],
+   "no_artigo": [
+    "JUIZ"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1335,
    "artigo": "Julgamento",
@@ -926,12 +1166,17 @@
    "palavra": "JUIZ",
    "sentido": "profissional que aplica a lei",
    "proibidas": [
-    "CIDADÃO",
-    "AUTORIDADE",
-    "INTERESSE",
     "TRIBUNAL",
-    "DIVÓRCIO"
+    "LEI",
+    "TOGA",
+    "MARTELO",
+    "SENTENÇA"
    ],
+   "no_artigo": [
+    "TRIBUNAL",
+    "LEI"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1343,
    "artigo": "Juiz",
@@ -941,12 +1186,16 @@
    "palavra": "PIADA",
    "sentido": "história curta de ficção com a intenção de fazer as pessoas rirem",
    "proibidas": [
+    "RIR",
     "HUMOR",
-    "IRONIA",
-    "ABSURDO",
-    "HISTÓRIA",
-    "EXIBIÇÃO"
+    "ENGRAÇADO",
+    "COMEDIANTE",
+    "GOZAÇÃO"
    ],
+   "no_artigo": [
+    "HUMOR"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1348,
    "artigo": "Piada",
@@ -956,12 +1205,17 @@
    "palavra": "HERÓI",
    "sentido": "pessoa que enfrenta a adversidade com engenhosidade, coragem ou força",
    "proibidas": [
-    "PERSONAGEM",
     "CORAGEM",
-    "DIMENSÃO",
-    "DEUS",
-    "LITERATURA"
+    "SALVAR",
+    "CAPA",
+    "VILÃO",
+    "MOCINHO"
    ],
+   "no_artigo": [
+    "CORAGEM",
+    "VILÃO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1394,
    "artigo": "Herói",
@@ -971,12 +1225,17 @@
    "palavra": "GELO",
    "sentido": "estado sólido da água",
    "proibidas": [
-    "SÓLIDO",
-    "FUSÃO",
+    "FRIO",
+    "CUBO",
     "ÁGUA",
-    "LÍQUIDO",
-    "TEMPERATURA"
+    "GELADEIRA",
+    "SORVETE"
    ],
+   "no_artigo": [
+    "FRIO",
+    "ÁGUA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1401,
    "artigo": "Gelo",
@@ -987,11 +1246,16 @@
    "sentido": "sistema do corpo para percepção de imagens",
    "proibidas": [
     "OLHO",
-    "PERCEPÇÃO",
-    "INSTRUMENTO",
-    "CORPO",
-    "ÓRGÃOS"
+    "ENXERGAR",
+    "ÓCULOS",
+    "IMAGEM",
+    "FOCO"
    ],
+   "no_artigo": [
+    "OLHO",
+    "FOCO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1407,
    "artigo": "Visão",
@@ -1002,11 +1266,18 @@
    "sentido": "planta lenhosa perene",
    "proibidas": [
     "TRONCO",
-    "SOLO",
-    "PLANTA",
+    "FOLHA",
     "RAIZ",
-    "ALTURA"
+    "FLORESTA",
+    "MADEIRA"
    ],
+   "no_artigo": [
+    "TRONCO",
+    "FOLHA",
+    "RAIZ",
+    "FLORESTA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1414,
    "artigo": "Árvore",
@@ -1016,12 +1287,16 @@
    "palavra": "VÍDEO",
    "sentido": "Gravação que pode ser reproduzida",
    "proibidas": [
-    "IMAGEM",
-    "FITA",
-    "DIGITAL",
-    "FORMATO",
-    "GRAVAÇÃO"
+    "CÂMERA",
+    "YOUTUBE",
+    "GRAVAR",
+    "ASSISTIR",
+    "IMAGEM"
    ],
+   "no_artigo": [
+    "IMAGEM"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1420,
    "artigo": "Vídeo",
@@ -1031,12 +1306,18 @@
    "palavra": "MONSTRO",
    "sentido": "criatura muitas vezes horrível que pode produzir medo ou dano físico",
    "proibidas": [
+    "MEDO",
+    "ASSUSTADOR",
     "CRIATURA",
-    "MORAL",
-    "HORROR",
-    "ZUMBI",
-    "FICÇÃO"
+    "TERROR",
+    "ARMÁRIO"
    ],
+   "no_artigo": [
+    "MEDO",
+    "CRIATURA",
+    "TERROR"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1523,
    "artigo": "Monstro",
@@ -1046,12 +1327,17 @@
    "palavra": "FACA",
    "sentido": "objeto cortante capaz de ser empunhado",
    "proibidas": [
+    "CORTAR",
     "LÂMINA",
-    "FERRAMENTA",
+    "COZINHA",
     "CABO",
-    "PEDRA",
-    "PUNHO"
+    "GARFO"
    ],
+   "no_artigo": [
+    "LÂMINA",
+    "CABO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1544,
    "artigo": "Faca",
@@ -1061,12 +1347,16 @@
    "palavra": "VERDE",
    "sentido": "cor primária aditiva visível entre o ciano e o amarelo",
    "proibidas": [
-    "CORES",
-    "AMARELO",
-    "AZUL",
-    "VERMELHO",
-    "ONDA"
+    "FOLHA",
+    "GRAMA",
+    "SEMÁFORO",
+    "FLORESTA",
+    "NATUREZA"
    ],
+   "no_artigo": [
+    "NATUREZA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1567,
    "artigo": "Verde",
@@ -1076,12 +1366,17 @@
    "palavra": "MERCADO",
    "sentido": "conceito económico",
    "proibidas": [
-    "BENS",
-    "PRODUTO",
-    "VENDA",
     "ECONOMIA",
-    "TROCA"
+    "FEIRA",
+    "AÇÕES",
+    "OFERTA",
+    "NEGÓCIO"
    ],
+   "no_artigo": [
+    "ECONOMIA",
+    "OFERTA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1580,
    "artigo": "Mercado",
@@ -1091,12 +1386,18 @@
    "palavra": "BOLO",
    "sentido": "alimento à base de massa de farinha cozido no forno",
    "proibidas": [
-    "CAFÉ",
-    "FESTA",
-    "CASAMENTO",
-    "FARINHA",
-    "DOCE"
+    "ANIVERSÁRIO",
+    "DOCE",
+    "FATIA",
+    "FORNO",
+    "COBERTURA"
    ],
+   "no_artigo": [
+    "ANIVERSÁRIO",
+    "DOCE",
+    "FORNO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1583,
    "artigo": "Bolo",
@@ -1106,12 +1407,18 @@
    "palavra": "MARCA",
    "sentido": "reapresentação simbólica de algo. Símbolo que identifica algo imediatamente",
    "proibidas": [
-    "PRODUTO",
-    "SINAL",
-    "EMPRESA",
+    "LOGO",
     "SÍMBOLO",
-    "IMAGEM"
+    "EMPRESA",
+    "PRODUTO",
+    "PROPAGANDA"
    ],
+   "no_artigo": [
+    "SÍMBOLO",
+    "EMPRESA",
+    "PRODUTO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1638,
    "artigo": "Marca",
@@ -1121,12 +1428,18 @@
    "palavra": "CINEMA",
    "sentido": "arte cinematográfica",
    "proibidas": [
-    "FOTOGRAFIA",
-    "DIRETOR",
     "FILME",
-    "IMAGEM",
-    "CÂMERA"
+    "PIPOCA",
+    "SALA",
+    "DIRETOR",
+    "INGRESSO"
    ],
+   "no_artigo": [
+    "FILME",
+    "SALA",
+    "DIRETOR"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1640,
    "artigo": "Cinema",
@@ -1136,12 +1449,16 @@
    "palavra": "VENTO",
    "sentido": "fluxo de ar",
    "proibidas": [
-    "ESCALA",
-    "SOLAR",
-    "DIREÇÃO",
-    "ATMOSFERA",
-    "FORÇA"
+    "AR",
+    "SOPRAR",
+    "FURACÃO",
+    "BRISA",
+    "MOINHO"
    ],
+   "no_artigo": [
+    "BRISA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1647,
    "artigo": "Vento",
@@ -1151,12 +1468,18 @@
    "palavra": "PONTE",
    "sentido": "estrutura construída para superar obstáculos físicos",
    "proibidas": [
+    "RIO",
+    "ATRAVESSAR",
     "CONSTRUÇÃO",
-    "OBSTÁCULO",
-    "ARCO",
-    "FERRO",
-    "RIO"
+    "VIADUTO",
+    "ARCO"
    ],
+   "no_artigo": [
+    "RIO",
+    "CONSTRUÇÃO",
+    "ARCO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1690,
    "artigo": "Ponte",
@@ -1166,12 +1489,17 @@
    "palavra": "CONTRATO",
    "sentido": "compromisso mútuo legal celebrado voluntariamente entre duas ou mais partes",
    "proibidas": [
-    "DIREITO",
+    "ASSINAR",
     "ACORDO",
-    "OPERAÇÃO",
-    "VONTADE",
-    "NEGÓCIO"
+    "CLÁUSULA",
+    "ADVOGADO",
+    "DIREITO"
    ],
+   "no_artigo": [
+    "ACORDO",
+    "DIREITO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1727,
    "artigo": "Contrato",
@@ -1181,12 +1509,18 @@
    "palavra": "FUTEBOL",
    "sentido": "esporte praticado entre duas equipes de onze jogadores",
    "proibidas": [
-    "CAMPO",
-    "JOGO",
-    "EQUIPE",
     "BOLA",
-    "JOGADOR"
+    "GOL",
+    "CAMPO",
+    "TIME",
+    "TORCIDA"
    ],
+   "no_artigo": [
+    "BOLA",
+    "CAMPO",
+    "TIME"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1745,
    "artigo": "Futebol",
@@ -1196,12 +1530,17 @@
    "palavra": "FANTASMA",
    "sentido": "alma ou espírito de uma pessoa ou animal falecido que pode aparecer para os vivos",
    "proibidas": [
-    "ESPÍRITO",
-    "MORTO",
-    "CRENÇA",
-    "VIVO",
-    "ALMA"
+    "ASSOMBRAÇÃO",
+    "LENÇOL",
+    "MEDO",
+    "ALMA",
+    "MORTO"
    ],
+   "no_artigo": [
+    "ALMA",
+    "MORTO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1781,
    "artigo": "Fantasma",
@@ -1211,12 +1550,16 @@
    "palavra": "CALOR",
    "sentido": "energia transferida entre sistemas devido à diferença de temperatura",
    "proibidas": [
-    "ENERGIA",
-    "TRANSFERÊNCIA",
-    "CORPO",
-    "PANELA",
+    "QUENTE",
+    "TEMPERATURA",
+    "SOL",
+    "FOGO",
+    "SUOR"
+   ],
+   "no_artigo": [
     "TEMPERATURA"
    ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1784,
    "artigo": "Calor",
@@ -1227,11 +1570,17 @@
    "sentido": "composição para voz humana",
    "proibidas": [
     "MÚSICA",
-    "MUSICAL",
+    "LETRA",
     "MELODIA",
-    "INSTRUMENTO",
-    "CAPELA"
+    "RÁDIO",
+    "REFRÃO"
    ],
+   "no_artigo": [
+    "MÚSICA",
+    "LETRA",
+    "MELODIA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1859,
    "artigo": "Canção",
@@ -1241,12 +1590,17 @@
    "palavra": "SÁBADO",
    "sentido": "sétimo dia da semana",
    "proibidas": [
-    "DESCANSO",
-    "CRISTÃO",
-    "JUDEU",
-    "ROMANO",
-    "DOMINGO"
+    "DOMINGO",
+    "SEXTA",
+    "FOLGA",
+    "FESTA",
+    "DESCANSO"
    ],
+   "no_artigo": [
+    "DOMINGO",
+    "DESCANSO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1879,
    "artigo": "Sábado",
@@ -1256,12 +1610,17 @@
    "palavra": "FELICIDADE",
    "sentido": "estado mental ou emocional de bem-estar caracterizado por emoções agradáveis",
    "proibidas": [
-    "SENTIMENTO",
-    "SATISFAÇÃO",
-    "EMOÇÃO",
-    "SOFRIMENTO",
-    "PSICOLOGIA"
+    "ALEGRIA",
+    "SORRISO",
+    "AMOR",
+    "SONHO",
+    "SATISFAÇÃO"
    ],
+   "no_artigo": [
+    "ALEGRIA",
+    "SATISFAÇÃO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1963,
    "artigo": "Felicidade",
@@ -1271,12 +1630,17 @@
    "palavra": "AEROPORTO",
    "sentido": "tipo de aeródromo",
    "proibidas": [
-    "PASSAGEIRO",
+    "AVIÃO",
     "PISTA",
-    "POUSO",
-    "CARGA",
-    "OPERAÇÃO"
+    "PASSAPORTE",
+    "EMBARQUE",
+    "VOO"
    ],
+   "no_artigo": [
+    "AVIÃO",
+    "PISTA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1987,
    "artigo": "Aeroporto",
@@ -1286,12 +1650,16 @@
    "palavra": "HOMICÍDIO",
    "sentido": "assassinato de um humano por outro humano",
    "proibidas": [
-    "MORTE",
-    "ASSASSINATO",
+    "MATAR",
     "CRIME",
-    "INTENÇÃO",
-    "CIRCUNSTÂNCIA"
+    "ASSASSINO",
+    "VÍTIMA",
+    "ARMA"
    ],
+   "no_artigo": [
+    "CRIME"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1994,
    "artigo": "Homicídio",
@@ -1301,12 +1669,16 @@
    "palavra": "COPO",
    "sentido": "recipiente sem asa e nem tampa utilizado para armazenar e beber líquidos",
    "proibidas": [
-    "PLÁSTICO",
+    "BEBER",
     "VIDRO",
-    "CERVEJA",
-    "TAMPA",
-    "FORMATO"
+    "LÍQUIDO",
+    "ÁGUA",
+    "TAÇA"
    ],
+   "no_artigo": [
+    "VIDRO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 1996,
    "artigo": "Copo",
@@ -1316,12 +1688,16 @@
    "palavra": "ANJO",
    "sentido": "ser sobrenatural, criatura celeste presente em várias tradições religiosas",
    "proibidas": [
-    "TRADIÇÃO",
     "ASA",
-    "INOCÊNCIA",
-    "MENSAGEIRO",
-    "BRILHO"
+    "CÉU",
+    "DEUS",
+    "RELIGIÃO",
+    "BRANCO"
    ],
+   "no_artigo": [
+    "ASA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2004,
    "artigo": "Anjo",
@@ -1331,12 +1707,14 @@
    "palavra": "EXPLOSÃO",
    "sentido": "liberação repentina de calor e gás",
    "proibidas": [
-    "ONDA",
-    "EXPLOSIVO",
-    "CHOQUE",
-    "ENERGIA",
-    "VELOCIDADE"
+    "BOMBA",
+    "FOGO",
+    "BARULHO",
+    "FUMAÇA",
+    "DESTRUIÇÃO"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2019,
    "artigo": "Explosão",
@@ -1346,12 +1724,16 @@
    "palavra": "TECNOLOGIA",
    "sentido": "criação, modificação, uso e conhecimento de ferramentas, máquinas, técnicas, ofícios, sistemas e métodos de organização",
    "proibidas": [
-    "FERRAMENTA",
     "CIÊNCIA",
-    "CONHECIMENTO",
-    "MÁQUINA",
-    "BENS"
+    "CELULAR",
+    "COMPUTADOR",
+    "INTERNET",
+    "FUTURO"
    ],
+   "no_artigo": [
+    "CIÊNCIA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2037,
    "artigo": "Tecnologia",
@@ -1361,12 +1743,19 @@
    "palavra": "GOLPE",
    "sentido": "ataque físico direcionado",
    "proibidas": [
-    "PUNHO",
     "SOCO",
     "ATAQUE",
-    "DEDO",
-    "PALMAS"
+    "LUTA",
+    "CHUTE",
+    "MARTELO"
    ],
+   "no_artigo": [
+    "SOCO",
+    "ATAQUE",
+    "CHUTE",
+    "MARTELO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2055,
    "artigo": "Golpe",
@@ -1376,12 +1765,16 @@
    "palavra": "CÂNCER",
    "sentido": "grupo de doenças onde células anormais se multiplicam incontrolavelmente, destroem o tecido do corpo, prejudicam as funções normais e tem o potencial de se espalhar e invadir outros tecidos e Órgãos do corpo",
    "proibidas": [
-    "SINTOMA",
     "DOENÇA",
-    "CÉLULA",
-    "SANGRAMENTO",
-    "TOSSE"
+    "TUMOR",
+    "QUIMIOTERAPIA",
+    "HOSPITAL",
+    "MEDO"
    ],
+   "no_artigo": [
+    "DOENÇA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2070,
    "artigo": "Câncer",
@@ -1391,12 +1784,16 @@
    "palavra": "TEATRO",
    "sentido": "ramo artístico",
    "proibidas": [
+    "PEÇA",
     "ATOR",
-    "PÚBLICO",
-    "ARTE",
-    "ESPETÁCULO",
-    "SENTIMENTO"
+    "PALCO",
+    "PLATEIA",
+    "CORTINA"
    ],
+   "no_artigo": [
+    "ATOR"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2073,
    "artigo": "Teatro",
@@ -1406,12 +1803,14 @@
    "palavra": "PRATO",
    "sentido": "recipiente plano no qual os alimentos podem ser servidos",
    "proibidas": [
-    "PLÁSTICO",
-    "VIDRO",
-    "SOPA",
-    "ALIMENTO",
-    "REFEIÇÃO"
+    "COMIDA",
+    "MESA",
+    "TALHER",
+    "GARFO",
+    "SERVIR"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2110,
    "artigo": "Prato",
@@ -1421,12 +1820,18 @@
    "palavra": "AMIZADE",
    "sentido": "Relação afetiva, a princípio sem características romântico-sexuais, entre duas pessoas",
    "proibidas": [
-    "AMIGO",
-    "LEALDADE",
-    "RELACIONAMENTO",
-    "FAMILIAR",
-    "ROMÂNTICO"
+    "COLEGA",
+    "CONFIANÇA",
+    "COMPANHEIRO",
+    "APOIO",
+    "IRMÃO"
    ],
+   "no_artigo": [
+    "CONFIANÇA",
+    "APOIO",
+    "IRMÃO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2137,
    "artigo": "Amizade",
@@ -1437,11 +1842,16 @@
    "sentido": "qualidade cognitiva da mente",
    "proibidas": [
     "MENTE",
-    "CONSCIENTE",
-    "EXPERIÊNCIA",
-    "CONHECIMENTO",
-    "OPINIÃO"
+    "CULPA",
+    "MORAL",
+    "REMORSO",
+    "PERCEPÇÃO"
    ],
+   "no_artigo": [
+    "MENTE",
+    "PERCEPÇÃO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2189,
    "artigo": "Consciência",
@@ -1451,12 +1861,16 @@
    "palavra": "TREINADOR",
    "sentido": "pessoa envolvida na direção, instrução e treinamento de esportistas",
    "proibidas": [
-    "ESPORTE",
-    "ATLETA",
-    "EQUIPE",
-    "JOGADOR",
-    "JOGO"
+    "TÉCNICO",
+    "TIME",
+    "FUTEBOL",
+    "APITO",
+    "TÁTICA"
    ],
+   "no_artigo": [
+    "TÉCNICO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2196,
    "artigo": "Treinador",
@@ -1466,42 +1880,38 @@
    "palavra": "VIOLÊNCIA",
    "sentido": "uso de força física ou poder com a intenção de infligir dano",
    "proibidas": [
-    "MORTE",
-    "MAU",
-    "CRIANÇA",
-    "FERIMENTO",
-    "DANO"
+    "AGRESSÃO",
+    "FORÇA",
+    "SANGUE",
+    "ARMA",
+    "MEDO"
    ],
+   "no_artigo": [
+    "FORÇA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2211,
    "artigo": "Violência",
    "url": "https://pt.wikipedia.org/wiki/Viol%C3%AAncia"
   },
   {
-   "palavra": "PASSEIO",
-   "sentido": "trilha para pedestres ao longo da lateral de uma estrada ou rua",
-   "proibidas": [
-    "PISO",
-    "FAIXA",
-    "BORRACHA",
-    "PNEU",
-    "TRÂNSITO"
-   ],
-   "dificuldade": "média",
-   "posicao": 2241,
-   "artigo": "Passeio",
-   "url": "https://pt.wikipedia.org/wiki/Passeio"
-  },
-  {
    "palavra": "PIZZA",
    "sentido": "alimento",
    "proibidas": [
-    "FARINHA",
-    "TOMATE",
+    "MASSA",
+    "QUEIJO",
     "FORNO",
-    "INGREDIENTE",
-    "QUEIJO"
+    "MOLHO",
+    "REDONDA"
    ],
+   "no_artigo": [
+    "MASSA",
+    "QUEIJO",
+    "FORNO",
+    "MOLHO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2257,
    "artigo": "Pizza",
@@ -1511,12 +1921,17 @@
    "palavra": "TELEVISÃO",
    "sentido": "sistema eletrónico de reprodução de imagens e áudio de forma instantânea",
    "proibidas": [
-    "TRANSMISSÃO",
-    "RÁDIO",
-    "IMAGEM",
-    "SINAL",
+    "TELA",
+    "APARELHO",
+    "CANAL",
+    "ANTENA",
+    "PROGRAMA"
+   ],
+   "no_artigo": [
+    "TELA",
     "APARELHO"
    ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2368,
    "artigo": "Televisão",
@@ -1526,12 +1941,14 @@
    "palavra": "DESERTO",
    "sentido": "porção árida de terra onde ocorre pouca precipitação",
    "proibidas": [
-    "CHUVA",
-    "ÁGUA",
-    "SOLO",
-    "VENTOS",
-    "REPUTAÇÃO"
+    "AREIA",
+    "CALOR",
+    "CAMELO",
+    "OÁSIS",
+    "CACTO"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2378,
    "artigo": "Deserto",
@@ -1541,12 +1958,17 @@
    "palavra": "MODA",
    "sentido": "tendência de estilos e vestuários verificada em uma época e cultura",
    "proibidas": [
-    "ESTILO",
     "ROUPA",
-    "FENÔMENO",
-    "MAQUIAGEM",
-    "POSTURA"
+    "ESTILO",
+    "TENDÊNCIA",
+    "VESTIR",
+    "DESFILE"
    ],
+   "no_artigo": [
+    "ROUPA",
+    "ESTILO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2415,
    "artigo": "Moda",
@@ -1556,12 +1978,16 @@
    "palavra": "MILAGRE",
    "sentido": "Acontecimento sem causa e/ou explicação natural",
    "proibidas": [
-    "LEI",
-    "CIÊNCIA",
-    "EXPLICAÇÃO",
-    "DIVINA",
-    "CRENÇA"
+    "DEUS",
+    "FÉ",
+    "CURA",
+    "SANTO",
+    "ORAÇÃO"
    ],
+   "no_artigo": [
+    "CURA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2437,
    "artigo": "Milagre",
@@ -1571,12 +1997,17 @@
    "palavra": "SEDE",
    "sentido": "sensação fisiológica",
    "proibidas": [
-    "SINTOMA",
-    "SENSAÇÃO",
-    "MOTIVAÇÃO",
-    "PRESSÃO",
-    "SATISFAÇÃO"
+    "ÁGUA",
+    "CALOR",
+    "BEBER",
+    "BOCA",
+    "SECO"
    ],
+   "no_artigo": [
+    "ÁGUA",
+    "BOCA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2448,
    "artigo": "Sede",
@@ -1586,12 +2017,17 @@
    "palavra": "CONTO",
    "sentido": "obra literária curta",
    "proibidas": [
-    "ACONTECIMENTO",
-    "LÁBIO",
-    "FANTASIA",
-    "PAISAGEM",
-    "PERSONAGEM"
+    "HISTÓRIA",
+    "FÁBULA",
+    "ESCRITOR",
+    "FICÇÃO",
+    "LIVRO"
    ],
+   "no_artigo": [
+    "ESCRITOR",
+    "FICÇÃO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2460,
    "artigo": "Conto",
@@ -1603,10 +2039,17 @@
    "proibidas": [
     "ESTAÇÃO",
     "NEVE",
-    "QUEDA",
     "FRIO",
-    "VERÃO"
+    "GELO",
+    "CASACO"
    ],
+   "no_artigo": [
+    "ESTAÇÃO",
+    "NEVE",
+    "FRIO",
+    "GELO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2461,
    "artigo": "Inverno",
@@ -1618,10 +2061,16 @@
    "proibidas": [
     "ÁRVORE",
     "TRONCO",
-    "PLANTA",
-    "CRESCIMENTO",
-    "CÂMBIO"
+    "FLORESTA",
+    "MARCENARIA",
+    "MÓVEL"
    ],
+   "no_artigo": [
+    "ÁRVORE",
+    "TRONCO",
+    "FLORESTA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2463,
    "artigo": "Madeira",
@@ -1631,12 +2080,17 @@
    "palavra": "CASTELO",
    "sentido": "fortificação construída na Idade Média pela nobreza",
    "proibidas": [
-    "RESIDÊNCIA",
-    "NOBRE",
-    "DEFESA",
-    "LORDE",
+    "TORRE",
+    "FORTALEZA",
+    "REI",
+    "MEDIEVAL",
+    "MURALHA"
+   ],
+   "no_artigo": [
+    "TORRE",
     "FORTALEZA"
    ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2467,
    "artigo": "Castelo",
@@ -1646,12 +2100,18 @@
    "palavra": "DIVÓRCIO",
    "sentido": "rompimento legal de vínculo de matrimônio",
    "proibidas": [
-    "CIVIL",
     "SEPARAÇÃO",
     "CASAMENTO",
-    "BENS",
+    "CASAL",
+    "ADVOGADO",
+    "CUSTÓDIA"
+   ],
+   "no_artigo": [
+    "SEPARAÇÃO",
+    "CASAMENTO",
     "CASAL"
    ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2491,
    "artigo": "Divórcio",
@@ -1661,12 +2121,19 @@
    "palavra": "MINISTRO",
    "sentido": "político que ocupa um cargo público significativo num governo nacional ou regional",
    "proibidas": [
-    "PASTA",
-    "SECRETÁRIO",
-    "CHEFE",
+    "GOVERNO",
+    "CARGO",
+    "POLÍTICA",
     "GABINETE",
-    "GOVERNO"
+    "PRESIDENTE"
    ],
+   "no_artigo": [
+    "GOVERNO",
+    "CARGO",
+    "POLÍTICA",
+    "GABINETE"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2493,
    "artigo": "Ministro",
@@ -1676,12 +2143,17 @@
    "palavra": "PAGAMENTO",
    "sentido": "transferência de valor de uma parte para outra em troca de bens ou serviços ou para cumprir uma obrigação",
    "proibidas": [
-    "OBRIGAÇÃO",
-    "SERVIÇO",
-    "MULTA",
     "DINHEIRO",
-    "BENS"
+    "TRANSFERÊNCIA",
+    "BOLETO",
+    "CARTÃO",
+    "SALÁRIO"
    ],
+   "no_artigo": [
+    "DINHEIRO",
+    "TRANSFERÊNCIA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2542,
    "artigo": "Pagamento",
@@ -1691,12 +2163,17 @@
    "palavra": "ESPELHO",
    "sentido": "superfície, geralmente de vidro revestida com um amálgama de metal, que reflete uma imagem nítida",
    "proibidas": [
-    "RAIO",
     "IMAGEM",
-    "OLHO",
     "VIDRO",
-    "SUPERFÍCIE"
+    "REFLEXO",
+    "BANHEIRO",
+    "QUEBRAR"
    ],
+   "no_artigo": [
+    "IMAGEM",
+    "VIDRO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2565,
    "artigo": "Espelho",
@@ -1706,12 +2183,14 @@
    "palavra": "SORVETE",
    "sentido": "alimento congelado adoçado tipicamente comido como lanche ou sobremesa",
    "proibidas": [
-    "INGREDIENTE",
-    "LEITE",
-    "FRUTA",
-    "SOBREMESA",
-    "GELO"
+    "GELADO",
+    "CASQUINHA",
+    "VERÃO",
+    "CHOCOLATE",
+    "DOCE"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2645,
    "artigo": "Sorvete",
@@ -1721,12 +2200,17 @@
    "palavra": "EDUCAÇÃO",
    "sentido": "aprendizado de conhecimento e técnicas através do ensino",
    "proibidas": [
+    "ESCOLA",
     "ENSINO",
-    "ALUNO",
-    "HABILIDADE",
-    "OBJETIVO",
-    "CICLO"
+    "PROFESSOR",
+    "CONHECIMENTO",
+    "FORMAÇÃO"
    ],
+   "no_artigo": [
+    "ESCOLA",
+    "ENSINO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2652,
    "artigo": "Educação",
@@ -1736,12 +2220,16 @@
    "palavra": "OCEANO",
    "sentido": "grande corpo de água salgada",
    "proibidas": [
+    "MAR",
     "ÁGUA",
-    "CORPO",
-    "CICLO",
-    "CARBONO",
-    "SUPERFÍCIE"
+    "PEIXE",
+    "ONDA",
+    "PRAIA"
    ],
+   "no_artigo": [
+    "ÁGUA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2661,
    "artigo": "Oceano",
@@ -1751,12 +2239,17 @@
    "palavra": "PENSAMENTO",
    "sentido": "processo mental",
    "proibidas": [
-    "PERCEPÇÃO",
-    "JUÍZO",
+    "MENTE",
     "IDEIA",
-    "IMAGINAÇÃO",
-    "MEMÓRIA"
+    "CÉREBRO",
+    "RACIOCÍNIO",
+    "CONSCIÊNCIA"
    ],
+   "no_artigo": [
+    "MENTE",
+    "IDEIA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2672,
    "artigo": "Pensamento",
@@ -1766,12 +2259,17 @@
    "palavra": "VÍRUS",
    "sentido": "entidade biológica infecciosa",
    "proibidas": [
-    "ENVELOPE",
-    "TABACO",
-    "CÉLULA",
-    "DUPLA",
-    "DOENÇA"
+    "DOENÇA",
+    "INFECÇÃO",
+    "GRIPE",
+    "VACINA",
+    "CONTÁGIO"
    ],
+   "no_artigo": [
+    "DOENÇA",
+    "INFECÇÃO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2676,
    "artigo": "Vírus",
@@ -1781,12 +2279,17 @@
    "palavra": "FERRO",
    "sentido": "elemento químico com número atómico 26",
    "proibidas": [
-    "CARBONO",
-    "TEMPERATURA",
-    "LIGA",
-    "PESO",
-    "NÚCLEO"
+    "METAL",
+    "AÇO",
+    "ÍMÃ",
+    "ELEMENTO",
+    "PESO"
    ],
+   "no_artigo": [
+    "METAL",
+    "PESO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2730,
    "artigo": "Ferro",
@@ -1797,11 +2300,15 @@
    "sentido": "profunda e extrema antipatia emocional",
    "proibidas": [
     "RAIVA",
-    "RESPOSTA",
-    "DESPREZO",
-    "NOJO",
-    "SENTIMENTO"
+    "RANCOR",
+    "INIMIGO",
+    "VINGANÇA",
+    "GUERRA"
    ],
+   "no_artigo": [
+    "RAIVA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2749,
    "artigo": "Ódio",
@@ -1812,11 +2319,16 @@
    "sentido": "ciência que estuda as propriedades e comportamento da matéria e da enegia",
    "proibidas": [
     "CIÊNCIA",
-    "DESENVOLVIMENTO",
-    "PARTÍCULA",
-    "CONSEQUÊNCIA",
-    "DESCRIÇÃO"
+    "ENERGIA",
+    "MATÉRIA",
+    "EINSTEIN",
+    "GRAVIDADE"
    ],
+   "no_artigo": [
+    "CIÊNCIA",
+    "ENERGIA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2756,
    "artigo": "Física",
@@ -1827,11 +2339,16 @@
    "sentido": "movimento de um lugar a outro de algum elemento, geralmente pessoas ou bens",
    "proibidas": [
     "VEÍCULO",
-    "REDE",
-    "OPERAÇÃO",
-    "COMERCIAL",
+    "AVIÃO",
+    "ÔNIBUS",
+    "CARRO",
+    "VIAGEM"
+   ],
+   "no_artigo": [
+    "VEÍCULO",
     "AVIÃO"
    ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2865,
    "artigo": "Transporte",
@@ -1841,12 +2358,17 @@
    "palavra": "TERNO",
    "sentido": "Conjunto de peças de roupa executivas",
    "proibidas": [
-    "PASSEIO",
-    "CALÇAS",
-    "NEGÓCIO",
-    "SAIA",
-    "ROUPA"
+    "GRAVATA",
+    "CAMISA",
+    "FORMAL",
+    "PALETÓ",
+    "CASAMENTO"
    ],
+   "no_artigo": [
+    "GRAVATA",
+    "CAMISA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2904,
    "artigo": "Terno",
@@ -1856,12 +2378,16 @@
    "palavra": "DRAGÃO",
    "sentido": "criatura lendária",
    "proibidas": [
-    "CRIATURA",
-    "DEUS",
-    "SERPENTE",
-    "FERA",
-    "MÁGICO"
+    "FOGO",
+    "ASAS",
+    "ESCAMAS",
+    "CAVALEIRO",
+    "MÍTICO"
    ],
+   "no_artigo": [
+    "FOGO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2911,
    "artigo": "Dragão",
@@ -1872,11 +2398,17 @@
    "sentido": "ciência que busca a prevenção e cura de enfermidades",
    "proibidas": [
     "SAÚDE",
-    "ANIMAL",
     "DOENÇA",
-    "CURA",
-    "PROMOÇÃO"
+    "TRATAMENTO",
+    "HOSPITAL",
+    "REMÉDIO"
    ],
+   "no_artigo": [
+    "SAÚDE",
+    "DOENÇA",
+    "TRATAMENTO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 2985,
    "artigo": "Medicina",
@@ -1886,12 +2418,14 @@
    "palavra": "ONDA",
    "sentido": "oscilação que viaja através do espaço e da matéria",
    "proibidas": [
-    "FREQUÊNCIA",
-    "COMPRIMENTO",
-    "VELOCIDADE",
-    "FÍSICA",
-    "CORDA"
+    "MAR",
+    "SURFE",
+    "SOM",
+    "RÁDIO",
+    "MOVIMENTO"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 3047,
    "artigo": "Onda",
@@ -1901,12 +2435,16 @@
    "palavra": "CRUZ",
    "sentido": "figura geométrica",
    "proibidas": [
-    "CRISTÃO",
-    "LINHA",
+    "IGREJA",
     "SÍMBOLO",
-    "ÂNGULO",
-    "BARRAS"
+    "VERMELHA",
+    "SINAL",
+    "HOSPITAL"
    ],
+   "no_artigo": [
+    "SÍMBOLO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 3063,
    "artigo": "Cruz",
@@ -1917,11 +2455,16 @@
    "sentido": "aumento da temperatura do corpo acima do normal",
    "proibidas": [
     "TEMPERATURA",
-    "CORPO",
-    "NORMAL",
     "DOENÇA",
-    "CALOR"
+    "TERMÔMETRO",
+    "GRIPE",
+    "CALAFRIO"
    ],
+   "no_artigo": [
+    "TEMPERATURA",
+    "DOENÇA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 3085,
    "artigo": "Febre",
@@ -1931,12 +2474,17 @@
    "palavra": "REVOLUÇÃO",
    "sentido": "mudança política rápida e fundamental",
    "proibidas": [
-    "POLÍTICA",
     "MUDANÇA",
-    "POLÍTICO",
-    "CIÊNCIA",
-    "SOCIEDADE"
+    "LUTA",
+    "PROTESTO",
+    "POVO",
+    "GREVE"
    ],
+   "no_artigo": [
+    "MUDANÇA",
+    "LUTA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 3131,
    "artigo": "Revolução",
@@ -1946,12 +2494,17 @@
    "palavra": "TEMPERATURA",
    "sentido": "propriedade física da matéria que expressa quantiativamente as noções comuns de frio e quente",
    "proibidas": [
-    "ENERGIA",
-    "PARTÍCULA",
-    "EQUILÍBRIO",
+    "CALOR",
+    "GRAU",
+    "TERMÔMETRO",
+    "FRIO",
+    "MEDIR"
+   ],
+   "no_artigo": [
     "CALOR",
     "GRAU"
    ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 3133,
    "artigo": "Temperatura",
@@ -1961,12 +2514,17 @@
    "palavra": "PAPA",
    "sentido": "líder mundial da Igreja Católica Apostólica Romana",
    "proibidas": [
-    "JURISDIÇÃO",
-    "PEDRO",
-    "AUTORIDADE",
-    "ESPIRITUAL",
-    "ELEITO"
+    "IGREJA",
+    "VATICANO",
+    "CATÓLICO",
+    "LÍDER",
+    "RELIGIOSO"
    ],
+   "no_artigo": [
+    "LÍDER",
+    "RELIGIOSO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 3159,
    "artigo": "Papa",
@@ -1976,12 +2534,16 @@
    "palavra": "GALINHA",
    "sentido": "ave domesticada mantida por humanos primariamente como fonte de alimento",
    "proibidas": [
-    "AVES",
-    "GALO",
-    "OVO",
-    "MACHO",
-    "SEMENTE"
+    "AVE",
+    "BICAR",
+    "FAZENDA",
+    "FRANGO",
+    "OVO"
    ],
+   "no_artigo": [
+    "OVO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 3267,
    "artigo": "Galinha",
@@ -1991,12 +2553,17 @@
    "palavra": "IMPÉRIO",
    "sentido": "território geográfico extenso (o estado imperial)",
    "proibidas": [
-    "POLÍTICA",
-    "AUTORIDADE",
-    "POLÍTICO",
-    "UNIFORME",
-    "MILITAR"
+    "TERRITÓRIO",
+    "PODER",
+    "ROMANO",
+    "COLÔNIA",
+    "CONQUISTA"
    ],
+   "no_artigo": [
+    "ROMANO",
+    "CONQUISTA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 3289,
    "artigo": "Império",
@@ -2007,11 +2574,15 @@
    "sentido": "Soldado",
    "proibidas": [
     "ARMA",
-    "TIRO",
-    "COMBATE",
-    "CAVALARIA",
-    "INIMIGO"
+    "SOLDADO",
+    "SNIPER",
+    "ALVO",
+    "FUZIL"
    ],
+   "no_artigo": [
+    "ARMA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 3295,
    "artigo": "Atirador",
@@ -2021,12 +2592,16 @@
    "palavra": "TÉCNICA",
    "sentido": "maneira de realizar uma ação ou um conjunto de ações",
    "proibidas": [
+    "MÉTODO",
+    "HABILIDADE",
+    "JEITO",
     "PROCEDIMENTO",
-    "ESFORÇO",
-    "ARTE",
-    "TECNOLOGIA",
-    "DESVIO"
+    "ESTRATÉGIA"
    ],
+   "no_artigo": [
+    "PROCEDIMENTO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 3339,
    "artigo": "Técnica",
@@ -2037,11 +2612,16 @@
    "sentido": "órgão rígido que constitui parte do endoesqueleto de alguns vertebrados",
    "proibidas": [
     "ESQUELETO",
-    "CRÂNIO",
-    "MÚSCULO",
-    "CÉLULA",
-    "ÓRGÃOS"
+    "CORPO",
+    "CACHORRO",
+    "DURO",
+    "QUEBRAR"
    ],
+   "no_artigo": [
+    "ESQUELETO",
+    "CORPO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 3359,
    "artigo": "Osso",
@@ -2051,12 +2631,16 @@
    "palavra": "PALHAÇO",
    "sentido": "artista cômico",
    "proibidas": [
-    "RUA",
-    "PERSONAGEM",
-    "COLCHÃO",
-    "CORTE",
-    "PIZZA"
+    "CIRCO",
+    "NARIZ",
+    "MAQUIAGEM",
+    "MEDO",
+    "RIR"
    ],
+   "no_artigo": [
+    "CIRCO"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 3452,
    "artigo": "Palhaço",
@@ -2066,12 +2650,14 @@
    "palavra": "ROBÔ",
    "sentido": "dispositivo mecânico ou virtual capaz de realizar trabalhos de maneira autônoma",
    "proibidas": [
-    "TAREFA",
-    "HUMANO",
-    "RESGATE",
-    "DISPOSITIVO",
-    "LIXO"
+    "MÁQUINA",
+    "METAL",
+    "FUTURO",
+    "ANDROIDE",
+    "COMANDO"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 3497,
    "artigo": "Robô",
@@ -2081,12 +2667,18 @@
    "palavra": "MOEDA",
    "sentido": "unidade monetária, meio de pagamento",
    "proibidas": [
-    "TEMPLO",
-    "TROCA",
-    "PRATA",
-    "PRODUTO",
-    "ATIVO"
+    "DINHEIRO",
+    "METAL",
+    "BOLSO",
+    "DÓLAR",
+    "TROCA"
    ],
+   "no_artigo": [
+    "DINHEIRO",
+    "METAL",
+    "TROCA"
+   ],
+   "revisada": true,
    "dificuldade": "média",
    "posicao": 3499,
    "artigo": "Moeda",
@@ -2096,12 +2688,17 @@
    "palavra": "RESPIRAÇÃO",
    "sentido": "Processo de ventilação pulmonar e oxigenação sanguínea",
    "proibidas": [
-    "TROCA",
-    "CELULAR",
-    "PULMÕES",
-    "CARBONO",
+    "AR",
+    "PULMÃO",
+    "INSPIRAR",
+    "EXPIRAR",
     "OXIGÊNIO"
    ],
+   "no_artigo": [
+    "PULMÃO",
+    "OXIGÊNIO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 3528,
    "artigo": "Respiração",
@@ -2112,11 +2709,17 @@
    "sentido": "formação de navios de guerra",
    "proibidas": [
     "NAVIOS",
-    "GUERRA",
+    "ESQUADRA",
     "MARINHA",
-    "ALMIRANTE",
-    "FORÇA"
+    "MAR",
+    "GUERRA"
    ],
+   "no_artigo": [
+    "NAVIOS",
+    "MARINHA",
+    "GUERRA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 3554,
    "artigo": "Frota",
@@ -2126,12 +2729,16 @@
    "palavra": "TRAIÇÃO",
    "sentido": "Problema causado pela falta de fidelidade proveniente de um contrato social",
    "proibidas": [
-    "CRIME",
-    "MILITAR",
-    "ESTRANGEIRO",
-    "PRISÃO",
-    "POLÍTICO"
+    "FACADA",
+    "MENTIRA",
+    "JUDAS",
+    "TRAIDOR",
+    "CONFIANÇA"
    ],
+   "no_artigo": [
+    "TRAIDOR"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 3596,
    "artigo": "Traição",
@@ -2141,12 +2748,17 @@
    "palavra": "CAVALEIRO",
    "sentido": "pessoa condecorada com um título honorífico por um monarca ou outro líder político",
    "proibidas": [
-    "CAVALARIA",
-    "GUERREIRO",
-    "MILITAR",
-    "SERVIÇO",
-    "ARMADURA"
+    "ARMADURA",
+    "ESPADA",
+    "MEDIEVAL",
+    "CASTELO",
+    "CAVALARIA"
    ],
+   "no_artigo": [
+    "ARMADURA",
+    "CAVALARIA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 3632,
    "artigo": "Cavaleiro",
@@ -2156,12 +2768,18 @@
    "palavra": "DESENHO",
    "sentido": "obra de arte visual em meio bidimensional",
    "proibidas": [
-    "PINTURA",
-    "INSTRUMENTO",
-    "ARTE",
     "LÁPIS",
-    "ARTISTA"
+    "PAPEL",
+    "ARTE",
+    "TRAÇO",
+    "ESBOÇO"
    ],
+   "no_artigo": [
+    "LÁPIS",
+    "PAPEL",
+    "ARTE"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 3696,
    "artigo": "Desenho",
@@ -2171,42 +2789,36 @@
    "palavra": "DRAMA",
    "sentido": "qualquer narrativa no âmbito da prosa literária em que haja conflito ou atrito",
    "proibidas": [
-    "ÓPERA",
     "TEATRO",
-    "MODOS",
-    "PERFORMANCE",
-    "BALÉ"
+    "PEÇA",
+    "NOVELA",
+    "ATOR",
+    "CONFLITO"
    ],
+   "no_artigo": [
+    "TEATRO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 3777,
    "artigo": "Drama",
    "url": "https://pt.wikipedia.org/wiki/Drama"
   },
   {
-   "palavra": "LANÇAMENTO",
-   "sentido": "ato administrativo feito pela autoridade administrativa, que independe da coadjuvação do contribuinte",
-   "proibidas": [
-    "OBRIGAÇÃO",
-    "IDENTIFICAÇÃO",
-    "ATIVO",
-    "GERADOR",
-    "DECLARAÇÃO"
-   ],
-   "dificuldade": "difícil",
-   "posicao": 3788,
-   "artigo": "Lançamento",
-   "url": "https://pt.wikipedia.org/wiki/Lan%C3%A7amento"
-  },
-  {
    "palavra": "CANETA",
    "sentido": "instrumento de escrita e desenho",
    "proibidas": [
     "TINTA",
-    "ESCRITA",
-    "PENA",
-    "INSTRUMENTO",
-    "DESENHO"
+    "PAPEL",
+    "ESCREVER",
+    "BIC",
+    "LÁPIS"
    ],
+   "no_artigo": [
+    "TINTA",
+    "PAPEL"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 3793,
    "artigo": "Caneta",
@@ -2219,9 +2831,15 @@
     "LEITE",
     "GORDURA",
     "VACA",
-    "BISCOITO",
-    "ALIMENTO"
+    "PÃO",
+    "AMARELA"
    ],
+   "no_artigo": [
+    "LEITE",
+    "GORDURA",
+    "VACA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 3802,
    "artigo": "Manteiga",
@@ -2231,12 +2849,16 @@
    "palavra": "FRAUDE",
    "sentido": "esquema ilícito ou de má fé criado para obter ganhos pessoais",
    "proibidas": [
-    "ESQUEMA",
-    "PESSOAL",
-    "CRIME",
-    "ILUSÃO",
-    "LUCRO"
+    "GOLPE",
+    "DINHEIRO",
+    "MENTIRA",
+    "CARTÃO",
+    "POLÍCIA"
    ],
+   "no_artigo": [
+    "GOLPE"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 3815,
    "artigo": "Fraude",
@@ -2246,12 +2868,14 @@
    "palavra": "TRAGÉDIA",
    "sentido": "gênero de drama baseado no sofrimento humano",
    "proibidas": [
-    "DRAMA",
-    "DEUS",
-    "PERSONAGEM",
-    "DESTINO",
-    "DIGNIDADE"
+    "MORTE",
+    "SOFRIMENTO",
+    "CHORO",
+    "DESGRAÇA",
+    "LUTO"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 3837,
    "artigo": "Tragédia",
@@ -2261,12 +2885,18 @@
    "palavra": "AUTORIZAÇÃO",
    "sentido": "mecanismo responsável por garantir que apenas usuários autorizados consumam determinados tipos de serviços e recursos",
    "proibidas": [
-    "RECURSO",
     "ACESSO",
-    "PROGRAMA",
-    "SEGURANÇA",
-    "COMPUTADOR"
+    "SENHA",
+    "PERMISSÃO",
+    "LOGIN",
+    "SEGURANÇA"
    ],
+   "no_artigo": [
+    "ACESSO",
+    "PERMISSÃO",
+    "SEGURANÇA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 3976,
    "artigo": "Autorização",
@@ -2276,12 +2906,14 @@
    "palavra": "TRÂNSITO",
    "sentido": "movimento de usuários de uma via, incluindo pedestres e veículos para fins de deslocamento",
    "proibidas": [
-    "VEÍCULO",
-    "VELOCIDADE",
-    "TRÁFEGO",
-    "REGRA",
-    "LIMITE"
+    "CARRO",
+    "RUA",
+    "ENGARRAFAMENTO",
+    "SEMÁFORO",
+    "BUZINA"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4010,
    "artigo": "Trânsito",
@@ -2291,12 +2923,16 @@
    "palavra": "SENTENÇA",
    "sentido": "determinação jurídica de que se aplique uma sanção",
    "proibidas": [
-    "JUÍZO",
     "JUIZ",
-    "DECISÃO",
-    "EXECUÇÃO",
-    "EXAME"
+    "TRIBUNAL",
+    "PRISÃO",
+    "LEI",
+    "RÉU"
    ],
+   "no_artigo": [
+    "JUIZ"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4041,
    "artigo": "Sentença",
@@ -2306,12 +2942,18 @@
    "palavra": "ROTEIRO",
    "sentido": "documento narrativo utilizado como diretriz para espetáculos audiovisuais",
    "proibidas": [
-    "ARGUMENTO",
     "FILME",
     "CENA",
-    "ESPETÁCULO",
-    "CINEMA"
+    "ATOR",
+    "NOVELA",
+    "HISTÓRIA"
    ],
+   "no_artigo": [
+    "FILME",
+    "CENA",
+    "ATOR"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4137,
    "artigo": "Roteiro",
@@ -2322,11 +2964,18 @@
    "sentido": "curvatura espaço-tempo que regula o movimento de objetos inertes",
    "proibidas": [
     "ATRAÇÃO",
-    "FORÇA",
-    "UNIVERSO",
-    "PARTÍCULA",
-    "PLANETA"
+    "FÍSICA",
+    "PESO",
+    "QUEDA",
+    "NEWTON"
    ],
+   "no_artigo": [
+    "ATRAÇÃO",
+    "FÍSICA",
+    "PESO",
+    "QUEDA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4160,
    "artigo": "Gravidade",
@@ -2336,12 +2985,17 @@
    "palavra": "JUNHO",
    "sentido": "sexto mês do ano no calendário gregoriano com 30 dias",
    "proibidas": [
-    "NORTE",
-    "INVERNO",
-    "VERÃO",
     "CALENDÁRIO",
-    "DEUSA"
+    "FOGUEIRA",
+    "QUADRILHA",
+    "MILHO",
+    "INVERNO"
    ],
+   "no_artigo": [
+    "CALENDÁRIO",
+    "INVERNO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4165,
    "artigo": "Junho",
@@ -2351,12 +3005,19 @@
    "palavra": "PARTO",
    "sentido": "saída de um bebê do útero da grávida",
    "proibidas": [
-    "ÚTERO",
     "BEBÊ",
-    "FASE",
-    "APRESENTAÇÃO",
-    "GRAVIDEZ"
+    "HOSPITAL",
+    "DOR",
+    "NASCIMENTO",
+    "MATERNIDADE"
    ],
+   "no_artigo": [
+    "BEBÊ",
+    "HOSPITAL",
+    "DOR",
+    "NASCIMENTO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4247,
    "artigo": "Parto",
@@ -2366,42 +3027,35 @@
    "palavra": "RADIAÇÃO",
    "sentido": "Propagação física de enegia",
    "proibidas": [
+    "NUCLEAR",
+    "USINA",
+    "SOL",
     "ENERGIA",
-    "ONDA",
-    "PARTÍCULA",
-    "RAIO",
-    "VELOCIDADE"
+    "CONTAMINAÇÃO"
    ],
+   "no_artigo": [
+    "ENERGIA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4275,
    "artigo": "Radiação",
    "url": "https://pt.wikipedia.org/wiki/Radia%C3%A7%C3%A3o"
   },
   {
-   "palavra": "TRANSFERÊNCIA",
-   "sentido": "o redirecionamento inconsciente dos sentimentos que uma pessoa tem sobre outra pessoa",
-   "proibidas": [
-    "PACIENTE",
-    "SENTIMENTO",
-    "TRATAMENTO",
-    "INCONSCIENTE",
-    "DESEJO"
-   ],
-   "dificuldade": "difícil",
-   "posicao": 4295,
-   "artigo": "Transferência",
-   "url": "https://pt.wikipedia.org/wiki/Transfer%C3%AAncia"
-  },
-  {
    "palavra": "PSIQUIATRA",
    "sentido": "profissional da Psiquiatria",
    "proibidas": [
     "MÉDICO",
-    "DOENÇA",
-    "MEDICINA",
-    "TREINAMENTO",
-    "EXAME"
+    "CONSULTA",
+    "DEPRESSÃO",
+    "REMÉDIO",
+    "HOSPITAL"
    ],
+   "no_artigo": [
+    "MÉDICO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4336,
    "artigo": "Psiquiatra",
@@ -2411,12 +3065,16 @@
    "palavra": "BONDADE",
    "sentido": "Oposto da maldade",
    "proibidas": [
-    "DISPOSIÇÃO",
     "GENTILEZA",
-    "AGRADÁVEL",
-    "PREOCUPAÇÃO",
-    "PERFEIÇÃO"
+    "AJUDAR",
+    "CORAÇÃO",
+    "ALTRUÍSMO",
+    "CARIDADE"
    ],
+   "no_artigo": [
+    "GENTILEZA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4383,
    "artigo": "Bondade",
@@ -2427,11 +3085,17 @@
    "sentido": "processo pelo qual uma população escolhe indivíduos para cargos públicos",
    "proibidas": [
     "VOTO",
-    "COMUNIDADE",
-    "ASSENTO",
-    "VOTAÇÃO",
-    "POVO"
+    "DEMOCRACIA",
+    "CANDIDATO",
+    "URNA",
+    "PRESIDENTE"
    ],
+   "no_artigo": [
+    "VOTO",
+    "DEMOCRACIA",
+    "CANDIDATO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4392,
    "artigo": "Eleição",
@@ -2441,12 +3105,17 @@
    "palavra": "ÁLBUM",
    "sentido": "coleção de músicas, palavras e sons",
    "proibidas": [
+    "MÚSICA",
     "DISCO",
-    "MUSICAL",
-    "ÁUDIO",
-    "FITA",
-    "FORMATO"
+    "FAIXA",
+    "BANDA",
+    "CAPA"
    ],
+   "no_artigo": [
+    "MÚSICA",
+    "DISCO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4449,
    "artigo": "Álbum",
@@ -2456,12 +3125,18 @@
    "palavra": "JORNALISTA",
    "sentido": "pessoa que coleta, escreve e distribui notícias e outros tipos de informação",
    "proibidas": [
-    "NOTÍCIAS",
-    "IMPRENSA",
     "REPÓRTER",
     "ENTREVISTA",
-    "INFORMAÇÃO"
+    "IMPRENSA",
+    "NOTÍCIA",
+    "CÂMERA"
    ],
+   "no_artigo": [
+    "REPÓRTER",
+    "ENTREVISTA",
+    "IMPRENSA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4493,
    "artigo": "Jornalista",
@@ -2472,11 +3147,15 @@
    "sentido": "primeiro mês do ano no calendário gregoriano com 31 dias",
    "proibidas": [
     "CALENDÁRIO",
-    "NORTE",
-    "DEZEMBRO",
-    "INVERNO",
-    "SANTA"
+    "RÉVEILLON",
+    "FOGOS",
+    "VIRADA",
+    "PRAIA"
    ],
+   "no_artigo": [
+    "CALENDÁRIO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4498,
    "artigo": "Janeiro",
@@ -2486,12 +3165,14 @@
    "palavra": "FÍGADO",
    "sentido": "órgão do sistema digestivo",
    "proibidas": [
-    "ÓRGÃOS",
-    "DIREITO",
-    "PESO",
-    "COSTELA",
-    "SANGUE"
+    "ÓRGÃO",
+    "ÁLCOOL",
+    "CIRROSE",
+    "BILE",
+    "DIGESTÃO"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4507,
    "artigo": "Fígado",
@@ -2501,12 +3182,16 @@
    "palavra": "AGOSTO",
    "sentido": "oitavo mês do ano no calendário gregoriano com 31 dias",
    "proibidas": [
+    "MÊS",
     "CALENDÁRIO",
-    "NORTE",
-    "IMPERADOR",
-    "POLÍTICO",
-    "REFORMA"
+    "VENTO",
+    "QUEIMADA",
+    "INVERNO"
    ],
+   "no_artigo": [
+    "CALENDÁRIO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4567,
    "artigo": "Agosto",
@@ -2516,12 +3201,18 @@
    "palavra": "PUBLICIDADE",
    "sentido": "atividade destinada a divulgação de algo",
    "proibidas": [
-    "JORNAL",
-    "SERVIÇO",
     "ANÚNCIO",
+    "COMERCIAL",
     "PRODUTO",
-    "COMERCIAL"
+    "PROPAGANDA",
+    "MARCA"
    ],
+   "no_artigo": [
+    "ANÚNCIO",
+    "COMERCIAL",
+    "PRODUTO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4598,
    "artigo": "Publicidade",
@@ -2531,12 +3222,16 @@
    "palavra": "ORELHA",
    "sentido": "parte do corpo responsável pela audição",
    "proibidas": [
-    "ÓRGÃOS",
-    "OSSO",
-    "LATERAL",
-    "ANIMAL",
-    "PATA"
+    "CABEÇA",
+    "BRINCO",
+    "SOM",
+    "ESCUTAR",
+    "SURDO"
    ],
+   "no_artigo": [
+    "CABEÇA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4640,
    "artigo": "Orelha",
@@ -2546,12 +3241,14 @@
    "palavra": "MILHO",
    "sentido": "espécie de gramínea cultivada para alimento",
    "proibidas": [
-    "PLANTA",
-    "CEREAL",
-    "GRÃO",
-    "TRIGO",
-    "ARROZ"
+    "ESPIGA",
+    "PIPOCA",
+    "AMARELO",
+    "CANJICA",
+    "PLANTAÇÃO"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4678,
    "artigo": "Milho",
@@ -2561,12 +3258,17 @@
    "palavra": "ESTRESSE",
    "sentido": "resposta do corpo às situações de pressão ou ameaça",
    "proibidas": [
-    "SINTOMA",
-    "ACONTECIMENTO",
-    "REAÇÃO",
     "ANSIEDADE",
-    "EXPOSIÇÃO"
+    "PRESSÃO",
+    "TRABALHO",
+    "CANSAÇO",
+    "NERVOSO"
    ],
+   "no_artigo": [
+    "ANSIEDADE",
+    "PRESSÃO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4680,
    "artigo": "Estresse",
@@ -2576,12 +3278,16 @@
    "palavra": "ETERNIDADE",
    "sentido": "conceito filosófico",
    "proibidas": [
+    "SEMPRE",
+    "INFINITO",
     "TEMPO",
-    "COBRA",
-    "DRAGÃO",
-    "COMEÇO",
-    "CAUDA"
+    "AMOR",
+    "DEUS"
    ],
+   "no_artigo": [
+    "TEMPO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4744,
    "artigo": "Eternidade",
@@ -2592,11 +3298,17 @@
    "sentido": "entrada, desenvolvimento e multiplicação de um patógeno no corpo de um organismo vivo",
    "proibidas": [
     "DOENÇA",
-    "PACIENTE",
     "HOSPITAL",
-    "BOLSA",
-    "SAÚDE"
+    "VÍRUS",
+    "BACTÉRIA",
+    "FEBRE"
    ],
+   "no_artigo": [
+    "DOENÇA",
+    "HOSPITAL",
+    "VÍRUS"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4801,
    "artigo": "Infecção",
@@ -2607,11 +3319,17 @@
    "sentido": "termo genérico para o material ou componente disparado a partir de qualquer arma",
    "proibidas": [
     "ARMA",
-    "FLECHA",
-    "CANHÃO",
     "BALA",
-    "ARCO"
+    "GUERRA",
+    "PÓLVORA",
+    "CARTUCHO"
    ],
+   "no_artigo": [
+    "ARMA",
+    "BALA",
+    "GUERRA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4851,
    "artigo": "Munição",
@@ -2621,12 +3339,16 @@
    "palavra": "DIETA",
    "sentido": "Prática de comer alimentos de forma regulamentada e supervisionada",
    "proibidas": [
-    "HÁBITO",
-    "SAÚDE",
-    "PESO",
-    "ALIMENTAÇÃO",
-    "EMPREGO"
+    "EMAGRECER",
+    "NUTRICIONISTA",
+    "EXERCÍCIO",
+    "REGIME",
+    "SAUDÁVEL"
    ],
+   "no_artigo": [
+    "REGIME"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4863,
    "artigo": "Dieta",
@@ -2636,12 +3358,16 @@
    "palavra": "ARANHA",
    "sentido": "ordem de aracnídeo",
    "proibidas": [
-    "SEDA",
-    "PRESA",
+    "TEIA",
     "VENENO",
-    "CIENTISTA",
-    "RESPIRAÇÃO"
+    "PICAR",
+    "MEDO",
+    "PERNAS"
    ],
+   "no_artigo": [
+    "VENENO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4916,
    "artigo": "Aranha",
@@ -2651,12 +3377,16 @@
    "palavra": "ORÇAMENTO",
    "sentido": "orçamentos de obras",
    "proibidas": [
-    "DESPESA",
-    "PLANO",
-    "PREVISÃO",
-    "PLANEJAMENTO",
-    "ADMINISTRAÇÃO"
+    "DINHEIRO",
+    "OBRA",
+    "REFORMA",
+    "CUSTO",
+    "PREVISÃO"
    ],
+   "no_artigo": [
+    "PREVISÃO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 4996,
    "artigo": "Orçamento",
@@ -2666,12 +3396,17 @@
    "palavra": "OUTONO",
    "sentido": "estação do ano",
    "proibidas": [
+    "FOLHAS",
+    "FRIO",
     "ESTAÇÃO",
-    "QUEDA",
-    "CLIMA",
-    "INVERNO",
-    "VERÃO"
+    "AMARELO",
+    "VENTO"
    ],
+   "no_artigo": [
+    "FOLHAS",
+    "ESTAÇÃO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5000,
    "artigo": "Outono",
@@ -2681,12 +3416,17 @@
    "palavra": "DAMAS",
    "sentido": "jogo de tabuleiro",
    "proibidas": [
-    "CASA",
     "JOGO",
-    "JOGADOR",
-    "LANCE",
-    "VERSÃO"
+    "XADREZ",
+    "TABULEIRO",
+    "CASAS",
+    "REI"
    ],
+   "no_artigo": [
+    "JOGO",
+    "XADREZ"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5019,
    "artigo": "Damas",
@@ -2697,11 +3437,15 @@
    "sentido": "forma de governo",
    "proibidas": [
     "GOVERNO",
-    "CIDADÃO",
-    "REGIME",
-    "POVO",
-    "POLÍTICO"
+    "PRESIDENTE",
+    "BRASIL",
+    "FEDERATIVA",
+    "DEMOCRACIA"
    ],
+   "no_artigo": [
+    "GOVERNO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5043,
    "artigo": "República",
@@ -2711,12 +3455,16 @@
    "palavra": "NUVEM",
    "sentido": "massa visível de líquidos na atmosfera",
    "proibidas": [
-    "PARTÍCULA",
-    "GELO",
-    "ÁGUA",
-    "SUSPENSÃO",
-    "ATMOSFERA"
+    "CÉU",
+    "ALGODÃO",
+    "CHUVA",
+    "VENTO",
+    "CINZA"
    ],
+   "no_artigo": [
+    "VENTO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5066,
    "artigo": "Nuvem",
@@ -2726,12 +3474,16 @@
    "palavra": "GORDURA",
    "sentido": "termo genérico para uma classe de lipídios",
    "proibidas": [
-    "CARBONO",
-    "ÁGUA",
-    "CADEIA",
-    "VEGETAL",
-    "ÁCIDO"
+    "ÓLEO",
+    "BANHA",
+    "MANTEIGA",
+    "COLESTEROL",
+    "CALORIA"
    ],
+   "no_artigo": [
+    "ÓLEO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5113,
    "artigo": "Gordura",
@@ -2741,12 +3493,14 @@
    "palavra": "MARTELO",
    "sentido": "ferramenta destinada a causar impacto em um objeto",
    "proibidas": [
-    "CABO",
-    "FERRAMENTA",
-    "MADEIRA",
-    "GOLPE",
-    "IMPACTO"
+    "PREGO",
+    "BATER",
+    "CARPINTEIRO",
+    "MARRETA",
+    "CAIXA"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5189,
    "artigo": "Martelo",
@@ -2756,12 +3510,16 @@
    "palavra": "MÁFIA",
    "sentido": "organizações criminosas",
    "proibidas": [
-    "CRIMINOSO",
-    "ORGANIZAÇÃO",
-    "TRÁFICO",
-    "VIOLÊNCIA",
-    "FRAUDE"
+    "CRIME",
+    "GÂNGSTER",
+    "EXTORSÃO",
+    "ITALIANO",
+    "FAMÍLIA"
    ],
+   "no_artigo": [
+    "CRIME"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5190,
    "artigo": "Máfia",
@@ -2771,12 +3529,18 @@
    "palavra": "COMÉRCIO",
    "sentido": "intercâmbio de bens e serviços",
    "proibidas": [
-    "TROCA",
-    "PARCEIRO",
-    "PRODUTO",
-    "DINHEIRO",
-    "PROMOÇÃO"
+    "VENDA",
+    "COMPRA",
+    "MERCADO",
+    "LUCRO",
+    "DINHEIRO"
    ],
+   "no_artigo": [
+    "VENDA",
+    "COMPRA",
+    "DINHEIRO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5192,
    "artigo": "Comércio",
@@ -2786,12 +3550,16 @@
    "palavra": "ENGENHEIRO",
    "sentido": "profissional que pratica engenharia",
    "proibidas": [
-    "TÉCNICO",
-    "ENGENHARIA",
-    "PROFISSÃO",
-    "PROBLEMA",
-    "CIENTÍFICO"
+    "CAPACETE",
+    "PONTE",
+    "PROJETO",
+    "CÁLCULO",
+    "OBRA"
    ],
+   "no_artigo": [
+    "PROJETO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5264,
    "artigo": "Engenheiro",
@@ -2801,12 +3569,16 @@
    "palavra": "SINO",
    "sentido": "instrumento musical de percussão",
    "proibidas": [
-    "METAL",
-    "MARTELO",
-    "INTERNO",
-    "RELÓGIO",
-    "CÍRCULO"
+    "IGREJA",
+    "BADALO",
+    "TORRE",
+    "ESCOLA",
+    "BRONZE"
    ],
+   "no_artigo": [
+    "TORRE"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5290,
    "artigo": "Sino",
@@ -2816,12 +3588,19 @@
    "palavra": "ÓPERA",
    "sentido": "gênero artístico teatral",
    "proibidas": [
-    "DRAMA",
-    "MÚSICA",
+    "TEATRO",
+    "SOPRANO",
     "ORQUESTRA",
-    "CANTO",
-    "MUSICAL"
+    "DRAMA",
+    "CANTAR"
    ],
+   "no_artigo": [
+    "TEATRO",
+    "ORQUESTRA",
+    "DRAMA",
+    "CANTAR"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5304,
    "artigo": "Ópera",
@@ -2831,12 +3610,14 @@
    "palavra": "ORAÇÃO",
    "sentido": "ato religioso de invocação ou conversa com algum ser transcendente",
    "proibidas": [
-    "AGRADECIMENTO",
-    "CRENÇA",
-    "CREDO",
-    "BENEFÍCIO",
-    "EXPRESSÃO"
+    "DEUS",
+    "IGREJA",
+    "MISSA",
+    "AJOELHAR",
+    "REZAR"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5338,
    "artigo": "Oração",
@@ -2846,12 +3627,16 @@
    "palavra": "EVOLUÇÃO",
    "sentido": "Conjunto de processos",
    "proibidas": [
-    "GENÉTICA",
-    "GERAÇÃO",
-    "EVIDÊNCIA",
-    "MUDANÇA",
+    "DARWIN",
+    "MACACO",
+    "ESPÉCIE",
+    "ADAPTAÇÃO",
     "SELEÇÃO"
    ],
+   "no_artigo": [
+    "SELEÇÃO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5353,
    "artigo": "Evolução",
@@ -2861,12 +3646,16 @@
    "palavra": "EMPREGADO",
    "sentido": "pessoa contratada para prestar serviços para um empregador, numa carga horária definida, mediante salário",
    "proibidas": [
-    "SERVIÇO",
-    "REGIME",
-    "TRABALHO",
-    "EMPRESA",
+    "PATRÃO",
+    "SALÁRIO",
+    "FUNCIONÁRIO",
+    "CONTRATO",
+    "CARTEIRA"
+   ],
+   "no_artigo": [
     "SALÁRIO"
    ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5357,
    "artigo": "Empregado",
@@ -2876,12 +3665,14 @@
    "palavra": "BINGO",
    "sentido": "jogo de azar",
    "proibidas": [
-    "JOGO",
-    "SALA",
-    "CASA",
-    "AZAR",
-    "DIVERSÃO"
+    "CARTELA",
+    "NÚMERO",
+    "BOLA",
+    "GRITAR",
+    "PRÊMIO"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5382,
    "artigo": "Bingo",
@@ -2892,11 +3683,17 @@
    "sentido": "extração de organismos aquáticos, do meio onde se desenvolveram para diversos fins",
    "proibidas": [
     "PEIXE",
+    "VARA",
+    "ANZOL",
     "REDE",
-    "FÍGADO",
-    "ALIMENTAÇÃO",
-    "PEIXES"
+    "BARCO"
    ],
+   "no_artigo": [
+    "PEIXE",
+    "REDE",
+    "BARCO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5383,
    "artigo": "Pesca",
@@ -2907,11 +3704,15 @@
    "sentido": "subordem de insetos",
    "proibidas": [
     "INSETO",
-    "ASA",
-    "PRAGA",
-    "HÁBITO",
-    "CIENTÍFICO"
+    "NOJO",
+    "ANTENA",
+    "VENENO",
+    "COZINHA"
    ],
+   "no_artigo": [
+    "INSETO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5389,
    "artigo": "Barata",
@@ -2921,12 +3722,16 @@
    "palavra": "ALIMENTO",
    "sentido": "substancia utilizada pelos seres vivos",
    "proibidas": [
+    "COMIDA",
+    "NUTRIÇÃO",
+    "FOME",
     "REFEIÇÃO",
-    "ANIMAL",
-    "DIETA",
-    "ENERGIA",
-    "HUMANO"
+    "PRATO"
    ],
+   "no_artigo": [
+    "REFEIÇÃO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5390,
    "artigo": "Alimento",
@@ -2936,12 +3741,16 @@
    "palavra": "GREVE",
    "sentido": "protestos para exigir justiça, respeito e bens para o trabalhador",
    "proibidas": [
-    "FUNCIONÁRIO",
-    "INDUSTRIAL",
-    "FEDERAL",
-    "MINA",
-    "MASSA"
+    "PARALISAÇÃO",
+    "PROTESTO",
+    "SINDICATO",
+    "TRABALHADOR",
+    "CARTAZ"
    ],
+   "no_artigo": [
+    "TRABALHADOR"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5454,
    "artigo": "Greve",
@@ -2951,12 +3760,16 @@
    "palavra": "RIQUEZA",
    "sentido": "abundância de valor",
    "proibidas": [
-    "CAPITAL",
-    "RENDA",
-    "BENS",
+    "DINHEIRO",
     "OURO",
-    "DOAÇÃO"
+    "FORTUNA",
+    "MILIONÁRIO",
+    "MANSÃO"
    ],
+   "no_artigo": [
+    "OURO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5492,
    "artigo": "Riqueza",
@@ -2966,12 +3779,16 @@
    "palavra": "REFRIGERANTE",
    "sentido": "bebida não alcoólica, frequentemente carbonada",
    "proibidas": [
-    "ÁCIDO",
-    "SABOR",
+    "GÁS",
+    "GARRAFA",
+    "LATA",
     "AÇÚCAR",
-    "FRUTA",
-    "ÁGUA"
+    "REFRESCO"
    ],
+   "no_artigo": [
+    "AÇÚCAR"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5499,
    "artigo": "Refrigerante",
@@ -2981,12 +3798,18 @@
    "palavra": "LENÇO",
    "sentido": "acessório de moda",
    "proibidas": [
-    "CABEÇA",
     "PESCOÇO",
-    "MULHER",
-    "PANO",
-    "REDOR"
+    "SEDA",
+    "CABEÇA",
+    "MODA",
+    "ELEGANTE"
    ],
+   "no_artigo": [
+    "PESCOÇO",
+    "SEDA",
+    "CABEÇA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5507,
    "artigo": "Lenço",
@@ -2996,12 +3819,17 @@
    "palavra": "DENTISTA",
    "sentido": "profissional da odontologia",
    "proibidas": [
-    "CIRURGIÃO",
-    "MÉDICO",
-    "SAÚDE",
-    "DIAGNÓSTICO",
-    "DOENÇA"
+    "BROCA",
+    "CÁRIE",
+    "APARELHO",
+    "CONSULTÓRIO",
+    "CIRURGIÃO"
    ],
+   "no_artigo": [
+    "CONSULTÓRIO",
+    "CIRURGIÃO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5528,
    "artigo": "Dentista",
@@ -3011,12 +3839,16 @@
    "palavra": "INVESTIMENTO",
    "sentido": "conjunto de ações com o intuito de se obter lucro",
    "proibidas": [
-    "FASE",
-    "CAPITAL",
-    "EMPRESA",
-    "DESPESA",
+    "APLICAÇÃO",
+    "AÇÕES",
+    "LUCRO",
+    "RISCO",
+    "BOLSA"
+   ],
+   "no_artigo": [
     "LUCRO"
    ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5586,
    "artigo": "Investimento",
@@ -3026,12 +3858,17 @@
    "palavra": "COMÉDIA",
    "sentido": "genêro de peças dramáticas com o intuito de ser engraçado",
    "proibidas": [
+    "ENGRAÇADO",
+    "RIR",
+    "PIADA",
     "HUMOR",
-    "LUTA",
-    "IRONIA",
-    "JOVEM",
-    "PERFORMANCE"
+    "TEATRO"
    ],
+   "no_artigo": [
+    "HUMOR",
+    "TEATRO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5599,
    "artigo": "Comédia",
@@ -3041,12 +3878,17 @@
    "palavra": "CANHÃO",
    "sentido": "arma de artilharia",
    "proibidas": [
-    "ARTILHARIA",
-    "FOGO",
-    "CALIBRE",
     "TIRO",
-    "LIBRA"
+    "PÓLVORA",
+    "EXÉRCITO",
+    "NAVIO",
+    "EXPLOSÃO"
    ],
+   "no_artigo": [
+    "TIRO",
+    "PÓLVORA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5663,
    "artigo": "Canhão",
@@ -3056,12 +3898,16 @@
    "palavra": "CARRUAGEM",
    "sentido": "meio de transporte geralmente puxado por cavalos",
    "proibidas": [
-    "RODAS",
     "CAVALO",
-    "TRANSPORTE",
-    "GUERRA",
-    "PASSAGEIRO"
+    "COCHEIRO",
+    "CASTELO",
+    "CINDERELA",
+    "RODA"
    ],
+   "no_artigo": [
+    "CAVALO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5697,
    "artigo": "Carruagem",
@@ -3072,11 +3918,16 @@
    "sentido": "trajetória",
    "proibidas": [
     "PLANETA",
-    "MOVIMENTO",
-    "CENTRO",
-    "REDOR",
-    "ESTRELA"
+    "LUA",
+    "SOL",
+    "ESPAÇO",
+    "GRAVIDADE"
    ],
+   "no_artigo": [
+    "PLANETA",
+    "GRAVIDADE"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5703,
    "artigo": "Órbita",
@@ -3086,12 +3937,19 @@
    "palavra": "DEMOCRACIA",
    "sentido": "forma de governo",
    "proibidas": [
-    "GOVERNO",
-    "DIREITO",
-    "POVO",
+    "VOTO",
     "ELEIÇÃO",
+    "POVO",
+    "LIBERDADE",
+    "PRESIDENTE"
+   ],
+   "no_artigo": [
+    "VOTO",
+    "ELEIÇÃO",
+    "POVO",
     "LIBERDADE"
    ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5722,
    "artigo": "Democracia",
@@ -3101,12 +3959,16 @@
    "palavra": "GUITARRA",
    "sentido": "instrumento musical de cordas",
    "proibidas": [
-    "INSTRUMENTO",
     "CORDA",
-    "VIOLÃO",
-    "BRAÇO",
-    "CAIXA"
+    "ELÉTRICA",
+    "ROCK",
+    "AMPLIFICADOR",
+    "SOLO"
    ],
+   "no_artigo": [
+    "CORDA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5758,
    "artigo": "Guitarra",
@@ -3116,12 +3978,18 @@
    "palavra": "MACHADO",
    "sentido": "ferramenta de corte",
    "proibidas": [
-    "MARTELO",
-    "CABO",
-    "CORTE",
-    "FERRAMENTA",
-    "LÂMINA"
+    "CORTAR",
+    "LENHADOR",
+    "ÁRVORE",
+    "LÂMINA",
+    "CABO"
    ],
+   "no_artigo": [
+    "ÁRVORE",
+    "LÂMINA",
+    "CABO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5922,
    "artigo": "Machado",
@@ -3131,12 +3999,19 @@
    "palavra": "GRIPE",
    "sentido": "doença infecciosa provocada por diversos vírus ARN da família Orthomyxoviridae",
    "proibidas": [
-    "DOR",
     "VÍRUS",
-    "SINTOMA",
     "FEBRE",
-    "TOSSE"
+    "TOSSE",
+    "REMÉDIO",
+    "VACINA"
    ],
+   "no_artigo": [
+    "VÍRUS",
+    "FEBRE",
+    "TOSSE",
+    "VACINA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5931,
    "artigo": "Gripe",
@@ -3146,12 +4021,17 @@
    "palavra": "MARINHEIRO",
    "sentido": "pessoa que trabalha a bordo de um barco; homem do mar (principalmente quando embarcado)",
    "proibidas": [
-    "OFICIAL",
-    "MÁQUINA",
-    "CONVÉS",
     "NAVIO",
-    "PESCA"
+    "ÂNCORA",
+    "CAPITÃO",
+    "POPEYE",
+    "OFICIAL"
    ],
+   "no_artigo": [
+    "NAVIO",
+    "OFICIAL"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5934,
    "artigo": "Marinheiro",
@@ -3161,12 +4041,18 @@
    "palavra": "SANTUÁRIO",
    "sentido": "lugar sagrado",
    "proibidas": [
-    "ALTAR",
+    "RELIGIÃO",
     "TEMPLO",
-    "SACRIFÍCIO",
-    "TÚMULO",
-    "CULTO"
+    "PEREGRINAÇÃO",
+    "ALTAR",
+    "SACRIFÍCIO"
    ],
+   "no_artigo": [
+    "TEMPLO",
+    "ALTAR",
+    "SACRIFÍCIO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5967,
    "artigo": "Santuário",
@@ -3176,12 +4062,16 @@
    "palavra": "PRIVILÉGIO",
    "sentido": "Benefícios a um certo grupo de pessoas",
    "proibidas": [
-    "EDUCAÇÃO",
-    "ESPECIAL",
-    "ORIENTAÇÃO",
-    "RELIGIÃO",
-    "IDENTIDADE"
+    "VANTAGEM",
+    "ELITE",
+    "EXCLUSIVIDADE",
+    "CLASSE",
+    "INJUSTIÇA"
    ],
+   "no_artigo": [
+    "VANTAGEM"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5983,
    "artigo": "Privilégio",
@@ -3192,11 +4082,15 @@
    "sentido": "processo de compra e venda de bens ou serviços, oferecendo-os para licitação, recebendo licitações e vendendo o item ao licitante com a melhor oferta",
    "proibidas": [
     "LANCE",
-    "OFERTA",
-    "PREÇO",
-    "NEGOCIAÇÃO",
-    "LOTE"
+    "ARREMATAR",
+    "MARTELO",
+    "COMPRADOR",
+    "GADO"
    ],
+   "no_artigo": [
+    "LANCE"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 6030,
    "artigo": "Leilão",
@@ -3206,12 +4100,16 @@
    "palavra": "MARROM",
    "sentido": "cor",
    "proibidas": [
-    "CORES",
-    "LARANJA",
-    "ESCURO",
-    "AZUL",
-    "AMARELO"
+    "CASTANHO",
+    "CHOCOLATE",
+    "CAFÉ",
+    "MADEIRA",
+    "TERRA"
    ],
+   "no_artigo": [
+    "TERRA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 6053,
    "artigo": "Marrom",
@@ -3221,12 +4119,16 @@
    "palavra": "VAPOR",
    "sentido": "Substâncias na fase gasosa a uma temperatura inferior ao seu ponto crítico",
    "proibidas": [
-    "PRESSÃO",
-    "TEMPERATURA",
-    "LÍQUIDO",
-    "FASE",
-    "SÓLIDO"
+    "ÁGUA",
+    "FERVURA",
+    "GÁS",
+    "PANELA",
+    "FERRO"
    ],
+   "no_artigo": [
+    "ÁGUA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 6064,
    "artigo": "Vapor",
@@ -3236,12 +4138,16 @@
    "palavra": "NINJA",
    "sentido": "tipo de agente ou mercenário no japão feudal",
    "proibidas": [
-    "ESPIÃO",
-    "COMBATE",
-    "ESPIONAGEM",
+    "JAPÃO",
     "SAMURAI",
-    "MITO"
+    "SOMBRA",
+    "TARTARUGA",
+    "SILENCIOSO"
    ],
+   "no_artigo": [
+    "SAMURAI"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 6065,
    "artigo": "Ninja",
@@ -3251,12 +4157,17 @@
    "palavra": "ZUMBI",
    "sentido": "ser mítico morto-vivo",
    "proibidas": [
-    "CADÁVER",
-    "CRIATURA",
-    "MÁGICO",
-    "FILME",
-    "TERROR"
+    "MORTO",
+    "CÉREBRO",
+    "APOCALIPSE",
+    "TERROR",
+    "FILME"
    ],
+   "no_artigo": [
+    "TERROR",
+    "FILME"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 6074,
    "artigo": "Zumbi",
@@ -3266,12 +4177,14 @@
    "palavra": "PELOTÃO",
    "sentido": "pequena unidade militar",
    "proibidas": [
-    "SARGENTO",
-    "COMANDO",
-    "TENENTE",
-    "COMPANHIA",
-    "COMBATE"
+    "FUZILAMENTO",
+    "SOLDADO",
+    "EXÉRCITO",
+    "COMANDANTE",
+    "MARCHA"
    ],
+   "no_artigo": [],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 6193,
    "artigo": "Pelotão",
@@ -3281,12 +4194,16 @@
    "palavra": "ANSIEDADE",
    "sentido": "sensação intensa de preocupação pelo futuro ou pela incerteza",
    "proibidas": [
-    "MEDO",
-    "SENTIMENTO",
-    "TENSÃO",
-    "AMEAÇA",
+    "PREOCUPAÇÃO",
+    "PÂNICO",
+    "CORAÇÃO",
+    "RESPIRAR",
+    "REMÉDIO"
+   ],
+   "no_artigo": [
     "PREOCUPAÇÃO"
    ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 6494,
    "artigo": "Ansiedade",
@@ -3297,11 +4214,18 @@
    "sentido": "Produto cosmético",
    "proibidas": [
     "LÁBIO",
-    "MULHER",
+    "VERMELHO",
     "MAQUIAGEM",
-    "TUBO",
-    "BASTÃO"
+    "BEIJO",
+    "BRILHO"
    ],
+   "no_artigo": [
+    "LÁBIO",
+    "VERMELHO",
+    "MAQUIAGEM",
+    "BRILHO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 6652,
    "artigo": "Batom",
@@ -3312,11 +4236,17 @@
    "sentido": "pequeno objeto astronômico gelado",
    "proibidas": [
     "CAUDA",
-    "COMA",
-    "POEIRA",
-    "NÚCLEO",
-    "GELO"
+    "GELO",
+    "HALLEY",
+    "ÓRBITA",
+    "ESTRELA"
    ],
+   "no_artigo": [
+    "CAUDA",
+    "GELO",
+    "ESTRELA"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 6689,
    "artigo": "Cometa",
@@ -3326,12 +4256,16 @@
    "palavra": "INSTITUIÇÃO",
    "sentido": "estrutura social abstra que regula o comportamento de um grupo de indivíduos",
    "proibidas": [
-    "COMPORTAMENTO",
-    "POLÍTICA",
-    "POLÍTICO",
-    "REGRA",
-    "INTENÇÃO"
+    "ORGANIZAÇÃO",
+    "GOVERNO",
+    "ESCOLA",
+    "EMPRESA",
+    "IGREJA"
    ],
+   "no_artigo": [
+    "ORGANIZAÇÃO"
+   ],
+   "revisada": true,
    "dificuldade": "difícil",
    "posicao": 6706,
    "artigo": "Instituição",

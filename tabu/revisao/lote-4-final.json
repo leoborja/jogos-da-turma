@@ -1,0 +1,187 @@
+{
+  "lote": 4,
+  "cartas": {
+    "PALHAÇO": {
+      "proibidas": ["CIRCO", "NARIZ", "MAQUIAGEM", "MEDO", "RIR"],
+      "no_artigo": ["CIRCO"]
+    },
+    "ROBÔ": {
+      "proibidas": ["MÁQUINA", "METAL", "FUTURO", "ANDROIDE", "COMANDO"],
+      "no_artigo": []
+    },
+    "MOEDA": {
+      "proibidas": ["DINHEIRO", "METAL", "BOLSO", "DÓLAR", "TROCA"],
+      "no_artigo": ["DINHEIRO", "METAL", "TROCA"],
+      "nota": "as duas listas cegas deram 'trocar'/'troco', formas diferentes da mesma ideia; TROCA fecha a mesma rota e ainda vem confirmada pelo artigo"
+    },
+    "RESPIRAÇÃO": {
+      "proibidas": ["AR", "PULMÃO", "INSPIRAR", "EXPIRAR", "OXIGÊNIO"],
+      "no_artigo": ["PULMÃO", "OXIGÊNIO"],
+      "nota": "as duas listas bateram em 6 palavras (essas 5 + FÔLEGO); FÔLEGO ficou de fora por já estar coberto pela dupla inspirar/expirar, e OXIGÊNIO entrou por vir confirmado também no artigo"
+    },
+    "FROTA": {
+      "proibidas": ["NAVIOS", "ESQUADRA", "MARINHA", "MAR", "GUERRA"],
+      "no_artigo": ["NAVIOS", "GUERRA", "MARINHA"]
+    },
+    "TRAIÇÃO": {
+      "proibidas": ["FACADA", "MENTIRA", "JUDAS", "TRAIDOR", "CONFIANÇA"],
+      "no_artigo": ["TRAIDOR"]
+    },
+    "CAVALEIRO": {
+      "proibidas": ["ARMADURA", "CAVALO", "ESPADA", "MEDIEVAL", "CASTELO"],
+      "no_artigo": ["ARMADURA"],
+      "nota": "as duas listas também bateram em REI e NOBRE, mas esses ficaram de fora: fecham a mesma rota (realeza/hierarquia) e a carta já tinha 5 rotas melhores cobertas (equipamento, montaria, época, lugar)"
+    },
+    "DESENHO": {
+      "proibidas": ["LÁPIS", "PAPEL", "ARTE", "TRAÇO", "ESBOÇO"],
+      "no_artigo": ["LÁPIS", "PAPEL", "ARTE"]
+    },
+    "DRAMA": {
+      "proibidas": ["TEATRO", "PEÇA", "NOVELA", "ATOR", "CONFLITO"],
+      "no_artigo": ["TEATRO"]
+    },
+    "CANETA": {
+      "proibidas": ["TINTA", "PAPEL", "ESCREVER", "BIC", "LÁPIS"],
+      "no_artigo": ["TINTA", "PAPEL"]
+    },
+    "MANTEIGA": {
+      "proibidas": ["LEITE", "GORDURA", "VACA", "PÃO", "AMARELA"],
+      "no_artigo": ["LEITE", "GORDURA", "VACA"]
+    },
+    "FRAUDE": {
+      "proibidas": ["GOLPE", "DINHEIRO", "MENTIRA", "CARTÃO", "POLÍCIA"],
+      "no_artigo": ["GOLPE"]
+    },
+    "TRAGÉDIA": {
+      "proibidas": ["MORTE", "SOFRIMENTO", "CHORO", "DESGRAÇA", "LUTO"],
+      "no_artigo": [],
+      "nota": "DRAMA apareceu no descritor e nas candidatas, mas o associador preferiu TEATRO; ficou de fora porque as 5 escolhidas já vêm do consenso pleno das duas listas cegas e cobrem bem a via do sofrimento"
+    },
+    "AUTORIZAÇÃO": {
+      "proibidas": ["ACESSO", "SENHA", "PERMISSÃO", "LOGIN", "SEGURANÇA"],
+      "no_artigo": ["ACESSO", "PERMISSÃO", "SEGURANÇA"]
+    },
+    "TRÂNSITO": {
+      "proibidas": ["CARRO", "RUA", "ENGARRAFAMENTO", "SEMÁFORO", "BUZINA"],
+      "no_artigo": []
+    },
+    "SENTENÇA": {
+      "proibidas": ["JUIZ", "TRIBUNAL", "PRISÃO", "LEI", "RÉU"],
+      "no_artigo": ["JUIZ"]
+    },
+    "ROTEIRO": {
+      "proibidas": ["FILME", "CENA", "ATOR", "NOVELA", "HISTÓRIA"],
+      "no_artigo": ["FILME", "CENA", "ATOR"]
+    },
+    "GRAVIDADE": {
+      "proibidas": ["ATRAÇÃO", "FÍSICA", "PESO", "QUEDA", "NEWTON"],
+      "no_artigo": ["ATRAÇÃO", "FÍSICA", "PESO", "QUEDA"]
+    },
+    "JUNHO": {
+      "proibidas": ["CALENDÁRIO", "FOGUEIRA", "QUADRILHA", "MILHO", "INVERNO"],
+      "no_artigo": ["CALENDÁRIO", "INVERNO"]
+    },
+    "PARTO": {
+      "proibidas": ["BEBÊ", "HOSPITAL", "DOR", "NASCIMENTO", "MATERNIDADE"],
+      "no_artigo": ["BEBÊ", "HOSPITAL", "DOR", "NASCIMENTO"]
+    },
+    "RADIAÇÃO": {
+      "proibidas": ["NUCLEAR", "USINA", "SOL", "ENERGIA", "CONTAMINAÇÃO"],
+      "no_artigo": ["ENERGIA"]
+    },
+    "PSIQUIATRA": {
+      "proibidas": ["MÉDICO", "CONSULTA", "DEPRESSÃO", "REMÉDIO", "HOSPITAL"],
+      "no_artigo": ["MÉDICO"]
+    },
+    "BONDADE": {
+      "proibidas": ["GENTILEZA", "AJUDAR", "CORAÇÃO", "ALTRUÍSMO", "CARIDADE"],
+      "no_artigo": ["GENTILEZA"],
+      "nota": "as duas listas também bateram em BOM, mas ficou de fora por ser a própria raiz de BONDADE — o efeito seria o mesmo que a regra do jogo já dá de graça"
+    },
+    "ELEIÇÃO": {
+      "proibidas": ["VOTO", "DEMOCRACIA", "CANDIDATO", "URNA", "PRESIDENTE"],
+      "no_artigo": ["VOTO", "DEMOCRACIA", "CANDIDATO"]
+    },
+    "ÁLBUM": {
+      "proibidas": ["MÚSICA", "DISCO", "FAIXA", "BANDA", "CAPA"],
+      "no_artigo": ["MÚSICA", "DISCO"]
+    },
+    "JORNALISTA": {
+      "proibidas": ["REPÓRTER", "ENTREVISTA", "IMPRENSA", "NOTÍCIA", "CÂMERA"],
+      "no_artigo": ["REPÓRTER", "ENTREVISTA", "IMPRENSA"]
+    },
+    "JANEIRO": {
+      "proibidas": ["CALENDÁRIO", "RÉVEILLON", "FOGOS", "VIRADA", "PRAIA"],
+      "no_artigo": ["CALENDÁRIO"]
+    },
+    "FÍGADO": {
+      "proibidas": ["ÓRGÃO", "ÁLCOOL", "CIRROSE", "BILE", "DIGESTÃO"],
+      "no_artigo": []
+    },
+    "AGOSTO": {
+      "proibidas": ["MÊS", "CALENDÁRIO", "VENTO", "QUEIMADA", "INVERNO"],
+      "no_artigo": ["CALENDÁRIO"]
+    },
+    "PUBLICIDADE": {
+      "proibidas": ["ANÚNCIO", "COMERCIAL", "PRODUTO", "PROPAGANDA", "MARCA"],
+      "no_artigo": ["ANÚNCIO", "COMERCIAL", "PRODUTO"]
+    },
+    "ORELHA": {
+      "proibidas": ["CABEÇA", "BRINCO", "SOM", "ESCUTAR", "SURDO"],
+      "no_artigo": ["CABEÇA"]
+    },
+    "MILHO": {
+      "proibidas": ["ESPIGA", "PIPOCA", "AMARELO", "CANJICA", "PLANTAÇÃO"],
+      "no_artigo": []
+    },
+    "ESTRESSE": {
+      "proibidas": ["ANSIEDADE", "PRESSÃO", "TRABALHO", "CANSAÇO", "NERVOSO"],
+      "no_artigo": ["ANSIEDADE", "PRESSÃO"]
+    },
+    "ETERNIDADE": {
+      "proibidas": ["SEMPRE", "INFINITO", "TEMPO", "AMOR", "DEUS"],
+      "no_artigo": ["TEMPO"]
+    },
+    "INFECÇÃO": {
+      "proibidas": ["DOENÇA", "HOSPITAL", "VÍRUS", "BACTÉRIA", "FEBRE"],
+      "no_artigo": ["DOENÇA", "HOSPITAL", "VÍRUS"]
+    },
+    "MUNIÇÃO": {
+      "proibidas": ["ARMA", "BALA", "GUERRA", "PÓLVORA", "CARTUCHO"],
+      "no_artigo": ["ARMA", "BALA", "GUERRA"]
+    },
+    "DIETA": {
+      "proibidas": ["EMAGRECER", "NUTRICIONISTA", "EXERCÍCIO", "REGIME", "SAUDÁVEL"],
+      "no_artigo": ["REGIME"]
+    },
+    "ARANHA": {
+      "proibidas": ["TEIA", "VENENO", "PICAR", "MEDO", "PERNAS"],
+      "no_artigo": ["VENENO"]
+    },
+    "ORÇAMENTO": {
+      "proibidas": ["DINHEIRO", "OBRA", "REFORMA", "CUSTO", "PREVISÃO"],
+      "no_artigo": ["PREVISÃO"],
+      "nota": "só 4 palavras bateram nas duas listas cegas (dinheiro, obra, reforma, custo); PREVISÃO entrou como 5ª por vir do associador e ser confirmada pelo artigo, desempatando contra palavras que apareceram em só uma lista"
+    },
+    "OUTONO": {
+      "proibidas": ["FOLHAS", "FRIO", "ESTAÇÃO", "AMARELO", "VENTO"],
+      "no_artigo": ["ESTAÇÃO", "FOLHAS"]
+    },
+    "DAMAS": {
+      "proibidas": ["JOGO", "XADREZ", "TABULEIRO", "CASAS", "REI"],
+      "no_artigo": ["JOGO", "XADREZ"]
+    },
+    "REPÚBLICA": {
+      "proibidas": ["GOVERNO", "PRESIDENTE", "BRASIL", "FEDERATIVA", "DEMOCRACIA"],
+      "no_artigo": ["GOVERNO"]
+    },
+    "NUVEM": {
+      "proibidas": ["CÉU", "ALGODÃO", "CHUVA", "VENTO", "CINZA"],
+      "no_artigo": ["VENTO"]
+    }
+  },
+  "descartadas": {
+    "LANÇAMENTO": "acepção tributária (ato administrativo fiscal); a mesa conhece a palavra por lançamento de produto/álbum/foguete, não pelo sentido usado no artigo — as duas listas cegas só deram vocabulário de imposto/fisco",
+    "TRANSFERÊNCIA": "acepção de psicanálise (redirecionamento inconsciente de sentimentos, conceito de Freud); a mesa conhece a palavra por transferência bancária ou de jogador de futebol, não pelo termo clínico — as duas listas cegas só deram vocabulário de terapia/divã/Freud"
+  }
+}

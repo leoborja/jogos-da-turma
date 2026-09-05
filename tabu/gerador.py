@@ -26,10 +26,19 @@ Uso:
     python3 gerador.py --sem-cache    # ignora cache/ e rebaixa tudo
 
 Saídas:
-    banco.json    -> o baralho pronto pro jogo
-    revisao.csv   -> uma linha por carta, pra conferir com o olho
-    relatorio.txt -> o que caiu e por quê
-    cache/        -> respostas cruas (re-rodar fica instantâneo)
+    banco.json      -> o baralho pronto pro jogo
+    paracritica.json-> as 18 candidatas de cada carta, pro revisor julgar
+    revisao.csv     -> uma linha por carta, pra conferir com o olho
+    relatorio.txt   -> o que caiu e por quê
+    cache/          -> respostas cruas (re-rodar fica instantâneo)
+
+Entrada opcional:
+    revisao.json  -> as cartas fechadas pelos revisores. O TF-IDF acha o
+                     vocabulário do ARTIGO, que não é o vocabulário da MESA: o
+                     artigo de "cavalo" fala de dedo, altura e sangue, e ninguém
+                     diz isso descrevendo um cavalo. Onde houver carta revisada,
+                     ela manda; onde não houver, vale o TF-IDF cru, e o relatório
+                     diz quantas estão nessa situação. Veja REVISOR.md.
 """
 
 import argparse, csv, hashlib, json, math, os, re, sys, time, unicodedata
@@ -46,8 +55,19 @@ FREQ_URL = ("https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/
             "content/2018/pt_br/pt_br_50k.txt")
 
 BLOQUEIO = FUNCAO | VERBAIS | META | VETADAS_PROIBIDA
+CANDIDATAS = 18          # quantas o revisor vê por carta
 SEM_CACHE = False
 falhas = []
+
+
+def le_revisao():
+    """as cartas fechadas pelos revisores. Ausente = baralho cru."""
+    if not os.path.exists("revisao.json"):
+        return {}, {}
+    with open("revisao.json", encoding="utf-8") as fh:
+        v = json.load(fh)
+    return ({k.upper(): c for k, c in v.get("cartas", {}).items()},
+            {k.upper(): m for k, m in v.get("descartadas", {}).items()})
 
 
 # ------------------------------------------------------------------ utilidades
@@ -360,6 +380,8 @@ def main():
     ap.add_argument("--candidatos", type=int, default=9000,
                     help="até que posição da lista de frequência procurar")
     ap.add_argument("--sem-cache", action="store_true")
+    ap.add_argument("--aceitar-cruas", action="store_true",
+                    help="deixa entrar carta que os revisores não viram")
     a = ap.parse_args()
     SEM_CACHE = a.sem_cache
 
@@ -429,32 +451,67 @@ def main():
     for art in artigos.values():
         ex.contabiliza(art["texto"])
 
-    cartas = []
+    revisadas, descartadas = le_revisao()
+    # Uma vez que existe revisão, carta crua não entra: ela seria justamente a
+    # do fundo da faixa, que é onde mora a carta ruim. Vale um baralho menor.
+    so_revisadas = bool(revisadas) and not a.aceitar_cruas
+    if revisadas or descartadas:
+        print(f"· revisao.json: {len(revisadas)} cartas fechadas pelos revisores, "
+              f"{len(descartadas)} descartadas"
+              + (" — carta crua não entra" if so_revisadas else ""))
+
+    cartas, criticas = [], []
     for w, art in artigos.items():
-        top = ex.proibidas(w, art["texto"])
-        if len(top) < 5:
-            falhas.append((w, "menos de 5 proibidas")); continue
-        if top[4][0] < 0.28 * top[0][0]:
-            falhas.append((w, f"5ª proibida fraca ({top[4][0]/top[0][0]:.0%} da 1ª)")); continue
-        cartas.append({
-            "palavra": w.upper(),
+        W = w.upper()
+        if W in descartadas:
+            falhas.append((w, "revisor descartou: " + descartadas[W])); continue
+        todas = ex.proibidas(w, art["texto"], n=CANDIDATAS)
+        criticas.append({
+            "palavra": W,
             "sentido": art["descricao"],
-            "proibidas": [p.upper() for _, p in top],
-            "forca": [round(s, 2) for s, _ in top],
+            "dificuldade": dificuldade(rank[w]),
+            "url": art["url"],
+            "candidatas": [p.upper() for _, p in todas],
+        })
+        rev = revisadas.get(W)
+        if not rev and so_revisadas:
+            falhas.append((w, "os revisores ainda não viram esta carta")); continue
+        if rev:
+            proibidas, no_artigo = rev["proibidas"], rev.get("no_artigo", [])
+            forca = [999.0] * 5          # revisada ganha de crua na hora de escolher
+        else:
+            if len(todas) < 5:
+                falhas.append((w, "menos de 5 proibidas")); continue
+            top = todas[:5]
+            if top[4][0] < 0.28 * top[0][0]:
+                falhas.append((w, f"5ª proibida fraca ({top[4][0]/top[0][0]:.0%} da 1ª)"))
+                continue
+            proibidas = [p.upper() for _, p in top]
+            no_artigo = list(proibidas)   # cru: as cinco vieram do artigo
+            forca = [round(s, 2) for s, _ in top]
+        cartas.append({
+            "palavra": W,
+            "sentido": art["descricao"],
+            "proibidas": proibidas,
+            "no_artigo": no_artigo,
+            "revisada": bool(rev),
+            "forca": forca,
             "dificuldade": dificuldade(rank[w]),
             "posicao": rank[w] + 1,
             "artigo": art["titulo"],
             "url": art["url"],
         })
 
-    # As melhores de cada faixa, em partes iguais. A faixa "fácil" é finita —
-    # só existem tantas palavras muito comuns —, então nunca raspamos mais de
-    # 70% dela: o fundo de uma faixa magra é onde mora a carta ruim.
+    # As melhores de cada faixa, em partes iguais. Sem revisão, nunca raspamos
+    # mais de 70% de uma faixa: o fundo de uma faixa magra é onde mora a carta
+    # ruim. Com revisão o fundo já foi olhado por gente, e o corte só jogaria
+    # carta boa fora — então cai.
     escolhidas = []
     for f in ("fácil", "média", "difícil"):
         da_faixa = sorted((c for c in cartas if c["dificuldade"] == f),
                           key=lambda c: -min(c["forca"]))
-        cota = min(a.cartas // 3, int(len(da_faixa) * 0.7))
+        teto = len(da_faixa) if so_revisadas else int(len(da_faixa) * 0.7)
+        cota = min(a.cartas // 3, teto)
         escolhidas += da_faixa[:cota]
         print(f"    {f}: {len(da_faixa)} boas, {cota} escolhidas")
     cartas = sorted(escolhidas, key=lambda c: c["posicao"])
@@ -473,10 +530,12 @@ def main():
              "url": "https://github.com/hermitdave/FrequencyWords",
              "licenca": "CC BY-SA 4.0"},
         ],
-        "metodo": ("As cinco proibidas são os substantivos mais característicos do "
-                   "artigo da Wikipédia sobre a palavra — TF-IDF do texto do artigo "
-                   "contra o resto do baralho e contra o português falado. Palavra "
-                   "que aparece em todo artigo não conta como característica. "
+        "metodo": ("Cada carta nasce de um TF-IDF sobre o artigo da Wikipédia e "
+                   "passa por três revisores que não se veem: um escreve as dez "
+                   "palavras que usaria pra mesa acertar, outro as dez que lhe vêm "
+                   "à cabeça, e um terceiro cruza as duas listas com as candidatas "
+                   "do artigo e fecha as cinco. O ponto ao lado de uma proibida diz "
+                   "que ela também aparece no artigo — o link abre e confere. "
                    "A dificuldade é a posição da palavra-chave numa lista de "
                    "frequência do português falado."),
         "cartas": [{k: v for k, v in c.items() if k != "forca"} for c in cartas],
@@ -484,19 +543,34 @@ def main():
     with open("banco.json", "w", encoding="utf-8") as fh:
         json.dump(banco, fh, ensure_ascii=False, indent=1)
 
+    # o que o revisor precisa ver: só as cartas que entraram no baralho, com
+    # as candidatas que ficaram de fora do corte — é lá que mora o conserto.
+    no_baralho = {c["palavra"] for c in cartas}
+    with open("paracritica.json", "w", encoding="utf-8") as fh:
+        json.dump({"gerado_em": banco["gerado_em"],
+                   "cartas": [c for c in criticas if c["palavra"] in no_baralho]},
+                  fh, ensure_ascii=False, indent=1)
+
     with open("revisao.csv", "w", encoding="utf-8", newline="") as fh:
         wr = csv.writer(fh)
-        wr.writerow(["palavra", "sentido", "proibidas", "5a_forca", "dificuldade",
-                     "posicao_na_fala", "artigo"])
+        wr.writerow(["palavra", "sentido", "proibidas", "revisada", "no_artigo",
+                     "5a_forca", "dificuldade", "posicao_na_fala", "artigo"])
         for c in cartas:
             wr.writerow([c["palavra"], c["sentido"], " · ".join(c["proibidas"]),
+                         "sim" if c["revisada"] else "não",
+                         f'{len(c["no_artigo"])}/5',
                          min(c["forca"]), c["dificuldade"], c["posicao"], c["url"]])
 
     with open("relatorio.txt", "w", encoding="utf-8") as fh:
         fh.write(f"gerado em {banco['gerado_em']}\n")
         fh.write(f"{len(cartas)} cartas de {len(artigos)} artigos lidos\n\n")
         por_dif = Counter(c["dificuldade"] for c in cartas)
-        fh.write("dificuldade: " + ", ".join(f"{k} {v}" for k, v in por_dif.items()) + "\n\n")
+        fh.write("dificuldade: " + ", ".join(f"{k} {v}" for k, v in por_dif.items()) + "\n")
+        rev = sum(1 for c in cartas if c["revisada"])
+        conf = sum(len(c["no_artigo"]) for c in cartas)
+        fh.write(f"revisadas: {rev} de {len(cartas)} "
+                 f"({len(cartas)-rev} ainda com as 5 do TF-IDF cru)\n")
+        fh.write(f"proibidas confirmadas no artigo: {conf} de {len(cartas)*5}\n\n")
         fh.write("o que caiu e por quê\n")
         motivos = Counter(m.split("(")[0].strip() for _, m in falhas)
         for m, n in motivos.most_common():
@@ -506,8 +580,10 @@ def main():
             if "artigo curto" in m or "proibida" in m:
                 fh.write(f"  {w}: {m}\n")
 
+    rev = sum(1 for c in cartas if c["revisada"])
     print(f"\n✓ {len(cartas)} cartas em banco.json")
     print(f"  {por_dif['fácil']} fáceis · {por_dif['média']} médias · {por_dif['difícil']} difíceis")
+    print(f"  {rev} revisadas, {len(cartas)-rev} ainda cruas")
     print("  confira revisao.csv antes de subir")
 
 

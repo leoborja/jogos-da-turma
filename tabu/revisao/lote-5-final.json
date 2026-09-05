@@ -1,0 +1,528 @@
+{
+ "lote": 5,
+ "cartas": {
+  "GORDURA": {
+   "proibidas": [
+    "ÓLEO",
+    "BANHA",
+    "MANTEIGA",
+    "COLESTEROL",
+    "CALORIA"
+   ],
+   "no_artigo": [
+    "ÓLEO"
+   ],
+   "nota": "consenso das duas listas cegas (6 palavras batendo); GORDO ficou de fora por ser derivado da chave. O artigo (bioquímica: carbono, cadeia, ácido) confirma só ÓLEO."
+  },
+  "MARTELO": {
+   "proibidas": [
+    "PREGO",
+    "BATER",
+    "CARPINTEIRO",
+    "MARRETA",
+    "CAIXA"
+   ],
+   "no_artigo": [],
+   "nota": "as 5 vieram inteiras do consenso das duas listas cegas; nenhuma aparece nas candidatas do artigo, que trata de física de impacto (golpe, energia, balanço)."
+  },
+  "MÁFIA": {
+   "proibidas": [
+    "CRIME",
+    "GÂNGSTER",
+    "EXTORSÃO",
+    "ITALIANO",
+    "FAMÍLIA"
+   ],
+   "no_artigo": [
+    "CRIME"
+   ]
+  },
+  "COMÉRCIO": {
+   "proibidas": [
+    "VENDA",
+    "COMPRA",
+    "MERCADO",
+    "LUCRO",
+    "DINHEIRO"
+   ],
+   "no_artigo": [
+    "DINHEIRO",
+    "COMPRA",
+    "VENDA"
+   ]
+  },
+  "ENGENHEIRO": {
+   "proibidas": [
+    "CAPACETE",
+    "PONTE",
+    "PROJETO",
+    "CÁLCULO",
+    "OBRA"
+   ],
+   "no_artigo": [
+    "PROJETO"
+   ],
+   "nota": "consenso forte (7 palavras batendo nas duas listas cegas); o artigo fala da profissão em abstrato e confirma só PROJETO."
+  },
+  "SINO": {
+   "proibidas": [
+    "IGREJA",
+    "BADALO",
+    "TORRE",
+    "ESCOLA",
+    "BRONZE"
+   ],
+   "no_artigo": [
+    "TORRE"
+   ]
+  },
+  "ÓPERA": {
+   "proibidas": [
+    "TEATRO",
+    "SOPRANO",
+    "ORQUESTRA",
+    "DRAMA",
+    "CANTAR"
+   ],
+   "no_artigo": [
+    "DRAMA",
+    "ORQUESTRA",
+    "TEATRO",
+    "CANTAR"
+   ]
+  },
+  "ORAÇÃO": {
+   "proibidas": [
+    "DEUS",
+    "IGREJA",
+    "MISSA",
+    "AJOELHAR",
+    "REZAR"
+   ],
+   "no_artigo": [],
+   "nota": "sentido de reza (não a acepção gramatical) — as duas listas cegas confirmam sozinhas; o artigo é filosófico/abstrato (crença, linguagem, divino) e não bate com nenhuma das 5."
+  },
+  "EVOLUÇÃO": {
+   "proibidas": [
+    "DARWIN",
+    "MACACO",
+    "ESPÉCIE",
+    "ADAPTAÇÃO",
+    "SELEÇÃO"
+   ],
+   "no_artigo": [
+    "SELEÇÃO"
+   ]
+  },
+  "EMPREGADO": {
+   "proibidas": [
+    "PATRÃO",
+    "SALÁRIO",
+    "FUNCIONÁRIO",
+    "CONTRATO",
+    "CARTEIRA"
+   ],
+   "no_artigo": [
+    "SALÁRIO"
+   ],
+   "nota": "o artigo parece tratar de emprego em regime público/exterior (estrangeiro, missão, exercício) — bem diferente do emprego comum descrito pelas duas listas cegas."
+  },
+  "BINGO": {
+   "proibidas": [
+    "CARTELA",
+    "NÚMERO",
+    "BOLA",
+    "GRITAR",
+    "PRÊMIO"
+   ],
+   "no_artigo": [
+    "BOLA"
+   ]
+  },
+  "PESCA": {
+   "proibidas": [
+    "PEIXE",
+    "VARA",
+    "ANZOL",
+    "REDE",
+    "BARCO"
+   ],
+   "no_artigo": [
+    "PEIXE",
+    "REDE",
+    "BARCO"
+   ]
+  },
+  "BARATA": {
+   "proibidas": [
+    "INSETO",
+    "NOJO",
+    "ANTENA",
+    "VENENO",
+    "COZINHA"
+   ],
+   "no_artigo": [
+    "INSETO"
+   ]
+  },
+  "ALIMENTO": {
+   "proibidas": [
+    "COMIDA",
+    "NUTRIÇÃO",
+    "FOME",
+    "REFEIÇÃO",
+    "PRATO"
+   ],
+   "no_artigo": [
+    "REFEIÇÃO"
+   ]
+  },
+  "GREVE": {
+   "proibidas": [
+    "PARALISAÇÃO",
+    "PROTESTO",
+    "SINDICATO",
+    "TRABALHADOR",
+    "CARTAZ"
+   ],
+   "no_artigo": [
+    "TRABALHADOR"
+   ]
+  },
+  "RIQUEZA": {
+   "proibidas": [
+    "DINHEIRO",
+    "OURO",
+    "FORTUNA",
+    "MILIONÁRIO",
+    "MANSÃO"
+   ],
+   "no_artigo": [
+    "OURO"
+   ]
+  },
+  "REFRIGERANTE": {
+   "proibidas": [
+    "GÁS",
+    "GARRAFA",
+    "LATA",
+    "AÇÚCAR",
+    "REFRESCO"
+   ],
+   "no_artigo": [
+    "AÇÚCAR"
+   ]
+  },
+  "LENÇO": {
+   "proibidas": [
+    "PESCOÇO",
+    "SEDA",
+    "CABEÇA",
+    "MODA",
+    "ELEGANTE"
+   ],
+   "no_artigo": [
+    "CABEÇA",
+    "PESCOÇO",
+    "SEDA"
+   ]
+  },
+  "DENTISTA": {
+   "proibidas": [
+    "DENTE",
+    "BROCA",
+    "CÁRIE",
+    "APARELHO",
+    "CONSULTÓRIO"
+   ],
+   "no_artigo": [
+    "CONSULTÓRIO"
+   ]
+  },
+  "INVESTIMENTO": {
+   "proibidas": [
+    "APLICAÇÃO",
+    "AÇÕES",
+    "LUCRO",
+    "RISCO",
+    "BOLSA"
+   ],
+   "no_artigo": [
+    "LUCRO"
+   ]
+  },
+  "COMÉDIA": {
+   "proibidas": [
+    "ENGRAÇADO",
+    "RIR",
+    "PIADA",
+    "HUMOR",
+    "TEATRO"
+   ],
+   "no_artigo": [
+    "HUMOR",
+    "TEATRO"
+   ]
+  },
+  "CANHÃO": {
+   "proibidas": [
+    "TIRO",
+    "PÓLVORA",
+    "EXÉRCITO",
+    "NAVIO",
+    "EXPLOSÃO"
+   ],
+   "no_artigo": [
+    "TIRO",
+    "PÓLVORA",
+    "NAVIO"
+   ]
+  },
+  "CARRUAGEM": {
+   "proibidas": [
+    "CAVALO",
+    "COCHEIRO",
+    "CASTELO",
+    "CINDERELA",
+    "RODA"
+   ],
+   "no_artigo": [
+    "CAVALO",
+    "RODA"
+   ]
+  },
+  "ÓRBITA": {
+   "proibidas": [
+    "PLANETA",
+    "LUA",
+    "SOL",
+    "ESPAÇO",
+    "GRAVIDADE"
+   ],
+   "no_artigo": [
+    "PLANETA",
+    "GRAVIDADE"
+   ]
+  },
+  "DEMOCRACIA": {
+   "proibidas": [
+    "VOTO",
+    "ELEIÇÃO",
+    "POVO",
+    "LIBERDADE",
+    "PRESIDENTE"
+   ],
+   "no_artigo": [
+    "POVO",
+    "ELEIÇÃO",
+    "LIBERDADE",
+    "VOTO"
+   ]
+  },
+  "GUITARRA": {
+   "proibidas": [
+    "CORDA",
+    "ELÉTRICA",
+    "ROCK",
+    "AMPLIFICADOR",
+    "SOLO"
+   ],
+   "no_artigo": [
+    "CORDA"
+   ]
+  },
+  "MACHADO": {
+   "proibidas": [
+    "CORTAR",
+    "LENHADOR",
+    "ÁRVORE",
+    "LÂMINA",
+    "CABO"
+   ],
+   "no_artigo": [
+    "CABO",
+    "LÂMINA",
+    "ÁRVORE"
+   ]
+  },
+  "GRIPE": {
+   "proibidas": [
+    "VÍRUS",
+    "FEBRE",
+    "TOSSE",
+    "REMÉDIO",
+    "VACINA"
+   ],
+   "no_artigo": [
+    "VÍRUS",
+    "FEBRE",
+    "TOSSE",
+    "VACINA"
+   ]
+  },
+  "MARINHEIRO": {
+   "proibidas": [
+    "NAVIO",
+    "MAR",
+    "ÂNCORA",
+    "CAPITÃO",
+    "POPEYE"
+   ],
+   "no_artigo": [
+    "NAVIO"
+   ]
+  },
+  "SANTUÁRIO": {
+   "proibidas": [
+    "RELIGIÃO",
+    "TEMPLO",
+    "PEREGRINAÇÃO",
+    "ALTAR",
+    "SANTO"
+   ],
+   "no_artigo": [
+    "ALTAR",
+    "TEMPLO"
+   ]
+  },
+  "PRIVILÉGIO": {
+   "proibidas": [
+    "VANTAGEM",
+    "ELITE",
+    "EXCLUSIVIDADE",
+    "CLASSE",
+    "INJUSTIÇA"
+   ],
+   "no_artigo": [
+    "VANTAGEM"
+   ]
+  },
+  "LEILÃO": {
+   "proibidas": [
+    "LANCE",
+    "ARREMATAR",
+    "MARTELO",
+    "COMPRADOR",
+    "GADO"
+   ],
+   "no_artigo": [
+    "LANCE"
+   ]
+  },
+  "MARROM": {
+   "proibidas": [
+    "CASTANHO",
+    "CHOCOLATE",
+    "CAFÉ",
+    "MADEIRA",
+    "TERRA"
+   ],
+   "no_artigo": [
+    "TERRA"
+   ]
+  },
+  "VAPOR": {
+   "proibidas": [
+    "ÁGUA",
+    "FERVURA",
+    "GÁS",
+    "PANELA",
+    "FERRO"
+   ],
+   "no_artigo": [
+    "ÁGUA"
+   ],
+   "nota": "o sentido do artigo é a definição física (fase gasosa abaixo da temperatura crítica), mas as duas listas cegas usaram o sentido comum (vapor d'água) — é esse que a carta segue."
+  },
+  "NINJA": {
+   "proibidas": [
+    "JAPÃO",
+    "SAMURAI",
+    "SOMBRA",
+    "TARTARUGA",
+    "SILENCIOSO"
+   ],
+   "no_artigo": [
+    "SAMURAI"
+   ]
+  },
+  "ZUMBI": {
+   "proibidas": [
+    "MORTO",
+    "CÉREBRO",
+    "APOCALIPSE",
+    "TERROR",
+    "FILME"
+   ],
+   "no_artigo": [
+    "FILME",
+    "TERROR"
+   ]
+  },
+  "PELOTÃO": {
+   "proibidas": [
+    "FUZILAMENTO",
+    "SOLDADO",
+    "EXÉRCITO",
+    "COMANDANTE",
+    "MARCHA"
+   ],
+   "no_artigo": [],
+   "nota": "consenso forte (7 palavras batendo); o artigo usa vocabulário de hierarquia militar (sargento, tenente, capitão) que não bate com nenhuma das 5."
+  },
+  "ANSIEDADE": {
+   "proibidas": [
+    "PREOCUPAÇÃO",
+    "PÂNICO",
+    "CORAÇÃO",
+    "RESPIRAR",
+    "REMÉDIO"
+   ],
+   "no_artigo": [
+    "PREOCUPAÇÃO"
+   ]
+  },
+  "BATOM": {
+   "proibidas": [
+    "LÁBIO",
+    "VERMELHO",
+    "MAQUIAGEM",
+    "BEIJO",
+    "BRILHO"
+   ],
+   "no_artigo": [
+    "LÁBIO",
+    "MAQUIAGEM",
+    "BRILHO",
+    "VERMELHO"
+   ]
+  },
+  "COMETA": {
+   "proibidas": [
+    "CAUDA",
+    "GELO",
+    "HALLEY",
+    "ÓRBITA",
+    "ESTRELA"
+   ],
+   "no_artigo": [
+    "CAUDA",
+    "GELO",
+    "ESTRELA"
+   ]
+  },
+  "INSTITUIÇÃO": {
+   "proibidas": [
+    "ORGANIZAÇÃO",
+    "GOVERNO",
+    "ESCOLA",
+    "EMPRESA",
+    "IGREJA"
+   ],
+   "no_artigo": [
+    "ORGANIZAÇÃO"
+   ]
+  }
+ },
+ "descartadas": {}
+}

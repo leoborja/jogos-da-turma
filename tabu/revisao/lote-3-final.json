@@ -1,0 +1,190 @@
+{
+  "lote": 3,
+  "cartas": {
+    "CÂNCER": {
+      "proibidas": ["DOENÇA", "TUMOR", "QUIMIOTERAPIA", "HOSPITAL", "MEDO"],
+      "no_artigo": ["DOENÇA"]
+    },
+    "TEATRO": {
+      "proibidas": ["PEÇA", "ATOR", "PALCO", "PLATEIA", "CORTINA"],
+      "no_artigo": ["ATOR"]
+    },
+    "PRATO": {
+      "proibidas": ["COMIDA", "MESA", "TALHER", "GARFO", "SERVIR"],
+      "no_artigo": []
+    },
+    "AMIZADE": {
+      "proibidas": ["COLEGA", "CONFIANÇA", "COMPANHEIRO", "APOIO", "IRMÃO"],
+      "no_artigo": ["CONFIANÇA", "APOIO", "IRMÃO"]
+    },
+    "CONSCIÊNCIA": {
+      "proibidas": ["MENTE", "CULPA", "MORAL", "REMORSO", "PERCEPÇÃO"],
+      "no_artigo": ["MENTE", "PERCEPÇÃO"]
+    },
+    "TREINADOR": {
+      "proibidas": ["TÉCNICO", "TIME", "FUTEBOL", "APITO", "TÁTICA"],
+      "no_artigo": ["TÉCNICO"]
+    },
+    "VIOLÊNCIA": {
+      "proibidas": ["AGRESSÃO", "FORÇA", "SANGUE", "ARMA", "MEDO"],
+      "no_artigo": ["FORÇA"]
+    },
+    "PIZZA": {
+      "proibidas": ["MASSA", "QUEIJO", "FORNO", "MOLHO", "REDONDA"],
+      "no_artigo": ["MASSA", "QUEIJO", "FORNO", "MOLHO"]
+    },
+    "TELEVISÃO": {
+      "proibidas": ["TELA", "APARELHO", "CANAL", "ANTENA", "PROGRAMA"],
+      "no_artigo": ["TELA", "APARELHO"]
+    },
+    "DESERTO": {
+      "proibidas": ["AREIA", "CALOR", "CAMELO", "OÁSIS", "CACTO"],
+      "no_artigo": []
+    },
+    "MODA": {
+      "proibidas": ["ROUPA", "ESTILO", "TENDÊNCIA", "VESTIR", "DESFILE"],
+      "no_artigo": ["ROUPA", "ESTILO"]
+    },
+    "MILAGRE": {
+      "proibidas": ["DEUS", "FÉ", "CURA", "SANTO", "ORAÇÃO"],
+      "no_artigo": ["CURA"]
+    },
+    "SEDE": {
+      "proibidas": ["ÁGUA", "CALOR", "BEBER", "BOCA", "SECO"],
+      "no_artigo": ["ÁGUA", "BOCA"],
+      "nota": "só 4 vieram do consenso cego (água, calor, beber, boca); SECO fecha a 5ª vaga por aparecer nas duas listas em formas diferentes (seco/seca)"
+    },
+    "CONTO": {
+      "proibidas": ["HISTÓRIA", "FÁBULA", "ESCRITOR", "FICÇÃO", "LIVRO"],
+      "no_artigo": ["ESCRITOR", "FICÇÃO"]
+    },
+    "INVERNO": {
+      "proibidas": ["ESTAÇÃO", "NEVE", "FRIO", "GELO", "CASACO"],
+      "no_artigo": ["ESTAÇÃO", "NEVE", "FRIO", "GELO"]
+    },
+    "MADEIRA": {
+      "proibidas": ["ÁRVORE", "TRONCO", "FLORESTA", "MARCENARIA", "MÓVEL"],
+      "no_artigo": ["ÁRVORE", "TRONCO", "FLORESTA"]
+    },
+    "CASTELO": {
+      "proibidas": ["TORRE", "FORTALEZA", "REI", "MEDIEVAL", "MURALHA"],
+      "no_artigo": ["TORRE", "FORTALEZA"]
+    },
+    "DIVÓRCIO": {
+      "proibidas": ["SEPARAÇÃO", "CASAMENTO", "CASAL", "ADVOGADO", "CUSTÓDIA"],
+      "no_artigo": ["SEPARAÇÃO", "CASAMENTO", "CASAL"]
+    },
+    "MINISTRO": {
+      "proibidas": ["GOVERNO", "CARGO", "POLÍTICA", "GABINETE", "PRESIDENTE"],
+      "no_artigo": ["GOVERNO", "CARGO", "POLÍTICA", "GABINETE"]
+    },
+    "PAGAMENTO": {
+      "proibidas": ["DINHEIRO", "TRANSFERÊNCIA", "BOLETO", "CARTÃO", "SALÁRIO"],
+      "no_artigo": ["DINHEIRO", "TRANSFERÊNCIA"]
+    },
+    "ESPELHO": {
+      "proibidas": ["IMAGEM", "VIDRO", "REFLEXO", "BANHEIRO", "QUEBRAR"],
+      "no_artigo": ["IMAGEM", "VIDRO"]
+    },
+    "SORVETE": {
+      "proibidas": ["GELADO", "CASQUINHA", "VERÃO", "CHOCOLATE", "DOCE"],
+      "no_artigo": []
+    },
+    "EDUCAÇÃO": {
+      "proibidas": ["ESCOLA", "ENSINO", "PROFESSOR", "CONHECIMENTO", "FORMAÇÃO"],
+      "no_artigo": ["ESCOLA", "ENSINO"]
+    },
+    "OCEANO": {
+      "proibidas": ["MAR", "ÁGUA", "PEIXE", "ONDA", "PRAIA"],
+      "no_artigo": ["ÁGUA"]
+    },
+    "PENSAMENTO": {
+      "proibidas": ["MENTE", "IDEIA", "CÉREBRO", "RACIOCÍNIO", "CONSCIÊNCIA"],
+      "no_artigo": ["MENTE", "IDEIA"]
+    },
+    "VÍRUS": {
+      "proibidas": ["DOENÇA", "INFECÇÃO", "GRIPE", "VACINA", "CONTÁGIO"],
+      "no_artigo": ["DOENÇA", "INFECÇÃO"]
+    },
+    "FERRO": {
+      "proibidas": ["METAL", "AÇO", "ÍMÃ", "ELEMENTO", "PESO"],
+      "no_artigo": ["METAL", "PESO"],
+      "nota": "só 4 vieram do consenso cego (metal, aço, ímã, elemento); PESO fecha a 5ª vaga — descritor deu 'pesado' e o artigo confirma PESO"
+    },
+    "ÓDIO": {
+      "proibidas": ["RAIVA", "RANCOR", "INIMIGO", "VINGANÇA", "GUERRA"],
+      "no_artigo": ["RAIVA"]
+    },
+    "FÍSICA": {
+      "proibidas": ["CIÊNCIA", "ENERGIA", "MATÉRIA", "EINSTEIN", "GRAVIDADE"],
+      "no_artigo": ["CIÊNCIA", "ENERGIA"]
+    },
+    "TRANSPORTE": {
+      "proibidas": ["VEÍCULO", "AVIÃO", "ÔNIBUS", "CARRO", "VIAGEM"],
+      "no_artigo": ["VEÍCULO", "AVIÃO"]
+    },
+    "TERNO": {
+      "proibidas": ["GRAVATA", "CAMISA", "FORMAL", "PALETÓ", "CASAMENTO"],
+      "no_artigo": ["GRAVATA", "CAMISA"]
+    },
+    "DRAGÃO": {
+      "proibidas": ["FOGO", "ASAS", "ESCAMAS", "CAVALEIRO", "MÍTICO"],
+      "no_artigo": ["FOGO"]
+    },
+    "MEDICINA": {
+      "proibidas": ["SAÚDE", "DOENÇA", "TRATAMENTO", "HOSPITAL", "REMÉDIO"],
+      "no_artigo": ["SAÚDE", "DOENÇA", "TRATAMENTO"]
+    },
+    "ONDA": {
+      "proibidas": ["MAR", "SURFE", "SOM", "RÁDIO", "MOVIMENTO"],
+      "no_artigo": []
+    },
+    "CRUZ": {
+      "proibidas": ["IGREJA", "SÍMBOLO", "VERMELHA", "SINAL", "HOSPITAL"],
+      "no_artigo": ["SÍMBOLO"],
+      "nota": "só 4 vieram do consenso cego (igreja, símbolo, vermelha, sinal); HOSPITAL fecha a 5ª vaga — bloqueia a rota da cruz vermelha/farmácia, que nenhuma das outras quatro cobre"
+    },
+    "FEBRE": {
+      "proibidas": ["TEMPERATURA", "DOENÇA", "TERMÔMETRO", "GRIPE", "CALAFRIO"],
+      "no_artigo": ["TEMPERATURA", "DOENÇA"]
+    },
+    "REVOLUÇÃO": {
+      "proibidas": ["MUDANÇA", "LUTA", "PROTESTO", "POVO", "GREVE"],
+      "no_artigo": ["MUDANÇA", "LUTA"]
+    },
+    "TEMPERATURA": {
+      "proibidas": ["CALOR", "GRAU", "TERMÔMETRO", "FRIO", "MEDIR"],
+      "no_artigo": ["CALOR", "GRAU"]
+    },
+    "PAPA": {
+      "proibidas": ["IGREJA", "VATICANO", "CATÓLICO", "LÍDER", "RELIGIOSO"],
+      "no_artigo": ["LÍDER", "RELIGIOSO"],
+      "nota": "só 3 vieram do consenso cego (igreja, vaticano, católico); LÍDER e RELIGIOSO vieram só do descritor, mas o artigo confirma os dois"
+    },
+    "GALINHA": {
+      "proibidas": ["AVE", "BICAR", "FAZENDA", "FRANGO", "OVO"],
+      "no_artigo": ["OVO"]
+    },
+    "IMPÉRIO": {
+      "proibidas": ["TERRITÓRIO", "PODER", "ROMANO", "COLÔNIA", "CONQUISTA"],
+      "no_artigo": ["ROMANO", "CONQUISTA"],
+      "nota": "só 4 vieram do consenso cego (território, poder, romano, colônia); CONQUISTA veio só do descritor, mas o artigo confirma"
+    },
+    "ATIRADOR": {
+      "proibidas": ["ARMA", "SOLDADO", "SNIPER", "ALVO", "FUZIL"],
+      "no_artigo": ["ARMA"]
+    },
+    "TÉCNICA": {
+      "proibidas": ["MÉTODO", "HABILIDADE", "JEITO", "PROCEDIMENTO", "ESTRATÉGIA"],
+      "no_artigo": ["PROCEDIMENTO"],
+      "nota": "as 5 são quase sinônimas entre si, mas é o próprio conceito: TÉCNICA é uma palavra abstrata sem parte/cenário concreto, e é assim mesmo que a mesa descreveria"
+    },
+    "OSSO": {
+      "proibidas": ["ESQUELETO", "CORPO", "CACHORRO", "DURO", "QUEBRAR"],
+      "no_artigo": ["ESQUELETO", "CORPO"]
+    }
+  },
+  "descartadas": {
+    "PASSEIO": "sentido é a acepção técnica/jurídica de 'calçada' (a faixa reservada a pedestres, como no Código de Trânsito), não o 'passeio' do dia a dia (passear, sair, dar uma volta) que a mesa conhece. As duas listas cegas só bateram nessa acepção porque foram informadas do sentido antes de descrever — não é isso que uma pessoa pensaria ao ler PASSEIO no cartão. Mesmo sentido problemático do CALADO/LANÇAMENTO citado no REVISOR.md."
+  }
+}

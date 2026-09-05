@@ -14,9 +14,13 @@ Conferidas nas [instruções oficiais da Hasbro][hasbro] e na
 - **Não vale** dizer a palavra, as cinco proibidas, nem pedaço, plural,
   conjugação, sigla ou rima de nenhuma delas.
 - **Não vale** mímica, gesto nem imitar som. Só falar.
-- Cada acerto vale **1 ponto**. Falar proibida ou pular dá **1 ponto pro
-  adversário**. Com mais de dois times não existe "o adversário", então o erro
-  tira 1 ponto de quem estava descrevendo — a tela avisa qual regra está valendo.
+- Cada acerto vale **1 ponto**. Pular dá **1 ponto pro adversário**, e no jogo
+  de caixa falar proibida também. Com mais de dois times não existe "o
+  adversário", então o erro tira 1 ponto de quem estava descrevendo — a tela
+  avisa qual regra está valendo.
+- Duas coisas a mesa escolhe antes de começar: **quantos pulos cabem numa
+  rodada** (padrão 1) e **o que falar proibida custa** — ponto pro adversário
+  (oficial), só queimar a carta, ou acabar a rodada na hora.
 - Acaba quando todo time descreveu o mesmo número de vezes.
 
 O tempo padrão é 1 minuto, como a ampulheta da caixa.
@@ -32,19 +36,41 @@ Então o baralho é **gerado**, não escrito à mão, e cada carta carrega o lin
 onde saiu.
 
 A pergunta que a carta responde é: *quais são as cinco palavras que qualquer
-pessoa usaria pra explicar isto?* A resposta é medida, não opinião:
+pessoa usaria pra explicar isto?*
 
-| o quê | de onde | como |
-| --- | --- | --- |
-| **palavra-chave** | [FrequencyWords][freq] (OpenSubtitles pt-BR) + [Wikcionário][wikt] | substantivo comum na fala, com artigo de conceito na Wikipédia |
-| **proibidas** | [Wikipédia em português][wiki] | os cinco substantivos mais característicos do artigo |
-| **sentido** | Wikidata | a descrição curta, que diz de qual acepção a carta fala |
-| **dificuldade** | FrequencyWords | a posição da palavra-chave na lista de frequência |
+| o quê | de onde |
+| --- | --- |
+| **palavra-chave** | [FrequencyWords][freq] (OpenSubtitles pt-BR) + [Wikcionário][wikt]: substantivo comum na fala, com artigo de conceito na Wikipédia |
+| **candidatas** | [Wikipédia em português][wiki]: as 18 palavras mais características do artigo, por TF-IDF |
+| **proibidas** | o cruzamento de duas listas feitas às cegas com essas candidatas — veja [REVISOR.md](REVISOR.md) |
+| **sentido** | Wikidata: a descrição curta, que diz de qual acepção a carta fala |
+| **dificuldade** | FrequencyWords: a posição da palavra-chave na lista de frequência |
 
 "Mais característico" é TF-IDF: conta quanto a palavra aparece no artigo (com o
 primeiro parágrafo pesando o triplo) e desconta o quanto ela é banal — tanto no
-resto do baralho quanto no português falado. Palavra que aparece em todo artigo
-não caracteriza nada.
+resto do baralho quanto no português falado.
+
+### Por que o TF-IDF não basta
+
+Ele acha o vocabulário do **artigo**, que não é o vocabulário da **mesa**:
+
+```
+CAVALO → DEDO · ALTURA · IDADE · SANGUE · CRIATURA
+```
+
+`DEDO` está lá porque o casco é um dedo; `SANGUE`, por causa de puro-sangue.
+São verdades do artigo que ninguém fala numa mesa — a carta existe e não proíbe
+nada. Do outro lado, `AVIÃO` era a 15ª candidata de `AEROPORTO` e ficava fora
+do corte.
+
+Por isso cada carta passa por três revisores que não se veem: um escreve as dez
+palavras que usaria pra fazer a mesa acertar, outro as dez que lhe vêm à cabeça
+(com sinônimos), e um terceiro cruza as duas listas com as candidatas do artigo
+e fecha as cinco. O método inteiro está em **[REVISOR.md](REVISOR.md)**.
+
+Com isso, `CAVALO` vira `ANIMAL · MONTAR · ÉGUA · CRINA · SELA`, e o **ponto**
+ao lado de uma proibida na tela diz que aquela também aparece no artigo — o
+link da carta abre e confere.
 
 O que o gerador joga fora antes de pontuar: palavra de função, forma verbal,
 particípio, meta-texto de enciclopédia (etimologia, gentílico, unidade), nome
@@ -66,7 +92,7 @@ palavra comum. Perde-se `PARIS` junto, e vale a troca.
 ## Refazer o baralho
 
 ```bash
-python3 gerador.py                 # 221 cartas: 55 fáceis, 83 médias, 83 difíceis
+python3 gerador.py                 # 55 fáceis, 83 médias, 83 difíceis
 python3 gerador.py --cartas 400    # sobe o teto por faixa
 python3 gerador.py --sem-cache     # ignora cache/ e rebaixa tudo
 ```
@@ -80,18 +106,33 @@ Saídas: `banco.json` (o que o jogo lê), `revisao.csv` (uma linha por carta, pr
 conferir com o olho) e `relatorio.txt` (o que caiu e por quê). O `cache/` guarda
 as respostas cruas das APIs, então re-rodar é instantâneo.
 
-**Confira o `revisao.csv` antes de subir.** Nenhum filtro pega tudo: quando
-aparecer carta ruim, o veto entra no `palavras.py` — é lá que moram as listas
-fechadas (palavra de função, forma verbal, meta-texto, vetos e palavrão).
+Depois de gerar, rode a revisão (agentes em paralelo, um lote cada) e funda:
+
+```bash
+python3 juntar_revisao.py          # revisao/lote-*-final.json -> revisao.json
+python3 gerador.py                 # remonta usando as cartas revisadas
+```
+
+**Confira o `revisao.csv` antes de subir** — ele diz, por carta, se ela é
+revisada e quantas das cinco a Wikipédia confirma. Quando aparecer carta ruim
+que nem a revisão pegou, o veto entra no `palavras.py`, que é onde moram as
+listas fechadas (palavra de função, forma verbal, meta-texto, vetos e palavrão).
 
 ## Os arquivos
 
 ```
-index.html    o jogo
-banco.json    o baralho — gerado, não edite à mão
-gerador.py    monta o baralho a partir das bases abertas
-palavras.py   as listas fechadas: função, verbo, meta-texto, vetos
-revisao.csv   uma linha por carta, pra revisar
-relatorio.txt o que caiu do funil e por quê
-cache/        respostas cruas das APIs (fora do git)
+index.html        o jogo
+banco.json        o baralho — gerado, não edite à mão
+gerador.py        monta o baralho a partir das bases abertas
+palavras.py       as listas fechadas: função, verbo, meta-texto, vetos
+REVISOR.md        o método dos três revisores
+paracritica.json  as 18 candidatas de cada carta — a entrada da revisão
+revisao/          os lotes dos agentes, um arquivo por etapa
+juntar_revisao.py funde os lotes e confere o que agente nenhum confere
+revisao.json      as cartas fechadas — a entrada do gerador na 2ª volta
+revisao.csv       uma linha por carta, pra conferir com o olho
+relatorio.txt     o que caiu do funil e por quê
+cache/            respostas cruas das APIs (fora do git)
 ```
+
+As definições dos três agentes ficam em `.claude/agents/tabu-*.md`.

@@ -1,15 +1,17 @@
 gerado em 2026-09-04
-221 cartas de 573 artigos lidos
+217 cartas de 573 artigos lidos
 
-dificuldade: fácil 55, média 83, difícil 83
+dificuldade: fácil 54, média 82, difícil 81
+revisadas: 217 de 217 (0 ainda com as 5 do TF-IDF cru)
+proibidas confirmadas no artigo: 366 de 1085
 
 o que caiu e por quê
     689  sem artigo na Wikipédia
     592  página de desambiguação
+    352  os revisores ainda não viram esta carta
     324  sem descrição no Wikidata
     242  resumo curto
     104  artigo curto
-     99  5ª proibida fraca
      10  descrição de nome próprio: estado dos Estados Unidos
       4  descrição de nome próprio: continente
       4  não é conceito: desambiguação
@@ -113,6 +115,10 @@ o que caiu e por quê
       1  descrição de nome próprio: país asiático
       1  descrição de nome próprio: comuna italiana
       1  descrição de nome próprio: país da Europa
+      1  revisor descartou: acepção da carta restringe a luta com técnicas de agarramento
+      1  revisor descartou: sentido é a acepção técnica/jurídica de 'calçada'
+      1  revisor descartou: acepção tributária
+      1  revisor descartou: acepção de psicanálise
 
 detalhe (só os que chegaram a ter artigo lido)
   noite: artigo curto (929 car.)
@@ -219,102 +225,3 @@ detalhe (só os que chegaram a ter artigo lido)
   homenagem: artigo curto (1275 car.)
   delta: artigo curto (1480 car.)
   recibo: artigo curto (1419 car.)
-  casa: 5ª proibida fraca (27% da 1ª)
-  dinheiro: 5ª proibida fraca (20% da 1ª)
-  coração: 5ª proibida fraca (22% da 1ª)
-  jogo: 5ª proibida fraca (24% da 1ª)
-  escola: 5ª proibida fraca (21% da 1ª)
-  terra: 5ª proibida fraca (19% da 1ª)
-  música: 5ª proibida fraca (27% da 1ª)
-  governo: 5ª proibida fraca (28% da 1ª)
-  prova: 5ª proibida fraca (21% da 1ª)
-  loucura: 5ª proibida fraca (26% da 1ª)
-  paul: 5ª proibida fraca (12% da 1ª)
-  padre: 5ª proibida fraca (27% da 1ª)
-  rainha: 5ª proibida fraca (16% da 1ª)
-  azul: 5ª proibida fraca (17% da 1ª)
-  vermelho: 5ª proibida fraca (24% da 1ª)
-  ônibus: 5ª proibida fraca (26% da 1ª)
-  rádio: 5ª proibida fraca (18% da 1ª)
-  brilhante: 5ª proibida fraca (20% da 1ª)
-  navio: 5ª proibida fraca (17% da 1ª)
-  floresta: 5ª proibida fraca (26% da 1ª)
-  soldado: 5ª proibida fraca (24% da 1ª)
-  responsabilidade: 5ª proibida fraca (24% da 1ª)
-  espada: 5ª proibida fraca (17% da 1ª)
-  internet: 5ª proibida fraca (14% da 1ª)
-  rock: 5ª proibida fraca (25% da 1ª)
-  neve: 5ª proibida fraca (22% da 1ª)
-  queijo: 5ª proibida fraca (20% da 1ª)
-  arquivo: 5ª proibida fraca (16% da 1ª)
-  sono: 5ª proibida fraca (21% da 1ª)
-  inteligência: 5ª proibida fraca (27% da 1ª)
-  motor: 5ª proibida fraca (22% da 1ª)
-  piscina: 5ª proibida fraca (26% da 1ª)
-  delegacia: 5ª proibida fraca (20% da 1ª)
-  cigarro: 5ª proibida fraca (22% da 1ª)
-  revista: 5ª proibida fraca (24% da 1ª)
-  chef: 5ª proibida fraca (17% da 1ª)
-  marinha: 5ª proibida fraca (19% da 1ª)
-  acusação: 5ª proibida fraca (22% da 1ª)
-  gasolina: 5ª proibida fraca (18% da 1ª)
-  bicicleta: 5ª proibida fraca (16% da 1ª)
-  colégio: 5ª proibida fraca (13% da 1ª)
-  primavera: 5ª proibida fraca (19% da 1ª)
-  matéria: 5ª proibida fraca (20% da 1ª)
-  correio: 5ª proibida fraca (22% da 1ª)
-  flor: 5ª proibida fraca (27% da 1ª)
-  piano: 5ª proibida fraca (23% da 1ª)
-  combustível: 5ª proibida fraca (26% da 1ª)
-  aventura: 5ª proibida fraca (21% da 1ª)
-  boneca: 5ª proibida fraca (19% da 1ª)
-  sapato: 5ª proibida fraca (18% da 1ª)
-  adulto: 5ª proibida fraca (26% da 1ª)
-  caverna: 5ª proibida fraca (27% da 1ª)
-  golfe: 5ª proibida fraca (27% da 1ª)
-  setembro: 5ª proibida fraca (17% da 1ª)
-  tristeza: 5ª proibida fraca (24% da 1ª)
-  laranja: 5ª proibida fraca (12% da 1ª)
-  tratado: 5ª proibida fraca (26% da 1ª)
-  folha: 5ª proibida fraca (26% da 1ª)
-  frequência: 5ª proibida fraca (17% da 1ª)
-  amarelo: 5ª proibida fraca (23% da 1ª)
-  brinquedo: 5ª proibida fraca (15% da 1ª)
-  economia: 5ª proibida fraca (25% da 1ª)
-  distrito: 5ª proibida fraca (25% da 1ª)
-  crânio: 5ª proibida fraca (25% da 1ª)
-  audição: 5ª proibida fraca (15% da 1ª)
-  liderança: 5ª proibida fraca (25% da 1ª)
-  escrita: 5ª proibida fraca (28% da 1ª)
-  jersey: 5ª proibida fraca (16% da 1ª)
-  votação: 5ª proibida fraca (13% da 1ª)
-  pato: 5ª proibida fraca (19% da 1ª)
-  novembro: 5ª proibida fraca (22% da 1ª)
-  xadrez: 5ª proibida fraca (24% da 1ª)
-  radar: 5ª proibida fraca (21% da 1ª)
-  dezembro: 5ª proibida fraca (26% da 1ª)
-  diamante: 5ª proibida fraca (19% da 1ª)
-  gravidez: 5ª proibida fraca (17% da 1ª)
-  ilusão: 5ª proibida fraca (24% da 1ª)
-  galáxia: 5ª proibida fraca (16% da 1ª)
-  nojo: 5ª proibida fraca (24% da 1ª)
-  argumento: 5ª proibida fraca (10% da 1ª)
-  bigode: 5ª proibida fraca (22% da 1ª)
-  crítica: 5ª proibida fraca (14% da 1ª)
-  bife: 5ª proibida fraca (18% da 1ª)
-  lavanderia: 5ª proibida fraca (25% da 1ª)
-  engenharia: 5ª proibida fraca (24% da 1ª)
-  fevereiro: 5ª proibida fraca (26% da 1ª)
-  tornado: 5ª proibida fraca (23% da 1ª)
-  poeta: 5ª proibida fraca (22% da 1ª)
-  pirata: 5ª proibida fraca (20% da 1ª)
-  sindicato: 5ª proibida fraca (24% da 1ª)
-  seda: 5ª proibida fraca (23% da 1ª)
-  boliche: 5ª proibida fraca (26% da 1ª)
-  dimensão: 5ª proibida fraca (22% da 1ª)
-  pôquer: 5ª proibida fraca (24% da 1ª)
-  levada: 5ª proibida fraca (26% da 1ª)
-  bico: 5ª proibida fraca (18% da 1ª)
-  estoque: 5ª proibida fraca (20% da 1ª)
-  farmácia: 5ª proibida fraca (27% da 1ª)
-  boxe: 5ª proibida fraca (26% da 1ª)

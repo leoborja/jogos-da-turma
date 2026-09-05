@@ -1,0 +1,589 @@
+{
+  "lote": 1,
+  "cartas": {
+    "VIDA": {
+      "proibidas": [
+        "MORTE",
+        "NASCER",
+        "RESPIRAR",
+        "EXISTIR",
+        "CICLO"
+      ],
+      "no_artigo": [
+        "CICLO"
+      ],
+      "nota": "consenso deu só morte/nascer/respirar; completei com EXISTIR (só no descritor) e CICLO (só nas candidatas — 'ciclo da vida' é rota forte e independente das outras quatro)"
+    },
+    "HOMEM": {
+      "proibidas": [
+        "MULHER",
+        "MACHO",
+        "ADULTO",
+        "RAPAZ",
+        "MASCULINO"
+      ],
+      "no_artigo": [
+        "MASCULINO",
+        "MULHER",
+        "MACHO",
+        "ADULTO",
+        "RAPAZ"
+      ],
+      "nota": "consenso deu mulher/macho/adulto/rapaz/senhor; troquei SENHOR por MASCULINO (só no descritor, 2ª palavra da lista, confirmada nas candidatas) porque rapaz+senhor+adulto repetiam a rota de idade e deixavam aberta a rota mais óbvia"
+    },
+    "AMOR": {
+      "proibidas": [
+        "CORAÇÃO",
+        "PAIXÃO",
+        "CARINHO",
+        "ROMANCE",
+        "BEIJO"
+      ],
+      "no_artigo": [
+        "PAIXÃO",
+        "CARINHO"
+      ]
+    },
+    "MEDO": {
+      "proibidas": [
+        "CORAGEM",
+        "ESCURO",
+        "FOBIA",
+        "TREMER",
+        "SUSTO"
+      ],
+      "no_artigo": [],
+      "nota": "consenso deu 6 (+terror); cortei TERROR por repetir a rota de SUSTO (sinônimo de intensidade). Nenhuma das 5 aparece nas candidatas — o TF-IDF do artigo veio estranho (rato, sermão, fruto)"
+    },
+    "IRMÃO": {
+      "proibidas": [
+        "PAI",
+        "MÃE",
+        "PRIMO",
+        "SANGUE",
+        "GÊMEO"
+      ],
+      "no_artigo": [
+        "GÊMEO"
+      ],
+      "nota": "consenso deu 7; cortei FAMÍLIA e CASA por genéricas demais (valem pra qualquer parente)"
+    },
+    "HISTÓRIA": {
+      "proibidas": [
+        "PASSADO",
+        "LIVRO",
+        "FATO",
+        "MEMÓRIA",
+        "AULA"
+      ],
+      "no_artigo": [
+        "MEMÓRIA"
+      ],
+      "nota": "consenso deu 6; cortei PROFESSOR por repetir a rota escolar de AULA"
+    },
+    "POLÍCIA": {
+      "proibidas": [
+        "VIATURA",
+        "LEI",
+        "CRIME",
+        "DELEGACIA",
+        "FARDA"
+      ],
+      "no_artigo": [
+        "LEI"
+      ],
+      "nota": "consenso deu 7; cortei LADRÃO (repetia a rota de CRIME) e SIRENE (parte de VIATURA)"
+    },
+    "ÁGUA": {
+      "proibidas": [
+        "LÍQUIDO",
+        "SEDE",
+        "GELO",
+        "CHUVA",
+        "TORNEIRA"
+      ],
+      "no_artigo": [
+        "GELO",
+        "LÍQUIDO"
+      ],
+      "nota": "consenso deu 8; fiquei com as 5 mais essenciais e cortei MAR, RIO e PEIXE por repetirem a mesma rota de 'onde tem água'"
+    },
+    "ARMA": {
+      "proibidas": [
+        "BALA",
+        "REVÓLVER",
+        "FACA",
+        "GUERRA",
+        "MATAR"
+      ],
+      "no_artigo": [
+        "GUERRA"
+      ],
+      "nota": "troquei PISTOLA (consenso) por MATAR (só no descritor) — bala/revólver/pistola formavam três palavras da mesma rota de arma de fogo; MATAR fecha a rota de função que ficava aberta"
+    },
+    "GUERRA": {
+      "proibidas": [
+        "CONFLITO",
+        "MORTE",
+        "ARMA",
+        "PAZ",
+        "BATALHA"
+      ],
+      "no_artigo": [
+        "CONFLITO",
+        "MORTE",
+        "ARMA"
+      ],
+      "nota": "consenso deu 7; cortei SOLDADO e EXÉRCITO (redundantes entre si) mantendo BATALHA e PAZ"
+    },
+    "SANGUE": {
+      "proibidas": [
+        "VERMELHO",
+        "VEIA",
+        "CORAÇÃO",
+        "TRANSFUSÃO",
+        "CORPO"
+      ],
+      "no_artigo": [
+        "VERMELHO",
+        "CORAÇÃO"
+      ]
+    },
+    "LICENÇA": {
+      "proibidas": [
+        "PERMISSÃO",
+        "AUTORIZAÇÃO",
+        "DOCUMENTO",
+        "SOFTWARE",
+        "CARTEIRA"
+      ],
+      "no_artigo": [
+        "AUTORIZAÇÃO",
+        "SOFTWARE"
+      ],
+      "nota": "descritor e associador divergiram de acepção (descritor pensou em licença-trabalho/médica, associador em licença-documento/software); segui a acepção da carta (permissão de uso) e completei com SOFTWARE e CARTEIRA, que só vêm do associador mas encaixam nessa acepção"
+    },
+    "CAPITÃO": {
+      "proibidas": [
+        "PATENTE",
+        "EXÉRCITO",
+        "NAVIO",
+        "GENERAL",
+        "MARINHA"
+      ],
+      "no_artigo": [
+        "MARINHA",
+        "GENERAL"
+      ]
+    },
+    "SAIA": {
+      "proibidas": [
+        "ROUPA",
+        "VESTIDO",
+        "MULHER",
+        "JOELHO",
+        "TECIDO"
+      ],
+      "no_artigo": [
+        "ROUPA",
+        "MULHER"
+      ],
+      "nota": "consenso deu 6; cortei MODA por genérica demais"
+    },
+    "CRIANÇA": {
+      "proibidas": [
+        "BEBÊ",
+        "BRINQUEDO",
+        "ESCOLA",
+        "INFÂNCIA",
+        "FILHO"
+      ],
+      "no_artigo": [
+        "BEBÊ",
+        "INFÂNCIA"
+      ],
+      "nota": "consenso deu 6; cortei PEQUENO por repetir a rota de fase/idade de BEBÊ e INFÂNCIA"
+    },
+    "CASAMENTO": {
+      "proibidas": [
+        "NOIVA",
+        "ALIANÇA",
+        "IGREJA",
+        "FESTA",
+        "ALTAR"
+      ],
+      "no_artigo": []
+    },
+    "TELEFONE": {
+      "proibidas": [
+        "CELULAR",
+        "TOCAR",
+        "NÚMERO",
+        "APARELHO",
+        "LIGAR"
+      ],
+      "no_artigo": [
+        "CELULAR",
+        "APARELHO"
+      ],
+      "nota": "consenso deu só 4; completei com LIGAR (só no descritor) pela função principal"
+    },
+    "CAMA": {
+      "proibidas": [
+        "DORMIR",
+        "QUARTO",
+        "COLCHÃO",
+        "SONO",
+        "TRAVESSEIRO"
+      ],
+      "no_artigo": [],
+      "nota": "consenso deu 7; travesseiro/cobertor/lençol formavam três palavras da mesma rota de roupa de cama — fiquei só com TRAVESSEIRO"
+    },
+    "PENA": {
+      "proibidas": [
+        "AVE",
+        "ASA",
+        "LEVE",
+        "VOAR",
+        "NINHO"
+      ],
+      "no_artigo": [
+        "AVE",
+        "ASA"
+      ],
+      "nota": "consenso deu 6; cortei PÁSSARO por ser quase sinônimo de AVE"
+    },
+    "FILME": {
+      "proibidas": [
+        "CINEMA",
+        "ATOR",
+        "TELA",
+        "ROTEIRO",
+        "DIRETOR"
+      ],
+      "no_artigo": [
+        "CINEMA"
+      ],
+      "nota": "consenso deu 8; cortei PIPOCA e HISTÓRIA (redundante com ROTEIRO) e CÂMERA (redundante com TELA)"
+    },
+    "MÉDICO": {
+      "proibidas": [
+        "HOSPITAL",
+        "REMÉDIO",
+        "CONSULTA",
+        "JALECO",
+        "ENFERMEIRO"
+      ],
+      "no_artigo": [],
+      "nota": "consenso deu 6; cortei SAÚDE por genérica demais"
+    },
+    "FORÇA": {
+      "proibidas": [
+        "MÚSCULO",
+        "EMPURRAR",
+        "PUXAR",
+        "GRAVIDADE",
+        "ENERGIA"
+      ],
+      "no_artigo": [
+        "GRAVIDADE"
+      ],
+      "nota": "consenso deu 7; cortei PODER e POTÊNCIA (redundantes entre si e com o próprio sentido de força)"
+    },
+    "FOGO": {
+      "proibidas": [
+        "CHAMA",
+        "CALOR",
+        "INCÊNDIO",
+        "QUEIMAR",
+        "LENHA"
+      ],
+      "no_artigo": [
+        "CHAMA",
+        "CALOR",
+        "INCÊNDIO"
+      ],
+      "nota": "consenso deu 8; cortei QUENTE (redundante com CALOR), FUMAÇA e BRASA (menos essenciais que QUEIMAR e LENHA)"
+    },
+    "PRESIDENTE": {
+      "proibidas": [
+        "LÍDER",
+        "PAÍS",
+        "ELEIÇÃO",
+        "PALÁCIO",
+        "MANDATO"
+      ],
+      "no_artigo": [
+        "LÍDER"
+      ],
+      "nota": "consenso deu 7; cortei GOVERNO e PODER por genéricos demais"
+    },
+    "DOUTOR": {
+      "proibidas": [
+        "TÍTULO",
+        "UNIVERSIDADE",
+        "TESE",
+        "PROFESSOR",
+        "MÉDICO"
+      ],
+      "no_artigo": [
+        "MÉDICO"
+      ],
+      "nota": "MÉDICO não é consenso das listas cegas (só o associador deu), mas fecha a saída mais óbvia: no Brasil 'doutor' é como se chama informalmente um médico, e sem essa proibida quem descreve ganha de graça. Cortei ACADÊMICO e DIPLOMA (redundantes com UNIVERSIDADE e TÍTULO)"
+    },
+    "CABELO": {
+      "proibidas": [
+        "SALÃO",
+        "CARECA",
+        "ESCOVA",
+        "FIO",
+        "CORTAR"
+      ],
+      "no_artigo": [
+        "FIO"
+      ],
+      "nota": "consenso estrito deu só 3 (salão/careca/escova); fio/fios e cortar/corte apareceram nas duas listas cegas com pequena variação de forma (singular/plural, verbo/substantivo) — contei como consenso"
+    },
+    "MESA": {
+      "proibidas": [
+        "CADEIRA",
+        "JANTAR",
+        "MADEIRA",
+        "SALA",
+        "REUNIÃO"
+      ],
+      "no_artigo": [
+        "JANTAR",
+        "MADEIRA",
+        "REUNIÃO",
+        "SALA"
+      ],
+      "nota": "consenso deu 6; cortei ESCRITÓRIO por repetir a rota de cenário de SALA"
+    },
+    "NATAL": {
+      "proibidas": [
+        "ÁRVORE",
+        "PRESENTE",
+        "DEZEMBRO",
+        "CEIA",
+        "JESUS"
+      ],
+      "no_artigo": [
+        "DEZEMBRO"
+      ],
+      "nota": "consenso deu 7; cortei FESTA (genérica demais) e NEVE (menos ligada à definição que JESUS/CEIA)"
+    },
+    "SONHO": {
+      "proibidas": [
+        "DORMIR",
+        "PESADELO",
+        "ACORDAR",
+        "IMAGINAÇÃO",
+        "FANTASIA"
+      ],
+      "no_artigo": [
+        "IMAGINAÇÃO"
+      ],
+      "nota": "consenso deu 6; cortei SONO por repetir a rota de DORMIR"
+    },
+    "OLHO": {
+      "proibidas": [
+        "ENXERGAR",
+        "LÁGRIMA",
+        "CÍLIO",
+        "VISÃO",
+        "PUPILA"
+      ],
+      "no_artigo": [
+        "VISÃO"
+      ]
+    },
+    "ACIDENTE": {
+      "proibidas": [
+        "MACHUCAR",
+        "HOSPITAL",
+        "CARRO",
+        "COLISÃO",
+        "IMPREVISTO"
+      ],
+      "no_artigo": [],
+      "nota": "consenso deu 8; hospital/machucar/ambulância/ferido eram quatro palavras da mesma rota de consequência — fiquei só com MACHUCAR e HOSPITAL"
+    },
+    "ADVOGADO": {
+      "proibidas": [
+        "TRIBUNAL",
+        "PROCESSO",
+        "JUIZ",
+        "DIREITO",
+        "DOUTOR"
+      ],
+      "no_artigo": [
+        "DOUTOR"
+      ],
+      "nota": "troquei JUSTIÇA (consenso, mas muito abstrata) por DOUTOR, que aparece nas candidatas do artigo — no Brasil advogado também é chamado informalmente de 'doutor', mesma armadilha do card DOUTOR. Cortei também CAUSA (redundante com PROCESSO)"
+    },
+    "ANIVERSÁRIO": {
+      "proibidas": [
+        "BOLO",
+        "VELAS",
+        "FESTA",
+        "PARABÉNS",
+        "IDADE"
+      ],
+      "no_artigo": [
+        "BOLO",
+        "VELAS",
+        "FESTA",
+        "PARABÉNS"
+      ],
+      "nota": "consenso deu 8; bolo/presente/velas/balão eram quatro objetos da mesma rota — fiquei só com BOLO e VELAS, e cortei CONVIDADOS (genérico) mantendo IDADE (bate com a definição)"
+    },
+    "ENERGIA": {
+      "proibidas": [
+        "ELÉTRICA",
+        "FORÇA",
+        "LUZ",
+        "MOVIMENTO",
+        "POTÊNCIA"
+      ],
+      "no_artigo": [
+        "FORÇA",
+        "POTÊNCIA"
+      ],
+      "nota": "consenso deu 6; cortei BATERIA (sem confirmação nas candidatas, mais fraca que as outras cinco)"
+    },
+    "BANCO": {
+      "proibidas": [
+        "EMPRÉSTIMO",
+        "DINHEIRO",
+        "CHEQUE",
+        "CONTA",
+        "GERENTE"
+      ],
+      "no_artigo": [
+        "EMPRÉSTIMO",
+        "DINHEIRO",
+        "CHEQUE"
+      ],
+      "nota": "consenso deu 9 (lista quase idêntica nas duas cegas); fiquei com as 3 confirmadas nas candidatas mais CONTA e GERENTE, cortando cartão/agência/cofre/caixa por repetirem rotas já cobertas"
+    },
+    "BARCO": {
+      "proibidas": [
+        "ÁGUA",
+        "PORTO",
+        "ÂNCORA",
+        "CAPITÃO",
+        "VELA"
+      ],
+      "no_artigo": [
+        "ÁGUA"
+      ],
+      "nota": "consenso deu 8; cortei MAR (redundante com ÁGUA), PESCADOR e REMO (redundante com VELA)"
+    },
+    "AVIÃO": {
+      "proibidas": [
+        "ASA",
+        "PILOTO",
+        "PASSAGEIRO",
+        "VOAR",
+        "AEROPORTO"
+      ],
+      "no_artigo": [
+        "ASA",
+        "PILOTO",
+        "PASSAGEIRO"
+      ],
+      "nota": "consenso deu 8; fiquei com as 3 confirmadas nas candidatas mais VOAR e AEROPORTO, cortando decolar/céu/turbina"
+    },
+    "FRIO": {
+      "proibidas": [
+        "TEMPERATURA",
+        "GELO",
+        "CALOR",
+        "CASACO",
+        "TREMER"
+      ],
+      "no_artigo": [
+        "TEMPERATURA",
+        "GELO",
+        "CALOR"
+      ],
+      "nota": "consenso deu 8; gelo/neve/congelar repetiam a mesma rota de manifestação física — fiquei só com GELO e completei com CASACO e TREMER"
+    },
+    "IGREJA": {
+      "proibidas": [
+        "PADRE",
+        "MISSA",
+        "DEUS",
+        "FÉ",
+        "ALTAR"
+      ],
+      "no_artigo": []
+    },
+    "OURO": {
+      "proibidas": [
+        "METAL",
+        "BRILHO",
+        "JOIA",
+        "MEDALHA",
+        "MINA"
+      ],
+      "no_artigo": [
+        "METAL",
+        "JOIA"
+      ],
+      "nota": "troquei ANEL (consenso) por MINA (só no descritor) — anel e joia formavam a mesma rota de objeto feito de ouro (anel é um tipo de joia); MINA abre a rota de origem/extração que faltava"
+    },
+    "GENERAL": {
+      "proibidas": [
+        "PATENTE",
+        "EXÉRCITO",
+        "FARDA",
+        "GUERRA",
+        "ESTRELA"
+      ],
+      "no_artigo": [
+        "ESTRELA"
+      ],
+      "nota": "consenso deu só 4; completei com ESTRELA (só no descritor, mas confirmada nas candidatas) — é a insígnia visual da patente, rota que faltava"
+    },
+    "CAVALO": {
+      "proibidas": [
+        "ANIMAL",
+        "MONTAR",
+        "ÉGUA",
+        "PATAS",
+        "FAZENDA"
+      ],
+      "no_artigo": [
+        "ANIMAL"
+      ],
+      "nota": "consenso estrito deu só égua/sela/fazenda; completei com ANIMAL, MONTAR e PATAS (só no descritor), cortando SELA por ser mais específica e menos essencial"
+    },
+    "CARNE": {
+      "proibidas": [
+        "CHURRASCO",
+        "BOI",
+        "AÇOUGUE",
+        "BIFE",
+        "COSTELA"
+      ],
+      "no_artigo": []
+    },
+    "PLANETA": {
+      "proibidas": [
+        "TERRA",
+        "ÓRBITA",
+        "MARTE",
+        "LUA",
+        "SOL"
+      ],
+      "no_artigo": [
+        "ÓRBITA"
+      ]
+    }
+  },
+  "descartadas": {
+    "LUTA": "acepção da carta restringe a luta com técnicas de agarramento (tipo judô/wrestling), mas o próprio descritor (às cegas) deu 'socar' e 'chutar' — golpes de mão e perna que não existem em luta de agarramento, são de luta com pancada (boxe/MMA). As duas cabeças não convergem na acepção específica; a mesa entende 'luta' de um jeito mais largo que o artigo escolheu, e não dá pra fechar a carta sem contradição."
+  }
+}
