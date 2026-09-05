@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-09-04",
+ "gerado_em": "2026-09-05",
  "fontes": [
   {
    "nome": "Wikipédia em português",
@@ -75,8 +75,7 @@
     "BEIJO"
    ],
    "no_artigo": [
-    "PAIXÃO",
-    "CARINHO"
+    "PAIXÃO"
    ],
    "revisada": true,
    "dificuldade": "fácil",
@@ -186,9 +185,7 @@
     "GUERRA",
     "MATAR"
    ],
-   "no_artigo": [
-    "GUERRA"
-   ],
+   "no_artigo": [],
    "revisada": true,
    "dificuldade": "fácil",
    "posicao": 411,
@@ -207,8 +204,7 @@
    ],
    "no_artigo": [
     "CONFLITO",
-    "MORTE",
-    "ARMA"
+    "MORTE"
    ],
    "revisada": true,
    "dificuldade": "fácil",
@@ -1124,6 +1120,46 @@
    "url": "https://pt.wikipedia.org/wiki/Computador"
   },
   {
+   "palavra": "BATALHA",
+   "sentido": "parte de um conflito maior",
+   "proibidas": [
+    "GUERRA",
+    "EXÉRCITO",
+    "SOLDADO",
+    "CAMPO",
+    "ESTRATÉGIA"
+   ],
+   "no_artigo": [
+    "GUERRA",
+    "ESTRATÉGIA"
+   ],
+   "revisada": true,
+   "dificuldade": "média",
+   "posicao": 1285,
+   "artigo": "Batalha",
+   "url": "https://pt.wikipedia.org/wiki/Batalha"
+  },
+  {
+   "palavra": "JUSTIÇA",
+   "sentido": "conceito relacionado com o Direito",
+   "proibidas": [
+    "DIREITO",
+    "LEI",
+    "JUIZ",
+    "TRIBUNAL",
+    "EQUILÍBRIO"
+   ],
+   "no_artigo": [
+    "DIREITO",
+    "EQUILÍBRIO"
+   ],
+   "revisada": true,
+   "dificuldade": "média",
+   "posicao": 1296,
+   "artigo": "Justiça",
+   "url": "https://pt.wikipedia.org/wiki/Justi%C3%A7a"
+  },
+  {
    "palavra": "DANÇA",
    "sentido": "arte de mover o corpo humano consistindo de uma sequência de movimentos ordenados usualmente acompanhados de música.",
    "proibidas": [
@@ -1484,6 +1520,27 @@
    "posicao": 1690,
    "artigo": "Ponte",
    "url": "https://pt.wikipedia.org/wiki/Ponte"
+  },
+  {
+   "palavra": "PESO",
+   "sentido": "força que atua num corpo por ação da gravidade",
+   "proibidas": [
+    "GRAVIDADE",
+    "MASSA",
+    "QUILO",
+    "BALANÇA",
+    "CORPO"
+   ],
+   "no_artigo": [
+    "GRAVIDADE",
+    "MASSA",
+    "CORPO"
+   ],
+   "revisada": true,
+   "dificuldade": "média",
+   "posicao": 1696,
+   "artigo": "Peso",
+   "url": "https://pt.wikipedia.org/wiki/Peso"
   },
   {
    "palavra": "CONTRATO",
@@ -1918,6 +1975,23 @@
    "url": "https://pt.wikipedia.org/wiki/Pizza"
   },
   {
+   "palavra": "INTELIGÊNCIA",
+   "sentido": "capacidade cerebral de pensar e compreender",
+   "proibidas": [
+    "CÉREBRO",
+    "ESPERTO",
+    "RACIOCÍNIO",
+    "APRENDER",
+    "GÊNIO"
+   ],
+   "no_artigo": [],
+   "revisada": true,
+   "dificuldade": "média",
+   "posicao": 2288,
+   "artigo": "Inteligência",
+   "url": "https://pt.wikipedia.org/wiki/Intelig%C3%AAncia"
+  },
+  {
    "palavra": "TELEVISÃO",
    "sentido": "sistema eletrónico de reprodução de imagens e áudio de forma instantânea",
    "proibidas": [
@@ -2180,6 +2254,25 @@
    "url": "https://pt.wikipedia.org/wiki/Espelho"
   },
   {
+   "palavra": "ACADEMIA",
+   "sentido": "instituição de ensino superior e promoção da ciência",
+   "proibidas": [
+    "CIÊNCIA",
+    "INSTITUIÇÃO",
+    "UNIVERSIDADE",
+    "MEMBRO",
+    "DIPLOMA"
+   ],
+   "no_artigo": [
+    "CIÊNCIA"
+   ],
+   "revisada": true,
+   "dificuldade": "média",
+   "posicao": 2615,
+   "artigo": "Academia",
+   "url": "https://pt.wikipedia.org/wiki/Academia"
+  },
+  {
    "palavra": "SORVETE",
    "sentido": "alimento congelado adoçado tipicamente comido como lanche ou sobremesa",
    "proibidas": [
@@ -2274,6 +2367,25 @@
    "posicao": 2676,
    "artigo": "Vírus",
    "url": "https://pt.wikipedia.org/wiki/V%C3%ADrus"
+  },
+  {
+   "palavra": "VIDRO",
+   "sentido": "sólido amorfo que exibe uma transição vítrea quando aquecido até o estado líquido",
+   "proibidas": [
+    "TRANSPARENTE",
+    "JANELA",
+    "QUEBRAR",
+    "GARRAFA",
+    "AREIA"
+   ],
+   "no_artigo": [
+    "AREIA"
+   ],
+   "revisada": true,
+   "dificuldade": "média",
+   "posicao": 2687,
+   "artigo": "Vidro",
+   "url": "https://pt.wikipedia.org/wiki/Vidro"
   },
   {
    "palavra": "FERRO",
@@ -2469,6 +2581,27 @@
    "posicao": 3085,
    "artigo": "Febre",
    "url": "https://pt.wikipedia.org/wiki/Febre"
+  },
+  {
+   "palavra": "MORAL",
+   "sentido": "discernimento entre certo e errado",
+   "proibidas": [
+    "CERTO",
+    "ERRADO",
+    "ÉTICA",
+    "CONSCIÊNCIA",
+    "RELIGIÃO"
+   ],
+   "no_artigo": [
+    "ÉTICA",
+    "CONSCIÊNCIA",
+    "RELIGIÃO"
+   ],
+   "revisada": true,
+   "dificuldade": "média",
+   "posicao": 3106,
+   "artigo": "Moral",
+   "url": "https://pt.wikipedia.org/wiki/Moral"
   },
   {
    "palavra": "REVOLUÇÃO",
@@ -3014,7 +3147,6 @@
    "no_artigo": [
     "BEBÊ",
     "HOSPITAL",
-    "DOR",
     "NASCIMENTO"
    ],
    "revisada": true,
@@ -3556,9 +3688,7 @@
     "CÁLCULO",
     "OBRA"
    ],
-   "no_artigo": [
-    "PROJETO"
-   ],
+   "no_artigo": [],
    "revisada": true,
    "dificuldade": "difícil",
    "posicao": 5264,
@@ -3597,8 +3727,7 @@
    "no_artigo": [
     "TEATRO",
     "ORQUESTRA",
-    "DRAMA",
-    "CANTAR"
+    "DRAMA"
    ],
    "revisada": true,
    "dificuldade": "difícil",
@@ -4025,11 +4154,11 @@
     "ÂNCORA",
     "CAPITÃO",
     "POPEYE",
-    "OFICIAL"
+    "CONVÉS"
    ],
    "no_artigo": [
     "NAVIO",
-    "OFICIAL"
+    "CONVÉS"
    ],
    "revisada": true,
    "dificuldade": "difícil",
@@ -4270,6 +4399,1885 @@
    "posicao": 6706,
    "artigo": "Instituição",
    "url": "https://pt.wikipedia.org/wiki/Institui%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "SUOR",
+   "sentido": "substância secretada pelas glândulas sudoríparas",
+   "proibidas": [
+    "PELE",
+    "GLÂNDULA",
+    "CALOR",
+    "EXERCÍCIO",
+    "CHEIRO"
+   ],
+   "no_artigo": [
+    "PELE",
+    "CALOR",
+    "EXERCÍCIO"
+   ],
+   "revisada": true,
+   "dificuldade": "difícil",
+   "posicao": 6823,
+   "artigo": "Suor",
+   "url": "https://pt.wikipedia.org/wiki/Suor"
+  },
+  {
+   "palavra": "BATALHÃO",
+   "sentido": "designação de unidade militar com base em suas dimensões",
+   "proibidas": [
+    "EXÉRCITO",
+    "REGIMENTO",
+    "SOLDADO",
+    "COMANDANTE",
+    "GUERRA"
+   ],
+   "no_artigo": [
+    "EXÉRCITO",
+    "REGIMENTO"
+   ],
+   "revisada": true,
+   "dificuldade": "difícil",
+   "posicao": 7020,
+   "artigo": "Batalhão",
+   "url": "https://pt.wikipedia.org/wiki/Batalh%C3%A3o"
+  },
+  {
+   "palavra": "FINANÇAS",
+   "sentido": "disciplina acadêmica que estuda negócios, finanças, investimentos e proteção do valor econômico",
+   "proibidas": [
+    "DINHEIRO",
+    "INVESTIMENTO",
+    "BANCO",
+    "MERCADO",
+    "ECONOMIA"
+   ],
+   "no_artigo": [
+    "DINHEIRO",
+    "INVESTIMENTO"
+   ],
+   "revisada": true,
+   "dificuldade": "difícil",
+   "posicao": 7038,
+   "artigo": "Finanças",
+   "url": "https://pt.wikipedia.org/wiki/Finan%C3%A7as"
+  },
+  {
+   "palavra": "PÓLVORA",
+   "sentido": "mistura explosiva usada em armas de fogo descoberta na China antiga",
+   "proibidas": [
+    "EXPLOSÃO",
+    "ARMA",
+    "FOGO",
+    "CHINA",
+    "CANHÃO"
+   ],
+   "no_artigo": [
+    "ARMA",
+    "FOGO"
+   ],
+   "revisada": true,
+   "dificuldade": "difícil",
+   "posicao": 7297,
+   "artigo": "Pólvora",
+   "url": "https://pt.wikipedia.org/wiki/P%C3%B3lvora"
+  },
+  {
+   "palavra": "ENTRETENIMENTO",
+   "sentido": "atividade, evento ou atividade com o fim de ser assistido pelo público",
+   "proibidas": [
+    "DIVERSÃO",
+    "PÚBLICO",
+    "TELEVISÃO",
+    "CINEMA",
+    "MÚSICA"
+   ],
+   "no_artigo": [
+    "PÚBLICO",
+    "TELEVISÃO",
+    "CINEMA",
+    "MÚSICA"
+   ],
+   "revisada": true,
+   "dificuldade": "difícil",
+   "posicao": 7348,
+   "artigo": "Entretenimento",
+   "url": "https://pt.wikipedia.org/wiki/Entretenimento"
+  },
+  {
+   "palavra": "ELÉTRICO",
+   "sentido": "veículo de transporte coletivo urbano",
+   "proibidas": [
+    "BONDE",
+    "TRILHO",
+    "LISBOA",
+    "TRANSPORTE",
+    "CIDADE"
+   ],
+   "no_artigo": [
+    "TRILHO",
+    "TRANSPORTE"
+   ],
+   "revisada": true,
+   "dificuldade": "difícil",
+   "posicao": 7368,
+   "artigo": "Elétrico",
+   "url": "https://pt.wikipedia.org/wiki/El%C3%A9trico"
+  },
+  {
+   "palavra": "SÓLIDO",
+   "sentido": "estado físico da matéria",
+   "proibidas": [
+    "LÍQUIDO",
+    "GÁS",
+    "MATÉRIA",
+    "PEDRA",
+    "FORMA"
+   ],
+   "no_artigo": [
+    "MATÉRIA"
+   ],
+   "revisada": true,
+   "dificuldade": "difícil",
+   "posicao": 7457,
+   "artigo": "Sólido",
+   "url": "https://pt.wikipedia.org/wiki/S%C3%B3lido"
+  },
+  {
+   "palavra": "REGIMENTO",
+   "sentido": "designação de unidade militar com base em suas dimensões",
+   "proibidas": [
+    "EXÉRCITO",
+    "BATALHÃO",
+    "CORONEL",
+    "QUARTEL",
+    "FARDA"
+   ],
+   "no_artigo": [
+    "EXÉRCITO",
+    "BATALHÃO",
+    "CORONEL"
+   ],
+   "revisada": true,
+   "dificuldade": "difícil",
+   "posicao": 7853,
+   "artigo": "Regimento",
+   "url": "https://pt.wikipedia.org/wiki/Regimento"
+  },
+  {
+   "palavra": "BOMBEIRO",
+   "sentido": "socorrista treinado para o combate a incêndios e resgates",
+   "proibidas": [
+    "INCÊNDIO",
+    "MANGUEIRA",
+    "RESGATE",
+    "CAMINHÃO",
+    "HERÓI"
+   ],
+   "no_artigo": [
+    "INCÊNDIO",
+    "RESGATE"
+   ],
+   "revisada": true,
+   "dificuldade": "difícil",
+   "posicao": 7966,
+   "artigo": "Bombeiro",
+   "url": "https://pt.wikipedia.org/wiki/Bombeiro"
+  },
+  {
+   "palavra": "HOSPITALIDADE",
+   "sentido": "ato de dar acolhida",
+   "proibidas": [
+    "GENTILEZA",
+    "ANFITRIÃO",
+    "RECEBER",
+    "HÓSPEDE",
+    "HOTEL"
+   ],
+   "no_artigo": [
+    "GENTILEZA",
+    "HÓSPEDE",
+    "HOTEL"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 9129,
+   "artigo": "Hospitalidade",
+   "url": "https://pt.wikipedia.org/wiki/Hospitalidade"
+  },
+  {
+   "palavra": "MARKETING",
+   "sentido": "atividade para criar, comunicar, entregar e trocar ofertas que tenham valor para o cliente",
+   "proibidas": [
+    "PUBLICIDADE",
+    "CLIENTE",
+    "PRODUTO",
+    "CAMPANHA",
+    "MERCADO"
+   ],
+   "no_artigo": [
+    "PUBLICIDADE",
+    "CLIENTE",
+    "PRODUTO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 9336,
+   "artigo": "Marketing",
+   "url": "https://pt.wikipedia.org/wiki/Marketing"
+  },
+  {
+   "palavra": "CHICOTE",
+   "sentido": "ferramenta usada para infligir dor e sofrimento a um ser humano ou animal",
+   "proibidas": [
+    "COURO",
+    "CORDA",
+    "DOR",
+    "ESCRAVO",
+    "DOMADOR"
+   ],
+   "no_artigo": [
+    "COURO",
+    "CORDA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 9404,
+   "artigo": "Chicote",
+   "url": "https://pt.wikipedia.org/wiki/Chicote"
+  },
+  {
+   "palavra": "CORVO",
+   "sentido": "gênero da família Corvidae",
+   "proibidas": [
+    "PRETO",
+    "AVE",
+    "AGOURO",
+    "PENA",
+    "GRASNAR"
+   ],
+   "no_artigo": [],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 9742,
+   "artigo": "Corvo",
+   "url": "https://pt.wikipedia.org/wiki/Corvo"
+  },
+  {
+   "palavra": "PONTUAÇÃO",
+   "sentido": "indicam que alguém vai falar em um diálogo",
+   "proibidas": [
+    "VÍRGULA",
+    "TRAVESSÃO",
+    "GRAMÁTICA",
+    "FRASE",
+    "ORAÇÃO"
+   ],
+   "no_artigo": [
+    "FRASE",
+    "ORAÇÃO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 9762,
+   "artigo": "Pontuação",
+   "url": "https://pt.wikipedia.org/wiki/Pontua%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "PROTEÍNA",
+   "sentido": "molécula biológica",
+   "proibidas": [
+    "MÚSCULO",
+    "AMINOÁCIDO",
+    "NUTRIENTE",
+    "CARNE",
+    "OVO"
+   ],
+   "no_artigo": [
+    "MÚSCULO",
+    "CARNE",
+    "OVO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 9833,
+   "artigo": "Proteína",
+   "url": "https://pt.wikipedia.org/wiki/Prote%C3%ADna"
+  },
+  {
+   "palavra": "RELÂMPAGO",
+   "sentido": "Luz",
+   "proibidas": [
+    "LUZ",
+    "RAIO",
+    "TROVÃO",
+    "TEMPESTADE",
+    "RÁPIDO"
+   ],
+   "no_artigo": [
+    "RAIO",
+    "TROVÃO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 9857,
+   "artigo": "Relâmpago",
+   "url": "https://pt.wikipedia.org/wiki/Rel%C3%A2mpago"
+  },
+  {
+   "palavra": "MARATONA",
+   "sentido": "corrida de distância oficial 42,195 km",
+   "proibidas": [
+    "CORRIDA",
+    "ATLETA",
+    "QUILÔMETRO",
+    "MEDALHA",
+    "TREINO"
+   ],
+   "no_artigo": [],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 9884,
+   "artigo": "Maratona",
+   "url": "https://pt.wikipedia.org/wiki/Maratona"
+  },
+  {
+   "palavra": "MARECHAL",
+   "sentido": "patente militar",
+   "proibidas": [
+    "PATENTE",
+    "GENERAL",
+    "EXÉRCITO",
+    "FARDA",
+    "CONDECORAÇÃO"
+   ],
+   "no_artigo": [
+    "GENERAL"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 10120,
+   "artigo": "Marechal",
+   "url": "https://pt.wikipedia.org/wiki/Marechal"
+  },
+  {
+   "palavra": "PADARIA",
+   "sentido": "Tipo de negócio que vende alimentos à base de pão",
+   "proibidas": [
+    "PÃO",
+    "FORNO",
+    "BOLO",
+    "DOCE",
+    "FARINHA"
+   ],
+   "no_artigo": [
+    "FORNO",
+    "BOLO",
+    "FARINHA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 10367,
+   "artigo": "Padaria",
+   "url": "https://pt.wikipedia.org/wiki/Padaria"
+  },
+  {
+   "palavra": "ESPAGUETE",
+   "sentido": "tipo de massa",
+   "proibidas": [
+    "MACARRÃO",
+    "MOLHO",
+    "TOMATE",
+    "GARFO",
+    "ALMÔNDEGA"
+   ],
+   "no_artigo": [
+    "MACARRÃO",
+    "TOMATE"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 10394,
+   "artigo": "Espaguete",
+   "url": "https://pt.wikipedia.org/wiki/Espaguete"
+  },
+  {
+   "palavra": "ESFERA",
+   "sentido": "superfície fechada de tal forma que todos os pontos dela estão à mesma distância de seu centro",
+   "proibidas": [
+    "BOLA",
+    "CENTRO",
+    "RAIO",
+    "REDONDO",
+    "PLANETA"
+   ],
+   "no_artigo": [
+    "BOLA",
+    "CENTRO",
+    "RAIO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 10404,
+   "artigo": "Esfera",
+   "url": "https://pt.wikipedia.org/wiki/Esfera"
+  },
+  {
+   "palavra": "AGRICULTURA",
+   "sentido": "atividade agrária",
+   "proibidas": [
+    "FAZENDA",
+    "COLHEITA",
+    "TERRA",
+    "TRATOR",
+    "SEMENTE"
+   ],
+   "no_artigo": [],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 10624,
+   "artigo": "Agricultura",
+   "url": "https://pt.wikipedia.org/wiki/Agricultura"
+  },
+  {
+   "palavra": "PROTÓTIPO",
+   "sentido": "amostra ou modelo inicial criado para testar um conceito ou processo, geralmente usado para avaliar um novo design por analistas de sistemas e usuários avançados",
+   "proibidas": [
+    "MODELO",
+    "TESTE",
+    "INVENÇÃO",
+    "VERSÃO",
+    "PROJETO"
+   ],
+   "no_artigo": [
+    "TESTE",
+    "PROJETO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 10652,
+   "artigo": "Protótipo",
+   "url": "https://pt.wikipedia.org/wiki/Prot%C3%B3tipo"
+  },
+  {
+   "palavra": "VIBRAÇÃO",
+   "sentido": "movimento que se repete dentro de um intervalo de tempo",
+   "proibidas": [
+    "CELULAR",
+    "FREQUÊNCIA",
+    "ENERGIA",
+    "ONDA",
+    "SOM"
+   ],
+   "no_artigo": [
+    "ENERGIA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 10696,
+   "artigo": "Vibração",
+   "url": "https://pt.wikipedia.org/wiki/Vibra%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "PATENTE",
+   "sentido": "concessão pública que garante ao seu titular a exclusividade ao explorar comercialmente a sua criação",
+   "proibidas": [
+    "INVENÇÃO",
+    "DIREITO",
+    "INVENTOR",
+    "EXCLUSIVIDADE",
+    "ESCRITÓRIO"
+   ],
+   "no_artigo": [
+    "INVENÇÃO",
+    "DIREITO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 10838,
+   "artigo": "Patente",
+   "url": "https://pt.wikipedia.org/wiki/Patente"
+  },
+  {
+   "palavra": "FORCA",
+   "sentido": "morte por suspensão do corpo por um cabo ao redor do pescoço",
+   "proibidas": [
+    "CORDA",
+    "PESCOÇO",
+    "EXECUÇÃO",
+    "CADAFALSO",
+    "LAÇO"
+   ],
+   "no_artigo": [
+    "CORDA",
+    "PESCOÇO",
+    "EXECUÇÃO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 10914,
+   "artigo": "Forca",
+   "url": "https://pt.wikipedia.org/wiki/Forca"
+  },
+  {
+   "palavra": "DINÂMICA",
+   "sentido": "ramo da física que estuda a ação de forças no movimento",
+   "proibidas": [
+    "FÍSICA",
+    "FORÇA",
+    "MOVIMENTO",
+    "NEWTON",
+    "MECÂNICA"
+   ],
+   "no_artigo": [
+    "FÍSICA",
+    "FORÇA",
+    "MOVIMENTO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11114,
+   "artigo": "Dinâmica",
+   "url": "https://pt.wikipedia.org/wiki/Din%C3%A2mica"
+  },
+  {
+   "palavra": "ANIMAÇÃO",
+   "sentido": "gênero cinematográfico",
+   "proibidas": [
+    "DESENHO",
+    "FILME",
+    "PERSONAGEM",
+    "DISNEY",
+    "CRIANÇA"
+   ],
+   "no_artigo": [
+    "DESENHO",
+    "FILME"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11149,
+   "artigo": "Animação",
+   "url": "https://pt.wikipedia.org/wiki/Anima%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "FINANCIAMENTO",
+   "sentido": "ato de prover recursos",
+   "proibidas": [
+    "BANCO",
+    "EMPRÉSTIMO",
+    "JUROS",
+    "CRÉDITO",
+    "CARRO"
+   ],
+   "no_artigo": [
+    "EMPRÉSTIMO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11156,
+   "artigo": "Financiamento",
+   "url": "https://pt.wikipedia.org/wiki/Financiamento"
+  },
+  {
+   "palavra": "PNEUMONIA",
+   "sentido": "inflamação dos alvéolos pulmonares",
+   "proibidas": [
+    "PULMÃO",
+    "TOSSE",
+    "FEBRE",
+    "HOSPITAL",
+    "RESPIRAR"
+   ],
+   "no_artigo": [
+    "TOSSE",
+    "FEBRE",
+    "HOSPITAL"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11173,
+   "artigo": "Pneumonia",
+   "url": "https://pt.wikipedia.org/wiki/Pneumonia"
+  },
+  {
+   "palavra": "ASMA",
+   "sentido": "Doença Inflamatória Crônica",
+   "proibidas": [
+    "BOMBINHA",
+    "INALADOR",
+    "ALERGIA",
+    "PULMÃO",
+    "CRIANÇA"
+   ],
+   "no_artigo": [],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11285,
+   "artigo": "Asma",
+   "url": "https://pt.wikipedia.org/wiki/Asma"
+  },
+  {
+   "palavra": "COMPOSITOR",
+   "sentido": "profissional que escreve música",
+   "proibidas": [
+    "MÚSICA",
+    "CANÇÃO",
+    "LETRA",
+    "MELODIA",
+    "ARTISTA"
+   ],
+   "no_artigo": [
+    "MÚSICA",
+    "CANÇÃO",
+    "LETRA",
+    "ARTISTA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11354,
+   "artigo": "Compositor",
+   "url": "https://pt.wikipedia.org/wiki/Compositor"
+  },
+  {
+   "palavra": "OMELETE",
+   "sentido": "prato feito de ovos",
+   "proibidas": [
+    "OVO",
+    "FRIGIDEIRA",
+    "QUEIJO",
+    "MANTEIGA",
+    "CAFÉ"
+   ],
+   "no_artigo": [
+    "OVO",
+    "QUEIJO",
+    "MANTEIGA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11355,
+   "artigo": "Omelete",
+   "url": "https://pt.wikipedia.org/wiki/Omelete"
+  },
+  {
+   "palavra": "MUÇULMANO",
+   "sentido": "adepto da religião do Islã",
+   "proibidas": [
+    "ISLÃ",
+    "ALÁ",
+    "MESQUITA",
+    "MECA",
+    "ORAÇÃO"
+   ],
+   "no_artigo": [
+    "ORAÇÃO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11359,
+   "artigo": "Muçulmano",
+   "url": "https://pt.wikipedia.org/wiki/Mu%C3%A7ulmano"
+  },
+  {
+   "palavra": "CRISTIANISMO",
+   "sentido": "religião abraâmica monoteísta",
+   "proibidas": [
+    "JESUS",
+    "IGREJA",
+    "BÍBLIA",
+    "CRUZ",
+    "CATÓLICO"
+   ],
+   "no_artigo": [
+    "CRUZ"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11395,
+   "artigo": "Cristianismo",
+   "url": "https://pt.wikipedia.org/wiki/Cristianismo"
+  },
+  {
+   "palavra": "QUEIMADURA",
+   "sentido": "tipo de lesão de pele",
+   "proibidas": [
+    "FOGO",
+    "PELE",
+    "SOL",
+    "BOLHA",
+    "DOR"
+   ],
+   "no_artigo": [
+    "FOGO",
+    "PELE",
+    "BOLHA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11524,
+   "artigo": "Queimadura",
+   "url": "https://pt.wikipedia.org/wiki/Queimadura"
+  },
+  {
+   "palavra": "EXTORSÃO",
+   "sentido": "obtenção de vantagem por meio de ameaça ou violência",
+   "proibidas": [
+    "AMEAÇA",
+    "CHANTAGEM",
+    "CRIME",
+    "DINHEIRO",
+    "VÍTIMA"
+   ],
+   "no_artigo": [
+    "AMEAÇA",
+    "CRIME",
+    "DINHEIRO",
+    "VÍTIMA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11537,
+   "artigo": "Extorsão",
+   "url": "https://pt.wikipedia.org/wiki/Extors%C3%A3o"
+  },
+  {
+   "palavra": "ALFÂNDEGA",
+   "sentido": "autoridade governamental responsável pelo controle do movimento de importação e exportação de mercadorias em um país",
+   "proibidas": [
+    "FRONTEIRA",
+    "AEROPORTO",
+    "TAXA",
+    "FISCAL",
+    "CONTRABANDO"
+   ],
+   "no_artigo": [
+    "FRONTEIRA",
+    "TAXA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11590,
+   "artigo": "Alfândega",
+   "url": "https://pt.wikipedia.org/wiki/Alf%C3%A2ndega"
+  },
+  {
+   "palavra": "SEREIA",
+   "sentido": "figura mitológica com torso humano feminino e cauda de peixe",
+   "proibidas": [
+    "CAUDA",
+    "PEIXE",
+    "MAR",
+    "ARIEL",
+    "CANTO"
+   ],
+   "no_artigo": [
+    "PEIXE"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11668,
+   "artigo": "Sereia",
+   "url": "https://pt.wikipedia.org/wiki/Sereia"
+  },
+  {
+   "palavra": "GRADUAÇÃO",
+   "sentido": "programas acadêmicos até o nível de bacharelado",
+   "proibidas": [
+    "FACULDADE",
+    "CURSO",
+    "DIPLOMA",
+    "BACHAREL",
+    "VESTIBULAR"
+   ],
+   "no_artigo": [
+    "CURSO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11711,
+   "artigo": "Graduação",
+   "url": "https://pt.wikipedia.org/wiki/Gradua%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "VÁCUO",
+   "sentido": "Espaço sem matéria",
+   "proibidas": [
+    "ESPAÇO",
+    "VAZIO",
+    "PRESSÃO",
+    "ASPIRADOR",
+    "LUA"
+   ],
+   "no_artigo": [
+    "PRESSÃO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11740,
+   "artigo": "Vácuo",
+   "url": "https://pt.wikipedia.org/wiki/V%C3%A1cuo"
+  },
+  {
+   "palavra": "DOCA",
+   "sentido": "parte de um porto rodeada de cais",
+   "proibidas": [
+    "PORTO",
+    "CAIS",
+    "NAVIO",
+    "MAR",
+    "GUINDASTE"
+   ],
+   "no_artigo": [
+    "PORTO",
+    "CAIS",
+    "NAVIO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11849,
+   "artigo": "Doca",
+   "url": "https://pt.wikipedia.org/wiki/Doca"
+  },
+  {
+   "palavra": "PARAFUSO",
+   "sentido": "peça utilizada para fixar um objeto em outro com maior segurança",
+   "proibidas": [
+    "FERRAMENTA",
+    "ROSCA",
+    "MADEIRA",
+    "METAL",
+    "PREGO"
+   ],
+   "no_artigo": [
+    "FERRAMENTA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11876,
+   "artigo": "Parafuso",
+   "url": "https://pt.wikipedia.org/wiki/Parafuso"
+  },
+  {
+   "palavra": "TRIBUTO",
+   "sentido": "riqueza que uma parte dá a outra como sinal de respeito, submissão ou lealdade",
+   "proibidas": [
+    "IMPOSTO",
+    "REI",
+    "VASSALO",
+    "COROA",
+    "HOMENAGEM"
+   ],
+   "no_artigo": [
+    "IMPOSTO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11927,
+   "artigo": "Tributo",
+   "url": "https://pt.wikipedia.org/wiki/Tributo"
+  },
+  {
+   "palavra": "BIQUÍNI",
+   "sentido": "vestimenta feminina",
+   "proibidas": [
+    "PRAIA",
+    "VERÃO",
+    "MODA",
+    "CORPO",
+    "MAIÔ"
+   ],
+   "no_artigo": [
+    "PRAIA",
+    "MODA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11938,
+   "artigo": "Biquíni",
+   "url": "https://pt.wikipedia.org/wiki/Biqu%C3%ADni"
+  },
+  {
+   "palavra": "MUTAÇÃO",
+   "sentido": "mudanças na sequência dos nucleotídeos do material genético de um organismo",
+   "proibidas": [
+    "DNA",
+    "GENÉTICA",
+    "EVOLUÇÃO",
+    "RADIAÇÃO",
+    "X-MEN"
+   ],
+   "no_artigo": [
+    "GENÉTICA",
+    "EVOLUÇÃO",
+    "RADIAÇÃO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11966,
+   "artigo": "Mutação",
+   "url": "https://pt.wikipedia.org/wiki/Muta%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "MEDITAÇÃO",
+   "sentido": "conjunto de técnicas para instrospeção e foco da atenção",
+   "proibidas": [
+    "MONGE",
+    "IOGA",
+    "CALMA",
+    "SILÊNCIO",
+    "BUDISMO"
+   ],
+   "no_artigo": [
+    "SILÊNCIO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 12030,
+   "artigo": "Meditação",
+   "url": "https://pt.wikipedia.org/wiki/Medita%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "GURU",
+   "sentido": "professor no hinduísmo, budismo, e sikhismo",
+   "proibidas": [
+    "MESTRE",
+    "ÍNDIA",
+    "SÁBIO",
+    "DISCÍPULO",
+    "ESPIRITUAL"
+   ],
+   "no_artigo": [
+    "MESTRE",
+    "ESPIRITUAL"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 12061,
+   "artigo": "Guru",
+   "url": "https://pt.wikipedia.org/wiki/Guru"
+  },
+  {
+   "palavra": "RACISMO",
+   "sentido": "preconceito e discriminação contra indivíduos de determinadas etnias",
+   "proibidas": [
+    "PRECONCEITO",
+    "COR",
+    "NEGRO",
+    "ESCRAVIDÃO",
+    "ÓDIO"
+   ],
+   "no_artigo": [],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 12142,
+   "artigo": "Racismo",
+   "url": "https://pt.wikipedia.org/wiki/Racismo"
+  },
+  {
+   "palavra": "DRÁCULA",
+   "sentido": "Romance de ficção gótica lançado em 1897",
+   "proibidas": [
+    "VAMPIRO",
+    "SANGUE",
+    "TRANSILVÂNIA",
+    "PRESAS",
+    "CAPA"
+   ],
+   "no_artigo": [
+    "VAMPIRO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 12207,
+   "artigo": "Drácula",
+   "url": "https://pt.wikipedia.org/wiki/Dr%C3%A1cula"
+  },
+  {
+   "palavra": "LÚCIFER",
+   "sentido": "nome latino antigo para o planeta Vênus, e no cristianismo, ao Diabo",
+   "proibidas": [
+    "DIABO",
+    "ANJO",
+    "QUEDA",
+    "CHIFRE",
+    "VÊNUS"
+   ],
+   "no_artigo": [
+    "DIABO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 12212,
+   "artigo": "Lúcifer",
+   "url": "https://pt.wikipedia.org/wiki/L%C3%BAcifer"
+  },
+  {
+   "palavra": "ECLIPSE",
+   "sentido": "evento astronômico",
+   "proibidas": [
+    "SOL",
+    "LUA",
+    "SOMBRA",
+    "TERRA",
+    "ASTRONOMIA"
+   ],
+   "no_artigo": [
+    "SOMBRA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 12443,
+   "artigo": "Eclipse",
+   "url": "https://pt.wikipedia.org/wiki/Eclipse"
+  },
+  {
+   "palavra": "REVIRAVOLTA",
+   "sentido": "técnica narrativa",
+   "proibidas": [
+    "SURPRESA",
+    "FINAL",
+    "FILME",
+    "ROTEIRO",
+    "CHOQUE"
+   ],
+   "no_artigo": [
+    "SURPRESA",
+    "FINAL"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 12449,
+   "artigo": "Reviravolta",
+   "url": "https://pt.wikipedia.org/wiki/Reviravolta"
+  },
+  {
+   "palavra": "MÁRTIR",
+   "sentido": "pessoa que sofre por defender uma causa",
+   "proibidas": [
+    "CAUSA",
+    "RELIGIÃO",
+    "SACRIFÍCIO",
+    "PERSEGUIÇÃO",
+    "SANTO"
+   ],
+   "no_artigo": [
+    "CAUSA",
+    "RELIGIÃO",
+    "PERSEGUIÇÃO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 12451,
+   "artigo": "Mártir",
+   "url": "https://pt.wikipedia.org/wiki/M%C3%A1rtir"
+  },
+  {
+   "palavra": "DECOLAGEM",
+   "sentido": "fase inicial de um voo",
+   "proibidas": [
+    "AVIÃO",
+    "PISTA",
+    "AEROPORTO",
+    "MOTOR",
+    "PILOTO"
+   ],
+   "no_artigo": [
+    "AVIÃO",
+    "PISTA",
+    "MOTOR",
+    "PILOTO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 12519,
+   "artigo": "Decolagem",
+   "url": "https://pt.wikipedia.org/wiki/Decolagem"
+  },
+  {
+   "palavra": "CAMUFLAGEM",
+   "sentido": "técnica que permite a um organismo ou objeto permanecer indistinto do ambiente que o cerca",
+   "proibidas": [
+    "ESCONDER",
+    "EXÉRCITO",
+    "VERDE",
+    "UNIFORME",
+    "DISFARCE"
+   ],
+   "no_artigo": [
+    "VERDE",
+    "UNIFORME"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 12627,
+   "artigo": "Camuflagem",
+   "url": "https://pt.wikipedia.org/wiki/Camuflagem"
+  },
+  {
+   "palavra": "KARAOKÊ",
+   "sentido": "Atividade recreativa nipônica",
+   "proibidas": [
+    "CANTAR",
+    "MICROFONE",
+    "TELA",
+    "LETRA",
+    "BAR"
+   ],
+   "no_artigo": [
+    "MICROFONE",
+    "TELA",
+    "BAR"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 12802,
+   "artigo": "Karaokê",
+   "url": "https://pt.wikipedia.org/wiki/Karaok%C3%AA"
+  },
+  {
+   "palavra": "ESCALADA",
+   "sentido": "esporte",
+   "proibidas": [
+    "MONTANHA",
+    "CORDA",
+    "ROCHA",
+    "PAREDE",
+    "ALTURA"
+   ],
+   "no_artigo": [
+    "MONTANHA",
+    "CORDA",
+    "ROCHA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 12823,
+   "artigo": "Escalada",
+   "url": "https://pt.wikipedia.org/wiki/Escalada"
+  },
+  {
+   "palavra": "SUSPENSE",
+   "sentido": "emoção",
+   "proibidas": [
+    "TENSÃO",
+    "MEDO",
+    "FILME",
+    "MISTÉRIO",
+    "ROTEIRO"
+   ],
+   "no_artigo": [
+    "TENSÃO",
+    "FILME",
+    "ROTEIRO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 12840,
+   "artigo": "Suspense",
+   "url": "https://pt.wikipedia.org/wiki/Suspense"
+  },
+  {
+   "palavra": "CADETE",
+   "sentido": "militar em formação",
+   "proibidas": [
+    "EXÉRCITO",
+    "QUARTEL",
+    "ALUNO",
+    "FARDA",
+    "OFICIAL"
+   ],
+   "no_artigo": [
+    "ALUNO",
+    "OFICIAL"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 12940,
+   "artigo": "Cadete",
+   "url": "https://pt.wikipedia.org/wiki/Cadete"
+  },
+  {
+   "palavra": "QUIMIOTERAPIA",
+   "sentido": "método de tratamento de cancro injetando medicamentos fortes na corrente sanguínea para destruir células malignas",
+   "proibidas": [
+    "CÂNCER",
+    "HOSPITAL",
+    "CABELO",
+    "VEIA",
+    "ENJOO"
+   ],
+   "no_artigo": [
+    "CÂNCER"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 13045,
+   "artigo": "Quimioterapia",
+   "url": "https://pt.wikipedia.org/wiki/Quimioterapia"
+  },
+  {
+   "palavra": "ADOLESCÊNCIA",
+   "sentido": "transição entre a infância e a idade adulta, dos 10 aos 19 anos",
+   "proibidas": [
+    "PUBERDADE",
+    "HORMÔNIO",
+    "ESPINHA",
+    "MUDANÇA",
+    "REBELDIA"
+   ],
+   "no_artigo": [
+    "MUDANÇA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 13187,
+   "artigo": "Adolescência",
+   "url": "https://pt.wikipedia.org/wiki/Adolesc%C3%AAncia"
+  },
+  {
+   "palavra": "BESOURO",
+   "sentido": "ordem de insetos",
+   "proibidas": [
+    "INSETO",
+    "ASA",
+    "VOAR",
+    "CASCO",
+    "ESTERCO"
+   ],
+   "no_artigo": [
+    "INSETO",
+    "ASA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 13443,
+   "artigo": "Besouro",
+   "url": "https://pt.wikipedia.org/wiki/Besouro"
+  },
+  {
+   "palavra": "CALDO",
+   "sentido": "Líquido cozido",
+   "proibidas": [
+    "SOPA",
+    "GALINHA",
+    "OSSO",
+    "PANELA",
+    "COZINHAR"
+   ],
+   "no_artigo": [
+    "SOPA",
+    "GALINHA",
+    "OSSO",
+    "PANELA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 13498,
+   "artigo": "Caldo",
+   "url": "https://pt.wikipedia.org/wiki/Caldo"
+  },
+  {
+   "palavra": "RESSENTIMENTO",
+   "sentido": "emoção negativa",
+   "proibidas": [
+    "RANCOR",
+    "RAIVA",
+    "REMOER",
+    "VINGANÇA",
+    "GUARDAR"
+   ],
+   "no_artigo": [
+    "RANCOR",
+    "RAIVA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 13865,
+   "artigo": "Ressentimento",
+   "url": "https://pt.wikipedia.org/wiki/Ressentimento"
+  },
+  {
+   "palavra": "ANATOMIA",
+   "sentido": "ramo da biologia que estuda a organização estrutural dos seres vivos",
+   "proibidas": [
+    "CORPO",
+    "ÓRGÃO",
+    "ESQUELETO",
+    "MÚSCULO",
+    "MEDICINA"
+   ],
+   "no_artigo": [
+    "CORPO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 14003,
+   "artigo": "Anatomia",
+   "url": "https://pt.wikipedia.org/wiki/Anatomia"
+  },
+  {
+   "palavra": "POLUIÇÃO",
+   "sentido": "introdução de contaminantes no ambiente natural que causam mudanças adversas",
+   "proibidas": [
+    "SUJEIRA",
+    "AR",
+    "FUMAÇA",
+    "LIXO",
+    "PLANETA"
+   ],
+   "no_artigo": [
+    "PLANETA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 14225,
+   "artigo": "Poluição",
+   "url": "https://pt.wikipedia.org/wiki/Polui%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "APAGÃO",
+   "sentido": "perda de energia elétrica para uma área",
+   "proibidas": [
+    "LUZ",
+    "ENERGIA",
+    "CORTE",
+    "VELA",
+    "ESCURO"
+   ],
+   "no_artigo": [
+    "ENERGIA",
+    "CORTE"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 14855,
+   "artigo": "Apagão",
+   "url": "https://pt.wikipedia.org/wiki/Apag%C3%A3o"
+  },
+  {
+   "palavra": "CRÍQUETE",
+   "sentido": "desporto de equipe jogado com bastões e bolas",
+   "proibidas": [
+    "TACO",
+    "BOLA",
+    "ÍNDIA",
+    "CAMPO",
+    "TIME"
+   ],
+   "no_artigo": [
+    "TACO",
+    "BOLA",
+    "CAMPO",
+    "TIME"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 14887,
+   "artigo": "Críquete",
+   "url": "https://pt.wikipedia.org/wiki/Cr%C3%ADquete"
+  },
+  {
+   "palavra": "APERITIVO",
+   "sentido": "prato servido antes do prato principal para estimular o apetite",
+   "proibidas": [
+    "ENTRADA",
+    "PETISCO",
+    "APETITE",
+    "COQUETEL",
+    "QUEIJO"
+   ],
+   "no_artigo": [
+    "APETITE",
+    "COQUETEL",
+    "QUEIJO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 14915,
+   "artigo": "Aperitivo",
+   "url": "https://pt.wikipedia.org/wiki/Aperitivo"
+  },
+  {
+   "palavra": "ÁTOMO",
+   "sentido": "unidade de matéria composta por particulas com cargas positivas e negativas, que seriam elétrons (-) e prótons (+)",
+   "proibidas": [
+    "ELÉTRON",
+    "PRÓTON",
+    "NÊUTRON",
+    "NÚCLEO",
+    "MINÚSCULO"
+   ],
+   "no_artigo": [
+    "NÚCLEO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 14941,
+   "artigo": "Átomo",
+   "url": "https://pt.wikipedia.org/wiki/%C3%81tomo"
+  },
+  {
+   "palavra": "ROSQUINHA",
+   "sentido": "pequeno bolo em forma de rosca",
+   "proibidas": [
+    "BURACO",
+    "AÇÚCAR",
+    "CHOCOLATE",
+    "PADARIA",
+    "DOCE"
+   ],
+   "no_artigo": [
+    "BURACO",
+    "AÇÚCAR",
+    "CHOCOLATE",
+    "DOCE"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 14947,
+   "artigo": "Rosquinha",
+   "url": "https://pt.wikipedia.org/wiki/Rosquinha"
+  },
+  {
+   "palavra": "FURTO",
+   "sentido": "ato de tomar a propriedade de outra pessoa sem permissão ou consentimento",
+   "proibidas": [
+    "LADRÃO",
+    "BOLSO",
+    "LOJA",
+    "POLÍCIA",
+    "CRIME"
+   ],
+   "no_artigo": [
+    "CRIME"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 14969,
+   "artigo": "Furto",
+   "url": "https://pt.wikipedia.org/wiki/Furto"
+  },
+  {
+   "palavra": "COIOTE",
+   "sentido": "espécie de canino",
+   "proibidas": [
+    "UIVAR",
+    "DESERTO",
+    "LOBO",
+    "SELVAGEM",
+    "AMÉRICA"
+   ],
+   "no_artigo": [
+    "LOBO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 14971,
+   "artigo": "Coiote",
+   "url": "https://pt.wikipedia.org/wiki/Coiote"
+  },
+  {
+   "palavra": "INDENIZAÇÃO",
+   "sentido": "reparar dano causado a outro por meio de um pagamento",
+   "proibidas": [
+    "DANO",
+    "PROCESSO",
+    "SEGURO",
+    "ACIDENTE",
+    "DINHEIRO"
+   ],
+   "no_artigo": [
+    "DANO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 14985,
+   "artigo": "Indenização",
+   "url": "https://pt.wikipedia.org/wiki/Indeniza%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "PSIQUIATRIA",
+   "sentido": "ramo da medicina dedicado ao estudo, ao diagnóstico, ao tratamento e à prevenção de transtornos mentais",
+   "proibidas": [
+    "TRANSTORNO",
+    "MENTE",
+    "HOSPITAL",
+    "REMÉDIO",
+    "DEPRESSÃO"
+   ],
+   "no_artigo": [
+    "HOSPITAL",
+    "DEPRESSÃO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 14996,
+   "artigo": "Psiquiatria",
+   "url": "https://pt.wikipedia.org/wiki/Psiquiatria"
+  },
+  {
+   "palavra": "MERCEARIA",
+   "sentido": "loja de varejo que vende principalmente alimentos e outros suprimentos domésticos",
+   "proibidas": [
+    "BAIRRO",
+    "DONO",
+    "FIADO",
+    "ESQUINA",
+    "MERCADO"
+   ],
+   "no_artigo": [
+    "DONO",
+    "ESQUINA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 15015,
+   "artigo": "Mercearia",
+   "url": "https://pt.wikipedia.org/wiki/Mercearia"
+  },
+  {
+   "palavra": "CÓLERA",
+   "sentido": "infeção intestinal bacteriana",
+   "proibidas": [
+    "DIARREIA",
+    "ÁGUA",
+    "VÔMITO",
+    "EPIDEMIA",
+    "DESIDRATAÇÃO"
+   ],
+   "no_artigo": [
+    "ÁGUA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 15064,
+   "artigo": "Cólera",
+   "url": "https://pt.wikipedia.org/wiki/C%C3%B3lera"
+  },
+  {
+   "palavra": "LOBBY",
+   "sentido": "atividade de influência de um grupo organizado com o objetivo de interferir diretamente nas decisões do poder público",
+   "proibidas": [
+    "POLÍTICO",
+    "INFLUÊNCIA",
+    "PRESSÃO",
+    "CORRUPÇÃO",
+    "CONGRESSO"
+   ],
+   "no_artigo": [
+    "POLÍTICO",
+    "INFLUÊNCIA",
+    "PRESSÃO",
+    "CORRUPÇÃO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 15107,
+   "artigo": "Lobby",
+   "url": "https://pt.wikipedia.org/wiki/Lobby"
+  },
+  {
+   "palavra": "HEMATOMA",
+   "sentido": "coleção localizada de sangue fora dos vasos sanguíneos",
+   "proibidas": [
+    "ROXO",
+    "MACHUCADO",
+    "SANGUE",
+    "PELE",
+    "GALO"
+   ],
+   "no_artigo": [
+    "ROXO",
+    "SANGUE",
+    "PELE",
+    "GALO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 15174,
+   "artigo": "Hematoma",
+   "url": "https://pt.wikipedia.org/wiki/Hematoma"
+  },
+  {
+   "palavra": "FARMACÊUTICO",
+   "sentido": "profissional da saúde que atua na farmácia",
+   "proibidas": [
+    "REMÉDIO",
+    "BALCÃO",
+    "RECEITA",
+    "JALECO",
+    "PROFISSÃO"
+   ],
+   "no_artigo": [
+    "PROFISSÃO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 15267,
+   "artigo": "Farmacêutico",
+   "url": "https://pt.wikipedia.org/wiki/Farmac%C3%AAutico"
+  },
+  {
+   "palavra": "JACARÉ",
+   "sentido": "família de répteis",
+   "proibidas": [
+    "RÉPTIL",
+    "RIO",
+    "DENTE",
+    "PÂNTANO",
+    "COURO"
+   ],
+   "no_artigo": [
+    "COURO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 15559,
+   "artigo": "Jacaré",
+   "url": "https://pt.wikipedia.org/wiki/Jacar%C3%A9"
+  },
+  {
+   "palavra": "MALÁRIA",
+   "sentido": "doença infecciosa transmitida por mosquitos e causada por protozoários parasitários do género Plasmodium",
+   "proibidas": [
+    "MOSQUITO",
+    "PICADA",
+    "FEBRE",
+    "CALAFRIO",
+    "ÁFRICA"
+   ],
+   "no_artigo": [
+    "FEBRE"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 15609,
+   "artigo": "Malária",
+   "url": "https://pt.wikipedia.org/wiki/Mal%C3%A1ria"
+  },
+  {
+   "palavra": "LEUCEMIA",
+   "sentido": "vários tipos de cânceres sanguíneos que se originam na medula óssea",
+   "proibidas": [
+    "CÂNCER",
+    "SANGUE",
+    "MEDULA",
+    "QUIMIOTERAPIA",
+    "TRANSPLANTE"
+   ],
+   "no_artigo": [
+    "SANGUE"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 15757,
+   "artigo": "Leucemia",
+   "url": "https://pt.wikipedia.org/wiki/Leucemia"
+  },
+  {
+   "palavra": "ÁRBITRO",
+   "sentido": "indivíduo responsável, nos esportes, pelo cumprimento das regras e do regulamento",
+   "proibidas": [
+    "APITO",
+    "FUTEBOL",
+    "CAMPO",
+    "JUIZ",
+    "BANDEIRA"
+   ],
+   "no_artigo": [
+    "FUTEBOL",
+    "JUIZ"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 15782,
+   "artigo": "Árbitro",
+   "url": "https://pt.wikipedia.org/wiki/%C3%81rbitro"
+  },
+  {
+   "palavra": "TUBERCULOSE",
+   "sentido": "doença pulmonar infeciosa causada pela bactéria Mycobacterium tuberculosis",
+   "proibidas": [
+    "PULMÃO",
+    "TOSSE",
+    "SANGUE",
+    "FEBRE",
+    "DOENÇA"
+   ],
+   "no_artigo": [
+    "TOSSE",
+    "SANGUE",
+    "FEBRE",
+    "DOENÇA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 15829,
+   "artigo": "Tuberculose",
+   "url": "https://pt.wikipedia.org/wiki/Tuberculose"
+  },
+  {
+   "palavra": "PARADOXO",
+   "sentido": "declaração que se opõe a si mesma",
+   "proibidas": [
+    "CONTRADIÇÃO",
+    "LÓGICA",
+    "MENTIROSO",
+    "TEMPO",
+    "VIAGEM"
+   ],
+   "no_artigo": [
+    "LÓGICA",
+    "MENTIROSO",
+    "TEMPO",
+    "VIAGEM"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 15830,
+   "artigo": "Paradoxo",
+   "url": "https://pt.wikipedia.org/wiki/Paradoxo"
+  },
+  {
+   "palavra": "COMPUTAÇÃO",
+   "sentido": "processamento de informações por sistemas digitais",
+   "proibidas": [
+    "CÓDIGO",
+    "SOFTWARE",
+    "TECNOLOGIA",
+    "ENGENHARIA",
+    "SISTEMA"
+   ],
+   "no_artigo": [
+    "SOFTWARE",
+    "TECNOLOGIA",
+    "ENGENHARIA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 15901,
+   "artigo": "Computação",
+   "url": "https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o"
+  },
+  {
+   "palavra": "PROPULSÃO",
+   "sentido": "meio de criar força que leva ao movimento",
+   "proibidas": [
+    "MOTOR",
+    "FORÇA",
+    "FOGUETE",
+    "AVIÃO",
+    "TURBINA"
+   ],
+   "no_artigo": [
+    "MOTOR",
+    "FORÇA",
+    "AVIÃO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 15910,
+   "artigo": "Propulsão",
+   "url": "https://pt.wikipedia.org/wiki/Propuls%C3%A3o"
+  },
+  {
+   "palavra": "ÍCONE",
+   "sentido": "obra de arte religiosa, geralmente um painel, no Cristianismo Ocidental",
+   "proibidas": [
+    "ORTODOXO",
+    "IGREJA",
+    "SANTO",
+    "IMAGEM",
+    "MADEIRA"
+   ],
+   "no_artigo": [
+    "IMAGEM",
+    "MADEIRA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 16049,
+   "artigo": "Ícone",
+   "url": "https://pt.wikipedia.org/wiki/%C3%8Dcone"
+  },
+  {
+   "palavra": "PUBERDADE",
+   "sentido": "período em que ocorrem mudanças biológicas e fisiológicas",
+   "proibidas": [
+    "CORPO",
+    "HORMÔNIO",
+    "VOZ",
+    "MENSTRUAÇÃO",
+    "ESPINHA"
+   ],
+   "no_artigo": [
+    "CORPO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 16113,
+   "artigo": "Puberdade",
+   "url": "https://pt.wikipedia.org/wiki/Puberdade"
+  },
+  {
+   "palavra": "BULLYING",
+   "sentido": "uso de força física, ameaça ou coerção para abusar, intimidar ou dominar agressivamente outras pessoas de forma frequente e habitual",
+   "proibidas": [
+    "ESCOLA",
+    "APELIDO",
+    "VÍTIMA",
+    "AGRESSÃO",
+    "HUMILHAR"
+   ],
+   "no_artigo": [
+    "ESCOLA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 16268,
+   "artigo": "Bullying",
+   "url": "https://pt.wikipedia.org/wiki/Bullying"
+  },
+  {
+   "palavra": "PURGATÓRIO",
+   "sentido": "o estado e o processo de purificação temporária em que as almas daqueles que morrem em estado de graça são preparadas para o Reino dos céus",
+   "proibidas": [
+    "ALMA",
+    "INFERNO",
+    "CÉU",
+    "PECADO",
+    "FOGO"
+   ],
+   "no_artigo": [
+    "ALMA",
+    "INFERNO",
+    "FOGO"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 16315,
+   "artigo": "Purgatório",
+   "url": "https://pt.wikipedia.org/wiki/Purgat%C3%B3rio"
+  },
+  {
+   "palavra": "INFORMÁTICA",
+   "sentido": "estudo de sistemas computacionais",
+   "proibidas": [
+    "COMPUTADOR",
+    "CURSO",
+    "TECNOLOGIA",
+    "SISTEMA",
+    "INTERNET"
+   ],
+   "no_artigo": [
+    "COMPUTADOR",
+    "TECNOLOGIA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 16543,
+   "artigo": "Informática",
+   "url": "https://pt.wikipedia.org/wiki/Inform%C3%A1tica"
   }
  ]
 }

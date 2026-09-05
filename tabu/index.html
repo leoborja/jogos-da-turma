@@ -196,6 +196,9 @@
     <div>
       <label>Dificuldade das cartas</label>
       <div class="chips" id="filtro-dif"></div>
+      <p class="fraco" style="margin-top:7px;font-size:12px">A faixa é o quanto a
+        palavra aparece no português falado. <b>Osso</b> é palavra que todo mundo
+        conhece e quase ninguém usa.</p>
       <p class="fraco" id="conta-cartas" style="margin-top:9px"></p>
     </div>
     <p class="fraco" id="regra-erro"></p>
@@ -309,7 +312,7 @@
 <script>
 const $ = s => document.querySelector(s);
 const $$ = s => [...document.querySelectorAll(s)];
-const DIFS = ["fácil", "média", "difícil"];
+const DIFS = ["fácil", "média", "difícil", "osso"];
 
 let BANCO = null;
 const J = {

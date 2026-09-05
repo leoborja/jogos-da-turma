@@ -44,7 +44,7 @@ pessoa usaria pra explicar isto?*
 | **candidatas** | [Wikipédia em português][wiki]: as 18 palavras mais características do artigo, por TF-IDF |
 | **proibidas** | o cruzamento de duas listas feitas às cegas com essas candidatas — veja [REVISOR.md](REVISOR.md) |
 | **sentido** | Wikidata: a descrição curta, que diz de qual acepção a carta fala |
-| **dificuldade** | FrequencyWords: a posição da palavra-chave na lista de frequência |
+| **dificuldade** | FrequencyWords: a posição da palavra-chave na lista de frequência — `fácil` até a 1.200ª, `média` até a 3.500ª, `difícil` até a 9.000ª, `osso` daí pra baixo |
 
 "Mais característico" é TF-IDF: conta quanto a palavra aparece no artigo (com o
 primeiro parágrafo pesando o triplo) e desconta o quanto ela é banal — tanto no
@@ -92,15 +92,19 @@ palavra comum. Perde-se `PARIS` junto, e vale a troca.
 ## Refazer o baralho
 
 ```bash
-python3 gerador.py                 # 55 fáceis, 83 médias, 83 difíceis
+python3 gerador.py                 # quatro faixas, em partes iguais
 python3 gerador.py --cartas 400    # sobe o teto por faixa
 python3 gerador.py --sem-cache     # ignora cache/ e rebaixa tudo
 ```
 
-`--cartas` é teto **por faixa**, não total, e nunca se raspa mais de 70% de uma
-faixa. A faixa "fácil" é finita — só existem tantas palavras muito comuns —,
-então pedir mais cartas engorda "média" e "difícil", não "fácil". O fundo de uma
-faixa magra é justamente onde mora a carta ruim.
+`--cartas` é teto **por faixa**, não total. A faixa "fácil" é finita — só
+existem tantas palavras muito comuns —, então pedir mais cartas engorda as
+faixas de baixo, não ela. Sem revisão, nunca se raspa mais de 70% de uma faixa,
+porque o fundo de uma faixa magra é onde mora a carta ruim; com revisão o corte
+cai, já que o fundo passou por olho humano.
+
+O `paracritica.json` é a **fila da revisão**: sai ordenado com o que ainda não
+foi revisado primeiro, e o campo `revisada` diz o que falta.
 
 Saídas: `banco.json` (o que o jogo lê), `revisao.csv` (uma linha por carta, pra
 conferir com o olho) e `relatorio.txt` (o que caiu e por quê). O `cache/` guarda

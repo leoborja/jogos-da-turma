@@ -115,7 +115,8 @@ vadia puta putas piranha vagabunda cadela biscate rapariga
 caralho porra buceta cu cuzao foda fodido merda bosta viado bicha
 sapatao traveco crioulo macaco preta retardado mongoloide aleijado
 suicidio estupro estuprador pedofilia aborto incesto
-overdose heroina cocaina maconha crack baseado
+overdose heroina cocaina maconha crack baseado metanfetamina
+prostituicao prostituta bordel genocidio holocausto herpes gonorreia sifilis
 penis vagina vulva clitoris testiculo esperma orgasmo masturbacao
 sexo lesbica gay heterossexual travesti transexual
 """.split())

@@ -1,7 +1,1393 @@
 {
- "revisado_em": "2026-09-04",
+ "revisado_em": "2026-09-05",
  "metodo": "Duas listas feitas às cegas — uma de quem descreveria, uma de associação livre — cruzadas por um terceiro revisor, que também viu as candidatas do artigo da Wikipédia e anotou quais das cinco escolhidas aparecem lá.",
  "cartas": {
+  "BATALHA": {
+   "proibidas": [
+    "GUERRA",
+    "EXÉRCITO",
+    "SOLDADO",
+    "CAMPO",
+    "ESTRATÉGIA"
+   ],
+   "no_artigo": [
+    "GUERRA",
+    "ESTRATÉGIA"
+   ]
+  },
+  "JUSTIÇA": {
+   "proibidas": [
+    "DIREITO",
+    "LEI",
+    "JUIZ",
+    "TRIBUNAL",
+    "EQUILÍBRIO"
+   ],
+   "no_artigo": [
+    "DIREITO",
+    "EQUILÍBRIO"
+   ]
+  },
+  "PESO": {
+   "proibidas": [
+    "GRAVIDADE",
+    "MASSA",
+    "QUILO",
+    "BALANÇA",
+    "CORPO"
+   ],
+   "no_artigo": [
+    "GRAVIDADE",
+    "MASSA",
+    "CORPO"
+   ]
+  },
+  "INTELIGÊNCIA": {
+   "proibidas": [
+    "CÉREBRO",
+    "ESPERTO",
+    "RACIOCÍNIO",
+    "APRENDER",
+    "GÊNIO"
+   ],
+   "no_artigo": []
+  },
+  "ACADEMIA": {
+   "proibidas": [
+    "CIÊNCIA",
+    "INSTITUIÇÃO",
+    "UNIVERSIDADE",
+    "MEMBRO",
+    "DIPLOMA"
+   ],
+   "no_artigo": [
+    "CIÊNCIA"
+   ],
+   "nota": "consenso fraco: só CIÊNCIA saiu nas duas listas cegas. O descritor imaginou uma academia tipo sociedade científica (cadeira, membro, eleição, prêmio), o associador imaginou universidade (faculdade, professor, aula, diploma) — as duas leituras cabem no sentido dado, então a carta cobre as duas"
+  },
+  "VIDRO": {
+   "proibidas": [
+    "TRANSPARENTE",
+    "JANELA",
+    "QUEBRAR",
+    "GARRAFA",
+    "AREIA"
+   ],
+   "no_artigo": [
+    "AREIA"
+   ]
+  },
+  "MORAL": {
+   "proibidas": [
+    "CERTO",
+    "ERRADO",
+    "ÉTICA",
+    "CONSCIÊNCIA",
+    "RELIGIÃO"
+   ],
+   "no_artigo": [
+    "ÉTICA",
+    "CONSCIÊNCIA",
+    "RELIGIÃO"
+   ]
+  },
+  "SUOR": {
+   "proibidas": [
+    "PELE",
+    "GLÂNDULA",
+    "CALOR",
+    "EXERCÍCIO",
+    "CHEIRO"
+   ],
+   "no_artigo": [
+    "PELE",
+    "CALOR",
+    "EXERCÍCIO"
+   ]
+  },
+  "BATALHÃO": {
+   "proibidas": [
+    "EXÉRCITO",
+    "REGIMENTO",
+    "SOLDADO",
+    "COMANDANTE",
+    "GUERRA"
+   ],
+   "no_artigo": [
+    "EXÉRCITO",
+    "REGIMENTO"
+   ]
+  },
+  "FINANÇAS": {
+   "proibidas": [
+    "DINHEIRO",
+    "INVESTIMENTO",
+    "BANCO",
+    "MERCADO",
+    "ECONOMIA"
+   ],
+   "no_artigo": [
+    "DINHEIRO",
+    "INVESTIMENTO"
+   ]
+  },
+  "PÓLVORA": {
+   "proibidas": [
+    "EXPLOSÃO",
+    "ARMA",
+    "FOGO",
+    "CHINA",
+    "CANHÃO"
+   ],
+   "no_artigo": [
+    "ARMA",
+    "FOGO"
+   ]
+  },
+  "ENTRETENIMENTO": {
+   "proibidas": [
+    "DIVERSÃO",
+    "PÚBLICO",
+    "TELEVISÃO",
+    "CINEMA",
+    "MÚSICA"
+   ],
+   "no_artigo": [
+    "PÚBLICO",
+    "TELEVISÃO",
+    "CINEMA",
+    "MÚSICA"
+   ]
+  },
+  "ELÉTRICO": {
+   "proibidas": [
+    "BONDE",
+    "TRILHO",
+    "LISBOA",
+    "TRANSPORTE",
+    "CIDADE"
+   ],
+   "no_artigo": [
+    "TRILHO",
+    "TRANSPORTE"
+   ],
+   "nota": "sentido é o bonde/elétrico de Lisboa, não o adjetivo 'elétrico'. As duas listas cegas bateram literalmente em bonde, trilho, lisboa, transporte e cidade — sinal forte de que a mesa reconhece essa acepção"
+  },
+  "SÓLIDO": {
+   "proibidas": [
+    "LÍQUIDO",
+    "GÁS",
+    "MATÉRIA",
+    "PEDRA",
+    "FORMA"
+   ],
+   "no_artigo": [
+    "MATÉRIA"
+   ]
+  },
+  "REGIMENTO": {
+   "proibidas": [
+    "EXÉRCITO",
+    "BATALHÃO",
+    "CORONEL",
+    "QUARTEL",
+    "FARDA"
+   ],
+   "no_artigo": [
+    "EXÉRCITO",
+    "BATALHÃO",
+    "CORONEL"
+   ]
+  },
+  "BOMBEIRO": {
+   "proibidas": [
+    "INCÊNDIO",
+    "MANGUEIRA",
+    "RESGATE",
+    "CAMINHÃO",
+    "HERÓI"
+   ],
+   "no_artigo": [
+    "INCÊNDIO",
+    "RESGATE"
+   ]
+  },
+  "HOSPITALIDADE": {
+   "proibidas": [
+    "GENTILEZA",
+    "ANFITRIÃO",
+    "RECEBER",
+    "HÓSPEDE",
+    "HOTEL"
+   ],
+   "no_artigo": [
+    "GENTILEZA",
+    "HÓSPEDE",
+    "HOTEL"
+   ]
+  },
+  "MARKETING": {
+   "proibidas": [
+    "PUBLICIDADE",
+    "CLIENTE",
+    "PRODUTO",
+    "CAMPANHA",
+    "MERCADO"
+   ],
+   "no_artigo": [
+    "PUBLICIDADE",
+    "CLIENTE",
+    "PRODUTO"
+   ]
+  },
+  "CHICOTE": {
+   "proibidas": [
+    "COURO",
+    "CORDA",
+    "DOR",
+    "ESCRAVO",
+    "DOMADOR"
+   ],
+   "no_artigo": [
+    "COURO",
+    "CORDA"
+   ]
+  },
+  "PROSTITUIÇÃO": {
+   "proibidas": [
+    "SEXO",
+    "DINHEIRO",
+    "RUA",
+    "CAFETÃO",
+    "CLIENTE"
+   ],
+   "no_artigo": [
+    "DINHEIRO",
+    "CLIENTE"
+   ],
+   "nota": "CLIENTE só apareceu no descritor, não no associador; entra porque as candidatas do artigo confirmam e a rota (quem paga) fica sem outra palavra que a feche"
+  },
+  "CORVO": {
+   "proibidas": [
+    "PRETO",
+    "AVE",
+    "AGOURO",
+    "PENA",
+    "GRASNAR"
+   ],
+   "no_artigo": []
+  },
+  "PONTUAÇÃO": {
+   "proibidas": [
+    "VÍRGULA",
+    "TRAVESSÃO",
+    "GRAMÁTICA",
+    "FRASE",
+    "ORAÇÃO"
+   ],
+   "no_artigo": [
+    "FRASE",
+    "ORAÇÃO"
+   ]
+  },
+  "PROTEÍNA": {
+   "proibidas": [
+    "MÚSCULO",
+    "AMINOÁCIDO",
+    "NUTRIENTE",
+    "CARNE",
+    "OVO"
+   ],
+   "no_artigo": [
+    "MÚSCULO",
+    "CARNE",
+    "OVO"
+   ]
+  },
+  "RELÂMPAGO": {
+   "proibidas": [
+    "LUZ",
+    "RAIO",
+    "TROVÃO",
+    "TEMPESTADE",
+    "RÁPIDO"
+   ],
+   "no_artigo": [
+    "RAIO",
+    "TROVÃO"
+   ]
+  },
+  "MARATONA": {
+   "proibidas": [
+    "CORRIDA",
+    "ATLETA",
+    "QUILÔMETRO",
+    "MEDALHA",
+    "TREINO"
+   ],
+   "no_artigo": []
+  },
+  "MARECHAL": {
+   "proibidas": [
+    "PATENTE",
+    "GENERAL",
+    "EXÉRCITO",
+    "FARDA",
+    "CONDECORAÇÃO"
+   ],
+   "no_artigo": [
+    "GENERAL"
+   ]
+  },
+  "PADARIA": {
+   "proibidas": [
+    "PÃO",
+    "FORNO",
+    "BOLO",
+    "DOCE",
+    "FARINHA"
+   ],
+   "no_artigo": [
+    "FORNO",
+    "BOLO",
+    "FARINHA"
+   ],
+   "nota": "FARINHA só apareceu no associador, não no descritor; entra porque o artigo confirma e fecha a rota do ingrediente, que as outras quatro não cobrem"
+  },
+  "ESPAGUETE": {
+   "proibidas": [
+    "MACARRÃO",
+    "MOLHO",
+    "TOMATE",
+    "GARFO",
+    "ALMÔNDEGA"
+   ],
+   "no_artigo": [
+    "MACARRÃO",
+    "TOMATE"
+   ]
+  },
+  "ESFERA": {
+   "proibidas": [
+    "BOLA",
+    "CENTRO",
+    "RAIO",
+    "REDONDO",
+    "PLANETA"
+   ],
+   "no_artigo": [
+    "BOLA",
+    "CENTRO",
+    "RAIO"
+   ]
+  },
+  "AGRICULTURA": {
+   "proibidas": [
+    "FAZENDA",
+    "COLHEITA",
+    "TERRA",
+    "TRATOR",
+    "SEMENTE"
+   ],
+   "no_artigo": []
+  },
+  "PROTÓTIPO": {
+   "proibidas": [
+    "MODELO",
+    "TESTE",
+    "INVENÇÃO",
+    "VERSÃO",
+    "PROJETO"
+   ],
+   "no_artigo": [
+    "TESTE",
+    "PROJETO"
+   ]
+  },
+  "VIBRAÇÃO": {
+   "proibidas": [
+    "CELULAR",
+    "FREQUÊNCIA",
+    "ENERGIA",
+    "ONDA",
+    "SOM"
+   ],
+   "no_artigo": [
+    "ENERGIA"
+   ]
+  },
+  "PATENTE": {
+   "proibidas": [
+    "INVENÇÃO",
+    "DIREITO",
+    "INVENTOR",
+    "EXCLUSIVIDADE",
+    "ESCRITÓRIO"
+   ],
+   "no_artigo": [
+    "INVENÇÃO",
+    "DIREITO"
+   ]
+  },
+  "FORCA": {
+   "proibidas": [
+    "CORDA",
+    "PESCOÇO",
+    "EXECUÇÃO",
+    "CADAFALSO",
+    "LAÇO"
+   ],
+   "no_artigo": [
+    "CORDA",
+    "PESCOÇO",
+    "EXECUÇÃO"
+   ]
+  },
+  "DINÂMICA": {
+   "proibidas": [
+    "FÍSICA",
+    "FORÇA",
+    "MOVIMENTO",
+    "NEWTON",
+    "MECÂNICA"
+   ],
+   "no_artigo": [
+    "FÍSICA",
+    "FORÇA",
+    "MOVIMENTO"
+   ]
+  },
+  "ANIMAÇÃO": {
+   "proibidas": [
+    "DESENHO",
+    "FILME",
+    "PERSONAGEM",
+    "DISNEY",
+    "CRIANÇA"
+   ],
+   "no_artigo": [
+    "DESENHO",
+    "FILME"
+   ],
+   "nota": "consenso deu 6 palavras (também PIXAR); ficou com DISNEY, equivalente e mais genérico"
+  },
+  "FINANCIAMENTO": {
+   "proibidas": [
+    "BANCO",
+    "EMPRÉSTIMO",
+    "JUROS",
+    "CRÉDITO",
+    "CARRO"
+   ],
+   "no_artigo": [
+    "EMPRÉSTIMO"
+   ]
+  },
+  "PNEUMONIA": {
+   "proibidas": [
+    "PULMÃO",
+    "TOSSE",
+    "FEBRE",
+    "HOSPITAL",
+    "RESPIRAR"
+   ],
+   "no_artigo": [
+    "TOSSE",
+    "FEBRE",
+    "HOSPITAL"
+   ]
+  },
+  "ASMA": {
+   "proibidas": [
+    "BOMBINHA",
+    "INALADOR",
+    "ALERGIA",
+    "PULMÃO",
+    "CRIANÇA"
+   ],
+   "no_artigo": []
+  },
+  "COMPOSITOR": {
+   "proibidas": [
+    "MÚSICA",
+    "CANÇÃO",
+    "LETRA",
+    "MELODIA",
+    "ARTISTA"
+   ],
+   "no_artigo": [
+    "MÚSICA",
+    "CANÇÃO",
+    "LETRA",
+    "ARTISTA"
+   ],
+   "nota": "consenso deu só 4 (música, canção, letra, melodia); ARTISTA veio do descritor sozinho, confirmado pelo artigo"
+  },
+  "OMELETE": {
+   "proibidas": [
+    "OVO",
+    "FRIGIDEIRA",
+    "QUEIJO",
+    "MANTEIGA",
+    "CAFÉ"
+   ],
+   "no_artigo": [
+    "OVO",
+    "QUEIJO",
+    "MANTEIGA"
+   ]
+  },
+  "MUÇULMANO": {
+   "proibidas": [
+    "ISLÃ",
+    "ALÁ",
+    "MESQUITA",
+    "MECA",
+    "ORAÇÃO"
+   ],
+   "no_artigo": [
+    "ORAÇÃO"
+   ],
+   "nota": "ORAÇÃO veio como 'orar' (descritor) e 'oração' (associador) - mesma ideia, formas diferentes"
+  },
+  "CRISTIANISMO": {
+   "proibidas": [
+    "JESUS",
+    "IGREJA",
+    "BÍBLIA",
+    "CRUZ",
+    "CATÓLICO"
+   ],
+   "no_artigo": [
+    "CRUZ"
+   ]
+  },
+  "QUEIMADURA": {
+   "proibidas": [
+    "FOGO",
+    "PELE",
+    "SOL",
+    "BOLHA",
+    "DOR"
+   ],
+   "no_artigo": [
+    "FOGO",
+    "PELE",
+    "BOLHA"
+   ]
+  },
+  "METANFETAMINA": {
+   "proibidas": [
+    "DROGA",
+    "CRISTAL",
+    "LABORATÓRIO",
+    "DEPENDÊNCIA",
+    "QUÍMICA"
+   ],
+   "no_artigo": [
+    "DROGA",
+    "CRISTAL",
+    "QUÍMICA"
+   ]
+  },
+  "EXTORSÃO": {
+   "proibidas": [
+    "AMEAÇA",
+    "CHANTAGEM",
+    "CRIME",
+    "DINHEIRO",
+    "VÍTIMA"
+   ],
+   "no_artigo": [
+    "AMEAÇA",
+    "CRIME",
+    "DINHEIRO",
+    "VÍTIMA"
+   ]
+  },
+  "ALFÂNDEGA": {
+   "proibidas": [
+    "FRONTEIRA",
+    "AEROPORTO",
+    "TAXA",
+    "FISCAL",
+    "CONTRABANDO"
+   ],
+   "no_artigo": [
+    "FRONTEIRA",
+    "TAXA"
+   ],
+   "nota": "consenso deu 7 palavras (incluindo imposto e passaporte); troquei imposto por taxa, mesma ideia e confirmada pelo artigo"
+  },
+  "SEREIA": {
+   "proibidas": [
+    "CAUDA",
+    "PEIXE",
+    "MAR",
+    "ARIEL",
+    "CANTO"
+   ],
+   "no_artigo": [
+    "PEIXE"
+   ]
+  },
+  "GRADUAÇÃO": {
+   "proibidas": [
+    "FACULDADE",
+    "CURSO",
+    "DIPLOMA",
+    "BACHAREL",
+    "VESTIBULAR"
+   ],
+   "no_artigo": [
+    "CURSO"
+   ]
+  },
+  "VÁCUO": {
+   "proibidas": [
+    "ESPAÇO",
+    "VAZIO",
+    "PRESSÃO",
+    "ASPIRADOR",
+    "LUA"
+   ],
+   "no_artigo": [
+    "PRESSÃO"
+   ]
+  },
+  "DOCA": {
+   "proibidas": [
+    "PORTO",
+    "CAIS",
+    "NAVIO",
+    "MAR",
+    "GUINDASTE"
+   ],
+   "no_artigo": [
+    "PORTO",
+    "CAIS",
+    "NAVIO"
+   ]
+  },
+  "PARAFUSO": {
+   "proibidas": [
+    "FERRAMENTA",
+    "ROSCA",
+    "MADEIRA",
+    "METAL",
+    "PREGO"
+   ],
+   "no_artigo": [
+    "FERRAMENTA"
+   ]
+  },
+  "TRIBUTO": {
+   "proibidas": [
+    "IMPOSTO",
+    "REI",
+    "VASSALO",
+    "COROA",
+    "HOMENAGEM"
+   ],
+   "no_artigo": [
+    "IMPOSTO"
+   ],
+   "nota": "sentido é o tributo histórico/feudal (pagamento por submissão), não a homenagem cultural moderna ('banda tributo'); mesa conhece pela história"
+  },
+  "BIQUÍNI": {
+   "proibidas": [
+    "PRAIA",
+    "VERÃO",
+    "MODA",
+    "CORPO",
+    "MAIÔ"
+   ],
+   "no_artigo": [
+    "PRAIA",
+    "MODA"
+   ]
+  },
+  "MUTAÇÃO": {
+   "proibidas": [
+    "DNA",
+    "GENÉTICA",
+    "EVOLUÇÃO",
+    "RADIAÇÃO",
+    "X-MEN"
+   ],
+   "no_artigo": [
+    "GENÉTICA",
+    "EVOLUÇÃO",
+    "RADIAÇÃO"
+   ]
+  },
+  "MEDITAÇÃO": {
+   "proibidas": [
+    "MONGE",
+    "IOGA",
+    "CALMA",
+    "SILÊNCIO",
+    "BUDISMO"
+   ],
+   "no_artigo": [
+    "SILÊNCIO"
+   ]
+  },
+  "GURU": {
+   "proibidas": [
+    "MESTRE",
+    "ÍNDIA",
+    "SÁBIO",
+    "DISCÍPULO",
+    "ESPIRITUAL"
+   ],
+   "no_artigo": [
+    "MESTRE",
+    "ESPIRITUAL"
+   ]
+  },
+  "RACISMO": {
+   "proibidas": [
+    "PRECONCEITO",
+    "COR",
+    "NEGRO",
+    "ESCRAVIDÃO",
+    "ÓDIO"
+   ],
+   "no_artigo": []
+  },
+  "DRÁCULA": {
+   "proibidas": [
+    "VAMPIRO",
+    "SANGUE",
+    "TRANSILVÂNIA",
+    "PRESAS",
+    "CAPA"
+   ],
+   "no_artigo": [
+    "VAMPIRO"
+   ],
+   "nota": "sentido do artigo é o romance de 1897, mas as duas listas cegas descreveram o mito/personagem - a mesa reconhece do mesmo jeito"
+  },
+  "LÚCIFER": {
+   "proibidas": [
+    "DIABO",
+    "ANJO",
+    "QUEDA",
+    "CHIFRE",
+    "VÊNUS"
+   ],
+   "no_artigo": [
+    "DIABO"
+   ]
+  },
+  "ECLIPSE": {
+   "proibidas": [
+    "SOL",
+    "LUA",
+    "SOMBRA",
+    "TERRA",
+    "ASTRONOMIA"
+   ],
+   "no_artigo": [
+    "SOMBRA"
+   ]
+  },
+  "REVIRAVOLTA": {
+   "proibidas": [
+    "SURPRESA",
+    "FINAL",
+    "FILME",
+    "ROTEIRO",
+    "CHOQUE"
+   ],
+   "no_artigo": [
+    "SURPRESA",
+    "FINAL"
+   ]
+  },
+  "MÁRTIR": {
+   "proibidas": [
+    "CAUSA",
+    "RELIGIÃO",
+    "SACRIFÍCIO",
+    "PERSEGUIÇÃO",
+    "SANTO"
+   ],
+   "no_artigo": [
+    "CAUSA",
+    "RELIGIÃO",
+    "PERSEGUIÇÃO"
+   ]
+  },
+  "DECOLAGEM": {
+   "proibidas": [
+    "AVIÃO",
+    "PISTA",
+    "AEROPORTO",
+    "MOTOR",
+    "PILOTO"
+   ],
+   "no_artigo": [
+    "AVIÃO",
+    "PISTA",
+    "MOTOR",
+    "PILOTO"
+   ],
+   "nota": "só 3 no consenso exato (avião, pista, aeroporto); motor e piloto vieram do descritor, confirmados pelo artigo"
+  },
+  "CAMUFLAGEM": {
+   "proibidas": [
+    "ESCONDER",
+    "EXÉRCITO",
+    "VERDE",
+    "UNIFORME",
+    "DISFARCE"
+   ],
+   "no_artigo": [
+    "VERDE",
+    "UNIFORME"
+   ]
+  },
+  "KARAOKÊ": {
+   "proibidas": [
+    "CANTAR",
+    "MICROFONE",
+    "TELA",
+    "LETRA",
+    "BAR"
+   ],
+   "no_artigo": [
+    "MICROFONE",
+    "TELA",
+    "BAR"
+   ]
+  },
+  "ESCALADA": {
+   "proibidas": [
+    "MONTANHA",
+    "CORDA",
+    "ROCHA",
+    "PAREDE",
+    "ALTURA"
+   ],
+   "no_artigo": [
+    "MONTANHA",
+    "CORDA",
+    "ROCHA"
+   ]
+  },
+  "SUSPENSE": {
+   "proibidas": [
+    "TENSÃO",
+    "MEDO",
+    "FILME",
+    "MISTÉRIO",
+    "ROTEIRO"
+   ],
+   "no_artigo": [
+    "TENSÃO",
+    "FILME",
+    "ROTEIRO"
+   ]
+  },
+  "CADETE": {
+   "proibidas": [
+    "EXÉRCITO",
+    "QUARTEL",
+    "ALUNO",
+    "FARDA",
+    "OFICIAL"
+   ],
+   "no_artigo": [
+    "ALUNO",
+    "OFICIAL"
+   ]
+  },
+  "QUIMIOTERAPIA": {
+   "proibidas": [
+    "CÂNCER",
+    "HOSPITAL",
+    "CABELO",
+    "VEIA",
+    "ENJOO"
+   ],
+   "no_artigo": [
+    "CÂNCER"
+   ]
+  },
+  "ADOLESCÊNCIA": {
+   "proibidas": [
+    "PUBERDADE",
+    "HORMÔNIO",
+    "ESPINHA",
+    "MUDANÇA",
+    "REBELDIA"
+   ],
+   "no_artigo": [
+    "MUDANÇA"
+   ],
+   "nota": "REBELDIA só aparece no associador ('rebeldia'); descritor tem 'rebelde', mesma ideia em outra forma"
+  },
+  "BESOURO": {
+   "proibidas": [
+    "INSETO",
+    "ASA",
+    "VOAR",
+    "CASCO",
+    "ESTERCO"
+   ],
+   "no_artigo": [
+    "INSETO",
+    "ASA"
+   ]
+  },
+  "CALDO": {
+   "proibidas": [
+    "SOPA",
+    "GALINHA",
+    "OSSO",
+    "PANELA",
+    "COZINHAR"
+   ],
+   "no_artigo": [
+    "SOPA",
+    "GALINHA",
+    "OSSO",
+    "PANELA"
+   ],
+   "nota": "as duas listas cegas bateram em 6 (também tempero); tirei tempero por ser ingrediente genérico demais, osso e galinha já fecham a rota de ingrediente"
+  },
+  "RESSENTIMENTO": {
+   "proibidas": [
+    "RANCOR",
+    "RAIVA",
+    "REMOER",
+    "VINGANÇA",
+    "GUARDAR"
+   ],
+   "no_artigo": [
+    "RANCOR",
+    "RAIVA"
+   ],
+   "nota": "consenso deu 6 (também mágoa); mágoa e rancor são quase a mesma rota de sinônimo, fiquei com rancor por estar no artigo"
+  },
+  "ANATOMIA": {
+   "proibidas": [
+    "CORPO",
+    "ÓRGÃO",
+    "ESQUELETO",
+    "MÚSCULO",
+    "MEDICINA"
+   ],
+   "no_artigo": [
+    "CORPO"
+   ]
+  },
+  "POLUIÇÃO": {
+   "proibidas": [
+    "SUJEIRA",
+    "AR",
+    "FUMAÇA",
+    "LIXO",
+    "PLANETA"
+   ],
+   "no_artigo": [
+    "PLANETA"
+   ]
+  },
+  "HERPES": {
+   "proibidas": [
+    "BOLHA",
+    "VÍRUS",
+    "FERIDA",
+    "LÁBIO",
+    "BOCA"
+   ],
+   "no_artigo": [
+    "BOLHA",
+    "VÍRUS",
+    "BOCA"
+   ]
+  },
+  "APAGÃO": {
+   "proibidas": [
+    "LUZ",
+    "ENERGIA",
+    "CORTE",
+    "VELA",
+    "ESCURO"
+   ],
+   "no_artigo": [
+    "ENERGIA",
+    "CORTE"
+   ]
+  },
+  "CRÍQUETE": {
+   "proibidas": [
+    "TACO",
+    "BOLA",
+    "ÍNDIA",
+    "CAMPO",
+    "TIME"
+   ],
+   "no_artigo": [
+    "TACO",
+    "BOLA",
+    "CAMPO",
+    "TIME"
+   ],
+   "nota": "consenso cego deu só 4 (taco, bola, índia, campo); time veio do descritor e também está no artigo, fecha a rota de categoria (esporte de equipe)"
+  },
+  "APERITIVO": {
+   "proibidas": [
+    "ENTRADA",
+    "PETISCO",
+    "APETITE",
+    "COQUETEL",
+    "QUEIJO"
+   ],
+   "no_artigo": [
+    "APETITE",
+    "COQUETEL",
+    "QUEIJO"
+   ],
+   "nota": "consenso cego deu só entrada e petisco; descritor pensou em prato, associador pensou em bebida — completei com apetite (descritor+artigo) e coquetel/queijo (associador+artigo) pra cobrir as duas rotas que a palavra realmente tem"
+  },
+  "ÁTOMO": {
+   "proibidas": [
+    "ELÉTRON",
+    "PRÓTON",
+    "NÊUTRON",
+    "NÚCLEO",
+    "MINÚSCULO"
+   ],
+   "no_artigo": [
+    "NÚCLEO"
+   ]
+  },
+  "ROSQUINHA": {
+   "proibidas": [
+    "BURACO",
+    "AÇÚCAR",
+    "CHOCOLATE",
+    "PADARIA",
+    "DOCE"
+   ],
+   "no_artigo": [
+    "BURACO",
+    "AÇÚCAR",
+    "CHOCOLATE",
+    "DOCE"
+   ]
+  },
+  "GENOCÍDIO": {
+   "proibidas": [
+    "JUDEU",
+    "NAZISTA",
+    "CRIME",
+    "ETNIA",
+    "EXTERMÍNIO"
+   ],
+   "no_artigo": [
+    "JUDEU",
+    "CRIME"
+   ],
+   "nota": "judeu e nazista não são resíduo de seção histórica aqui — as duas listas cegas os deram de forma central, é a primeira associação que qualquer um faria"
+  },
+  "FURTO": {
+   "proibidas": [
+    "LADRÃO",
+    "BOLSO",
+    "LOJA",
+    "POLÍCIA",
+    "CRIME"
+   ],
+   "no_artigo": [
+    "CRIME"
+   ]
+  },
+  "COIOTE": {
+   "proibidas": [
+    "UIVAR",
+    "DESERTO",
+    "LOBO",
+    "SELVAGEM",
+    "AMÉRICA"
+   ],
+   "no_artigo": [
+    "LOBO"
+   ]
+  },
+  "INDENIZAÇÃO": {
+   "proibidas": [
+    "DANO",
+    "PROCESSO",
+    "SEGURO",
+    "ACIDENTE",
+    "DINHEIRO"
+   ],
+   "no_artigo": [
+    "DANO"
+   ]
+  },
+  "PSIQUIATRIA": {
+   "proibidas": [
+    "TRANSTORNO",
+    "MENTE",
+    "HOSPITAL",
+    "REMÉDIO",
+    "DEPRESSÃO"
+   ],
+   "no_artigo": [
+    "HOSPITAL",
+    "DEPRESSÃO"
+   ]
+  },
+  "MERCEARIA": {
+   "proibidas": [
+    "BAIRRO",
+    "DONO",
+    "FIADO",
+    "ESQUINA",
+    "MERCADO"
+   ],
+   "no_artigo": [
+    "DONO",
+    "ESQUINA"
+   ],
+   "nota": "mercado tem raiz próxima mas é palavra própria (loja maior/genérica), não é derivado direto de mercearia como seria 'mercadinho'"
+  },
+  "CÓLERA": {
+   "proibidas": [
+    "DIARREIA",
+    "ÁGUA",
+    "VÔMITO",
+    "EPIDEMIA",
+    "DESIDRATAÇÃO"
+   ],
+   "no_artigo": [
+    "ÁGUA"
+   ]
+  },
+  "LOBBY": {
+   "proibidas": [
+    "POLÍTICO",
+    "INFLUÊNCIA",
+    "PRESSÃO",
+    "CORRUPÇÃO",
+    "CONGRESSO"
+   ],
+   "no_artigo": [
+    "POLÍTICO",
+    "INFLUÊNCIA",
+    "PRESSÃO",
+    "CORRUPÇÃO"
+   ],
+   "nota": "troquei interesse (consenso, no artigo) por congresso (consenso, fora do artigo) — congresso fecha uma rota de cenário mais específica que interesse, que é genérico demais"
+  },
+  "HEMATOMA": {
+   "proibidas": [
+    "ROXO",
+    "MACHUCADO",
+    "SANGUE",
+    "PELE",
+    "GALO"
+   ],
+   "no_artigo": [
+    "ROXO",
+    "SANGUE",
+    "PELE",
+    "GALO"
+   ]
+  },
+  "FARMACÊUTICO": {
+   "proibidas": [
+    "REMÉDIO",
+    "BALCÃO",
+    "RECEITA",
+    "JALECO",
+    "PROFISSÃO"
+   ],
+   "no_artigo": [
+    "PROFISSÃO"
+   ],
+   "nota": "farmácia estava no consenso cego mas é derivado direto de farmacêutico (mesma raiz, já proibido pela regra do jogo); completei com profissão, que também está no artigo"
+  },
+  "JACARÉ": {
+   "proibidas": [
+    "RÉPTIL",
+    "RIO",
+    "DENTE",
+    "PÂNTANO",
+    "COURO"
+   ],
+   "no_artigo": [
+    "COURO"
+   ]
+  },
+  "MALÁRIA": {
+   "proibidas": [
+    "MOSQUITO",
+    "PICADA",
+    "FEBRE",
+    "CALAFRIO",
+    "ÁFRICA"
+   ],
+   "no_artigo": [
+    "FEBRE"
+   ]
+  },
+  "LEUCEMIA": {
+   "proibidas": [
+    "CÂNCER",
+    "SANGUE",
+    "MEDULA",
+    "QUIMIOTERAPIA",
+    "TRANSPLANTE"
+   ],
+   "no_artigo": [
+    "SANGUE"
+   ]
+  },
+  "ÁRBITRO": {
+   "proibidas": [
+    "APITO",
+    "FUTEBOL",
+    "CAMPO",
+    "JUIZ",
+    "BANDEIRA"
+   ],
+   "no_artigo": [
+    "FUTEBOL",
+    "JUIZ"
+   ]
+  },
+  "TUBERCULOSE": {
+   "proibidas": [
+    "PULMÃO",
+    "TOSSE",
+    "SANGUE",
+    "FEBRE",
+    "DOENÇA"
+   ],
+   "no_artigo": [
+    "TOSSE",
+    "SANGUE",
+    "FEBRE",
+    "DOENÇA"
+   ]
+  },
+  "PARADOXO": {
+   "proibidas": [
+    "CONTRADIÇÃO",
+    "LÓGICA",
+    "MENTIROSO",
+    "TEMPO",
+    "VIAGEM"
+   ],
+   "no_artigo": [
+    "LÓGICA",
+    "MENTIROSO",
+    "TEMPO",
+    "VIAGEM"
+   ],
+   "nota": "consenso cego deu só 3 (contradição, lógica, mentiroso); tempo e viagem vieram do associador e também do artigo, apontam pro paradoxo do avô/viagem no tempo, exemplo clássico"
+  },
+  "COMPUTAÇÃO": {
+   "proibidas": [
+    "CÓDIGO",
+    "SOFTWARE",
+    "TECNOLOGIA",
+    "ENGENHARIA",
+    "SISTEMA"
+   ],
+   "no_artigo": [
+    "SOFTWARE",
+    "TECNOLOGIA",
+    "ENGENHARIA"
+   ],
+   "nota": "computador estava no consenso cego mas é derivado direto de computação (mesma raiz 'comput-'); completei com sistema, que está na própria definição do sentido"
+  },
+  "PROPULSÃO": {
+   "proibidas": [
+    "MOTOR",
+    "FORÇA",
+    "FOGUETE",
+    "AVIÃO",
+    "TURBINA"
+   ],
+   "no_artigo": [
+    "MOTOR",
+    "FORÇA",
+    "AVIÃO"
+   ]
+  },
+  "ÍCONE": {
+   "proibidas": [
+    "ORTODOXO",
+    "IGREJA",
+    "SANTO",
+    "IMAGEM",
+    "MADEIRA"
+   ],
+   "no_artigo": [
+    "IMAGEM",
+    "MADEIRA"
+   ],
+   "nota": "o sentido diz 'Cristianismo Ocidental' mas as duas listas cegas apontaram ortodoxo (tradição oriental) — não corrigi o sentido, só segui o que as listas realmente descreveriam"
+  },
+  "PUBERDADE": {
+   "proibidas": [
+    "CORPO",
+    "HORMÔNIO",
+    "VOZ",
+    "MENSTRUAÇÃO",
+    "ESPINHA"
+   ],
+   "no_artigo": [
+    "CORPO"
+   ]
+  },
+  "BULLYING": {
+   "proibidas": [
+    "ESCOLA",
+    "APELIDO",
+    "VÍTIMA",
+    "AGRESSÃO",
+    "HUMILHAR"
+   ],
+   "no_artigo": [
+    "ESCOLA"
+   ]
+  },
+  "PURGATÓRIO": {
+   "proibidas": [
+    "ALMA",
+    "INFERNO",
+    "CÉU",
+    "PECADO",
+    "FOGO"
+   ],
+   "no_artigo": [
+    "ALMA",
+    "INFERNO",
+    "FOGO"
+   ]
+  },
+  "INFORMÁTICA": {
+   "proibidas": [
+    "COMPUTADOR",
+    "CURSO",
+    "TECNOLOGIA",
+    "SISTEMA",
+    "INTERNET"
+   ],
+   "no_artigo": [
+    "COMPUTADOR",
+    "TECNOLOGIA"
+   ]
+  },
   "VIDA": {
    "proibidas": [
     "MORTE",
@@ -41,8 +1427,7 @@
     "BEIJO"
    ],
    "no_artigo": [
-    "PAIXÃO",
-    "CARINHO"
+    "PAIXÃO"
    ]
   },
   "MEDO": {
@@ -115,9 +1500,7 @@
     "GUERRA",
     "MATAR"
    ],
-   "no_artigo": [
-    "GUERRA"
-   ],
+   "no_artigo": [],
    "nota": "troquei PISTOLA (consenso) por MATAR (só no descritor) — bala/revólver/pistola formavam três palavras da mesma rota de arma de fogo; MATAR fecha a rota de função que ficava aberta"
   },
   "GUERRA": {
@@ -130,8 +1513,7 @@
    ],
    "no_artigo": [
     "CONFLITO",
-    "MORTE",
-    "ARMA"
+    "MORTE"
    ],
    "nota": "consenso deu 7; cortei SOLDADO e EXÉRCITO (redundantes entre si) mantendo BATALHA e PAZ"
   },
@@ -1981,7 +3363,6 @@
    "no_artigo": [
     "BEBÊ",
     "HOSPITAL",
-    "DOR",
     "NASCIMENTO"
    ]
   },
@@ -2331,9 +3712,7 @@
     "CÁLCULO",
     "OBRA"
    ],
-   "no_artigo": [
-    "PROJETO"
-   ],
+   "no_artigo": [],
    "nota": "consenso forte (7 palavras batendo nas duas listas cegas); o artigo fala da profissão em abstrato e confirma só PROJETO."
   },
   "SINO": {
@@ -2359,8 +3738,7 @@
    "no_artigo": [
     "TEATRO",
     "ORQUESTRA",
-    "DRAMA",
-    "CANTAR"
+    "DRAMA"
    ]
   },
   "ORAÇÃO": {
@@ -2635,11 +4013,11 @@
     "ÂNCORA",
     "CAPITÃO",
     "POPEYE",
-    "OFICIAL"
+    "CONVÉS"
    ],
    "no_artigo": [
     "NAVIO",
-    "OFICIAL"
+    "CONVÉS"
    ]
   },
   "SANTUÁRIO": {
@@ -2796,6 +4174,8 @@
   }
  },
  "descartadas": {
+  "SUPERFÍCIE": "sentido dado é a definição matemática de topologia ('variedade bidimensional'). O descritor (que viu o sentido) foi nessa linha (topologia, dimensão), mas o associador — cego, livre — foi para o sentido cotidiano (mar, pele, terra, camada): é essa a acepção que a mesa realmente usa para SUPERFÍCIE, não a técnica",
+  "FUNK": "sentido é o gênero americano dos anos 1960 (James Brown, soul); o associador cego pensou em funk carioca (groove, carioca, dance) — a mesa brasileira pensaria primeiro no carioca, não no que o artigo descreve. Caso exemplar citado no REVISOR.md.",
   "LUTA": "acepção da carta restringe a luta com técnicas de agarramento (tipo judô/wrestling), mas o próprio descritor (às cegas) deu 'socar' e 'chutar' — golpes de mão e perna que não existem em luta de agarramento, são de luta com pancada (boxe/MMA). As duas cabeças não convergem na acepção específica; a mesa entende 'luta' de um jeito mais largo que o artigo escolheu, e não dá pra fechar a carta sem contradição.",
   "PASSEIO": "sentido é a acepção técnica/jurídica de 'calçada' (a faixa reservada a pedestres, como no Código de Trânsito), não o 'passeio' do dia a dia (passear, sair, dar uma volta) que a mesa conhece. As duas listas cegas só bateram nessa acepção porque foram informadas do sentido antes de descrever — não é isso que uma pessoa pensaria ao ler PASSEIO no cartão. Mesmo sentido problemático do CALADO/LANÇAMENTO citado no REVISOR.md.",
   "LANÇAMENTO": "acepção tributária (ato administrativo fiscal); a mesa conhece a palavra por lançamento de produto/álbum/foguete, não pelo sentido usado no artigo — as duas listas cegas só deram vocabulário de imposto/fisco",

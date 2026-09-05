@@ -1,0 +1,158 @@
+{
+ "lote": "fila-2",
+ "cartas": {
+  "ANIMAÇÃO": {
+   "proibidas": ["DESENHO", "FILME", "PERSONAGEM", "DISNEY", "CRIANÇA"],
+   "no_artigo": ["DESENHO", "FILME"],
+   "nota": "consenso deu 6 palavras (também PIXAR); ficou com DISNEY, equivalente e mais genérico"
+  },
+  "FINANCIAMENTO": {
+   "proibidas": ["BANCO", "EMPRÉSTIMO", "JUROS", "CRÉDITO", "CARRO"],
+   "no_artigo": ["EMPRÉSTIMO"]
+  },
+  "PNEUMONIA": {
+   "proibidas": ["PULMÃO", "TOSSE", "FEBRE", "HOSPITAL", "RESPIRAR"],
+   "no_artigo": ["HOSPITAL"]
+  },
+  "ASMA": {
+   "proibidas": ["BOMBINHA", "INALADOR", "ALERGIA", "PULMÃO", "CRIANÇA"],
+   "no_artigo": []
+  },
+  "COMPOSITOR": {
+   "proibidas": ["MÚSICA", "CANÇÃO", "LETRA", "MELODIA", "ARTISTA"],
+   "no_artigo": ["MÚSICA", "CANÇÃO", "LETRA", "ARTISTA"],
+   "nota": "consenso deu só 4 (música, canção, letra, melodia); ARTISTA veio do descritor sozinho, confirmado pelo artigo"
+  },
+  "OMELETE": {
+   "proibidas": ["OVO", "FRIGIDEIRA", "QUEIJO", "MANTEIGA", "CAFÉ"],
+   "no_artigo": ["OVO", "QUEIJO", "MANTEIGA"]
+  },
+  "MUÇULMANO": {
+   "proibidas": ["ISLÃ", "ALÁ", "MESQUITA", "MECA", "ORAÇÃO"],
+   "no_artigo": ["ORAÇÃO"],
+   "nota": "ORAÇÃO veio como 'orar' (descritor) e 'oração' (associador) - mesma ideia, formas diferentes"
+  },
+  "CRISTIANISMO": {
+   "proibidas": ["JESUS", "IGREJA", "BÍBLIA", "CRUZ", "CATÓLICO"],
+   "no_artigo": ["CRUZ"]
+  },
+  "QUEIMADURA": {
+   "proibidas": ["FOGO", "PELE", "SOL", "BOLHA", "DOR"],
+   "no_artigo": ["FOGO", "PELE", "BOLHA"]
+  },
+  "METANFETAMINA": {
+   "proibidas": ["DROGA", "CRISTAL", "LABORATÓRIO", "DEPENDÊNCIA", "QUÍMICA"],
+   "no_artigo": ["DROGA", "CRISTAL", "QUÍMICA"]
+  },
+  "EXTORSÃO": {
+   "proibidas": ["AMEAÇA", "CHANTAGEM", "CRIME", "DINHEIRO", "VÍTIMA"],
+   "no_artigo": ["CRIME", "VÍTIMA", "DINHEIRO", "AMEAÇA"]
+  },
+  "ALFÂNDEGA": {
+   "proibidas": ["FRONTEIRA", "AEROPORTO", "TAXA", "FISCAL", "CONTRABANDO"],
+   "no_artigo": ["FRONTEIRA", "TAXA"],
+   "nota": "consenso deu 7 palavras (incluindo imposto e passaporte); troquei imposto por taxa, mesma ideia e confirmada pelo artigo"
+  },
+  "SEREIA": {
+   "proibidas": ["CAUDA", "PEIXE", "MAR", "ARIEL", "CANTO"],
+   "no_artigo": ["PEIXE"]
+  },
+  "GRADUAÇÃO": {
+   "proibidas": ["FACULDADE", "CURSO", "DIPLOMA", "BACHAREL", "VESTIBULAR"],
+   "no_artigo": ["CURSO"]
+  },
+  "VÁCUO": {
+   "proibidas": ["ESPAÇO", "VAZIO", "PRESSÃO", "ASPIRADOR", "LUA"],
+   "no_artigo": ["PRESSÃO"]
+  },
+  "DOCA": {
+   "proibidas": ["PORTO", "CAIS", "NAVIO", "MAR", "GUINDASTE"],
+   "no_artigo": ["PORTO", "NAVIO", "CAIS"]
+  },
+  "PARAFUSO": {
+   "proibidas": ["FERRAMENTA", "ROSCA", "MADEIRA", "METAL", "PREGO"],
+   "no_artigo": ["FERRAMENTA"]
+  },
+  "TRIBUTO": {
+   "proibidas": ["IMPOSTO", "REI", "VASSALO", "COROA", "HOMENAGEM"],
+   "no_artigo": ["IMPOSTO"],
+   "nota": "sentido é o tributo histórico/feudal (pagamento por submissão), não a homenagem cultural moderna ('banda tributo'); mesa conhece pela história"
+  },
+  "BIQUÍNI": {
+   "proibidas": ["PRAIA", "VERÃO", "MODA", "CORPO", "MAIÔ"],
+   "no_artigo": ["MODA", "PRAIA"]
+  },
+  "MUTAÇÃO": {
+   "proibidas": ["DNA", "GENÉTICA", "EVOLUÇÃO", "RADIAÇÃO", "X-MEN"],
+   "no_artigo": ["EVOLUÇÃO", "GENÉTICA", "RADIAÇÃO"]
+  },
+  "MEDITAÇÃO": {
+   "proibidas": ["MONGE", "IOGA", "CALMA", "SILÊNCIO", "BUDISMO"],
+   "no_artigo": ["SILÊNCIO"]
+  },
+  "GURU": {
+   "proibidas": ["MESTRE", "ÍNDIA", "SÁBIO", "DISCÍPULO", "ESPIRITUAL"],
+   "no_artigo": ["MESTRE", "ESPIRITUAL"]
+  },
+  "RACISMO": {
+   "proibidas": ["PRECONCEITO", "COR", "NEGRO", "ESCRAVIDÃO", "ÓDIO"],
+   "no_artigo": []
+  },
+  "DRÁCULA": {
+   "proibidas": ["VAMPIRO", "SANGUE", "TRANSILVÂNIA", "PRESAS", "CAPA"],
+   "no_artigo": ["VAMPIRO"],
+   "nota": "sentido do artigo é o romance de 1897, mas as duas listas cegas descreveram o mito/personagem - a mesa reconhece do mesmo jeito"
+  },
+  "LÚCIFER": {
+   "proibidas": ["DIABO", "ANJO", "QUEDA", "CHIFRE", "VÊNUS"],
+   "no_artigo": ["DIABO"]
+  },
+  "ECLIPSE": {
+   "proibidas": ["SOL", "LUA", "SOMBRA", "TERRA", "ASTRONOMIA"],
+   "no_artigo": ["SOMBRA"]
+  },
+  "REVIRAVOLTA": {
+   "proibidas": ["SURPRESA", "FINAL", "FILME", "ROTEIRO", "CHOQUE"],
+   "no_artigo": ["SURPRESA", "FINAL"]
+  },
+  "MÁRTIR": {
+   "proibidas": ["CAUSA", "RELIGIÃO", "SACRIFÍCIO", "PERSEGUIÇÃO", "SANTO"],
+   "no_artigo": ["RELIGIÃO", "CAUSA", "PERSEGUIÇÃO"]
+  },
+  "DECOLAGEM": {
+   "proibidas": ["AVIÃO", "PISTA", "AEROPORTO", "MOTOR", "PILOTO"],
+   "no_artigo": ["AVIÃO", "PISTA", "MOTOR", "PILOTO"],
+   "nota": "só 3 no consenso exato (avião, pista, aeroporto); motor e piloto vieram do descritor, confirmados pelo artigo"
+  },
+  "CAMUFLAGEM": {
+   "proibidas": ["ESCONDER", "EXÉRCITO", "VERDE", "UNIFORME", "DISFARCE"],
+   "no_artigo": ["VERDE", "UNIFORME"]
+  },
+  "KARAOKÊ": {
+   "proibidas": ["CANTAR", "MICROFONE", "TELA", "LETRA", "BAR"],
+   "no_artigo": ["MICROFONE", "TELA"]
+  },
+  "ESCALADA": {
+   "proibidas": ["MONTANHA", "CORDA", "ROCHA", "PAREDE", "ALTURA"],
+   "no_artigo": ["MONTANHA", "CORDA", "ROCHA"]
+  },
+  "SUSPENSE": {
+   "proibidas": ["TENSÃO", "MEDO", "FILME", "MISTÉRIO", "ROTEIRO"],
+   "no_artigo": ["TENSÃO", "FILME", "ROTEIRO"]
+  },
+  "CADETE": {
+   "proibidas": ["EXÉRCITO", "QUARTEL", "ALUNO", "FARDA", "OFICIAL"],
+   "no_artigo": ["ALUNO", "OFICIAL"]
+  },
+  "QUIMIOTERAPIA": {
+   "proibidas": ["CÂNCER", "HOSPITAL", "CABELO", "VEIA", "ENJOO"],
+   "no_artigo": ["CÂNCER"]
+  },
+  "ADOLESCÊNCIA": {
+   "proibidas": ["PUBERDADE", "HORMÔNIO", "ESPINHA", "MUDANÇA", "REBELDIA"],
+   "no_artigo": ["MUDANÇA"],
+   "nota": "REBELDIA só aparece no associador ('rebeldia'); descritor tem 'rebelde', mesma ideia em outra forma"
+  }
+ },
+ "descartadas": {}
+}

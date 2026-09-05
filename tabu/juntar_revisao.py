@@ -18,12 +18,15 @@ from gerador import tronco, sem
 
 
 def main():
-    lotes = sorted(glob.glob(os.path.join("revisao", "lote-*-final.json")))
+    lotes = sorted(glob.glob(os.path.join("revisao", "*-final.json")))
     if not lotes:
-        sys.exit("nenhum revisao/lote-*-final.json. Rode os agentes primeiro (REVISOR.md).")
+        sys.exit("nenhum revisao/*-final.json. Rode os agentes primeiro (REVISOR.md).")
 
-    with open("paracritica.json", encoding="utf-8") as fh:
-        pool = {c["palavra"]: c for c in json.load(fh)["cartas"]}
+    pool = {}
+    for arq in ("paracritica.json", "paracritica-fila.json"):
+        if os.path.exists(arq):
+            with open(arq, encoding="utf-8") as fh:
+                pool.update({c["palavra"]: c for c in json.load(fh)["cartas"]})
 
     cartas, descartadas, avisos = {}, {}, []
     visto = Counter()

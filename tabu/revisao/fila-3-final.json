@@ -1,0 +1,155 @@
+{
+ "lote": "fila-3",
+ "cartas": {
+  "BESOURO": {
+   "proibidas": ["INSETO", "ASA", "VOAR", "CASCO", "ESTERCO"],
+   "no_artigo": ["INSETO", "ASA"]
+  },
+  "CALDO": {
+   "proibidas": ["SOPA", "GALINHA", "OSSO", "PANELA", "COZINHAR"],
+   "no_artigo": ["SOPA", "GALINHA", "OSSO", "PANELA"],
+   "nota": "as duas listas cegas bateram em 6 (também tempero); tirei tempero por ser ingrediente genérico demais, osso e galinha já fecham a rota de ingrediente"
+  },
+  "RESSENTIMENTO": {
+   "proibidas": ["RANCOR", "RAIVA", "REMOER", "VINGANÇA", "GUARDAR"],
+   "no_artigo": ["RANCOR", "RAIVA"],
+   "nota": "consenso deu 6 (também mágoa); mágoa e rancor são quase a mesma rota de sinônimo, fiquei com rancor por estar no artigo"
+  },
+  "ANATOMIA": {
+   "proibidas": ["CORPO", "ÓRGÃO", "ESQUELETO", "MÚSCULO", "MEDICINA"],
+   "no_artigo": ["CORPO"]
+  },
+  "POLUIÇÃO": {
+   "proibidas": ["SUJEIRA", "AR", "FUMAÇA", "LIXO", "PLANETA"],
+   "no_artigo": ["PLANETA"]
+  },
+  "HERPES": {
+   "proibidas": ["BOLHA", "VÍRUS", "FERIDA", "LÁBIO", "BOCA"],
+   "no_artigo": ["VÍRUS", "BOLHA", "BOCA"]
+  },
+  "APAGÃO": {
+   "proibidas": ["LUZ", "ENERGIA", "CORTE", "VELA", "ESCURO"],
+   "no_artigo": ["ENERGIA", "CORTE"]
+  },
+  "CRÍQUETE": {
+   "proibidas": ["TACO", "BOLA", "ÍNDIA", "CAMPO", "TIME"],
+   "no_artigo": ["TACO", "BOLA", "CAMPO", "TIME"],
+   "nota": "consenso cego deu só 4 (taco, bola, índia, campo); time veio do descritor e também está no artigo, fecha a rota de categoria (esporte de equipe)"
+  },
+  "APERITIVO": {
+   "proibidas": ["ENTRADA", "PETISCO", "APETITE", "COQUETEL", "QUEIJO"],
+   "no_artigo": ["APETITE", "COQUETEL", "QUEIJO"],
+   "nota": "consenso cego deu só entrada e petisco; descritor pensou em prato, associador pensou em bebida — completei com apetite (descritor+artigo) e coquetel/queijo (associador+artigo) pra cobrir as duas rotas que a palavra realmente tem"
+  },
+  "ÁTOMO": {
+   "proibidas": ["ELÉTRON", "PRÓTON", "NÊUTRON", "NÚCLEO", "MINÚSCULO"],
+   "no_artigo": ["NÚCLEO"]
+  },
+  "ROSQUINHA": {
+   "proibidas": ["BURACO", "AÇÚCAR", "CHOCOLATE", "PADARIA", "DOCE"],
+   "no_artigo": ["AÇÚCAR", "CHOCOLATE", "DOCE", "BURACO"]
+  },
+  "GENOCÍDIO": {
+   "proibidas": ["JUDEU", "NAZISTA", "CRIME", "ETNIA", "EXTERMÍNIO"],
+   "no_artigo": ["CRIME", "JUDEU"],
+   "nota": "judeu e nazista não são resíduo de seção histórica aqui — as duas listas cegas os deram de forma central, é a primeira associação que qualquer um faria"
+  },
+  "FURTO": {
+   "proibidas": ["LADRÃO", "BOLSO", "LOJA", "POLÍCIA", "CRIME"],
+   "no_artigo": ["CRIME"]
+  },
+  "COIOTE": {
+   "proibidas": ["UIVAR", "DESERTO", "LOBO", "SELVAGEM", "AMÉRICA"],
+   "no_artigo": ["LOBO"]
+  },
+  "INDENIZAÇÃO": {
+   "proibidas": ["DANO", "PROCESSO", "SEGURO", "ACIDENTE", "DINHEIRO"],
+   "no_artigo": ["DANO"]
+  },
+  "PSIQUIATRIA": {
+   "proibidas": ["TRANSTORNO", "MENTE", "HOSPITAL", "REMÉDIO", "DEPRESSÃO"],
+   "no_artigo": ["HOSPITAL", "DEPRESSÃO"]
+  },
+  "MERCEARIA": {
+   "proibidas": ["BAIRRO", "DONO", "FIADO", "ESQUINA", "MERCADO"],
+   "no_artigo": ["DONO", "ESQUINA"],
+   "nota": "mercado tem raiz próxima mas é palavra própria (loja maior/genérica), não é derivado direto de mercearia como seria 'mercadinho'"
+  },
+  "CÓLERA": {
+   "proibidas": ["DIARREIA", "ÁGUA", "VÔMITO", "EPIDEMIA", "DESIDRATAÇÃO"],
+   "no_artigo": ["ÁGUA"]
+  },
+  "LOBBY": {
+   "proibidas": ["POLÍTICO", "INFLUÊNCIA", "PRESSÃO", "CORRUPÇÃO", "CONGRESSO"],
+   "no_artigo": ["POLÍTICO", "INFLUÊNCIA", "PRESSÃO", "CORRUPÇÃO"],
+   "nota": "troquei interesse (consenso, no artigo) por congresso (consenso, fora do artigo) — congresso fecha uma rota de cenário mais específica que interesse, que é genérico demais"
+  },
+  "HEMATOMA": {
+   "proibidas": ["ROXO", "MACHUCADO", "SANGUE", "PELE", "GALO"],
+   "no_artigo": ["PELE", "SANGUE", "ROXO", "GALO"]
+  },
+  "FARMACÊUTICO": {
+   "proibidas": ["REMÉDIO", "BALCÃO", "RECEITA", "JALECO", "PROFISSÃO"],
+   "no_artigo": ["PROFISSÃO"],
+   "nota": "farmácia estava no consenso cego mas é derivado direto de farmacêutico (mesma raiz, já proibido pela regra do jogo); completei com profissão, que também está no artigo"
+  },
+  "JACARÉ": {
+   "proibidas": ["RÉPTIL", "RIO", "DENTE", "PÂNTANO", "COURO"],
+   "no_artigo": ["COURO"]
+  },
+  "MALÁRIA": {
+   "proibidas": ["MOSQUITO", "PICADA", "FEBRE", "CALAFRIO", "ÁFRICA"],
+   "no_artigo": ["FEBRE"]
+  },
+  "LEUCEMIA": {
+   "proibidas": ["CÂNCER", "SANGUE", "MEDULA", "QUIMIOTERAPIA", "TRANSPLANTE"],
+   "no_artigo": ["SANGUE"]
+  },
+  "ÁRBITRO": {
+   "proibidas": ["APITO", "FUTEBOL", "CAMPO", "JUIZ", "BANDEIRA"],
+   "no_artigo": ["FUTEBOL", "JUIZ"]
+  },
+  "TUBERCULOSE": {
+   "proibidas": ["PULMÃO", "TOSSE", "SANGUE", "FEBRE", "DOENÇA"],
+   "no_artigo": ["TOSSE", "SANGUE", "FEBRE", "DOENÇA"]
+  },
+  "PARADOXO": {
+   "proibidas": ["CONTRADIÇÃO", "LÓGICA", "MENTIROSO", "TEMPO", "VIAGEM"],
+   "no_artigo": ["LÓGICA", "MENTIROSO", "TEMPO", "VIAGEM"],
+   "nota": "consenso cego deu só 3 (contradição, lógica, mentiroso); tempo e viagem vieram do associador e também do artigo, apontam pro paradoxo do avô/viagem no tempo, exemplo clássico"
+  },
+  "COMPUTAÇÃO": {
+   "proibidas": ["CÓDIGO", "SOFTWARE", "TECNOLOGIA", "ENGENHARIA", "SISTEMA"],
+   "no_artigo": ["SOFTWARE", "TECNOLOGIA", "ENGENHARIA"],
+   "nota": "computador estava no consenso cego mas é derivado direto de computação (mesma raiz 'comput-'); completei com sistema, que está na própria definição do sentido"
+  },
+  "PROPULSÃO": {
+   "proibidas": ["MOTOR", "FORÇA", "FOGUETE", "AVIÃO", "TURBINA"],
+   "no_artigo": ["AVIÃO", "MOTOR", "FORÇA"]
+  },
+  "ÍCONE": {
+   "proibidas": ["ORTODOXO", "IGREJA", "SANTO", "IMAGEM", "MADEIRA"],
+   "no_artigo": ["IMAGEM", "MADEIRA"],
+   "nota": "o sentido diz 'Cristianismo Ocidental' mas as duas listas cegas apontaram ortodoxo (tradição oriental) — não corrigi o sentido, só segui o que as listas realmente descreveriam"
+  },
+  "PUBERDADE": {
+   "proibidas": ["CORPO", "HORMÔNIO", "VOZ", "MENSTRUAÇÃO", "ESPINHA"],
+   "no_artigo": ["CORPO"]
+  },
+  "BULLYING": {
+   "proibidas": ["ESCOLA", "APELIDO", "VÍTIMA", "AGRESSÃO", "HUMILHAR"],
+   "no_artigo": ["ESCOLA"]
+  },
+  "PURGATÓRIO": {
+   "proibidas": ["ALMA", "INFERNO", "CÉU", "PECADO", "FOGO"],
+   "no_artigo": ["ALMA", "INFERNO", "FOGO"]
+  },
+  "INFORMÁTICA": {
+   "proibidas": ["COMPUTADOR", "CURSO", "TECNOLOGIA", "SISTEMA", "INTERNET"],
+   "no_artigo": ["COMPUTADOR", "TECNOLOGIA"]
+  }
+ },
+ "descartadas": {
+  "FUNK": "sentido é o gênero americano dos anos 1960 (James Brown, soul); o associador cego pensou em funk carioca (groove, carioca, dance) — a mesa brasileira pensaria primeiro no carioca, não no que o artigo descreve. Caso exemplar citado no REVISOR.md."
+ }
+}

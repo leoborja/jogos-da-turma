@@ -1,0 +1,152 @@
+{
+ "lote": "fila-1",
+ "cartas": {
+  "BATALHA": {
+   "proibidas": ["GUERRA", "EXÉRCITO", "SOLDADO", "CAMPO", "ESTRATÉGIA"],
+   "no_artigo": ["GUERRA", "ESTRATÉGIA"]
+  },
+  "JUSTIÇA": {
+   "proibidas": ["DIREITO", "LEI", "JUIZ", "TRIBUNAL", "EQUILÍBRIO"],
+   "no_artigo": ["DIREITO", "EQUILÍBRIO"]
+  },
+  "PESO": {
+   "proibidas": ["GRAVIDADE", "MASSA", "QUILO", "BALANÇA", "CORPO"],
+   "no_artigo": ["MASSA", "CORPO", "GRAVIDADE"]
+  },
+  "INTELIGÊNCIA": {
+   "proibidas": ["CÉREBRO", "ESPERTO", "RACIOCÍNIO", "APRENDER", "GÊNIO"],
+   "no_artigo": []
+  },
+  "ACADEMIA": {
+   "proibidas": ["CIÊNCIA", "INSTITUIÇÃO", "UNIVERSIDADE", "MEMBRO", "DIPLOMA"],
+   "no_artigo": ["CIÊNCIA"],
+   "nota": "consenso fraco: só CIÊNCIA saiu nas duas listas cegas. O descritor imaginou uma academia tipo sociedade científica (cadeira, membro, eleição, prêmio), o associador imaginou universidade (faculdade, professor, aula, diploma) — as duas leituras cabem no sentido dado, então a carta cobre as duas"
+  },
+  "VIDRO": {
+   "proibidas": ["TRANSPARENTE", "JANELA", "QUEBRAR", "GARRAFA", "AREIA"],
+   "no_artigo": ["AREIA"]
+  },
+  "MORAL": {
+   "proibidas": ["CERTO", "ERRADO", "ÉTICA", "CONSCIÊNCIA", "RELIGIÃO"],
+   "no_artigo": ["ÉTICA", "CONSCIÊNCIA", "RELIGIÃO"]
+  },
+  "SUOR": {
+   "proibidas": ["PELE", "GLÂNDULA", "CALOR", "EXERCÍCIO", "CHEIRO"],
+   "no_artigo": ["PELE", "CALOR", "EXERCÍCIO"]
+  },
+  "BATALHÃO": {
+   "proibidas": ["EXÉRCITO", "REGIMENTO", "SOLDADO", "COMANDANTE", "GUERRA"],
+   "no_artigo": ["REGIMENTO", "EXÉRCITO"]
+  },
+  "FINANÇAS": {
+   "proibidas": ["DINHEIRO", "INVESTIMENTO", "BANCO", "MERCADO", "ECONOMIA"],
+   "no_artigo": ["DINHEIRO", "INVESTIMENTO"]
+  },
+  "PÓLVORA": {
+   "proibidas": ["EXPLOSÃO", "ARMA", "FOGO", "CHINA", "CANHÃO"],
+   "no_artigo": ["FOGO", "ARMA"]
+  },
+  "ENTRETENIMENTO": {
+   "proibidas": ["DIVERSÃO", "PÚBLICO", "TELEVISÃO", "CINEMA", "MÚSICA"],
+   "no_artigo": ["TELEVISÃO", "CINEMA", "MÚSICA", "PÚBLICO"]
+  },
+  "ELÉTRICO": {
+   "proibidas": ["BONDE", "TRILHO", "LISBOA", "TRANSPORTE", "CIDADE"],
+   "no_artigo": ["TRANSPORTE", "TRILHO"],
+   "nota": "sentido é o bonde/elétrico de Lisboa, não o adjetivo 'elétrico'. As duas listas cegas bateram literalmente em bonde, trilho, lisboa, transporte e cidade — sinal forte de que a mesa reconhece essa acepção"
+  },
+  "SÓLIDO": {
+   "proibidas": ["LÍQUIDO", "GÁS", "MATÉRIA", "PEDRA", "FORMA"],
+   "no_artigo": ["MATÉRIA"]
+  },
+  "REGIMENTO": {
+   "proibidas": ["EXÉRCITO", "BATALHÃO", "CORONEL", "QUARTEL", "FARDA"],
+   "no_artigo": ["BATALHÃO", "CORONEL", "EXÉRCITO"]
+  },
+  "BOMBEIRO": {
+   "proibidas": ["INCÊNDIO", "MANGUEIRA", "RESGATE", "CAMINHÃO", "HERÓI"],
+   "no_artigo": ["INCÊNDIO", "RESGATE"]
+  },
+  "HOSPITALIDADE": {
+   "proibidas": ["GENTILEZA", "ANFITRIÃO", "RECEBER", "HÓSPEDE", "HOTEL"],
+   "no_artigo": ["GENTILEZA", "HÓSPEDE", "HOTEL"]
+  },
+  "MARKETING": {
+   "proibidas": ["PUBLICIDADE", "CLIENTE", "PRODUTO", "CAMPANHA", "MERCADO"],
+   "no_artigo": ["PUBLICIDADE", "CLIENTE", "PRODUTO"]
+  },
+  "CHICOTE": {
+   "proibidas": ["COURO", "CORDA", "DOR", "ESCRAVO", "DOMADOR"],
+   "no_artigo": ["CORDA", "COURO"]
+  },
+  "PROSTITUIÇÃO": {
+   "proibidas": ["SEXO", "DINHEIRO", "RUA", "CAFETÃO", "CLIENTE"],
+   "no_artigo": ["DINHEIRO", "CLIENTE"],
+   "nota": "CLIENTE só apareceu no descritor, não no associador; entra porque as candidatas do artigo confirmam e a rota (quem paga) fica sem outra palavra que a feche"
+  },
+  "CORVO": {
+   "proibidas": ["PRETO", "AVE", "AGOURO", "PENA", "GRASNAR"],
+   "no_artigo": []
+  },
+  "PONTUAÇÃO": {
+   "proibidas": ["VÍRGULA", "PONTO", "TRAVESSÃO", "GRAMÁTICA", "FRASE"],
+   "no_artigo": ["FRASE"]
+  },
+  "PROTEÍNA": {
+   "proibidas": ["MÚSCULO", "AMINOÁCIDO", "NUTRIENTE", "CARNE", "OVO"],
+   "no_artigo": ["MÚSCULO", "CARNE", "OVO"]
+  },
+  "RELÂMPAGO": {
+   "proibidas": ["LUZ", "RAIO", "TROVÃO", "TEMPESTADE", "RÁPIDO"],
+   "no_artigo": ["RAIO", "TROVÃO"]
+  },
+  "MARATONA": {
+   "proibidas": ["CORRIDA", "ATLETA", "QUILÔMETRO", "MEDALHA", "TREINO"],
+   "no_artigo": []
+  },
+  "MARECHAL": {
+   "proibidas": ["PATENTE", "GENERAL", "EXÉRCITO", "FARDA", "CONDECORAÇÃO"],
+   "no_artigo": ["GENERAL"]
+  },
+  "PADARIA": {
+   "proibidas": ["PÃO", "FORNO", "BOLO", "DOCE", "FARINHA"],
+   "no_artigo": ["BOLO", "FORNO", "FARINHA"],
+   "nota": "FARINHA só apareceu no associador, não no descritor; entra porque o artigo confirma e fecha a rota do ingrediente, que as outras quatro não cobrem"
+  },
+  "ESPAGUETE": {
+   "proibidas": ["MACARRÃO", "MOLHO", "TOMATE", "GARFO", "ALMÔNDEGA"],
+   "no_artigo": ["MACARRÃO", "TOMATE"]
+  },
+  "ESFERA": {
+   "proibidas": ["BOLA", "CENTRO", "RAIO", "REDONDO", "PLANETA"],
+   "no_artigo": ["BOLA", "CENTRO", "RAIO"]
+  },
+  "AGRICULTURA": {
+   "proibidas": ["FAZENDA", "COLHEITA", "TERRA", "TRATOR", "SEMENTE"],
+   "no_artigo": []
+  },
+  "PROTÓTIPO": {
+   "proibidas": ["MODELO", "TESTE", "INVENÇÃO", "VERSÃO", "PROJETO"],
+   "no_artigo": ["PROJETO", "TESTE"]
+  },
+  "VIBRAÇÃO": {
+   "proibidas": ["CELULAR", "FREQUÊNCIA", "ENERGIA", "ONDA", "SOM"],
+   "no_artigo": ["ENERGIA"]
+  },
+  "PATENTE": {
+   "proibidas": ["INVENÇÃO", "DIREITO", "INVENTOR", "EXCLUSIVIDADE", "ESCRITÓRIO"],
+   "no_artigo": ["DIREITO", "INVENÇÃO"]
+  },
+  "FORCA": {
+   "proibidas": ["CORDA", "PESCOÇO", "EXECUÇÃO", "CADAFALSO", "LAÇO"],
+   "no_artigo": ["EXECUÇÃO", "PESCOÇO", "CORDA"]
+  },
+  "DINÂMICA": {
+   "proibidas": ["FÍSICA", "FORÇA", "MOVIMENTO", "NEWTON", "MECÂNICA"],
+   "no_artigo": ["FORÇA", "MOVIMENTO", "FÍSICA"]
+  }
+ },
+ "descartadas": {
+  "SUPERFÍCIE": "sentido dado é a definição matemática de topologia ('variedade bidimensional'). O descritor (que viu o sentido) foi nessa linha (topologia, dimensão), mas o associador — cego, livre — foi para o sentido cotidiano (mar, pele, terra, camada): é essa a acepção que a mesa realmente usa para SUPERFÍCIE, não a técnica"
+ }
+}

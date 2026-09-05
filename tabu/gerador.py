@@ -365,19 +365,26 @@ class Extrator:
 
 # ------------------------------------------------------------------ o pipeline
 
+FAIXAS = ["fácil", "média", "difícil", "osso"]
+
+
 def dificuldade(pos):
+    """A posição da palavra na fala. Quatro faixas, não três: de 3.500 até o
+    fim da lista cabe muita coisa, e "difícil" sozinho não dizia nada."""
     if pos < 1200:
         return "fácil"
     if pos < 3500:
         return "média"
-    return "difícil"
+    if pos < 9000:
+        return "difícil"
+    return "osso"
 
 
 def main():
     global SEM_CACHE
     ap = argparse.ArgumentParser()
     ap.add_argument("--cartas", type=int, default=250, help="teto de cartas no baralho")
-    ap.add_argument("--candidatos", type=int, default=9000,
+    ap.add_argument("--candidatos", type=int, default=20000,
                     help="até que posição da lista de frequência procurar")
     ap.add_argument("--sem-cache", action="store_true")
     ap.add_argument("--aceitar-cruas", action="store_true",
@@ -429,7 +436,7 @@ def main():
     print(f"· {len(aprovados)} que são conceito, não nome próprio nem marca")
 
     # 3) texto inteiro — em três faixas de frequência, pra existir carta difícil
-    faixas = {"fácil": [], "média": [], "difícil": []}
+    faixas = {f: [] for f in FAIXAS}
     for w in aprovados:
         faixas[dificuldade(rank[w])].append(w)
     por_faixa = max(40, int(a.cartas * 1.2))
@@ -466,20 +473,13 @@ def main():
         if W in descartadas:
             falhas.append((w, "revisor descartou: " + descartadas[W])); continue
         todas = ex.proibidas(w, art["texto"], n=CANDIDATAS)
-        criticas.append({
-            "palavra": W,
-            "sentido": art["descricao"],
-            "dificuldade": dificuldade(rank[w]),
-            "url": art["url"],
-            "candidatas": [p.upper() for _, p in todas],
-        })
         rev = revisadas.get(W)
-        if not rev and so_revisadas:
-            falhas.append((w, "os revisores ainda não viram esta carta")); continue
         if rev:
             proibidas, no_artigo = rev["proibidas"], rev.get("no_artigo", [])
             forca = [999.0] * 5          # revisada ganha de crua na hora de escolher
         else:
+            # Sem revisão a carta ainda precisa passar no corte cru — senão
+            # entope a fila de revisão com carta que não ia servir de todo jeito.
             if len(todas) < 5:
                 falhas.append((w, "menos de 5 proibidas")); continue
             top = todas[:5]
@@ -489,6 +489,17 @@ def main():
             proibidas = [p.upper() for _, p in top]
             no_artigo = list(proibidas)   # cru: as cinco vieram do artigo
             forca = [round(s, 2) for s, _ in top]
+
+        criticas.append({
+            "palavra": W,
+            "sentido": art["descricao"],
+            "dificuldade": dificuldade(rank[w]),
+            "url": art["url"],
+            "revisada": bool(rev),
+            "candidatas": [p.upper() for _, p in todas],
+        })
+        if not rev and so_revisadas:
+            falhas.append((w, "na fila de revisão")); continue
         cartas.append({
             "palavra": W,
             "sentido": art["descricao"],
@@ -507,11 +518,11 @@ def main():
     # ruim. Com revisão o fundo já foi olhado por gente, e o corte só jogaria
     # carta boa fora — então cai.
     escolhidas = []
-    for f in ("fácil", "média", "difícil"):
+    for f in FAIXAS:
         da_faixa = sorted((c for c in cartas if c["dificuldade"] == f),
                           key=lambda c: -min(c["forca"]))
         teto = len(da_faixa) if so_revisadas else int(len(da_faixa) * 0.7)
-        cota = min(a.cartas // 3, teto)
+        cota = min(a.cartas // len(FAIXAS), teto)
         escolhidas += da_faixa[:cota]
         print(f"    {f}: {len(da_faixa)} boas, {cota} escolhidas")
     cartas = sorted(escolhidas, key=lambda c: c["posicao"])
@@ -543,13 +554,14 @@ def main():
     with open("banco.json", "w", encoding="utf-8") as fh:
         json.dump(banco, fh, ensure_ascii=False, indent=1)
 
-    # o que o revisor precisa ver: só as cartas que entraram no baralho, com
-    # as candidatas que ficaram de fora do corte — é lá que mora o conserto.
-    no_baralho = {c["palavra"] for c in cartas}
+    # paracritica.json é a FILA da revisão: tudo que passou no funil, revisado
+    # ou não, com as candidatas que ficaram de fora do corte de 5 — é lá que
+    # mora o conserto. O campo "revisada" diz o que ainda falta olhar.
+    criticas.sort(key=lambda c: (c["revisada"], FAIXAS.index(c["dificuldade"])))
     with open("paracritica.json", "w", encoding="utf-8") as fh:
         json.dump({"gerado_em": banco["gerado_em"],
-                   "cartas": [c for c in criticas if c["palavra"] in no_baralho]},
-                  fh, ensure_ascii=False, indent=1)
+                   "na_fila": sum(1 for c in criticas if not c["revisada"]),
+                   "cartas": criticas}, fh, ensure_ascii=False, indent=1)
 
     with open("revisao.csv", "w", encoding="utf-8", newline="") as fh:
         wr = csv.writer(fh)
@@ -582,7 +594,7 @@ def main():
 
     rev = sum(1 for c in cartas if c["revisada"])
     print(f"\n✓ {len(cartas)} cartas em banco.json")
-    print(f"  {por_dif['fácil']} fáceis · {por_dif['média']} médias · {por_dif['difícil']} difíceis")
+    print("  " + " · ".join(f"{por_dif[f]} {f}" for f in FAIXAS))
     print(f"  {rev} revisadas, {len(cartas)-rev} ainda cruas")
     print("  confira revisao.csv antes de subir")
 
