@@ -4646,6 +4646,26 @@
    "url": "https://pt.wikipedia.org/wiki/Chicote"
   },
   {
+   "palavra": "PROSTITUIÇÃO",
+   "sentido": "troca consciente de favores sexuais por dinheiro",
+   "proibidas": [
+    "SEXO",
+    "DINHEIRO",
+    "RUA",
+    "CAFETÃO",
+    "CLIENTE"
+   ],
+   "no_artigo": [
+    "DINHEIRO",
+    "CLIENTE"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 9532,
+   "artigo": "Prostituição",
+   "url": "https://pt.wikipedia.org/wiki/Prostitui%C3%A7%C3%A3o"
+  },
+  {
    "palavra": "CORVO",
    "sentido": "gênero da família Corvidae",
    "proibidas": [
@@ -5117,6 +5137,27 @@
    "posicao": 11524,
    "artigo": "Queimadura",
    "url": "https://pt.wikipedia.org/wiki/Queimadura"
+  },
+  {
+   "palavra": "METANFETAMINA",
+   "sentido": "composto químico",
+   "proibidas": [
+    "DROGA",
+    "CRISTAL",
+    "LABORATÓRIO",
+    "DEPENDÊNCIA",
+    "QUÍMICA"
+   ],
+   "no_artigo": [
+    "DROGA",
+    "CRISTAL",
+    "QUÍMICA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 11534,
+   "artigo": "Metanfetamina",
+   "url": "https://pt.wikipedia.org/wiki/Metanfetamina"
   },
   {
    "palavra": "EXTORSÃO",
@@ -5735,6 +5776,27 @@
    "url": "https://pt.wikipedia.org/wiki/Polui%C3%A7%C3%A3o"
   },
   {
+   "palavra": "HERPES",
+   "sentido": "Doença",
+   "proibidas": [
+    "BOLHA",
+    "VÍRUS",
+    "FERIDA",
+    "LÁBIO",
+    "BOCA"
+   ],
+   "no_artigo": [
+    "BOLHA",
+    "VÍRUS",
+    "BOCA"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 14736,
+   "artigo": "Herpes",
+   "url": "https://pt.wikipedia.org/wiki/Herpes"
+  },
+  {
    "palavra": "APAGÃO",
    "sentido": "perda de energia elétrica para uma área",
    "proibidas": [
@@ -5837,6 +5899,26 @@
    "posicao": 14947,
    "artigo": "Rosquinha",
    "url": "https://pt.wikipedia.org/wiki/Rosquinha"
+  },
+  {
+   "palavra": "GENOCÍDIO",
+   "sentido": "eliminação total ou parcial de um grupo racial, étnico, religioso ou cultural",
+   "proibidas": [
+    "JUDEU",
+    "NAZISTA",
+    "CRIME",
+    "ETNIA",
+    "EXTERMÍNIO"
+   ],
+   "no_artigo": [
+    "JUDEU",
+    "CRIME"
+   ],
+   "revisada": true,
+   "dificuldade": "osso",
+   "posicao": 14955,
+   "artigo": "Genocídio",
+   "url": "https://pt.wikipedia.org/wiki/Genoc%C3%ADdio"
   },
   {
    "palavra": "FURTO",

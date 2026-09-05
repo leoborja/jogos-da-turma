@@ -235,6 +235,7 @@ BOMBEIRO,socorrista treinado para o combate a incêndios e resgates,INCÊNDIO ·
 HOSPITALIDADE,ato de dar acolhida,GENTILEZA · ANFITRIÃO · RECEBER · HÓSPEDE · HOTEL,sim,3/5,999.0,osso,9129,https://pt.wikipedia.org/wiki/Hospitalidade
 MARKETING,"atividade para criar, comunicar, entregar e trocar ofertas que tenham valor para o cliente",PUBLICIDADE · CLIENTE · PRODUTO · CAMPANHA · MERCADO,sim,3/5,999.0,osso,9336,https://pt.wikipedia.org/wiki/Marketing
 CHICOTE,ferramenta usada para infligir dor e sofrimento a um ser humano ou animal,COURO · CORDA · DOR · ESCRAVO · DOMADOR,sim,2/5,999.0,osso,9404,https://pt.wikipedia.org/wiki/Chicote
+PROSTITUIÇÃO,troca consciente de favores sexuais por dinheiro,SEXO · DINHEIRO · RUA · CAFETÃO · CLIENTE,sim,2/5,999.0,osso,9532,https://pt.wikipedia.org/wiki/Prostitui%C3%A7%C3%A3o
 CORVO,gênero da família Corvidae,PRETO · AVE · AGOURO · PENA · GRASNAR,sim,0/5,999.0,osso,9742,https://pt.wikipedia.org/wiki/Corvo
 PONTUAÇÃO,indicam que alguém vai falar em um diálogo,VÍRGULA · TRAVESSÃO · GRAMÁTICA · FRASE · ORAÇÃO,sim,2/5,999.0,osso,9762,https://pt.wikipedia.org/wiki/Pontua%C3%A7%C3%A3o
 PROTEÍNA,molécula biológica,MÚSCULO · AMINOÁCIDO · NUTRIENTE · CARNE · OVO,sim,3/5,999.0,osso,9833,https://pt.wikipedia.org/wiki/Prote%C3%ADna
@@ -259,6 +260,7 @@ OMELETE,prato feito de ovos,OVO · FRIGIDEIRA · QUEIJO · MANTEIGA · CAFÉ,sim
 MUÇULMANO,adepto da religião do Islã,ISLÃ · ALÁ · MESQUITA · MECA · ORAÇÃO,sim,1/5,999.0,osso,11359,https://pt.wikipedia.org/wiki/Mu%C3%A7ulmano
 CRISTIANISMO,religião abraâmica monoteísta,JESUS · IGREJA · BÍBLIA · CRUZ · CATÓLICO,sim,1/5,999.0,osso,11395,https://pt.wikipedia.org/wiki/Cristianismo
 QUEIMADURA,tipo de lesão de pele,FOGO · PELE · SOL · BOLHA · DOR,sim,3/5,999.0,osso,11524,https://pt.wikipedia.org/wiki/Queimadura
+METANFETAMINA,composto químico,DROGA · CRISTAL · LABORATÓRIO · DEPENDÊNCIA · QUÍMICA,sim,3/5,999.0,osso,11534,https://pt.wikipedia.org/wiki/Metanfetamina
 EXTORSÃO,obtenção de vantagem por meio de ameaça ou violência,AMEAÇA · CHANTAGEM · CRIME · DINHEIRO · VÍTIMA,sim,4/5,999.0,osso,11537,https://pt.wikipedia.org/wiki/Extors%C3%A3o
 ALFÂNDEGA,autoridade governamental responsável pelo controle do movimento de importação e exportação de mercadorias em um país,FRONTEIRA · AEROPORTO · TAXA · FISCAL · CONTRABANDO,sim,2/5,999.0,osso,11590,https://pt.wikipedia.org/wiki/Alf%C3%A2ndega
 SEREIA,figura mitológica com torso humano feminino e cauda de peixe,CAUDA · PEIXE · MAR · ARIEL · CANTO,sim,1/5,999.0,osso,11668,https://pt.wikipedia.org/wiki/Sereia
@@ -290,11 +292,13 @@ CALDO,Líquido cozido,SOPA · GALINHA · OSSO · PANELA · COZINHAR,sim,4/5,999.
 RESSENTIMENTO,emoção negativa,RANCOR · RAIVA · REMOER · VINGANÇA · GUARDAR,sim,2/5,999.0,osso,13865,https://pt.wikipedia.org/wiki/Ressentimento
 ANATOMIA,ramo da biologia que estuda a organização estrutural dos seres vivos,CORPO · ÓRGÃO · ESQUELETO · MÚSCULO · MEDICINA,sim,1/5,999.0,osso,14003,https://pt.wikipedia.org/wiki/Anatomia
 POLUIÇÃO,introdução de contaminantes no ambiente natural que causam mudanças adversas,SUJEIRA · AR · FUMAÇA · LIXO · PLANETA,sim,1/5,999.0,osso,14225,https://pt.wikipedia.org/wiki/Polui%C3%A7%C3%A3o
+HERPES,Doença,BOLHA · VÍRUS · FERIDA · LÁBIO · BOCA,sim,3/5,999.0,osso,14736,https://pt.wikipedia.org/wiki/Herpes
 APAGÃO,perda de energia elétrica para uma área,LUZ · ENERGIA · CORTE · VELA · ESCURO,sim,2/5,999.0,osso,14855,https://pt.wikipedia.org/wiki/Apag%C3%A3o
 CRÍQUETE,desporto de equipe jogado com bastões e bolas,TACO · BOLA · ÍNDIA · CAMPO · TIME,sim,4/5,999.0,osso,14887,https://pt.wikipedia.org/wiki/Cr%C3%ADquete
 APERITIVO,prato servido antes do prato principal para estimular o apetite,ENTRADA · PETISCO · APETITE · COQUETEL · QUEIJO,sim,3/5,999.0,osso,14915,https://pt.wikipedia.org/wiki/Aperitivo
 ÁTOMO,"unidade de matéria composta por particulas com cargas positivas e negativas, que seriam elétrons (-) e prótons (+)",ELÉTRON · PRÓTON · NÊUTRON · NÚCLEO · MINÚSCULO,sim,1/5,999.0,osso,14941,https://pt.wikipedia.org/wiki/%C3%81tomo
 ROSQUINHA,pequeno bolo em forma de rosca,BURACO · AÇÚCAR · CHOCOLATE · PADARIA · DOCE,sim,4/5,999.0,osso,14947,https://pt.wikipedia.org/wiki/Rosquinha
+GENOCÍDIO,"eliminação total ou parcial de um grupo racial, étnico, religioso ou cultural",JUDEU · NAZISTA · CRIME · ETNIA · EXTERMÍNIO,sim,2/5,999.0,osso,14955,https://pt.wikipedia.org/wiki/Genoc%C3%ADdio
 FURTO,ato de tomar a propriedade de outra pessoa sem permissão ou consentimento,LADRÃO · BOLSO · LOJA · POLÍCIA · CRIME,sim,1/5,999.0,osso,14969,https://pt.wikipedia.org/wiki/Furto
 COIOTE,espécie de canino,UIVAR · DESERTO · LOBO · SELVAGEM · AMÉRICA,sim,1/5,999.0,osso,14971,https://pt.wikipedia.org/wiki/Coiote
 INDENIZAÇÃO,reparar dano causado a outro por meio de um pagamento,DANO · PROCESSO · SEGURO · ACIDENTE · DINHEIRO,sim,1/5,999.0,osso,14985,https://pt.wikipedia.org/wiki/Indeniza%C3%A7%C3%A3o

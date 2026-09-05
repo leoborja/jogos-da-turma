@@ -107,16 +107,20 @@ lista objetivo futuro passado presente confianca competicao acordo mama calado
 interesse esforco atencao cuidado respeito vontade opiniao evidencia
 """.split())
 
-# Palavrão, xingamento e assunto pesado. A lista de frequência vem de legenda
-# de filme, então isso aparece; numa mesa de amigos, não rende carta — rende
-# constrangimento. Fora da mesa por decisão, não por dado.
+# Palavrão, xingamento e xingamento identitário. A lista de frequência vem de
+# legenda de filme, então isso aparece; numa mesa de amigos não rende carta,
+# rende constrangimento. Fora por decisão, não por dado.
+#
+# Assunto pesado NÃO entra aqui. Prostituição, metanfetamina, genocídio e
+# herpes chegaram a ser vetados e voltaram: são conceitos que a mesa conhece
+# e descreve, e a carta ficou boa. O corte é xingamento, não tema difícil.
 PESADAS = set("""
 vadia puta putas piranha vagabunda cadela biscate rapariga
 caralho porra buceta cu cuzao foda fodido merda bosta viado bicha
 sapatao traveco crioulo macaco preta retardado mongoloide aleijado
 suicidio estupro estuprador pedofilia aborto incesto
-overdose heroina cocaina maconha crack baseado metanfetamina
-prostituicao prostituta bordel genocidio holocausto herpes gonorreia sifilis
+overdose heroina cocaina maconha crack baseado
+prostituta bordel holocausto gonorreia sifilis
 penis vagina vulva clitoris testiculo esperma orgasmo masturbacao
 sexo lesbica gay heterossexual travesti transexual
 """.split())

@@ -1,18 +1,18 @@
 gerado em 2026-09-05
-318 cartas de 1043 artigos lidos
+322 cartas de 1043 artigos lidos
 
-dificuldade: fácil 54, média 89, difícil 90, osso 85
-revisadas: 318 de 318 (0 ainda com as 5 do TF-IDF cru)
-proibidas confirmadas no artigo: 564 de 1590
+dificuldade: fácil 54, média 89, difícil 90, osso 89
+revisadas: 322 de 322 (0 ainda com as 5 do TF-IDF cru)
+proibidas confirmadas no artigo: 574 de 1610
 
 o que caiu e por quê
    1682  sem artigo na Wikipédia
    1009  página de desambiguação
     696  sem descrição no Wikidata
-    530  na fila de revisão
+    528  na fila de revisão
     501  resumo curto
     198  artigo curto
-    189  5ª proibida fraca
+    187  5ª proibida fraca
      33  descrição de nome próprio: estado dos Estados Unidos
       8  descrição de nome próprio: país na América do Sul
       8  não é conceito: desambiguação
@@ -446,14 +446,14 @@ detalhe (só os que chegaram a ter artigo lido)
   jogo: 5ª proibida fraca (24% da 1ª)
   escola: 5ª proibida fraca (20% da 1ª)
   terra: 5ª proibida fraca (19% da 1ª)
-  música: 5ª proibida fraca (27% da 1ª)
+  música: 5ª proibida fraca (26% da 1ª)
   governo: 5ª proibida fraca (28% da 1ª)
   prova: 5ª proibida fraca (22% da 1ª)
   loucura: 5ª proibida fraca (25% da 1ª)
   paul: 5ª proibida fraca (12% da 1ª)
   rainha: 5ª proibida fraca (16% da 1ª)
   azul: 5ª proibida fraca (16% da 1ª)
-  vermelho: 5ª proibida fraca (25% da 1ª)
+  vermelho: 5ª proibida fraca (24% da 1ª)
   ônibus: 5ª proibida fraca (27% da 1ª)
   rádio: 5ª proibida fraca (18% da 1ª)
   brilhante: 5ª proibida fraca (20% da 1ª)
@@ -470,7 +470,7 @@ detalhe (só os que chegaram a ter artigo lido)
   sono: 5ª proibida fraca (21% da 1ª)
   motor: 5ª proibida fraca (22% da 1ª)
   piscina: 5ª proibida fraca (27% da 1ª)
-  delegacia: 5ª proibida fraca (22% da 1ª)
+  delegacia: 5ª proibida fraca (21% da 1ª)
   cigarro: 5ª proibida fraca (20% da 1ª)
   revista: 5ª proibida fraca (23% da 1ª)
   chef: 5ª proibida fraca (18% da 1ª)
@@ -503,7 +503,7 @@ detalhe (só os que chegaram a ter artigo lido)
   crânio: 5ª proibida fraca (25% da 1ª)
   audição: 5ª proibida fraca (14% da 1ª)
   liderança: 5ª proibida fraca (24% da 1ª)
-  escrita: 5ª proibida fraca (28% da 1ª)
+  escrita: 5ª proibida fraca (27% da 1ª)
   jersey: 5ª proibida fraca (17% da 1ª)
   votação: 5ª proibida fraca (13% da 1ª)
   pato: 5ª proibida fraca (20% da 1ª)
@@ -512,8 +512,8 @@ detalhe (só os que chegaram a ter artigo lido)
   radar: 5ª proibida fraca (21% da 1ª)
   dezembro: 5ª proibida fraca (25% da 1ª)
   diamante: 5ª proibida fraca (20% da 1ª)
-  gravidez: 5ª proibida fraca (17% da 1ª)
-  ilusão: 5ª proibida fraca (23% da 1ª)
+  gravidez: 5ª proibida fraca (16% da 1ª)
+  ilusão: 5ª proibida fraca (24% da 1ª)
   galáxia: 5ª proibida fraca (16% da 1ª)
   nojo: 5ª proibida fraca (24% da 1ª)
   argumento: 5ª proibida fraca (10% da 1ª)
@@ -547,7 +547,7 @@ detalhe (só os que chegaram a ter artigo lido)
   falcão: 5ª proibida fraca (20% da 1ª)
   berço: 5ª proibida fraca (20% da 1ª)
   pipoca: 5ª proibida fraca (18% da 1ª)
-  celebridade: 5ª proibida fraca (22% da 1ª)
+  celebridade: 5ª proibida fraca (21% da 1ª)
   serra: 5ª proibida fraca (13% da 1ª)
   federação: 5ª proibida fraca (19% da 1ª)
   falência: 5ª proibida fraca (21% da 1ª)
@@ -559,7 +559,7 @@ detalhe (só os que chegaram a ter artigo lido)
   ferrovia: 5ª proibida fraca (27% da 1ª)
   balança: 5ª proibida fraca (23% da 1ª)
   transmissor: 5ª proibida fraca (18% da 1ª)
-  colisão: 5ª proibida fraca (28% da 1ª)
+  colisão: 5ª proibida fraca (27% da 1ª)
   triunfo: 5ª proibida fraca (18% da 1ª)
   virgindade: 5ª proibida fraca (22% da 1ª)
   epidemia: 5ª proibida fraca (17% da 1ª)
@@ -574,7 +574,7 @@ detalhe (só os que chegaram a ter artigo lido)
   concha: 5ª proibida fraca (25% da 1ª)
   carnaval: 5ª proibida fraca (25% da 1ª)
   flauta: 5ª proibida fraca (24% da 1ª)
-  bruxaria: 5ª proibida fraca (28% da 1ª)
+  bruxaria: 5ª proibida fraca (27% da 1ª)
   alavanca: 5ª proibida fraca (24% da 1ª)
   gueto: 5ª proibida fraca (15% da 1ª)
   baralho: 5ª proibida fraca (21% da 1ª)
@@ -594,10 +594,10 @@ detalhe (só os que chegaram a ter artigo lido)
   senhorio: 5ª proibida fraca (22% da 1ª)
   mesquita: 5ª proibida fraca (27% da 1ª)
   levi: 5ª proibida fraca (27% da 1ª)
-  caligrafia: 5ª proibida fraca (20% da 1ª)
+  caligrafia: 5ª proibida fraca (21% da 1ª)
   intoxicação: 5ª proibida fraca (26% da 1ª)
   comunismo: 5ª proibida fraca (17% da 1ª)
-  sacramento: 5ª proibida fraca (25% da 1ª)
+  sacramento: 5ª proibida fraca (24% da 1ª)
   diesel: 5ª proibida fraca (26% da 1ª)
   sinuca: 5ª proibida fraca (19% da 1ª)
   recrutamento: 5ª proibida fraca (18% da 1ª)
@@ -626,5 +626,3 @@ detalhe (só os que chegaram a ter artigo lido)
   barragem: 5ª proibida fraca (28% da 1ª)
   bermudas: 5ª proibida fraca (20% da 1ª)
   pinça: 5ª proibida fraca (23% da 1ª)
-  nebulosa: 5ª proibida fraca (17% da 1ª)
-  quark: 5ª proibida fraca (24% da 1ª)

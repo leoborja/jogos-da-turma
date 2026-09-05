@@ -1,6 +1,6 @@
 {
  "gerado_em": "2026-09-05",
- "na_fila": 530,
+ "na_fila": 528,
  "cartas": [
   {
    "palavra": "MULHER",
@@ -71,8 +71,8 @@
     "INJEÇÃO",
     "COMPORTAMENTO",
     "ÁLCOOL",
-    "PERCEPÇÃO",
     "PRODUTO",
+    "PERCEPÇÃO",
     "SENSAÇÃO",
     "QUÍMICO",
     "VEÍCULO",
@@ -172,8 +172,8 @@
    "revisada": false,
    "candidatas": [
     "MEDICINA",
-    "TERAPIA",
     "DIAGNÓSTICO",
+    "TERAPIA",
     "INFLUÊNCIA",
     "NECESSÁRIA",
     "PRINCÍPIO",
@@ -225,8 +225,8 @@
    "url": "https://pt.wikipedia.org/wiki/Pris%C3%A3o",
    "revisada": false,
    "candidatas": [
-    "CRIME",
     "LIBERDADE",
+    "CRIME",
     "PENA",
     "CLÁSSICO",
     "REGIME",
@@ -613,8 +613,8 @@
     "EVIDÊNCIA",
     "FRUTO",
     "PAPEL",
-    "CIENTISTA",
     "DEUS",
+    "CIENTISTA",
     "TEMPO",
     "EFEITO",
     "MAÇÃ",
@@ -646,8 +646,8 @@
     "REPÓRTER",
     "JURISDIÇÃO",
     "FATO",
-    "SATISFAÇÃO",
-    "REMÉDIO"
+    "REMÉDIO",
+    "SATISFAÇÃO"
    ]
   },
   {
@@ -843,8 +843,8 @@
     "SOLAR",
     "GRAVIDADE",
     "ENERGIA",
-    "PRESSÃO",
     "RADIAÇÃO",
+    "PRESSÃO",
     "MATÉRIA",
     "NOITE",
     "FORMAÇÃO",
@@ -986,8 +986,8 @@
     "SELVAGEM",
     "CLIMA",
     "SUPERIOR",
-    "CAMPO",
     "PLANETA",
+    "CAMPO",
     "ORIGINAL",
     "INTERVENÇÃO",
     "EQUILÍBRIO",
@@ -1018,7 +1018,7 @@
     "CLIENTE",
     "PLANO",
     "EMPRESA",
-    "DIFERENÇA"
+    "PADRÃO"
    ]
   },
   {
@@ -1139,8 +1139,8 @@
     "TRADUÇÃO",
     "VINDA",
     "VIRGEM",
-    "JUDEU",
     "MOEDA",
+    "JUDEU",
     "ESPERA",
     "TERRA",
     "AMIGO",
@@ -1202,8 +1202,8 @@
     "TEMPO",
     "FORÇA",
     "CERCA",
-    "BREVE",
     "CÍRCULO",
+    "BREVE",
     "RADIAÇÃO",
     "HISTÓRIA",
     "SONDA",
@@ -1252,8 +1252,8 @@
     "PÚBLICO",
     "CIDADÃO",
     "ORGANIZAÇÃO",
-    "ADMINISTRAÇÃO",
     "INTERESSE",
+    "ADMINISTRAÇÃO",
     "INTERNO",
     "DIREÇÃO",
     "POSSE",
@@ -1313,8 +1313,8 @@
     "NOZ",
     "COCO",
     "MUDANÇA",
-    "PAPO",
     "SORO",
+    "PAPO",
     "PRODUTO"
    ]
   },
@@ -1443,8 +1443,8 @@
     "AMADOR",
     "CINTURA",
     "DESCANSO",
-    "RADICAL",
     "CONFORTO",
+    "RADICAL",
     "DECORAÇÃO",
     "PÁSSARO",
     "BANHO",
@@ -1497,8 +1497,8 @@
     "CERCA",
     "DEDO",
     "COMPANHIA",
-    "CARNE",
     "ESCOLHA",
+    "CARNE",
     "NORMAL",
     "DOENÇA",
     "CABEÇA",
@@ -1601,8 +1601,8 @@
     "DEFEITO",
     "AZAR",
     "DETERMINAÇÃO",
-    "EFEITO",
     "IMPOSSÍVEL",
+    "EFEITO",
     "MÁQUINA",
     "BÊBADO",
     "PRODUÇÃO",
@@ -1720,7 +1720,7 @@
     "TESOURO",
     "MEXICANO",
     "PIMENTA",
-    "VESTÍGIO"
+    "ALÉM"
    ]
   },
   {
@@ -1744,8 +1744,8 @@
     "IMPERADOR",
     "ILHA",
     "MARCA",
-    "RELIGIÃO",
     "CIVIL",
+    "RELIGIÃO",
     "ROMANOS",
     "ANTIGOS"
    ]
@@ -1980,8 +1980,8 @@
     "BENS",
     "LEILÃO",
     "EXPEDIÇÃO",
-    "ASSINATURA",
     "AUDIÊNCIA",
+    "ASSINATURA",
     "SENTENÇA",
     "CÓPIA",
     "AVALIAÇÃO",
@@ -2148,8 +2148,8 @@
     "PILOTO",
     "MODA",
     "VIDRO",
-    "RUA",
-    "AVIÃO"
+    "AVIÃO",
+    "RUA"
    ]
   },
   {
@@ -2257,7 +2257,7 @@
     "CONSEQUÊNCIA",
     "OPOSIÇÃO",
     "LEITURA",
-    "CORPO"
+    "RADIAÇÃO"
    ]
   },
   {
@@ -2460,8 +2460,8 @@
     "ÁGUA",
     "CORPO",
     "HUMANO",
-    "ÁCIDO",
     "FORTE",
+    "ÁCIDO",
     "MOTOR",
     "REAÇÃO",
     "SAÍDA",
@@ -2731,9 +2731,9 @@
     "CAVERNA",
     "ÓLEO",
     "DESENHO",
-    "HISTÓRICO",
     "ARTISTA",
     "MOVIMENTO",
+    "HISTÓRICO",
     "PAPEL",
     "ILHA"
    ]
@@ -2840,8 +2840,8 @@
     "MUDANÇA",
     "CIÊNCIA",
     "FATOR",
-    "ESCALA",
     "PLANETA",
+    "ESCALA",
     "DISTÂNCIA",
     "BALANÇO"
    ]
@@ -2947,8 +2947,8 @@
     "GENÉTICA",
     "UNIFORME",
     "SELEÇÃO",
-    "SOBREVIVÊNCIA",
     "TENDÊNCIA",
+    "SOBREVIVÊNCIA",
     "CONEXÃO",
     "LOCALIZAÇÃO",
     "COMPLETO"
@@ -3269,8 +3269,8 @@
     "REAÇÃO",
     "PRODUÇÃO",
     "APOIO",
-    "NEGÓCIO",
     "POSSIBILIDADE",
+    "NEGÓCIO",
     "OPERAÇÃO",
     "VELOCIDADE",
     "PRESSÃO",
@@ -3341,9 +3341,9 @@
     "COLEÇÃO",
     "INSTRUÇÃO",
     "INSPIRAÇÃO",
-    "HISTÓRIA",
     "COMUNIDADE",
     "ESCRITA",
+    "HISTÓRIA",
     "DIVINA",
     "TRADIÇÃO",
     "RELIGIOSA",
@@ -3366,9 +3366,9 @@
    "revisada": false,
    "candidatas": [
     "EDUCAÇÃO",
-    "TRANSMISSÃO",
-    "CIDADÃO",
     "CONTEÚDO",
+    "CIDADÃO",
+    "TRANSMISSÃO",
     "ESCOLA",
     "CONSCIÊNCIA",
     "ESTRESSE",
@@ -3407,9 +3407,9 @@
     "CONDENAÇÃO",
     "NATUREZA",
     "FINANÇAS",
+    "INTEGRAL",
     "INÍCIO",
-    "EXPLOSÃO",
-    "INTEGRAL"
+    "EXPLOSÃO"
    ]
   },
   {
@@ -3436,7 +3436,7 @@
     "BRIGA",
     "MACHO",
     "CORTES",
-    "RESPIRAÇÃO"
+    "SABEDORIA"
    ]
   },
   {
@@ -3453,8 +3453,8 @@
     "RELIGIOSA",
     "RELIGIOSO",
     "EGOÍSTA",
-    "CRIME",
     "OFENSA",
+    "CRIME",
     "PENSAMENTO",
     "NATUREZA",
     "ESPELHO",
@@ -3486,8 +3486,8 @@
     "INTERESSE",
     "OMBROS",
     "MOTIVO",
-    "SENSO",
     "TENDÊNCIA",
+    "SENSO",
     "ROSTO",
     "INTELIGÊNCIA",
     "LINGUAGEM"
@@ -3537,8 +3537,8 @@
     "CHUMBO",
     "MASSA",
     "METAL",
-    "GARGANTA",
     "GUERRA",
+    "GARGANTA",
     "RESERVA",
     "PRODUTOR",
     "TECNOLOGIA",
@@ -3564,8 +3564,8 @@
     "CAMINHO",
     "ROMANO",
     "ANSIEDADE",
-    "CERCA",
     "OBRIGAÇÃO",
+    "CERCA",
     "CAVALEIRO",
     "MITO",
     "SACRIFÍCIO",
@@ -3678,8 +3678,8 @@
     "CAMPOS",
     "GERAÇÃO",
     "ESCRITA",
-    "POLÍTICO",
-    "TESTEMUNHO"
+    "TESTEMUNHO",
+    "POLÍTICO"
    ]
   },
   {
@@ -3784,8 +3784,8 @@
     "VALE",
     "EVIDÊNCIA",
     "VISÃO",
-    "BERÇO",
     "AMENDOIM",
+    "BERÇO",
     "FORTE",
     "PIMENTA"
    ]
@@ -3835,10 +3835,10 @@
     "CLARO",
     "LIBRA",
     "ÁGUA",
-    "GASOLINA",
     "ILUMINAÇÃO",
-    "COMBUSTÍVEL",
+    "GASOLINA",
     "NORTE",
+    "COMBUSTÍVEL",
     "PRODUTO",
     "PRODUTOR",
     "PRODUÇÃO"
@@ -3966,13 +3966,13 @@
     "STATUS",
     "PAREDES",
     "OSSO",
-    "ESTILO",
     "SÍMBOLO",
+    "ESTILO",
     "MORTO",
     "DOENÇA",
     "FRATERNIDADE",
-    "MORTE",
     "NELAS",
+    "MORTE",
     "CAMPO",
     "ESTÁTUA",
     "PISO",
@@ -4016,8 +4016,8 @@
     "CALENDÁRIO",
     "ROMANOS",
     "NORTE",
-    "DEUSA",
     "NOVEMBRO",
+    "DEUSA",
     "ÁRVORE",
     "POLÍTICO",
     "CAMPEÃO",
@@ -4109,8 +4109,8 @@
     "INTELECTUAL",
     "ENSINO",
     "HÁBITO",
-    "DESENVOLVIMENTO",
     "NOÇÃO",
+    "DESENVOLVIMENTO",
     "CRESCIMENTO"
    ]
   },
@@ -4609,8 +4609,8 @@
    "candidatas": [
     "MATÉRIA",
     "ROUPA",
-    "CONTATO",
     "PELE",
+    "CONTATO",
     "PERTENCE",
     "SOLO",
     "LIXEIRA",
@@ -4693,17 +4693,17 @@
     "FORMATO",
     "REGISTRO",
     "GERADOR",
+    "ACESSO",
     "OPERAÇÃO",
     "DIREITO",
-    "ACESSO",
     "RISCO",
     "INTERESSE",
     "INSTALAÇÃO",
-    "HISTÓRICO",
     "CONTEÚDO",
+    "HISTÓRICO",
     "NELE",
-    "GRAVE",
-    "PROVA"
+    "PROVA",
+    "GRAVE"
    ]
   },
   {
@@ -4721,8 +4721,8 @@
     "TRANSPORTE",
     "INTERIOR",
     "CASCA",
-    "CULTURA",
     "HUMANO",
+    "CULTURA",
     "INTERNO",
     "EVIDÊNCIA",
     "SERVIÇO",
@@ -4744,8 +4744,8 @@
     "ESTRANGEIRO",
     "FUNCIONÁRIO",
     "COMPLETO",
-    "OFICIAL",
     "ORGANIZAÇÃO",
+    "OFICIAL",
     "CHEFE",
     "CHEF",
     "ENTREGA",
@@ -4811,7 +4811,7 @@
     "TEMPERATURA",
     "SUSPENSÃO",
     "UNIFORME",
-    "LEITE"
+    "IMPOSSÍVEL"
    ]
   },
   {
@@ -5054,7 +5054,7 @@
     "TENTAÇÃO",
     "TONA",
     "NOTURNO",
-    "AGRESSÃO"
+    "LIBERTAÇÃO"
    ]
   },
   {
@@ -5207,8 +5207,8 @@
     "FILHO",
     "INTERVALO",
     "FENÔMENO",
-    "CRIANÇA",
     "CABEÇA",
+    "CRIANÇA",
     "ÚTERO",
     "PARTO",
     "OMBRO",
@@ -5539,8 +5539,8 @@
     "VENENO",
     "CERVEJA",
     "PERCEPÇÃO",
-    "CORPO",
-    "CIVILIZAÇÃO"
+    "CIVILIZAÇÃO",
+    "CORPO"
    ]
   },
   {
@@ -5772,8 +5772,8 @@
     "INFORMAÇÃO",
     "PERCEPÇÃO",
     "MASSA",
-    "PÚBLICO",
     "LINGUAGEM",
+    "PÚBLICO",
     "RESPOSTA",
     "MENSAGEM",
     "FATO",
@@ -5862,8 +5862,8 @@
     "RESPOSTA",
     "CRIAÇÃO",
     "OBJETIVO",
-    "PIANO",
     "NATUREZA",
+    "PIANO",
     "FATO"
    ]
   },
@@ -6105,8 +6105,8 @@
     "CINTURA",
     "PACOTE",
     "LÁPIS",
-    "CRISTAL",
     "ACASO",
+    "CRISTAL",
     "SALTO"
    ]
   },
@@ -6161,7 +6161,7 @@
     "MINISTÉRIO",
     "PADRE",
     "DESCRIÇÃO",
-    "ADMINISTRAÇÃO"
+    "RESPONSABILIDADE"
    ]
   },
   {
@@ -6385,8 +6385,8 @@
     "AGRADECIMENTO",
     "SENTIMENTO",
     "DIFERENÇA",
-    "FAVOR",
     "AJUDA",
+    "FAVOR",
     "PSICOLOGIA",
     "ÉTICA",
     "INTERESSE",
@@ -6394,9 +6394,9 @@
     "TENTA",
     "DISCIPLINA",
     "PRAZO",
-    "BENEFÍCIO",
     "CURTO",
     "MORAL",
+    "BENEFÍCIO",
     "PREOCUPAÇÃO"
    ]
   },
@@ -6449,8 +6449,8 @@
     "TUBO",
     "COSTUME",
     "AVES",
-    "AÇÚCAR",
     "CONCENTRAÇÃO",
+    "AÇÚCAR",
     "OBSERVAR"
    ]
   },
@@ -6710,9 +6710,9 @@
     "GRÃO",
     "ESTAÇÃO",
     "LIMPEZA",
-    "EXPLORAÇÃO",
     "MUDA",
     "EQUIPAMENTO",
+    "EXPLORAÇÃO",
     "CORTE",
     "ALIMENTO",
     "TAREFA",
@@ -6850,8 +6850,8 @@
     "CONHECIMENTO",
     "INVESTIGAÇÃO",
     "FERRAMENTA",
-    "IDEIA",
     "ESCOLHA",
+    "IDEIA",
     "SUCESSO",
     "AUMENTO",
     "NECESSÁRIA",
@@ -7002,8 +7002,8 @@
    "candidatas": [
     "ABORDAGEM",
     "TERRITÓRIO",
-    "SENSO",
     "CHUVA",
+    "SENSO",
     "VISUAL",
     "GUARDA",
     "CIÊNCIA",
@@ -7039,8 +7039,8 @@
     "RECURSO",
     "DISTÂNCIA",
     "SOCIEDADE",
-    "GARAGEM",
     "RAZÃO",
+    "GARAGEM",
     "GUERRA",
     "PROBLEMA",
     "BRUTO",
@@ -7167,8 +7167,8 @@
     "NINGUÉM",
     "ESFORÇO",
     "POSSIBILIDADE",
-    "RESPOSTA",
     "EVIDÊNCIA",
+    "RESPOSTA",
     "CONTRÁRIO",
     "CONHECIMENTO",
     "PRODUTO",
@@ -7311,7 +7311,7 @@
     "MISSÃO",
     "COMPLETO",
     "CLÁSSICO",
-    "DESEJO"
+    "PROFESSOR"
    ]
   },
   {
@@ -7408,15 +7408,15 @@
     "REPOUSO",
     "VIVA",
     "CORES",
-    "PLANTA",
     "CICLO",
+    "PLANTA",
     "IRÃO",
     "JUNTA",
     "OVO",
     "ANTIGOS",
     "CERCA",
-    "PELE",
     "EVIDÊNCIA",
+    "PELE",
     "PERNA",
     "FORMIGA",
     "CORPO"
@@ -7738,8 +7738,8 @@
     "ÓRGÃOS",
     "SANGUE",
     "RENDA",
-    "PROTEÇÃO",
     "CAUSA",
+    "PROTEÇÃO",
     "RECOMPENSA",
     "POBREZA",
     "FUNDAÇÃO",
@@ -7998,8 +7998,8 @@
     "CONHECIMENTO",
     "SABEDORIA",
     "PORTA",
-    "NAÇÃO",
     "POVO",
+    "NAÇÃO",
     "BOCA",
     "GRITO",
     "POTE",
@@ -8401,11 +8401,11 @@
     "ARTE",
     "IMPERIAL",
     "MORTE",
-    "LEALDADE",
     "PINTURA",
+    "LEALDADE",
     "MESTRE",
-    "RITUAL",
     "TERRA",
+    "RITUAL",
     "CIVIL",
     "IMPÉRIO",
     "SENHOR",
@@ -8560,8 +8560,8 @@
     "VOLUNTÁRIO",
     "INTEGRIDADE",
     "DOSE",
-    "PULMÕES",
     "QUEIMA",
+    "PULMÕES",
     "GORDURA"
    ]
   },
@@ -8584,8 +8584,8 @@
     "TRANSMISSÃO",
     "CAMPO",
     "DISTRIBUIÇÃO",
-    "MANUTENÇÃO",
     "ENERGIA",
+    "MANUTENÇÃO",
     "BASE",
     "CENTRO",
     "VIVO",
@@ -8654,8 +8654,8 @@
    "revisada": false,
    "candidatas": [
     "EMPRESA",
-    "INTERESSE",
     "PÚBLICO",
+    "INTERESSE",
     "ECONOMIA",
     "SOCIEDADE",
     "ATOR",
@@ -8775,8 +8775,8 @@
     "DRAMA",
     "DÚVIDA",
     "COSTUME",
-    "MUSICAL",
-    "TENSÃO"
+    "FRASE",
+    "MUSICAL"
    ]
   },
   {
@@ -8908,8 +8908,8 @@
     "RELIGIÃO",
     "PROTETOR",
     "OLHO",
-    "PROBLEMA",
     "REMÉDIO",
+    "PROBLEMA",
     "PARTO",
     "LEÃO"
    ]
@@ -8930,8 +8930,8 @@
     "CONTADOR",
     "ATO",
     "EVOLUÇÃO",
-    "OBJETIVO",
     "TÉCNICO",
+    "OBJETIVO",
     "PÚBLICO",
     "MERCADORIA",
     "NATUREZA",
@@ -9073,7 +9073,7 @@
     "ONDA",
     "FERRAMENTA",
     "CORES",
-    "METAL"
+    "GERAÇÃO"
    ]
   },
   {
@@ -9147,8 +9147,8 @@
     "IDADE",
     "CRESCIMENTO",
     "FASE",
-    "CONTATO",
     "PELE",
+    "CONTATO",
     "MELHORA",
     "PARTO",
     "SINAL",
@@ -9165,8 +9165,8 @@
    "revisada": false,
    "candidatas": [
     "RAIZ",
-    "MESTRE",
     "PROFESSOR",
+    "MESTRE",
     "ATO",
     "COMUNIDADE",
     "SACERDOTE",
@@ -9361,8 +9361,8 @@
     "NECESSIDADE",
     "POSSIBILIDADE",
     "HABILIDADE",
-    "CIVILIZAÇÃO",
     "ORGANIZAÇÃO",
+    "CIVILIZAÇÃO",
     "VISÃO",
     "PRODUTO",
     "HUMANO",
@@ -9511,8 +9511,8 @@
     "LARGA",
     "SUBSTÂNCIA",
     "ENGENHARIA",
-    "ARANHA",
     "FORTE",
+    "ARANHA",
     "VEGETAL",
     "QUÍMICO",
     "CABELO",
@@ -9699,8 +9699,8 @@
     "INTELECTUAL",
     "ASSUNTO",
     "ABORDAGEM",
-    "DOCUMENTO",
     "TRABALHO",
+    "DOCUMENTO",
     "DEFESA",
     "DESENVOLVIMENTO",
     "CIENTÍFICO",
@@ -9816,8 +9816,8 @@
     "MORADOR",
     "SOCIEDADE",
     "CELA",
-    "TEMPO",
     "LATA",
+    "TEMPO",
     "IDOSO",
     "BARCO"
    ]
@@ -9886,8 +9886,8 @@
     "COMPUTADOR",
     "PROTESTO",
     "CURIOSIDADE",
-    "LUCRO",
     "AUXILIAR",
+    "LUCRO",
     "ACESSO",
     "LIMITE",
     "INFORMAÇÃO",
@@ -9900,7 +9900,7 @@
     "ESPÍRITO",
     "NORMAL",
     "SEGURANÇA",
-    "POLÍTICA"
+    "CONHECIMENTO"
    ]
   },
   {
@@ -9950,8 +9950,8 @@
     "CABEÇA",
     "ÁRVORE",
     "INSETO",
-    "CHÃO",
     "FORTE",
+    "CHÃO",
     "PLACA",
     "PLANTA",
     "ALIMENTO"
@@ -10079,8 +10079,8 @@
     "RAMO",
     "IMPACTO",
     "CANHÃO",
-    "RESISTÊNCIA",
     "CIÊNCIA",
+    "RESISTÊNCIA",
     "ARTE",
     "EFEITO",
     "FORÇA",
@@ -10345,8 +10345,8 @@
     "TESTEMUNHO",
     "CONTEÚDO",
     "HOMENAGEM",
-    "EVENTO",
     "ACONTECIMENTO",
+    "EVENTO",
     "SÍMBOLO",
     "BENS",
     "POLÍTICA",
@@ -10432,8 +10432,8 @@
     "GRAVE",
     "MODOS",
     "DEFESA",
-    "APROVAÇÃO",
     "PROMOÇÃO",
+    "APROVAÇÃO",
     "POLÍTICA",
     "CIRCUNSTÂNCIA",
     "NOVEMBRO",
@@ -10504,8 +10504,8 @@
     "CADÁVER",
     "CERCA",
     "ÓRGÃOS",
-    "CÉREBRO",
     "FRIO",
+    "CÉREBRO",
     "DESCOBERTO",
     "EXTREMO",
     "CORPO",
@@ -10560,8 +10560,8 @@
     "ESPERANÇA",
     "ÓLEO",
     "SANTA",
-    "NAÇÃO",
     "POVO",
+    "NAÇÃO",
     "FUTURO",
     "PASSAGEM",
     "PROFETA",
@@ -10596,8 +10596,8 @@
     "CREME",
     "PANO",
     "DÍVIDA",
-    "FEBRE",
     "BRILHO",
+    "FEBRE",
     "ARCO",
     "GENERAL"
    ]
@@ -10972,8 +10972,8 @@
     "FÍGADO",
     "INÍCIO",
     "BOCA",
-    "OLHO",
     "CHAMA",
+    "OLHO",
     "ARTÉRIA",
     "CORAÇÃO",
     "COMPRIMENTO"
@@ -10990,8 +10990,8 @@
     "PRATA",
     "DESCOBERTA",
     "BOMBA",
-    "QUÍMICO",
     "ENERGIA",
+    "QUÍMICO",
     "SÍMBOLO",
     "MASSA",
     "CHAPA",
@@ -11208,8 +11208,8 @@
     "INTENÇÃO",
     "NECESSIDADE",
     "OBJETIVO",
-    "MULHER",
     "CORAÇÃO",
+    "MULHER",
     "APETITE",
     "DIVINO",
     "PRAZER",
@@ -11287,8 +11287,8 @@
     "ÁGUA",
     "DEDO",
     "DESENVOLVIMENTO",
-    "ADULTO",
     "GRAÇAS",
+    "ADULTO",
     "COMPRIMENTO",
     "INFLUÊNCIA",
     "CULTURA",
@@ -11372,8 +11372,8 @@
     "CABEÇA",
     "TURNO",
     "FILHOTE",
-    "MANCHA",
     "DESCOBERTO",
+    "MANCHA",
     "DEBATE",
     "BREVE"
    ]
@@ -11422,9 +11422,9 @@
     "DIVISÃO",
     "FÊMEA",
     "NORMA",
-    "VÍRUS",
     "FORMAÇÃO",
     "CÓPIA",
+    "VÍRUS",
     "SEMENTE",
     "CHAMA",
     "ORIGINAL",
@@ -11504,8 +11504,8 @@
     "MILITAR",
     "CONHECIMENTO",
     "MENTOR",
-    "CULTURA",
     "SERVIÇO",
+    "CULTURA",
     "SOCIEDADE",
     "QUEIXA",
     "PROTETOR",
@@ -11962,8 +11962,8 @@
     "POSTURA",
     "JULGAMENTO",
     "HERÓI",
-    "PERSONAGEM",
     "CRENÇA",
+    "PERSONAGEM",
     "UNIVERSO",
     "HUMANIDADE",
     "VERDADEIRO"
@@ -11984,8 +11984,8 @@
     "VOTO",
     "RELIGIOSA",
     "INSTITUTO",
-    "RELIGIOSO",
     "INTEIRO",
+    "RELIGIOSO",
     "CRISTÃO",
     "CÉLULA",
     "EXPRESSÃO",
@@ -12069,8 +12069,8 @@
     "ALIMENTO",
     "AVIÃO",
     "BONECO",
-    "BALÃO",
     "FORTE",
+    "BALÃO",
     "PANO"
    ]
   },
@@ -12205,8 +12205,8 @@
     "ÁGUA",
     "MOSCA",
     "TEMPERATURA",
-    "DESENVOLVIMENTO",
-    "PELE"
+    "PELE",
+    "DESENVOLVIMENTO"
    ]
   },
   {
@@ -12281,8 +12281,8 @@
     "MITO",
     "CAVERNA",
     "PERSONAGEM",
-    "PRESA",
     "TEMA",
+    "PRESA",
     "CIENTISTA",
     "SANGUE",
     "TOURO",
@@ -12337,8 +12337,8 @@
     "DEZEMBRO",
     "JORNAL",
     "RÁDIO",
-    "ARTISTA",
     "CONTEÚDO",
+    "ARTISTA",
     "TELEVISÃO",
     "COMUNICAÇÃO",
     "PRODUTO"
@@ -12385,8 +12385,8 @@
     "COMISSÃO",
     "SONO",
     "PROCEDIMENTO",
-    "RESPOSTA",
     "ATENÇÃO",
+    "RESPOSTA",
     "COMPORTAMENTO",
     "EFEITO",
     "SAÚDE",
@@ -12609,8 +12609,8 @@
     "MANTEIGA",
     "MARROM",
     "ORELHA",
-    "PEITO",
-    "AUXILIAR"
+    "AUXILIAR",
+    "PEITO"
    ]
   },
   {
@@ -12653,8 +12653,8 @@
     "DIETA",
     "JUDEU",
     "FRUTO",
-    "BENEFÍCIO",
     "ALIMENTO",
+    "BENEFÍCIO",
     "CLÁSSICO",
     "SAÚDE",
     "CULTURA",
@@ -12822,8 +12822,8 @@
     "SUPERIOR",
     "HUMANO",
     "CERCA",
-    "INFECÇÃO",
     "DEPÓSITO",
+    "INFECÇÃO",
     "COMBATE",
     "CÉLULA",
     "DEFESA"
@@ -12876,8 +12876,8 @@
     "FÍSICA",
     "ABORDAGEM",
     "HUMANO",
-    "CORPO",
     "FOCO",
+    "CORPO",
     "TENTATIVA",
     "DOMÍNIO",
     "CLIMA"
@@ -12901,10 +12901,10 @@
     "INFORMAÇÃO",
     "EXPERIÊNCIA",
     "HISTÓRIA",
-    "EPISÓDIO",
     "REIS",
-    "CIENTISTA",
+    "EPISÓDIO",
     "ESCRITOR",
+    "CIENTISTA",
     "LITERATURA",
     "DOCUMENTO",
     "ALÉM"
@@ -12958,8 +12958,8 @@
     "VOLUME",
     "INSTRUMENTO",
     "MADEIRA",
-    "ROMANOS",
     "TAMANHO",
+    "ROMANOS",
     "INFORMAÇÃO",
     "NORTE"
    ]
@@ -13065,8 +13065,8 @@
     "DIFERENÇA",
     "ABSOLUTO",
     "FÓRMULA",
-    "ENTREGA",
     "FINAL",
+    "ENTREGA",
     "PAR",
     "INTEIRO",
     "VENDA"
@@ -13360,13 +13360,13 @@
     "FÍSICA",
     "HUMANO",
     "CARBONO",
-    "LÍQUIDO",
     "BOLA",
+    "LÍQUIDO",
     "SUBSTÂNCIA",
     "TRATAMENTO",
     "ENERGIA",
-    "DELA",
-    "GALÁXIA"
+    "GALÁXIA",
+    "DELA"
    ]
   },
   {
@@ -13411,8 +13411,8 @@
     "FREQUÊNCIA",
     "POEMA",
     "GUERREIRO",
-    "CURA",
     "MÁGICO",
+    "CURA",
     "SACRIFÍCIO",
     "CULTO",
     "HERÓI",
@@ -13581,8 +13581,8 @@
     "BARRACA",
     "SAMURAI",
     "SUBSTITUTO",
-    "OBJETIVO",
-    "DESPREZO"
+    "DESPREZO",
+    "OBJETIVO"
    ]
   },
   {
@@ -13862,8 +13862,8 @@
    "url": "https://pt.wikipedia.org/wiki/Solu%C3%A7o",
    "revisada": false,
    "candidatas": [
-    "NERVO",
     "RESPIRAÇÃO",
+    "NERVO",
     "RUÍDO",
     "REFLEXO",
     "ESTÔMAGO",
@@ -13947,8 +13947,8 @@
     "SEGUIDOR",
     "ALMA",
     "PENA",
-    "VIOLÊNCIA",
     "AMEAÇA",
+    "VIOLÊNCIA",
     "MOVIMENTO",
     "OBJETIVO",
     "CRIME",
@@ -14032,12 +14032,12 @@
     "ATUAÇÃO",
     "MORAL",
     "VERDADE",
-    "TARDE",
     "MÁSCARA",
+    "TARDE",
     "IDEIA",
     "COMPORTAMENTO",
-    "RIVAL",
     "ESPECIAL",
+    "RIVAL",
     "VÍCIO",
     "RECUSA",
     "ENGANO",
@@ -14148,8 +14148,8 @@
     "MOEDA",
     "ARTE",
     "DEUSA",
-    "ACORDO",
-    "PERGUNTA"
+    "PERGUNTA",
+    "ACORDO"
    ]
   },
   {
@@ -14177,60 +14177,6 @@
     "MÚSCULO",
     "CÂNCER",
     "EXPOSIÇÃO"
-   ]
-  },
-  {
-   "palavra": "RETÓRICA",
-   "sentido": "arte do discurso",
-   "dificuldade": "osso",
-   "url": "https://pt.wikipedia.org/wiki/Ret%C3%B3rica",
-   "revisada": false,
-   "candidatas": [
-    "DISCURSO",
-    "ARTE",
-    "ARGUMENTO",
-    "LINGUAGEM",
-    "AUDIÊNCIA",
-    "MESTRE",
-    "ASSUNTO",
-    "LÓGICA",
-    "FRASE",
-    "FOCO",
-    "GERAÇÃO",
-    "EDUCAÇÃO",
-    "POLÍTICO",
-    "CONHECIMENTO",
-    "PLATEIA",
-    "INOCÊNCIA",
-    "VERDADE",
-    "DEMONSTRAÇÃO"
-   ]
-  },
-  {
-   "palavra": "ENFERMAGEM",
-   "sentido": "ciência do tratamento de doenças e o cuidado ao ser humano",
-   "dificuldade": "osso",
-   "url": "https://pt.wikipedia.org/wiki/Enfermagem",
-   "revisada": false,
-   "candidatas": [
-    "PROFISSÃO",
-    "SAÚDE",
-    "TÉCNICO",
-    "PACIENTE",
-    "AUXILIAR",
-    "COMUNIDADE",
-    "INTEGRAL",
-    "TRATAMENTO",
-    "DOENÇA",
-    "HUMANO",
-    "ASSISTÊNCIA",
-    "FÍSICO",
-    "EXAME",
-    "CIENTÍFICO",
-    "EQUIPE",
-    "PROGRAMA",
-    "PROBLEMA",
-    "CONFORTO"
    ]
   },
   {
@@ -14620,8 +14566,8 @@
    "candidatas": [
     "NASCIMENTO",
     "BEBÊ",
-    "INFÂNCIA",
     "DESENVOLVIMENTO",
+    "INFÂNCIA",
     "IDADE",
     "GARANTIA",
     "ESTÁGIO",
@@ -14673,14 +14619,14 @@
    "revisada": true,
    "candidatas": [
     "DISPOSITIVO",
-    "CONVERSA",
     "COMUNICAÇÃO",
+    "CONVERSA",
     "ELÉTRICO",
     "SINAL",
     "INTERNET",
     "CANAL",
-    "TRANSMISSÃO",
     "CABO",
+    "TRANSMISSÃO",
     "CLÁSSICO",
     "REDE",
     "CLIENTE",
@@ -14812,8 +14758,8 @@
     "LEI",
     "FÍSICA",
     "PARTÍCULA",
-    "ESTRESSE",
     "MECÂNICO",
+    "ESTRESSE",
     "CORPO",
     "VISÃO",
     "MÁQUINA",
@@ -15035,8 +14981,8 @@
     "ANIMAL",
     "REDOR",
     "ÓRGÃO",
-    "HUMOR",
     "MÚSCULO",
+    "HUMOR",
     "HUMANO",
     "CAMADA",
     "CÉREBRO",
@@ -15248,8 +15194,8 @@
     "ATMOSFERA",
     "ENERGIA",
     "CALOR",
-    "LIMITE",
     "MATÉRIA",
+    "LIMITE",
     "ÁGUA",
     "VINHO",
     "IMPERADOR",
@@ -15388,8 +15334,8 @@
     "CONTEÚDO",
     "UNIVERSIDADE",
     "DESENVOLVIMENTO",
-    "QUÍMICA",
     "FERRO",
+    "QUÍMICA",
     "AUMENTO",
     "ÁGUA"
    ]
@@ -15413,8 +15359,8 @@
     "GRAVIDADE",
     "MÍNIMO",
     "CIENTÍFICO",
-    "RELIGIÃO",
     "REDOR",
+    "RELIGIÃO",
     "LIMITE",
     "LUZ",
     "GIGANTE",
@@ -15463,8 +15409,8 @@
     "QUÍMICO",
     "CÉLULA",
     "CRESCIMENTO",
-    "ÓRGÃO",
     "LINGUAGEM",
+    "ÓRGÃO",
     "CENTRO",
     "VISÃO",
     "CABEÇA",
@@ -15689,8 +15635,8 @@
    "url": "https://pt.wikipedia.org/wiki/Arte",
    "revisada": true,
    "candidatas": [
-    "DANÇA",
     "FILOSOFIA",
+    "DANÇA",
     "EMOÇÃO",
     "PRODUTO",
     "MÚSICA",
@@ -15779,8 +15725,8 @@
     "LISTA",
     "LONDRES",
     "LUTA",
-    "BATERIA",
     "ESTRATÉGIA",
+    "BATERIA",
     "ESSÊNCIA",
     "EXECUÇÃO",
     "TERRESTRE",
@@ -15862,8 +15808,8 @@
     "DIREITO",
     "FORMAÇÃO",
     "CAUSA",
-    "INTEGRIDADE",
     "FATO",
+    "INTEGRIDADE",
     "SELEÇÃO",
     "HUMANO",
     "REFLEXO"
@@ -15913,8 +15859,8 @@
     "LÓGICA",
     "SÉRIO",
     "PÚBLICO",
-    "JOGO",
     "FRASE",
+    "JOGO",
     "PERSONAGEM",
     "CENÁRIO",
     "ENTRETENIMENTO",
@@ -16125,8 +16071,8 @@
     "VERMELHO",
     "ONDA",
     "QUÍMICA",
-    "PERCEPÇÃO",
     "COMPRIMENTO",
+    "PERCEPÇÃO",
     "COMPUTADOR",
     "IMPRESSÃO",
     "PINTURA",
@@ -16153,8 +16099,8 @@
     "TROCA",
     "SERVIÇO",
     "COMPRA",
-    "OPERAÇÃO",
     "SOCIEDADE",
+    "OPERAÇÃO",
     "OFERTA",
     "FÍSICO",
     "BUSCA",
@@ -16269,8 +16215,8 @@
     "ENERGIA",
     "PARTÍCULA",
     "MONTANHA",
-    "FLUXO",
     "TERRESTRE",
+    "FLUXO",
     "QUÍMICO"
    ]
   },
@@ -16338,8 +16284,8 @@
     "DIREITO",
     "ACORDO",
     "OPERAÇÃO",
-    "NEGÓCIO",
     "VONTADE",
+    "NEGÓCIO",
     "COMPROMISSO",
     "RIQUEZA",
     "PENA",
@@ -16364,8 +16310,8 @@
    "candidatas": [
     "CAMPO",
     "JOGO",
-    "BOLA",
     "EQUIPE",
+    "BOLA",
     "JOGADOR",
     "ESPORTE",
     "TIME",
@@ -16783,8 +16729,8 @@
     "ARTISTA",
     "SALA",
     "DÚZIA",
-    "BAR",
-    "TAMPA"
+    "TAMPA",
+    "BAR"
    ]
   },
   {
@@ -16973,7 +16919,7 @@
     "COMUNICAÇÃO",
     "FÍSICO",
     "MASSA",
-    "MOVIMENTO"
+    "DEMONSTRAÇÃO"
    ]
   },
   {
@@ -17011,8 +16957,8 @@
    "revisada": true,
    "candidatas": [
     "ESTILO",
-    "ROUPA",
     "FENÔMENO",
+    "ROUPA",
     "MAQUIAGEM",
     "POSTURA",
     "DEBATE",
@@ -17174,8 +17120,8 @@
    "candidatas": [
     "RESIDÊNCIA",
     "NOBRE",
-    "LORDE",
     "DEFESA",
+    "LORDE",
     "FORTALEZA",
     "PALÁCIO",
     "COLETIVA",
@@ -17377,8 +17323,8 @@
     "TRANSMISSÃO",
     "COMPREENSÃO",
     "GERAÇÃO",
-    "PENSAMENTO",
-    "NECESSÁRIA"
+    "NECESSÁRIA",
+    "PENSAMENTO"
    ]
   },
   {
@@ -17529,8 +17475,8 @@
     "NOJO",
     "SENTIMENTO",
     "NEGATIVA",
-    "OPOSIÇÃO",
     "OPOSTO",
+    "OPOSIÇÃO",
     "AMOR",
     "RECONHECIMENTO",
     "IDEIA",
@@ -17539,8 +17485,8 @@
     "ENGANO",
     "COMPAIXÃO",
     "ETAPA",
-    "ABUSO",
-    "PAIXÃO"
+    "PAIXÃO",
+    "MÁGICA"
    ]
   },
   {
@@ -17566,8 +17512,8 @@
     "ENERGIA",
     "UNIVERSO",
     "DEL",
-    "QUÍMICA",
-    "COMPUTADOR"
+    "COMPUTADOR",
+    "QUÍMICA"
    ]
   },
   {
@@ -17643,8 +17589,8 @@
     "FOGO",
     "FORÇA",
     "CAOS",
-    "CULTURA",
     "UNIVERSO",
+    "CULTURA",
     "TEMPESTADE",
     "CRIAÇÃO",
     "LENDA",
@@ -17724,8 +17670,8 @@
     "INÍCIO",
     "FINAL",
     "CULTO",
-    "TRIBUNAL",
     "JULGAMENTO",
+    "TRIBUNAL",
     "FRASE",
     "PEIXE",
     "EXECUÇÃO",
@@ -18047,11 +17993,11 @@
     "MINA",
     "LOCALIZAÇÃO",
     "BRAÇO",
-    "TRATAMENTO",
     "COMERCIAL",
+    "TRATAMENTO",
     "LINHA",
-    "SENSOR",
     "ESCRITOR",
+    "SENSOR",
     "TRABALHO",
     "ESTÁTUA"
    ]
@@ -18092,8 +18038,8 @@
    "candidatas": [
     "TROCA",
     "CELULAR",
-    "PULMÕES",
     "OXIGÊNIO",
+    "PULMÕES",
     "CARBONO",
     "PRESSÃO",
     "CÉLULA",
@@ -18767,8 +18713,8 @@
    "candidatas": [
     "CALENDÁRIO",
     "NORTE",
-    "POLÍTICO",
     "IMPERADOR",
+    "POLÍTICO",
     "REFORMA",
     "MÚSICO",
     "FEVEREIRO",
@@ -18801,8 +18747,8 @@
     "INTERESSE",
     "VANTAGEM",
     "ATENÇÃO",
-    "PÍLULA",
     "PLACA",
+    "PÍLULA",
     "PINTURA",
     "TÉCNICA",
     "PREÇO",
@@ -18863,7 +18809,7 @@
     "ANIMAL",
     "SINTOMA",
     "SEMENTE",
-    "CULTURA"
+    "HUMANO"
    ]
   },
   {
@@ -18882,8 +18828,8 @@
     "DEPRESSÃO",
     "ESTILO",
     "INTERVALO",
-    "SENTIMENTO",
     "DOENÇA",
+    "SENTIMENTO",
     "MUDANÇA",
     "POSSIBILIDADE",
     "DEFESA",
@@ -18928,8 +18874,8 @@
    "revisada": true,
    "candidatas": [
     "DOENÇA",
-    "PACIENTE",
     "HOSPITAL",
+    "PACIENTE",
     "BOLSA",
     "SAÚDE",
     "INVASÃO",
@@ -18969,8 +18915,8 @@
     "EFEITO",
     "FOGO",
     "MILITAR",
-    "COMPLETO",
     "CARGA",
+    "COMPLETO",
     "GUERRA"
    ]
   },
@@ -19235,8 +19181,8 @@
     "ACORDO",
     "EXECUÇÃO",
     "GANGUE",
-    "DROGA",
     "ASSOCIAÇÃO",
+    "DROGA",
     "PROTEÇÃO",
     "RELATÓRIO",
     "JOGO",
@@ -19315,8 +19261,8 @@
     "COPO",
     "TOQUE",
     "GOLPE",
-    "INSTRUMENTO",
     "TORRE",
+    "INSTRUMENTO",
     "CORDA",
     "ARCO",
     "FORTE",
@@ -19371,8 +19317,8 @@
     "RECONHECIMENTO",
     "RELIGIOSO",
     "GRAÇAS",
-    "LIGAÇÃO",
     "LINGUAGEM",
+    "LIGAÇÃO",
     "MÚSICA",
     "PESSOAL",
     "BÊNÇÃO",
@@ -19477,8 +19423,8 @@
     "ÓLEO",
     "BARCO",
     "INTERESSE",
-    "SAÚDE",
     "CRIAÇÃO",
+    "SAÚDE",
     "ANIMAL",
     "ATUM",
     "CAMARÃO",
@@ -19524,8 +19470,8 @@
     "REFEIÇÃO",
     "ANIMAL",
     "DIETA",
-    "HUMANO",
     "ENERGIA",
+    "HUMANO",
     "VEGETAL",
     "CRESCIMENTO",
     "SUBSTÂNCIA",
@@ -19588,8 +19534,8 @@
     "DESEJO",
     "TRABALHO",
     "NECESSIDADE",
-    "SERVIÇO",
     "ARTE",
+    "SERVIÇO",
     "NOÇÃO",
     "ECONOMIA",
     "FUNDAMENTAL"
@@ -19916,7 +19862,7 @@
     "TRATAMENTO",
     "TESTE",
     "FRIO",
-    "ADULTO"
+    "FASE"
    ]
   },
   {
@@ -19942,8 +19888,8 @@
     "CURSO",
     "GUERRA",
     "MILITAR",
-    "PATRÃO",
-    "CARGA"
+    "CARGA",
+    "PATRÃO"
    ]
   },
   {
@@ -19958,8 +19904,8 @@
     "SACRIFÍCIO",
     "TÚMULO",
     "CULTO",
-    "RELIGIOSO",
     "SACERDOTE",
+    "RELIGIOSO",
     "NASCER",
     "PÁTIO",
     "CONSTRUÇÃO",
@@ -19982,8 +19928,8 @@
    "candidatas": [
     "EDUCAÇÃO",
     "ESPECIAL",
-    "RELIGIÃO",
     "ORIENTAÇÃO",
+    "RELIGIÃO",
     "IDENTIDADE",
     "VENTO",
     "BRANCO",
@@ -19992,8 +19938,8 @@
     "RIQUEZA",
     "LOCALIZAÇÃO",
     "SAÚDE",
-    "ADULTO",
     "IDADE",
+    "ADULTO",
     "DIREITO",
     "JOVEM",
     "DIFERENÇA",
@@ -20180,8 +20126,8 @@
     "CONCENTRAÇÃO",
     "FOCO",
     "ESTRANHO",
-    "SENSAÇÃO",
     "PERIGO",
+    "SENSAÇÃO",
     "COMPORTAMENTO",
     "REAÇÃO",
     "CAUSA",
@@ -20537,7 +20483,7 @@
     "HOTEL",
     "ÉTICA",
     "FACULDADE",
-    "PERCEPÇÃO"
+    "PERSPECTIVA"
    ]
   },
   {
@@ -20595,6 +20541,33 @@
    ]
   },
   {
+   "palavra": "PROSTITUIÇÃO",
+   "sentido": "troca consciente de favores sexuais por dinheiro",
+   "dificuldade": "osso",
+   "url": "https://pt.wikipedia.org/wiki/Prostitui%C3%A7%C3%A3o",
+   "revisada": true,
+   "candidatas": [
+    "CLIENTE",
+    "MULHER",
+    "PROFISSÃO",
+    "NEGÓCIO",
+    "CONTATO",
+    "FÍSICO",
+    "DINHEIRO",
+    "HOMEM",
+    "MENINA",
+    "TROCA",
+    "BENEFÍCIO",
+    "SERVIÇO",
+    "RISCO",
+    "TRANSMISSÃO",
+    "DOENÇA",
+    "TRÁFICO",
+    "TRABALHO",
+    "EXPLORAÇÃO"
+   ]
+  },
+  {
    "palavra": "CORVO",
    "sentido": "gênero da família Corvidae",
    "dificuldade": "osso",
@@ -20615,9 +20588,9 @@
     "COMPANHEIRO",
     "ESCURIDÃO",
     "PATA",
-    "CURA",
     "MAGIA",
     "CASAL",
+    "CURA",
     "DIVINO"
    ]
   },
@@ -20855,8 +20828,8 @@
     "ANIMAL",
     "CIVILIZAÇÃO",
     "PRODUÇÃO",
-    "DESENVOLVIMENTO",
     "TRIGO",
+    "DESENVOLVIMENTO",
     "ESCALA",
     "SELVAGEM",
     "FEIJÃO",
@@ -21061,12 +21034,12 @@
    "revisada": true,
    "candidatas": [
     "SINTOMA",
-    "FEBRE",
     "TOSSE",
+    "FEBRE",
     "DOENÇA",
     "PULMÕES",
-    "PEITO",
     "CAUSA",
+    "PEITO",
     "SECA",
     "GRAVE",
     "DIFICULDADE",
@@ -21100,8 +21073,8 @@
     "BARATA",
     "ATAQUE",
     "MÁXIMO",
-    "GRAVE",
     "ATIVO",
+    "GRAVE",
     "PENSA",
     "FÍSICO",
     "FLUXO"
@@ -21229,8 +21202,8 @@
     "FALTA",
     "ELETRICIDADE",
     "SEGURANÇA",
-    "BOLHA",
     "RADIAÇÃO",
+    "BOLHA",
     "RISCO",
     "CALOR",
     "EPISÓDIO",
@@ -21243,6 +21216,33 @@
    ]
   },
   {
+   "palavra": "METANFETAMINA",
+   "sentido": "composto químico",
+   "dificuldade": "osso",
+   "url": "https://pt.wikipedia.org/wiki/Metanfetamina",
+   "revisada": true,
+   "candidatas": [
+    "DROGA",
+    "CRISTAL",
+    "APETITE",
+    "EFEITO",
+    "AUMENTO",
+    "ALERTA",
+    "ABUSO",
+    "EMOÇÃO",
+    "PERCEPÇÃO",
+    "DEPRESSÃO",
+    "FENDA",
+    "NECESSIDADE",
+    "PULMÕES",
+    "PRAZER",
+    "QUÍMICA",
+    "TRATAMENTO",
+    "EXPRESSÃO",
+    "RISCO"
+   ]
+  },
+  {
    "palavra": "EXTORSÃO",
    "sentido": "obtenção de vantagem por meio de ameaça ou violência",
    "dificuldade": "osso",
@@ -21251,8 +21251,8 @@
    "candidatas": [
     "CRIME",
     "ROUBO",
-    "VIOLÊNCIA",
     "VANTAGEM",
+    "VIOLÊNCIA",
     "VÍTIMA",
     "AMEAÇA",
     "CONCURSO",
@@ -21260,8 +21260,8 @@
     "PENA",
     "COMPORTAMENTO",
     "INTENÇÃO",
-    "LIBERDADE",
     "TOMAR",
+    "LIBERDADE",
     "MULTA",
     "CONDUTA",
     "FUTURO",
@@ -21387,8 +21387,8 @@
     "NAVIO",
     "PORTO",
     "CAIS",
-    "COMÉRCIO",
     "MARINA",
+    "COMÉRCIO",
     "CARREGAMENTO",
     "ÁGUA",
     "RIO",
@@ -21501,8 +21501,8 @@
     "SEQUÊNCIA",
     "MUDANÇA",
     "ANIMAL",
-    "VÍRUS",
     "CÓPIA",
+    "VÍRUS",
     "GENÉTICA",
     "RADIAÇÃO",
     "EXPOSIÇÃO",
@@ -21685,8 +21685,8 @@
     "PERSONAGEM",
     "FINAL",
     "MECANISMO",
-    "HISTÓRIA",
     "DISPOSITIVO",
+    "HISTÓRIA",
     "INFORMAÇÃO",
     "INTENÇÃO",
     "RADICAL",
@@ -21886,8 +21886,8 @@
     "JOVEM",
     "ESCOLA",
     "UNIFORME",
-    "HONRA",
-    "SUPERIOR"
+    "SUPERIOR",
+    "HONRA"
    ]
   },
   {
@@ -21939,8 +21939,8 @@
     "HUMANO",
     "TRANSFORMAÇÃO",
     "IMAGEM",
-    "CRIANÇA",
     "PADRÃO",
+    "CRIANÇA",
     "AUMENTO"
    ]
   },
@@ -22080,6 +22080,33 @@
    ]
   },
   {
+   "palavra": "HERPES",
+   "sentido": "Doença",
+   "dificuldade": "osso",
+   "url": "https://pt.wikipedia.org/wiki/Herpes",
+   "revisada": true,
+   "candidatas": [
+    "VÍRUS",
+    "BOLHA",
+    "DOENÇA",
+    "SINTOMA",
+    "DOR",
+    "EPISÓDIO",
+    "CÉLULA",
+    "FEBRE",
+    "FREQUÊNCIA",
+    "GRAVIDADE",
+    "GARGANTA",
+    "DEDO",
+    "FACE",
+    "CÉREBRO",
+    "GRAVE",
+    "BOCA",
+    "OLHO",
+    "CABEÇA"
+   ]
+  },
+  {
    "palavra": "APAGÃO",
    "sentido": "perda de energia elétrica para uma área",
    "dificuldade": "osso",
@@ -22200,8 +22227,8 @@
     "MASSA",
     "CHOCOLATE",
     "DOCE",
-    "RECEITA",
     "COBERTURA",
+    "RECEITA",
     "OVO",
     "LEITE",
     "BOLA",
@@ -22215,6 +22242,33 @@
    ]
   },
   {
+   "palavra": "GENOCÍDIO",
+   "sentido": "eliminação total ou parcial de um grupo racial, étnico, religioso ou cultural",
+   "dificuldade": "osso",
+   "url": "https://pt.wikipedia.org/wiki/Genoc%C3%ADdio",
+   "revisada": true,
+   "candidatas": [
+    "ASSASSINATO",
+    "DESTRUIÇÃO",
+    "ATO",
+    "ALVO",
+    "CRIME",
+    "MASSA",
+    "CRIANÇA",
+    "CULTURA",
+    "FILHO",
+    "FORÇA",
+    "POLÍTICA",
+    "PROPOSTA",
+    "JULGAMENTO",
+    "TRIBUNAL",
+    "JUDEU",
+    "HUMANO",
+    "VIOLÊNCIA",
+    "DIREITO"
+   ]
+  },
+  {
    "palavra": "FURTO",
    "sentido": "ato de tomar a propriedade de outra pessoa sem permissão ou consentimento",
    "dificuldade": "osso",
@@ -22223,8 +22277,8 @@
    "candidatas": [
     "CRIME",
     "ROUBO",
-    "VIOLÊNCIA",
     "AMEAÇA",
+    "VIOLÊNCIA",
     "GRAVE",
     "PENA",
     "DIREITO",
@@ -22291,8 +22345,8 @@
     "DÍVIDA",
     "DIREITO",
     "NATUREZA",
-    "JURO",
-    "EXPLORAÇÃO"
+    "INSTITUTO",
+    "JURO"
    ]
   },
   {
@@ -22310,8 +22364,8 @@
     "REABILITAÇÃO",
     "AVALIAÇÃO",
     "EXAME",
-    "ANSIEDADE",
     "HOSPITAL",
+    "ANSIEDADE",
     "MODOS",
     "DEPRESSÃO",
     "COMPORTAMENTO",
@@ -22394,8 +22448,8 @@
     "POLÍTICA",
     "OBJETIVO",
     "PÚBLICO",
-    "CIDADÃO",
     "GOVERNO",
+    "CIDADÃO",
     "BUSCA",
     "ESPECIAL",
     "CAUSA",
@@ -22417,8 +22471,8 @@
     "ROXO",
     "LÓGICO",
     "MOLE",
-    "DURO",
     "COLEÇÃO",
+    "DURO",
     "NEGRA",
     "OSSO",
     "CORES",
@@ -22712,15 +22766,15 @@
     "MENINO",
     "SEIO",
     "MULHER",
-    "CÉREBRO",
     "ÓRGÃOS",
+    "CÉREBRO",
     "HOMEM",
     "SINAL",
     "FASE",
     "MÚSCULO",
     "AUMENTO",
-    "CORPO",
     "TRANSFORMAÇÃO",
+    "CORPO",
     "ALTURA",
     "IDADE",
     "CRIANÇA",
@@ -22744,14 +22798,14 @@
     "ESCOLA",
     "MORAL",
     "HABITUAL",
-    "ABUSO",
     "FORÇA",
+    "ABUSO",
     "REPUTAÇÃO",
     "FÍSICA",
     "RAÇA",
     "CONFLITO",
     "ORIENTAÇÃO",
-    "PERCEPÇÃO"
+    "CORPORAL"
    ]
   },
   {
