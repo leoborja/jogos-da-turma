@@ -26,7 +26,7 @@
    "licenca": "CC BY-SA 4.0"
   }
  ],
- "metodo": "A casa de cada carta é o arquivo lexicográfico em que a WordNet de Princeton guarda aquele sentido: noun.artifact vira Objeto, noun.animal vira Pessoa/lugar/bicho, verb.motion vira Ação, noun.feeling vira Difícil. Quando a palavra tem sentido em mais de uma casa, vale o sentido mais visto no corpus etiquetado de Princeton e, no empate, a casa mais concreta — é a que dá desenho. A cadeia que a carta mostra são os hiperônimos da OpenWordnet-PT, e é ela que prova a casa. Só entra palavra que o Wikcionário confirma e que aparece na lista de frequência do português falado.",
+ "metodo": "A casa de cada carta é o arquivo lexicográfico em que a WordNet de Princeton guarda aquele sentido: noun.artifact vira Objeto, noun.animal vira Pessoa/lugar/bicho, verb.motion vira Ação, noun.feeling vira Difícil. Quando a palavra tem sentido em mais de uma casa, vale o sentido mais visto no corpus etiquetado de Princeton e, no empate, a casa mais concreta — é a que o corpo consegue mostrar. A cadeia que a carta traz são os hiperônimos da OpenWordnet-PT, e é ela que prova a casa. Só entra palavra que o Wikcionário confirma e que aparece na lista de frequência do português falado.",
  "casas": [
   {
    "id": "objeto",
@@ -75,6 +75,9 @@
   "verb.competition": "verbos de disputa e luta",
   "verb.creation": "verbos de fazer e criar",
   "verb.perception": "verbos de ver, ouvir e cheirar",
+  "verb.change": "verbos de mudar de estado",
+  "verb.possession": "verbos de dar, receber e trocar",
+  "verb.social": "verbos do que se faz com os outros",
   "noun.feeling": "sentimentos",
   "noun.event": "acontecimentos",
   "noun.phenomenon": "fenômenos da natureza",
@@ -82,6 +85,22 @@
   "verb.emotion": "verbos do que se sente"
  },
  "cartas": [
+  {
+   "palavra": "ABAIXAR",
+   "casa": "acao",
+   "sentido": "diminuir",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "abaixar",
+    "desvalorizar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "conhecida",
+   "posicao": 6312,
+   "synset": "00531489-v",
+   "url": "https://pt.wiktionary.org/wiki/abaixar"
+  },
   {
    "palavra": "ABRAÇAR",
    "casa": "acao",
@@ -113,6 +132,20 @@
    "posicao": 7562,
    "synset": "02055649-v",
    "url": "https://pt.wiktionary.org/wiki/acelerar"
+  },
+  {
+   "palavra": "AJUDAR",
+   "casa": "acao",
+   "sentido": "dar ajuda ou assistência",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "ajudar"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "comum",
+   "posicao": 245,
+   "synset": "02547586-v",
+   "url": "https://pt.wiktionary.org/wiki/ajudar"
   },
   {
    "palavra": "ALIMENTAR",
@@ -163,6 +196,23 @@
    "url": "https://pt.wiktionary.org/wiki/andar"
   },
   {
+   "palavra": "APAIXONAR",
+   "casa": "acao",
+   "sentido": "inspirar paixão a",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "apaixonar",
+    "cair",
+    "mudar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "conhecida",
+   "posicao": 5459,
+   "synset": "00148597-v",
+   "url": "https://pt.wiktionary.org/wiki/apaixonar"
+  },
+  {
    "palavra": "APERTAR",
    "casa": "acao",
    "sentido": "exercer pressão ou força sobre",
@@ -176,6 +226,37 @@
    "posicao": 4036,
    "synset": "01447257-v",
    "url": "https://pt.wiktionary.org/wiki/apertar"
+  },
+  {
+   "palavra": "APODRECER",
+   "casa": "acao",
+   "sentido": "tornar ou tornar-se podre",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "apodrecer",
+    "putrefazer",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 10429,
+   "synset": "00209837-v",
+   "url": "https://pt.wiktionary.org/wiki/apodrecer"
+  },
+  {
+   "palavra": "AQUECER",
+   "casa": "acao",
+   "sentido": "tornar quente ou mais quente",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "aquecer",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 7568,
+   "synset": "00371264-v",
+   "url": "https://pt.wiktionary.org/wiki/aquecer"
   },
   {
    "palavra": "ARRANCAR",
@@ -210,6 +291,23 @@
    "url": "https://pt.wiktionary.org/wiki/arrastar"
   },
   {
+   "palavra": "ARREBENTAR",
+   "casa": "acao",
+   "sentido": "vir a abrir de repente e violentamente, como se estivesse sob pressão interna",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "arrebentar",
+    "desmoronar",
+    "mudar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 9539,
+   "synset": "00309310-v",
+   "url": "https://pt.wiktionary.org/wiki/arrebentar"
+  },
+  {
    "palavra": "ARROMBAR",
    "casa": "acao",
    "sentido": "fazer rombo em; quebrar; romper",
@@ -226,6 +324,38 @@
    "url": "https://pt.wiktionary.org/wiki/arrombar"
   },
   {
+   "palavra": "ASSAR",
+   "casa": "acao",
+   "sentido": "cozinhar em seco, diretamente sobre o fogo ou no forno",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "assar",
+    "cozinhar",
+    "mudar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 13333,
+   "synset": "00319886-v",
+   "url": "https://pt.wiktionary.org/wiki/assar"
+  },
+  {
+   "palavra": "ASSASSINAR",
+   "casa": "acao",
+   "sentido": "matar intencionalmente e com premeditação",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "assassinar",
+    "O fazendeiro matou um porco para o Natal."
+   ],
+   "arquivo": "verb.social",
+   "raridade": "rara",
+   "posicao": 8707,
+   "synset": "02482425-v",
+   "url": "https://pt.wiktionary.org/wiki/assassinar"
+  },
+  {
    "palavra": "ATERRISSAR",
    "casa": "acao",
    "sentido": "retornar à terra",
@@ -239,6 +369,20 @@
    "posicao": 14089,
    "synset": "01979901-v",
    "url": "https://pt.wiktionary.org/wiki/aterrissar"
+  },
+  {
+   "palavra": "ATRAPALHAR",
+   "casa": "acao",
+   "sentido": "",
+   "sentido_de": "",
+   "cadeia": [
+    "atrapalhar"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "conhecida",
+   "posicao": 5976,
+   "synset": "02450505-v",
+   "url": "https://pt.wiktionary.org/wiki/atrapalhar"
   },
   {
    "palavra": "BALANÇAR",
@@ -318,6 +462,36 @@
    "url": "https://pt.wiktionary.org/wiki/brigar"
   },
   {
+   "palavra": "BRINCAR",
+   "casa": "acao",
+   "sentido": "estar brincando, estar envolvido em uma atividade lúdica; divertir-se de uma forma característica de crianças",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "brincar",
+    "agir"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "comum",
+   "posicao": 1387,
+   "synset": "02418686-v",
+   "url": "https://pt.wiktionary.org/wiki/brincar"
+  },
+  {
+   "palavra": "CALAR",
+   "casa": "acao",
+   "sentido": "silenciar-se",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "calar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "conhecida",
+   "posicao": 3465,
+   "synset": "00461354-v",
+   "url": "https://pt.wiktionary.org/wiki/calar"
+  },
+  {
    "palavra": "CAMINHAR",
    "casa": "acao",
    "sentido": "locomover-se mantendo sempre um dos pés no chão",
@@ -347,6 +521,22 @@
    "posicao": 1119,
    "synset": "01731031-v",
    "url": "https://pt.wiktionary.org/wiki/cantar"
+  },
+  {
+   "palavra": "CASAR",
+   "casa": "acao",
+   "sentido": "tomar em casamento",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "casar",
+    "reunir",
+    "afiliar se"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "comum",
+   "posicao": 677,
+   "synset": "02488834-v",
+   "url": "https://pt.wiktionary.org/wiki/casar"
   },
   {
    "palavra": "CAVALGAR",
@@ -395,6 +585,20 @@
    "posicao": 3433,
    "synset": "02001858-v",
    "url": "https://pt.wiktionary.org/wiki/ca%C3%A7ar"
+  },
+  {
+   "palavra": "CELEBRAR",
+   "casa": "acao",
+   "sentido": "comemorar",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "celebrar"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "conhecida",
+   "posicao": 4234,
+   "synset": "02578510-v",
+   "url": "https://pt.wiktionary.org/wiki/celebrar"
   },
   {
    "palavra": "CHORAR",
@@ -472,6 +676,36 @@
    "url": "https://pt.wiktionary.org/wiki/competir"
   },
   {
+   "palavra": "COMPRAR",
+   "casa": "acao",
+   "sentido": "obter algo em troca de dinheiro",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "comprar"
+   ],
+   "arquivo": "verb.possession",
+   "raridade": "comum",
+   "posicao": 635,
+   "synset": "02210855-v",
+   "url": "https://pt.wiktionary.org/wiki/comprar"
+  },
+  {
+   "palavra": "CONSERTAR",
+   "casa": "acao",
+   "sentido": "Restaurar, substituindo uma parte ou consertando o que estava quebrado ou rasgado; \"ela consertou a televisão\"; \"Conserte os meus sapatos, por favor\"",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "consertar",
+    "aperfeiçoar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "comum",
+   "posicao": 1834,
+   "synset": "00260648-v",
+   "url": "https://pt.wiktionary.org/wiki/consertar"
+  },
+  {
    "palavra": "CONSTRUIR",
    "casa": "acao",
    "sentido": "juntar diferentes elementos para formar um todo, edificar",
@@ -485,6 +719,20 @@
    "posicao": 1920,
    "synset": "01654628-v",
    "url": "https://pt.wiktionary.org/wiki/construir"
+  },
+  {
+   "palavra": "CONTRATAR",
+   "casa": "acao",
+   "sentido": "contratar para trabalhar",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "contratar"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "conhecida",
+   "posicao": 4061,
+   "synset": "02409412-v",
+   "url": "https://pt.wiktionary.org/wiki/contratar"
   },
   {
    "palavra": "CORRER",
@@ -550,6 +798,21 @@
    "posicao": 14953,
    "synset": "01309143-v",
    "url": "https://pt.wiktionary.org/wiki/co%C3%A7ar"
+  },
+  {
+   "palavra": "CUIDAR",
+   "casa": "acao",
+   "sentido": "imaginar",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "cuidar",
+    "governar"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "comum",
+   "posicao": 665,
+   "synset": "02436349-v",
+   "url": "https://pt.wiktionary.org/wiki/cuidar"
   },
   {
    "palavra": "CURAR",
@@ -631,6 +894,20 @@
    "url": "https://pt.wiktionary.org/wiki/deitar"
   },
   {
+   "palavra": "DEMITIR",
+   "casa": "acao",
+   "sentido": "terminar o emprego de; demitir de um cargo ou posição",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "demitir"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "conhecida",
+   "posicao": 4841,
+   "synset": "02402825-v",
+   "url": "https://pt.wiktionary.org/wiki/demitir"
+  },
+  {
    "palavra": "DERRAMAR",
    "casa": "acao",
    "sentido": "fazer correr",
@@ -644,6 +921,37 @@
    "posicao": 10386,
    "synset": "02069551-v",
    "url": "https://pt.wiktionary.org/wiki/derramar"
+  },
+  {
+   "palavra": "DERRETER",
+   "casa": "acao",
+   "sentido": "liquefazer",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "derreter",
+    "liquefazer",
+    "mudar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 10745,
+   "synset": "00376106-v",
+   "url": "https://pt.wiktionary.org/wiki/derreter"
+  },
+  {
+   "palavra": "DESAPARECER",
+   "casa": "acao",
+   "sentido": "sumir, sem aviso ou explicação",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "desaparecer"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "conhecida",
+   "posicao": 2841,
+   "synset": "00426958-v",
+   "url": "https://pt.wiktionary.org/wiki/desaparecer"
   },
   {
    "palavra": "DESCANSAR",
@@ -693,6 +1001,54 @@
    "url": "https://pt.wiktionary.org/wiki/desligar"
   },
   {
+   "palavra": "DETONAR",
+   "casa": "acao",
+   "sentido": "estrondear",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "detonar",
+    "mudar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 8045,
+   "synset": "00306723-v",
+   "url": "https://pt.wiktionary.org/wiki/detonar"
+  },
+  {
+   "palavra": "DIVERTIR",
+   "casa": "acao",
+   "sentido": "",
+   "sentido_de": "",
+   "cadeia": [
+    "divertir",
+    "socializar",
+    "interagir",
+    "agir"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "comum",
+   "posicao": 1796,
+   "synset": "02492198-v",
+   "url": "https://pt.wiktionary.org/wiki/divertir"
+  },
+  {
+   "palavra": "DIVORCIAR",
+   "casa": "acao",
+   "sentido": "dissolver legalmente um casamento",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "divorciar",
+    "partir"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "rara",
+   "posicao": 8911,
+   "synset": "02490634-v",
+   "url": "https://pt.wiktionary.org/wiki/divorciar"
+  },
+  {
    "palavra": "DORMIR",
    "casa": "acao",
    "sentido": "estar dormindo",
@@ -724,6 +1080,21 @@
    "url": "https://pt.wiktionary.org/wiki/embarcar"
   },
   {
+   "palavra": "EMPRESTAR",
+   "casa": "acao",
+   "sentido": "",
+   "sentido_de": "",
+   "cadeia": [
+    "emprestar",
+    "alterar"
+   ],
+   "arquivo": "verb.possession",
+   "raridade": "conhecida",
+   "posicao": 4488,
+   "synset": "02324478-v",
+   "url": "https://pt.wiktionary.org/wiki/emprestar"
+  },
+  {
    "palavra": "EMPURRAR",
    "casa": "acao",
    "sentido": "mover com força",
@@ -752,6 +1123,21 @@
    "posicao": 3507,
    "synset": "02132745-v",
    "url": "https://pt.wiktionary.org/wiki/encarar"
+  },
+  {
+   "palavra": "ENCHER",
+   "casa": "acao",
+   "sentido": "ficar completa, também em um sentido metafórico",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "encher",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "conhecida",
+   "posicao": 3567,
+   "synset": "00452512-v",
+   "url": "https://pt.wiktionary.org/wiki/encher"
   },
   {
    "palavra": "ENGOLIR",
@@ -785,6 +1171,22 @@
    "url": "https://pt.wiktionary.org/wiki/engravidar"
   },
   {
+   "palavra": "ENSAIAR",
+   "casa": "acao",
+   "sentido": "por à prova, por sua qualidade, ou fazer um uso experimental",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "ensaiar",
+    "avaliar",
+    "cogitar"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "rara",
+   "posicao": 8258,
+   "synset": "02531625-v",
+   "url": "https://pt.wiktionary.org/wiki/ensaiar"
+  },
+  {
    "palavra": "ENTRAR",
    "casa": "acao",
    "sentido": "passar para dentro",
@@ -797,6 +1199,22 @@
    "posicao": 323,
    "synset": "02016523-v",
    "url": "https://pt.wiktionary.org/wiki/entrar"
+  },
+  {
+   "palavra": "ENVENENAR",
+   "casa": "acao",
+   "sentido": "ministrar veneno a",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "envenenar",
+    "aviltar",
+    "alterar"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "rara",
+   "posicao": 13013,
+   "synset": "02580678-v",
+   "url": "https://pt.wiktionary.org/wiki/envenenar"
   },
   {
    "palavra": "ENXERGAR",
@@ -874,6 +1292,21 @@
    "url": "https://pt.wiktionary.org/wiki/escovar"
   },
   {
+   "palavra": "ESCURECER",
+   "casa": "acao",
+   "sentido": "ficar escuro ou mais escuro",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "escurecer",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 11069,
+   "synset": "00312380-v",
+   "url": "https://pt.wiktionary.org/wiki/escurecer"
+  },
+  {
    "palavra": "ESCUTAR",
    "casa": "acao",
    "sentido": "prestar atenção auditiva; dar ouvidos",
@@ -887,6 +1320,21 @@
    "posicao": 2473,
    "synset": "02169702-v",
    "url": "https://pt.wiktionary.org/wiki/escutar"
+  },
+  {
+   "palavra": "ESFRIAR",
+   "casa": "acao",
+   "sentido": "tornar fresco ou mais fresco",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "esfriar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 10011,
+   "synset": "00370412-v",
+   "url": "https://pt.wiktionary.org/wiki/esfriar"
   },
   {
    "palavra": "ESMAGAR",
@@ -920,6 +1368,37 @@
    "url": "https://pt.wiktionary.org/wiki/espiar"
   },
   {
+   "palavra": "ESPIONAR",
+   "casa": "acao",
+   "sentido": "Seguir com os olhos ou a mente",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "espionar",
+    "checar",
+    "analizar"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "rara",
+   "posicao": 12808,
+   "synset": "02455407-v",
+   "url": "https://pt.wiktionary.org/wiki/espionar"
+  },
+  {
+   "palavra": "ESQUENTAR",
+   "casa": "acao",
+   "sentido": "tornar quente ou mais quente",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "esquentar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 9648,
+   "synset": "00371264-v",
+   "url": "https://pt.wiktionary.org/wiki/esquentar"
+  },
+  {
    "palavra": "ESTACIONAR",
    "casa": "acao",
    "sentido": "deixar o veículo parado à beira da estrada ou do passeio",
@@ -934,6 +1413,38 @@
    "posicao": 7455,
    "synset": "01493380-v",
    "url": "https://pt.wiktionary.org/wiki/estacionar"
+  },
+  {
+   "palavra": "ESTOURAR",
+   "casa": "acao",
+   "sentido": "vir a abrir de repente e violentamente, como se estivesse sob pressão interna",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "estourar",
+    "desmoronar",
+    "mudar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 7993,
+   "synset": "00309310-v",
+   "url": "https://pt.wiktionary.org/wiki/estourar"
+  },
+  {
+   "palavra": "ESVAZIAR",
+   "casa": "acao",
+   "sentido": "ficar vazio ou sem seu conteúdo",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "esvaziar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 11347,
+   "synset": "00449692-v",
+   "url": "https://pt.wiktionary.org/wiki/esvaziar"
   },
   {
    "palavra": "FERIR",
@@ -951,6 +1462,20 @@
    "posicao": 4471,
    "synset": "00069879-v",
    "url": "https://pt.wiktionary.org/wiki/ferir"
+  },
+  {
+   "palavra": "FESTEJAR",
+   "casa": "acao",
+   "sentido": "fazer festa em honra de",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "festejar"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "rara",
+   "posicao": 8965,
+   "synset": "02578510-v",
+   "url": "https://pt.wiktionary.org/wiki/festejar"
   },
   {
    "palavra": "FLERTAR",
@@ -998,6 +1523,22 @@
    "posicao": 11536,
    "synset": "01443021-v",
    "url": "https://pt.wiktionary.org/wiki/furar"
+  },
+  {
+   "palavra": "ILUMINAR",
+   "casa": "acao",
+   "sentido": "tornar mais clara ou brilhante",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "iluminar",
+    "iluminar-se",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 12383,
+   "synset": "00291873-v",
+   "url": "https://pt.wiktionary.org/wiki/iluminar"
   },
   {
    "palavra": "IMITAR",
@@ -1080,6 +1621,20 @@
    "url": "https://pt.wiktionary.org/wiki/levantar"
   },
   {
+   "palavra": "LIBERTAR",
+   "casa": "acao",
+   "sentido": "tornar livre",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "libertar"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "conhecida",
+   "posicao": 4257,
+   "synset": "02421374-v",
+   "url": "https://pt.wiktionary.org/wiki/libertar"
+  },
+  {
    "palavra": "LUTAR",
    "casa": "acao",
    "sentido": "estar envolvido em uma briga; continuar uma luta; \"os homens da tribo lutaram entre si\"; \"Os irmãos estão sempre brigando\"; \"Grupos militantes estão lutando pelo controle do país \"",
@@ -1155,6 +1710,22 @@
    "url": "https://pt.wiktionary.org/wiki/morder"
   },
   {
+   "palavra": "MORRER",
+   "casa": "acao",
+   "sentido": "passar da vida física, perder todos os atributos corporais e funções necessárias para sustentar a vida",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "morrer",
+    "mudar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "comum",
+   "posicao": 378,
+   "synset": "00358431-v",
+   "url": "https://pt.wiktionary.org/wiki/morrer"
+  },
+  {
    "palavra": "NADAR",
    "casa": "acao",
    "sentido": "deslocar-se na água ou sustentar-se sobre ela usando recursos do próprio corpo (pés, mãos, braços, pernas, nadadeiras, cauda etc.)",
@@ -1170,6 +1741,37 @@
    "url": "https://pt.wiktionary.org/wiki/nadar"
   },
   {
+   "palavra": "NAMORAR",
+   "casa": "acao",
+   "sentido": "andar de namoro com",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "namorar",
+    "agir"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "conhecida",
+   "posicao": 4465,
+   "synset": "02534492-v",
+   "url": "https://pt.wiktionary.org/wiki/namorar"
+  },
+  {
+   "palavra": "NASCER",
+   "casa": "acao",
+   "sentido": "vir a existir através do nascimento",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "nascer",
+    "mudar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "conhecida",
+   "posicao": 3195,
+   "synset": "00360932-v",
+   "url": "https://pt.wiktionary.org/wiki/nascer"
+  },
+  {
    "palavra": "NAVEGAR",
    "casa": "acao",
    "sentido": "viajar a uma velocidade moderada",
@@ -1183,6 +1785,39 @@
    "posicao": 8824,
    "synset": "01844859-v",
    "url": "https://pt.wiktionary.org/wiki/navegar"
+  },
+  {
+   "palavra": "OBEDECER",
+   "casa": "acao",
+   "sentido": "seguir os comandos, desejos e restrições de alguém",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "obedecer",
+    "adaptar-se",
+    "alterar"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "conhecida",
+   "posicao": 5736,
+   "synset": "02542795-v",
+   "url": "https://pt.wiktionary.org/wiki/obedecer"
+  },
+  {
+   "palavra": "OFERECER",
+   "casa": "acao",
+   "sentido": "dar como oferta; ofertar",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "oferecer",
+    "abastecer",
+    "dar",
+    "transferir"
+   ],
+   "arquivo": "verb.possession",
+   "raridade": "conhecida",
+   "posicao": 2029,
+   "synset": "02296726-v",
+   "url": "https://pt.wiktionary.org/wiki/oferecer"
   },
   {
    "palavra": "OLHAR",
@@ -1215,6 +1850,22 @@
    "url": "https://pt.wiktionary.org/wiki/ouvir"
   },
   {
+   "palavra": "PAGAR",
+   "casa": "acao",
+   "sentido": "remunerar",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "pagar",
+    "dar",
+    "transferir"
+   ],
+   "arquivo": "verb.possession",
+   "raridade": "comum",
+   "posicao": 551,
+   "synset": "02251743-v",
+   "url": "https://pt.wiktionary.org/wiki/pagar"
+  },
+  {
    "palavra": "PASSEAR",
    "casa": "acao",
    "sentido": "andar",
@@ -1242,6 +1893,35 @@
    "posicao": 7839,
    "synset": "01482075-v",
    "url": "https://pt.wiktionary.org/wiki/pendurar"
+  },
+  {
+   "palavra": "PERDER",
+   "casa": "acao",
+   "sentido": "deixar de possuir um objeto ou bem material",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "perder"
+   ],
+   "arquivo": "verb.possession",
+   "raridade": "comum",
+   "posicao": 548,
+   "synset": "02287789-v",
+   "url": "https://pt.wiktionary.org/wiki/perder"
+  },
+  {
+   "palavra": "PERSEGUIR",
+   "casa": "acao",
+   "sentido": "ir no encalço de",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "perseguir",
+    "ansiar"
+   ],
+   "arquivo": "verb.possession",
+   "raridade": "conhecida",
+   "posicao": 5915,
+   "synset": "02240481-v",
+   "url": "https://pt.wiktionary.org/wiki/perseguir"
   },
   {
    "palavra": "PILOTAR",
@@ -1322,6 +2002,21 @@
    "url": "https://pt.wiktionary.org/wiki/pressionar"
   },
   {
+   "palavra": "PROCURAR",
+   "casa": "acao",
+   "sentido": "fazer um esforço ou tentativa",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "procurar",
+    "agir"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "comum",
+   "posicao": 910,
+   "synset": "02530167-v",
+   "url": "https://pt.wiktionary.org/wiki/procurar"
+  },
+  {
    "palavra": "PROTEGER",
    "casa": "acao",
    "sentido": "defender do perigo, lesão, destruição ou dano; \"Weatherbeater protege o telhado da chuva\"",
@@ -1336,6 +2031,20 @@
    "posicao": 1034,
    "synset": "01128193-v",
    "url": "https://pt.wiktionary.org/wiki/proteger"
+  },
+  {
+   "palavra": "PUNIR",
+   "casa": "acao",
+   "sentido": "infligir pena a; dar castigo a",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "punir"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "rara",
+   "posicao": 8242,
+   "synset": "02499629-v",
+   "url": "https://pt.wiktionary.org/wiki/punir"
   },
   {
    "palavra": "RASGAR",
@@ -1369,6 +2078,20 @@
    "url": "https://pt.wiktionary.org/wiki/rastejar"
   },
   {
+   "palavra": "RECEBER",
+   "casa": "acao",
+   "sentido": "",
+   "sentido_de": "",
+   "cadeia": [
+    "receber"
+   ],
+   "arquivo": "verb.possession",
+   "raridade": "comum",
+   "posicao": 1188,
+   "synset": "02210855-v",
+   "url": "https://pt.wiktionary.org/wiki/receber"
+  },
+  {
    "palavra": "RECONSTRUIR",
    "casa": "acao",
    "sentido": "construir de novo",
@@ -1399,6 +2122,20 @@
    "posicao": 2576,
    "synset": "00026385-v",
    "url": "https://pt.wiktionary.org/wiki/relaxar"
+  },
+  {
+   "palavra": "RESGATAR",
+   "casa": "acao",
+   "sentido": "",
+   "sentido_de": "",
+   "cadeia": [
+    "resgatar"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "conhecida",
+   "posicao": 6124,
+   "synset": "02551144-v",
+   "url": "https://pt.wiktionary.org/wiki/resgatar"
   },
   {
    "palavra": "RESPIRAR",
@@ -1476,6 +2213,21 @@
    "url": "https://pt.wiktionary.org/wiki/sacudir"
   },
   {
+   "palavra": "SALVAR",
+   "casa": "acao",
+   "sentido": "retirar de situação perigosa",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "salvar",
+    "resgatar"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "comum",
+   "posicao": 752,
+   "synset": "02550868-v",
+   "url": "https://pt.wiktionary.org/wiki/salvar"
+  },
+  {
    "palavra": "SANGRAR",
    "casa": "acao",
    "sentido": "verter ou perder sangue",
@@ -1489,6 +2241,21 @@
    "posicao": 7295,
    "synset": "00074834-v",
    "url": "https://pt.wiktionary.org/wiki/sangrar"
+  },
+  {
+   "palavra": "SECAR",
+   "casa": "acao",
+   "sentido": "remover a umidade e tornar seco; \"roupas secas\"; \"cabelo seco\"",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "secar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 8072,
+   "synset": "00218475-v",
+   "url": "https://pt.wiktionary.org/wiki/secar"
   },
   {
    "palavra": "SENTAR",
@@ -1586,6 +2353,23 @@
    "url": "https://pt.wiktionary.org/wiki/suar"
   },
   {
+   "palavra": "SUFOCAR",
+   "casa": "acao",
+   "sentido": "derrubar pela força ou autoridade",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "sufocar",
+    "controlar",
+    "coibir",
+    "inibir"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 14419,
+   "synset": "00462092-v",
+   "url": "https://pt.wiktionary.org/wiki/sufocar"
+  },
+  {
    "palavra": "SUGAR",
    "casa": "acao",
    "sentido": "puxar para a boca criando um vácuo prático na boca; \"sugar o veneno do lugar onde a cobra mordeu\"; \"chupar em um canudo \"; \" o bebê chupava o seio da mãe \"",
@@ -1600,6 +2384,36 @@
    "posicao": 7394,
    "synset": "01169704-v",
    "url": "https://pt.wiktionary.org/wiki/sugar"
+  },
+  {
+   "palavra": "SUJAR",
+   "casa": "acao",
+   "sentido": "tornar sujo, especialmente na superfície",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "sujar",
+    "contaminar",
+    "alterar"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "rara",
+   "posicao": 9664,
+   "synset": "00492706-v",
+   "url": "https://pt.wiktionary.org/wiki/sujar"
+  },
+  {
+   "palavra": "SUMIR",
+   "casa": "acao",
+   "sentido": "sumir, sem aviso ou explicação",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "sumir"
+   ],
+   "arquivo": "verb.change",
+   "raridade": "conhecida",
+   "posicao": 5165,
+   "synset": "00426958-v",
+   "url": "https://pt.wiktionary.org/wiki/sumir"
   },
   {
    "palavra": "TRANCAR",
@@ -1664,6 +2478,22 @@
    "url": "https://pt.wiktionary.org/wiki/vencer"
   },
   {
+   "palavra": "VENDER",
+   "casa": "acao",
+   "sentido": "trocar ou entregar por dinheiro ou seu equivalente",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "vender",
+    "trocar",
+    "transferir"
+   ],
+   "arquivo": "verb.possession",
+   "raridade": "comum",
+   "posicao": 1182,
+   "synset": "02242464-v",
+   "url": "https://pt.wiktionary.org/wiki/vender"
+  },
+  {
    "palavra": "VESTIR",
    "casa": "acao",
    "sentido": "estar vestida",
@@ -1692,6 +2522,23 @@
    "url": "https://pt.wiktionary.org/wiki/viajar"
   },
   {
+   "palavra": "VIGIAR",
+   "casa": "acao",
+   "sentido": "",
+   "sentido_de": "",
+   "cadeia": [
+    "vigiar",
+    "espionar",
+    "checar",
+    "analizar"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "conhecida",
+   "posicao": 6188,
+   "synset": "02456031-v",
+   "url": "https://pt.wiktionary.org/wiki/vigiar"
+  },
+  {
    "palavra": "VOAR",
    "casa": "acao",
    "sentido": "viajar através do ar",
@@ -1705,6 +2552,22 @@
    "posicao": 1760,
    "synset": "01940403-v",
    "url": "https://pt.wiktionary.org/wiki/voar"
+  },
+  {
+   "palavra": "VOTAR",
+   "casa": "acao",
+   "sentido": "aprovar ou eleger por meio de voto",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "votar",
+    "escolher",
+    "decidir"
+   ],
+   "arquivo": "verb.social",
+   "raridade": "conhecida",
+   "posicao": 2977,
+   "synset": "02461314-v",
+   "url": "https://pt.wiktionary.org/wiki/votar"
   },
   {
    "palavra": "ABORRECER",
@@ -4245,6 +5108,23 @@
    "url": "https://pt.wiktionary.org/wiki/cerveja"
   },
   {
+   "palavra": "CHAMPANHE",
+   "casa": "objeto",
+   "sentido": "",
+   "sentido_de": "",
+   "cadeia": [
+    "champanhe",
+    "Vinho espumante",
+    "vinho",
+    "Bebida Alcoólica"
+   ],
+   "arquivo": "noun.food",
+   "raridade": "conhecida",
+   "posicao": 3138,
+   "synset": "07893642-n",
+   "url": "https://pt.wiktionary.org/wiki/champanhe"
+  },
+  {
    "palavra": "CHAPÉU",
    "casa": "objeto",
    "sentido": "artefato que protege a cabeça do mau tempo; tem formato arredondado e geralmente uma aba",
@@ -4410,6 +5290,23 @@
    "posicao": 1100,
    "synset": "03619890-n",
    "url": "https://pt.wiktionary.org/wiki/cozinha"
+  },
+  {
+   "palavra": "CRUZ",
+   "casa": "objeto",
+   "sentido": "",
+   "sentido_de": "",
+   "cadeia": [
+    "cruz",
+    "edifício",
+    "artefato",
+    "todo"
+   ],
+   "arquivo": "noun.artifact",
+   "raridade": "conhecida",
+   "posicao": 3063,
+   "synset": "03135532-n",
+   "url": "https://pt.wiktionary.org/wiki/cruz"
   },
   {
    "palavra": "CÂMERA",
@@ -4701,6 +5598,20 @@
    "url": "https://pt.wiktionary.org/wiki/faca"
   },
   {
+   "palavra": "FACE",
+   "casa": "objeto",
+   "sentido": "a frente da cabeça humana, da testa ao queixo e de orelha à orelha",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "face"
+   ],
+   "arquivo": "noun.body",
+   "raridade": "conhecida",
+   "posicao": 3229,
+   "synset": "05600637-n",
+   "url": "https://pt.wiktionary.org/wiki/face"
+  },
+  {
    "palavra": "FAZENDA",
    "casa": "objeto",
    "sentido": "grande propriedade rural",
@@ -4733,6 +5644,23 @@
    "url": "https://pt.wiktionary.org/wiki/ferro"
   },
   {
+   "palavra": "FIO",
+   "casa": "objeto",
+   "sentido": "linha",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "fio",
+    "ligamento",
+    "ligação",
+    "conector"
+   ],
+   "arquivo": "noun.artifact",
+   "raridade": "conhecida",
+   "posicao": 3134,
+   "synset": "04594218-n",
+   "url": "https://pt.wiktionary.org/wiki/fio"
+  },
+  {
    "palavra": "FITA",
    "casa": "objeto",
    "sentido": "objeto de plástico que serve para reproduzir filmes",
@@ -4748,6 +5676,23 @@
    "posicao": 1895,
    "synset": "04391569-n",
    "url": "https://pt.wiktionary.org/wiki/fita"
+  },
+  {
+   "palavra": "FLOR",
+   "casa": "objeto",
+   "sentido": "",
+   "sentido_de": "",
+   "cadeia": [
+    "flor",
+    "angiosperma",
+    "fanerogâmicas",
+    "Planta vascular"
+   ],
+   "arquivo": "noun.plant",
+   "raridade": "conhecida",
+   "posicao": 3164,
+   "synset": "11669921-n",
+   "url": "https://pt.wiktionary.org/wiki/flor"
   },
   {
    "palavra": "FOTO",
@@ -5829,6 +6774,20 @@
    "url": "https://pt.wiktionary.org/wiki/sal%C3%A3o"
   },
   {
+   "palavra": "SANDUÍCHE",
+   "casa": "objeto",
+   "sentido": "pão cortado em duas ou mais fatias entre as quais se colocam os mais diversos alimentos",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "sanduíche"
+   ],
+   "arquivo": "noun.food",
+   "raridade": "conhecida",
+   "posicao": 3129,
+   "synset": "07695965-n",
+   "url": "https://pt.wiktionary.org/wiki/sandu%C3%ADche"
+  },
+  {
    "palavra": "SANGUE",
    "casa": "objeto",
    "sentido": "",
@@ -5910,6 +6869,40 @@
    "posicao": 2650,
    "synset": "07583197-n",
    "url": "https://pt.wiktionary.org/wiki/sopa"
+  },
+  {
+   "palavra": "SUCO",
+   "casa": "objeto",
+   "sentido": "a parte líquida, que pode ser extraída de uma planta ou tecido animal por compressão ou cozinhando",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "suco",
+    "alimento",
+    "substância",
+    "matéria"
+   ],
+   "arquivo": "noun.food",
+   "raridade": "conhecida",
+   "posicao": 3192,
+   "synset": "07923748-n",
+   "url": "https://pt.wiktionary.org/wiki/suco"
+  },
+  {
+   "palavra": "TELA",
+   "casa": "objeto",
+   "sentido": "tecido de lã, linho, seda, etc",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "tela",
+    "superfície",
+    "artefato",
+    "todo"
+   ],
+   "arquivo": "noun.artifact",
+   "raridade": "conhecida",
+   "posicao": 3098,
+   "synset": "04152829-n",
+   "url": "https://pt.wiktionary.org/wiki/tela"
   },
   {
    "palavra": "TELEFONE",
@@ -6149,6 +7142,21 @@
    "url": "https://pt.wiktionary.org/wiki/veneno"
   },
   {
+   "palavra": "VEÍCULO",
+   "casa": "objeto",
+   "sentido": "qualquer tipo de meio de transporte",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "veículo",
+    "veículos motorizados"
+   ],
+   "arquivo": "noun.artifact",
+   "raridade": "conhecida",
+   "posicao": 3125,
+   "synset": "02958343-n",
+   "url": "https://pt.wiktionary.org/wiki/ve%C3%ADculo"
+  },
+  {
    "palavra": "VIDRO",
    "casa": "objeto",
    "sentido": "",
@@ -6232,6 +7240,23 @@
    "posicao": 1414,
    "synset": "13104059-n",
    "url": "https://pt.wiktionary.org/wiki/%C3%A1rvore"
+  },
+  {
+   "palavra": "ÓLEO",
+   "casa": "objeto",
+   "sentido": "um líquido escorregadio ou viscoso ou substância liquefactível não miscível com água",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "óleo",
+    "Lipido",
+    "Macromolécula",
+    "molécula"
+   ],
+   "arquivo": "noun.substance",
+   "raridade": "conhecida",
+   "posicao": 3153,
+   "synset": "14966667-n",
+   "url": "https://pt.wiktionary.org/wiki/%C3%B3leo"
   },
   {
    "palavra": "ADOLESCENTE",
@@ -6851,6 +7876,23 @@
    "url": "https://pt.wiktionary.org/wiki/companheiro"
   },
   {
+   "palavra": "CONSELHEIRO",
+   "casa": "pessoa",
+   "sentido": "um especialista que dá conselhos",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "conselheiro",
+    "autoridade",
+    "especialista",
+    "alguém"
+   ],
+   "arquivo": "noun.person",
+   "raridade": "conhecida",
+   "posicao": 5402,
+   "synset": "09774266-n",
+   "url": "https://pt.wiktionary.org/wiki/conselheiro"
+  },
+  {
    "palavra": "CONVIDADO",
    "casa": "pessoa",
    "sentido": "um visitante a quem hospitalidade é estendida",
@@ -6946,6 +7988,23 @@
    "posicao": 5256,
    "synset": "09893015-n",
    "url": "https://pt.wiktionary.org/wiki/delegado"
+  },
+  {
+   "palavra": "DENTISTA",
+   "casa": "pessoa",
+   "sentido": "médico odontologista; profissional que se ocupa das doenças e deficiências dentárias, à profilaxia e ao tratamento dos dentes",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "dentista",
+    "médico",
+    "profissional",
+    "adulto"
+   ],
+   "arquivo": "noun.person",
+   "raridade": "conhecida",
+   "posicao": 5528,
+   "synset": "10004282-n",
+   "url": "https://pt.wiktionary.org/wiki/dentista"
   },
   {
    "palavra": "DESERTO",
@@ -7062,6 +8121,40 @@
    "url": "https://pt.wiktionary.org/wiki/drag%C3%A3o"
   },
   {
+   "palavra": "EDITOR",
+   "casa": "pessoa",
+   "sentido": "o que ou aquele que edita",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "editor",
+    "profissional",
+    "adulto",
+    "alguém"
+   ],
+   "arquivo": "noun.person",
+   "raridade": "conhecida",
+   "posicao": 5565,
+   "synset": "10491309-n",
+   "url": "https://pt.wiktionary.org/wiki/editor"
+  },
+  {
+   "palavra": "ELEFANTE",
+   "casa": "pessoa",
+   "sentido": "paquiderme de cinco dedos",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "elefante",
+    "proboscídeos",
+    "mamífero",
+    "vertebrado"
+   ],
+   "arquivo": "noun.animal",
+   "raridade": "conhecida",
+   "posicao": 5634,
+   "synset": "02503517-n",
+   "url": "https://pt.wiktionary.org/wiki/elefante"
+  },
+  {
    "palavra": "EMBAIXADOR",
    "casa": "pessoa",
    "sentido": "um diplomata de mais alta patente; credenciado como representante de um país para outro",
@@ -7094,6 +8187,23 @@
    "posicao": 4112,
    "synset": "10282672-n",
    "url": "https://pt.wiktionary.org/wiki/empregada"
+  },
+  {
+   "palavra": "EMPRESÁRIO",
+   "casa": "pessoa",
+   "sentido": "aquele que empreende negociação ou estabelecimento de uso público",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "empresário",
+    "capitalista",
+    "alguém",
+    "organismo"
+   ],
+   "arquivo": "noun.person",
+   "raridade": "conhecida",
+   "posicao": 5522,
+   "synset": "09882007-n",
+   "url": "https://pt.wiktionary.org/wiki/empres%C3%A1rio"
   },
   {
    "palavra": "ENFERMEIRA",
@@ -7312,6 +8422,20 @@
    "posicao": 4642,
    "synset": "10763383-n",
    "url": "https://pt.wiktionary.org/wiki/gar%C3%A7om"
+  },
+  {
+   "palavra": "GARÇONETE",
+   "casa": "pessoa",
+   "sentido": "mulher que serve os clientes em lanchonetes, restaurantes, casas noturnas, etc",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "garçonete"
+   ],
+   "arquivo": "noun.person",
+   "raridade": "conhecida",
+   "posicao": 5327,
+   "synset": "10763383-n",
+   "url": "https://pt.wiktionary.org/wiki/gar%C3%A7onete"
   },
   {
    "palavra": "GATO",
@@ -7626,6 +8750,23 @@
    "posicao": 3839,
    "synset": "02129165-n",
    "url": "https://pt.wiktionary.org/wiki/le%C3%A3o"
+  },
+  {
+   "palavra": "LUTADOR",
+   "casa": "pessoa",
+   "sentido": "alguém que luta (ou esta lutando)",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "lutador",
+    "alguém",
+    "organismo",
+    "todo"
+   ],
+   "arquivo": "noun.person",
+   "raridade": "conhecida",
+   "posicao": 5491,
+   "synset": "09939313-n",
+   "url": "https://pt.wiktionary.org/wiki/lutador"
   },
   {
    "palavra": "LÍDER",
@@ -7960,6 +9101,21 @@
    "posicao": 1227,
    "synset": "10405694-n",
    "url": "https://pt.wiktionary.org/wiki/paciente"
+  },
+  {
+   "palavra": "PADRINHO",
+   "casa": "pessoa",
+   "sentido": "alguém que apóia ou suporta algo",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "padrinho",
+    "doador"
+   ],
+   "arquivo": "noun.person",
+   "raridade": "conhecida",
+   "posicao": 5463,
+   "synset": "10407954-n",
+   "url": "https://pt.wiktionary.org/wiki/padrinho"
   },
   {
    "palavra": "PAI",
@@ -8495,6 +9651,23 @@
    "url": "https://pt.wiktionary.org/wiki/r%C3%A9u"
   },
   {
+   "palavra": "SAPO",
+   "casa": "pessoa",
+   "sentido": "qualquer um dos vários anfíbios de corpo robusto sem cauda com membros posteriores longos para saltar; espécies semiaquáticas e terrestres",
+   "sentido_de": "OpenWordnet-PT",
+   "cadeia": [
+    "sapo",
+    "Anfibios",
+    "vertebrado",
+    "cordados"
+   ],
+   "arquivo": "noun.animal",
+   "raridade": "conhecida",
+   "posicao": 5747,
+   "synset": "01639765-n",
+   "url": "https://pt.wiktionary.org/wiki/sapo"
+  },
+  {
    "palavra": "SARGENTO",
    "casa": "pessoa",
    "sentido": "posto de praça graduado de qualquer corporação militar que, na escala hierárquica, está entre o cabo e o subtenente ou suboficial",
@@ -8668,6 +9841,23 @@
    "posicao": 706,
    "synset": "10736091-n",
    "url": "https://pt.wiktionary.org/wiki/tio"
+  },
+  {
+   "palavra": "TOURO",
+   "casa": "pessoa",
+   "sentido": "animal bovídeo macho adulto da espécie Bos taurus",
+   "sentido_de": "Wikcionário",
+   "cadeia": [
+    "touro",
+    "bovinos",
+    "bovídeos",
+    "ruminante"
+   ],
+   "arquivo": "noun.animal",
+   "raridade": "conhecida",
+   "posicao": 5347,
+   "synset": "02403325-n",
+   "url": "https://pt.wiktionary.org/wiki/touro"
   },
   {
    "palavra": "TREINADOR",

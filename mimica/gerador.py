@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-gerador.py — monta o baralho do Imagem e Ação a partir de bases abertas.
+gerador.py — monta o baralho da Mímica a partir de bases abertas.
 
 A carta do jogo de caixa traz uma palavra e uma letra dizendo em que casa ela
 joga: O de objeto, P de pessoa/lugar/animal, A de ação, D de difícil. A letra é
@@ -10,16 +10,16 @@ o que a mesa mais discute ("isso não é objeto!"), então aqui ela não é palp
                mora em exatamente um dos 45 arquivos temáticos — noun.animal,
                noun.artifact, verb.motion — e casas.py diz qual arquivo cai em
                qual casa. Quando a palavra tem sentido em mais de uma casa,
-               fica com a mais concreta: é a que dá desenho.
+               fica com a mais concreta: é a que o corpo consegue mostrar.
 
   a palavra    é um lema em português da OpenWordnet-PT, confirmado como
                substantivo ou verbo pelo Wikcionário e presente na lista de
                frequência do português falado — palavra que ninguém usa não
-               vira desenho.
+               vira mímica.
 
   a cadeia     que a carta mostra ("martelo → ferramenta → apetrecho →
                artefato") são os hiperônimos da OpenWordnet-PT. É o que prova
-               a casa e, de quebra, é a primeira ideia de desenho.
+               a casa e, de quebra, é a primeira ideia de por onde começar.
 
   a raridade   é a posição da palavra na lista de frequência.
 
@@ -439,7 +439,7 @@ def monta(args):
             if texto:
                 c["sentido"], c["sentido_de"] = texto, "Wikcionário"
 
-    # Teto por casa: as mais comuns primeiro. Palavra rara não vira desenho, e
+    # Teto por casa: as mais comuns primeiro. Palavra rara não vira mímica, e
     # sem teto a casa Objeto sozinha seria metade do baralho.
     cartas.sort(key=lambda c: c["posicao"])
     por_casa, escolhidas = collections.Counter(), []
@@ -481,7 +481,8 @@ def escreve(cartas, caiu, por_casa, args):
             "vira Pessoa/lugar/bicho, verb.motion vira Ação, noun.feeling vira "
             "Difícil. Quando a palavra tem sentido em mais de uma casa, vale o "
             "sentido mais visto no corpus etiquetado de Princeton e, no empate, a "
-            "casa mais concreta — é a que dá desenho. A cadeia que a carta mostra "
+            "casa mais concreta — é a que o corpo consegue mostrar. A cadeia que "
+            "a carta traz "
             "são os hiperônimos da OpenWordnet-PT, e é ela que prova a casa. Só "
             "entra palavra que o Wikcionário confirma e que aparece na lista de "
             "frequência do português falado."),
@@ -525,7 +526,7 @@ def escreve(cartas, caiu, por_casa, args):
 
 def main():
     global SEM_CACHE
-    ap = argparse.ArgumentParser(description="monta o baralho do Imagem e Ação")
+    ap = argparse.ArgumentParser(description="monta o baralho da Mímica")
     ap.add_argument("--por-casa", type=int, default=180, help="teto de cartas por casa")
     ap.add_argument("--topo", type=int, default=15000,
                     help="até que posição da lista de frequência a palavra vale")

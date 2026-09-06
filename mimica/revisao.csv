@@ -1,109 +1,165 @@
 palavra,casa,arquivo,raridade,posicao,cadeia,sentido,sentido_de
+ABAIXAR,acao,verb.change,conhecida,6312,abaixar > desvalorizar > alterar,diminuir,OpenWordnet-PT
 ABRAÇAR,acao,verb.contact,conhecida,5447,abraçar > agarrar com firmeza > agarrar > segurar,envolver com os braços,Wikcionário
 ACELERAR,acao,verb.motion,rara,7562,acelerar > andar,mover muito rápido,OpenWordnet-PT
+AJUDAR,acao,verb.social,comum,245,ajudar,dar ajuda ou assistência,OpenWordnet-PT
 ALIMENTAR,acao,verb.consumption,conhecida,2968,alimentar > abastecer > dar > transferir,fornecer alimento a,Wikcionário
 AMARRAR,acao,verb.contact,rara,7154,amarrar > fixar > anexar > juntar,"prender ou fixar com uma corda ou cabo; ""Eles amarraram a vítima na cadeira""",OpenWordnet-PT
 ANDAR,acao,verb.motion,comum,715,andar,"locomover-se com as pernas, dando passos; caminhar",Wikcionário
+APAIXONAR,acao,verb.change,conhecida,5459,apaixonar > cair > mudar > alterar,inspirar paixão a,Wikcionário
 APERTAR,acao,verb.contact,conhecida,4036,apertar > bater,exercer pressão ou força sobre,OpenWordnet-PT
+APODRECER,acao,verb.change,rara,10429,apodrecer > putrefazer > alterar,tornar ou tornar-se podre,Wikcionário
+AQUECER,acao,verb.change,rara,7568,aquecer > alterar,tornar quente ou mais quente,OpenWordnet-PT
 ARRANCAR,acao,verb.contact,conhecida,3988,arrancar > arredar > deslocar,tirar da terra,Wikcionário
 ARRASTAR,acao,verb.contact,rara,8243,arrastar > arredar > deslocar,"puxar, contra uma resistência; ""Ele arrastou a mala grande atrás dele""; ""Estas preocupações foram arrastando ele""",OpenWordnet-PT
+ARREBENTAR,acao,verb.change,rara,9539,arrebentar > desmoronar > mudar > alterar,"vir a abrir de repente e violentamente, como se estivesse sob pressão interna",OpenWordnet-PT
 ARROMBAR,acao,verb.contact,rara,13325,arrombar > acertar > bater,fazer rombo em; quebrar; romper,Wikcionário
+ASSAR,acao,verb.change,rara,13333,assar > cozinhar > mudar > alterar,"cozinhar em seco, diretamente sobre o fogo ou no forno",Wikcionário
+ASSASSINAR,acao,verb.social,rara,8707,assassinar > O fazendeiro matou um porco para o Natal.,matar intencionalmente e com premeditação,OpenWordnet-PT
 ATERRISSAR,acao,verb.motion,rara,14089,aterrissar > chegar,retornar à terra,Wikcionário
+ATRAPALHAR,acao,verb.social,conhecida,5976,atrapalhar,,
 BALANÇAR,acao,verb.motion,rara,8738,balançar > oscilar > deslocar,mover ou andar de uma forma oscilante ou balançando,OpenWordnet-PT
 BARBEAR,acao,verb.body,rara,11177,barbear > cuidar-se > embelezar > aperfeiçoar,,
 BEBER,acao,verb.consumption,comum,810,beber > consumir,beber liquidos,OpenWordnet-PT
 BEIJAR,acao,verb.contact,conhecida,2465,beijar > bater,oscular; dar beijo (ósculo),Wikcionário
 BRIGAR,acao,verb.competition,conhecida,2951,brigar,"estar envolvido em uma briga; continuar uma luta; ""os homens da tribo lutaram entre si""; ""Os irmãos estão sempre brigando""; ""Grupos militantes estão lutando pelo controle do país """,OpenWordnet-PT
+BRINCAR,acao,verb.social,comum,1387,brincar > agir,"estar brincando, estar envolvido em uma atividade lúdica; divertir-se de uma forma característica de crianças",OpenWordnet-PT
+CALAR,acao,verb.change,conhecida,3465,calar > alterar,silenciar-se,Wikcionário
 CAMINHAR,acao,verb.motion,conhecida,3410,caminhar,locomover-se mantendo sempre um dos pés no chão,Wikcionário
 CANTAR,acao,verb.creation,comum,1119,cantar > conversar > comunicar > interagir,expressar por canto,OpenWordnet-PT
+CASAR,acao,verb.social,comum,677,casar > reunir > afiliar se,tomar em casamento,OpenWordnet-PT
 CAVALGAR,acao,verb.motion,rara,10378,cavalgar > andar,andar a cavalo,Wikcionário
 CAVAR,acao,verb.contact,conhecida,5439,cavar > cortar > dividir > deslocar,"fazer um buraco, especialmente com uma ferramenta manual; ""não perfure aqui, há um cano de gás""; ""furar a parede""; ""perfure para o óleo "";"" os cupins furam buracos na parede """,OpenWordnet-PT
 CAÇAR,acao,verb.motion,conhecida,3433,caçar > perseguir > andar,ir atrás com a intenção de pegar,OpenWordnet-PT
+CELEBRAR,acao,verb.social,conhecida,4234,celebrar,comemorar,Wikcionário
 CHORAR,acao,verb.body,comum,1543,chorar > expressar sentimentos,"derramar lágrimas de tristeza, raiva, ou dor; ""ela chorou amargamente quando soube da morte dele""; ""a menina na cadeira de rodas chorava de raiva de não conseguir subir as escadas""",OpenWordnet-PT
 CHUPAR,acao,verb.consumption,conhecida,6959,chupar > beber > consumir,"puxar para a boca criando um vácuo prático na boca; ""sugar o veneno do lugar onde a cobra mordeu""; ""chupar em um canudo ""; "" o bebê chupava o seio da mãe """,OpenWordnet-PT
 COMBATER,acao,verb.competition,conhecida,6572,combater > brigar,lutar ou brigar contra algo ou como em uma batalha,OpenWordnet-PT
 COMER,acao,verb.consumption,comum,458,comer > consumir,"ingerir comida sólida; ""ela estava comendo uma banana""; ""oque você comeu de jantar noite passada""",OpenWordnet-PT
 COMPETIR,acao,verb.competition,conhecida,5230,competir,competir por alguma coisa; se envolver em uma competição; medir-se em relação aos outros,OpenWordnet-PT
+COMPRAR,acao,verb.possession,comum,635,comprar,obter algo em troca de dinheiro,Wikcionário
+CONSERTAR,acao,verb.change,comum,1834,consertar > aperfeiçoar > alterar,"Restaurar, substituindo uma parte ou consertando o que estava quebrado ou rasgado; ""ela consertou a televisão""; ""Conserte os meus sapatos, por favor""",OpenWordnet-PT
 CONSTRUIR,acao,verb.creation,comum,1920,construir > causar,"juntar diferentes elementos para formar um todo, edificar",Wikcionário
+CONTRATAR,acao,verb.social,conhecida,4061,contratar,contratar para trabalhar,OpenWordnet-PT
 CORRER,acao,verb.motion,comum,1067,correr > acelerar > andar,"mover rápido usando os pés, com um pé fora do chão a qualquer momento",OpenWordnet-PT
 CORTAR,acao,verb.contact,comum,1436,cortar > dividir > deslocar,separar ou dividir por meio de corte,Wikcionário
 COZINHAR,acao,verb.creation,conhecida,2581,cozinhar > confeccionar > causar,"preparar alimentos ao calor (geralmente fogo), principalmente dentro de líquidos",Wikcionário
 COÇAR,acao,verb.contact,rara,14953,coçar > cortar > dividir > deslocar,cortar ou desgastar a superfície de algo,OpenWordnet-PT
+CUIDAR,acao,verb.social,comum,665,cuidar > governar,imaginar,Wikcionário
 CURAR,acao,verb.body,conhecida,3625,curar > ajudar > aperfeiçoar > alterar,restabelecer a saúde de,Wikcionário
 CUSPIR,acao,verb.body,rara,10227,cuspir > ejetar,expulsar ou ejetar (saliva ou catarro ou expectoração) da boca,OpenWordnet-PT
 DANÇAR,acao,verb.motion,comum,1164,dançar > deslocar,mover-se ritmadamente ao som de uma música,Wikcionário
 DECOLAR,acao,verb.motion,rara,8311,decolar > departir > ir,sair do chão (diz-se de aparelhos voadores),OpenWordnet-PT
 DEITAR,acao,verb.contact,conhecida,3750,deitar > botar > deslocar,colocar na cama,Wikcionário
+DEMITIR,acao,verb.social,conhecida,4841,demitir,terminar o emprego de; demitir de um cargo ou posição,OpenWordnet-PT
 DERRAMAR,acao,verb.motion,rara,10386,derramar > deslocar,fazer correr,OpenWordnet-PT
+DERRETER,acao,verb.change,rara,10745,derreter > liquefazer > mudar > alterar,liquefazer,Wikcionário
+DESAPARECER,acao,verb.change,conhecida,2841,desaparecer,"sumir, sem aviso ou explicação",OpenWordnet-PT
 DESCANSAR,acao,verb.contact,comum,1684,descansar > estar,Não se mover; estar em uma posição de repouso,OpenWordnet-PT
 DESCER,acao,verb.motion,comum,1739,descer > andar,"descer ou baixar, não necessariamente até o fim",OpenWordnet-PT
 DESLIGAR,acao,verb.contact,conhecida,2412,desligar > ligar > engajar > deslocar,causar parar de funcionar por desligar um interruptor,OpenWordnet-PT
+DETONAR,acao,verb.change,rara,8045,detonar > mudar > alterar,estrondear,Wikcionário
+DIVERTIR,acao,verb.social,comum,1796,divertir > socializar > interagir > agir,,
+DIVORCIAR,acao,verb.social,rara,8911,divorciar > partir,dissolver legalmente um casamento,Wikcionário
 DORMIR,acao,verb.body,comum,495,dormir > cochilar > estar deitado,estar dormindo,OpenWordnet-PT
 EMBARCAR,acao,verb.motion,rara,9098,embarcar > deslocar,,
+EMPRESTAR,acao,verb.possession,conhecida,4488,emprestar > alterar,,
 EMPURRAR,acao,verb.motion,conhecida,5452,empurrar > deslocar,mover com força,OpenWordnet-PT
 ENCARAR,acao,verb.perception,conhecida,3507,encarar > mirar,olhar de frente e fixamente; fitar,Wikcionário
+ENCHER,acao,verb.change,conhecida,3567,encher > alterar,"ficar completa, também em um sentido metafórico",OpenWordnet-PT
 ENGOLIR,acao,verb.consumption,conhecida,6284,engolir > consumir,"passar pelo esôfago, uma etapa de comer ou beber; ""Engula o peixe cru - não vai te matar!""",OpenWordnet-PT
 ENGRAVIDAR,acao,verb.body,rara,9357,engravidar > mudar > alterar,,
+ENSAIAR,acao,verb.social,rara,8258,ensaiar > avaliar > cogitar,"por à prova, por sua qualidade, ou fazer um uso experimental",OpenWordnet-PT
 ENTRAR,acao,verb.motion,comum,323,entrar,passar para dentro,Wikcionário
+ENVENENAR,acao,verb.social,rara,13013,envenenar > aviltar > alterar,ministrar veneno a,Wikcionário
 ENXERGAR,acao,verb.perception,rara,7215,enxergar > aperceber-se,ver a custo,Wikcionário
 ERGUER,acao,verb.motion,rara,12253,erguer > deslocar,levantar; erigir; pôr de pé,Wikcionário
 ESCALAR,acao,verb.motion,rara,8048,escalar > deslocar,"subir, montar",Wikcionário
 ESCONDER,acao,verb.perception,comum,1258,esconder,"pôr em lugar onde fique oculto, onde não se veja ou haja mais dificuldade em ver ou encontrar",Wikcionário
 ESCOVAR,acao,verb.contact,rara,13183,escovar > esfregar > correr,ato ou efeito de utilizar uma escova,Wikcionário
+ESCURECER,acao,verb.change,rara,11069,escurecer > alterar,ficar escuro ou mais escuro,OpenWordnet-PT
 ESCUTAR,acao,verb.perception,conhecida,2473,escutar > aperceber-se,prestar atenção auditiva; dar ouvidos,Wikcionário
+ESFRIAR,acao,verb.change,rara,10011,esfriar > alterar,tornar fresco ou mais fresco,OpenWordnet-PT
 ESMAGAR,acao,verb.contact,rara,7477,esmagar > apertar > bater,apertar ou pressionar com força de modo a destruir ou deformar,Wikcionário
 ESPIAR,acao,verb.perception,rara,12587,espiar > mirar,lançar um olhar; dar uma breve olhada,OpenWordnet-PT
+ESPIONAR,acao,verb.social,rara,12808,espionar > checar > analizar,Seguir com os olhos ou a mente,OpenWordnet-PT
+ESQUENTAR,acao,verb.change,rara,9648,esquentar > alterar,tornar quente ou mais quente,OpenWordnet-PT
 ESTACIONAR,acao,verb.contact,rara,7455,estacionar > botar > deslocar,deixar o veículo parado à beira da estrada ou do passeio,Wikcionário
+ESTOURAR,acao,verb.change,rara,7993,estourar > desmoronar > mudar > alterar,"vir a abrir de repente e violentamente, como se estivesse sob pressão interna",OpenWordnet-PT
+ESVAZIAR,acao,verb.change,rara,11347,esvaziar > alterar,ficar vazio ou sem seu conteúdo,OpenWordnet-PT
 FERIR,acao,verb.body,conhecida,4471,ferir > aleijar > indispor > alterar,provocar ferimentos ou danos corporais em alguém,OpenWordnet-PT
+FESTEJAR,acao,verb.social,rara,8965,festejar,fazer festa em honra de,Wikcionário
 FLERTAR,acao,verb.perception,rara,13502,flertar > mirar,namoricar; cortejar,Wikcionário
 FUMAR,acao,verb.consumption,conhecida,2428,fumar > consumir,"inalar e exalar fumaça de cigarros, charutos e cachimbos; ""Nós nunca fumamos maconha""; ""Você fuma?""",OpenWordnet-PT
 FURAR,acao,verb.contact,rara,11536,furar > cortar > dividir > deslocar,"fazer um buraco, especialmente com uma ferramenta manual; ""não perfure aqui, há um cano de gás""; ""furar a parede""; ""perfure para o óleo "";"" os cupins furam buracos na parede """,OpenWordnet-PT
+ILUMINAR,acao,verb.change,rara,12383,iluminar > iluminar-se > alterar,tornar mais clara ou brilhante,OpenWordnet-PT
 IMITAR,acao,verb.creation,rara,11096,imitar > reproduzir > construir,fazer exatamente o que faz uma pessoa ou animal,Wikcionário
 INJETAR,acao,verb.body,rara,14913,injetar > administrar > tratar,forçar liquido em (por meio de injeção),Wikcionário
 INVADIR,acao,verb.competition,conhecida,4508,invadir > assaltar > brigar,"marchar agressivamente na direção de outro território utilizando de força militar para efeitos de conquista e ocupação; ""Hitler invadiu a Polônia em 01 de setembro de 1939 """,OpenWordnet-PT
 LAMBER,acao,verb.contact,rara,10221,lamber > afagar > bater,passar a língua sobre; devorar; engolir; consumir,Wikcionário
 LEVANTAR,acao,verb.contact,comum,1624,levantar > descansar > estar,pôr em pé,Wikcionário
+LIBERTAR,acao,verb.social,conhecida,4257,libertar,tornar livre,Wikcionário
 LUTAR,acao,verb.competition,comum,865,lutar,"estar envolvido em uma briga; continuar uma luta; ""os homens da tribo lutaram entre si""; ""Os irmãos estão sempre brigando""; ""Grupos militantes estão lutando pelo controle do país """,OpenWordnet-PT
 MARCHAR,acao,verb.motion,rara,12509,marchar > andar,"andar, caminhar",Wikcionário
 MASTIGAR,acao,verb.consumption,rara,13007,mastigar > ranger > fragmentar > desmoronar,"mastigar (alimentos); morder e triturar com os dentes; ""Ele mascou seu chiclete""; ""mastigue seu alimento e não engula!""; ""As vacas foram mascar a grama """,OpenWordnet-PT
 MATAR,acao,verb.contact,comum,318,matar,"causar a morte; levar a morte, geralmente intencionalmente ou conscientemente",OpenWordnet-PT
 MORDER,acao,verb.contact,conhecida,6382,morder > agarrar,"apertar, cortar ou rasgas com ou como se fosse com os dentes maxilas; ""Gunny invariavelmente tentava morder ela""",OpenWordnet-PT
+MORRER,acao,verb.change,comum,378,morrer > mudar > alterar,"passar da vida física, perder todos os atributos corporais e funções necessárias para sustentar a vida",OpenWordnet-PT
 NADAR,acao,verb.motion,conhecida,2949,nadar > andar,"deslocar-se na água ou sustentar-se sobre ela usando recursos do próprio corpo (pés, mãos, braços, pernas, nadadeiras, cauda etc.)",Wikcionário
+NAMORAR,acao,verb.social,conhecida,4465,namorar > agir,andar de namoro com,Wikcionário
+NASCER,acao,verb.change,conhecida,3195,nascer > mudar > alterar,vir a existir através do nascimento,OpenWordnet-PT
 NAVEGAR,acao,verb.motion,rara,8824,navegar > andar,viajar a uma velocidade moderada,OpenWordnet-PT
+OBEDECER,acao,verb.social,conhecida,5736,obedecer > adaptar-se > alterar,"seguir os comandos, desejos e restrições de alguém",Wikcionário
+OFERECER,acao,verb.possession,conhecida,2029,oferecer > abastecer > dar > transferir,dar como oferta; ofertar,Wikcionário
 OLHAR,acao,verb.perception,comum,565,olhar > aperceber-se,,
 OUVIR,acao,verb.perception,comum,376,ouvir > aperceber-se,perceber sons,Wikcionário
+PAGAR,acao,verb.possession,comum,551,pagar > dar > transferir,remunerar,Wikcionário
 PASSEAR,acao,verb.motion,conhecida,4460,passear > andar,andar,Wikcionário
 PENDURAR,acao,verb.contact,rara,7839,pendurar,suspender,Wikcionário
+PERDER,acao,verb.possession,comum,548,perder,deixar de possuir um objeto ou bem material,Wikcionário
+PERSEGUIR,acao,verb.possession,conhecida,5915,perseguir > ansiar,ir no encalço de,Wikcionário
 PILOTAR,acao,verb.motion,rara,8368,pilotar > controlar > manejar > manusear,"governar, como piloto",Wikcionário
 PISAR,acao,verb.motion,rara,7535,pisar > andar,colocar os pés sobre,Wikcionário
 PISCAR,acao,verb.body,rara,7930,piscar > agir involuntariamente > agir,rápido fechar dos olhos,OpenWordnet-PT
 POUSAR,acao,verb.motion,rara,7016,pousar > chegar,,
 PRESSIONAR,acao,verb.contact,rara,7737,pressionar > bater,exercer pressão ou força sobre,OpenWordnet-PT
+PROCURAR,acao,verb.social,comum,910,procurar > agir,fazer um esforço ou tentativa,OpenWordnet-PT
 PROTEGER,acao,verb.competition,comum,1034,proteger > defender > atrapalhar,"defender do perigo, lesão, destruição ou dano; ""Weatherbeater protege o telhado da chuva""",OpenWordnet-PT
+PUNIR,acao,verb.social,rara,8242,punir,infligir pena a; dar castigo a,Wikcionário
 RASGAR,acao,verb.contact,rara,10074,rasgar > dividir > deslocar,fazer rasgões em,Wikcionário
 RASTEJAR,acao,verb.motion,rara,14032,rastejar > andar,seguir o rasto de,Wikcionário
+RECEBER,acao,verb.possession,comum,1188,receber,,
 RECONSTRUIR,acao,verb.creation,rara,8629,reconstruir > construir > causar,construir de novo,Wikcionário
 RELAXAR,acao,verb.body,conhecida,2576,relaxar > mudar > alterar,"ficar menos tenso, descansar ou pegar leve",OpenWordnet-PT
+RESGATAR,acao,verb.social,conhecida,6124,resgatar,,
 RESPIRAR,acao,verb.body,conhecida,2132,respirar,executar a função da respiração,Wikcionário
 RIR,acao,verb.body,comum,1938,rir > expressar sentimentos,produzir riso,OpenWordnet-PT
 RODAR,acao,verb.motion,rara,8920,rodar > andar,mover ao longo de ou como se sobre rodas ou um veículo com rodas,OpenWordnet-PT
 ROLAR,acao,verb.motion,conhecida,4946,rolar > tornar-se > deslocar,mover-se virando ou girando,OpenWordnet-PT
 SACUDIR,acao,verb.motion,rara,14709,sacudir > deslocar,"agitar(-se) em vários sentidos, forte e sucessivamente; fazer tremer, estremecer(-se); pôr em movimento",Wikcionário
+SALVAR,acao,verb.social,comum,752,salvar > resgatar,retirar de situação perigosa,Wikcionário
 SANGRAR,acao,verb.body,rara,7295,sangrar > ejetar,verter ou perder sangue,Wikcionário
+SECAR,acao,verb.change,rara,8072,secar > alterar,"remover a umidade e tornar seco; ""roupas secas""; ""cabelo seco""",OpenWordnet-PT
 SENTAR,acao,verb.contact,comum,1096,sentar,colocar em assento,Wikcionário
 SENTIR,acao,verb.perception,comum,519,sentir > aperceber-se,perceber por qualquer dos sentidos,Wikcionário
 SOCAR,acao,verb.contact,rara,13240,socar > acertar > bater,Dar uma pancada ou empurrão,OpenWordnet-PT
 SONHAR,acao,verb.creation,conhecida,5281,sonhar > conjecturar > imaginar > causar,ter experiência do sonho durante o sono,Wikcionário
 SORRIR,acao,verb.body,conhecida,4603,sorrir > fazer careta > comunicar > interagir,esboçar sorriso; rir de leve,Wikcionário
 SUAR,acao,verb.body,rara,11073,suar > expelir > ejetar,"transpirar, emitir suor pelos poros da pele",Wikcionário
+SUFOCAR,acao,verb.change,rara,14419,sufocar > controlar > coibir > inibir,derrubar pela força ou autoridade,OpenWordnet-PT
 SUGAR,acao,verb.consumption,rara,7394,sugar > beber > consumir,"puxar para a boca criando um vácuo prático na boca; ""sugar o veneno do lugar onde a cobra mordeu""; ""chupar em um canudo ""; "" o bebê chupava o seio da mãe """,OpenWordnet-PT
+SUJAR,acao,verb.change,rara,9664,sujar > contaminar > alterar,"tornar sujo, especialmente na superfície",Wikcionário
+SUMIR,acao,verb.change,conhecida,5165,sumir,"sumir, sem aviso ou explicação",OpenWordnet-PT
 TRANCAR,acao,verb.contact,rara,7254,trancar > fixar > anexar > juntar,"prender com um cadeado; ""tranque a moto na cerca""",OpenWordnet-PT
 TREMER,acao,verb.motion,rara,9999,tremer > deslocar,"vibrar, sacudir, fazer oscilar, chacoalhar",Wikcionário
 VASCULHAR,acao,verb.contact,rara,12546,vasculhar > buscar > examinar,"pesquisar exaustivamente; ""Eles vasculharam a área pela criança desaparecida""",OpenWordnet-PT
 VENCER,acao,verb.competition,comum,1546,vencer,,
+VENDER,acao,verb.possession,comum,1182,vender > trocar > transferir,trocar ou entregar por dinheiro ou seu equivalente,OpenWordnet-PT
 VESTIR,acao,verb.body,conhecida,2213,vestir,estar vestida,OpenWordnet-PT
 VIAJAR,acao,verb.motion,conhecida,2045,viajar,"ir de um lugar para outro, geralmente distante",Wikcionário
+VIGIAR,acao,verb.social,conhecida,6188,vigiar > espionar > checar > analizar,,
 VOAR,acao,verb.motion,comum,1760,voar > andar,viajar através do ar,OpenWordnet-PT
+VOTAR,acao,verb.social,conhecida,2977,votar > escolher > decidir,aprovar ou eleger por meio de voto,Wikcionário
 ABORRECER,dificil,verb.emotion,rara,12697,aborrecer > desagradar,"Causar irritação, perturbar, especialmente por coisas menores",OpenWordnet-PT
 ADORAR,dificil,verb.emotion,conhecida,3360,adorar > gostar,ter o prazer de,OpenWordnet-PT
 AFEIÇÃO,dificil,noun.feeling,rara,12467,afeição > abalo > emoção > condição,ato ou efeito de afeiçoar; ternura; afecto; amizade; amor,Wikcionário
@@ -263,6 +319,7 @@ CASACO,objeto,noun.artifact,comum,1855,casaco > sobretudo > artigo de vestuário
 CASTELO,objeto,noun.artifact,conhecida,2467,castelo > mansão > casa > edifício,habitação antiga fortificada,Wikcionário
 CELA,objeto,noun.artifact,conhecida,2886,cela > compartimento > espaço > localização,,
 CERVEJA,objeto,noun.food,comum,1087,cerveja > fermentação > Bebida Alcoólica > bebida,bebida alcoólica fraca obtida a partir da fermentação da cevada germinada a que se junta água e flores de lúpulo,Wikcionário
+CHAMPANHE,objeto,noun.food,conhecida,3138,champanhe > Vinho espumante > vinho > Bebida Alcoólica,,
 CHAPÉU,objeto,noun.artifact,comum,1795,chapéu > roupa > bens de consumo > Bens,artefato que protege a cabeça do mau tempo; tem formato arredondado e geralmente uma aba,OpenWordnet-PT
 CHAVE,objeto,noun.artifact,comum,942,chave > aparato > apetrecho > artefato,"objeto usado para abrir e fechar uma fechadura, algemas ou cadeado",Wikcionário
 CHÁ,objeto,noun.food,comum,1107,chá > bebida > alimento > substância,,
@@ -273,6 +330,7 @@ COMPUTADOR,objeto,noun.artifact,comum,1278,computador > maquinaria > aparato > a
 COPO,objeto,noun.artifact,comum,1996,copo > contentor > apetrecho > artefato,"recipiente, normalmente cilíndrico, do qual podem beber-se líquidos",Wikcionário
 CORREDOR,objeto,noun.artifact,comum,1950,corredor > passagem > caminho > artefato,aquele que corre,Wikcionário
 COZINHA,objeto,noun.artifact,comum,1100,cozinha > aposento,,
+CRUZ,objeto,noun.artifact,conhecida,3063,cruz > edifício > artefato > todo,,
 CÂMERA,objeto,noun.artifact,comum,1231,câmera > equipamento fotográfico > equipamento > apetrecho,aparelho usado para tirar fotografias e/ou filmar,Wikcionário
 CÉREBRO,objeto,noun.body,comum,1071,cérebro,,
 CÉU,objeto,noun.object,comum,871,céu > ar > gás > fluido,parte do espaço que parece formar uma abóbada em cima de nossas cabeças; abóbada celeste,Wikcionário
@@ -291,9 +349,12 @@ ESTRADA,objeto,noun.artifact,comum,1014,estrada > caminho > artefato > todo,Um c
 ESTÔMAGO,objeto,noun.body,conhecida,2472,estômago > víscera > órgão > Anatomia,"órgão, mais ou menos diferenciado, do tubo digestivo que desempenha importante papel na digestão",Wikcionário
 ESTÚDIO,objeto,noun.artifact,conhecida,2579,estúdio > emprego,"local de trabalho de um artista (pintor, escultor, etc)",Wikcionário
 FACA,objeto,noun.artifact,comum,1544,faca,"ferramenta de borda, utilizada como um instrumento de corte; tem uma lâmina pontiaguda com uma ponta afiada e um segurador",OpenWordnet-PT
+FACE,objeto,noun.body,conhecida,3229,face,"a frente da cabeça humana, da testa ao queixo e de orelha à orelha",OpenWordnet-PT
 FAZENDA,objeto,noun.artifact,conhecida,2187,fazenda > emprego,grande propriedade rural,Wikcionário
 FERRO,objeto,noun.substance,conhecida,2730,ferro > Metais > elemento químico > substância,,
+FIO,objeto,noun.artifact,conhecida,3134,fio > ligamento > ligação > conector,linha,Wikcionário
 FITA,objeto,noun.artifact,comum,1895,fita > banda > artefato > todo,objeto de plástico que serve para reproduzir filmes,Wikcionário
+FLOR,objeto,noun.plant,conhecida,3164,flor > angiosperma > fanerogâmicas > Planta vascular,,
 FOTO,objeto,noun.artifact,comum,721,foto > afiguração > criação > artefato,fotografia,Wikcionário
 FRANGO,objeto,noun.food,conhecida,2419,frango,"pinto já crescido que ainda não é galo, ou melhor, adolescente",Wikcionário
 FÁBRICA,objeto,noun.artifact,conhecida,2272,fábrica,ato ou efeito de fabricar,Wikcionário
@@ -361,11 +422,14 @@ SAIA,objeto,noun.artifact,comum,477,saia,"peça de vestuário feminino que fica 
 SAL,objeto,noun.substance,conhecida,2954,sal > composto químico > Química > materiais,,
 SALA,objeto,noun.artifact,comum,533,sala,uma área dentro de um edifício cercada por paredes e piso e teto,OpenWordnet-PT
 SALÃO,objeto,noun.artifact,conhecida,2739,salão > corredor > passagem > caminho,sala grande,Wikcionário
+SANDUÍCHE,objeto,noun.food,conhecida,3129,sanduíche,pão cortado em duas ou mais fatias entre as quais se colocam os mais diversos alimentos,Wikcionário
 SANGUE,objeto,noun.body,comum,432,sangue > Fluidos corporais,,
 SOFÁ,objeto,noun.artifact,conhecida,2349,sofá > assento > alfaia > mobiliário,"móvel que pode possuir braços ou encosto, em que podem sentar-se duas pessoas ou mais",Wikcionário
 SOL,objeto,noun.object,comum,798,sol > estrela > astro > objeto natural,centro e principal astro do sistema solar,Wikcionário
 SOLO,objeto,noun.object,conhecida,2369,solo > objeto > entidade física > entidade,terra,Wikcionário
 SOPA,objeto,noun.food,conhecida,2650,sopa > prato > alimentação > alimento,"comida líquida ou pastosa, cozida, normalmente com vegetais e carne",Wikcionário
+SUCO,objeto,noun.food,conhecida,3192,suco > alimento > substância > matéria,"a parte líquida, que pode ser extraída de uma planta ou tecido animal por compressão ou cozinhando",OpenWordnet-PT
+TELA,objeto,noun.artifact,conhecida,3098,tela > superfície > artefato > todo,"tecido de lã, linho, seda, etc",Wikcionário
 TELEFONE,objeto,noun.artifact,comum,514,telefone > equipamento eletrônico > equipamento > apetrecho,dispositivo de comunicação usado para transmitir sons a longa distância inventado por Alexandre Graham Bell,Wikcionário
 TELHADO,objeto,noun.artifact,conhecida,2846,telhado > capa > artefato > todo,"conjunto de telhas que cobrem um edifício, uma , etc",Wikcionário
 TEMPLO,objeto,noun.artifact,conhecida,2990,templo > Lugares de prática religiosa > edifício > artefato,lugar erigido em honra de uma divindade,Wikcionário
@@ -380,11 +444,13 @@ UNIFORME,objeto,noun.artifact,conhecida,2586,uniforme > roupa > bens de consumo 
 UNIVERSO,objeto,noun.object,comum,1569,universo > objeto natural > todo > objeto,"a totalidade da matéria e da energia existentes no espaço e no tempo, tudo o que existe, o todo",Wikcionário
 UÍSQUE,objeto,noun.food,conhecida,2774,uísque > bebida alcoólica > bebida > alimento,nome dado à aguardente de cevada e outros cereais,Wikcionário
 VENENO,objeto,noun.substance,conhecida,2771,veneno > substância > matéria > entidade física,"tóxico, peçonha",Wikcionário
+VEÍCULO,objeto,noun.artifact,conhecida,3125,veículo > veículos motorizados,qualquer tipo de meio de transporte,Wikcionário
 VIDRO,objeto,noun.substance,conhecida,2687,vidro > matéria sólida > matéria > entidade física,,
 VINHO,objeto,noun.food,comum,1159,vinho > Bebida Alcoólica > bebida > alimento,bebida fermentada feita da uva,Wikcionário
 ÁGUA,objeto,noun.substance,comum,367,água > líquido > fluido > matéria,,
 ÁLCOOL,objeto,noun.food,conhecida,2767,álcool > Bebida Alcoólica > bebida > alimento,líquido incolor produzido pela fermentação de diversas plantas,Wikcionário
 ÁRVORE,objeto,noun.plant,comum,1414,árvore > Planta lenhosa > Planta vascular > flora,"vegetal grande, de tronco robusto, que se reveste de folhas",Wikcionário
+ÓLEO,objeto,noun.substance,conhecida,3153,óleo > Lipido > Macromolécula > molécula,um líquido escorregadio ou viscoso ou substância liquefactível não miscível com água,OpenWordnet-PT
 ADOLESCENTE,pessoa,noun.person,conhecida,3622,adolescente > jovem > alguém > organismo,aquele que está na adolescência,Wikcionário
 ADVOGADO,pessoa,noun.person,comum,823,advogado > profissional > adulto > alguém,um profissional autorizado a exercer a advocacia; realiza ações judiciais ou dá aconselhamento jurídico,OpenWordnet-PT
 AGENTE,pessoa,noun.person,comum,712,agente,,
@@ -422,12 +488,14 @@ COBRA,pessoa,noun.animal,conhecida,2861,cobra > Diapsida > répteis > vertebrado
 COELHO,pessoa,noun.animal,conhecida,3669,coelho,qualquer um dos vários animais cavadores da família dos leporídeos que teem orelhas compridas e caudas curtas; alguns domesticados e criados como animais de estimação ou comida,OpenWordnet-PT
 COMANDANTE,pessoa,noun.person,comum,1118,comandante > oficial > militar > trabalhador especializado,"aquele que comanda, que tem o comando (de uma tropa, navio, avião, etc)",Wikcionário
 COMPANHEIRO,pessoa,noun.person,conhecida,2434,companheiro > amiga > alguém > organismo,um amigo que esta freqüentemente na companhia de outro,OpenWordnet-PT
+CONSELHEIRO,pessoa,noun.person,conhecida,5402,conselheiro > autoridade > especialista > alguém,um especialista que dá conselhos,OpenWordnet-PT
 CONVIDADO,pessoa,noun.person,conhecida,2362,convidado > visita > turista > alguém,um visitante a quem hospitalidade é estendida,OpenWordnet-PT
 CORONEL,pessoa,noun.person,comum,1061,coronel,"patente militar, no Brasil entre o tenente-coronel e o general (abreviação: cel.)",Wikcionário
 CRIANÇA,pessoa,noun.person,comum,494,criança > jovem > alguém > organismo,uma pessoa jovem de ambos os sexos,OpenWordnet-PT
 CÃO,pessoa,noun.animal,comum,1269,cão > animal doméstico > animal > organismo,um membro do gênero Canis (provavelmente descendente do lobo comum) que foi domesticada pelo homem desde os tempos pré-históricos; ocorre em muitas raças,OpenWordnet-PT
 DAMA,pessoa,noun.person,conhecida,2552,dama > mulher > adulto > alguém,peça do jogo de xadrez,Wikcionário
 DELEGADO,pessoa,noun.person,conhecida,5256,delegado > agente,aquele que é autorizado por outrem a representá-lo,Wikcionário
+DENTISTA,pessoa,noun.person,conhecida,5528,dentista > médico > profissional > adulto,"médico odontologista; profissional que se ocupa das doenças e deficiências dentárias, à profilaxia e ao tratamento dos dentes",Wikcionário
 DESERTO,pessoa,noun.location,conhecida,2378,deserto > Bioma > comunidade > agrupação,terra árida com pouca ou nenhuma vegetação,OpenWordnet-PT
 DETETIVE,pessoa,noun.person,comum,888,detetive > agente,agente investigador de crimes,Wikcionário
 DEUS,pessoa,noun.person,comum,118,deus > espirito > convicção > objecto mental,"numa religião, ser sobrenatural de poderes sobre-humanos",Wikcionário
@@ -435,8 +503,11 @@ DIRETOR,pessoa,noun.person,comum,1228,diretor > administrador > cabeça > chefe,
 DONO,pessoa,noun.person,comum,1683,dono > comerciante > empresário > capitalista,"(lei) alguém que é dono (é o proprietário legal) de um negócio; ""ele é o dono de uma cadeia de restaurantes""",OpenWordnet-PT
 DOUTOR,pessoa,noun.person,comum,657,doutor > médico > profissional > adulto,pessoa que completou o curso de doutoramento e defendeu tese,Wikcionário
 DRAGÃO,pessoa,noun.person,conhecida,2911,dragão,"monstro mitológico baseado em uma serpente ou lagarto, alado e que expele fogo pela boca",Wikcionário
+EDITOR,pessoa,noun.person,conhecida,5565,editor > profissional > adulto > alguém,o que ou aquele que edita,Wikcionário
+ELEFANTE,pessoa,noun.animal,conhecida,5634,elefante > proboscídeos > mamífero > vertebrado,paquiderme de cinco dedos,OpenWordnet-PT
 EMBAIXADOR,pessoa,noun.person,conhecida,4448,embaixador > diplomata > funcionário > trabalhador especializado,um diplomata de mais alta patente; credenciado como representante de um país para outro,OpenWordnet-PT
 EMPREGADA,pessoa,noun.person,conhecida,4112,empregada > doméstico > empregado doméstico > trabalhador,feminino de empregado,Wikcionário
+EMPRESÁRIO,pessoa,noun.person,conhecida,5522,empresário > capitalista > alguém > organismo,aquele que empreende negociação ou estabelecimento de uso público,Wikcionário
 ENFERMEIRA,pessoa,noun.person,comum,1937,enfermeira > médico > profissional > adulto,"mulher que cuida de doentes numa enfermaria, num hospital ou numa ambulância",Wikcionário
 ENGENHEIRO,pessoa,noun.person,conhecida,5264,engenheiro > alguém > organismo > todo,pessoa habilitada por diploma oficial a desempenhar trabalhos de Engenharia,Wikcionário
 ESCRITOR,pessoa,noun.person,conhecida,3758,escritor > comunicador > alguém > organismo,escrever (livros ou histórias ou artigos ou coisas semelhantes) profissionalmente (por dinheiro),OpenWordnet-PT
@@ -450,6 +521,7 @@ FÍSICO,pessoa,noun.person,conhecida,4281,físico > cientista > alguém > organi
 GADO,pessoa,noun.animal,conhecida,4228,gado > bovinos > bovídeos > ruminante,"conjunto de animais (bois, carneiros, cabritos, cavalos etc.) criados para diversos fins",Wikcionário
 GAROTO,pessoa,noun.person,comum,381,garoto > homem > alguém > organismo,criança ou adolescente do sexo ou gênero masculino,Wikcionário
 GARÇOM,pessoa,noun.person,conhecida,4642,garçom,empregado que serve a mesa num restaurante ou outro estabelecimento congênere,Wikcionário
+GARÇONETE,pessoa,noun.person,conhecida,5327,garçonete,"mulher que serve os clientes em lanchonetes, restaurantes, casas noturnas, etc",Wikcionário
 GATO,pessoa,noun.animal,comum,1382,gato > felino > carnívoro > mamífero,"mamífero felino, geralmente tendo pêlo macio e espesso, sem capacidade de rugir: gatos domésticos; gatos selvagens",OpenWordnet-PT
 GENERAL,pessoa,noun.person,comum,991,general > almirante,a mais alta patente do exército,Wikcionário
 GERENTE,pessoa,noun.person,conhecida,2431,gerente > administrador > cabeça > chefe,"administrador, aquele que gerencia",Wikcionário
@@ -469,6 +541,7 @@ JOVEM,pessoa,noun.person,comum,562,jovem > alguém > organismo > todo,uma pessoa
 JUIZ,pessoa,noun.person,comum,1343,juiz > adjudicator > alguém > organismo,"nome que se dá a Deus, acompanhado geralmente de algum epíteto",Wikcionário
 LADRÃO,pessoa,noun.person,conhecida,2084,ladrão > bandido,pessoa que toma para si objetos de outrem,Wikcionário
 LEÃO,pessoa,noun.animal,conhecida,3839,leão > gato > felino > carnívoro,"grande felino predator da África e da Índia, gregário que tem um pelo marrom com uma juba grande no macho",OpenWordnet-PT
+LUTADOR,pessoa,noun.person,conhecida,5491,lutador > alguém > organismo > todo,alguém que luta (ou esta lutando),OpenWordnet-PT
 LÍDER,pessoa,noun.person,comum,1301,líder > alguém > organismo > todo,"chefe, dirigente",Wikcionário
 MACACO,pessoa,noun.animal,conhecida,2908,macaco > primata > mamífero > vertebrado,"nome comum dos primatas da sub-ordem Simiiformes, normalmente excluindo o ser humano",Wikcionário
 MADAME,pessoa,noun.person,comum,1575,madame > mulher > adulto > alguém,uma mulher refinada,OpenWordnet-PT
@@ -489,6 +562,7 @@ NOIVO,pessoa,noun.person,conhecida,2744,noivo > amado > alguém > organismo,aque
 OFICIAL,pessoa,noun.person,comum,996,oficial > militar > trabalhador especializado > trabalhador,certo tipo de funcionário público,Wikcionário
 OVO,pessoa,noun.animal,conhecida,3312,ovo > óvulo > Gameta > Célula germinativa,"célula reprodutora feminina dos animais, macrogameta",Wikcionário
 PACIENTE,pessoa,noun.person,comum,1227,paciente,pessoa que está sob cuidados médicos,Wikcionário
+PADRINHO,pessoa,noun.person,conhecida,5463,padrinho > doador,alguém que apóia ou suporta algo,OpenWordnet-PT
 PAI,pessoa,noun.person,comum,115,pai > genitor > progenitor > ancestral,"homem que tem filhos, naturais ou adotivos",Wikcionário
 PAPAI,pessoa,noun.person,comum,346,papai > genitor > progenitor > ancestral,pai,Wikcionário
 PARAÍSO,pessoa,noun.location,conhecida,2835,paraíso > região > localização > objeto,céu,Wikcionário
@@ -521,6 +595,7 @@ REFÉM,pessoa,noun.person,conhecida,5259,refém > desafortunado > alguém > orga
 REI,pessoa,noun.person,comum,631,rei > monarca > chefe de Estado > representante,soberano; monarca; czar,Wikcionário
 REPÓRTER,pessoa,noun.person,conhecida,4049,repórter > comunicador > alguém > organismo,"noticiarista, informador de jornais",Wikcionário
 RÉU,pessoa,noun.person,conhecida,5042,réu > litigante > parte > alguém,pessoa acusada/increpada num processo jurídico,Wikcionário
+SAPO,pessoa,noun.animal,conhecida,5747,sapo > Anfibios > vertebrado > cordados,qualquer um dos vários anfíbios de corpo robusto sem cauda com membros posteriores longos para saltar; espécies semiaquáticas e terrestres,OpenWordnet-PT
 SARGENTO,pessoa,noun.person,comum,1132,sargento,"posto de praça graduado de qualquer corporação militar que, na escala hierárquica, está entre o cabo e o subtenente ou suboficial",Wikcionário
 SECRETÁRIO,pessoa,noun.person,conhecida,4191,secretário > ajudante > trabalhador > alguém,funcionário de secretaria,Wikcionário
 SENADOR,pessoa,noun.person,conhecida,2926,senador > legiferante > fazedor de leis > chefe,um membro de um senado,OpenWordnet-PT
@@ -532,6 +607,7 @@ TENENTE,pessoa,noun.person,comum,923,tenente,patente das forças armadas abaixo 
 TERAPEUTA,pessoa,noun.person,conhecida,5031,terapeuta > especialista > alguém > organismo,aquele que exerce alguma forma de terapia,Wikcionário
 TIA,pessoa,noun.person,comum,1102,tia,irmã do pai,Wikcionário
 TIO,pessoa,noun.person,comum,706,tio > parente > alguém > organismo,irmão da mãe ou do pai,Wikcionário
+TOURO,pessoa,noun.animal,conhecida,5347,touro > bovinos > bovídeos > ruminante,animal bovídeo macho adulto da espécie Bos taurus,Wikcionário
 TREINADOR,pessoa,noun.person,conhecida,2196,treinador > chefe > alguém > organismo,profissional que instrui e/ou treina um atleta,Wikcionário
 TÉCNICO,pessoa,noun.person,conhecida,3894,técnico > treinador > chefe > alguém,,
 VACA,pessoa,noun.animal,conhecida,2524,vaca > bovinos > bovídeos > ruminante,feminino de boi,Wikcionário

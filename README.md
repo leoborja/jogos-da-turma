@@ -11,7 +11,7 @@ baixar nada, sem cadastro.
 |---|---|---|---|
 | 🔟 | **[Top 10](top10/)** | A carta pergunta, a resposta é um ranking de dez. Vocês vão falando sem repetir e sem errar. 249 cartas de países e línguas. | pronto |
 | 🌍 | **[Geografia](geografia/)** | A carta pergunta e você digita: que país é essa bandeira, qual a capital daqui, de que país é essa capital. 240 lugares — 195 países e 45 territórios — e a carta abre explicando. Dá pra jogar sozinho. | pronto |
-| ✏️ | **[Imagem e Ação](imagemeacao/)** | Desenhe a palavra e faça seu time acertar antes do tempo. 546 palavras em quatro casas — objeto, pessoa, ação e difícil — e cada carta mostra por que caiu na casa dela. | pronto |
+| 🎭 | **[Mímica](mimica/)** | Mostre a palavra sem falar e sem fazer barulho. 622 palavras em quatro casas — objeto, pessoa, ação e difícil — e cada carta mostra por que caiu na casa dela. | pronto |
 
 ## Como isso é montado
 

@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Imagem e Ação — Jogos da Turma</title>
-<meta name="description" content="Desenhe a palavra e faça seu time acertar antes do tempo. O celular sorteia a carta e conta o tempo; o desenho é no papel.">
+<title>Mímica — Jogos da Turma</title>
+<meta name="description" content="Mostre a palavra sem falar e sem fazer barulho. O celular sorteia a carta, guarda o segredo e conta o tempo — o resto é o seu corpo.">
 <meta name="theme-color" content="#C9A7F5">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23C9A7F5' stroke='%23141110' stroke-width='3'/%3E%3Cpath d='M9 23c3-1 4-9 8-9s2 6 6 4' fill='none' stroke='%23141110' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23C9A7F5' stroke='%23141110' stroke-width='3'/%3E%3Ccircle cx='16' cy='9.5' r='3.4' fill='%23141110'/%3E%3Cpath d='M16 14v6M16 16l-5-3M16 16l5-3M16 20l-4 6M16 20l4 6' fill='none' stroke='%23141110' stroke-width='2.8' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@600;800;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../comum.css">
 <style>
-/* Só o que é do Imagem e Ação. A base (cor, fonte, botão, painel, carta) está
+/* Só o que é da Mímica. A base (cor, fonte, botão, painel, carta) está
    em ../comum.css — não duplique lá o que for específico deste jogo. */
 .tela{display:none}.tela.on{display:block}
 
@@ -29,7 +29,7 @@
   border:2.5px solid var(--preto);border-radius:6px;background:var(--branco);
   font-family:var(--display);font-weight:900;font-size:12px;line-height:1}
 
-/* o lembrete do que não vale, à vista de quem desenha */
+/* o lembrete do que não vale, à vista de quem faz a mímica */
 .naovale{margin-top:14px;text-align:center;font-size:12px;font-weight:700;
   color:var(--cinza);letter-spacing:.02em}
 
@@ -99,8 +99,9 @@
   border:2.5px solid var(--preto);border-radius:9px;padding:8px 11px}
 
 /* --------------------------------------- celular baixo: tudo à mão
-   Na rodada os botões não podem ficar abaixo da dobra: quem desenha está de
-   olho no papel e aperta sem procurar. Em tela curta a carta encolhe. */
+   Na rodada os botões não podem ficar abaixo da dobra: quem faz a mímica está
+   de pé, com o celular numa mão só, e aperta sem procurar. Em tela curta a
+   carta encolhe. */
 @media (max-height:800px){
   .palavra{font-size:clamp(34px,11vw,50px)}
   #tela-rodada .corpo{padding:14px 14px 13px}
@@ -126,17 +127,17 @@
 
 <div class="entre topo" style="margin-bottom:18px">
   <a class="botao mini" href="../">‹ Outros jogos</a>
-  <span class="contador">Imagem e Ação</span>
+  <span class="contador">Mímica</span>
 </div>
 
 <!-- =============================================================== SETUP -->
 <section id="tela-setup" class="tela on">
   <div class="carta" style="margin-bottom:20px">
-    <div class="faixa"><span>Jogos da Turma</span><span>✏️</span></div>
+    <div class="faixa"><span>Jogos da Turma</span><span>🎭</span></div>
     <div class="corpo">
-      <p class="marca" style="font-size:clamp(36px,11.5vw,54px)">IMAGEM<br>E AÇÃO</p>
-      <p class="fraco" style="margin-top:11px">O celular sorteia a palavra e conta o
-        tempo. O desenho é no papel — e sem letra, sem número e sem gesto.</p>
+      <p class="marca" style="font-size:clamp(44px,14vw,68px)">MÍMICA</p>
+      <p class="fraco" style="margin-top:11px">O celular sorteia a palavra, guarda o
+        segredo e conta o tempo. O resto é o seu corpo — sem falar e sem barulho.</p>
     </div>
   </div>
 
@@ -210,27 +211,30 @@
   <details class="bloco" style="margin-top:14px">
     <summary>Como se joga</summary>
     <ol class="regras">
-      <li>O celular passa pra quem vai desenhar. <strong>Só essa pessoa olha a
-        palavra</strong> — a tela avisa antes de mostrar.</li>
-      <li>Começou o tempo, ela desenha no papel e o time chuta à vontade.</li>
-      <li>Não vale <strong>letra, número, símbolo nem risquinho contando as
-        letras</strong>. Não vale falar, fazer mímica nem apontar pra coisas da
-        sala. Só desenho.</li>
+      <li>O celular passa pra quem vai fazer a mímica. <strong>Só essa pessoa olha
+        a palavra</strong> — a tela avisa antes de mostrar.</li>
+      <li>Começou o tempo, ela mostra com o corpo e o time chuta à vontade.</li>
+      <li><strong>Não vale falar</strong>, nem sussurrar, nem imitar som. Não vale
+        apontar pra coisas ou pessoas da sala, nem soletrar e escrever letra no
+        ar.</li>
+      <li><strong>Vale</strong> pular, dançar, subir na cadeira e usar o que estiver
+        no corpo. Vale mostrar nos dedos <strong>quantas sílabas</strong> a palavra
+        tem.</li>
       <li>Acertou dentro do tempo, <strong>1 ponto</strong>.</li>
-      <li>Na rodada <strong>todos jogam</strong>, um de cada time desenha ao mesmo
-        tempo e o ponto vai pro primeiro time que acertar.</li>
-      <li>Acaba quando todo time desenhou o mesmo número de vezes. Ganha quem
-        tiver mais pontos.</li>
+      <li>Na rodada <strong>todos jogam</strong>, um de cada time faz a mesma mímica
+        ao mesmo tempo e o ponto vai pro primeiro time que acertar.</li>
+      <li>Acaba quando todo time fez o mesmo número de mímicas. Ganha quem tiver
+        mais pontos.</li>
       <li>A <strong>letra na faixa da carta</strong> é a casa: O de objeto, P de
         pessoa, lugar ou bicho, A de ação, D de difícil.</li>
     </ol>
     <p class="fraco" style="margin-top:12px;font-size:12px">Na caixa se anda num
       tabuleiro e a categoria sai da casa em que o peão está; aqui a categoria vem
-      escrita na carta e o placar é de pontos. O resto é igual. Regras conferidas nas
-      <a href="https://gamerules.com/rules/pictionary/" target="_blank" rel="noopener">regras
-      do Pictionary</a> e na
-      <a href="https://ludopedia.com.br/jogo/imagem-acao" target="_blank" rel="noopener">ficha
-      do Imagem &amp; Ação na Ludopedia</a>.</p>
+      escrita na carta e o placar é de pontos. O resto é igual. Regras conferidas no
+      <a href="https://blog.copag.com.br/a-copag/mestre-da-mimica" target="_blank" rel="noopener">guia
+      da Copag</a> e na
+      <a href="https://ludopedia.com.br/jogo/jogo-da-mimica" target="_blank" rel="noopener">ficha
+      do Jogo da Mímica na Ludopedia</a>.</p>
   </details>
 
   <details class="bloco" style="margin-top:14px">
@@ -280,9 +284,9 @@
       </div>
     </div>
   </div>
-  <button class="principal" id="vai-desenhar" hidden style="margin-top:18px">Começar a desenhar</button>
+  <button class="principal" id="vai-mimica" hidden style="margin-top:18px">Começar a mímica</button>
   <p class="fraco" id="segredo-pe" hidden style="margin-top:12px;font-size:12px;text-align:center">
-    Pegue o papel e a caneta antes de apertar.</p>
+    Levante e chame o time antes de apertar — o tempo começa na hora.</p>
 </section>
 
 <!-- ============================================================== RODADA -->
@@ -297,7 +301,7 @@
     <div class="corpo">
       <p class="palavra" id="palavra"></p>
       <p class="sentido" id="sentido"></p>
-      <p class="naovale">sem letra · sem número · sem gesto · sem falar</p>
+      <p class="naovale">sem falar · sem som · sem apontar · sem soletrar</p>
     </div>
   </div>
 
@@ -332,7 +336,7 @@
 <!-- ================================================================= FIM -->
 <section id="tela-fim" class="tela">
   <div class="carta">
-    <div class="faixa"><span>Acabou</span><span>✏️</span></div>
+    <div class="faixa"><span>Acabou</span><span>🎭</span></div>
     <div class="corpo" style="text-align:center">
       <p class="marca" id="fim-titulo" style="font-size:clamp(30px,9.5vw,44px)"></p>
       <p class="fraco" id="fim-sub" style="margin-top:10px"></p>
@@ -407,9 +411,9 @@ function explicaRodada(){
     ? "Uma palavra por rodada: acertou, a rodada acaba na hora."
     : "Sorteia palavra atrás de palavra até o tempo acabar, e cada acerto vale 1.";
   const n = +$("#todos").value;
-  const todos = n === 0 ? "Ninguém desenha ao mesmo tempo."
-    : n === 1 ? "Toda rodada é “todos jogam”: um de cada time desenha junto."
-    : `A cada ${n} rodadas cai uma de “todos jogam”, com um de cada time desenhando junto.`;
+  const todos = n === 0 ? "Nunca cai rodada com todo mundo mimicando junto."
+    : n === 1 ? "Toda rodada é “todos jogam”: um de cada time faz a mímica junto."
+    : `A cada ${n} rodadas cai uma de “todos jogam”, com um de cada time mimicando junto.`;
   $("#explica-rodada").textContent = modo + " " + todos;
 }
 
@@ -470,8 +474,7 @@ function placar(box, marcarVez){
   J.times.forEach((t, i) => {
     const el = document.createElement("div");
     el.className = "time" + (marcarVez && i === J.vez && !J.todosJogam ? " vez" : "");
-    const papel = marcarVez && J.todosJogam ? "desenha"
-                : marcarVez && i === J.vez ? "desenha" : "";
+    const papel = marcarVez && (J.todosJogam || i === J.vez) ? "mímica" : "";
     el.innerHTML = `<span class="nome">${t.nome}</span>` +
       (papel ? `<span class="papel">${papel}</span>` : "") +
       `<span class="placar">${t.pontos}</span>`;
@@ -488,15 +491,15 @@ function telaPassa(){
     $("#passa-antes").textContent = "Nesta rodada";
     $("#passa-time").textContent = "TODOS JOGAM";
     $("#passa-instrucao").innerHTML =
-      "Um de cada time pega papel e caneta. Todos vão desenhar <b>a mesma palavra ao " +
-      "mesmo tempo</b>, e o ponto é do primeiro time que acertar. Junta os desenhistas " +
+      "Um de cada time se levanta. Todos vão fazer <b>a mesma mímica ao mesmo " +
+      "tempo</b>, e o ponto é do primeiro time que acertar. Junta quem vai mimicar " +
       "pra ver a tela — mais ninguém.";
-    $("#vai").textContent = "Somos nós que desenhamos";
+    $("#vai").textContent = "Somos nós que vamos mimicar";
   } else {
     $("#passa-antes").textContent = "É a vez de";
     $("#passa-time").textContent = time.nome;
     $("#passa-instrucao").innerHTML =
-      `Uma pessoa do <b>${time.nome}</b> pega o celular, o papel e a caneta. ` +
+      `Uma pessoa do <b>${time.nome}</b> pega o celular e se levanta. ` +
       "O resto do time vai chutar — e ninguém mais pode ver a tela.";
     $("#vai").textContent = "Peguei o celular";
   }
@@ -511,11 +514,11 @@ function telaSegredo(){
   $("#segredo-casa").innerHTML = selo(c) + " " + CASA[c.casa].nome;
   $("#segredo-quem").textContent = J.todosJogam ? "Todos jogam" : J.times[J.vez].nome;
   $("#segredo-aviso").textContent = J.todosJogam
-    ? "Só quem vai desenhar — um de cada time — pode olhar."
-    : "Só quem vai desenhar pode olhar.";
+    ? "Só quem vai mimicar — um de cada time — pode olhar."
+    : "Só quem vai fazer a mímica pode olhar.";
   $("#tampa").hidden = false;
   $("#aberto").hidden = true;
-  $("#vai-desenhar").hidden = true;
+  $("#vai-mimica").hidden = true;
   $("#segredo-pe").hidden = true;
   tela("segredo");
 }
@@ -527,9 +530,9 @@ function mostraPalavra(){
   $("#segredo-sentido").hidden = !c.sentido;
   $("#tampa").hidden = true;
   $("#aberto").hidden = false;
-  $("#vai-desenhar").hidden = false;
+  $("#vai-mimica").hidden = false;
   $("#segredo-pe").hidden = false;
-  $("#vai-desenhar").textContent = `Começar a desenhar · ${J.tempo}s`;
+  $("#vai-mimica").textContent = `Começar a mímica · ${J.tempo}s`;
   bip(660, 80);
 }
 
@@ -688,7 +691,7 @@ function proximo(){
   if (J.i >= J.baralho.length){ fimDeJogo("o baralho acabou"); return; }
   J.vez++;
   if (J.vez >= J.times.length){ J.vez = 0; J.rodada++; }
-  if (J.rodada > J.rodadas){ fimDeJogo("todo time desenhou " + J.rodadas + " vezes"); return; }
+  if (J.rodada > J.rodadas){ fimDeJogo("todo time fez " + J.rodadas + " mímicas"); return; }
   telaPassa();
 }
 
@@ -727,7 +730,7 @@ $("#todos").onchange = explicaRodada;
 $("#comecar").onclick = comecar;
 $("#vai").onclick = telaSegredo;
 $("#mostrar").onclick = mostraPalavra;
-$("#vai-desenhar").onclick = iniciaRodada;
+$("#vai-mimica").onclick = iniciaRodada;
 $("#acertou").onclick = () => acao("acerto");
 $("#passar").onclick = () => acao("pulo");
 $("#desistir").onclick = () => fimRodada("o time desistiu");

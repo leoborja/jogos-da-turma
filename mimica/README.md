@@ -1,25 +1,26 @@
-# Imagem e Ação
+# Mímica
 
-Desenhe a palavra e faça seu time acertar antes do tempo.
+Mostre a palavra sem falar e sem fazer barulho.
 
-O celular sorteia a carta, guarda o segredo e conta o tempo. O desenho é no
-papel — o jogo não desenha nada por você.
+O celular sorteia a carta, guarda o segredo e conta o tempo. O resto é o seu
+corpo — o jogo não precisa nem de papel.
 
 ## As regras
 
-Conferidas nas [regras do Pictionary][regras] e na
-[ficha do Imagem & Ação na Ludopedia][ludopedia]:
+Conferidas no [guia da Copag][copag] e na
+[ficha do Jogo da Mímica na Ludopedia][ludopedia]:
 
-- Quem desenha **não pode** escrever letra, número ou símbolo, nem fazer
-  risquinho pra contar as letras da palavra.
-- **Não pode** falar, fazer mímica, apontar pra coisas da sala nem desenhar
-  outra coisa pra dar dica.
+- **Não vale falar**, nem sussurrar, nem imitar som.
+- **Não vale** apontar pra coisas ou pessoas da sala, nem soletrar e escrever
+  letra no ar.
+- **Vale** pular, dançar, subir na cadeira e usar o que estiver no corpo. Vale
+  mostrar nos dedos quantas sílabas a palavra tem.
 - Acertou dentro do tempo, **1 ponto**.
-- Na rodada **todos jogam**, um de cada time desenha a mesma palavra ao mesmo
-  tempo, e o ponto é do primeiro time que acertar. A mesa escolhe de quanto em
-  quanto tempo isso acontece.
-- Acaba quando todo time desenhou o mesmo número de vezes. Ganha quem tiver
-  mais pontos.
+- Na rodada **todos jogam**, um de cada time faz a mesma mímica ao mesmo tempo,
+  e o ponto é do primeiro time que acertar. A mesa escolhe de quanto em quanto
+  tempo isso acontece.
+- Acaba quando todo time fez o mesmo número de mímicas. Ganha quem tiver mais
+  pontos.
 
 O tempo padrão é 1 minuto, como a ampulheta da caixa.
 
@@ -31,8 +32,8 @@ Na caixa se anda num tabuleiro e a categoria da vez sai da casa em que o peão
 está. Aqui não tem tabuleiro: a categoria vem escrita na carta e o placar é de
 pontos. O resto é igual.
 
-[regras]: https://gamerules.com/rules/pictionary/
-[ludopedia]: https://ludopedia.com.br/jogo/imagem-acao
+[copag]: https://blog.copag.com.br/a-copag/mestre-da-mimica
+[ludopedia]: https://ludopedia.com.br/jogo/jogo-da-mimica
 
 ## As quatro casas
 
@@ -54,8 +55,15 @@ os guarda em `noun.object`, o arquivo dos objetos naturais. A carta diz isso na
 cara, em vez de esconder.
 
 Quando a palavra tem sentido em mais de uma casa, vale o sentido mais visto no
-corpus etiquetado de Princeton e, no empate, a casa mais concreta — é a que dá
-desenho. "Coração" é o órgão antes de ser o centro de alguma coisa.
+corpus etiquetado de Princeton e, no empate, a casa mais concreta — é a que o
+corpo consegue mostrar. "Coração" é o órgão antes de ser o centro de alguma
+coisa.
+
+A casa Ação é a maior da Mímica de propósito: além dos verbos de movimento, de
+contato e de corpo, ela puxa os de mudar de estado (`verb.change`), os de dar e
+receber (`verb.possession`) e os do que se faz com os outros (`verb.social`) —
+*derreter*, *emprestar*, *casar*. Num jogo de desenho metade deles não teria
+graça; num de mímica, são os melhores.
 
 [lexnames]: https://wordnet.princeton.edu/documentation/lexnames5wn
 
@@ -84,8 +92,8 @@ O caminho de uma carta:
 
 O que a peneira automática não pega está em `casas.py`, na mão e comentado:
 particípio que a máquina leu como substantivo (*morto*, *dado*), xingamento,
-rótulo de povo e de crença, abstração sem desenho possível (*integridade*,
-*status*) e verbo sem gesto (*utilizar*, *parecer*).
+rótulo de povo e de crença, abstração sem gesto possível (*integridade*,
+*status*) e verbo que ninguém mostra com o corpo (*utilizar*, *parecer*).
 
 ## Refazer o baralho
 

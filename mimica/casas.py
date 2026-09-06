@@ -5,8 +5,8 @@ casas.py — o que vai em cada casa do jogo, e o que não vai em carta nenhuma.
 A casa de uma carta não é opinião: é o arquivo lexicográfico em que a WordNet
 de Princeton guarda aquele sentido. São 45 arquivos temáticos (noun.animal,
 noun.artifact, verb.motion…), e cada synset mora em exatamente um. O que este
-arquivo faz é dizer qual arquivo cai em qual casa do Imagem e Ação — e deixar
-de fora os arquivos que não dão desenho (noun.quantity, verb.stative e afins).
+arquivo faz é dizer qual arquivo cai em qual casa da Mímica — e deixar de fora
+os arquivos que não viram gesto (noun.quantity, verb.stative e afins).
 
 Referência dos arquivos: https://wordnet.princeton.edu/documentation/lexnames5wn
 """
@@ -38,7 +38,8 @@ CASAS = [
         "cor": "#FFA552",
         "o_que_e": "verbo: coisa que se faz",
         "arquivos": ["verb.motion", "verb.contact", "verb.body", "verb.consumption",
-                     "verb.competition", "verb.creation", "verb.perception"],
+                     "verb.competition", "verb.creation", "verb.perception",
+                     "verb.change", "verb.possession", "verb.social"],
     },
     {
         "id": "dificil",
@@ -71,6 +72,9 @@ ARQUIVOS = {
     "verb.competition": "verbos de disputa e luta",
     "verb.creation":   "verbos de fazer e criar",
     "verb.perception": "verbos de ver, ouvir e cheirar",
+    "verb.change":     "verbos de mudar de estado",
+    "verb.possession": "verbos de dar, receber e trocar",
+    "verb.social":     "verbos do que se faz com os outros",
     "noun.feeling":    "sentimentos",
     "noun.event":      "acontecimentos",
     "noun.phenomenon": "fenômenos da natureza",
@@ -82,7 +86,8 @@ ARQUIVOS = {
 CASA_DO_ARQUIVO = {arq: c["id"] for c in CASAS for arq in c["arquivos"]}
 
 # Quando a palavra tem sentido em mais de uma casa, fica com o mais concreto:
-# é o que dá pra desenhar. "Coração" é o órgão antes de ser o centro de algo.
+# é o que o corpo consegue mostrar. "Coração" é o órgão antes de ser o centro
+# de alguma coisa.
 PRIORIDADE = {"pessoa": 0, "objeto": 1, "acao": 2, "dificil": 3}
 
 
@@ -106,7 +111,7 @@ IMPROPRIAS = {
 }
 
 # A palavra existe, o sentido existe, mas a carta não presta: ou é genérica
-# demais pra ter desenho ("coisa", "tipo"), ou o sentido que a WordNet escolheu
+# demais pra virar gesto ("coisa", "tipo"), ou o sentido que a WordNet escolheu
 # não é o que a pessoa vai ler na tela ("ala" não é asa de bicho no Brasil).
 VETADAS = {
     # genérico demais
@@ -129,7 +134,7 @@ VETADAS = {
     "amo", "ama", "pena", "presa", "tira", "madre", "meter", "ferrar",
     "safar", "vale", "peça", "monte", "fonte", "quadra", "colo", "veste",
     "fumo", "dobra", "perímetro", "reta", "flanco", "saca", "arrasar",
-    # posição não é lugar, e ninguém desenha "frente"
+    # posição não é lugar, e ninguém mostra "frente" com o corpo
     "frente", "lado", "cima", "baixo", "direção", "comando", "endereço",
     "zona", "área", "arredores", "borda", "canto", "ambiente", "andamento",
     # parte de bicho fica esquisita na casa do bicho
@@ -137,7 +142,7 @@ VETADAS = {
     # advérbio, pronome e afins que caíram em synset de substantivo
     "agora", "aqui", "ali", "lá", "além", "porque", "porquê", "quando", "onde",
     "hoje", "ontem", "amanhã", "sempre", "nunca", "talvez", "assim", "então",
-    # tempo e medida não desenham
+    # tempo e medida não viram gesto
     "ano", "mês", "semana", "dia", "hora", "minuto", "segundo", "século",
     "janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho",
     "agosto", "setembro", "outubro", "novembro", "dezembro",
@@ -145,13 +150,13 @@ VETADAS = {
     # ------------------------------------------------------------------
     # Daqui pra baixo é o que sobrou depois de ler o baralho inteiro com o
     # olho. A peneira automática acerta a classe da palavra, não o que ela
-    # evoca em quem lê "desenhe isto" numa tela.
+    # evoca em quem lê "faça a mímica disto" numa tela.
     # ------------------------------------------------------------------
 
     # particípio que a máquina leu como substantivo
     "morto", "dado", "penso", "preparado", "conhecido", "acusado", "amado",
     "preso", "criado", "criada", "cria", "empregado", "encarregado",
-    # adjetivo que virou substantivo e ninguém desenha
+    # adjetivo que virou substantivo e ninguém consegue mostrar
     "vão", "forte", "estranho", "querido", "louco", "humano", "responsável",
     "suspeito", "superior", "interior", "exterior", "civil", "virgem",
     "solteiro", "escolar", "novato", "clássico", "selvagem", "egoísta",
@@ -159,7 +164,7 @@ VETADAS = {
     "idiota", "imbecil", "babaca", "otário", "cretino", "bobo", "tolo",
     "burro", "estúpido", "covarde", "mentiroso", "vagabundo", "bêbado",
     "criminoso", "bandido", "traidor", "escroto",
-    # rótulo de povo, cor e crença não é carta de jogo de desenho
+    # rótulo de povo, cor e crença não é carta de jogo de mímica
     "branco", "negro", "índio", "judeu", "cristão", "comunista", "alemão",
     "russo", "britânico", "americano", "africano", "estrangeiro", "papa",
     "bispo", "santo", "deusa", "muçulmano", "católico",
@@ -167,14 +172,14 @@ VETADAS = {
     "norte", "sul", "leste", "oeste", "oriente", "ocidente", "dobro",
     "rumo", "rota", "ponta", "reserva", "moda", "território", "terreno",
     "distrito", "condado", "campus", "império", "vizinhança", "esconderijo",
-    # coisa que não tem contorno pra desenhar
+    # coisa que não tem como mostrar
     "acesso", "arte", "trato", "tomo", "restos", "criação", "origem",
     "superfície", "cobertura", "câmara", "quinta", "guia", "descanso",
     "terapia", "mama", "hall", "grama", "passeio", "oxigênio", "metal",
     "amizade", "vírus", "plástico", "combustível", "entrada",
     # plural que entrou sozinho
     "navios", "paredes", "óculos",
-    # abstração sem desenho possível, mesmo na casa Difícil
+    # abstração sem gesto possível, mesmo na casa Difícil
     "vez", "querer", "gostar", "potencial", "impacto", "existência",
     "imunidade", "integridade", "status", "independência", "avanço",
     "aposentadoria", "perfeição", "celebridade", "preferência",
@@ -194,7 +199,7 @@ VETADAS = {
     "doença", "infecção", "hemorragia", "sangramento", "lesão", "ferimento",
     "convulsão", "epidemia", "poluição", "contaminação", "sintoma",
     "inchaço", "machucado", "distúrbio", "transtorno", "gripe", "resfriado",
-    # verbo sem gesto: não dá pra desenhar "utilizar"
+    # verbo sem gesto: ninguém faz a mímica de "utilizar"
     "usar", "utilizar", "parecer", "buscar", "criar", "imaginar", "demorar",
     "devolver", "executar", "expor", "demonstrar", "desfazer", "torcer",
     "recuar", "errar", "detectar", "dispor", "caber", "monitorar",
@@ -207,4 +212,21 @@ VETADAS = {
     "ferrar", "safar",
     # grafia de Portugal quando o baralho já tem a do Brasil
     "contacto", "stress", "acção",
+    # verbo de mudar, de trocar e de conviver que não sai do papel: entram na
+    # casa Ação pelo arquivo certo, mas não têm gesto que a mesa reconheça
+    "tornar", "iniciar", "eliminar", "completar", "diminuir", "reduzir",
+    "regular", "ocorrer", "surgir", "facilitar", "adaptar", "refazer",
+    "retomar", "reverter", "revisar", "aprontar", "isolar", "comparecer",
+    "calhar", "complicar", "fortalecer", "ativar", "remover", "retirar",
+    "recomeçar", "acostumar", "melhorar", "começar", "aparecer", "magoar",
+    "encaixar", "refrescar", "possuir", "render", "dispensar", "financiar",
+    "descontar", "beneficiar", "retribuir", "partilhar", "ceder", "fornecer",
+    "poupar", "recuperar", "revelar", "cobrar", "subornar", "tentar", "agir",
+    "impedir", "permitir", "convencer", "participar", "cumprir", "envolver",
+    "cometer", "cancelar", "negociar", "testar", "processar", "falhar",
+    "interferir", "cooperar", "esforçar", "auxiliar", "honrar", "romper",
+    "armar", "governar", "bloquear", "obrigar", "promover", "administrar",
+    "impor", "intervir", "colaborar", "inscrever", "redimir", "sabotar",
+    "abusar", "gerenciar", "acionar", "travar", "recrutar", "assistir",
+    "praticar", "despedir", "cumprir",
 }
