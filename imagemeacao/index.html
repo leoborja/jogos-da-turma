@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Imagem e Ação — Jogos da Turma</title>
+<meta name="description" content="Desenhe a palavra e faça seu time acertar antes do tempo. O celular sorteia a carta e conta o tempo; o desenho é no papel.">
+<meta name="theme-color" content="#C9A7F5">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23C9A7F5' stroke='%23141110' stroke-width='3'/%3E%3Cpath d='M9 23c3-1 4-9 8-9s2 6 6 4' fill='none' stroke='%23141110' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@600;800;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../comum.css">
+<style>
+/* Só o que é do Imagem e Ação. A base (cor, fonte, botão, painel, carta) está
+   em ../comum.css — não duplique lá o que for específico deste jogo. */
+.tela{display:none}.tela.on{display:block}
+
+/* ------------------------------------------------------------ a carta */
+.carta{--cor:var(--lilas)}
+.carta.entra{animation:vira .32s cubic-bezier(.2,1.1,.3,1)}
+@keyframes vira{from{opacity:0;transform:translateY(16px) scale(.96)}}
+.palavra{font-family:var(--display);font-weight:900;font-size:clamp(40px,13vw,64px);
+  line-height:.94;letter-spacing:-.045em;text-transform:uppercase;text-wrap:balance;
+  text-align:center;margin:4px 0 0}
+.sentido{text-align:center;color:var(--cinza);font-size:13px;line-height:1.45;
+  margin-top:10px;text-wrap:balance}
+.selo{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;
+  border:2.5px solid var(--preto);border-radius:6px;background:var(--branco);
+  font-family:var(--display);font-weight:900;font-size:12px;line-height:1}
+
+/* o lembrete do que não vale, à vista de quem desenha */
+.naovale{margin-top:14px;text-align:center;font-size:12px;font-weight:700;
+  color:var(--cinza);letter-spacing:.02em}
+
+/* ------------------------------------------------------------ segredo */
+.segredo{text-align:center;padding:26px 16px}
+.tampa{font-family:var(--display);font-weight:900;font-size:clamp(22px,6.5vw,30px);
+  line-height:1.05;letter-spacing:-.03em;text-wrap:balance}
+#mostrar{margin-top:18px}
+
+/* ------------------------------------------------------------ relógio */
+.relogio{display:flex;align-items:center;gap:11px;margin-bottom:14px}
+.trilho{flex:1;height:19px;border:var(--b);border-radius:7px;background:var(--branco);
+  overflow:hidden}
+.suco{height:100%;background:var(--verde);width:100%;transition:background .3s}
+.trilho.pouco .suco{background:var(--coral)}
+.segundos{font-family:var(--display);font-weight:900;font-size:23px;
+  font-variant-numeric:tabular-nums;min-width:46px;text-align:right}
+.trilho.pouco+.segundos{animation:pulsa .6s infinite}
+@keyframes pulsa{50%{opacity:.35}}
+
+/* ------------------------------------------------------------ ações */
+.acoes{display:grid;gap:9px;margin-top:16px}
+.acoes .dupla{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+#acertou{width:100%;padding:19px;font-size:21px;background:var(--verde);
+  box-shadow:var(--sombra-g)}
+#acertou:hover{box-shadow:9px 9px 0 var(--preto)}
+#acertou:active{transform:translate(8px,8px);box-shadow:0 0 0 var(--preto)}
+#passar,#desistir{padding:15px;font-size:16px}
+
+/* ------------------------------------------------------------ times */
+.times{display:grid;gap:9px}
+.time{display:flex;align-items:center;gap:10px;padding:11px 13px;border:var(--b);
+  border-radius:12px;background:var(--branco);box-shadow:4px 4px 0 var(--preto)}
+.time.vez{background:var(--lilas);transform:translate(-2px,-2px);
+  box-shadow:6px 6px 0 var(--preto)}
+.time .nome{font-family:var(--display);font-weight:800;font-size:16px;flex:1;min-width:0}
+.time .placar{font-family:var(--display);font-weight:900;font-size:22px;
+  font-variant-numeric:tabular-nums}
+.time input{border:none;box-shadow:none;padding:0;background:none;font-family:var(--display);
+  font-weight:800;font-size:16px;flex:1;min-width:0;width:auto}
+.time input:focus{outline:none;box-shadow:inset 0 -3px 0 var(--preto)}
+.papel{font-family:var(--display);font-weight:800;font-size:10.5px;letter-spacing:.11em;
+  text-transform:uppercase;padding:4px 8px;border:2.5px solid var(--preto);border-radius:99px;
+  background:var(--branco)}
+
+/* ------------------------------------------------------------ resumo */
+.jogadas{list-style:none;padding:0;display:grid;gap:9px;margin-top:14px}
+.jogada{padding:11px 13px;border:2.5px solid var(--preto);border-radius:10px;
+  background:var(--branco)}
+.jogada.acerto{background:var(--verde)}
+.jogada .cabeca{display:flex;align-items:center;gap:9px}
+.jogada .qual{font-family:var(--display);font-weight:900;font-size:19px;flex:1;
+  text-transform:uppercase;letter-spacing:-.02em}
+.jogada .porque{font-size:12.5px;line-height:1.5;color:#4a443d;margin-top:7px}
+.jogada .cadeia{font-weight:700}
+.jogada a{color:#4a443d;font-size:12px;font-weight:700;white-space:nowrap}
+.nota{margin-top:14px;padding:12px 14px;background:#FFF4CE;border:2.5px solid var(--preto);
+  border-radius:10px;font-size:13px;line-height:1.5;font-weight:500}
+.nota b{display:block;font-family:var(--display);font-weight:900;font-size:10.5px;
+  letter-spacing:.13em;text-transform:uppercase;margin-bottom:5px}
+.regras{font-size:13.5px;line-height:1.6;color:var(--cinza);margin-top:13px}
+.regras li{margin-bottom:5px}
+.regras strong{color:var(--preto)}
+.regras a{color:var(--cinza)}
+.casas-lista{list-style:none;padding:0;display:grid;gap:7px;margin-top:12px}
+.casas-lista li{display:flex;gap:10px;align-items:center;font-size:13.5px;
+  border:2.5px solid var(--preto);border-radius:9px;padding:8px 11px}
+
+/* --------------------------------------- celular baixo: tudo à mão
+   Na rodada os botões não podem ficar abaixo da dobra: quem desenha está de
+   olho no papel e aperta sem procurar. Em tela curta a carta encolhe. */
+@media (max-height:800px){
+  .palavra{font-size:clamp(34px,11vw,50px)}
+  #tela-rodada .corpo{padding:14px 14px 13px}
+  #acertou{padding:16px;font-size:19px}
+  #passar,#desistir{padding:13px}
+  .relogio{margin-bottom:11px}
+  .acoes{margin-top:12px}
+  .naovale{margin-top:11px}
+}
+@media (max-height:700px){
+  #app.em-rodada .topo{display:none}
+  .palavra{font-size:clamp(30px,10vw,42px)}
+  .sentido{margin-top:7px;font-size:12.5px}
+  .relogio{margin-bottom:9px}
+  .acoes{margin-top:10px}
+  .acoes .dupla{gap:8px}
+  #tela-rodada .corpo{padding:12px 13px 11px}
+}
+</style>
+</head>
+<body>
+<div id="app">
+
+<div class="entre topo" style="margin-bottom:18px">
+  <a class="botao mini" href="../">‹ Outros jogos</a>
+  <span class="contador">Imagem e Ação</span>
+</div>
+
+<!-- =============================================================== SETUP -->
+<section id="tela-setup" class="tela on">
+  <div class="carta" style="margin-bottom:20px">
+    <div class="faixa"><span>Jogos da Turma</span><span>✏️</span></div>
+    <div class="corpo">
+      <p class="marca" style="font-size:clamp(36px,11.5vw,54px)">IMAGEM<br>E AÇÃO</p>
+      <p class="fraco" style="margin-top:11px">O celular sorteia a palavra e conta o
+        tempo. O desenho é no papel — e sem letra, sem número e sem gesto.</p>
+    </div>
+  </div>
+
+  <div class="bloco pilha">
+    <p class="rotulo">Times</p>
+    <div class="times" id="lista-times"></div>
+    <div class="linha">
+      <button class="mini" id="mais-time">+ time</button>
+      <button class="mini" id="menos-time">− time</button>
+    </div>
+  </div>
+
+  <div class="bloco pilha" style="margin-top:14px">
+    <p class="rotulo">A rodada</p>
+    <div class="linha">
+      <div style="flex:1;min-width:130px">
+        <label for="tempo">Tempo de cada rodada</label>
+        <select id="tempo">
+          <option value="45">45 segundos</option>
+          <option value="60" selected>1 minuto</option>
+          <option value="90">1 min e meio</option>
+        </select>
+      </div>
+      <div style="flex:1;min-width:130px">
+        <label for="rodadas">Rodadas por time</label>
+        <select id="rodadas">
+          <option value="2">2</option>
+          <option value="3" selected>3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+    </div>
+    <div class="linha">
+      <div style="flex:1;min-width:150px">
+        <label for="modo">Palavras por rodada</label>
+        <select id="modo">
+          <option value="classico" selected>uma só, como na caixa</option>
+          <option value="maratona">quantas der no tempo</option>
+        </select>
+      </div>
+      <div style="flex:1;min-width:150px">
+        <label for="todos">Rodada “todos jogam”</label>
+        <select id="todos">
+          <option value="0">nunca</option>
+          <option value="3" selected>de vez em quando</option>
+          <option value="2">bastante</option>
+          <option value="1">toda rodada</option>
+        </select>
+      </div>
+    </div>
+    <p class="fraco" id="explica-rodada" style="font-size:12px"></p>
+  </div>
+
+  <div class="bloco pilha" style="margin-top:14px">
+    <p class="rotulo">As cartas</p>
+    <div>
+      <label>Casas no baralho</label>
+      <div class="chips" id="filtro-casa"></div>
+    </div>
+    <div>
+      <label>Quão conhecida é a palavra</label>
+      <div class="chips" id="filtro-raridade"></div>
+      <p class="fraco" style="margin-top:7px;font-size:12px">A faixa é a posição da
+        palavra no português falado. <b>Rara</b> é palavra que todo mundo entende e
+        quase ninguém usa — <i>rancor</i>, <i>nevoeiro</i>.</p>
+    </div>
+    <p class="fraco" id="conta-cartas"></p>
+  </div>
+
+  <details class="bloco" style="margin-top:14px">
+    <summary>Como se joga</summary>
+    <ol class="regras">
+      <li>O celular passa pra quem vai desenhar. <strong>Só essa pessoa olha a
+        palavra</strong> — a tela avisa antes de mostrar.</li>
+      <li>Começou o tempo, ela desenha no papel e o time chuta à vontade.</li>
+      <li>Não vale <strong>letra, número, símbolo nem risquinho contando as
+        letras</strong>. Não vale falar, fazer mímica nem apontar pra coisas da
+        sala. Só desenho.</li>
+      <li>Acertou dentro do tempo, <strong>1 ponto</strong>.</li>
+      <li>Na rodada <strong>todos jogam</strong>, um de cada time desenha ao mesmo
+        tempo e o ponto vai pro primeiro time que acertar.</li>
+      <li>Acaba quando todo time desenhou o mesmo número de vezes. Ganha quem
+        tiver mais pontos.</li>
+      <li>A <strong>letra na faixa da carta</strong> é a casa: O de objeto, P de
+        pessoa, lugar ou bicho, A de ação, D de difícil.</li>
+    </ol>
+    <p class="fraco" style="margin-top:12px;font-size:12px">Na caixa se anda num
+      tabuleiro e a categoria sai da casa em que o peão está; aqui a categoria vem
+      escrita na carta e o placar é de pontos. O resto é igual. Regras conferidas nas
+      <a href="https://gamerules.com/rules/pictionary/" target="_blank" rel="noopener">regras
+      do Pictionary</a> e na
+      <a href="https://ludopedia.com.br/jogo/imagem-acao" target="_blank" rel="noopener">ficha
+      do Imagem &amp; Ação na Ludopedia</a>.</p>
+  </details>
+
+  <details class="bloco" style="margin-top:14px">
+    <summary>As quatro casas</summary>
+    <ul class="casas-lista" id="lista-casas"></ul>
+    <p class="fraco" style="margin-top:12px;font-size:12px" id="casas-nota"></p>
+  </details>
+
+  <details class="bloco" style="margin-top:14px">
+    <summary>De onde vêm as cartas</summary>
+    <p class="regras" id="metodo"></p>
+    <ul class="regras" id="fontes" style="padding-left:18px"></ul>
+  </details>
+
+  <button class="principal" id="comecar" style="margin-top:20px">Embaralhar e começar</button>
+  <p class="fraco" style="margin-top:18px;font-size:12px" id="creditos"></p>
+</section>
+
+<!-- =============================================================== PASSA -->
+<section id="tela-passa" class="tela">
+  <div class="carta">
+    <div class="faixa"><span id="passa-rodada"></span><span id="passa-tipo">Passa o celular</span></div>
+    <div class="corpo" style="text-align:center">
+      <p class="fraco" id="passa-antes">É a vez de</p>
+      <p class="marca" id="passa-time" style="font-size:clamp(32px,9.5vw,44px);margin-top:6px"></p>
+      <p class="fraco" style="margin-top:14px" id="passa-instrucao"></p>
+    </div>
+  </div>
+  <div class="times" id="passa-placar" style="margin-top:16px"></div>
+  <button class="principal" id="vai" style="margin-top:18px">Peguei o celular</button>
+  <button class="mini" id="passa-sair" style="width:100%;margin-top:10px">Encerrar partida</button>
+</section>
+
+<!-- ============================================================= SEGREDO -->
+<section id="tela-segredo" class="tela">
+  <div class="carta">
+    <div class="faixa"><span id="segredo-casa"></span><span id="segredo-quem"></span></div>
+    <div class="corpo">
+      <div class="segredo" id="tampa">
+        <p class="tampa">Ninguém mais<br>pode ver a tela.</p>
+        <p class="fraco" style="margin-top:12px" id="segredo-aviso"></p>
+        <button class="principal" id="mostrar">Mostrar a palavra</button>
+      </div>
+      <div id="aberto" hidden>
+        <p class="palavra" id="segredo-palavra"></p>
+        <p class="sentido" id="segredo-sentido"></p>
+      </div>
+    </div>
+  </div>
+  <button class="principal" id="vai-desenhar" hidden style="margin-top:18px">Começar a desenhar</button>
+  <p class="fraco" id="segredo-pe" hidden style="margin-top:12px;font-size:12px;text-align:center">
+    Pegue o papel e a caneta antes de apertar.</p>
+</section>
+
+<!-- ============================================================== RODADA -->
+<section id="tela-rodada" class="tela">
+  <div class="relogio">
+    <div class="trilho" id="trilho"><div class="suco" id="suco"></div></div>
+    <span class="segundos" id="segundos">60</span>
+  </div>
+
+  <div class="carta" id="carta">
+    <div class="faixa"><span id="carta-casa"></span><span id="carta-conta"></span></div>
+    <div class="corpo">
+      <p class="palavra" id="palavra"></p>
+      <p class="sentido" id="sentido"></p>
+      <p class="naovale">sem letra · sem número · sem gesto · sem falar</p>
+    </div>
+  </div>
+
+  <div class="acoes">
+    <button id="acertou">Acertou</button>
+    <div class="dupla">
+      <button id="passar">Trocar a palavra</button>
+      <button id="desistir" class="perigo">Desistir</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================== RESUMO -->
+<section id="tela-resumo" class="tela">
+  <div class="carta">
+    <div class="faixa"><span id="resumo-time"></span><span>Fim da rodada</span></div>
+    <div class="corpo">
+      <p class="marca" id="resumo-placar" style="font-size:clamp(28px,8.5vw,40px)"></p>
+      <p class="fraco" id="resumo-conta" style="margin-top:10px"></p>
+      <div id="quem-acertou" hidden style="margin-top:14px">
+        <p class="rotulo" style="margin-bottom:9px">Qual time acertou?</p>
+        <div class="times" id="botoes-time"></div>
+      </div>
+      <ul class="jogadas" id="jogadas"></ul>
+      <p class="nota" id="resumo-nota" hidden></p>
+    </div>
+  </div>
+  <div class="times" id="resumo-geral" style="margin-top:16px"></div>
+  <button class="principal" id="proximo" style="margin-top:18px">Passar o celular</button>
+</section>
+
+<!-- ================================================================= FIM -->
+<section id="tela-fim" class="tela">
+  <div class="carta">
+    <div class="faixa"><span>Acabou</span><span>✏️</span></div>
+    <div class="corpo" style="text-align:center">
+      <p class="marca" id="fim-titulo" style="font-size:clamp(30px,9.5vw,44px)"></p>
+      <p class="fraco" id="fim-sub" style="margin-top:10px"></p>
+    </div>
+  </div>
+  <div class="times" id="fim-placar" style="margin-top:16px"></div>
+  <button class="principal" id="revanche" style="margin-top:18px">Jogar de novo</button>
+  <button class="mini" id="fim-setup" style="width:100%;margin-top:10px">Mudar times e opções</button>
+</section>
+
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const RARIDADES = ["comum", "conhecida", "rara"];
+
+let BANCO = null;
+const CASA = {};          // id da casa -> ficha da casa, preenchido ao carregar
+const J = {
+  times: [{nome:"Time 1", pontos:0}, {nome:"Time 2", pontos:0}],
+  tempo: 60, rodadas: 3, modo: "classico", todos: 3,
+  casas: new Set(), raridades: new Set(RARIDADES),
+  vez: 0, rodada: 1, baralho: [], i: 0, log: [], carta: null,
+  raf: 0, avisou: false, trava: null, todosJogam: false, pendente: null,
+};
+
+/* ------------------------------------------------------------- telas */
+function tela(id){
+  $$(".tela").forEach(t => t.classList.toggle("on", t.id === "tela-" + id));
+  $("#app").classList.toggle("em-rodada", id === "rodada");
+  window.scrollTo(0, 0);
+}
+
+/* ------------------------------------------------------------- som */
+let AC = null;
+function bip(hz, ms){
+  try{
+    AC = AC || new (window.AudioContext || window.webkitAudioContext)();
+    const o = AC.createOscillator(), g = AC.createGain();
+    o.type = "square"; o.frequency.value = hz;
+    g.gain.setValueAtTime(0.06, AC.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.0001, AC.currentTime + ms/1000);
+    o.connect(g); g.connect(AC.destination);
+    o.start(); o.stop(AC.currentTime + ms/1000);
+  }catch(e){}
+}
+function tremer(p){ try{ navigator.vibrate && navigator.vibrate(p); }catch(e){} }
+
+/* ------------------------------------------------------------- setup */
+function desenhaTimes(){
+  const box = $("#lista-times");
+  box.innerHTML = "";
+  J.times.forEach((t, i) => {
+    const el = document.createElement("div");
+    el.className = "time";
+    el.innerHTML = `<span class="papel">${i+1}</span>`;
+    const inp = document.createElement("input");
+    inp.value = t.nome; inp.maxLength = 18;
+    inp.setAttribute("aria-label", "nome do time " + (i+1));
+    inp.oninput = () => { t.nome = inp.value.trim() || ("Time " + (i+1)); };
+    el.appendChild(inp);
+    box.appendChild(el);
+  });
+  $("#mais-time").disabled = J.times.length >= 4;
+  $("#menos-time").disabled = J.times.length <= 2;
+}
+
+/* Quem senta na mesa precisa saber, antes de começar, como a rodada anda. */
+function explicaRodada(){
+  const modo = $("#modo").value === "classico"
+    ? "Uma palavra por rodada: acertou, a rodada acaba na hora."
+    : "Sorteia palavra atrás de palavra até o tempo acabar, e cada acerto vale 1.";
+  const n = +$("#todos").value;
+  const todos = n === 0 ? "Ninguém desenha ao mesmo tempo."
+    : n === 1 ? "Toda rodada é “todos jogam”: um de cada time desenha junto."
+    : `A cada ${n} rodadas cai uma de “todos jogam”, com um de cada time desenhando junto.`;
+  $("#explica-rodada").textContent = modo + " " + todos;
+}
+
+function chips(box, valores, conjunto, rotulo){
+  box.innerHTML = "";
+  valores.forEach(v => {
+    const b = document.createElement("button");
+    b.className = "mini" + (conjunto.has(v) ? " on" : "");
+    b.textContent = rotulo(v);
+    b.onclick = () => {
+      if (conjunto.has(v)) { if (conjunto.size > 1) conjunto.delete(v); }
+      else conjunto.add(v);
+      desenhaFiltros(); contaCartas();
+    };
+    box.appendChild(b);
+  });
+}
+function desenhaFiltros(){
+  chips($("#filtro-casa"), BANCO.casas.map(c => c.id), J.casas, id => CASA[id].nome);
+  chips($("#filtro-raridade"), RARIDADES, J.raridades, v => v);
+}
+
+function disponiveis(){
+  return BANCO.cartas.filter(c => J.casas.has(c.casa) && J.raridades.has(c.raridade));
+}
+function contaCartas(){
+  const n = disponiveis().length;
+  $("#conta-cartas").textContent = `${n} carta${n === 1 ? "" : "s"} no baralho.`;
+  $("#comecar").disabled = n < 4;
+}
+
+/* ------------------------------------------------------------- partida */
+function embaralha(a){
+  for (let i = a.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function comecar(){
+  J.tempo = +$("#tempo").value;
+  J.rodadas = +$("#rodadas").value;
+  J.modo = $("#modo").value;
+  J.todos = +$("#todos").value;
+  J.times.forEach(t => t.pontos = 0);
+  J.baralho = embaralha(disponiveis().slice());
+  J.i = 0; J.vez = 0; J.rodada = 1;
+  telaPassa();
+}
+
+/* a que altura da partida estamos, contando rodada de todo mundo */
+function numeroDaVez(){ return (J.rodada - 1) * J.times.length + J.vez + 1; }
+function ehTodosJogam(){ return J.todos > 0 && numeroDaVez() % J.todos === 0; }
+
+function placar(box, marcarVez){
+  box.innerHTML = "";
+  J.times.forEach((t, i) => {
+    const el = document.createElement("div");
+    el.className = "time" + (marcarVez && i === J.vez && !J.todosJogam ? " vez" : "");
+    const papel = marcarVez && J.todosJogam ? "desenha"
+                : marcarVez && i === J.vez ? "desenha" : "";
+    el.innerHTML = `<span class="nome">${t.nome}</span>` +
+      (papel ? `<span class="papel">${papel}</span>` : "") +
+      `<span class="placar">${t.pontos}</span>`;
+    box.appendChild(el);
+  });
+}
+
+function telaPassa(){
+  J.todosJogam = ehTodosJogam();
+  const time = J.times[J.vez];
+  $("#passa-rodada").textContent = `Rodada ${J.rodada} de ${J.rodadas}`;
+  $("#passa-tipo").textContent = J.todosJogam ? "Todos jogam" : "Passa o celular";
+  if (J.todosJogam){
+    $("#passa-antes").textContent = "Nesta rodada";
+    $("#passa-time").textContent = "TODOS JOGAM";
+    $("#passa-instrucao").innerHTML =
+      "Um de cada time pega papel e caneta. Todos vão desenhar <b>a mesma palavra ao " +
+      "mesmo tempo</b>, e o ponto é do primeiro time que acertar. Junta os desenhistas " +
+      "pra ver a tela — mais ninguém.";
+    $("#vai").textContent = "Somos nós que desenhamos";
+  } else {
+    $("#passa-antes").textContent = "É a vez de";
+    $("#passa-time").textContent = time.nome;
+    $("#passa-instrucao").innerHTML =
+      `Uma pessoa do <b>${time.nome}</b> pega o celular, o papel e a caneta. ` +
+      "O resto do time vai chutar — e ninguém mais pode ver a tela.";
+    $("#vai").textContent = "Peguei o celular";
+  }
+  placar($("#passa-placar"), true);
+  tela("passa");
+}
+
+/* ------------------------------------------------------------- segredo */
+function telaSegredo(){
+  const c = J.baralho[J.i];
+  if (!c){ fimDeJogo("o baralho acabou"); return; }
+  $("#segredo-casa").innerHTML = selo(c) + " " + CASA[c.casa].nome;
+  $("#segredo-quem").textContent = J.todosJogam ? "Todos jogam" : J.times[J.vez].nome;
+  $("#segredo-aviso").textContent = J.todosJogam
+    ? "Só quem vai desenhar — um de cada time — pode olhar."
+    : "Só quem vai desenhar pode olhar.";
+  $("#tampa").hidden = false;
+  $("#aberto").hidden = true;
+  $("#vai-desenhar").hidden = true;
+  $("#segredo-pe").hidden = true;
+  tela("segredo");
+}
+
+function mostraPalavra(){
+  const c = J.baralho[J.i];
+  $("#segredo-palavra").textContent = c.palavra;
+  $("#segredo-sentido").textContent = c.sentido || "";
+  $("#segredo-sentido").hidden = !c.sentido;
+  $("#tampa").hidden = true;
+  $("#aberto").hidden = false;
+  $("#vai-desenhar").hidden = false;
+  $("#segredo-pe").hidden = false;
+  $("#vai-desenhar").textContent = `Começar a desenhar · ${J.tempo}s`;
+  bip(660, 80);
+}
+
+function selo(c){
+  return `<span class="selo" style="background:${CASA[c.casa].cor}">${CASA[c.casa].letra}</span>`;
+}
+
+/* ------------------------------------------------------------- rodada */
+async function segurarTela(){
+  try{ J.trava = await navigator.wakeLock.request("screen"); }catch(e){}
+}
+function soltarTela(){
+  try{ J.trava && J.trava.release(); }catch(e){}
+  J.trava = null;
+}
+
+function iniciaRodada(){
+  J.log = []; J.avisou = false;
+  bip(880, 90);
+  segurarTela();
+  mostraCarta();
+  tela("rodada");
+  // Uma rodada só é uma passagem de tempo: guardamos o instante do início e
+  // perguntamos as horas a cada quadro. Timer de setInterval atrasa.
+  const inicio = performance.now(), dur = J.tempo * 1000;
+  const passo = agora => {
+    const resta = Math.max(0, dur - (agora - inicio));
+    $("#segundos").textContent = Math.ceil(resta / 1000);
+    $("#suco").style.width = (resta / dur * 100) + "%";
+    $("#trilho").classList.toggle("pouco", resta <= 10000);
+    if (resta <= 10000 && !J.avisou){ J.avisou = true; bip(440, 120); tremer(60); }
+    if (resta <= 0){ fimRodada("o tempo acabou"); return; }
+    J.raf = requestAnimationFrame(passo);
+  };
+  J.raf = requestAnimationFrame(passo);
+}
+
+function mostraCarta(){
+  const c = J.baralho[J.i];
+  if (!c){ fimRodada("o baralho acabou"); return; }
+  J.carta = c;
+  $("#palavra").textContent = c.palavra;
+  $("#sentido").textContent = c.sentido || "";
+  $("#sentido").hidden = !c.sentido;
+  $("#carta-casa").innerHTML = selo(c) + " " + CASA[c.casa].nome;
+  $("#carta-conta").textContent = J.modo === "maratona"
+    ? J.log.filter(l => l.tipo === "acerto").length + " no papo"
+    : c.raridade;
+  // Em clássico a rodada é de uma palavra só: trocar seria ganhar outra chance.
+  $("#passar").hidden = J.modo !== "maratona";
+  $("#tela-rodada .dupla").style.gridTemplateColumns =
+    J.modo === "maratona" ? "1fr 1fr" : "1fr";
+  const carta = $("#carta");
+  carta.classList.remove("entra");
+  void carta.offsetWidth;
+  carta.classList.add("entra");
+}
+
+function acao(tipo){
+  if (!J.carta) return;
+  J.log.push({carta: J.carta, tipo});
+  J.i++;
+  J.carta = null;          // a carta saiu do monte; quem repõe é mostraCarta
+  if (tipo === "acerto"){ bip(1046, 70); tremer(25); }
+  else { bip(200, 160); tremer([40, 50, 40]); }
+  if (J.modo === "classico" && tipo === "acerto"){ fimRodada("acertaram"); return; }
+  mostraCarta();
+}
+
+function fimRodada(porque){
+  cancelAnimationFrame(J.raf);
+  soltarTela();
+  // Carta que ficou na tela quando o tempo acabou também sai do monte: no jogo
+  // de caixa ela vai pro descarte, e repeti-la na rodada seguinte seria colar.
+  if (J.carta){ J.log.push({carta: J.carta, tipo: "nada"}); J.i++; J.carta = null; }
+  bip(300, 320); tremer([90, 60, 90]);
+
+  const acertos = J.log.filter(l => l.tipo === "acerto").length;
+  const time = J.times[J.vez];
+
+  // Na rodada "todos jogam" o ponto é de quem acertar primeiro, e só a mesa
+  // sabe quem foi: o placar espera a resposta.
+  J.pendente = (J.todosJogam && acertos > 0) ? acertos : null;
+  if (!J.todosJogam) time.pontos += acertos;
+
+  $("#resumo-time").textContent = J.todosJogam ? "Todos jogam" : time.nome;
+  $("#resumo-placar").textContent = acertos === 0 ? "Ninguém acertou"
+    : acertos + (acertos === 1 ? " acerto" : " acertos");
+  $("#resumo-conta").textContent =
+    porque[0].toUpperCase() + porque.slice(1) + "." +
+    (acertos === 0 ? " A palavra era essa:" : "");
+
+  $("#quem-acertou").hidden = J.pendente === null;
+  if (J.pendente !== null) desenhaBotoesTime();
+
+  const ul = $("#jogadas");
+  ul.innerHTML = "";
+  J.log.forEach(l => ul.appendChild(linhaJogada(l)));
+
+  $("#resumo-nota").hidden = false;
+  $("#resumo-nota").innerHTML = "<b>Discordou da casa?</b>" +
+    "A casa da carta é o arquivo em que a WordNet guarda aquele sentido, e a " +
+    "cadeia acima é o caminho até ele. O link abre o verbete no Wikcionário.";
+
+  placar($("#resumo-geral"), false);
+  $("#proximo").disabled = J.pendente !== null;
+  $("#proximo").textContent = ultimaRodada() ? "Ver o resultado" : "Passar o celular";
+  tela("resumo");
+}
+
+function linhaJogada(l){
+  const c = l.carta;
+  const li = document.createElement("li");
+  li.className = "jogada" + (l.tipo === "acerto" ? " acerto" : "");
+  const marca = l.tipo === "acerto" ? "✓" : l.tipo === "pulo" ? "→" : "✕";
+  const cadeia = c.cadeia.length > 1
+    ? `<span class="cadeia">${c.cadeia.join(" → ")}</span>. ` : "";
+  const arq = BANCO.arquivos[c.arquivo] || c.arquivo;
+  li.innerHTML =
+    `<div class="cabeca"><span>${marca}</span>${selo(c)}` +
+    `<span class="qual">${c.palavra}</span>` +
+    `<a href="${c.url}" target="_blank" rel="noopener">conferir ↗</a></div>` +
+    `<p class="porque">${cadeia}A WordNet guarda essa palavra em ` +
+    `<b>${c.arquivo}</b> — ${arq} — e é daí que sai a casa ` +
+    `${CASA[c.casa].nome.toLowerCase()}.` +
+    (c.sentido ? ` <i>${c.sentido}</i> — ${c.sentido_de}.` : "") + `</p>`;
+  return li;
+}
+
+function desenhaBotoesTime(){
+  const box = $("#botoes-time");
+  box.innerHTML = "";
+  J.times.forEach((t, i) => {
+    const b = document.createElement("button");
+    b.className = "time";
+    b.style.cursor = "pointer";
+    b.innerHTML = `<span class="nome">${t.nome}</span><span class="papel">+${J.pendente}</span>`;
+    b.onclick = () => {
+      t.pontos += J.pendente;
+      J.pendente = null;
+      $("#quem-acertou").hidden = true;
+      $("#proximo").disabled = false;
+      placar($("#resumo-geral"), false);
+      bip(880, 70);
+    };
+    box.appendChild(b);
+  });
+}
+
+function ultimaRodada(){
+  return J.i >= J.baralho.length ||
+         (J.rodada >= J.rodadas && J.vez >= J.times.length - 1);
+}
+
+function proximo(){
+  if (J.i >= J.baralho.length){ fimDeJogo("o baralho acabou"); return; }
+  J.vez++;
+  if (J.vez >= J.times.length){ J.vez = 0; J.rodada++; }
+  if (J.rodada > J.rodadas){ fimDeJogo("todo time desenhou " + J.rodadas + " vezes"); return; }
+  telaPassa();
+}
+
+function fimDeJogo(porque){
+  cancelAnimationFrame(J.raf);
+  soltarTela();
+  const ordem = J.times.slice().sort((a, b) => b.pontos - a.pontos);
+  const topo = ordem[0].pontos;
+  const campeoes = ordem.filter(t => t.pontos === topo);
+  $("#fim-titulo").textContent = campeoes.length > 1 ? "Empate" : campeoes[0].nome + " ganhou";
+  const nomes = campeoes.map(t => t.nome);
+  $("#fim-sub").textContent = campeoes.length > 1
+    ? `${nomes.slice(0, -1).join(", ")} e ${nomes.at(-1)} terminaram com ${topo} — ${porque}.`
+    : `${topo} ponto${topo === 1 ? "" : "s"} — ${porque}.`;
+  const box = $("#fim-placar");
+  box.innerHTML = "";
+  ordem.forEach((t, i) => {
+    const el = document.createElement("div");
+    el.className = "time" + (t.pontos === topo ? " vez" : "");
+    el.innerHTML = `<span class="papel">${i+1}º</span><span class="nome">${t.nome}</span>` +
+                   `<span class="placar">${t.pontos}</span>`;
+    box.appendChild(el);
+  });
+  tela("fim");
+}
+
+/* ------------------------------------------------------------- ligar tudo */
+$("#mais-time").onclick = () => {
+  if (J.times.length < 4){ J.times.push({nome: "Time " + (J.times.length+1), pontos: 0}); desenhaTimes(); }
+};
+$("#menos-time").onclick = () => {
+  if (J.times.length > 2){ J.times.pop(); desenhaTimes(); }
+};
+$("#modo").onchange = explicaRodada;
+$("#todos").onchange = explicaRodada;
+$("#comecar").onclick = comecar;
+$("#vai").onclick = telaSegredo;
+$("#mostrar").onclick = mostraPalavra;
+$("#vai-desenhar").onclick = iniciaRodada;
+$("#acertou").onclick = () => acao("acerto");
+$("#passar").onclick = () => acao("pulo");
+$("#desistir").onclick = () => fimRodada("o time desistiu");
+$("#proximo").onclick = proximo;
+$("#passa-sair").onclick = () => fimDeJogo("a partida foi encerrada");
+$("#revanche").onclick = comecar;
+$("#fim-setup").onclick = () => tela("setup");
+
+/* ------------------------------------------------------------- carregar */
+fetch("banco.json")
+  .then(r => r.json())
+  .then(b => {
+    BANCO = b;
+    b.casas.forEach(c => { CASA[c.id] = c; J.casas.add(c.id); });
+    $("#lista-casas").innerHTML = b.casas.map(c =>
+      `<li><span class="selo" style="background:${c.cor}">${c.letra}</span>` +
+      `<span><b>${c.nome}</b> — ${c.o_que_e}</span></li>`).join("");
+    $("#casas-nota").textContent =
+      "A casa sai do arquivo temático em que a WordNet de Princeton guarda o sentido " +
+      "da palavra, e cada carta mostra a cadeia que leva até lá. É por isso que rio e " +
+      "montanha caem em Objeto: a WordNet os guarda como objetos naturais, não como lugares.";
+    $("#metodo").textContent = b.metodo;
+    $("#fontes").innerHTML = b.fontes.map(f =>
+      `<li><a href="${f.url}" target="_blank" rel="noopener"><strong>${f.nome}</strong></a>` +
+      ` — ${f.papel}. <span style="opacity:.75">${f.licenca}</span></li>`).join("");
+    $("#creditos").textContent =
+      `${b.cartas.length} cartas geradas em ${b.gerado_em}. Rode gerador.py pra refazer o baralho.`;
+    desenhaTimes(); desenhaFiltros(); contaCartas(); explicaRodada();
+  })
+  .catch(() => {
+    $("#conta-cartas").textContent =
+      "Não deu pra ler o banco.json. Sirva a pasta por HTTP (python3 -m http.server).";
+    $("#comecar").disabled = true;
+  });
+</script>
+</body>
+</html>

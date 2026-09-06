@@ -1,0 +1,547 @@
+palavra,casa,arquivo,raridade,posicao,cadeia,sentido,sentido_de
+ABRAÇAR,acao,verb.contact,conhecida,5447,abraçar > agarrar com firmeza > agarrar > segurar,envolver com os braços,Wikcionário
+ACELERAR,acao,verb.motion,rara,7562,acelerar > andar,mover muito rápido,OpenWordnet-PT
+ALIMENTAR,acao,verb.consumption,conhecida,2968,alimentar > abastecer > dar > transferir,fornecer alimento a,Wikcionário
+AMARRAR,acao,verb.contact,rara,7154,amarrar > fixar > anexar > juntar,"prender ou fixar com uma corda ou cabo; ""Eles amarraram a vítima na cadeira""",OpenWordnet-PT
+ANDAR,acao,verb.motion,comum,715,andar,"locomover-se com as pernas, dando passos; caminhar",Wikcionário
+APERTAR,acao,verb.contact,conhecida,4036,apertar > bater,exercer pressão ou força sobre,OpenWordnet-PT
+ARRANCAR,acao,verb.contact,conhecida,3988,arrancar > arredar > deslocar,tirar da terra,Wikcionário
+ARRASTAR,acao,verb.contact,rara,8243,arrastar > arredar > deslocar,"puxar, contra uma resistência; ""Ele arrastou a mala grande atrás dele""; ""Estas preocupações foram arrastando ele""",OpenWordnet-PT
+ARROMBAR,acao,verb.contact,rara,13325,arrombar > acertar > bater,fazer rombo em; quebrar; romper,Wikcionário
+ATERRISSAR,acao,verb.motion,rara,14089,aterrissar > chegar,retornar à terra,Wikcionário
+BALANÇAR,acao,verb.motion,rara,8738,balançar > oscilar > deslocar,mover ou andar de uma forma oscilante ou balançando,OpenWordnet-PT
+BARBEAR,acao,verb.body,rara,11177,barbear > cuidar-se > embelezar > aperfeiçoar,,
+BEBER,acao,verb.consumption,comum,810,beber > consumir,beber liquidos,OpenWordnet-PT
+BEIJAR,acao,verb.contact,conhecida,2465,beijar > bater,oscular; dar beijo (ósculo),Wikcionário
+BRIGAR,acao,verb.competition,conhecida,2951,brigar,"estar envolvido em uma briga; continuar uma luta; ""os homens da tribo lutaram entre si""; ""Os irmãos estão sempre brigando""; ""Grupos militantes estão lutando pelo controle do país """,OpenWordnet-PT
+CAMINHAR,acao,verb.motion,conhecida,3410,caminhar,locomover-se mantendo sempre um dos pés no chão,Wikcionário
+CANTAR,acao,verb.creation,comum,1119,cantar > conversar > comunicar > interagir,expressar por canto,OpenWordnet-PT
+CAVALGAR,acao,verb.motion,rara,10378,cavalgar > andar,andar a cavalo,Wikcionário
+CAVAR,acao,verb.contact,conhecida,5439,cavar > cortar > dividir > deslocar,"fazer um buraco, especialmente com uma ferramenta manual; ""não perfure aqui, há um cano de gás""; ""furar a parede""; ""perfure para o óleo "";"" os cupins furam buracos na parede """,OpenWordnet-PT
+CAÇAR,acao,verb.motion,conhecida,3433,caçar > perseguir > andar,ir atrás com a intenção de pegar,OpenWordnet-PT
+CHORAR,acao,verb.body,comum,1543,chorar > expressar sentimentos,"derramar lágrimas de tristeza, raiva, ou dor; ""ela chorou amargamente quando soube da morte dele""; ""a menina na cadeira de rodas chorava de raiva de não conseguir subir as escadas""",OpenWordnet-PT
+CHUPAR,acao,verb.consumption,conhecida,6959,chupar > beber > consumir,"puxar para a boca criando um vácuo prático na boca; ""sugar o veneno do lugar onde a cobra mordeu""; ""chupar em um canudo ""; "" o bebê chupava o seio da mãe """,OpenWordnet-PT
+COMBATER,acao,verb.competition,conhecida,6572,combater > brigar,lutar ou brigar contra algo ou como em uma batalha,OpenWordnet-PT
+COMER,acao,verb.consumption,comum,458,comer > consumir,"ingerir comida sólida; ""ela estava comendo uma banana""; ""oque você comeu de jantar noite passada""",OpenWordnet-PT
+COMPETIR,acao,verb.competition,conhecida,5230,competir,competir por alguma coisa; se envolver em uma competição; medir-se em relação aos outros,OpenWordnet-PT
+CONSTRUIR,acao,verb.creation,comum,1920,construir > causar,"juntar diferentes elementos para formar um todo, edificar",Wikcionário
+CORRER,acao,verb.motion,comum,1067,correr > acelerar > andar,"mover rápido usando os pés, com um pé fora do chão a qualquer momento",OpenWordnet-PT
+CORTAR,acao,verb.contact,comum,1436,cortar > dividir > deslocar,separar ou dividir por meio de corte,Wikcionário
+COZINHAR,acao,verb.creation,conhecida,2581,cozinhar > confeccionar > causar,"preparar alimentos ao calor (geralmente fogo), principalmente dentro de líquidos",Wikcionário
+COÇAR,acao,verb.contact,rara,14953,coçar > cortar > dividir > deslocar,cortar ou desgastar a superfície de algo,OpenWordnet-PT
+CURAR,acao,verb.body,conhecida,3625,curar > ajudar > aperfeiçoar > alterar,restabelecer a saúde de,Wikcionário
+CUSPIR,acao,verb.body,rara,10227,cuspir > ejetar,expulsar ou ejetar (saliva ou catarro ou expectoração) da boca,OpenWordnet-PT
+DANÇAR,acao,verb.motion,comum,1164,dançar > deslocar,mover-se ritmadamente ao som de uma música,Wikcionário
+DECOLAR,acao,verb.motion,rara,8311,decolar > departir > ir,sair do chão (diz-se de aparelhos voadores),OpenWordnet-PT
+DEITAR,acao,verb.contact,conhecida,3750,deitar > botar > deslocar,colocar na cama,Wikcionário
+DERRAMAR,acao,verb.motion,rara,10386,derramar > deslocar,fazer correr,OpenWordnet-PT
+DESCANSAR,acao,verb.contact,comum,1684,descansar > estar,Não se mover; estar em uma posição de repouso,OpenWordnet-PT
+DESCER,acao,verb.motion,comum,1739,descer > andar,"descer ou baixar, não necessariamente até o fim",OpenWordnet-PT
+DESLIGAR,acao,verb.contact,conhecida,2412,desligar > ligar > engajar > deslocar,causar parar de funcionar por desligar um interruptor,OpenWordnet-PT
+DORMIR,acao,verb.body,comum,495,dormir > cochilar > estar deitado,estar dormindo,OpenWordnet-PT
+EMBARCAR,acao,verb.motion,rara,9098,embarcar > deslocar,,
+EMPURRAR,acao,verb.motion,conhecida,5452,empurrar > deslocar,mover com força,OpenWordnet-PT
+ENCARAR,acao,verb.perception,conhecida,3507,encarar > mirar,olhar de frente e fixamente; fitar,Wikcionário
+ENGOLIR,acao,verb.consumption,conhecida,6284,engolir > consumir,"passar pelo esôfago, uma etapa de comer ou beber; ""Engula o peixe cru - não vai te matar!""",OpenWordnet-PT
+ENGRAVIDAR,acao,verb.body,rara,9357,engravidar > mudar > alterar,,
+ENTRAR,acao,verb.motion,comum,323,entrar,passar para dentro,Wikcionário
+ENXERGAR,acao,verb.perception,rara,7215,enxergar > aperceber-se,ver a custo,Wikcionário
+ERGUER,acao,verb.motion,rara,12253,erguer > deslocar,levantar; erigir; pôr de pé,Wikcionário
+ESCALAR,acao,verb.motion,rara,8048,escalar > deslocar,"subir, montar",Wikcionário
+ESCONDER,acao,verb.perception,comum,1258,esconder,"pôr em lugar onde fique oculto, onde não se veja ou haja mais dificuldade em ver ou encontrar",Wikcionário
+ESCOVAR,acao,verb.contact,rara,13183,escovar > esfregar > correr,ato ou efeito de utilizar uma escova,Wikcionário
+ESCUTAR,acao,verb.perception,conhecida,2473,escutar > aperceber-se,prestar atenção auditiva; dar ouvidos,Wikcionário
+ESMAGAR,acao,verb.contact,rara,7477,esmagar > apertar > bater,apertar ou pressionar com força de modo a destruir ou deformar,Wikcionário
+ESPIAR,acao,verb.perception,rara,12587,espiar > mirar,lançar um olhar; dar uma breve olhada,OpenWordnet-PT
+ESTACIONAR,acao,verb.contact,rara,7455,estacionar > botar > deslocar,deixar o veículo parado à beira da estrada ou do passeio,Wikcionário
+FERIR,acao,verb.body,conhecida,4471,ferir > aleijar > indispor > alterar,provocar ferimentos ou danos corporais em alguém,OpenWordnet-PT
+FLERTAR,acao,verb.perception,rara,13502,flertar > mirar,namoricar; cortejar,Wikcionário
+FUMAR,acao,verb.consumption,conhecida,2428,fumar > consumir,"inalar e exalar fumaça de cigarros, charutos e cachimbos; ""Nós nunca fumamos maconha""; ""Você fuma?""",OpenWordnet-PT
+FURAR,acao,verb.contact,rara,11536,furar > cortar > dividir > deslocar,"fazer um buraco, especialmente com uma ferramenta manual; ""não perfure aqui, há um cano de gás""; ""furar a parede""; ""perfure para o óleo "";"" os cupins furam buracos na parede """,OpenWordnet-PT
+IMITAR,acao,verb.creation,rara,11096,imitar > reproduzir > construir,fazer exatamente o que faz uma pessoa ou animal,Wikcionário
+INJETAR,acao,verb.body,rara,14913,injetar > administrar > tratar,forçar liquido em (por meio de injeção),Wikcionário
+INVADIR,acao,verb.competition,conhecida,4508,invadir > assaltar > brigar,"marchar agressivamente na direção de outro território utilizando de força militar para efeitos de conquista e ocupação; ""Hitler invadiu a Polônia em 01 de setembro de 1939 """,OpenWordnet-PT
+LAMBER,acao,verb.contact,rara,10221,lamber > afagar > bater,passar a língua sobre; devorar; engolir; consumir,Wikcionário
+LEVANTAR,acao,verb.contact,comum,1624,levantar > descansar > estar,pôr em pé,Wikcionário
+LUTAR,acao,verb.competition,comum,865,lutar,"estar envolvido em uma briga; continuar uma luta; ""os homens da tribo lutaram entre si""; ""Os irmãos estão sempre brigando""; ""Grupos militantes estão lutando pelo controle do país """,OpenWordnet-PT
+MARCHAR,acao,verb.motion,rara,12509,marchar > andar,"andar, caminhar",Wikcionário
+MASTIGAR,acao,verb.consumption,rara,13007,mastigar > ranger > fragmentar > desmoronar,"mastigar (alimentos); morder e triturar com os dentes; ""Ele mascou seu chiclete""; ""mastigue seu alimento e não engula!""; ""As vacas foram mascar a grama """,OpenWordnet-PT
+MATAR,acao,verb.contact,comum,318,matar,"causar a morte; levar a morte, geralmente intencionalmente ou conscientemente",OpenWordnet-PT
+MORDER,acao,verb.contact,conhecida,6382,morder > agarrar,"apertar, cortar ou rasgas com ou como se fosse com os dentes maxilas; ""Gunny invariavelmente tentava morder ela""",OpenWordnet-PT
+NADAR,acao,verb.motion,conhecida,2949,nadar > andar,"deslocar-se na água ou sustentar-se sobre ela usando recursos do próprio corpo (pés, mãos, braços, pernas, nadadeiras, cauda etc.)",Wikcionário
+NAVEGAR,acao,verb.motion,rara,8824,navegar > andar,viajar a uma velocidade moderada,OpenWordnet-PT
+OLHAR,acao,verb.perception,comum,565,olhar > aperceber-se,,
+OUVIR,acao,verb.perception,comum,376,ouvir > aperceber-se,perceber sons,Wikcionário
+PASSEAR,acao,verb.motion,conhecida,4460,passear > andar,andar,Wikcionário
+PENDURAR,acao,verb.contact,rara,7839,pendurar,suspender,Wikcionário
+PILOTAR,acao,verb.motion,rara,8368,pilotar > controlar > manejar > manusear,"governar, como piloto",Wikcionário
+PISAR,acao,verb.motion,rara,7535,pisar > andar,colocar os pés sobre,Wikcionário
+PISCAR,acao,verb.body,rara,7930,piscar > agir involuntariamente > agir,rápido fechar dos olhos,OpenWordnet-PT
+POUSAR,acao,verb.motion,rara,7016,pousar > chegar,,
+PRESSIONAR,acao,verb.contact,rara,7737,pressionar > bater,exercer pressão ou força sobre,OpenWordnet-PT
+PROTEGER,acao,verb.competition,comum,1034,proteger > defender > atrapalhar,"defender do perigo, lesão, destruição ou dano; ""Weatherbeater protege o telhado da chuva""",OpenWordnet-PT
+RASGAR,acao,verb.contact,rara,10074,rasgar > dividir > deslocar,fazer rasgões em,Wikcionário
+RASTEJAR,acao,verb.motion,rara,14032,rastejar > andar,seguir o rasto de,Wikcionário
+RECONSTRUIR,acao,verb.creation,rara,8629,reconstruir > construir > causar,construir de novo,Wikcionário
+RELAXAR,acao,verb.body,conhecida,2576,relaxar > mudar > alterar,"ficar menos tenso, descansar ou pegar leve",OpenWordnet-PT
+RESPIRAR,acao,verb.body,conhecida,2132,respirar,executar a função da respiração,Wikcionário
+RIR,acao,verb.body,comum,1938,rir > expressar sentimentos,produzir riso,OpenWordnet-PT
+RODAR,acao,verb.motion,rara,8920,rodar > andar,mover ao longo de ou como se sobre rodas ou um veículo com rodas,OpenWordnet-PT
+ROLAR,acao,verb.motion,conhecida,4946,rolar > tornar-se > deslocar,mover-se virando ou girando,OpenWordnet-PT
+SACUDIR,acao,verb.motion,rara,14709,sacudir > deslocar,"agitar(-se) em vários sentidos, forte e sucessivamente; fazer tremer, estremecer(-se); pôr em movimento",Wikcionário
+SANGRAR,acao,verb.body,rara,7295,sangrar > ejetar,verter ou perder sangue,Wikcionário
+SENTAR,acao,verb.contact,comum,1096,sentar,colocar em assento,Wikcionário
+SENTIR,acao,verb.perception,comum,519,sentir > aperceber-se,perceber por qualquer dos sentidos,Wikcionário
+SOCAR,acao,verb.contact,rara,13240,socar > acertar > bater,Dar uma pancada ou empurrão,OpenWordnet-PT
+SONHAR,acao,verb.creation,conhecida,5281,sonhar > conjecturar > imaginar > causar,ter experiência do sonho durante o sono,Wikcionário
+SORRIR,acao,verb.body,conhecida,4603,sorrir > fazer careta > comunicar > interagir,esboçar sorriso; rir de leve,Wikcionário
+SUAR,acao,verb.body,rara,11073,suar > expelir > ejetar,"transpirar, emitir suor pelos poros da pele",Wikcionário
+SUGAR,acao,verb.consumption,rara,7394,sugar > beber > consumir,"puxar para a boca criando um vácuo prático na boca; ""sugar o veneno do lugar onde a cobra mordeu""; ""chupar em um canudo ""; "" o bebê chupava o seio da mãe """,OpenWordnet-PT
+TRANCAR,acao,verb.contact,rara,7254,trancar > fixar > anexar > juntar,"prender com um cadeado; ""tranque a moto na cerca""",OpenWordnet-PT
+TREMER,acao,verb.motion,rara,9999,tremer > deslocar,"vibrar, sacudir, fazer oscilar, chacoalhar",Wikcionário
+VASCULHAR,acao,verb.contact,rara,12546,vasculhar > buscar > examinar,"pesquisar exaustivamente; ""Eles vasculharam a área pela criança desaparecida""",OpenWordnet-PT
+VENCER,acao,verb.competition,comum,1546,vencer,,
+VESTIR,acao,verb.body,conhecida,2213,vestir,estar vestida,OpenWordnet-PT
+VIAJAR,acao,verb.motion,conhecida,2045,viajar,"ir de um lugar para outro, geralmente distante",Wikcionário
+VOAR,acao,verb.motion,comum,1760,voar > andar,viajar através do ar,OpenWordnet-PT
+ABORRECER,dificil,verb.emotion,rara,12697,aborrecer > desagradar,"Causar irritação, perturbar, especialmente por coisas menores",OpenWordnet-PT
+ADORAR,dificil,verb.emotion,conhecida,3360,adorar > gostar,ter o prazer de,OpenWordnet-PT
+AFEIÇÃO,dificil,noun.feeling,rara,12467,afeição > abalo > emoção > condição,ato ou efeito de afeiçoar; ternura; afecto; amizade; amor,Wikcionário
+AFETO,dificil,noun.feeling,rara,10118,afeto > emoção > condição > atributo,sentimento de amizade e ternura para com outrem; afeição; amor,Wikcionário
+AGRADAR,dificil,verb.emotion,conhecida,6152,agradar,alisar o terreno com grade; gradar; desterroar,Wikcionário
+ALÍVIO,dificil,noun.feeling,conhecida,4925,alívio > conforto > prazer > emoção,ato de aliviar,Wikcionário
+AMAR,dificil,verb.emotion,comum,1435,amar,,
+AMBIÇÃO,dificil,noun.feeling,conhecida,6641,ambição > anseio > emoção > condição,"desejo forte de fortuna, de glória, de honrarias, de poder ou de outra coisa qualquer, dependendo do contexto",Wikcionário
+AMOR,dificil,noun.feeling,comum,233,amor > abalo > emoção > condição,"sentimento de gostar muito de outra pessoa ou coisa, de forma a querer e fazer o bem para essa pessoa, ser vivente ou mesmo coisa",Wikcionário
+ANGÚSTIA,dificil,noun.state,rara,11881,angústia,estado de sofrimento,Wikcionário
+ANIMAÇÃO,dificil,noun.state,rara,11149,animação > Existência > condição > atributo,ato ou efeito de dar vida ou alma a,Wikcionário
+ANSIEDADE,dificil,noun.state,conhecida,6494,ansiedade,angústia,Wikcionário
+APETITE,dificil,noun.feeling,conhecida,4951,apetite > emoção > condição > atributo,vontade de comer,Wikcionário
+ARREPENDER,dificil,verb.emotion,conhecida,4019,arrepender > experimentar,estar arrependido,OpenWordnet-PT
+ASSUSTAR,dificil,verb.emotion,conhecida,3653,assustar > comover > concitar > causar,causar medo em,OpenWordnet-PT
+AZAR,dificil,noun.phenomenon,conhecida,4045,azar > fenómeno > processos físicos > entidade física,má sorte,Wikcionário
+BRISA,dificil,noun.phenomenon,rara,7659,brisa > vento > clima > fenômeno atmosférico,vento suave,Wikcionário
+CALOR,dificil,noun.phenomenon,comum,1784,calor > energia,sensação experimentada em um ambiente aquecido ou ao tocar um objeto quente,Wikcionário
+CAMPEONATO,dificil,noun.state,conhecida,4993,campeonato,competição em que o vencedor tem o título de campeão,Wikcionário
+CANSAR,dificil,verb.emotion,rara,10902,cansar,,
+CAOS,dificil,noun.state,conhecida,3792,caos,espaço limitado e amorfo que precedeu à criação do cosmo,Wikcionário
+CARINHO,dificil,noun.feeling,conhecida,5351,carinho > emoção > condição > atributo,"gesto afetivo entre dois indivíduos que pode envolver contato físico, ou palavras, ou um simples olhar",Wikcionário
+CASAL,dificil,noun.state,comum,1847,casal > estado civil > situação legal > classe,par afetivo,Wikcionário
+CASAMENTO,dificil,noun.state,comum,503,casamento > estado civil > situação legal > classe,,
+CATÁSTROFE,dificil,noun.event,rara,9956,catástrofe > azar > problema > acontecimento,"acontecimento desastroso de grandes proporções, geralmente relacionado a fenômenos naturais",Wikcionário
+CELEBRAÇÃO,dificil,noun.event,rara,7875,celebração > acontecimento,ato ou efeito de celebrar,Wikcionário
+CERIMÔNIA,dificil,noun.event,conhecida,3160,cerimônia > acontecimento,atividades formais realizadas em alguma ocasião solene ou importante,Wikcionário
+CHATEAR,dificil,verb.emotion,rara,11161,chatear > desagradar,"Causar irritação, perturbar, especialmente por coisas menores",OpenWordnet-PT
+CHEIRO,dificil,noun.state,comum,1136,cheiro > ambiência > Estado > condição,"odor, aroma",Wikcionário
+CHUVA,dificil,noun.phenomenon,comum,1860,chuva > precipitação > clima > fenômeno atmosférico,fenômeno recorrente em que ocorre precipitação de água em estado líquido em volume maior ou igual a gotas,Wikcionário
+CICATRIZ,dificil,noun.state,conhecida,5734,cicatriz > sintoma > evidência > conhecimento,marca de um ferimento deixada na pele,Wikcionário
+CIÚME,dificil,noun.feeling,rara,7251,ciúme > ciumes > amargura > aversão,,
+COLISÃO,dificil,noun.event,rara,9209,colisão > toque > acontecimento > característica psicológica,choque,Wikcionário
+CONCURSO,dificil,noun.event,conhecida,4006,concurso,,
+DANO,dificil,noun.state,conhecida,3800,dano,qualquer dano físico ao corpo causado por violência ou acidente ou fratura etc,OpenWordnet-PT
+DECEPCIONAR,dificil,verb.emotion,rara,9853,decepcionar > contrariar > bloquear,() causar decepção,Wikcionário
+DECEPÇÃO,dificil,noun.feeling,rara,7855,decepção,desilusão,Wikcionário
+DEMOLIÇÃO,dificil,noun.event,rara,14890,demolição > chegada > acontecimento > característica psicológica,ato ou efeito de demolir,Wikcionário
+DERROTA,dificil,noun.event,conhecida,5493,derrota > chegada > acontecimento > característica psicológica,"destroço, desbarato de tropas; revés",Wikcionário
+DESAPONTAR,dificil,verb.emotion,rara,12101,desapontar > contrariar > bloquear,causar desapontamento a,Wikcionário
+DESEJAR,dificil,verb.emotion,conhecida,3637,desejar,sentir ou ter desejo por; querer fortemente;,OpenWordnet-PT
+DESESPERO,dificil,noun.state,conhecida,5766,desespero > Estado > condição > atributo,aflição,Wikcionário
+DESGRAÇA,dificil,noun.state,conhecida,5050,desgraça > desonra,infelicidade,Wikcionário
+DISTRAIR,dificil,verb.emotion,rara,7776,distrair > confundir > constrangir > confundir,"mudar o foco da atenção, da concentração, do pensamento",Wikcionário
+ECLIPSE,dificil,noun.event,rara,12443,eclipse > interrupção > acontecimento > característica psicológica,quando um corpo celeste obscurece outro,OpenWordnet-PT
+EGOÍSMO,dificil,noun.feeling,rara,13224,egoísmo > auto-estima > emoção > condição,,
+EMERGÊNCIA,dificil,noun.event,comum,1277,emergência > crise > conjuntura > acontecimento,situação de gravidade excepcional que obriga a tomar providências,Wikcionário
+ENERGIA,dificil,noun.phenomenon,comum,846,energia,,
+ENTERRO,dificil,noun.event,conhecida,6366,enterro > cerimónia > acontecimento,funeral,Wikcionário
+ENTUSIASMO,dificil,noun.feeling,rara,7014,entusiasmo > emoção > condição > atributo,"veemência, vigor",Wikcionário
+ESCURIDÃO,dificil,noun.state,conhecida,2613,escuridão > iluminação > condição > atributo,qualidade de escuro (melânio),Wikcionário
+ESTRAGO,dificil,noun.event,rara,8775,estrago > alteração > acontecimento > característica psicológica,"deterioração, prejuízo, dano",Wikcionário
+FELICIDADE,dificil,noun.state,comum,1963,felicidade > espírito > abalo > emoção,estado ou qualidade do que é feliz,Wikcionário
+FOGUEIRA,dificil,noun.event,conhecida,5540,fogueira > fogo > acontecimento > característica psicológica,labareda,Wikcionário
+FOME,dificil,noun.state,comum,838,fome,necessidade de comer ou grande apetite; sofreguidão,Wikcionário
+FRUSTRAÇÃO,dificil,noun.feeling,rara,11949,frustração > decepção,emoção que ocorre nas situações onde algo obstrui o alcance de um almejo pessoal,Wikcionário
+FUNERAL,dificil,noun.event,conhecida,2341,funeral > cerimónia > acontecimento,cerimônia de enterro,Wikcionário
+FURACÃO,dificil,noun.phenomenon,rara,7136,furacão > Ciclones > vendaval > borrasca,,
+FÚRIA,dificil,noun.feeling,conhecida,6550,fúria > cólera > abalo > emoção,um sentimento de raiva intensa,OpenWordnet-PT
+GORDURA,dificil,noun.state,conhecida,5113,gordura > sujeira,,
+GRATIDÃO,dificil,noun.feeling,conhecida,6346,gratidão > emoção > condição > atributo,reconhecimento do bem recebido,Wikcionário
+GÁS,dificil,noun.state,conhecida,2063,gás > estados físicos da matéria,"estado fluido da matéria, sem forma definida, cujo volume é o do recipiente que o contém",Wikcionário
+HONRA,dificil,noun.state,comum,1121,honra,"honestidade, integridade em suas crenças e ações",Wikcionário
+HUMILHAR,dificil,verb.emotion,rara,10421,humilhar > magoar > concitar > causar,fazer sentir vergonha de alguma coisa,OpenWordnet-PT
+ILUMINAÇÃO,dificil,noun.state,rara,8370,iluminação > Estado > condição > atributo,ato ou efeito de iluminar,Wikcionário
+INAUGURAÇÃO,dificil,noun.event,rara,10012,inauguração > cerimónia > acontecimento,"abertura oficial ao público de uma construção, um edifício novo, etc",Wikcionário
+INCIDENTE,dificil,noun.event,conhecida,3216,incidente > acontecimento > característica psicológica > abstração,"evento, fato que sobrevém no transcurso de um acontecimento principal",Wikcionário
+INCÊNDIO,dificil,noun.event,conhecida,2253,incêndio > acontecimento > característica psicológica > abstração,fogo indesejado numa construção ou área de terra,Wikcionário
+INSPIRAR,dificil,verb.emotion,rara,13163,inspirar > comover > concitar > causar,aumentar ou intensificar,OpenWordnet-PT
+INTERESSAR,dificil,verb.emotion,rara,8438,interessar > concitar > causar,dar interesse a,Wikcionário
+INTIMIDAR,dificil,verb.emotion,rara,12496,intimidar > comover > concitar > causar,causar medo em,OpenWordnet-PT
+INUNDAÇÃO,dificil,noun.phenomenon,rara,14866,inundação,ato ou efeito de inundar,Wikcionário
+INVEJA,dificil,noun.feeling,conhecida,3898,inveja > amargura > aversão > abalo,sentimento de desejar possuir aquilo que outro tem,Wikcionário
+IRA,dificil,noun.feeling,conhecida,4398,ira > abalo > emoção > condição,uma emoção forte; um sentimento na direção de algum agravo real ou suposto,OpenWordnet-PT
+IRRITAR,dificil,verb.emotion,conhecida,6489,irritar > desagradar,"Causar irritação, perturbar, especialmente por coisas menores",OpenWordnet-PT
+LOUCURA,dificil,noun.state,comum,975,loucura > mania,qualidade ou estado de louco; insanidade,Wikcionário
+LUAR,dificil,noun.phenomenon,rara,10247,luar > luz,luz do sol que é refletida pela Lua,Wikcionário
+LUTO,dificil,noun.state,conhecida,4225,luto > pesar,dor causada pela morte de alguém ou por grande calamidade,Wikcionário
+LUZ,dificil,noun.phenomenon,comum,608,luz,única radiação captada pelo olho humano,Wikcionário
+MARÉ,dificil,noun.event,conhecida,6745,maré,movimento periódico de subida e descida das águas do mar,Wikcionário
+MEDO,dificil,noun.feeling,comum,301,medo > abalo > emoção > condição,uma emoção vivida em antecipação de alguma dor ou perigo específico (geralmente acompanhada por um desejo de fugir ou lutar),OpenWordnet-PT
+MILAGRE,dificil,noun.event,conhecida,2437,milagre > acontecimento > característica psicológica > abstração,algo que supostamente aconteceu e não tem explicação à luz da ciência da época,Wikcionário
+MISÉRIA,dificil,noun.state,rara,7107,miséria,um estado de mal-estar devido à aflição ou azar,OpenWordnet-PT
+NEVE,dificil,noun.phenomenon,conhecida,2046,neve > precipitação > clima > fenômeno atmosférico,,
+NEVOEIRO,dificil,noun.phenomenon,rara,12420,nevoeiro > Aerossol > nuvem,,
+NUVEM,dificil,noun.phenomenon,conhecida,5066,nuvem,"conjunto visível de vapores de água e de cristais de gelo em suspensão na atmosfera, que dão origem às chuvas",Wikcionário
+ODIAR,dificil,verb.emotion,conhecida,4133,odiar > antipatizar,ter ódio a,Wikcionário
+ONDA,dificil,noun.event,conhecida,3047,onda > movimento > acontecimento > característica psicológica,elevação e depressão da camada superficial de uma massa líquida; vaga,Wikcionário
+ORGULHAR,dificil,verb.emotion,rara,11588,orgulhar > experimentar,causar sentimento de orgulho a,Wikcionário
+ORGULHO,dificil,noun.feeling,comum,1715,orgulho > emoção > condição > atributo,conceito exagerado que alguém faz de si próprio,Wikcionário
+PESADELO,dificil,noun.state,conhecida,2450,pesadelo,sonho ruim,Wikcionário
+POBREZA,dificil,noun.state,conhecida,6953,pobreza,penúria,Wikcionário
+PRESSENTIMENTO,dificil,noun.feeling,conhecida,5563,pressentimento > consternação > abalo > emoção,ato ou efeito de pressentir,Wikcionário
+PROBLEMA,dificil,noun.state,comum,204,problema > dificuldade > Estado > condição,situação difícil,Wikcionário
+PROFECIA,dificil,noun.event,rara,8103,profecia > agouro > experiência > acontecimento,suposto dom sobrenatural que permite o conhecimento de acontecimentos futuros,Wikcionário
+PÂNICO,dificil,noun.feeling,conhecida,2317,pânico > consternação > abalo > emoção,terror súbito,Wikcionário
+RANCOR,dificil,noun.feeling,rara,8456,rancor > aversão > abalo > emoção,ódio profundo e reservado,Wikcionário
+RELÂMPAGO,dificil,noun.phenomenon,rara,9857,relâmpago,clarão produzido pela descarga elétrica que ocorre entre nuvens de chuva ou entre uma destas nuvens e a terra,Wikcionário
+REMORSO,dificil,noun.feeling,rara,9207,remorso > pesar > emoção > condição,inquietação da consciência por um ato que não se devia ter praticado,Wikcionário
+REVOLUÇÃO,dificil,noun.event,conhecida,3131,revolução > alteração > acontecimento > característica psicológica,sublevação; retirada de um governo do poder pela força,Wikcionário
+RUÍDO,dificil,noun.event,rara,7761,ruído > acontecimento > característica psicológica > abstração,,
+SATISFAÇÃO,dificil,noun.feeling,rara,7234,satisfação > contentamento > alegria > emoção,ato ou efeito de satisfazer,Wikcionário
+SAUDADE,dificil,noun.feeling,conhecida,5195,saudade > anseio > emoção > condição,desejo (ou necessidade) não realizado e prolongado,OpenWordnet-PT
+SEPARAÇÃO,dificil,noun.state,conhecida,6239,separação > condição > atributo > abstração,ato ou efeito de separar,Wikcionário
+SOLIDÃO,dificil,noun.state,conhecida,5650,solidão > incomunicação > separação > condição,"estado daquilo que está só, isolado",Wikcionário
+SONO,dificil,noun.state,conhecida,2258,sono,"necessidade, vontade de dormir",Wikcionário
+TEMER,dificil,verb.emotion,conhecida,5431,temer > preocupar-se,ter medo ou sentir-se ansioso ou apreensivo sobre uma possível ou provável situação ou evento,OpenWordnet-PT
+TEMPESTADE,dificil,noun.phenomenon,conhecida,2010,tempestade > fenômeno atmosférico,"estado climático caracterizado por ventos fortes e, muitas vezes, acompanhado por chuva, granizo, relâmpagos e trovões",Wikcionário
+TERREMOTO,dificil,noun.event,conhecida,6740,terremoto,,
+TERROR,dificil,noun.feeling,conhecida,3836,terror > abalo > emoção > condição,uma emoção vivida em antecipação de alguma dor ou perigo específico (geralmente acompanhada por um desejo de fugir ou lutar),OpenWordnet-PT
+TORMENTO,dificil,noun.feeling,rara,14797,tormento > dor > emoção > condição,"grande dor, sofrimento, preocupação",Wikcionário
+TORNEIO,dificil,noun.event,conhecida,5325,torneio,ato ou efeito de tornear,Wikcionário
+TRAGÉDIA,dificil,noun.event,conhecida,3837,tragédia > azar > problema > acontecimento,tipo de peça teatral difundida na Grécia antiga,Wikcionário
+TREVAS,dificil,noun.state,conhecida,5433,trevas > iluminação > condição > atributo,escuridão,Wikcionário
+TROVÃO,dificil,noun.event,rara,8621,trovão > ruído > acontecimento > característica psicológica,forte ruído provocado por descarga elétrica na atmosfera; trovoada,Wikcionário
+TUMULTO,dificil,noun.state,rara,11237,tumulto,"confusão, agitação, barulhada",Wikcionário
+TÉDIO,dificil,noun.feeling,rara,8743,tédio,"desgosto profundo, que faz que se olhe com repugnância as pessoas, as coisas ou os fatos",Wikcionário
+VENTO,dificil,noun.phenomenon,comum,1647,vento > clima > fenômeno atmosférico,o ar atmosférico em movimento natural,Wikcionário
+VERGONHA,dificil,noun.feeling,comum,1305,vergonha > emoção > condição > atributo,confusão que se apodera do nosso espírito pelo receio de desonra,Wikcionário
+ÊXTASE,dificil,noun.state,rara,11542,êxtase > espírito > abalo > emoção,,
+ÓDIO,dificil,noun.feeling,conhecida,2749,ódio > abalo > emoção > condição,aversão; rancor; desejo de ruína ou desgraça alheia,Wikcionário
+ACADEMIA,objeto,noun.artifact,conhecida,2615,academia,"sociedade científica, literária ou artística cujo estabelecimento tem autoridade pública",Wikcionário
+AEROPORTO,objeto,noun.artifact,comum,1987,aeroporto > infra-estrutura > artefato > todo,,
+ALMOÇO,objeto,noun.food,comum,1307,almoço > refeição > alimentação > alimento,refeição servida por volta do meio-dia ou ao princípio da tarde,Wikcionário
+AMBULÂNCIA,objeto,noun.artifact,conhecida,2608,ambulância > auto > veículos motorizados,qualidade ou estado do que é ambulante; errância,Wikcionário
+ANEL,objeto,noun.body,comum,1678,anel > cabelo,aro circular feito para segurar algo,Wikcionário
+APARTAMENTO,objeto,noun.artifact,comum,902,apartamento > abrigo > edifício > artefato,ato ou efeito de apartar,Wikcionário
+AREIA,objeto,noun.substance,conhecida,2572,areia > solo > materiais > substância,,
+ARMA,objeto,noun.artifact,comum,411,arma > aparelho > aparato > apetrecho,instrumento usado para ataque e defesa,Wikcionário
+ARMADILHA,objeto,noun.artifact,conhecida,2489,armadilha > aparato > apetrecho > artefato,artifício para caçar animais,Wikcionário
+AVIÃO,objeto,noun.artifact,comum,929,avião,,
+AÇÚCAR,objeto,noun.food,conhecida,2768,açúcar > adoçante > aromatizante > ingrediente,"substância doce extraída da cana-de-açúcar, da beterraba, etc",Wikcionário
+BALA,objeto,noun.artifact,comum,1538,bala > Projéctil > arma > aparelho,,
+BANHO,objeto,noun.artifact,comum,1240,banho > vasilha > contentor > apetrecho,"imersão de um corpo em água, vapor, lama, etc, para limpeza ou tratamento médico",Wikcionário
+BAR,objeto,noun.artifact,comum,939,bar > aposento,,
+BARCO,objeto,noun.artifact,comum,916,barco > Embarcações > navio > veículo,veículo de transporte aquático,Wikcionário
+BARRIGA,objeto,noun.body,conhecida,3051,barriga > Anatomia > parte > coisa,"cavidade do tronco dos animais, que fica entre o tórax e a bacia e contém o estômago e os intestinos, entre outros órgãos; ventre",Wikcionário
+BICICLETA,objeto,noun.artifact,conhecida,2701,bicicleta,veículo de duas rodas movido a força humana,Wikcionário
+BOCA,objeto,noun.body,comum,444,boca,local por onde se introduzem os alimentos,Wikcionário
+BOLA,objeto,noun.artifact,comum,1074,bola,objeto redondo que é atirado ou jogado ou chutado em jogos,OpenWordnet-PT
+BOLSO,objeto,noun.artifact,conhecida,2328,bolso > bolsa > contentor > apetrecho,algibeira,Wikcionário
+BOMBA,objeto,noun.artifact,comum,1252,bomba > arma > apetrecho > artefato,"artefato explosivo usado como arma, empregado em guerras contra alvos militares ou civis, que pode ser lançado ou plantado",Wikcionário
+BOTÃO,objeto,noun.artifact,conhecida,2682,botão,"dispositivo encontrado em máquinas usado - pressionando - para mudar o estado da máquina, começar ou parar um processo",Wikcionário
+BRAÇO,objeto,noun.body,comum,1298,braço > membro,"um membro do ser humano. Tecnicamente, a parte entre o ombro e o cotovelo do membro superior, mas comumente usado para se referir ao membro superior inteiro",OpenWordnet-PT
+CABELO,objeto,noun.body,comum,684,cabelo,Uma cobertura para o corpo (ou partes dele) que consiste em um crescimento denso de estruturas ciliares (como as da cabeça humana); ajuda a evitar perda de calor,OpenWordnet-PT
+CABEÇA,objeto,noun.body,comum,279,cabeça,"parte do corpo humano, onde se localizam o cérebro, protegido pelo crânio, e a face, ligada ao tronco pelo pescoço",Wikcionário
+CADEIRA,objeto,noun.artifact,comum,1509,cadeira > assento > alfaia > mobiliário,"objeto do mobiliário sobre o qual se assenta, normalmente composta por quatro pés, um assento e um encosto",Wikcionário
+CAFÉ,objeto,noun.food,comum,501,café > bebida > alimento > substância,fruto gerado pelo cafeeiro,Wikcionário
+CAMA,objeto,noun.artifact,comum,566,cama,"móvel, normalmente plano e macio, usado para dormir",Wikcionário
+CAMINHÃO,objeto,noun.artifact,comum,1593,caminhão > veículos motorizados,carro grande geralmente utilizado no transporte de cargas; camião,Wikcionário
+CAMISA,objeto,noun.artifact,comum,1746,camisa > artigo de vestuário > roupa > bens de consumo,peça de vestuário para vestir de dia em tecido leve para o tronco e braços com a fralda curta,Wikcionário
+CANAL,objeto,noun.artifact,conhecida,2628,canal > aqueduto > passagem > caminho,meio usado para transportar uma mensagem do emissor ao receptor,Wikcionário
+CARNE,objeto,noun.body,comum,1015,carne > corpo > objeto natural > todo,tecido muscular do homem e dos animais,Wikcionário
+CARRO,objeto,noun.artifact,comum,218,carro > veículos motorizados,"veículo com a capacidade de se movimentar guiado por um motorista, geralmente com a finalidade de transportar pessoas",Wikcionário
+CARTÃO,objeto,noun.artifact,comum,1226,cartão > papel > materiais > substância,papel forte,Wikcionário
+CASACO,objeto,noun.artifact,comum,1855,casaco > sobretudo > artigo de vestuário > roupa,peça de vestuário que os homens usam sobre a camisa ou o colete e as mulheres por cima do vestido,Wikcionário
+CASTELO,objeto,noun.artifact,conhecida,2467,castelo > mansão > casa > edifício,habitação antiga fortificada,Wikcionário
+CELA,objeto,noun.artifact,conhecida,2886,cela > compartimento > espaço > localização,,
+CERVEJA,objeto,noun.food,comum,1087,cerveja > fermentação > Bebida Alcoólica > bebida,bebida alcoólica fraca obtida a partir da fermentação da cevada germinada a que se junta água e flores de lúpulo,Wikcionário
+CHAPÉU,objeto,noun.artifact,comum,1795,chapéu > roupa > bens de consumo > Bens,artefato que protege a cabeça do mau tempo; tem formato arredondado e geralmente uma aba,OpenWordnet-PT
+CHAVE,objeto,noun.artifact,comum,942,chave > aparato > apetrecho > artefato,"objeto usado para abrir e fechar uma fechadura, algemas ou cadeado",Wikcionário
+CHÁ,objeto,noun.food,comum,1107,chá > bebida > alimento > substância,,
+CHÃO,objeto,noun.object,comum,797,chão > objeto > entidade física > entidade,superfície pela qual se caminha,Wikcionário
+CIGARRO,objeto,noun.artifact,conhecida,2426,cigarro > rolo de tabaco > fumo,tabaco finamente moído envolto em papel; usado para fumar,OpenWordnet-PT
+COFRE,objeto,noun.artifact,conhecida,2591,cofre > caixa-forte > caixa > contentor,local onde se guardam dinheiro e objetos de valor,Wikcionário
+COMPUTADOR,objeto,noun.artifact,comum,1278,computador > maquinaria > aparato > apetrecho,o que faz cômputos (cálculos); o que computa,Wikcionário
+COPO,objeto,noun.artifact,comum,1996,copo > contentor > apetrecho > artefato,"recipiente, normalmente cilíndrico, do qual podem beber-se líquidos",Wikcionário
+CORREDOR,objeto,noun.artifact,comum,1950,corredor > passagem > caminho > artefato,aquele que corre,Wikcionário
+COZINHA,objeto,noun.artifact,comum,1100,cozinha > aposento,,
+CÂMERA,objeto,noun.artifact,comum,1231,câmera > equipamento fotográfico > equipamento > apetrecho,aparelho usado para tirar fotografias e/ou filmar,Wikcionário
+CÉREBRO,objeto,noun.body,comum,1071,cérebro,,
+CÉU,objeto,noun.object,comum,871,céu > ar > gás > fluido,parte do espaço que parece formar uma abóbada em cima de nossas cabeças; abóbada celeste,Wikcionário
+DEDO,objeto,noun.body,comum,1878,dedo > membro,"qualquer dos membros finais da mão (às vezes, excetuando o polegar)",OpenWordnet-PT
+DELEGACIA,objeto,noun.artifact,conhecida,2411,delegacia > estação > infra-estrutura > artefato,a repartição de responsabilidade do delegado,Wikcionário
+DISCO,objeto,noun.artifact,conhecida,2732,disco > Gravação e reprodução sonora > Gravação,peça ou objeto circular e chato,Wikcionário
+DOCE,objeto,noun.food,comum,1077,doce > prato > alimentação > alimento,qualquer preparação culinária cujo sabor revele a utilização de açúcar ou outro adoçante como ingrediente,Wikcionário
+DROGA,objeto,noun.artifact,comum,417,droga > agente > causa > entidade física,substância que altera o as funções fisiológicas humanas,Wikcionário
+EDIFÍCIO,objeto,noun.artifact,conhecida,3010,edifício > artefato > todo > objeto,"construção de alguma importância, como objetivo de servir à atividades humanas",Wikcionário
+ELEVADOR,objeto,noun.artifact,conhecida,2855,elevador,aquilo ou quem eleva,Wikcionário
+ESCADA,objeto,noun.artifact,conhecida,2759,escada > caminho > artefato > todo,um lance de escadas,OpenWordnet-PT
+ESCRITÓRIO,objeto,noun.artifact,comum,630,escritório > estabelecimento comercial > estabelecimento > edifício,"local de trabalho, onde são realizadas atividades profissionais ou clericais",OpenWordnet-PT
+ESPADA,objeto,noun.artifact,comum,1862,espada > arma > aparelho > aparato,"arma branca composta por um punho e uma lâmina pontiaguda e comprida, com um ou dois gumes",Wikcionário
+ESPELHO,objeto,noun.artifact,conhecida,2565,espelho,superfície polida ou muito lisa com capacidade para refletir a luz,Wikcionário
+ESTRADA,objeto,noun.artifact,comum,1014,estrada > caminho > artefato > todo,Um caminho aberto (geralmente público) para viagens ou transporte,OpenWordnet-PT
+ESTÔMAGO,objeto,noun.body,conhecida,2472,estômago > víscera > órgão > Anatomia,"órgão, mais ou menos diferenciado, do tubo digestivo que desempenha importante papel na digestão",Wikcionário
+ESTÚDIO,objeto,noun.artifact,conhecida,2579,estúdio > emprego,"local de trabalho de um artista (pintor, escultor, etc)",Wikcionário
+FACA,objeto,noun.artifact,comum,1544,faca,"ferramenta de borda, utilizada como um instrumento de corte; tem uma lâmina pontiaguda com uma ponta afiada e um segurador",OpenWordnet-PT
+FAZENDA,objeto,noun.artifact,conhecida,2187,fazenda > emprego,grande propriedade rural,Wikcionário
+FERRO,objeto,noun.substance,conhecida,2730,ferro > Metais > elemento químico > substância,,
+FITA,objeto,noun.artifact,comum,1895,fita > banda > artefato > todo,objeto de plástico que serve para reproduzir filmes,Wikcionário
+FOTO,objeto,noun.artifact,comum,721,foto > afiguração > criação > artefato,fotografia,Wikcionário
+FRANGO,objeto,noun.food,conhecida,2419,frango,"pinto já crescido que ainda não é galo, ou melhor, adolescente",Wikcionário
+FÁBRICA,objeto,noun.artifact,conhecida,2272,fábrica,ato ou efeito de fabricar,Wikcionário
+GARAGEM,objeto,noun.artifact,conhecida,2638,garagem,casa ou local para a recolha de veículos,Wikcionário
+GARGANTA,objeto,noun.body,conhecida,2541,garganta > cavidade tubular,"parte ântero-superior do pescoço, formada pela faringe e pela laringe",Wikcionário
+GARRAFA,objeto,noun.artifact,comum,1720,garrafa > vasilha > contentor > apetrecho,"recipiente de gargalo e boca estreitos, geralmente de vidro, cristal ou louça e sem alça(s), destinado a conter líquido",Wikcionário
+GASOLINA,objeto,noun.substance,conhecida,2674,gasolina > carburante > substância > matéria,"mistura líquida de hidrocarbonetos, obtida pela destilação do petróleo bruto, usada em motores de explosão interna",Wikcionário
+GELO,objeto,noun.substance,comum,1401,gelo > cristal > matéria sólida > matéria,água congelada no estado sólido,OpenWordnet-PT
+HOSPITAL,objeto,noun.artifact,comum,624,hospital,Um centro de saúde onde os pacientes recebem tratamento,OpenWordnet-PT
+HOTEL,objeto,noun.artifact,comum,815,hotel > edifício > artefato > todo,,
+IGREJA,objeto,noun.artifact,comum,947,igreja > Lugares de prática religiosa > edifício > artefato,comunidade dos fiéis que creem em Jesus Cristo,Wikcionário
+ILHA,objeto,noun.object,comum,1230,ilha > chão > objeto > entidade física,porção de terra emersa cercada de água,Wikcionário
+INTERNET,objeto,noun.artifact,comum,1945,internet > rede > sistema > apetrecho,,
+JANELA,objeto,noun.artifact,comum,1146,janela > estrutura,"buraco na parede, geralmente retangular, feito para permitir a entrada de luz e ar",Wikcionário
+JANTAR,objeto,noun.food,comum,511,jantar > refeição > alimentação > alimento,a principal refeição do dia servida à noite ou ao meio-dia,OpenWordnet-PT
+LABORATÓRIO,objeto,noun.artifact,comum,1432,laboratório > emprego,"local equipado para realizar experiências e investigações científicas ou para manufaturar produtos químicos, remédios, etc",Wikcionário
+LAGO,objeto,noun.object,comum,1959,lago > corpo de água > coisa > entidade física,acumulação permanente de água numa depressão,Wikcionário
+LEITE,objeto,noun.food,comum,1618,leite > lacticínio > alimento > substância,"líquido branco segregado pelas glândulas mamárias, existentes nas fêmeas dos mamíferos",Wikcionário
+LIXO,objeto,noun.substance,comum,1152,lixo > materiais > substância > matéria,tudo o que se varre para limpar uma casa,Wikcionário
+LOJA,objeto,noun.artifact,comum,844,loja > centros comerciais > estabelecimento comercial > estabelecimento,estabelecimento comercial,Wikcionário
+LUA,objeto,noun.object,comum,1214,lua > satélite > astro > objeto natural,"satélite natural da Terra, que se destaca no céu durante a noite",Wikcionário
+MALA,objeto,noun.artifact,conhecida,2422,mala > Bagagens,"bolsa (geralmente de couro ou pano e com cadeado) usada para carregar dinheiro, documentos e outros objetos",Wikcionário
+MAPA,objeto,noun.artifact,conhecida,2043,mapa > afiguração > criação > artefato,carta geográfica ou celestial,Wikcionário
+MAR,objeto,noun.object,comum,980,mar > corpo de água > coisa > entidade física,"grande quantidade de água salgada que cobre parte do planeta Terra, podendo estar localizada junto ou dentro de continentes",Wikcionário
+MATO,objeto,noun.plant,conhecida,2784,mato > Planta lenhosa > Planta vascular > flora,,
+MEIA,objeto,noun.artifact,comum,1189,meia,peça de vestuário de tecido de malha que se calça sobre a pele até meio da perna,Wikcionário
+MEL,objeto,noun.food,conhecida,2064,mel > adoçante > aromatizante > ingrediente,"substância doce, espessa e viscosa elaborada pelas abelhas nas colmeias",Wikcionário
+MINA,objeto,noun.artifact,conhecida,2719,mina > buracos escavados > artefato > todo,escavação no solo destinada a extração de minerais,Wikcionário
+MOLHO,objeto,noun.artifact,conhecida,2887,molho > embalagem > contentor > apetrecho,caldo temperado para acompanhamento de alimentos ou para refogar iguarias,Wikcionário
+MONTANHA,objeto,noun.object,comum,1971,montanha > elevação > formação > objeto,grande elevação de terra,Wikcionário
+MOTOR,objeto,noun.artifact,conhecida,2339,motor > maquinaria > aparato > apetrecho,"dispositivo que converte outras formas de energia em energia mecânica, de forma a impelir movimento a uma máquina ou veículo",Wikcionário
+MUSEU,objeto,noun.artifact,conhecida,3004,museu,"estabelecimento, normalmente público, onde estão reunidas coleções de objetos de arte, da ciência, etc",Wikcionário
+MÃO,objeto,noun.body,comum,428,mão,"extremidade do membro anterior dos primatas, capaz de manipular objetos; parte do corpo semelhante ou análoga em outros animais",Wikcionário
+NARIZ,objeto,noun.body,comum,1550,nariz,órgão responsável pelo sentido do olfato,Wikcionário
+NAVIO,objeto,noun.artifact,comum,1452,navio > Embarcações > navio > veículo,embarcação de grande porte e tonelagem,Wikcionário
+OCEANO,objeto,noun.object,conhecida,2661,oceano > corpo de água > coisa > entidade física,um grande corpo de água que constitui uma parte principal da hidrosfera,OpenWordnet-PT
+OLHO,objeto,noun.body,comum,806,olho > Receptor sensorial > órgão > Anatomia,"órgão, geralmente aos pares, de vários animais responsável pela visão",Wikcionário
+OURO,objeto,noun.substance,comum,974,ouro > metal nobre > Metais > elemento químico,,
+PALCO,objeto,noun.artifact,comum,1685,palco > palanque,plataforma onde se executam (interpretam) peças de teatro ou música,Wikcionário
+PALÁCIO,objeto,noun.artifact,conhecida,2979,palácio > mansão > casa > edifício,habitação suntuosa de um soberano ou personagem importante,Wikcionário
+PAREDE,objeto,noun.artifact,comum,1433,parede > divisória > edifício > artefato,obra de alvenaria que fecha ou divide o espaço em uma construção,Wikcionário
+PERNA,objeto,noun.body,comum,1529,perna > membro,um dos membros posteriores humanos,Wikcionário
+PESCOÇO,objeto,noun.body,comum,1496,pescoço,parte do corpo da maioria dos animais que fica entre a cabeça e o tronco,Wikcionário
+PINTURA,objeto,noun.artifact,conhecida,2868,pintura > arte gráfica > arte > criação,o ato ou arte de pintar,Wikcionário
+PISCINA,objeto,noun.artifact,conhecida,2376,piscina > buracos escavados > artefato > todo,,
+PLANETA,objeto,noun.object,comum,1029,planeta > astro > objeto natural > todo,,
+PONTE,objeto,noun.artifact,comum,1690,ponte > edifício > artefato > todo,construção que liga dois locais separados por superfície líquida ou por depressão,Wikcionário
+PORTA,objeto,noun.artifact,comum,358,porta,,
+PORTÃO,objeto,noun.artifact,conhecida,2863,portão,,
+PORÃO,objeto,noun.artifact,conhecida,2604,porão > andar > edifício > artefato,parte de um imóvel abaixo do primeiro piso,Wikcionário
+PRAIA,objeto,noun.object,comum,1428,praia > formação > objeto > entidade física,faixa de terra que é coberta pelo mar quando acontece a maré cheia e que é descoberta quando acontece a maré baixa,Wikcionário
+PRATO,objeto,noun.artifact,conhecida,2110,prato > contentor > apetrecho > artefato,uma peça de louça normalmente usada como um recipiente para manter ou servir alimentos,OpenWordnet-PT
+PRÉDIO,objeto,noun.artifact,comum,1425,prédio > edifício > artefato > todo,"construção, edifício",Wikcionário
+PULSO,objeto,noun.body,conhecida,2785,pulso,parte do antebraço junto à mão,Wikcionário
+QUARTO,objeto,noun.artifact,comum,352,quarto,uma área dentro de um edifício cercada por paredes e piso e teto,OpenWordnet-PT
+QUEIJO,objeto,noun.food,conhecida,2199,queijo > comida > matéria sólida > matéria,,
+RELÓGIO,objeto,noun.artifact,comum,1592,relógio > Instrumento de medida > aparelho > aparato,instrumento usado para indicar as horas e medir o tempo,Wikcionário
+REMÉDIO,objeto,noun.artifact,conhecida,2600,remédio > agente > causa > entidade física,qualquer coisa que seja utilizada na cura ou atenuamento de algum problema,Wikcionário
+RESTAURANTE,objeto,noun.artifact,comum,1362,restaurante > edifício > artefato > todo,Um local onde as pessoas vão para comer,OpenWordnet-PT
+RIO,objeto,noun.object,comum,1147,rio > corrente > corpo de água > coisa,curso por onde passa água doce continuamente (ou durante épocas específicas do ano),Wikcionário
+ROSA,objeto,noun.plant,conhecida,2065,rosa > arbusto > Planta lenhosa > Planta vascular,a flor da roseira,Wikcionário
+ROSTO,objeto,noun.body,comum,718,rosto,"a frente da cabeça humana, da testa ao queixo e de orelha à orelha",OpenWordnet-PT
+ROUPA,objeto,noun.artifact,comum,961,roupa > bens de consumo > Bens > artefato,peça de tecido usada para cobrir partes do corpo,Wikcionário
+SAIA,objeto,noun.artifact,comum,477,saia,"peça de vestuário feminino que fica da cintura para baixo, no geral, até ao joelho",Wikcionário
+SAL,objeto,noun.substance,conhecida,2954,sal > composto químico > Química > materiais,,
+SALA,objeto,noun.artifact,comum,533,sala,uma área dentro de um edifício cercada por paredes e piso e teto,OpenWordnet-PT
+SALÃO,objeto,noun.artifact,conhecida,2739,salão > corredor > passagem > caminho,sala grande,Wikcionário
+SANGUE,objeto,noun.body,comum,432,sangue > Fluidos corporais,,
+SOFÁ,objeto,noun.artifact,conhecida,2349,sofá > assento > alfaia > mobiliário,"móvel que pode possuir braços ou encosto, em que podem sentar-se duas pessoas ou mais",Wikcionário
+SOL,objeto,noun.object,comum,798,sol > estrela > astro > objeto natural,centro e principal astro do sistema solar,Wikcionário
+SOLO,objeto,noun.object,conhecida,2369,solo > objeto > entidade física > entidade,terra,Wikcionário
+SOPA,objeto,noun.food,conhecida,2650,sopa > prato > alimentação > alimento,"comida líquida ou pastosa, cozida, normalmente com vegetais e carne",Wikcionário
+TELEFONE,objeto,noun.artifact,comum,514,telefone > equipamento eletrônico > equipamento > apetrecho,dispositivo de comunicação usado para transmitir sons a longa distância inventado por Alexandre Graham Bell,Wikcionário
+TELHADO,objeto,noun.artifact,conhecida,2846,telhado > capa > artefato > todo,"conjunto de telhas que cobrem um edifício, uma , etc",Wikcionário
+TEMPLO,objeto,noun.artifact,conhecida,2990,templo > Lugares de prática religiosa > edifício > artefato,lugar erigido em honra de uma divindade,Wikcionário
+TERNO,objeto,noun.artifact,conhecida,2904,terno > artigo de vestuário > roupa > bens de consumo,"fato completo (paletó, colete e calças da mesma fazenda)",Wikcionário
+TERRA,objeto,noun.object,comum,416,terra > objeto > entidade física > entidade,,
+TETO,objeto,noun.artifact,conhecida,3029,teto > capa > artefato > todo,parte superior de um compartimento,Wikcionário
+TORRE,objeto,noun.artifact,conhecida,2423,torre > edifício > artefato > todo,construção de grande extensão vertical,Wikcionário
+TORTA,objeto,noun.food,conhecida,2764,torta > pastel > fornada > comida,"bolo de farinha entremeado de carne, peixe, fruta ou compota",Wikcionário
+TREM,objeto,noun.artifact,comum,1123,trem > transporte público > meios de transporte > apetrecho,meio de transporte ferroviário,Wikcionário
+TÁXI,objeto,noun.artifact,comum,1759,táxi > auto > veículos motorizados,automóvel de aluguel com taxímetro,Wikcionário
+UNIFORME,objeto,noun.artifact,conhecida,2586,uniforme > roupa > bens de consumo > Bens,farda,Wikcionário
+UNIVERSO,objeto,noun.object,comum,1569,universo > objeto natural > todo > objeto,"a totalidade da matéria e da energia existentes no espaço e no tempo, tudo o que existe, o todo",Wikcionário
+UÍSQUE,objeto,noun.food,conhecida,2774,uísque > bebida alcoólica > bebida > alimento,nome dado à aguardente de cevada e outros cereais,Wikcionário
+VENENO,objeto,noun.substance,conhecida,2771,veneno > substância > matéria > entidade física,"tóxico, peçonha",Wikcionário
+VIDRO,objeto,noun.substance,conhecida,2687,vidro > matéria sólida > matéria > entidade física,,
+VINHO,objeto,noun.food,comum,1159,vinho > Bebida Alcoólica > bebida > alimento,bebida fermentada feita da uva,Wikcionário
+ÁGUA,objeto,noun.substance,comum,367,água > líquido > fluido > matéria,,
+ÁLCOOL,objeto,noun.food,conhecida,2767,álcool > Bebida Alcoólica > bebida > alimento,líquido incolor produzido pela fermentação de diversas plantas,Wikcionário
+ÁRVORE,objeto,noun.plant,comum,1414,árvore > Planta lenhosa > Planta vascular > flora,"vegetal grande, de tronco robusto, que se reveste de folhas",Wikcionário
+ADOLESCENTE,pessoa,noun.person,conhecida,3622,adolescente > jovem > alguém > organismo,aquele que está na adolescência,Wikcionário
+ADVOGADO,pessoa,noun.person,comum,823,advogado > profissional > adulto > alguém,um profissional autorizado a exercer a advocacia; realiza ações judiciais ou dá aconselhamento jurídico,OpenWordnet-PT
+AGENTE,pessoa,noun.person,comum,712,agente,,
+ALDEIA,pessoa,noun.location,conhecida,2751,aldeia > municipalidade > distrito administrativo > circunscrição,pequena povoação rústica sem jurisdição própria,Wikcionário
+ALUNO,pessoa,noun.person,conhecida,4814,aluno > estudante > alguém > organismo,pessoa que está aprendendo,Wikcionário
+AMIGO,pessoa,noun.person,comum,220,amigo > alguém > organismo > todo,,
+ANJO,pessoa,noun.person,conhecida,2004,anjo > espirito > convicção > objecto mental,"segundo a mitologia cristã, criatura celestial puramente espiritual que atua como mensageiro entre Deus e os homens",Wikcionário
+ARTISTA,pessoa,noun.person,comum,1827,artista > creador > alguém > organismo,aquele que produz arte,Wikcionário
+ASSISTENTE,pessoa,noun.person,comum,1788,assistente > trabalhador > alguém > organismo,"aquele que assiste, que auxilia outro, auxiliar, adjunto",Wikcionário
+ATIRADOR,pessoa,noun.person,conhecida,3295,atirador > arqueiro > especialista > alguém,a pessoa que atira,Wikcionário
+ATOR,pessoa,noun.person,conhecida,3028,ator > intérprete > artista > alguém,pessoa que representa uma personagem no teatro ou no cinema,Wikcionário
+ATRIZ,pessoa,noun.person,conhecida,3726,atriz > actor > intérprete > artista,feminino de ator,Wikcionário
+AVÓ,pessoa,noun.person,comum,1632,avó > antepassado > ancestral > parente,mãe da mãe ou do pai,Wikcionário
+AVÔ,pessoa,noun.person,comum,1751,avô > homem > adulto > alguém,pai da mãe ou do pai,Wikcionário
+BAIRRO,pessoa,noun.location,conhecida,2659,bairro,parte da cidade ocupada em geral por povos da mesma esfera ou classe,Wikcionário
+BEBÊ,pessoa,noun.person,comum,472,bebê > criança > descendente > parente,criança pequenina; nenê,Wikcionário
+BRUXA,pessoa,noun.person,conhecida,2544,bruxa > creatura imaginaria > imaginação > Criatividade,mulher que faz bruxarias; feiticeira; maga; mágica; vidente,Wikcionário
+CACHORRO,pessoa,noun.animal,comum,1036,cachorro > animal doméstico > animal > organismo,um membro do gênero Canis (provavelmente descendente do lobo comum) que foi domesticada pelo homem desde os tempos pré-históricos; ocorre em muitas raças,OpenWordnet-PT
+CAMARADA,pessoa,noun.person,conhecida,3114,camarada > alguém > organismo > todo,companheiro de quarto,Wikcionário
+CAMPEÃO,pessoa,noun.person,conhecida,2738,campeão > competidor > alguém > organismo,aquele que ganha uma competição,Wikcionário
+CANDIDATO,pessoa,noun.person,conhecida,4608,candidato > político > chefe > alguém,pretendente a um emprego ou dignidade,Wikcionário
+CANTOR,pessoa,noun.person,conhecida,4810,cantor > instrumentalista > intérprete > artista,uma pessoa que canta,OpenWordnet-PT
+CAVALEIRO,pessoa,noun.person,conhecida,3632,cavaleiro > turista > alguém > organismo,um viajante que monta ativamente um animal (como um cavalo ou camelo),OpenWordnet-PT
+CAVALHEIRO,pessoa,noun.person,conhecida,2485,cavalheiro > homem > adulto > alguém,,
+CAVALO,pessoa,noun.animal,comum,997,cavalo > equino > Perissodáctilos > ungulados,quadrúpedes herbívoros de cascos sólidos domesticados desde tempos pré-históricos,OpenWordnet-PT
+CAÇADOR,pessoa,noun.person,conhecida,4090,caçador > trabalhador especializado > trabalhador > alguém,alguém que caça,OpenWordnet-PT
+CEMITÉRIO,pessoa,noun.location,conhecida,3902,cemitério,local destinado ao sepultamento dos mortos,Wikcionário
+CHEFE,pessoa,noun.person,comum,401,chefe > alguém > organismo > todo,"pessoa que se destaca pelas qualidades de autoridade, competência, poder de decisão etc",Wikcionário
+CIDADE,pessoa,noun.location,comum,270,cidade > municipalidade > distrito administrativo > circunscrição,uma grande e populosa área urbana; pode incluir vários distritos administrativos independentes,OpenWordnet-PT
+CIDADÃO,pessoa,noun.person,conhecida,4613,cidadão > alguém > organismo > todo,"membro, nativo ou naturalizado, de um estado ou de uma outra comunidade política",OpenWordnet-PT
+CIENTISTA,pessoa,noun.person,conhecida,3908,cientista > alguém > organismo > todo,uma pessoa com conhecimento avançado de uma ou mais ciências,OpenWordnet-PT
+CIRURGIÃO,pessoa,noun.person,conhecida,4905,cirurgião > doutor > médico > profissional,médico que realiza a cirurgia,Wikcionário
+CLIENTE,pessoa,noun.person,comum,1045,cliente > consumidor > usuário > alguém,pessoa protegida,Wikcionário
+COBRA,pessoa,noun.animal,conhecida,2861,cobra > Diapsida > répteis > vertebrado,"réptil sem pernas, alongado e escamoso; algumas são venenosas",OpenWordnet-PT
+COELHO,pessoa,noun.animal,conhecida,3669,coelho,qualquer um dos vários animais cavadores da família dos leporídeos que teem orelhas compridas e caudas curtas; alguns domesticados e criados como animais de estimação ou comida,OpenWordnet-PT
+COMANDANTE,pessoa,noun.person,comum,1118,comandante > oficial > militar > trabalhador especializado,"aquele que comanda, que tem o comando (de uma tropa, navio, avião, etc)",Wikcionário
+COMPANHEIRO,pessoa,noun.person,conhecida,2434,companheiro > amiga > alguém > organismo,um amigo que esta freqüentemente na companhia de outro,OpenWordnet-PT
+CONVIDADO,pessoa,noun.person,conhecida,2362,convidado > visita > turista > alguém,um visitante a quem hospitalidade é estendida,OpenWordnet-PT
+CORONEL,pessoa,noun.person,comum,1061,coronel,"patente militar, no Brasil entre o tenente-coronel e o general (abreviação: cel.)",Wikcionário
+CRIANÇA,pessoa,noun.person,comum,494,criança > jovem > alguém > organismo,uma pessoa jovem de ambos os sexos,OpenWordnet-PT
+CÃO,pessoa,noun.animal,comum,1269,cão > animal doméstico > animal > organismo,um membro do gênero Canis (provavelmente descendente do lobo comum) que foi domesticada pelo homem desde os tempos pré-históricos; ocorre em muitas raças,OpenWordnet-PT
+DAMA,pessoa,noun.person,conhecida,2552,dama > mulher > adulto > alguém,peça do jogo de xadrez,Wikcionário
+DELEGADO,pessoa,noun.person,conhecida,5256,delegado > agente,aquele que é autorizado por outrem a representá-lo,Wikcionário
+DESERTO,pessoa,noun.location,conhecida,2378,deserto > Bioma > comunidade > agrupação,terra árida com pouca ou nenhuma vegetação,OpenWordnet-PT
+DETETIVE,pessoa,noun.person,comum,888,detetive > agente,agente investigador de crimes,Wikcionário
+DEUS,pessoa,noun.person,comum,118,deus > espirito > convicção > objecto mental,"numa religião, ser sobrenatural de poderes sobre-humanos",Wikcionário
+DIRETOR,pessoa,noun.person,comum,1228,diretor > administrador > cabeça > chefe,aquele que dirige,Wikcionário
+DONO,pessoa,noun.person,comum,1683,dono > comerciante > empresário > capitalista,"(lei) alguém que é dono (é o proprietário legal) de um negócio; ""ele é o dono de uma cadeia de restaurantes""",OpenWordnet-PT
+DOUTOR,pessoa,noun.person,comum,657,doutor > médico > profissional > adulto,pessoa que completou o curso de doutoramento e defendeu tese,Wikcionário
+DRAGÃO,pessoa,noun.person,conhecida,2911,dragão,"monstro mitológico baseado em uma serpente ou lagarto, alado e que expele fogo pela boca",Wikcionário
+EMBAIXADOR,pessoa,noun.person,conhecida,4448,embaixador > diplomata > funcionário > trabalhador especializado,um diplomata de mais alta patente; credenciado como representante de um país para outro,OpenWordnet-PT
+EMPREGADA,pessoa,noun.person,conhecida,4112,empregada > doméstico > empregado doméstico > trabalhador,feminino de empregado,Wikcionário
+ENFERMEIRA,pessoa,noun.person,comum,1937,enfermeira > médico > profissional > adulto,"mulher que cuida de doentes numa enfermaria, num hospital ou numa ambulância",Wikcionário
+ENGENHEIRO,pessoa,noun.person,conhecida,5264,engenheiro > alguém > organismo > todo,pessoa habilitada por diploma oficial a desempenhar trabalhos de Engenharia,Wikcionário
+ESCRITOR,pessoa,noun.person,conhecida,3758,escritor > comunicador > alguém > organismo,escrever (livros ou histórias ou artigos ou coisas semelhantes) profissionalmente (por dinheiro),OpenWordnet-PT
+ESPIÃO,pessoa,noun.person,conhecida,3664,espião > agente > representante > negociador,pessoa empregada por um governo ou companhia para obter informações secretas sobre outro governo ou companhia,Wikcionário
+ESPOSA,pessoa,noun.person,comum,373,esposa > companheiro > cara-metade > alguém,uma mulher casada; parceira de um homem em casamento,OpenWordnet-PT
+ESPÍRITO,pessoa,noun.person,comum,1316,espírito > princípio vital > causa > entidade física,alma,Wikcionário
+ESTACIONAMENTO,pessoa,noun.location,conhecida,2912,estacionamento > lote > gleba > região,um lugar onde os carros podem ser estacionados,OpenWordnet-PT
+ESTUDANTE,pessoa,noun.person,conhecida,3026,estudante > alguém > organismo > todo,aquele ou aquela que estuda,Wikcionário
+FILHO,pessoa,noun.person,comum,195,filho > descendente > parente > alguém,um filho ou filha de qualquer idade,OpenWordnet-PT
+FÍSICO,pessoa,noun.person,conhecida,4281,físico > cientista > alguém > organismo,acadêmico ou estudioso da física,Wikcionário
+GADO,pessoa,noun.animal,conhecida,4228,gado > bovinos > bovídeos > ruminante,"conjunto de animais (bois, carneiros, cabritos, cavalos etc.) criados para diversos fins",Wikcionário
+GAROTO,pessoa,noun.person,comum,381,garoto > homem > alguém > organismo,criança ou adolescente do sexo ou gênero masculino,Wikcionário
+GARÇOM,pessoa,noun.person,conhecida,4642,garçom,empregado que serve a mesa num restaurante ou outro estabelecimento congênere,Wikcionário
+GATO,pessoa,noun.animal,comum,1382,gato > felino > carnívoro > mamífero,"mamífero felino, geralmente tendo pêlo macio e espesso, sem capacidade de rugir: gatos domésticos; gatos selvagens",OpenWordnet-PT
+GENERAL,pessoa,noun.person,comum,991,general > almirante,a mais alta patente do exército,Wikcionário
+GERENTE,pessoa,noun.person,conhecida,2431,gerente > administrador > cabeça > chefe,"administrador, aquele que gerencia",Wikcionário
+GIGANTE,pessoa,noun.animal,conhecida,2338,gigante > animal > organismo > todo,homem de estatura muito acima do comum,Wikcionário
+GOVERNADOR,pessoa,noun.person,conhecida,2641,governador > político > chefe > alguém,quem governa,Wikcionário
+GUERREIRO,pessoa,noun.person,conhecida,3480,guerreiro > alguém > organismo > todo,alguém que luta (ou esta lutando),OpenWordnet-PT
+GÊNIO,pessoa,noun.person,conhecida,2139,gênio > intelecto > alguém > organismo,,
+HERÓI,pessoa,noun.person,comum,1394,herói > chefe > alguém > organismo,"Um homem distinto por excepcional coragem, nobreza e força",OpenWordnet-PT
+HOMEM,pessoa,noun.person,comum,145,homem > adulto > alguém > organismo,"pessoa do sexo ou gênero masculino, geralmente, mas não exclusivamente, adulta",Wikcionário
+INFERNO,pessoa,noun.location,comum,828,inferno > região > localização > objeto,qualquer região inferior ou subterrânea; ínfero,Wikcionário
+INSPETOR,pessoa,noun.person,conhecida,2219,inspetor > agente,"o que vê, observa, fiscaliza ou inspeciona",Wikcionário
+IRMÃ,pessoa,noun.person,comum,463,irmã,"aquela que em relação a outrem, possui os dois pais (o mesmo pai e a mesma mãe ao mesmo tempo) em comum",Wikcionário
+IRMÃO,pessoa,noun.person,comum,304,irmão > parente > alguém > organismo,"aquele que em relação a outrem, possuí os dois pais (o mesmo pai e a mesma mãe ao mesmo tempo) em comum",Wikcionário
+JOGADOR,pessoa,noun.person,conhecida,2665,jogador > competidor > alguém > organismo,uma pessoa que participa ou é hábil em algum jogo ou esporte,OpenWordnet-PT
+JORNALISTA,pessoa,noun.person,conhecida,4493,jornalista > comunicador > alguém > organismo,pessoa com a profissão de escrever em jornais,Wikcionário
+JOVEM,pessoa,noun.person,comum,562,jovem > alguém > organismo > todo,uma pessoa jovem de ambos os sexos,OpenWordnet-PT
+JUIZ,pessoa,noun.person,comum,1343,juiz > adjudicator > alguém > organismo,"nome que se dá a Deus, acompanhado geralmente de algum epíteto",Wikcionário
+LADRÃO,pessoa,noun.person,conhecida,2084,ladrão > bandido,pessoa que toma para si objetos de outrem,Wikcionário
+LEÃO,pessoa,noun.animal,conhecida,3839,leão > gato > felino > carnívoro,"grande felino predator da África e da Índia, gregário que tem um pelo marrom com uma juba grande no macho",OpenWordnet-PT
+LÍDER,pessoa,noun.person,comum,1301,líder > alguém > organismo > todo,"chefe, dirigente",Wikcionário
+MACACO,pessoa,noun.animal,conhecida,2908,macaco > primata > mamífero > vertebrado,"nome comum dos primatas da sub-ordem Simiiformes, normalmente excluindo o ser humano",Wikcionário
+MADAME,pessoa,noun.person,comum,1575,madame > mulher > adulto > alguém,uma mulher refinada,OpenWordnet-PT
+MAJOR,pessoa,noun.person,comum,1495,major,patente das forças armadas,Wikcionário
+MAMÃE,pessoa,noun.person,comum,403,mamãe > mãe > genitor > progenitor,forma carinhosa de mãe,Wikcionário
+MANO,pessoa,noun.person,conhecida,2227,mano > negra > alguém > organismo,"irmão (todas as acepções, exceto Religião)",Wikcionário
+MARIDO,pessoa,noun.person,comum,427,marido > companheiro > cara-metade > alguém,o cônjuge masculino,Wikcionário
+MESTRE,pessoa,noun.person,comum,992,mestre > educacionista > profissional > adulto,uma pessoa cuja ocupação é ensinar,OpenWordnet-PT
+MILITAR,pessoa,noun.person,comum,1925,militar > trabalhador especializado > trabalhador > alguém,pessoa que trabalha numa das forças armadas,Wikcionário
+MINISTRO,pessoa,noun.person,conhecida,2493,ministro > clérigo > chefe > alguém,membro do Governo que dirige um ministério,Wikcionário
+MOTORISTA,pessoa,noun.person,comum,1816,motorista > manipulador > causa > entidade física,pessoa que conduz veículo automotivo,Wikcionário
+MÁGICO,pessoa,noun.person,conhecida,2815,mágico > ocultista > alguém > organismo,,
+MÃE,pessoa,noun.person,comum,120,mãe > genitor > progenitor > ancestral,"mulher que tem ou teve filhos, naturais ou adotivos",Wikcionário
+MÉDICO,pessoa,noun.person,comum,589,médico > profissional > adulto > alguém,"pessoa diplomada em medicina, qualificada para tratar doentes",Wikcionário
+NAMORADO,pessoa,noun.person,comum,948,namorado > amado > alguém > organismo,pessoa que se namora,Wikcionário
+NOIVA,pessoa,noun.person,comum,1691,noiva > recém-casado > companheiro > cara-metade,mulher comprometida em casar-se ou que irá casar-se logo,Wikcionário
+NOIVO,pessoa,noun.person,conhecida,2744,noivo > amado > alguém > organismo,aquele que assumiu um noivado,Wikcionário
+OFICIAL,pessoa,noun.person,comum,996,oficial > militar > trabalhador especializado > trabalhador,certo tipo de funcionário público,Wikcionário
+OVO,pessoa,noun.animal,conhecida,3312,ovo > óvulo > Gameta > Célula germinativa,"célula reprodutora feminina dos animais, macrogameta",Wikcionário
+PACIENTE,pessoa,noun.person,comum,1227,paciente,pessoa que está sob cuidados médicos,Wikcionário
+PAI,pessoa,noun.person,comum,115,pai > genitor > progenitor > ancestral,"homem que tem filhos, naturais ou adotivos",Wikcionário
+PAPAI,pessoa,noun.person,comum,346,papai > genitor > progenitor > ancestral,pai,Wikcionário
+PARAÍSO,pessoa,noun.location,conhecida,2835,paraíso > região > localização > objeto,céu,Wikcionário
+PARCEIRO,pessoa,noun.person,comum,1271,parceiro > associado > igual > alguém,"uma pessoa com a qual compartilhamos algum evento, ação ou empreitada",Wikcionário
+PARENTE,pessoa,noun.person,conhecida,4559,parente > alguém > organismo > todo,"indivíduo que, em relação a outro, pertence à mesma família",Wikcionário
+PARQUE,pessoa,noun.location,comum,1615,parque > gleba > região > localização,,
+PATO,pessoa,noun.animal,conhecida,4646,pato,"pequeno pássaro, selvagem ou domesticad, aquatico, com bico largo, web-footed, geralmente com um corpo deprimido e pernas curtas",OpenWordnet-PT
+PATRÃO,pessoa,noun.person,conhecida,3688,patrão > official > lobo-do-mar > marinheiro,chefe ou proprietário de um estabelecimento ou fábrica,Wikcionário
+PEIXE,pessoa,noun.animal,comum,1474,peixe > vertebrado aquático > vertebrado > cordados,qualquer um de vários vertebrados aquáticos normalmente de sangue frio geralmente com escalas e que respiram através de brânquias,OpenWordnet-PT
+PERSONAGEM,pessoa,noun.person,conhecida,3173,personagem > creatura imaginaria > imaginação > Criatividade,"pessoa ilustre, importante, notável",Wikcionário
+PERU,pessoa,noun.animal,conhecida,4022,peru > ave doméstica > galináceo > ave,ave da família dos Fasianídeos apreciada em culinária,Wikcionário
+PILOTO,pessoa,noun.person,conhecida,2274,piloto > aeronauta > trabalhador especializado > trabalhador,,
+PINTO,pessoa,noun.animal,conhecida,4786,pinto > frango > ave doméstica > galináceo,filhote de galinha,Wikcionário
+POLICIAL,pessoa,noun.person,comum,688,policial > agente,funcionário da polícia,Wikcionário
+POLÍTICO,pessoa,noun.person,conhecida,3885,político > chefe > alguém > organismo,pessoa participante da política ou dedicada a ela,Wikcionário
+PORCO,pessoa,noun.animal,comum,1806,porco > Artiodáctilos > ungulados > mamífero,"animal mamífero, da família dos suídeos, usado como fonte de carne para alimentação humana",Wikcionário
+PORTO,pessoa,noun.location,conhecida,3185,porto,"lugar sobre uma costa de mar, ou junto à foz de um rio, para abrigo e ancoradouro de navios",Wikcionário
+PRAÇA,pessoa,noun.location,conhecida,5051,praça > gleba > região > localização,espaço público e espaçoso rodeado de edifícios; rossio; mercado; circo,Wikcionário
+PREFEITO,pessoa,noun.person,comum,1973,prefeito > político > chefe > alguém,chefe do poder executivo de um município,Wikcionário
+PRIMO,pessoa,noun.person,comum,1961,primo > parente > alguém > organismo,"filho da tia ou do tio; possuí em comum com outrem, zero pais e dois avós em comum",Wikcionário
+PRISIONEIRO,pessoa,noun.person,conhecida,3118,prisioneiro > desafortunado > alguém > organismo,"uma pessoa confinada em prisão ou mantida em custódia, especialmente como resultado de um processo legal",Wikcionário
+PRODUTOR,pessoa,noun.person,conhecida,4878,produtor > fazedor > creador > alguém,aquele que produz,Wikcionário
+PROFESSOR,pessoa,noun.person,comum,782,professor > educacionista > profissional > adulto,uma pessoa cuja ocupação é ensinar,OpenWordnet-PT
+PSIQUIATRA,pessoa,noun.person,conhecida,4336,psiquiatra,médico especializado em psiquiatria,Wikcionário
+PÁSSARO,pessoa,noun.animal,conhecida,2500,pássaro > vertebrado > cordados > animal,"animal vertebrado de sangue quente, ovípadro caracterizado por ter o corpo coberto de penas e os membros dianteiros modificados como asas",OpenWordnet-PT
+RAINHA,pessoa,noun.animal,comum,1166,rainha > Insectos > Artropode > invertebrado,"consorte do rei, ou a governante de um país de sistema político monárquico",Wikcionário
+RAPAZ,pessoa,noun.person,comum,784,rapaz > homem > alguém > organismo,homem jovem,Wikcionário
+RATO,pessoa,noun.animal,conhecida,2514,rato > roedor > mamífero > vertebrado,"pequeno roedor da família dos murídeos, gêneros Rattus, Mus",Wikcionário
+REFÉM,pessoa,noun.person,conhecida,5259,refém > desafortunado > alguém > organismo,pessoa ou povoação que fica em poder do inimigo como penhor de um contrato,Wikcionário
+REI,pessoa,noun.person,comum,631,rei > monarca > chefe de Estado > representante,soberano; monarca; czar,Wikcionário
+REPÓRTER,pessoa,noun.person,conhecida,4049,repórter > comunicador > alguém > organismo,"noticiarista, informador de jornais",Wikcionário
+RÉU,pessoa,noun.person,conhecida,5042,réu > litigante > parte > alguém,pessoa acusada/increpada num processo jurídico,Wikcionário
+SARGENTO,pessoa,noun.person,comum,1132,sargento,"posto de praça graduado de qualquer corporação militar que, na escala hierárquica, está entre o cabo e o subtenente ou suboficial",Wikcionário
+SECRETÁRIO,pessoa,noun.person,conhecida,4191,secretário > ajudante > trabalhador > alguém,funcionário de secretaria,Wikcionário
+SENADOR,pessoa,noun.person,conhecida,2926,senador > legiferante > fazedor de leis > chefe,um membro de um senado,OpenWordnet-PT
+SENHOR,pessoa,noun.person,comum,122,senhor > homem > adulto > alguém,tratamento deferente ou sem caráter de intimidade dado à pessoa com quem se fala ou a quem se escreve,Wikcionário
+SENHORITA,pessoa,noun.person,comum,994,senhorita > mulher > adulto > alguém,tratamento dispensado às moças solteiras,Wikcionário
+SOBRINHO,pessoa,noun.person,conhecida,3803,sobrinho > parente > alguém > organismo,filho do irmão ou da irmã,Wikcionário
+SOLDADO,pessoa,noun.person,comum,1511,soldado,militar de mais baixo estatuto na hierarquia,Wikcionário
+TENENTE,pessoa,noun.person,comum,923,tenente,patente das forças armadas abaixo do capitão,Wikcionário
+TERAPEUTA,pessoa,noun.person,conhecida,5031,terapeuta > especialista > alguém > organismo,aquele que exerce alguma forma de terapia,Wikcionário
+TIA,pessoa,noun.person,comum,1102,tia,irmã do pai,Wikcionário
+TIO,pessoa,noun.person,comum,706,tio > parente > alguém > organismo,irmão da mãe ou do pai,Wikcionário
+TREINADOR,pessoa,noun.person,conhecida,2196,treinador > chefe > alguém > organismo,profissional que instrui e/ou treina um atleta,Wikcionário
+TÉCNICO,pessoa,noun.person,conhecida,3894,técnico > treinador > chefe > alguém,,
+VACA,pessoa,noun.animal,conhecida,2524,vaca > bovinos > bovídeos > ruminante,feminino de boi,Wikcionário
+VELHO,pessoa,noun.person,comum,442,velho > homem > adulto > alguém,aquele que tem mais idade,Wikcionário
+VENCEDOR,pessoa,noun.person,conhecida,2689,vencedor > alguém > organismo > todo,aquele que venceu; que é ou tem estofo de vitorioso,Wikcionário
+VENDEDOR,pessoa,noun.person,conhecida,4430,vendedor > representante de vendas > assalariado > trabalhador,um vendedor homem,OpenWordnet-PT
+VILA,pessoa,noun.location,conhecida,2616,vila > municipalidade > distrito administrativo > circunscrição,povoação de tamanho intermédio entre aldeia e cidade,Wikcionário
+VIZINHO,pessoa,noun.location,conhecida,3064,vizinho,confinante,Wikcionário
+VIÚVA,pessoa,noun.person,conhecida,4407,viúva > mulher > adulto > alguém,mulher a quem morreu o marido e não voltou a casar; feminino de viúvo,Wikcionário
+VOVÓ,pessoa,noun.person,comum,1740,vovó > avó > antepassado > ancestral,avó,Wikcionário
+VOVÔ,pessoa,noun.person,comum,1915,vovô > avó > antepassado > ancestral,avô,Wikcionário
+VÍTIMA,pessoa,noun.person,comum,963,vítima > desafortunado > alguém > organismo,,
+XERIFE,pessoa,noun.person,comum,1403,xerife,título usado por príncipes mouros,Wikcionário

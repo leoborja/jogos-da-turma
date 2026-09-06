@@ -1,0 +1,12 @@
+{
+  "slug": "imagemeacao",
+  "nome": "Imagem e Ação",
+  "tagline": "Desenhe a palavra e faça seu time acertar antes do tempo.",
+  "descricao": "O celular sorteia a palavra e conta o tempo; o desenho é no papel. Sem letra, sem número, sem gesto e sem falar. Cada carta cai numa das quatro casas — Objeto, Pessoa/lugar/bicho, Ação e Difícil — e a casa não é palpite: é o arquivo em que a WordNet de Princeton guarda aquele sentido, e a carta mostra a cadeia que prova (chave → aparato → artefato). São 546 palavras da OpenWordnet-PT, todas confirmadas pelo Wikcionário.",
+  "emoji": "✏️",
+  "cor": "lilas",
+  "jogadores": "4 a 16",
+  "duracao": "25 min",
+  "precisa": "papel, caneta e um celular passando de mão em mão",
+  "status": "pronto"
+}

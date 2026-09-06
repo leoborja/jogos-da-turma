@@ -1,0 +1,32 @@
+baralho gerado em 2026-09-06
+teto por casa: 160 · topo da frequência: 15000
+
+546 cartas:
+  O  Objeto                      160
+  P  Pessoa, lugar ou bicho      160
+  A  Ação                        105
+  D  Difícil                     121
+
+por raridade:
+  conhecida     239
+  comum         215
+  rara           92
+
+candidatas que caíram:
+   26280  não é uma palavra só, minúscula e sem número
+   16973  fora da lista de frequência
+    1288  nenhum sentido cai numa das quatro casas
+     930  sentido que quase não aparece
+     707  a palavra é mais usada em outro sentido
+     674  passou do teto da casa
+     525  está na lista de fora
+     319  o Wikcionário não diz que é substantivo
+     206  é substantivo, mas é mais usada como outra classe
+       9  o Wikcionário não diz que é verbo
+       1  verbo que não está no infinitivo
+
+as 25 primeiras de cada casa (as mais comuns):
+  Objeto: carro, cabeça, quarto, porta, água, arma, terra, droga, mão, sangue, boca, saia, café, jantar, telefone, sala, cama, hospital, escritório, cabelo, rosto, foto, chão, sol, olho
+  Pessoa, lugar ou bicho: pai, deus, mãe, senhor, homem, filho, amigo, cidade, irmão, papai, esposa, garoto, chefe, mamãe, marido, velho, irmã, bebê, criança, jovem, médico, rei, doutor, policial, tio
+  Ação: matar, entrar, ouvir, comer, dormir, sentir, olhar, andar, beber, lutar, proteger, correr, sentar, cantar, dançar, esconder, cortar, chorar, vencer, levantar, descansar, descer, voar, construir, rir
+  Difícil: problema, amor, medo, casamento, luz, fome, energia, loucura, honra, cheiro, emergência, vergonha, amar, vento, orgulho, calor, casal, chuva, felicidade, tempestade, neve, gás, incêndio, sono, pânico
