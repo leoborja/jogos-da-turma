@@ -35,6 +35,13 @@ h1.marca{font-size:clamp(38px,12vw,58px);margin-bottom:6px}
   border:2.5px dashed rgba(20,17,16,.22);border-radius:12px;padding:12px}
 .moldura img{max-width:100%;max-height:176px;width:auto;height:auto;display:block;
   border:3px solid var(--preto);box-shadow:5px 5px 0 var(--preto)}
+/* celular deitado ou tela curta: a bandeira encolhe pra rodada caber inteira e
+   o navegador não precisar rolar a página quando o teclado sobe */
+@media (max-height:740px){
+  .moldura{height:150px;padding:9px}
+  .moldura img{max-height:128px}
+}
+#palpite{scroll-margin-bottom:150px}
 
 .dicas{margin-top:16px;display:grid;gap:8px}
 .dica{display:flex;gap:10px;align-items:baseline;padding:10px 13px;background:#EAF9F0;
@@ -44,10 +51,21 @@ h1.marca{font-size:clamp(38px,12vw,58px);margin-bottom:6px}
   text-transform:uppercase;flex:0 0 auto}
 
 /* ---------------------------------------------------------------- palpite */
-.sugestoes{display:grid;gap:6px;margin-top:9px}
-.sug{width:100%;text-align:left;padding:11px 13px;font-size:15px;border-radius:10px;
-  box-shadow:3px 3px 0 var(--preto)}
-.sug:active{transform:translate(3px,3px);box-shadow:0 0 0 var(--preto)}
+/* A caixa de sugestão tem ALTURA FIXA e vive sempre na tela, mesmo vazia.
+   Quando ela crescia e encolhia a cada letra, a página inteira refluía embaixo
+   do teclado do celular e a mesa via a tela pulando. Espaço reservado custa
+   dois dedos de altura e vale o silêncio: digitando, nada se move. */
+.sugestoes{display:grid;gap:6px;margin-top:9px;height:118px;overflow-y:auto;
+  align-content:start;padding:7px;border:2.5px dashed rgba(20,17,16,.22);
+  border-radius:11px;background:#FBF7EC;overscroll-behavior:contain}
+.sugestoes.vazia{align-content:center}
+.sugestoes .vazio{text-align:center;color:var(--cinza);font-size:13px;
+  line-height:1.4;padding:0 8px}
+/* sem sombra dura aqui: dentro de uma caixa com rolagem ela sairia cortada */
+.sug{width:100%;text-align:left;padding:10px 12px;font-size:15px;border-radius:9px;
+  border-width:2.5px;box-shadow:none}
+.sug:hover{transform:none;box-shadow:none;background:var(--verde)}
+.sug:active{transform:none;box-shadow:none;background:var(--verde)}
 .valendo{font-family:var(--display);font-weight:900;font-size:12px;letter-spacing:.11em;
   text-transform:uppercase;color:var(--cinza)}
 
@@ -187,7 +205,7 @@ h1.marca{font-size:clamp(38px,12vw,58px);margin-bottom:6px}
         <label for="palpite">Que país é essa bandeira?</label>
         <input id="palpite" placeholder="Digite duas letras…" autocomplete="off"
                autocorrect="off" autocapitalize="off" spellcheck="false">
-        <div class="sugestoes" id="sugestoes" hidden></div>
+        <div class="sugestoes" id="sugestoes"></div>
       </div>
       <div class="linha">
         <button class="mini" id="btDica">Pedir dica</button>
@@ -535,14 +553,28 @@ function desenharSugestoes(texto){
     contem.push(...quase.slice(0,6).map(x => x[1]));
   }
   S.sugestoes = [...exato, ...comeca, ...contem].slice(0, 6);
-  caixa.hidden = !S.sugestoes.length;
-  caixa.innerHTML = S.sugestoes.map(iso =>
-    `<button type="button" class="sug" data-iso="${escapar(iso)}">${escapar(S.porIso[iso].nome)}</button>`
-  ).join("");
+  caixa.classList.toggle("vazia", !S.sugestoes.length);
+  caixa.innerHTML = S.sugestoes.length
+    ? S.sugestoes.map(iso =>
+        `<button type="button" class="sug" data-iso="${escapar(iso)}">${escapar(S.porIso[iso].nome)}</button>`
+      ).join("")
+    : `<p class="vazio">Nada bateu com “${escapar(texto.trim())}”.</p>`;
+  caixa.scrollTop = 0;
 }
+
+/* Esvaziar não é sumir: a caixa fica com o mesmo tamanho e só troca o texto,
+   senão a página pula justamente quando a pessoa apaga uma letra. */
 function limparSugestoes(){
-  $("#sugestoes").hidden = true; $("#sugestoes").innerHTML = ""; S.sugestoes = [];
+  $("#sugestoes").classList.add("vazia");
+  $("#sugestoes").innerHTML = `<p class="vazio">Digite duas letras e o país aparece aqui.</p>`;
+  S.sugestoes = [];
 }
+
+/* Tocar num botão tira o foco do campo, o teclado desce, a página se refaz e
+   sobe de novo quando a pessoa volta a digitar. Segurar o foco aqui evita esse
+   vaivém: a dica entra e o teclado nem pisca. */
+for (const alvo of ["#btDica", "#sugestoes"])
+  $(alvo).addEventListener("pointerdown", e => e.preventDefault());
 
 $("#palpite").oninput = e => desenharSugestoes(e.target.value);
 $("#palpite").onkeydown = e => {
@@ -572,6 +604,9 @@ function fechar(iso){
   S.historico.push({iso: c.iso2, nome: c.nome, quem: jogador.nome, acertou, ganhou,
                     gemea, dicas: S.dicas, disse: iso ? S.porIso[iso].nome : null});
 
+  // o teclado sai de cena antes de a carta abrir; senão o navegador rola a
+  // página sozinho no meio da revelação
+  $("#palpite").blur();
   $("#painel").hidden = true;
   $("#valendo").textContent = "";
   limparSugestoes();
@@ -589,7 +624,7 @@ function fechar(iso){
   $("#revelacao").hidden = false;
   $("#depois").hidden = false;
   $("#btProxima").textContent = S.jogada + 1 >= S.total ? "Ver o placar" : "Próxima";
-  $("#btProxima").scrollIntoView({behavior:"smooth", block:"end"});
+  window.scrollTo({top: 0, behavior: "instant"});   // a resposta está no topo da carta
 }
 
 function ano(iso){

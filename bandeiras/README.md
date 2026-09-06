@@ -18,6 +18,13 @@ país — o campo completa a partir de duas letras e aguenta dedo trocado
 | acertar com duas dicas | **1** |
 | errar ou passar | **0** |
 
+A caixa de sugestões tem **altura fixa e fica sempre na tela**, mesmo vazia.
+Antes ela crescia e encolhia a cada letra digitada — com o teclado do celular
+aberto, a página inteira refluía embaixo e a tela pulava. Espaço reservado custa
+dois dedos de altura e paga com o silêncio: digitando, nada se move. Pelo mesmo
+motivo o botão de dica não rouba o foco do campo, e a bandeira encolhe em tela
+baixa pra rodada caber sem rolagem.
+
 As dicas vêm da carta, nunca inventadas: continente, depois capital (ou
 população, para o punhado de territórios que não tem capital no Wikidata), e
 "não é país" quando for território.
