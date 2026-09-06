@@ -81,28 +81,45 @@ jogou; o artigo confirma parte, e a carta diz qual parte.
 ## Rodar a revisão
 
 ```bash
-python3 gerador.py                       # gera banco.json e paracritica.json
+python3 gerador.py --aceitar-cruas       # gera banco.json e a fila em paracritica.json
 ```
 
-Depois, para cada lote de ~45 cartas, em paralelo:
+(`--aceitar-cruas` na primeira volta, senão as cartas ainda não revisadas nem
+chegam a entrar no baralho pra você ver que existem.)
+
+O `paracritica.json` sai ordenado com o **não revisado primeiro**, e cada carta
+traz `revisada: true/false`. Se você só quer revisar parte da fila, recorte
+essa parte num arquivo de mesmo formato (foi o que se fez em
+`paracritica-fila.json`) — os agentes aceitam qualquer caminho, contanto que os
+três do mesmo lote leiam o mesmo arquivo.
+
+Depois, para cada lote de ~40 cartas, em paralelo:
 
 ```
-tabu-descritor    índices A..B  →  tabu/revisao/lote-N-descritor.json
-tabu-associador   índices A..B  →  tabu/revisao/lote-N-associador.json
+tabu-descritor    índices A..B  →  tabu/revisao/<lote>-descritor.json
+tabu-associador   índices A..B  →  tabu/revisao/<lote>-associador.json
 ```
 
-Quando os dois terminarem o mesmo lote:
+Os dois recebem a MESMA faixa de índices e nunca leem o arquivo um do outro.
+Quando os dois terminarem:
 
 ```
-tabu-juiz  os dois arquivos  →  tabu/revisao/lote-N-final.json
+tabu-juiz  os dois arquivos  →  tabu/revisao/<lote>-final.json
 ```
 
 E no fim:
 
 ```bash
-python3 juntar_revisao.py                # funde os lotes em revisao.json
+python3 juntar_revisao.py                # funde revisao/*-final.json
 python3 gerador.py                       # remonta o baralho já revisado
 ```
+
+O `juntar_revisao.py` faz o que agente nenhum faz sozinho: pega carta repetida
+entre lotes, proibida que é pedaço da própria palavra-chave (`MAR` em
+`MARINHEIRO` — a regra do jogo já bane, então é vaga desperdiçada; ele completa
+com a melhor candidata do artigo), contagem diferente de 5, e recalcula o
+`no_artigo` em vez de confiar no do agente. O que ele reclamar sai no fim da
+execução.
 
 O `gerador.py` lê `revisao.json`: onde houver carta fechada, ele usa as 5 do
 juiz; onde houver descarte, a carta sai. Carta que o juiz não viu continua com

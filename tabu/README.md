@@ -110,11 +110,19 @@ Saídas: `banco.json` (o que o jogo lê), `revisao.csv` (uma linha por carta, pr
 conferir com o olho) e `relatorio.txt` (o que caiu e por quê). O `cache/` guarda
 as respostas cruas das APIs, então re-rodar é instantâneo.
 
-Depois de gerar, rode a revisão (agentes em paralelo, um lote cada) e funda:
+Depois de gerar, rode a revisão (veja [REVISOR.md](REVISOR.md)) e funda:
 
 ```bash
-python3 juntar_revisao.py          # revisao/lote-*-final.json -> revisao.json
+python3 juntar_revisao.py          # revisao/*-final.json -> revisao.json
 python3 gerador.py                 # remonta usando as cartas revisadas
+```
+
+Uma vez que existe `revisao.json`, **carta não revisada não entra** — ela seria
+justamente a do fundo da faixa, que é onde mora a carta ruim. Vale um baralho
+menor. Se por algum motivo você quiser aceitar carta crua:
+
+```bash
+python3 gerador.py --aceitar-cruas
 ```
 
 **Confira o `revisao.csv` antes de subir** — ele diz, por carta, se ela é
@@ -131,6 +139,9 @@ gerador.py        monta o baralho a partir das bases abertas
 palavras.py       as listas fechadas: função, verbo, meta-texto, vetos
 REVISOR.md        o método dos três revisores
 paracritica.json  as 18 candidatas de cada carta — a entrada da revisão
+paracritica-fila.json  a fatia da fila que foi pra revisão numa leva — os
+                  arquivos de lote apontam pros índices DESTE arquivo, então
+                  ele fica no repositório pra leva ser reproduzível
 revisao/          os lotes dos agentes, um arquivo por etapa
 juntar_revisao.py funde os lotes e confere o que agente nenhum confere
 revisao.json      as cartas fechadas — a entrada do gerador na 2ª volta
@@ -139,4 +150,13 @@ relatorio.txt     o que caiu do funil e por quê
 cache/            respostas cruas das APIs (fora do git)
 ```
 
-As definições dos três agentes ficam em `.claude/agents/tabu-*.md`.
+As definições dos três agentes ficam em `.claude/agents/`: `tabu-descritor`,
+`tabu-associador` e `tabu-juiz`.
+
+### Estado hoje
+
+322 cartas, todas revisadas — 54 fácil, 89 média, 90 difícil, 89 osso. Sobram
+**527 candidatas na fila** (`paracritica.json`, campo `revisada: false`) pra uma
+próxima leva. 36% das proibidas também aparecem no artigo da Wikipédia; o resto
+é vocabulário que só as listas cegas conhecem, e é essa diferença que mede o
+tamanho do buraco que o TF-IDF sozinho deixava.
