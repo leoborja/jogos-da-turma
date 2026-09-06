@@ -10,7 +10,7 @@ baixar nada, sem cadastro.
 | | Jogo | O que é | Status |
 |---|---|---|---|
 | 🔟 | **[Top 10](top10/)** | A carta pergunta, a resposta é um ranking de dez. Vocês vão falando sem repetir e sem errar. 249 cartas de países e línguas. | pronto |
-| 🏁 | **[Bandeiras](bandeiras/)** | A bandeira aparece, você digita o país. O celular passa de mão em mão e a carta abre explicando a bandeira. 240 cartas: 195 países e 45 territórios. Dá pra jogar sozinho. | pronto |
+| 🌍 | **[Geografia](geografia/)** | A carta pergunta e você digita: que país é essa bandeira, qual a capital daqui, de que país é essa capital. 240 lugares — 195 países e 45 territórios — e a carta abre explicando. Dá pra jogar sozinho. | pronto |
 
 ## Como isso é montado
 

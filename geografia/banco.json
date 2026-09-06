@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-09-05",
+ "gerado_em": "2026-09-06",
  "universo": "ISO 3166-1 alpha-2",
  "janela_leitura": "09/2025 a 08/2026",
  "cartas": [
@@ -15,7 +15,20 @@
     "republica federativa do brasil"
    ],
    "continente": "América do Sul",
+   "capitais": [
+    {
+     "qid": "Q2844",
+     "nome": "Brasília",
+     "apelidos": [
+      "brasilia"
+     ]
+    }
+   ],
    "capital": "Brasília",
+   "nota_capital": "Brasília é a capital federal do Brasil e a sede de governo do Distrito Federal. A capital está localizada na região Centro-Oeste do país, ao longo da região geográfica conhecida como Planalto Central.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Bras%C3%ADlia",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 214211951,
    "adocao": "1889-11-19",
    "arquivo": "Flag of Brazil.svg",
@@ -38,7 +51,22 @@
     "republica de cabo verde"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3751",
+     "nome": "Praia",
+     "apelidos": [
+      "praia",
+      "praia cabo verde",
+      "praia de santa maria"
+     ]
+    }
+   ],
    "capital": "Praia",
+   "nota_capital": "Praia, oficialmente Cidade da Praia, é a capital e maior cidade de Cabo Verde. Está localizada a sul da ilha de Santiago, sendo a sede do município homônimo. A cidade é dotada de um porto comercial, por onde é exportado café, cana de açúcar e frutas tropicais, possuindo também uma indústria pesqueira relevante para a economia local.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Praia_(Cabo_Verde)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 555988,
    "adocao": "1992-09-25",
    "arquivo": "Flag of Cape Verde (10-17).svg",
@@ -60,7 +88,20 @@
     "curacau"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q132679",
+     "nome": "Willemstad",
+     "apelidos": [
+      "willemstad"
+     ]
+    }
+   ],
    "capital": "Willemstad",
+   "nota_capital": "Willemstad é a capital e maior cidade de Curaçau, uma ilha caribenha autônoma pertencente aos Países Baixos. A cidade é conhecida por sua arquitetura colorida e sua história cultural rica, com influências holandesas, africanas e caribenhas. Sua população é de aproximadamente 150.000 habitantes. Tem um porto e aeroporto internacional.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Willemstad",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 152849,
    "adocao": "1984-07-02",
    "arquivo": "Flag of Curaçao.svg",
@@ -86,7 +127,22 @@
     "u s a"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q61",
+     "nome": "Washington, D.C.",
+     "apelidos": [
+      "distrito de columbia",
+      "washington d c",
+      "washington distrito de columbia"
+     ]
+    }
+   ],
    "capital": "Washington, D.C.",
+   "nota_capital": "Washington, D.C., oficialmente Distrito de Colúmbia e comumente conhecida como Washington ou D.C., é a capital e distrito federal dos Estados Unidos. A cidade fica às margens do rio Potomac, em frente à Virgínia, e faz fronteira com Maryland ao norte e a leste. Seu nome é uma homenagem a George Washington, um dos Pais Fundadores e o primeiro presidente do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Washington%2C_D.C.",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 340110988,
    "adocao": "1777-06-14",
    "arquivo": "Flag of the United States (DDD-F-416E specifications).svg",
@@ -108,7 +164,22 @@
     "republica portuguesa"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q597",
+     "nome": "Lisboa",
+     "apelidos": [
+      "lisboa",
+      "lisbon",
+      "municipio de lisboa"
+     ]
+    }
+   ],
    "capital": "Lisboa",
+   "nota_capital": "Lisboa é a capital e maior cidade de Portugal, com uma população estimada de 547 773 habitantes em 2022 dentro dos seus limites administrativos numa área de cerca de 100 quilómetros quadrados. É a capital mais ocidental da Europa continental e a única ao longo da costa atlântica, estando as outras em ilhas. A cidade situa-se na parte ocidental da Península Ibérica, na margem norte do rio Tejo.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Lisboa",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 10347892,
    "adocao": "1912-06-30",
    "arquivo": "Flag of Portugal (official).svg",
@@ -131,7 +202,33 @@
     "reino dos paises baixos"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q727",
+     "nome": "Amsterdã",
+     "apelidos": [
+      "abstradam",
+      "amesterdao",
+      "amsterda",
+      "amsterdam",
+      "amsterdam paises baixos",
+      "mastradama"
+     ]
+    }
+   ],
    "capital": "Amsterdã",
+   "nota_capital": "Amesterdão (português europeu) ou Amsterdã (português brasileiro) ) é a capital e a cidade mais populosa do Reino dos Países Baixos. O seu estatuto de capital holandesa é garantido pela Constituição dos Países Baixos, embora não seja a sede do governo holandês, que fica em Haia.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Amesterd%C3%A3o",
+   "varias_capitais": null,
+   "quase": [
+    {
+     "nome": "Haia",
+     "apelidos": [
+      "haia"
+     ],
+     "explica": "Amsterdã é a capital pela Constituição, mas o governo, o parlamento e a Suprema Corte ficam em Haia."
+    }
+   ],
    "populacao": 17942942,
    "adocao": "1937-02-19",
    "arquivo": "Flag of the Netherlands.svg",
@@ -155,7 +252,22 @@
     "republica islamica do irao"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q3616",
+     "nome": "Teerã",
+     "apelidos": [
+      "teera",
+      "teerao",
+      "tehran"
+     ]
+    }
+   ],
    "capital": "Teerã",
+   "nota_capital": "Teerã (português brasileiro) ou Teerão (português europeu) é a capital e a maior cidade do Irã. Também é o centro administrativo da província e do condado homônimos.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Teer%C3%A3",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 92417700,
    "adocao": "1980-07-29",
    "arquivo": "Flag of Iran.svg",
@@ -177,7 +289,22 @@
     "venezuela"
    ],
    "continente": "América do Sul",
+   "capitais": [
+    {
+     "qid": "Q1533",
+     "nome": "Caracas",
+     "apelidos": [
+      "caracas",
+      "ccs",
+      "santiago de leon de caracas"
+     ]
+    }
+   ],
    "capital": "Caracas",
+   "nota_capital": "Caracas é a capital da República Bolivariana da Venezuela e a cidade mais populosa do país. Desde o século XIX, é considerada o centro do poder político e económico da Venezuela. Fica na região centro-norte costeira do país, a cerca de 12 km da costa do mar do Caribe e está localizada dentro de um vale montanhoso.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Caracas",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 31250306,
    "adocao": "2007-03-12",
    "arquivo": "Flag of Venezuela.svg",
@@ -198,7 +325,20 @@
     "marrocos"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3551",
+     "nome": "Rabat",
+     "apelidos": [
+      "rabat"
+     ]
+    }
+   ],
    "capital": "Rabat",
+   "nota_capital": "Rabat ou Rabate é a capital e a segunda maior cidade de Marrocos. Localiza-se na costa do Atlântico. Tem cerca de 1,9 milhões de habitantes.A cidade foi fundada em 1150 pelo califa almóada Abde Almumine, que ali construiu uma fortaleza, uma mesquita e uma residência. Tornou-se cidade imperial em 1660 e foi a capital do Protetorado Francês em Marrocos entre 1912 e 1956.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Rabat",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 36828330,
    "adocao": "1915-11-16",
    "arquivo": "Flag of Morocco.svg",
@@ -220,7 +360,20 @@
     "reino da noruega"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q585",
+     "nome": "Oslo",
+     "apelidos": [
+      "oslo"
+     ]
+    }
+   ],
    "capital": "Oslo",
+   "nota_capital": "Oslo ou mais raramente: [ˈusˈlu, ˈuʂlu]) é a capital da Noruega e a maior cidade do país. Anteriormente, entre 1624 e 1925, chamou-se Christiania, com a grafia alternativa Kristiania, adotada entre 1877 e 1897.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Oslo",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 5627400,
    "adocao": "1821-07-13",
    "arquivo": "Flag of Norway.svg",
@@ -243,7 +396,21 @@
     "reino de espanha"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q2807",
+     "nome": "Madri",
+     "apelidos": [
+      "madri",
+      "madrid"
+     ]
+    }
+   ],
    "capital": "Madri",
+   "nota_capital": "Madrid ou Madri (apenas em português brasileiro) é a capital e a maior cidade da Espanha. Em 2021 o município tinha 3 305 408 habitantes e a sua área metropolitana tinha cerca de 6,8 milhões de habitantes. É a segunda maior cidade da União Europeia (UE), depois de Berlim, e sua área metropolitana é a segunda maior da UE, depois de Paris.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Madrid",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 48592909,
    "adocao": "1785-05-28",
    "arquivo": "Flag of Spain.svg",
@@ -266,7 +433,22 @@
     "republica francesa"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q90",
+     "nome": "Paris",
+     "apelidos": [
+      "paris",
+      "paris franca",
+      "ville de paris"
+     ]
+    }
+   ],
    "capital": "Paris",
+   "nota_capital": "Paris ) é a capital e a mais populosa cidade da França, com uma população estimada em 2025 de dois milhões de habitantes em uma área de 105 quilômetros quadrados. Desde o século XVII, Paris é um dos principais centros de finanças, diplomacia, comércio, moda, ciência e artes da Europa.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Paris",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 68605616,
    "adocao": "1853-05-17",
    "arquivo": "Flag of France.svg",
@@ -289,7 +471,21 @@
     "republica federal da alemanha"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q64",
+     "nome": "Berlim",
+     "apelidos": [
+      "berlim",
+      "berlin"
+     ]
+    }
+   ],
    "capital": "Berlim",
+   "nota_capital": "Berlim é a capital e um dos dezesseis estados da Alemanha. Com uma população de 3,5 milhões dentro de limites da cidade, é a maior cidade do país, e a sétima área urbana mais povoada da União Europeia. Situada no nordeste da Alemanha, é o centro da área metropolitana de Berlim-Brandemburgo, que inclui 5 milhões de pessoas de mais de 190 nações.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Berlim",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 83577140,
    "adocao": "1917-01-01",
    "arquivo": "Flag of Germany.svg",
@@ -311,7 +507,22 @@
     "republica argentina"
    ],
    "continente": "América do Sul",
+   "capitais": [
+    {
+     "qid": "Q1486",
+     "nome": "Buenos Aires",
+     "apelidos": [
+      "buenos aires",
+      "caba",
+      "cidade autonoma de buenos aires"
+     ]
+    }
+   ],
    "capital": "Buenos Aires",
+   "nota_capital": "Buenos Aires, oficialmente Cidade Autônoma (português brasileiro) ou Autónoma (português europeu) de Buenos Aires (CABA), é a capital e maior cidade da Argentina. Está localizada no sudoeste do Rio da Prata e é classificada como uma cidade global alfa− de acordo com o ranking GaWC de 2024.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Buenos_Aires",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 47327407,
    "adocao": "1812-02-27",
    "arquivo": "Flag of Argentina.svg",
@@ -337,7 +548,31 @@
     "terra santa"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q1218",
+     "nome": "Jerusalém",
+     "apelidos": [
+      "aelia capitolina",
+      "j lem",
+      "jerusalem",
+      "jerusalem oriente medio"
+     ]
+    }
+   ],
    "capital": "Jerusalém",
+   "nota_capital": "Jerusalém é uma cidade localizada em um planalto nas montanhas da Judeia entre o Mediterrâneo e o mar Morto. Uma das cidades mais antigas do mundo, é considerada sagrada pelas três principais religiões abraâmicas — judaísmo, cristianismo e islamismo. A cidade é alvo de uma longa disputa entre israelenses e palestinos.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Jerusal%C3%A9m",
+   "varias_capitais": null,
+   "quase": [
+    {
+     "nome": "Tel Aviv",
+     "apelidos": [
+      "tel aviv"
+     ],
+     "explica": "Israel declara Jerusalém sua capital e é lá que ficam o parlamento, o governo e a Suprema Corte. O status da cidade é disputado, e a maior parte das embaixadas fica em Tel Aviv."
+    }
+   ],
    "populacao": 9840000,
    "adocao": "1948-10-28",
    "arquivo": "Flag of Israel.svg",
@@ -365,7 +600,23 @@
     "zaire"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3838",
+     "nome": "Quinxassa",
+     "apelidos": [
+      "kinshasa",
+      "leopoldivile",
+      "quinxasa",
+      "quinxassa"
+     ]
+    }
+   ],
    "capital": "Quinxassa",
+   "nota_capital": "Quinxassa, Quinxasa ou Kinshasa é a capital e maior cidade da República Democrática do Congo. Quinxassa é o principal centro econômico, político e cultural do país, abrigando diversas indústrias, incluindo manufatura, telecomunicações, bancos e entretenimento.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Quinxassa",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 105789731,
    "adocao": "2006-02-20",
    "arquivo": "Flag of the Democratic Republic of the Congo.svg",
@@ -391,7 +642,25 @@
     "ukgbni"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q84",
+     "nome": "Londres",
+     "apelidos": [
+      "london",
+      "londres",
+      "londres gbr",
+      "londres inglaterra",
+      "londres reino unido",
+      "londres uk"
+     ]
+    }
+   ],
    "capital": "Londres",
+   "nota_capital": "Londres é a capital da Inglaterra e do Reino Unido. Por dois milénios, foi um grande povoado e sua história remonta à sua fundação pelos romanos, quando foi nomeada Londínio. O centro de Londres, a antiga City of London, também conhecida como The Square Mile ou The City, mantém as suas fronteiras medievais.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Londres",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 67326569,
    "adocao": "1801-01-01",
    "arquivo": "Flag of the United Kingdom (3-5).svg",
@@ -416,7 +685,29 @@
     "terra do sol nascente"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q1490",
+     "nome": "Tóquio",
+     "apelidos": [
+      "edo",
+      "metropole de toquio",
+      "tokei",
+      "tokio",
+      "tokyo",
+      "tokyo japao",
+      "tokyo metropolis",
+      "tokyo to",
+      "toquio",
+      "toquio japao"
+     ]
+    }
+   ],
    "capital": "Tóquio",
+   "nota_capital": "Tóquio, literalmente \"capital do Leste\"), oficialmente Metrópole de Tóquio , é a capital do Japão e uma das 47 prefeituras do país. Situa-se em Honshu, a maior ilha do arquipélago.",
+   "link_capital": "https://pt.wikipedia.org/wiki/T%C3%B3quio",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 123802000,
    "adocao": "1870-02-27",
    "arquivo": "Flag of Japan.svg",
@@ -439,7 +730,22 @@
     "russia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q649",
+     "nome": "Moscou",
+     "apelidos": [
+      "moscou",
+      "moscovo",
+      "moscow"
+     ]
+    }
+   ],
    "capital": "Moscou",
+   "nota_capital": "Moscovo (português europeu) ou Moscou (português brasileiro) ) é a capital e maior cidade da Rússia. Fica às margens do rio Moscou na região central do país, com uma população estimada em 12,4 milhões de habitantes dentro dos limites da cidade, mais de 17 milhões de habitantes na área urbana e mais de 20 milhões de habitantes na área metropolitana.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Moscovo",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 146119928,
    "adocao": "1696-05-11",
    "arquivo": "Flag of Russia.svg",
@@ -463,7 +769,22 @@
     "kalaallit nunaat"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q226",
+     "nome": "Nuuk",
+     "apelidos": [
+      "godthab",
+      "nuk",
+      "nuuk"
+     ]
+    }
+   ],
    "capital": "Nuuk",
+   "nota_capital": "Nuuk ou Nuque é a capital e maior cidade da Groenlândia, nação constituinte do Reino da Dinamarca, e o principal centro comercial, industrial, administrativo e de transportes do Ártico.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Nuuk",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 56609,
    "adocao": "1985-06-21",
    "arquivo": "Flag of Greenland.svg",
@@ -486,7 +807,22 @@
     "rp china"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q956",
+     "nome": "Pequim",
+     "apelidos": [
+      "beijing",
+      "categoria pequim",
+      "pequim"
+     ]
+    }
+   ],
    "capital": "Pequim",
+   "nota_capital": "Pequim é a capital da República Popular da China. É a capital nacional mais populosa do mundo, com mais de 21 milhões de habitantes em uma área administrativa de 16 410,5 km². Está localizada no norte da China e é governada como um município sob a administração direta do governo chinês, com 16 distritos urbanos, suburbanos e rurais.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Pequim",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1404890000,
    "adocao": "1949-09-27",
    "arquivo": "Flag of the People's Republic of China.svg",
@@ -510,7 +846,24 @@
     "singapura"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q334",
+     "nome": "Singapura",
+     "apelidos": [
+      "cingapura",
+      "republica de cingapura",
+      "republica de singapura",
+      "singapore",
+      "singapura"
+     ]
+    }
+   ],
    "capital": "Singapura",
+   "nota_capital": "Singapura, oficialmente República de Singapura, é uma cidade-Estado insular localizada na ponta sul da Península Malaia, no Sudeste Asiático, 137 quilômetros ao norte do equador. Constituído por 63 ilhas, Singapura é separado da Malásia pelo Estreito de Jor, ao norte, e das Ilhas Riau (Indonésia) pelo Estreito de Singapura, ao sul.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Singapura",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 5866139,
    "adocao": "1959-12-03",
    "arquivo": "Flag of Singapore.svg",
@@ -533,7 +886,21 @@
     "republica mexicana"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q1489",
+     "nome": "Cidade do México",
+     "apelidos": [
+      "cidade do mexico",
+      "mexico city"
+     ]
+    }
+   ],
    "capital": "Cidade do México",
+   "nota_capital": "Cidade do México é a capital e cidade mais populosa do México, bem como a mais populosa da América do Norte. É um dos principais centros culturais e financeiros do mundo e, de acordo com o ranking de 2024 da Globalization and World Cities Research Network, é classificada como uma cidade global alfa.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Cidade_do_M%C3%A9xico",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 132274416,
    "adocao": "1810-09-17",
    "arquivo": "Flag of Mexico.svg",
@@ -554,7 +921,23 @@
     "angola"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3897",
+     "nome": "Luanda",
+     "apelidos": [
+      "categoria luanda",
+      "cidade de luanda",
+      "luanda",
+      "sao paulo de luanda"
+     ]
+    }
+   ],
    "capital": "Luanda",
+   "nota_capital": "Luanda é a capital e maior cidade de Angola. Localizada na costa norte do Oceano Atlântico, é o centro administrativo nacional e também da província homónima, além de ser o maior polo industrial, marítimo, cultural e urbano do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Luanda",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 36749906,
    "adocao": "1975-11-11",
    "arquivo": "Flag of Angola.svg",
@@ -577,7 +960,23 @@
     "cdn"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q1930",
+     "nome": "Ottawa",
+     "apelidos": [
+      "cidade de ottawa",
+      "ottawa",
+      "ottawa canada",
+      "ottawa ontario"
+     ]
+    }
+   ],
    "capital": "Ottawa",
+   "nota_capital": "Ottawa ; pronunciado em francês: [ɔtawa, ɔtawɔ] ) ou Otava é a capital e quarta maior cidade do Canadá. A cidade está localizada na margem sul do rio Ottawa, na parte leste do sul de Ontário a aproximadamente 400 quilômetros de Toronto, e a 190 quilômetros de Montreal.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Ottawa",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 36991981,
    "adocao": "1965-02-15",
    "arquivo": "Flag of Canada (Pantone).svg",
@@ -599,7 +998,24 @@
     "republica do haiti"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q34261",
+     "nome": "Porto Príncipe",
+     "apelidos": [
+      "port au prince",
+      "porto au prince",
+      "porto au principe",
+      "porto do principe",
+      "porto principe"
+     ]
+    }
+   ],
    "capital": "Porto Príncipe",
+   "nota_capital": "Porto Príncipe é a capital e a maior cidade do Haiti. Localiza-se no sudoeste do país e é um porto no golfo de Gonaives. A sua população tem aproximadamente 2,5 a três milhões de habitantes. Foi fundada em 1749 pelos franceses.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Porto_Pr%C3%ADncipe",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 10981229,
    "adocao": "1986-02-25",
    "arquivo": "Flag of Haiti.svg",
@@ -623,7 +1039,22 @@
     "republica italiana"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q220",
+     "nome": "Roma",
+     "apelidos": [
+      "a cidade eterna",
+      "roma",
+      "rome"
+     ]
+    }
+   ],
    "capital": "Roma",
+   "nota_capital": "Roma é a capital da Itália e também da região do Lácio, além de ser o centro da Cidade Metropolitana de Roma e de uma comuna especial. Com 2 860 009 residentes em 1 285 km², Roma é a comuna mais populosa do país e a terceira cidade mais populosa da União Europeia.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Roma",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 58850717,
    "adocao": "1946-06-18",
    "arquivo": "Flag of Italy.svg",
@@ -645,7 +1076,29 @@
     "marfim"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3768",
+     "nome": "Iamussucro",
+     "apelidos": [
+      "iamussucro",
+      "yamoussoukro"
+     ]
+    }
+   ],
    "capital": "Iamussucro",
+   "nota_capital": "Iamussucro é a capital política e administrativa da Costa do Marfim desde 1983, embora a maior parte das funções administrativas continue sendo realizada na antiga capital, Abidjã. Está localizada a 240 quilômetros (149 mi) ao norte de Abidjã sobre colinas onduladas e planícies. Sua área é de 3 500 km² e a população era de 200 659 habitantes em 2005.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Iamussucro",
+   "varias_capitais": null,
+   "quase": [
+    {
+     "nome": "Abidjã",
+     "apelidos": [
+      "abidja"
+     ],
+     "explica": "Iamussucro é a capital política desde 1983, mas o governo e as embaixadas continuam em Abidjã."
+    }
+   ],
    "populacao": 31165654,
    "adocao": "1959-12-03",
    "arquivo": "Flag of Côte d'Ivoire.svg",
@@ -668,7 +1121,23 @@
     "suica"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q70",
+     "nome": "Berna",
+     "apelidos": [
+      "bern",
+      "berna",
+      "berne",
+      "cidade de berna"
+     ]
+    }
+   ],
    "capital": "Berna",
+   "nota_capital": "Berna ; em francês: Berne [bɛʁn]; em italiano: Berna [ˈbɛrna]; em romanche: Berna [ˈbɛrnə]) é a capital de facto da Suíça. Berna é uma cidade predominantemente germanófona, capital do cantão homônimo e também uma comuna.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Berna",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 9104063,
    "adocao": "1889-12-12",
    "arquivo": "Flag of Switzerland.svg",
@@ -690,7 +1159,25 @@
     "turquia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q3640",
+     "nome": "Ancara",
+     "apelidos": [
+      "ancara",
+      "ancira",
+      "angora",
+      "ankara",
+      "ankuwash",
+      "enguru"
+     ]
+    }
+   ],
    "capital": "Ancara",
+   "nota_capital": "Ancara ) anteriormente conhecida como Ancira e Angora, é a capital da Turquia, localizada na área metropolitana e província homônima, na região da Anatólia Central. O conjunto dos distritos que a malha urbana da cidade ocupa, na totalidade ou parcialmente, tem 3 991 km² e em dezembro de 2021 tinha 4 748 898 habitantes. É a segunda maior cidade do país em população, atrás apenas de Istambul.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Ancara",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 85372377,
    "adocao": "1844-01-01",
    "arquivo": "Flag of Turkey.svg",
@@ -712,7 +1199,26 @@
     "republica democratica federal do nepal"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q3037",
+     "nome": "Catmandu",
+     "apelidos": [
+      "catmandu",
+      "cidade dos templos",
+      "cidade metropolitana de catmandu",
+      "jiade mandu",
+      "kathmandu",
+      "khatmandu",
+      "vale de catmandu"
+     ]
+    }
+   ],
    "capital": "Catmandu",
+   "nota_capital": "Catmandu é a capital e a maior cidade do Nepal. Localiza-se no centro do país, a 1 400 metros de altitude. Em 2018 tinha de aproximadamente 2,5 milhões de habitantes. Foi fundada em 723 pelos neuaris. A parte antiga da cidade caracteriza-se por abrigar grande quantidade de templos e palácios budistas e hindus, a maioria deles do século XVII.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Catmandu",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 29164578,
    "adocao": "1962-12-16",
    "arquivo": "Flag of Nepal.svg",
@@ -735,7 +1241,39 @@
     "rsa"
    ],
    "continente": "África",
-   "capital": "Bloemfontein",
+   "capitais": [
+    {
+     "qid": "Q3926",
+     "nome": "Pretória",
+     "apelidos": [
+      "pretoria",
+      "pretoria africa do sul",
+      "pretoria gauteng",
+      "pretoria gauteng africa do sul"
+     ]
+    },
+    {
+     "qid": "Q5465",
+     "nome": "Cidade do Cabo",
+     "apelidos": [
+      "cape town",
+      "cidade do cabo",
+      "cidade do cabo africa do sul"
+     ]
+    },
+    {
+     "qid": "Q37701",
+     "nome": "Bloemfontein",
+     "apelidos": [
+      "bloemfontein"
+     ]
+    }
+   ],
+   "capital": "Pretória",
+   "nota_capital": "Pretória, é uma das três capitais oficiais da África do Sul, sendo a sede do poder executivo. Localizando-se ao norte da província de Gautengue, foi fundada em 1855 e tornou-se capital do Transvaal em 1860. Tem cerca de 1 592 000 habitantes, a quinta mais populosa cidade sul-africana, em dados de 2011.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Pret%C3%B3ria",
+   "varias_capitais": "A África do Sul tem três capitais, uma por poder: Pretória é a sede do Executivo, a Cidade do Cabo a do Parlamento e Bloemfontein a do Judiciário. As três valem.",
+   "quase": [],
    "populacao": 62027503,
    "adocao": "1994-04-27",
    "arquivo": "Flag of South Africa.svg",
@@ -759,7 +1297,22 @@
     "categoria bosnia herzegovina"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q11194",
+     "nome": "Sarajevo",
+     "apelidos": [
+      "saraievo",
+      "sarajevo",
+      "serajevo"
+     ]
+    }
+   ],
    "capital": "Sarajevo",
+   "nota_capital": "Saraievo, Sarajevo ou, na sua forma antiga, hoje em desuso, Serajevo, é a capital e a maior cidade da Bósnia e Herzegovina. O censo de 2013 indicou uma população de 405 930 habitantes, o que indica um pequeno crescimento nas mais de duas décadas desde o censo de 1991, que apontava uma população de 329 672 habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Sarajevo",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 3816459,
    "adocao": "1998-02-04",
    "arquivo": "Flag of Bosnia and Herzegovina.svg",
@@ -783,7 +1336,21 @@
     "territorio de porto rico"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q41211",
+     "nome": "San Juan",
+     "apelidos": [
+      "san juan",
+      "san juan porto rico"
+     ]
+    }
+   ],
    "capital": "San Juan",
+   "nota_capital": "San Juan ou São João, oficialmente Município da Cidade Capital São João Batista é a capital e o município mais populoso de Porto Rico. De acordo com o Censo dos Estados Unidos de 2020, o município possui uma população de 342 000 habitantes, com a região metropolitana contendo cerca de 2 300 000 de pessoas.",
+   "link_capital": "https://pt.wikipedia.org/wiki/San_Juan_(Porto_Rico)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 3285874,
    "adocao": "1895-01-01",
    "arquivo": "Flag of Puerto Rico.svg",
@@ -805,7 +1372,21 @@
     "uruguai"
    ],
    "continente": "América do Sul",
+   "capitais": [
+    {
+     "qid": "Q1335",
+     "nome": "Montevidéu",
+     "apelidos": [
+      "montevideo",
+      "montevideu"
+     ]
+    }
+   ],
    "capital": "Montevidéu",
+   "nota_capital": "Montevidéu (português brasileiro) ou Montevideu (português europeu) é a capital e maior cidade do Uruguai. De acordo com o censo de 2011, a cidade propriamente dita tem uma população de 1 319 108 em uma área de 530 quilômetros quadrados. Montevidéu situa-se na costa sul do país, na margem nordeste do rio da Prata.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Montevid%C3%A9u",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 3444263,
    "adocao": "1830-07-11",
    "arquivo": "Flag of Uruguay.svg",
@@ -827,7 +1408,21 @@
     "comunidade da australia"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q3114",
+     "nome": "Camberra",
+     "apelidos": [
+      "camberra",
+      "canberra"
+     ]
+    }
+   ],
    "capital": "Camberra",
+   "nota_capital": "Camberra é a capital da Austrália. Com uma população de 450 mil habitantes, é a oitava cidade mais populosa do país. A cidade está localizada no extremo norte do Território da Capital Australiana, a 280 km a sudoeste de Sydney e a 660 km a nordeste de Melbourne.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Camberra",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 27614411,
    "adocao": "1901-09-03",
    "arquivo": "Flag of Australia (converted).svg",
@@ -849,7 +1444,23 @@
     "republica da colombia"
    ],
    "continente": "América do Sul",
+   "capitais": [
+    {
+     "qid": "Q2841",
+     "nome": "Bogotá",
+     "apelidos": [
+      "bogota",
+      "bogota distrito capital",
+      "santa fe de bogota",
+      "santafe de bogota"
+     ]
+    }
+   ],
    "capital": "Bogotá",
+   "nota_capital": "Bogotá ), anteriormente conhecida como Santa Fé de Bogotá, é a capital e maior cidade da Colômbia. Ela é administrada como o Distrito Capital, embora muitas vezes seja considerada parte de Cundinamarca. Bogotá é uma entidade territorial de primeira ordem, com o mesmo estatuto administrativo que os departamentos colombianos.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Bogot%C3%A1",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 52321152,
    "adocao": "1861-11-26",
    "arquivo": "Flag of Colombia.svg",
@@ -871,7 +1482,23 @@
     "republica de cuba"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q1563",
+     "nome": "Havana",
+     "apelidos": [
+      "habana",
+      "havana",
+      "havana cuba",
+      "la habana"
+     ]
+    }
+   ],
    "capital": "Havana",
+   "nota_capital": "Havana ) é a capital e a maior cidade de Cuba e encontra-se na província de Cidade de Havana. Tem cerca de 2,4 milhões de habitantes. Cidade de uma rica tradição histórica e cultural, caracteriza-se por ser eclética e monumental ao mesmo tempo.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Havana",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 10985974,
    "adocao": "1849-05-20",
    "arquivo": "Flag of Cuba.svg",
@@ -893,7 +1520,21 @@
     "paraguay"
    ],
    "continente": "América do Sul",
+   "capitais": [
+    {
+     "qid": "Q2933",
+     "nome": "Assunção",
+     "apelidos": [
+      "assuncao",
+      "asuncion"
+     ]
+    }
+   ],
    "capital": "Assunção",
+   "nota_capital": "Assunção ) é a capital e a maior cidade do Paraguai. A cidade fica na margem oriental do rio Paraguai, quase na confluência com o rio Pilcomayo. O rio e a Baía de Assunção, no noroeste, separam a cidade da região ocidental do Paraguai e da Argentina, no sul da cidade. O resto da cidade é cercado pelo Departamento Central.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Assun%C3%A7%C3%A3o",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 6811297,
    "adocao": "2013-07-15",
    "arquivo": "Flag of Paraguay.svg",
@@ -917,7 +1558,21 @@
     "republica democratica e popular da argelia"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3561",
+     "nome": "Argel",
+     "apelidos": [
+      "algiers",
+      "argel"
+     ]
+    }
+   ],
    "capital": "Argel",
+   "nota_capital": "Argel é a capital, cidade mais populosa e principal centro financeiro, corporativo, mercantil e cultural da Argélia. Localiza-se na parte norte do país, ao longo do mar Mediterrâneo, sendo também capital da província de mesmo nome.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Argel",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 46164219,
    "adocao": "1962-07-03",
    "arquivo": "Flag of Algeria.svg",
@@ -941,7 +1596,20 @@
     "republica arabe do egito"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q85",
+     "nome": "Cairo",
+     "apelidos": [
+      "cairo"
+     ]
+    }
+   ],
    "capital": "Cairo",
+   "nota_capital": "Cairo é a capital do Egito e da província homônima. É a maior cidade do mundo árabe e da África. Os egípcios a denominam muitas vezes, simplesmente, com o nome do país no idioma local: Miṣr (مصر), em árabe clássico; e Miṣr, em árabe egípcio. Cairo está localizada nas margens e ilhas do rio Nilo, ao sul do delta.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Cairo",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 114535772,
    "adocao": "1984-10-04",
    "arquivo": "Flag of Egypt.svg",
@@ -962,7 +1630,21 @@
     "india"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q987",
+     "nome": "Nova Deli",
+     "apelidos": [
+      "new delhi",
+      "nova deli"
+     ]
+    }
+   ],
    "capital": "Nova Deli",
+   "nota_capital": "Nova Deli, Nova Delhi, Nova Déli ou Nova Délhi ; em hindi: नई दिल्ली; romaniz.: Naī Dillī; em panjabi: ਨਵੀਂ ਦਿੱਲੀ, translit.: Navī̃ Dillī; em urdu: نئی دلی, translit.: Naī Dillī; em inglês: New Delhi) é a capital da Índia.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Nova_Deli",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1326093247,
    "adocao": "1947-07-22",
    "arquivo": "Flag of India.svg",
@@ -985,7 +1667,25 @@
     "uzbequistao"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q269",
+     "nome": "Tashkent",
+     "apelidos": [
+      "tachkent",
+      "tashkent",
+      "tasquente",
+      "toshkand",
+      "toshkent",
+      "toshqand"
+     ]
+    }
+   ],
    "capital": "Tashkent",
+   "nota_capital": "Tasquente é a capital e a maior cidade do Usbequistão. O município tem 334,8 km² de área e em 2020 tinha 2 571 668 habitantes. Situa-se no nordeste do país, a poucos quilómetros da fronteira com o Cazaquistão.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Tasquente",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 34915100,
    "adocao": "1991-11-18",
    "arquivo": "Flag of Uzbekistan.svg",
@@ -1007,7 +1707,20 @@
     "republica popular democratica da coreia do norte"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q18808",
+     "nome": "Pyongyang",
+     "apelidos": [
+      "pyongyang"
+     ]
+    }
+   ],
    "capital": "Pyongyang",
+   "nota_capital": "Pyongyang ou Pionguiangue é a capital e maior cidade da República Popular Democrática da Coreia, mais conhecida como Coreia do Norte. Situada nas margens do rio Taedong, tem cerca de 3,3 milhões de habitantes e é o principal centro industrial do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Pyongyang",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 26418204,
    "adocao": "1948-09-08",
    "arquivo": "Flag of North Korea.svg",
@@ -1029,7 +1742,21 @@
     "reino da arabia saudita"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q3692",
+     "nome": "Riade",
+     "apelidos": [
+      "riade",
+      "riyadh"
+     ]
+    }
+   ],
    "capital": "Riade",
+   "nota_capital": "Riade é a capital e maior cidade da Arábia Saudita. É igualmente a capital da província de Riade e pertence às regiões históricas de Négede e Iamama. Situa-se no centro da península Arábica, num grande oásis, e é habitada por mais de 4 260 000 pessoas, sendo que sua região metropolitana abriga aproximadamente 7 milhões.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Riade",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 33000000,
    "adocao": "1973-03-15",
    "arquivo": "Flag of Saudi Arabia.svg",
@@ -1051,7 +1778,22 @@
     "reino da belgica"
    ],
    "continente": "Europa",
-   "capital": "Cidade de Bruxelas",
+   "capitais": [
+    {
+     "qid": "Q239",
+     "nome": "Bruxelas",
+     "apelidos": [
+      "brussels",
+      "bruxelas",
+      "cidade de bruxelas"
+     ]
+    }
+   ],
+   "capital": "Bruxelas",
+   "nota_capital": "A Cidade de Bruxelas é a maior comuna da Região da Capital Bruxelas que, por sua vez, é a capital da Bélgica.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Cidade_de_Bruxelas",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 11825551,
    "adocao": "1831-10-12",
    "arquivo": "Flag of Belgium.svg",
@@ -1086,7 +1828,25 @@
     "taiwan rc"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q1867",
+     "nome": "Taipé",
+     "apelidos": [
+      "cidade das azaleas",
+      "cidade de taipe",
+      "cidade de taipei",
+      "taibei",
+      "taipe",
+      "taipei"
+     ]
+    }
+   ],
    "capital": "Taipé",
+   "nota_capital": "Taipé, oficialmente conhecida como a Cidade de Taipé, é a capital e um município especial de Taiwan. Situada no extremo norte da ilha Formosa, a cidade é um enclave do município de Nova Taipé. Está cerca de 25 quilômetros a sudoeste da cidade portuária de Keelung.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Taip%C3%A9",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 23317031,
    "adocao": "1924-06-30",
    "arquivo": "Flag of the Republic of China.svg",
@@ -1108,7 +1868,21 @@
     "republica de mocambique"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3889",
+     "nome": "Maputo",
+     "apelidos": [
+      "lourenco marques",
+      "maputo"
+     ]
+    }
+   ],
    "capital": "Maputo",
+   "nota_capital": "Maputo é a capital e a maior cidade de Moçambique. É também o principal centro financeiro, corporativo e mercantil do país. Localiza-se na margem ocidental da baía de Maputo, no extremo sul do país, perto da fronteira com a África do Sul e da fronteira com o Essuatíni e, por conseguinte, da tripla fronteira dos três países.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Maputo",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 29668834,
    "adocao": "1983-05-01",
    "arquivo": "Flag of Mozambique.svg",
@@ -1135,7 +1909,22 @@
     "malvinas"
    ],
    "continente": "América do Sul",
+   "capitais": [
+    {
+     "qid": "Q12245",
+     "nome": "Stanley",
+     "apelidos": [
+      "port stanley",
+      "porto stanley",
+      "stanley"
+     ]
+    }
+   ],
    "capital": "Stanley",
+   "nota_capital": "Stanley ou Porto Argentino, mais conhecido como Porto Stanley, é a capital das Ilhas Malvinas. Está localizada na ilha de Malvina oriental, em uma encosta voltada para o norte em uma das partes mais úmidas das ilhas. No censo de 2016, a cidade tinha uma população de 2 460 habitantes. A população inteira das Ilhas Malvinas foi de 3 398 no censo em 9 de outubro de 2016.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Porto_Stanley",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 4550,
    "adocao": "1999-01-25",
    "arquivo": "Flag of the Falkland Islands.svg",
@@ -1157,7 +1946,21 @@
     "senegal"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3718",
+     "nome": "Dacar",
+     "apelidos": [
+      "dacar",
+      "dakar"
+     ]
+    }
+   ],
    "capital": "Dacar",
+   "nota_capital": "Dacar ou Dakar é a capital e a maior cidade do Senegal, na península do Cabo Verde. Fundada pelos franceses em 1857, é uma das quatro cidades históricas do Senegal e a antiga capital da África Ocidental Francesa (AOF).",
+   "link_capital": "https://pt.wikipedia.org/wiki/Dacar",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 16876720,
    "adocao": "1960-08-20",
    "arquivo": "Flag of Senegal.svg",
@@ -1181,7 +1984,21 @@
     "republica do congo"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3844",
+     "nome": "Brazavile",
+     "apelidos": [
+      "brazavile",
+      "brazzaville"
+     ]
+    }
+   ],
    "capital": "Brazavile",
+   "nota_capital": "Brazavile, também conhecida pelo original em francês Brazzaville, é a capital e maior cidade da República do Congo. Administrativamente, é um departamento e uma comuna, constituindo o centro financeiro e administrativo do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Brazavile",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 6142180,
    "adocao": "1959-09-15",
    "arquivo": "Flag of the Republic of the Congo.svg",
@@ -1202,7 +2019,21 @@
     "hungria"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1781",
+     "nome": "Budapeste",
+     "apelidos": [
+      "budapest",
+      "budapeste"
+     ]
+    }
+   ],
    "capital": "Budapeste",
+   "nota_capital": "Budapeste é a capital, cidade mais populosa e principal centro financeiro, corporativo, mercantil e cultural da Hungria. É a nona maior cidade da União Europeia e recebeu a classificação de cidade global alpha, por parte do Globalization and World Cities Study Group & Network (GaWC).",
+   "link_capital": "https://pt.wikipedia.org/wiki/Budapeste",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 9603634,
    "adocao": "1957-02-09",
    "arquivo": "Flag of Hungary.svg",
@@ -1230,7 +2061,21 @@
     "republica da coreia"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q8684",
+     "nome": "Seul",
+     "apelidos": [
+      "seoul",
+      "seul"
+     ]
+    }
+   ],
    "capital": "Seul",
+   "nota_capital": "Seul, lit. \"a Capital\"), oficialmente Cidade Especial de Seul, é a capital e a maior metrópole da Coreia do Sul. A cidade é o núcleo da Região Metropolitana de Seul, que inclui a metrópole vizinha de Incheon e a província de Gyeonggi, a segunda maior área metropolitana do mundo, com mais de 25 milhões de habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Seul",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 51466201,
    "adocao": "1883-01-27",
    "arquivo": "Flag of South Korea.svg",
@@ -1252,7 +2097,21 @@
     "suecia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1754",
+     "nome": "Estocolmo",
+     "apelidos": [
+      "estocolmo",
+      "stockholm"
+     ]
+    }
+   ],
    "capital": "Estocolmo",
+   "nota_capital": "Estocolmo é a capital e a maior cidade da Suécia. Sua localização, centrada em 19 ilhas e ilhotas, juntamente com a área continental circundante, tem sido historicamente importante.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Estocolmo",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 10609460,
    "adocao": "1906-06-22",
    "arquivo": "Flag of Sweden.svg",
@@ -1277,7 +2136,20 @@
     "u a e"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q1519",
+     "nome": "Abu Dhabi",
+     "apelidos": [
+      "abu dhabi"
+     ]
+    }
+   ],
    "capital": "Abu Dhabi",
+   "nota_capital": "Abu Dhabi ou, em grafia alternativa portuguesa, Abu Dabi é a capital dos Emirados Árabes Unidos e também o maior de todos os Emirados com uma área de 67 340 quilômetros quadrados, equivalente a 86,7% da área total do país, excluindo as ilhas. Tem um litoral que se estende por mais de 400 quilômetros e é dividido para propósitos administrativos em três regiões principais.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Abu_Dhabi",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 9890400,
    "adocao": "1971-12-02",
    "arquivo": "Flag of the United Arab Emirates.svg",
@@ -1299,7 +2171,22 @@
     "republica do libano"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q3820",
+     "nome": "Beirute",
+     "apelidos": [
+      "beirut",
+      "beirute",
+      "beyrout"
+     ]
+    }
+   ],
    "capital": "Beirute",
+   "nota_capital": "Beirute é a capital e maior cidade do Líbano. Segundo estimativas de 2007, cerca de 2 milhões de habitantes moram na Grande Beirute. Localizada em uma península no Mediterrâneo, Beirute é o maior e principal porto marítimo do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Beirute",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 6100075,
    "adocao": "1943-12-07",
    "arquivo": "Flag of Lebanon.svg",
@@ -1321,7 +2208,21 @@
     "republica de gana"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3761",
+     "nome": "Acra",
+     "apelidos": [
+      "accra",
+      "acra"
+     ]
+    }
+   ],
    "capital": "Acra",
+   "nota_capital": "Acra é a capital e maior cidade do Gana, com uma população estimada em 1 963 264 em 2009. Acra também é a capital da Região de Grande Acra e do Distrito Metropolitano de Acra, que partilham seu nome.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Acra",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 32833031,
    "adocao": "1957-01-01",
    "arquivo": "Flag of Ghana.svg",
@@ -1343,7 +2244,24 @@
     "luxemburgo"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1842",
+     "nome": "Luxemburgo",
+     "apelidos": [
+      "cidade de luxemburgo",
+      "cidade do luxemburgo",
+      "luxembourg",
+      "luxemburgo",
+      "luxemburgo cidade"
+     ]
+    }
+   ],
    "capital": "Luxemburgo",
+   "nota_capital": "Luxemburgo é uma comuna do Luxemburgo com estatuto de cidade, pertencente ao distrito do Luxemburgo e ao cantão do Luxemburgo, e a capital do país. Luxemburgo é uma cidade muito desenvolvida em seu comércio e nas indústrias.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Luxemburgo_(cidade)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 690959,
    "adocao": "1972-06-23",
    "arquivo": "Flag of Luxembourg.svg",
@@ -1366,7 +2284,22 @@
     "principado do monaco"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q235",
+     "nome": "Mônaco",
+     "apelidos": [
+      "monaco",
+      "principado de monaco",
+      "principado do monaco"
+     ]
+    }
+   ],
    "capital": "Mônaco",
+   "nota_capital": "Mónaco, oficialmente Principado do Mónaco (português europeu) ou Principado de Mônaco (português brasileiro), é uma cidade-estado soberana, e, portanto, um microestado, situado ao sul da França. Fazendo costa com o mar Mediterrâneo, o principado, fundado em 1297 pela Casa de Grimaldi — até hoje sua soberana —, fica a menos de 20 km a leste da cidade de Nice e 20 km a oeste da cidade de Ventimiglia.",
+   "link_capital": "https://pt.wikipedia.org/wiki/M%C3%B3naco",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 38857,
    "adocao": "1881-04-04",
    "arquivo": "Flag of Monaco.svg",
@@ -1392,7 +2325,31 @@
     "chile"
    ],
    "continente": "América do Sul",
+   "capitais": [
+    {
+     "qid": "Q2887",
+     "nome": "Santiago",
+     "apelidos": [
+      "grande santiago",
+      "santiago",
+      "santiago chile",
+      "santiago do chile"
+     ]
+    }
+   ],
    "capital": "Santiago",
+   "nota_capital": "Santiago, por vezes chamada Santiago do Chile ) para a distinguir de cidades homónimas, é a capital e a maior cidade do Chile. Está localizada na Região Metropolitana de Santiago, no vale central chileno, ao lado da cordilheira dos Andes. É o maior e mais importante e desenvolvido centro urbano, financeiro, cultural e administrativo do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Santiago_(Chile)",
+   "varias_capitais": null,
+   "quase": [
+    {
+     "nome": "Valparaíso",
+     "apelidos": [
+      "valparaiso"
+     ],
+     "explica": "Santiago é a capital, mas o Congresso Nacional se reúne em Valparaíso desde 1990."
+    }
+   ],
    "populacao": 19458000,
    "adocao": "1817-10-18",
    "arquivo": "Flag of Chile.svg",
@@ -1413,7 +2370,21 @@
     "afeganistao"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q5838",
+     "nome": "Cabul",
+     "apelidos": [
+      "cabul",
+      "kabul"
+     ]
+    }
+   ],
    "capital": "Cabul",
+   "nota_capital": "Cabul ou Cábul é a capital e mais populosa cidade do Afeganistão. Cabul é, também, a capital da província de Cabul. Localiza-se no vale do rio Cabul e tem 3 573 000 de habitantes em sua região metropolitana, de acordo com estimativa oficial de 2009, que inclui tajiques, hazaras e pastós, um número menor de afegãos pertencentes a outros grupos étnicos.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Cabul",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 41454761,
    "adocao": null,
    "arquivo": "Flag of the Taliban.svg",
@@ -1436,7 +2407,21 @@
     "tchequia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1085",
+     "nome": "Praga",
+     "apelidos": [
+      "praga",
+      "prague"
+     ]
+    }
+   ],
    "capital": "Praga",
+   "nota_capital": "Praga ) é a capital e a maior cidade da Chéquia, situada na margem do Vltava. Conhecida como \"cidade das cem cúpulas\", Praga é um dos mais belos e antigos centros urbanos da Europa, famosa pelo extenso patrimônio arquitetônico e rica vida cultural. Importante também como núcleo de transportes e comunicações, é o principal centro econômico e industrial da Chéquia.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Praga",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 10909500,
    "adocao": "1993-01-01",
    "arquivo": "Flag of the Czech Republic.svg",
@@ -1458,7 +2443,26 @@
     "republica de malta"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q23800",
+     "nome": "Valeta",
+     "apelidos": [
+      "cidade de valletta",
+      "humilissima civitas valletta",
+      "la valetta",
+      "la valletta",
+      "peninsula de valeta",
+      "valeta",
+      "valletta"
+     ]
+    }
+   ],
    "capital": "Valeta",
+   "nota_capital": "Valeta é a capital da República de Malta. Tem uma população de cerca de 6 315 habitantes e situa-se na costa leste da ilha de Malta. Situa-se na península homónima, dispondo de dois portos naturais: Marsamxett e Grand Harbour. O nome oficial da cidade foi dado pela Ordem de São João e é Humilissima Civitas Valletta — A Humílima Cidade de Valeta.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Valeta",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 553214,
    "adocao": "1964-09-21",
    "arquivo": "Flag of Malta.svg",
@@ -1480,7 +2484,38 @@
     "terra santa"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q212938",
+     "nome": "Jerusalém Oriental",
+     "apelidos": [
+      "east jerusalem",
+      "este de jerusalem",
+      "jerusalem oriental"
+     ]
+    },
+    {
+     "qid": "Q158119",
+     "nome": "Ramallah",
+     "apelidos": [
+      "ramala",
+      "ramallah"
+     ]
+    }
+   ],
    "capital": "Jerusalém Oriental",
+   "nota_capital": "Jerusalém Oriental é uma parte da cidade de Jerusalém que foi ocupada pela Jordânia na guerra de 1948 ao oposto do setor leste da cidade Jerusalém Ocidental ocupada por Israel. Todavia, Jerusalém Oriental pode referir-se tanto à zona sob domínio da Jordânia no período 1949-1967, quanto à zona posteriormente capturada e anexada por Israel.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Jerusal%C3%A9m_Oriental",
+   "varias_capitais": "A Palestina declara Jerusalém Oriental sua capital; Ramallah é a sede administrativa da Autoridade Palestina. O status da cidade é disputado. Todas valem.",
+   "quase": [
+    {
+     "nome": "Jerusalém",
+     "apelidos": [
+      "jerusalem"
+     ],
+     "explica": "A Palestina declara Jerusalém Oriental sua capital; o status da cidade é disputado."
+    }
+   ],
    "populacao": 5227193,
    "adocao": "1988-11-15",
    "arquivo": "Flag of Palestine.svg",
@@ -1501,7 +2536,23 @@
     "bangladesh"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q1354",
+     "nome": "Daca",
+     "apelidos": [
+      "daca",
+      "dacca",
+      "dhaca",
+      "dhaka"
+     ]
+    }
+   ],
    "capital": "Daca",
+   "nota_capital": "Daca ou Dhaka é a capital e a maior cidade do Bangladesh e da divisão de Daca. A cidade possui população de aproximadamente dez milhões de habitantes e a região metropolitana tem aproximadamente 23 milhões de pessoas, estimativas para 2022.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Daca",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 171466990,
    "adocao": "1972-01-17",
    "arquivo": "Flag of Bangladesh.svg",
@@ -1523,7 +2574,21 @@
     "republica da croacia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1435",
+     "nome": "Zagreb",
+     "apelidos": [
+      "zagreb",
+      "zagrebe"
+     ]
+    }
+   ],
    "capital": "Zagreb",
+   "nota_capital": "Zagreb ou, na forma aportuguesada, Zagrebe, é a capital e a maior cidade da Croácia. Situa-se no norte do país, junto ao rio Sava e nas encostas meridionais da montanha Medvednica. No censo de 2021, a unidade administrativa Cidade de Zagreb tinha 767 131 habitantes. O assentamento de Zagreb propriamente dito tinha 663 592 habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Zagreb",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 3871833,
    "adocao": "1990-12-21",
    "arquivo": "Flag of Croatia.svg",
@@ -1544,7 +2609,29 @@
     "paquistao"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q1362",
+     "nome": "Islamabad",
+     "apelidos": [
+      "islamabad",
+      "islamabade"
+     ]
+    },
+    {
+     "qid": "Q93230",
+     "nome": "Rawalpindi",
+     "apelidos": [
+      "raualpindi",
+      "rawalpindi"
+     ]
+    }
+   ],
    "capital": "Islamabad",
+   "nota_capital": "Islamabade ou Islamabad, com 1 900 000 habitantes em 2014, é a capital do Paquistão e localiza-se no nordeste do país, no interior do Território da Capital Islamabade — embora a área faça historicamente parte da região do Panjabe — e no limite do planalto Potohar, ao sul dos montes Margalla.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Islamabade",
+   "varias_capitais": "Islamabad é a capital desde 1966. Rawalpindi foi a capital interina enquanto Islamabad era construída, e o Wikidata ainda a lista sem data de término; por isso ela também vale aqui.",
+   "quase": [],
    "populacao": 223773700,
    "adocao": "1947-08-11",
    "arquivo": "Flag of Pakistan.svg",
@@ -1565,7 +2652,20 @@
     "nova zelandia"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q23661",
+     "nome": "Wellington",
+     "apelidos": [
+      "wellington"
+     ]
+    }
+   ],
    "capital": "Wellington",
+   "nota_capital": "Wellington é a capital da Nova Zelândia e também da região de Wellington, localizada ao sul da Ilha Norte, da qual Wellington é a cidade principal. Tinha aproximadamente 393 mil habitantes em 2011.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Wellington",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 5307800,
    "adocao": "1903-03-24",
    "arquivo": "Flag of New Zealand.svg",
@@ -1587,7 +2687,21 @@
     "republica da polonia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q270",
+     "nome": "Varsóvia",
+     "apelidos": [
+      "varsovia",
+      "warsaw"
+     ]
+    }
+   ],
    "capital": "Varsóvia",
+   "nota_capital": "Varsóvia é a capital e maior cidade da Polónia. Localiza-se nas margens do rio Vístula, a cerca de 260 km da costa do mar Báltico e 300 km das montanhas dos Cárpatos. A sua população, em 2012, era estimada em 1 716 855 habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Vars%C3%B3via",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 37563071,
    "adocao": "1919-08-01",
    "arquivo": "Flag of Poland.svg",
@@ -1608,7 +2722,22 @@
     "dinamarca"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1748",
+     "nome": "Copenhague",
+     "apelidos": [
+      "copenhaga",
+      "copenhagen",
+      "copenhague"
+     ]
+    }
+   ],
    "capital": "Copenhague",
+   "nota_capital": "Copenhaga (português europeu) ou Copenhague (português brasileiro) é a capital e a maior cidade da Dinamarca. Está situada na costa oriental da ilha da Zelândia, com uma parte menor na ilha adjacente de Amager, ambas banhadas pelas águas do sul do estreito de Øresund, tendo do outro lado do referido estreito a cidade sueca de Malmö.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Copenhaga",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 5822863,
    "adocao": "1748-01-01",
    "arquivo": "Flag of Denmark.svg",
@@ -1630,7 +2759,20 @@
     "republica da guine bissau"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3739",
+     "nome": "Bissau",
+     "apelidos": [
+      "bissau"
+     ]
+    }
+   ],
    "capital": "Bissau",
+   "nota_capital": "Bissau, oficialmente denominada Sector Autónomo de Bissau, é um sector autónomo e a capital e maior cidade da Guiné-Bissau, localizada no estuário do rio Geba, na costa atlântica.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Bissau",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1861283,
    "adocao": "1973-01-01",
    "arquivo": "Flag of Guinea-Bissau.svg",
@@ -1656,7 +2798,28 @@
     "umbuso weswatini"
    ],
    "continente": "África",
-   "capital": "Lobamba",
+   "capitais": [
+    {
+     "qid": "Q3904",
+     "nome": "Mbabane",
+     "apelidos": [
+      "mbabane",
+      "mebabane"
+     ]
+    },
+    {
+     "qid": "Q101418",
+     "nome": "Lobamba",
+     "apelidos": [
+      "lobamba"
+     ]
+    }
+   ],
+   "capital": "Mbabane",
+   "nota_capital": "Mebabane ou Mbabane é a capital de Essuatíni e do distrito de Hhohho e maior cidade do país. Localizada nas Montanhas Medimba, é o centro administrativo e comercial da região circundante. A sua população é estimada em 94 874 habitantes (2010).",
+   "link_capital": "https://pt.wikipedia.org/wiki/Mebabane",
+   "varias_capitais": "Mbabane é a capital administrativa; Lobamba é a sede do parlamento e da monarquia. As duas valem.",
+   "quase": [],
    "populacao": 1230506,
    "adocao": "1968-10-06",
    "arquivo": "Flag of Eswatini.svg",
@@ -1678,7 +2841,20 @@
     "republica federal da nigeria"
    ],
    "continente": "África",
-   "capital": null,
+   "capitais": [
+    {
+     "qid": "Q3787",
+     "nome": "Abuja",
+     "apelidos": [
+      "abuja"
+     ]
+    }
+   ],
+   "capital": "Abuja",
+   "nota_capital": "Abuja é a capital administrativa e política da Nigéria. Localizada no centro do país, no Território da Capital Federal, é uma cidade planejada construída principalmente na década de 1980 a partir de um plano diretor de um consórcio de três escritórios estadunidenses de planejamento e arquitetura. Já o Distrito Central de Negócios de Abuja foi projetado pelo arquiteto japonês Kenzo Tange.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Abuja",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 211400708,
    "adocao": "1960-10-01",
    "arquivo": "Flag of Nigeria.svg",
@@ -1700,7 +2876,20 @@
     "ilha do chipre"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q3856",
+     "nome": "Nicósia",
+     "apelidos": [
+      "nicosia"
+     ]
+    }
+   ],
    "capital": "Nicósia",
+   "nota_capital": "Nicósia, é a capital e maior cidade de Chipre. À margem do rio Pedieos e quase no centro da ilha, Nicósia é a sede do governo bem como o principal centro de negócios. É a capital do distrito homónimo.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Nic%C3%B3sia",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1344976,
    "adocao": "1960-08-16",
    "arquivo": "Flag of Cyprus.svg",
@@ -1724,7 +2913,12 @@
     "regiao administrativa especial de hong kong"
    ],
    "continente": "Ásia",
+   "capitais": [],
    "capital": null,
+   "nota_capital": null,
+   "link_capital": null,
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 7413070,
    "adocao": "1990-04-04",
    "arquivo": "Flag of Hong Kong.svg",
@@ -1745,7 +2939,29 @@
     "bolivia"
    ],
    "continente": "América do Sul",
+   "capitais": [
+    {
+     "qid": "Q2907",
+     "nome": "Sucre",
+     "apelidos": [
+      "sucre"
+     ]
+    },
+    {
+     "qid": "Q1491",
+     "nome": "La Paz",
+     "apelidos": [
+      "la paz",
+      "la paz bolivia",
+      "nuestra senora de la paz"
+     ]
+    }
+   ],
    "capital": "Sucre",
+   "nota_capital": "Sucre, pronunciado em castelhano: [ˈsukɾe]) é a capital constitucional da Bolívia e capital do departamento de Chuquisaca, além de ser também a 5.ª cidade mais populosa do país. Embora Sucre seja a capital boliviana de jure, a sede do governo localiza-se em La Paz, o que a torna capital de facto.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Sucre",
+   "varias_capitais": "Sucre é a capital constitucional e sede do Judiciário; La Paz é a sede do governo e do Congresso. As duas valem.",
+   "quase": [],
    "populacao": 12244159,
    "adocao": "1825-08-17",
    "arquivo": "Flag of Bolivia.svg",
@@ -1767,7 +2983,21 @@
     "republica da austria"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1741",
+     "nome": "Viena",
+     "apelidos": [
+      "viena",
+      "vienna"
+     ]
+    }
+   ],
    "capital": "Viena",
+   "nota_capital": "Viena ) é a capital da Áustria e um dos nove estados austríacos. Com mais de dois milhões de habitantes, em 2025, é a cidade mais populosa da Áustria contando, ainda, com 2,9 milhões de habitantes em sua região metropolitana — o que equivale a cerca de um quarto da população total do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Viena",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 8979894,
    "adocao": "1918-01-01",
    "arquivo": "Flag of Austria.svg",
@@ -1790,7 +3020,20 @@
     "qatar"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q3861",
+     "nome": "Doha",
+     "apelidos": [
+      "doha"
+     ]
+    }
+   ],
    "capital": "Doha",
+   "nota_capital": "Doha ou Doa é a capital e a cidade mais populosa do Emirado do Catar. Doha tem uma população de 956 457 habitantes na cidade em si, com uma população total próxima a 2,3 milhão. A cidade está localizada na costa do Golfo Pérsico, no leste do país. É a cidade que mais cresce no Catar, com mais de 50% da população do país vivendo em Doha ou nos arredores e é também o centro econômico do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Doha",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 2639211,
    "adocao": "1971-07-09",
    "arquivo": "Flag of Qatar.svg",
@@ -1811,7 +3054,20 @@
     "peru"
    ],
    "continente": "América do Sul",
+   "capitais": [
+    {
+     "qid": "Q2868",
+     "nome": "Lima",
+     "apelidos": [
+      "lima"
+     ]
+    }
+   ],
    "capital": "Lima",
+   "nota_capital": "Lima é a capital e a maior cidade do Peru. Localiza-se nos vales dos rios Chillón, Rímac e Lurín, na parte central do litoral peruano, com vista para o Oceano Pacífico.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Lima",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 34157732,
    "adocao": "1825-02-25",
    "arquivo": "Flag of Peru.svg",
@@ -1832,7 +3088,25 @@
     "jamaica"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q34692",
+     "nome": "Kingston",
+     "apelidos": [
+      "capital de jamaica",
+      "kingston"
+     ],
+     "ambigua": [
+      "JM",
+      "NF"
+     ]
+    }
+   ],
    "capital": "Kingston",
+   "nota_capital": "Kingston é a capital e maior cidade da Jamaica e está localizada na costa sudeste do país. Ela possui uma proteção natural conhecida como Palisade, um longo cordão litoral que conecta o Port Royal e o Norman Manley International Airport para o resto da ilha. Nas Américas, Kingston é a cidade com o maior número de falantes da língua inglesa a sul dos Estados Unidos.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Kingston",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 2697983,
    "adocao": "1962-08-06",
    "arquivo": "Flag of Jamaica.svg",
@@ -1854,7 +3128,21 @@
     "republica do equador"
    ],
    "continente": "América do Sul",
+   "capitais": [
+    {
+     "qid": "Q2900",
+     "nome": "Quito",
+     "apelidos": [
+      "quito",
+      "quito equador"
+     ]
+    }
+   ],
    "capital": "Quito",
+   "nota_capital": "Quito, originalmente São Francisco de Quito, é a capital e a segunda cidade mais populosa do Equador, localizada no noroeste da América do Sul. A partir de 2008 também passou a ser a capital da Unasul. Situa-se ao norte do Equador na bacia do rio Guayllabamba nas inclinações orientais do Pichincha (4 794 metros), um vulcão ativo na cordilheira dos Andes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Quito",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 16938986,
    "adocao": "1830-01-01",
    "arquivo": "Flag of Ecuador.svg",
@@ -1876,7 +3164,21 @@
     "republica helenica"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1524",
+     "nome": "Atenas",
+     "apelidos": [
+      "atenas",
+      "athens"
+     ]
+    }
+   ],
    "capital": "Atenas",
+   "nota_capital": "Atenas ; em grego antigo: Ἀθῆναι, transl.: Athēnai) é a capital e a maior cidade da Grécia. A cidade domina a região da Ática e é uma das cidades mais antigas do mundo, sendo que seu território está continuamente habitado há 3 400 anos. A Atenas Clássica, do período da Grécia Antiga, foi uma poderosa pólis (cidade-Estado) que surgiu em conjunto com o desenvolvimento do porto de Pireu.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Atenas",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 10482487,
    "adocao": "1822-03-27",
    "arquivo": "Flag of Greece.svg",
@@ -1898,7 +3200,21 @@
     "republica da indonesia"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q3630",
+     "nome": "Jacarta",
+     "apelidos": [
+      "jacarta",
+      "jakarta"
+     ]
+    }
+   ],
    "capital": "Jacarta",
+   "nota_capital": "Jacarta é a capital e maior cidade da Indonésia. Situa-se na ilha de Java e conta com cerca de 35,93 milhões de habitantes na sua área metropolitana, sendo a segunda maior cidade do mundo, atrás de Tóquio. Foi fundada em 1619 pelos neerlandeses com o nome de Batávia, junto à aldeia javanesa de Jacarta. Foi ocupada pelos ingleses entre 1811 e 1814. Tomou o nome actual em 1949.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Jacarta",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 275439000,
    "adocao": "1945-08-17",
    "arquivo": "Flag of Indonesia.svg",
@@ -1926,7 +3242,20 @@
     "republica da irlanda"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1761",
+     "nome": "Dublin",
+     "apelidos": [
+      "dublin"
+     ]
+    }
+   ],
    "capital": "Dublin",
+   "nota_capital": "Dublin ou, em língua portuguesa, Dublim é a capital e maior cidade da Irlanda. O nome em inglês deriva da palavra irlandesa \"Dubhlinn\", que significa \"Lago Negro\". Localiza-se na província de Leinster próxima ao ponto mediano da costa leste da Irlanda, sendo cortada pelo Rio Liffey e o centro da região de Dublin. Desde 1898 possui nível administrativo de condado (county-boroughs).",
+   "link_capital": "https://pt.wikipedia.org/wiki/Dublin",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 5149139,
    "adocao": "1922-01-01",
    "arquivo": "Flag of Ireland.svg",
@@ -1949,7 +3278,20 @@
     "principado de liechtenstein"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1844",
+     "nome": "Vaduz",
+     "apelidos": [
+      "vaduz"
+     ]
+    }
+   ],
    "capital": "Vaduz",
+   "nota_capital": "Vaduz é a capital do Principado de Liechtenstein.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Vaduz",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 37922,
    "adocao": "1921-10-01",
    "arquivo": "Flag of Liechtenstein.svg",
@@ -1973,7 +3315,21 @@
     "xkx"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q25270",
+     "nome": "Pristina",
+     "apelidos": [
+      "prishtine",
+      "pristina"
+     ]
+    }
+   ],
    "capital": "Pristina",
+   "nota_capital": "Pristina é a capital e maior cidade da República do Kosovo. Para os países que não reconhecem a independência do Kosovo, Pristina é de jure parte da Sérvia e capital da Província Autônoma de Kosovo e Metóquia. É o centro administrativo do conselho e distrito homónimos.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Pristina",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1586659,
    "adocao": "2008-02-17",
    "arquivo": "Flag of Kosovo.svg",
@@ -1994,7 +3350,22 @@
     "tailandia"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q1861",
+     "nome": "Bancoque",
+     "apelidos": [
+      "bancoque",
+      "bangkok",
+      "banguecoque"
+     ]
+    }
+   ],
    "capital": "Bancoque",
+   "nota_capital": "Banguecoque, Bangkok, ou Bancoc é a capital e cidade mais populosa da Tailândia, além de principal centro financeiro, corporativo, mercantil, cultural e histórico do país. É a décima cidade mais populosa da Ásia e a vigésima quarta mais populosa do mundo.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Banguecoque",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 66188503,
    "adocao": "1917-09-28",
    "arquivo": "Flag of Thailand.svg",
@@ -2016,7 +3387,21 @@
     "republica de el salvador"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q3110",
+     "nome": "San Salvador",
+     "apelidos": [
+      "san salvador",
+      "sao salvador"
+     ]
+    }
+   ],
    "capital": "San Salvador",
+   "nota_capital": "São Salvador, ou, em espanhol, San Salvador, é a capital e a maior cidade de El Salvador. Como capital da nação, a cidade abriga a sede do Governo e do Conselho de Ministros de El Salvador, a Assembleia Legislativa de El Salvador, a Suprema Corte de Justiça e outras instituições e agências do Estado, bem como a residência oficial do Presidente da República.",
+   "link_capital": "https://pt.wikipedia.org/wiki/San_Salvador",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 6029976,
    "adocao": "1912-05-27",
    "arquivo": "Flag of El Salvador.svg",
@@ -2037,7 +3422,21 @@
     "georgia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q994",
+     "nome": "Tiblíssi",
+     "apelidos": [
+      "tbilisi",
+      "tiblissi"
+     ]
+    }
+   ],
    "capital": "Tiblíssi",
+   "nota_capital": "Tiblíssi ou Tbilísi ), antigamente mais conhecida por seu nome russo, Tíflis, é a capital e a maior cidade da Geórgia. Situada às margens do rio Cura, sua área é de 726 km², e sua população, de 1 152 500 habitantes. Como capital e cidade mais populosa do país, é o principal centro financeiro, corporativo, mercantil e cultural da Geórgia.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Tibl%C3%ADssi",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 3929581,
    "adocao": "2004-01-24",
    "arquivo": "Flag of Georgia.svg",
@@ -2059,7 +3458,12 @@
     "raem"
    ],
    "continente": "Ásia",
+   "capitais": [],
    "capital": null,
+   "nota_capital": null,
+   "link_capital": null,
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 682100,
    "adocao": "1993-03-31",
    "arquivo": "Flag of Macau.svg",
@@ -2083,7 +3487,21 @@
     "sao tome principe"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3932",
+     "nome": "São Tomé",
+     "apelidos": [
+      "sao tome",
+      "sao tome sao tome e principe"
+     ]
+    }
+   ],
    "capital": "São Tomé",
+   "nota_capital": "São Tomé é a capital e maior cidade de São Tomé e Príncipe, na África Ocidental, capital do distrito de Água Grande, um dos sete em que o país está dividido. Sua população estimada em 2008 era de 56.945 habitantes. A cidade está localizada na costa nordeste da Ilha de São Tomé, no Oceano Atlântico.",
+   "link_capital": "https://pt.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_(S%C3%A3o_Tom%C3%A9_e_Pr%C3%ADncipe)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 204327,
    "adocao": "1975-11-05",
    "arquivo": "Flag of São Tomé and Príncipe.svg",
@@ -2107,7 +3525,23 @@
     "principat d andorra"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1863",
+     "nome": "Andorra-a-Velha",
+     "apelidos": [
+      "andorra a velha",
+      "andorra la vella",
+      "cidade de andorra",
+      "vila de andorra"
+     ]
+    }
+   ],
    "capital": "Andorra-a-Velha",
+   "nota_capital": "Andorra-a-Velha, é a capital e a mais populosa cidade do Principado de Andorra, pequeno país europeu situado entre a França e a Espanha. Com uma população de 19 383 habitantes, recebe mais de 10 milhões de turistas anualmente. Situada a 1 023 metros de altitude, é um importante destino turístico nos Pirenéus e a capital mais alta da Europa.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Andorra-a-Velha",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 89752,
    "adocao": "1971-08-27",
    "arquivo": "Flag of Andorra.svg",
@@ -2131,7 +3565,21 @@
     "burquina fasso"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3777",
+     "nome": "Uagadugu",
+     "apelidos": [
+      "ouagadougou",
+      "uagadugu"
+     ]
+    }
+   ],
    "capital": "Uagadugu",
+   "nota_capital": "Uagadugu é a capital e maior cidade do Burquina Fasso, situando-se na província de Kadiogo e contando com cerca de 1,4 milhão de habitantes. Trata-se de uma cidade muito antiga, que foi o centro do estado mossi nos séculos XIV e XV e que foi ocupada pelos franceses, em 1896. Tornou-se capital do Alto Volta entre os anos de 1919 e 1932 e de Burquina Fasso desde que este país mudou o nome, em 1984.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Uagadugu",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 23025776,
    "adocao": "1984-08-04",
    "arquivo": "Flag of Burkina Faso.svg",
@@ -2153,7 +3601,23 @@
     "republica da guine equatorial"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q1140136",
+     "nome": "Ciudad de la Paz",
+     "apelidos": [
+      "cidade da paz",
+      "ciudad de la paz",
+      "djibloho",
+      "oyala"
+     ]
+    }
+   ],
    "capital": "Ciudad de la Paz",
+   "nota_capital": "Cidade da Paz é uma cidade da Guiné Equatorial que em janeiro de 2026 substituiu Malabo como a capital nacional. Estabelecida como um distrito urbano em Wele-Nzas em 2015, é agora a sede administrativa de Djibloho, a mais nova província da Guiné Equatorial criada em 2017, e está localizada perto da cidade de Mengomeyén. Em 2017, a cidade foi oficialmente renomeada para Cidade da Paz.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Cidade_da_Paz",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1847549,
    "adocao": "1979-08-21",
    "arquivo": "Flag of Equatorial Guinea.svg",
@@ -2175,7 +3639,20 @@
     "republica da albania"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q19689",
+     "nome": "Tirana",
+     "apelidos": [
+      "tirana"
+     ]
+    }
+   ],
    "capital": "Tirana",
+   "nota_capital": "Tirana é a capital e maior cidade da República da Albânia. Foi fundada em 1614 por Solimão Paxá e tornou-se capital do país em 1920. Tirana é também a capital do distrito de Tirana e da prefeitura de Tirana. O município de Tirana é delimitado a norte pela serra de Kamza, a leste pelo Monte Dajt, a oeste pela serra do Vaqarr e Yzberisht e ao sul pelas colinas de Krrabë e Sauk.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Tirana",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 2811655,
    "adocao": "1992-04-07",
    "arquivo": "Flag of Albania.svg",
@@ -2197,7 +3674,23 @@
     "republica do panama"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q3306",
+     "nome": "Cidade do Panamá",
+     "apelidos": [
+      "cidade do panama",
+      "ciudad de panama",
+      "panama",
+      "panama city"
+     ]
+    }
+   ],
    "capital": "Cidade do Panamá",
+   "nota_capital": "Cidade do Panamá é a capital, cidade mais populosa, e o principal centro financeiro, corporativo, cultural e econômico do Panamá. Sua população, de acordo com dados de 2010, é de 880 691 habitantes, com uma população total de 1 272 672 habitantes em sua região metropolitana. Situa-se no Canal do Panamá, no Oceano Pacífico, na província do Panamá.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Cidade_do_Panam%C3%A1",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 4570133,
    "adocao": "1925-03-25",
    "arquivo": "Flag of Panama.svg",
@@ -2219,7 +3712,21 @@
     "republica do cazaquistao"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1520",
+     "nome": "Astana",
+     "apelidos": [
+      "astana",
+      "nur sulta"
+     ]
+    }
+   ],
    "capital": "Astana",
+   "nota_capital": "Astana ) é a capital do Cazaquistão. Conhecida até 1998 como Aqmola, foi rebatizada em 2019 para Nur-Sultã, mas voltou a ser renomeada para seu nome anterior, Astana, em 2022. Ela está localizada ao longo do rio Ishim no norte do país, na região Aqmola, embora seja administrada separadamente como uma entidade independente.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Astana",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 20139914,
    "adocao": "1992-06-04",
    "arquivo": "Flag of Kazakhstan.svg",
@@ -2243,7 +3750,21 @@
     "ukrainia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1899",
+     "nome": "Kiev",
+     "apelidos": [
+      "kiev",
+      "kyiv"
+     ]
+    }
+   ],
    "capital": "Kiev",
+   "nota_capital": "Kiev ou Kyiv, também conhecida como Quieve, ) é a capital e a cidade mais populosa da Ucrânia. Fica no centro-norte do país, ao longo do rio Dnieper. Em 1.º de janeiro de 2021, sua população era de 2 962 180 habitantes, tornando Kiev a sétima cidade mais populosa da Europa.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Kiev",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 41167335,
    "adocao": "1992-01-28",
    "arquivo": "Flag of Ukraine.svg",
@@ -2264,7 +3785,23 @@
     "islandia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1764",
+     "nome": "Reykjavík",
+     "apelidos": [
+      "reiquejavique",
+      "reiquiavique",
+      "reykjavik",
+      "reykjavikurborg"
+     ]
+    }
+   ],
    "capital": "Reykjavík",
+   "nota_capital": "Reiquiavique ou Reykjavík é a capital da Islândia e, pela sua posição, é também a capital mais setentrional do mundo. Com uma população de 135 700 habitantes e de 243 000 na Região da Capital (2024), é o coração da atividade cultural, econômica e governamental da Islândia, e um destino turístico popular.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Reiquiavique",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 364260,
    "adocao": "1944-01-01",
    "arquivo": "Flag of Iceland.svg",
@@ -2286,7 +3823,21 @@
     "republica democratica federal da etiopia"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3624",
+     "nome": "Adis Abeba",
+     "apelidos": [
+      "addis ababa",
+      "adis abeba"
+     ]
+    }
+   ],
    "capital": "Adis Abeba",
+   "nota_capital": "Adis Abeba é a capital e a maior cidade da Etiópia, sede da União Africana. Com uma população estimada de 4.000.000 de habitantes em 2017, é a décima primeira maior cidade da África. Sendo uma cidade multicultural, contem até 80 nacionalidades e línguas diferentes, como também comunidades cristãs, muçulmanas e judias. Situa-se no centro da Etiópia a uma altitude de aproximada de 2 440 metros.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Adis_Abeba",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 128691692,
    "adocao": "1778-10-31",
    "arquivo": "Flag of Ethiopia.svg",
@@ -2308,7 +3859,20 @@
     "republica das filipinas"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q1461",
+     "nome": "Manila",
+     "apelidos": [
+      "manila"
+     ]
+    }
+   ],
    "capital": "Manila",
+   "nota_capital": "Manila é a capital das Filipinas e a segunda cidade do país em número de habitantes. A cidade está situada na costa oriental da baía de Manila, junto à desembocadura do rio Pasig, na ilha de Luzon.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Manila",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 112729484,
    "adocao": "1898-06-12",
    "arquivo": "Flag of the Philippines.svg",
@@ -2331,7 +3895,25 @@
     "republica da armenia"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q1953",
+     "nome": "Erevan",
+     "apelidos": [
+      "ereva",
+      "erevan",
+      "erivan",
+      "iereva",
+      "ierevan",
+      "yerevan"
+     ]
+    }
+   ],
    "capital": "Erevan",
+   "nota_capital": "Erevã é a capital e maior cidade da Armênia, além de uma das cidades mais antigas continuamente habitadas do mundo. Localizada ao longo do rio Razdã, Erevã é o centro administrativo, cultural, e industrial do país. É a capital desde 1918, a décima terceira da história da Armênia, e a sétima localizada dentro ou em volta da planície de Ararate.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Erev%C3%A3",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 2930450,
    "adocao": "1990-08-24",
    "arquivo": "Flag of Armenia.svg",
@@ -2353,7 +3935,20 @@
     "suriname"
    ],
    "continente": "América do Sul",
+   "capitais": [
+    {
+     "qid": "Q3001",
+     "nome": "Paramaribo",
+     "apelidos": [
+      "paramaribo"
+     ]
+    }
+   ],
    "capital": "Paramaribo",
+   "nota_capital": "Paramaribo é a capital e maior cidade do Suriname. Com uma população de cerca de 250 mil habitantes, a cidade está localizada às margens do rio Suriname, 5°52' Norte e 55°10' Oeste, distando aproximadamente 15 km do Oceano Atlântico. Bauxita, cana-de-açúcar, arroz, cacau, café, rum, e madeiras tropicais são exportados de Paramaribo. A cidade também manufatura cimento, tinta e cerveja.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Paramaribo",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 563402,
    "adocao": "1975-11-25",
    "arquivo": "Flag of Suriname.svg",
@@ -2375,7 +3970,23 @@
     "republica do iraque"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q1530",
+     "nome": "Bagdá",
+     "apelidos": [
+      "bagda",
+      "bagdade",
+      "baghdad",
+      "baguedade"
+     ]
+    }
+   ],
    "capital": "Bagdá",
+   "nota_capital": "Bagdá (português brasileiro) ou Bagdade (português europeu) ou Baguedade ou Bagdad é a capital do Iraque e da província homônima. Com uma população de 8 milhões de habitantes, é a maior cidade do país. A sua área metropolitana conta com cerca de 9 milhões de habitantes. Bagdá também é a segunda maior cidade do Sudoeste Asiático, depois de Teerã.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Bagd%C3%A1",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 38274618,
    "adocao": "2008-01-22",
    "arquivo": "Flag of Iraq.svg",
@@ -2397,7 +4008,22 @@
     "republica da finlandia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1757",
+     "nome": "Helsinque",
+     "apelidos": [
+      "helsinki",
+      "helsinque",
+      "helsinquia"
+     ]
+    }
+   ],
    "capital": "Helsinque",
+   "nota_capital": "Helsínquia (português europeu) ou Helsinque (português brasileiro), com mais de 620 mil habitantes, é a capital da República da Finlândia e a maior cidade do país. É conhecida como a ”Filha do Mar Báltico” ou ”A cidade branca do Norte”.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Hels%C3%ADnquia",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 5652881,
    "adocao": "1918-05-29",
    "arquivo": "Flag of Finland.svg",
@@ -2419,7 +4045,21 @@
     "siria"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q3766",
+     "nome": "Damasco",
+     "apelidos": [
+      "damasco",
+      "damascus"
+     ]
+    }
+   ],
    "capital": "Damasco",
+   "nota_capital": "Damasco é a capital da Síria, e um dos 14 distritos do país. O distrito de Damasco é administrado por um governador indicado pelo Ministro do Interior. É uma das cidades mais antigas habitada continuamente no mundo, sendo a capital do país mais antiga no mundo. Damasco é, ainda, um dos principais centros culturais e religiosos do Levante.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Damasco",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 23865423,
    "adocao": "2024-12-08",
    "arquivo": "Flag of Syria (2025-).svg",
@@ -2441,7 +4081,21 @@
     "tunisia"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3572",
+     "nome": "Túnis",
+     "apelidos": [
+      "tunes",
+      "tunis"
+     ]
+    }
+   ],
    "capital": "Túnis",
+   "nota_capital": "Tunes (português europeu) ou Túnis (português brasileiro) é a capital da Tunísia e da província (gouvernorat) homónima. Em 2004, o município do centro da cidade tinha 728 453 habitantes, a província cerca de um milhão e estimava-se que a região metropolitana tivesse cerca de dois milhões de habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Tunes",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 11565204,
    "adocao": "1831-01-01",
    "arquivo": "Flag of Tunisia.svg",
@@ -2463,7 +4117,20 @@
     "timor leste"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q9310",
+     "nome": "Díli",
+     "apelidos": [
+      "dili"
+     ]
+    }
+   ],
    "capital": "Díli",
+   "nota_capital": "Díli é a capital de Timor-Leste, sede do município homónimo e de um dos três bispados do país: a Diocese de Díli. Situa-se na costa norte da ilha de Timor, a mais oriental das Pequenas Ilhas da Sonda.",
+   "link_capital": "https://pt.wikipedia.org/wiki/D%C3%ADli",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1400638,
    "adocao": "1975-11-28",
    "arquivo": "Flag of East Timor.svg",
@@ -2490,7 +4157,20 @@
     "vnm"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q1858",
+     "nome": "Hanói",
+     "apelidos": [
+      "hanoi"
+     ]
+    }
+   ],
    "capital": "Hanói",
+   "nota_capital": "Hanói é a capital e segunda maior cidade do Vietnã. Situa-se no centro da planície do delta do rio Vermelho, a 88 km das costas do golfo de Tonquim, onde está o seu anteporto, Hai Phong.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Han%C3%B3i",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 96208984,
    "adocao": "1955-11-30",
    "arquivo": "Flag of Vietnam.svg",
@@ -2513,7 +4193,21 @@
     "republica da guiana"
    ],
    "continente": "América do Sul",
+   "capitais": [
+    {
+     "qid": "Q10717",
+     "nome": "Georgetown",
+     "apelidos": [
+      "georgetown",
+      "georgetown guiana"
+     ]
+    }
+   ],
    "capital": "Georgetown",
+   "nota_capital": "Georgetown é a capital e maior cidade da Guiana. É o centro cultural e político-econômico do país, com uma população estimada de 300 360 habitantes (2010). Localiza-se na costa do Oceano Atlântico, na foz do Rio Demerara, nas coordenadas 6°47' N e 58°10' O.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Georgetown_(Guiana)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 878674,
    "adocao": "1966-05-26",
    "arquivo": "Flag of Guyana.svg",
@@ -2534,7 +4228,22 @@
     "republica dominicana"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q34820",
+     "nome": "São Domingos",
+     "apelidos": [
+      "santo domingo",
+      "sao domingos",
+      "sao domingos republica dominicana"
+     ]
+    }
+   ],
    "capital": "São Domingos",
+   "nota_capital": "São Domingos é a capital e maior cidade da República Dominicana. Encontra-se a 18°29′N 69°55′W, na foz do rio Ozama, e é banhada pelo mar do Caribe. Sua população conta 2 253 437 habitantes (2006).",
+   "link_capital": "https://pt.wikipedia.org/wiki/S%C3%A3o_Domingos_(Rep%C3%BAblica_Dominicana)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 10760028,
    "adocao": "1862-11-06",
    "arquivo": "Flag of the Dominican Republic.svg",
@@ -2556,7 +4265,21 @@
     "republica do azerbaijao"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q9248",
+     "nome": "Baku",
+     "apelidos": [
+      "bacu",
+      "baku"
+     ]
+    }
+   ],
    "capital": "Baku",
+   "nota_capital": "Bacu ou Baku é a capital do Azerbaijão, sendo a sua maior cidade, e seu maior porto. Localizada às margens do Mar Cáspio, na margem sul da península de Absheron, Bacu está 28 metros abaixo do nível do mar, o que a torna a capital nacional mais baixa do mundo e também a maior cidade do mundo abaixo do nível do mar.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Bacu",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 10180770,
    "adocao": "1918-11-09",
    "arquivo": "Flag of Azerbaijan.svg",
@@ -2577,7 +4300,22 @@
     "romenia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q19660",
+     "nome": "Bucareste",
+     "apelidos": [
+      "bucareste",
+      "bucharest",
+      "bucuresti"
+     ]
+    }
+   ],
    "capital": "Bucareste",
+   "nota_capital": "Bucareste ) é a capital e maior cidade da Roménia. Além de capital oficial, é também a capital cultural, industrial e financeira do país. Está localizada na parte sudeste da Roménia, na região histórica da Munténia, nas margens do rio Dâmbovița, cerca de 60 km a norte do rio Danúbio e da fronteira com a Bulgária.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Bucareste",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 19053815,
    "adocao": "1848-06-26",
    "arquivo": "Flag of Romania.svg",
@@ -2603,7 +4341,21 @@
     "jordania"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q3805",
+     "nome": "Amã",
+     "apelidos": [
+      "ama",
+      "amman"
+     ]
+    }
+   ],
    "capital": "Amã",
+   "nota_capital": "Amã é a capital e a maior cidade do Reino Hachemita da Jordânia. A cidade tem quatro milhões de habitantes, sendo o centro de decisões políticas, culturais e comerciais do país. Amã é uma das mais antigas cidades continuamente habitadas do mundo. Amã também é a sede administrativa da governadoria homônima.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Am%C3%A3",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 10428241,
    "adocao": "1928-04-16",
    "arquivo": "Flag of Jordan.svg",
@@ -2634,7 +4386,21 @@
     "ilhas feroes"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q10704",
+     "nome": "Tórshavn",
+     "apelidos": [
+      "thorshavn",
+      "torshavn"
+     ]
+    }
+   ],
    "capital": "Tórshavn",
+   "nota_capital": "Tórshavn é a capital das Ilhas Feroe, um território autónomo da coroa dinamarquesa.",
+   "link_capital": "https://pt.wikipedia.org/wiki/T%C3%B3rshavn",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 54149,
    "adocao": "1940-04-25",
    "arquivo": "Flag of the Faroe Islands.svg",
@@ -2661,7 +4427,26 @@
     "vaticano"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q237",
+     "nome": "Vaticano",
+     "apelidos": [
+      "cidade do vaticano",
+      "estado da cidade do vaticano",
+      "estado do vaticano",
+      "estado pontificio",
+      "stato della citta del vaticano",
+      "vatican city",
+      "vaticano"
+     ]
+    }
+   ],
    "capital": "Vaticano",
+   "nota_capital": "Vaticano ou Cidade do Vaticano, oficialmente Estado da Cidade do Vaticano, é a sede da Igreja Católica e uma cidade-Estado soberana sem costa marítima, cujo território consiste de um enclave murado dentro da cidade de Roma, capital da Itália, da qual historicamente fazia parte.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Vaticano",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 882,
    "adocao": "1929-06-07",
    "arquivo": "Flag of Vatican City (2023–present).svg",
@@ -2682,7 +4467,25 @@
     "montenegro"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q23564",
+     "nome": "Podgorica",
+     "apelidos": [
+      "birziminium",
+      "podegorica",
+      "podgorica",
+      "podgoritsa",
+      "podgoritza",
+      "ribnica"
+     ]
+    }
+   ],
    "capital": "Podgorica",
+   "nota_capital": "Podgoriza, Podgoritza ou Podgorica, é a capital de Montenegro, país do sudeste europeu, nos Bálcãs. É também capital do municipalidade de Podgoriza.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Podgoritza",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 617213,
    "adocao": "2004-07-13",
    "arquivo": "Flag of Montenegro.svg",
@@ -2704,7 +4507,20 @@
     "republica da bulgaria"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q472",
+     "nome": "Sófia",
+     "apelidos": [
+      "sofia"
+     ]
+    }
+   ],
    "capital": "Sófia",
+   "nota_capital": "Sófia ) é a capital e maior cidade da Bulgária. Localiza-se no oeste do país, aos pés do Maciço Vitosha, e constitui o principal centro administrativo, cultural, econômico e educacional búlgaro. A cidade possui população de 1 401 553 habitantes (2009), enquanto sua região metropolitana abriga cerca de 1 449 277 habitantes, sendo uma das maiores áreas urbanas da União Europeia.",
+   "link_capital": "https://pt.wikipedia.org/wiki/S%C3%B3fia",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 6423207,
    "adocao": "1879-04-16",
    "arquivo": "Flag of Bulgaria.svg",
@@ -2728,7 +4544,25 @@
     "turquemenistao"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q23438",
+     "nome": "Asgabate",
+     "apelidos": [
+      "achgabad",
+      "ascabade",
+      "asgabade",
+      "asgabate",
+      "ashgabat",
+      "ashkabad"
+     ]
+    }
+   ],
    "capital": "Asgabate",
+   "nota_capital": "Asgabade, Asgabate, ou Ascabade é a capital política e maior cidade do Turcomenistão desde a Dissolução da União Soviética.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Asgabade",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 6117933,
    "adocao": "1992-02-19",
    "arquivo": "Flag of Turkmenistan.svg",
@@ -2749,7 +4583,21 @@
     "sudao"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q1963",
+     "nome": "Cartum",
+     "apelidos": [
+      "cartum",
+      "khartoum"
+     ]
+    }
+   ],
    "capital": "Cartum",
+   "nota_capital": "Cartum é a capital do Sudão e a segunda maior cidade do país, com população de 1 410 858 habitantes de acordo com o censo de 2008. Abriga um porto fluvial na confluência do Nilo Azul com o Nilo Branco, na zona leste-central do país. Foi fundada pelos egípcios em 1821 e ainda hoje é marcada pela pobreza, com exceção de raras áreas exclusivas.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Cartum",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 40533330,
    "adocao": "1970-05-20",
    "arquivo": "Flag of Sudan.svg",
@@ -2771,7 +4619,22 @@
     "somalia"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q2449",
+     "nome": "Mogadíscio",
+     "apelidos": [
+      "mogadiscio",
+      "mogadishu",
+      "mogadixo"
+     ]
+    }
+   ],
    "capital": "Mogadíscio",
+   "nota_capital": "Mogadíscio ou Mogadixo é a capital e maior cidade da Somália. Localiza-se na costa do Oceano Índico. Tem aproximadamente 2,4 milhões a 4,1 milhões de habitantes de habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Mogad%C3%ADscio",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 11031386,
    "adocao": "1960-10-01",
    "arquivo": "Flag of Somalia.svg",
@@ -2793,7 +4656,21 @@
     "republica do mali"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3703",
+     "nome": "Bamaco",
+     "apelidos": [
+      "bamaco",
+      "bamako"
+     ]
+    }
+   ],
    "capital": "Bamaco",
+   "nota_capital": "Bamaco é a capital e maior cidade do Mali. Localiza-se nas margens do rio Níger, junto as corredeiras que dividem os vales do Alto e Médio Níger, no sudoeste do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Bamaco",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 22395489,
    "adocao": "1961-03-01",
    "arquivo": "Flag of Mali.svg",
@@ -2817,7 +4694,20 @@
     "republica da bielorrussia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q2280",
+     "nome": "Minsk",
+     "apelidos": [
+      "minsk"
+     ]
+    }
+   ],
    "capital": "Minsk",
+   "nota_capital": "Minsk ou, na sua forma aportuguesada, Minsque é uma cidade da Bielorrússia, capital e maior cidade do país e sede da Comunidade de Estados Independentes (CEI). Como capital, Minsk tem estatuto administrativo especial, além de ser também a capital do voblast (província) de Minsk. A cidade está situada junto aos rios Svislach e Niamiha, a 53°55′ N 27°33′ E.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Minsk",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 9056080,
    "adocao": "1995-06-07",
    "arquivo": "Flag of Belarus.svg",
@@ -2838,7 +4728,22 @@
     "mauritania"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3688",
+     "nome": "Nouakchott",
+     "apelidos": [
+      "nouakchott",
+      "nuaquechote",
+      "nuaquexote"
+     ]
+    }
+   ],
    "capital": "Nouakchott",
+   "nota_capital": "Nouakchott, Nuaquexote ou Nuaquechote é a capital e maior cidade da Mauritânia. Sendo englobada pelo distrito da capital, não faz parte de qualquer das regiões da Mauritânia. Com uma população estimada em 958 400 habitantes, é uma das maiores cidades situadas dentro do deserto do Saara.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Nouakchott",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 4736139,
    "adocao": "2017-08-15",
    "arquivo": "Flag of Mauritania.svg",
@@ -2862,7 +4767,25 @@
     "republica moldova"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q21197",
+     "nome": "Chişinău",
+     "apelidos": [
+      "chisinau",
+      "kishinev",
+      "quichinau",
+      "quichineve",
+      "quisinau",
+      "quixinau"
+     ]
+    }
+   ],
    "capital": "Chişinău",
+   "nota_capital": "Quixinau, Quichinau, Chisinau ou ainda na antiga grafia russófila Quixineve ; em russo: Кишинёв, Kishinyov, sendo também usual a transliteração para inglês Kishinev) é a capital e a maior cidade da Moldávia. É também considerada uma das capitais mais arborizadas da Europa, localizada no centro geográfico do país, às margens do rio Bîc.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Quixinau",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 2409207,
    "adocao": "1990-11-06",
    "arquivo": "Flag of Moldova.svg",
@@ -2884,7 +4807,29 @@
     "tanzania"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3866",
+     "nome": "Dodoma",
+     "apelidos": [
+      "cidade de dodoma",
+      "dodoma"
+     ]
+    }
+   ],
    "capital": "Dodoma",
+   "nota_capital": "Dodoma é capital da Tanzânia e da Região de Dodoma. O distrito da capital tem uma superfície de 2576 km² e uma população de 410 956.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Dodoma",
+   "varias_capitais": null,
+   "quase": [
+    {
+     "nome": "Dar es Salaam",
+     "apelidos": [
+      "dar es salaam"
+     ],
+     "explica": "Dodoma é a capital oficial desde 1996; boa parte do governo e das embaixadas ficou em Dar es Salaam."
+    }
+   ],
    "populacao": 57310019,
    "adocao": "1964-06-30",
    "arquivo": "Flag of Tanzania.svg",
@@ -2906,7 +4851,22 @@
     "trinidad e tobago"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q39178",
+     "nome": "Port of Spain",
+     "apelidos": [
+      "port of spain",
+      "porto da espanha",
+      "porto de espanha"
+     ]
+    }
+   ],
    "capital": "Port of Spain",
+   "nota_capital": "Port of Spain, Porto da Espanha, ou Porto de Espanha, é a capital de Trindade e Tobago e a terceira maior cidade do país em população, após Chaguanas e San Fernando. A cidade tem uma população municipal de 37 074 (2011), uma população urbana de 81 142 e uma população diária transitória de 250 000 pessoas.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Port_of_Spain",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1369125,
    "adocao": "1962-08-31",
    "arquivo": "Flag of Trinidad and Tobago.svg",
@@ -2927,7 +4887,29 @@
     "malasia"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q1865",
+     "nome": "Kuala Lumpur",
+     "apelidos": [
+      "kl territorio federal de kuala lumpur k l",
+      "kuala lumpur"
+     ]
+    },
+    {
+     "qid": "Q182378",
+     "nome": "Putrajaya",
+     "apelidos": [
+      "putrajaia",
+      "putrajaya"
+     ]
+    }
+   ],
    "capital": "Kuala Lumpur",
+   "nota_capital": "Kuala Lumpur, também grafada como Cuala Lumpur, Quala Lumpur ou Cualalampur, é a capital e a maior cidade da Malásia. Ocupa uma área de 244 quilômetros quadrados e tem população estimada de 1,6 milhões de habitantes em 2006. A Grande Kuala Lumpur, também conhecida como Vale Kelang, é uma aglomeração urbana com 7,2 milhões de pessoas.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Kuala_Lumpur",
+   "varias_capitais": "Kuala Lumpur é a capital oficial, onde ficam o rei e o parlamento; Putrajaya é a capital administrativa, pra onde o governo federal se mudou em 1999. As duas valem.",
+   "quase": [],
    "populacao": 34231700,
    "adocao": "1963-09-16",
    "arquivo": "Flag of Malaysia.svg",
@@ -2949,7 +4931,22 @@
     "mongolia"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q23430",
+     "nome": "Ulan Bator",
+     "apelidos": [
+      "ula bator",
+      "ulaanbaatar",
+      "ulan bator"
+     ]
+    }
+   ],
    "capital": "Ulan Bator",
+   "nota_capital": "Ulã Bator ou Ulan Bator é a capital e a maior cidade da Mongólia. Tem cerca de 1,3 milhão de habitantes, segundo números oficiais e estima-se que existam mais 150 mil habitantes não recenseados. Foi fundada em 1649 e designou-se Urga até 1924. A partir desse ano, a cidade ganhou o nome atual, que significa \"herói vermelho\" na língua mongol. No passado foi também conhecida como Niislel Khureheh.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Ul%C3%A3_Bator",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 3409939,
    "adocao": "1992-02-12",
    "arquivo": "Flag of Mongolia.svg",
@@ -2972,7 +4969,22 @@
     "sultanato de oma"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q3826",
+     "nome": "Mascate",
+     "apelidos": [
+      "mascate",
+      "muscat",
+      "muskat"
+     ]
+    }
+   ],
    "capital": "Mascate",
+   "nota_capital": "Mascate, no golfo de Omã, é a capital e maior cidade do Sultanato de Omã. Sua população é de aproximadamente 31 409 habitantes, com um 1,3 milhões de pessoas no geral vivendo na província de Mascate.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Mascate",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 4829480,
    "adocao": "1995-04-25",
    "arquivo": "Flag of Oman.svg",
@@ -2998,7 +5010,23 @@
     "republica da uniao de myanmar"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q37400",
+     "nome": "Naypyidaw",
+     "apelidos": [
+      "naipidau",
+      "nay pyi taw",
+      "naypyidaw",
+      "nepiedo"
+     ]
+    }
+   ],
    "capital": "Naypyidaw",
+   "nota_capital": "Nepiedó, Naypyidaw ou Nay Pyi Taw é, desde 2005, a capital de Mianmar. A cidade está localizada no centro do Território da União de Nepiedó. Razões estratégicas da junta militar que governava Mianmar à época motivaram a escolha de uma nova capital que substituísse a antiga capital, Yangon.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Nepied%C3%B3",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 53370609,
    "adocao": "2010-10-21",
    "arquivo": "Flag of Myanmar.svg",
@@ -3020,7 +5048,20 @@
     "republica eslovaca"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1780",
+     "nome": "Bratislava",
+     "apelidos": [
+      "bratislava"
+     ]
+    }
+   ],
    "capital": "Bratislava",
+   "nota_capital": "Bratislava ; antigamente em eslovaco: Prešporok; em alemão: Pressburg ou Preßburg; em húngaro: Pozsony; em latim: Posonium) é a capital e principal cidade da Eslováquia, situada no sudoeste do país, junto da fronteira com a Áustria e da fronteira com a Hungria, tornando-se, assim, na única capital europeia situada na fronteira do seu país com outros dois.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Bratislava",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 5409407,
    "adocao": "1992-09-03",
    "arquivo": "Flag of Slovakia.svg",
@@ -3043,7 +5084,35 @@
     "sri lanka"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q41963",
+     "nome": "Kotte",
+     "apelidos": [
+      "cote",
+      "kotte",
+      "seri jaiavardenapura cota",
+      "sri jayawardenapura",
+      "sri jayawardenepura kotte",
+      "sri jayewardenepura kotte",
+      "sri jaywardenepura"
+     ]
+    },
+    {
+     "qid": "Q35381",
+     "nome": "Colombo",
+     "apelidos": [
+      "colombo",
+      "columbo",
+      "kolamba"
+     ]
+    }
+   ],
    "capital": "Kotte",
+   "nota_capital": "Seri Jaiavardenapura-Cota, Sri Jaiavardenapura-Cota ou Sri Jayawardenapura-Kotte, ou simplesmente Cota, ou Kotte,, é a capital oficial do Sri Lanka, sendo chamada \"Nova Capital\".",
+   "link_capital": "https://pt.wikipedia.org/wiki/Seri_Jaiavardenapura-Cota",
+   "varias_capitais": "Sri Jayawardenepura Kotte é a capital oficial e sede do Parlamento; Colombo é a capital comercial e onde fica o Executivo. As duas valem.",
+   "quase": [],
    "populacao": 21444000,
    "adocao": "1972-05-22",
    "arquivo": "Flag of Sri Lanka.svg",
@@ -3068,7 +5137,23 @@
     "republique de madagascar"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3915",
+     "nome": "Antananarivo",
+     "apelidos": [
+      "analamanga",
+      "antananarivo",
+      "iarivo",
+      "tananarive"
+     ]
+    }
+   ],
    "capital": "Antananarivo",
+   "nota_capital": "Antananarivo é a capital da República de Madagáscar, situando-se no centro da ilha, no sentido mais longo (N-S), cerca de 145 km da costa leste. Ocupa um posição de comando, estando sobre um ponto elevado, nas faldas de uma formação rochosa estreita que se estende por 4 km de norte a sul.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Antananarivo",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 31964956,
    "adocao": "1958-10-21",
    "arquivo": "Flag of Madagascar.svg",
@@ -3090,7 +5175,23 @@
     "republica da costa rica"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q3070",
+     "nome": "San José",
+     "apelidos": [
+      "san jose",
+      "san jose costa rica",
+      "sao jose",
+      "sao jose costa rica"
+     ]
+    }
+   ],
    "capital": "San José",
+   "nota_capital": "São José é a capital e a maior cidade da República da Costa Rica. É também a capital da província com o mesmo nome. Foi fundada em 1738 pelos espanhóis, tornando-se pela primeira vez na nova capital costa-riquense em 1823, após a transferência de Cartago. É a segunda mais recente capital da América Latina, perdendo o título de mais nova para Brasília, em 1960.",
+   "link_capital": "https://pt.wikipedia.org/wiki/San_Jos%C3%A9_(Costa_Rica)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 5265575,
    "adocao": "1848-09-29",
    "arquivo": "Flag of Costa Rica.svg",
@@ -3113,7 +5214,21 @@
     "uganda"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3894",
+     "nome": "Kampala",
+     "apelidos": [
+      "campala",
+      "kampala"
+     ]
+    }
+   ],
    "capital": "Kampala",
+   "nota_capital": "Campala é a capital e a maior cidade do Uganda. Localiza-se nas margens do Lago Vitória, a uma média de 1220 metros acima do nível do mar. Tem cerca de 1,6 milhão de habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Campala",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 47123531,
    "adocao": "1962-10-09",
    "arquivo": "Flag of Uganda.svg",
@@ -3137,7 +5252,21 @@
     "sul do sudao"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q1947",
+     "nome": "Juba",
+     "apelidos": [
+      "juba",
+      "juba sudao do sul"
+     ]
+    }
+   ],
    "capital": "Juba",
+   "nota_capital": "Juba é a capital e a maior cidade do Sudão do Sul. É também a capital do estado da Equatória Central e do condado de Juba.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Juba_(Sud%C3%A3o_do_Sul)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 12575714,
    "adocao": "2005-07-09",
    "arquivo": "Flag of South Sudan.svg",
@@ -3159,7 +5288,20 @@
     "republica da libia"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3579",
+     "nome": "Trípoli",
+     "apelidos": [
+      "tripoli"
+     ]
+    }
+   ],
    "capital": "Trípoli",
+   "nota_capital": "Trípoli é a capital, maior e mais populosa cidade da Líbia, sendo a sede do governo central e administração. Etimologicamente, o nome Trípoli vem do grego antigo Τρίπολις (Trípolis) que significa \"três cidades\".",
+   "link_capital": "https://pt.wikipedia.org/wiki/Tr%C3%ADpoli",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 7381023,
    "adocao": "1951-12-24",
    "arquivo": "Flag of Libya.svg",
@@ -3180,7 +5322,20 @@
     "maldivas"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q9347",
+     "nome": "Malé",
+     "apelidos": [
+      "male"
+     ]
+    }
+   ],
    "capital": "Malé",
+   "nota_capital": "Malé é a maior cidade e capital das Maldivas. A cidade está localizada no extremo sul do Atol Kaafu. Também é uma das subdivisões administrativas do país. Tradicionalmente foi a ilha do Rei, onde a antiga dinastia real das Maldivas governava e onde seu palácio era localizado. Hoje é sede do governo e centro de negócios, comercial, empresarial e educativo.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Mal%C3%A9",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 436330,
    "adocao": "1965-07-25",
    "arquivo": "Flag of Maldives.svg",
@@ -3201,7 +5356,21 @@
     "camaroes"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3808",
+     "nome": "Iaundé",
+     "apelidos": [
+      "iaunde",
+      "yaounde"
+     ]
+    }
+   ],
    "capital": "Iaundé",
+   "nota_capital": "Iaundê ou Iaundé é a capital dos Camarões. Com uma população de 2,5 milhões de habitantes é a segunda maior cidade do país, sendo superada por Duala.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Iaund%C3%A9",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 28372687,
    "adocao": "1975-05-20",
    "arquivo": "Flag of Cameroon.svg",
@@ -3223,7 +5392,23 @@
     "republica da nicaragua"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q3274",
+     "nome": "Managua",
+     "apelidos": [
+      "managua",
+      "managua municipio",
+      "municipality of managua",
+      "municipio de managua"
+     ]
+    }
+   ],
    "capital": "Managua",
+   "nota_capital": "Manágua é a capital e a maior cidade da Nicarágua. Situa-se na região do Oceano Pacífico nicaraguense, na margem sul do lago Manágua. Tem cerca de 2.132.087 de habitantes. Tem origem num povoado nahuatl, tendo se tornado capital da república em 1852. Manágua foi escolhida capital do país por estar entre as cidades de León e Granada, que disputavam este estatuto.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Man%C3%A1gua",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 5142098,
    "adocao": "1908-09-05",
    "arquivo": "Flag of Nicaragua.svg",
@@ -3245,7 +5430,21 @@
     "servia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q3711",
+     "nome": "Belgrado",
+     "apelidos": [
+      "belgrade",
+      "belgrado"
+     ]
+    }
+   ],
    "capital": "Belgrado",
+   "nota_capital": "Belgrado ) é a capital e maior cidade da Sérvia, e está localizada entre dois cursos de água internacionais, na confluência dos rios Danúbio e Sava, no norte da Sérvia, onde a planície da Panônia se limita com a região da península balcânica.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Belgrado",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 6605168,
    "adocao": "2010-01-01",
    "arquivo": "Flag of Serbia.svg",
@@ -3267,7 +5466,20 @@
     "republica da lituania"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q216",
+     "nome": "Vilnius",
+     "apelidos": [
+      "vilnius"
+     ]
+    }
+   ],
    "capital": "Vilnius",
+   "nota_capital": "Vilnius ), Vílnius ou Vilna é a capital da República da Lituânia. É a cidade mais populosa do país, com cerca de 600 mil habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Vilnius",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 2860002,
    "adocao": "1820-01-01",
    "arquivo": "Flag of Lithuania.svg",
@@ -3290,7 +5502,22 @@
     "o rochedo de gibraltar"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1410",
+     "nome": "Gibraltar",
+     "apelidos": [
+      "gib",
+      "gibraltar",
+      "o rochedo de gibraltar"
+     ]
+    }
+   ],
    "capital": "Gibraltar",
+   "nota_capital": "Gibraltar (pronúncia em português europeu: [ʒibɾaɫˈtaɾ]; pronúncia em português brasileiro [ʒibɾawˈtaʁ]; pronúncia em inglês: [dʒɨˈbrɔːltər]; pronúncia em castelhano: [xi.βɾal'taɾ]; pronúncia em llanito: [hi.βɾaɾ'ta, hi'βɾaɾ.ta ]) é um território ultramarino britânico localizado no extremo sul da Península Ibérica.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Gibraltar",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 34003,
    "adocao": "1982-11-08",
    "arquivo": "Flag of Gibraltar.svg",
@@ -3311,7 +5538,21 @@
     "ruanda"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3859",
+     "nome": "Kigali",
+     "apelidos": [
+      "kigali",
+      "quigali"
+     ]
+    }
+   ],
    "capital": "Kigali",
+   "nota_capital": "Quigali é a capital e maior cidade de Ruanda. A sua população é estimada em 1 124 243 habitantes (2020). Fica localizada no centro do país, numa crista entre dois vales, sendo conhecida pela sua vegetação. Por ser construída numa zona montanhosa, a altitude de diferentes partes da cidade varia entre 1433 metros e 1645 metros.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Quigali",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 14569341,
    "adocao": "2001-10-25",
    "arquivo": "Flag of Rwanda.svg",
@@ -3333,7 +5574,29 @@
     "iemene"
    ],
    "continente": "Ásia",
-   "capital": "Áden",
+   "capitais": [
+    {
+     "qid": "Q2471",
+     "nome": "Sana",
+     "apelidos": [
+      "sana",
+      "sanaa"
+     ]
+    },
+    {
+     "qid": "Q131694",
+     "nome": "Áden",
+     "apelidos": [
+      "adem",
+      "aden"
+     ]
+    }
+   ],
+   "capital": "Sana",
+   "nota_capital": "Saná, é, desde 1990, a capital e a maior cidade do Iémen. Localiza-se no oeste do Iêmen, a cerca de 2 210 metros de altitude, no interior do país, no centro de um vasto altiplano. A parte antiga da cidade é circundada por muros e dividida por muros internos em três bairros. Os típicos palácios iemenitas têm vários andares.",
+   "link_capital": "https://pt.wikipedia.org/wiki/San%C3%A1",
+   "varias_capitais": "Sana é a capital constitucional e está sob controle houthi desde 2014; Áden é a sede do governo reconhecido internacionalmente. As duas valem.",
+   "quase": [],
    "populacao": 28250420,
    "adocao": "1990-05-22",
    "arquivo": "Flag of Yemen.svg",
@@ -3355,7 +5618,20 @@
     "republica da liberia"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3748",
+     "nome": "Monróvia",
+     "apelidos": [
+      "monrovia"
+     ]
+    }
+   ],
    "capital": "Monróvia",
+   "nota_capital": "Monróvia é a capital e a maior cidade da Libéria. Localiza-se na costa atlântica e do Cabo Mesurado, que se situa dentro do Montserrado, o condado mais populoso na Libéria. A área metropolitana, com uma população de 1 010 970 em Grande Distrito de Monróvia, segundo o censo de censo de 2008, contém 29% do total da população da Libéria e é a cidade mais populosa do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Monr%C3%B3via",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 5214030,
    "adocao": "1847-08-24",
    "arquivo": "Flag of Liberia.svg",
@@ -3378,7 +5654,20 @@
     "reino do camboja"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q1850",
+     "nome": "Phnom Penh",
+     "apelidos": [
+      "phnom penh"
+     ]
+    }
+   ],
    "capital": "Phnom Penh",
+   "nota_capital": "Phnom Penh (em quemer: ភ្នំពេញ; romaniz.: Phnum Pénh; pronunciado em khmer: [pʰnum peɲ]; antigamente romanizado como Panomping; ou, nas formas aportuguesadas, Pnom Pen, Pnom Pene ou Penome Pene, é a capital, cidade mais populosa e o principal centro financeiro, corporativo, econômico e político do Camboja. É uma das quatro cidades com estatuto de província no país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Phnom_Penh",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 17423880,
    "adocao": "1948-01-01",
    "arquivo": "Flag of Cambodia.svg",
@@ -3403,7 +5692,23 @@
     "serenissima republica de san marino"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1848",
+     "nome": "San Marino",
+     "apelidos": [
+      "cidade de san marino",
+      "san marino",
+      "san marino cidade",
+      "sao marinho"
+     ]
+    }
+   ],
    "capital": "San Marino",
+   "nota_capital": "San Marino é uma cidade situada ao sul do monte Titano, capital da república homônima.",
+   "link_capital": "https://pt.wikipedia.org/wiki/San_Marino_(cidade)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 33600,
    "adocao": "2011-07-22",
    "arquivo": "Flag of San Marino.svg",
@@ -3428,7 +5733,21 @@
     "svn"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q437",
+     "nome": "Liubliana",
+     "apelidos": [
+      "liubliana",
+      "ljubljana"
+     ]
+    }
+   ],
    "capital": "Liubliana",
+   "nota_capital": "Liubliana ou Ljubljana ) é a capital e maior cidade da Eslovênia, com cerca de 272 220 habitantes. Liubliana é a sede do município urbano de mesmo nome.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Liubliana",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 2066880,
    "adocao": "1991-06-25",
    "arquivo": "Flag of Slovenia.svg",
@@ -3452,7 +5771,22 @@
     "republica de mauricio"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3929",
+     "nome": "Porto Luís",
+     "apelidos": [
+      "port louis",
+      "porto luis",
+      "porto luis mauricia"
+     ]
+    }
+   ],
    "capital": "Porto Luís",
+   "nota_capital": "Porto Luís é a capital e a maior cidade de Maurício. É igualmente capital do distrito de Porto Luís. É um porto no oceano Índico, no noroeste da ilha. Em 2015 possuía cerca de 149 mil habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Porto_Lu%C3%ADs",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1264613,
    "adocao": "1968-03-12",
    "arquivo": "Flag of Mauritius.svg",
@@ -3476,7 +5810,29 @@
     "republica do benin"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3799",
+     "nome": "Porto Novo",
+     "apelidos": [
+      "porto novo",
+      "porto novo benim"
+     ]
+    },
+    {
+     "qid": "Q43595",
+     "nome": "Cotonu",
+     "apelidos": [
+      "cotonou",
+      "cotonu"
+     ]
+    }
+   ],
    "capital": "Porto Novo",
+   "nota_capital": "Porto Novo é a capital oficial do Benim e um porto no Golfo da Guiné.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Porto_Novo_(Benim)",
+   "varias_capitais": "Porto Novo é a capital oficial e sede do parlamento; Cotonu é a sede do governo e a maior cidade do país. As duas valem.",
+   "quase": [],
    "populacao": 14111034,
    "adocao": "1959-11-16",
    "arquivo": "Flag of Benin.svg",
@@ -3498,7 +5854,21 @@
     "republica da namibia"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3935",
+     "nome": "Windhoek",
+     "apelidos": [
+      "vinduque",
+      "windhoek"
+     ]
+    }
+   ],
    "capital": "Windhoek",
+   "nota_capital": "Vinduque ou Windhoek é a capital da Namíbia e da região de Khomas. Está localizada ao centro do Planalto das Terras Altas de Khomas, a cerca de 1 700 metros acima do nível do mar, quase exatamente no centro geográfico namibiano.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Vinduque",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 2533794,
    "adocao": "1990-03-21",
    "arquivo": "Flag of Namibia.svg",
@@ -3519,7 +5889,20 @@
     "barbados"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q36168",
+     "nome": "Bridgetown",
+     "apelidos": [
+      "bridgetown"
+     ]
+    }
+   ],
    "capital": "Bridgetown",
+   "nota_capital": "Bridgetown é a capital de Barbados, ilha-estado localizada no sudeste do Mar do Caribe. Situa-se na ampla curva da Baía de Carlisle, no sudoeste da Ilha de Barbados, na paróquia de Saint Michael. Seu porto recebe dezenas de navios turísticos de cruzeiro de todo o mundo, ao longo do ano, como parada e conexão a outras ilhas caribenhas.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Bridgetown",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 303431,
    "adocao": "1966-11-30",
    "arquivo": "Flag of Barbados.svg",
@@ -3547,7 +5930,23 @@
     "republica da macedonia do norte"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q384",
+     "nome": "Skopje",
+     "apelidos": [
+      "escopia",
+      "escopie",
+      "skopie",
+      "skopje"
+     ]
+    }
+   ],
    "capital": "Skopje",
+   "nota_capital": "Escópia, Skopje ou Skopie ) é a capital e a maior cidade da Macedônia do Norte. Era conhecida no período romano sob o nome de Escupos, dentro da antiga Iugoslávia sob o nome (sérvio) Escoplie (Skoplie), e durante o domínio do Império Otomano, sob o nome de Uscube (Uzkub) ou Uscupe (Uzkup).",
+   "link_capital": "https://pt.wikipedia.org/wiki/Esc%C3%B3pia",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1836713,
    "adocao": "1995-10-05",
    "arquivo": "Flag of North Macedonia.svg",
@@ -3572,7 +5971,22 @@
     "sychelles"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3940",
+     "nome": "Vitória",
+     "apelidos": [
+      "victoria",
+      "vitoria",
+      "vitoria seicheles"
+     ]
+    }
+   ],
    "capital": "Vitória",
+   "nota_capital": "Vitória é a capital e maior cidade das Seicheles, estando situada no nordeste da ilha de Mahé. A cidade foi fundada como sede do governo colonial britânico. As suas coordenadas são 4° 37' Sul, 55° 27' Este.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Vit%C3%B3ria_(Seicheles)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 119773,
    "adocao": "1996-06-18",
    "arquivo": "Flag of Seychelles.svg",
@@ -3594,7 +6008,20 @@
     "republica da letonia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1773",
+     "nome": "Riga",
+     "apelidos": [
+      "riga"
+     ]
+    }
+   ],
    "capital": "Riga",
+   "nota_capital": "Riga ) é a capital e a maior cidade da Letônia. Está localizada no nordeste da Europa, sendo banhada pelo mar Báltico e situado-se no coração do golfo de Riga, na foz do rio Duína Ocidental. É a mais importante cidade da Letônia, principal centro político, cultural, populacional e econômico do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Riga",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1845096,
    "adocao": "1923-01-20",
    "arquivo": "Flag of Latvia.svg",
@@ -3619,7 +6046,21 @@
     "ilhas bahamas"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q2467",
+     "nome": "Nassau",
+     "apelidos": [
+      "nassau",
+      "nassau bahamas"
+     ]
+    }
+   ],
    "capital": "Nassau",
+   "nota_capital": "Nassau é a capital, maior cidade e centro comercial das Bahamas. A cidade tem uma população de 248 948, 70% de toda a população das Bahamas (353.658). O Aeroporto Internacional Lynden Pindling, o maior aeroporto das Bahamas, está situado a cerca de 16 km a oeste do centro da cidade de Nassau e possui voos diários para as principais cidades dos Estados Unidos, Canadá, Caribe e Reino Unido.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Nassau_(Bahamas)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 399440,
    "adocao": null,
    "arquivo": "Flag of the Bahamas.svg",
@@ -3641,7 +6082,20 @@
     "estado da eritreia"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3642",
+     "nome": "Asmara",
+     "apelidos": [
+      "asmara"
+     ]
+    }
+   ],
    "capital": "Asmara",
+   "nota_capital": "Asmara é a capital e a maior cidade da Eritreia. Localiza-se a uma altitude de 2325 metros. Tem cerca de 700 mil habitantes. Era uma aldeia quando foi escolhida para capital da região, então pertencente à Etiópia, na década de 1880. Foi dominada pelos italianos entre1889 e 1941, pelos britânicos entre 1941 e 1950 e pelos etíopes até 1993.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Asmara",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 3497000,
    "adocao": "1995-12-05",
    "arquivo": "Flag of Eritrea.svg",
@@ -3663,7 +6117,20 @@
     "ilha de aruba"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q131243",
+     "nome": "Oranjestad",
+     "apelidos": [
+      "oranjestad"
+     ]
+    }
+   ],
    "capital": "Oranjestad",
+   "nota_capital": "Oranjestad é a capital e a mais importante cidade de Aruba, uma parte neerlandesa localizada no sudeste da costa perto do lado oeste da ilha. Na língua local, o papiamento, Oranjestad é chamada de \"Playa\". Sua população é de 35 000 habitantes (2015).",
+   "link_capital": "https://pt.wikipedia.org/wiki/Oranjestad",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 106739,
    "adocao": "1976-03-18",
    "arquivo": "Flag of Aruba.svg",
@@ -3686,7 +6153,20 @@
     "republica de honduras"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q3238",
+     "nome": "Tegucigalpa",
+     "apelidos": [
+      "tegucigalpa"
+     ]
+    }
+   ],
    "capital": "Tegucigalpa",
+   "nota_capital": "Tegucigalpa é a capital e a maior cidade das Honduras. Localiza-se no interior, no sul do país, aos pés da colina El Picacho, em um estreito vale formado pelo rio Choluteca, conhecido como rio Grande. Foi fundada em 1578 pelos espanhóis com a designação de San Miguel de Tegucigalpa. Tornou-se capital em 1880. Tegucigalpa é também a capital do departamento de Francisco Morazán.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Tegucigalpa",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 8303771,
    "adocao": "1866-02-16",
    "arquivo": "Flag of Honduras (1949–2022, 2026–present).svg",
@@ -3709,7 +6189,20 @@
     "republica da estonia"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q1770",
+     "nome": "Tallinn",
+     "apelidos": [
+      "tallinn"
+     ]
+    }
+   ],
    "capital": "Tallinn",
+   "nota_capital": "Tallinn, Talim, Taline ou Talin é a capital, centro financeiro e maior cidade da Estónia, localizada no golfo da Finlândia, na costa norte do país junto ao mar Báltico, a 80 quilómetros a sul de Helsínquia. Tem cerca de 400 000 habitantes, aproximadamente um terço da população total do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Tallinn",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1369995,
    "adocao": "1918-11-21",
    "arquivo": "Flag of Estonia.svg",
@@ -3736,7 +6229,27 @@
     "kuweit"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q35178",
+     "nome": "Kuwait",
+     "apelidos": [
+      "al kuwait",
+      "cidade do kuwait",
+      "couaite",
+      "cuaite",
+      "kuwait",
+      "kuwait cidade",
+      "kuwait city",
+      "quaite"
+     ]
+    }
+   ],
    "capital": "Kuwait",
+   "nota_capital": "Kuwait ou Koweit é a capital e a maior cidade do Kuwait, sendo também a capital do governorado de Al Asimah. Em 2018, a cidade possuía cerca de 3 milhões habitantes. Está localizada no centro do país, às margens do Golfo Pérsico, e devido a sua posição, é o principal centro político e financeiro do Kuwait, abrigando a sede da maioria dos bancos e empresas do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Kuwait_(cidade)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 4464000,
    "adocao": "1961-01-01",
    "arquivo": "Flag of Kuwait.svg",
@@ -3758,7 +6271,21 @@
     "reino do butao"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q9270",
+     "nome": "Thimbu",
+     "apelidos": [
+      "thimbu",
+      "thimphu"
+     ]
+    }
+   ],
    "capital": "Thimbu",
+   "nota_capital": "Thimphu, em português Timbu ou Timpu, é a capital e maior cidade do Reino do Butão.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Thimbu",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 787424,
    "adocao": "1969-01-01",
    "arquivo": "Flag of Bhutan.svg",
@@ -3783,7 +6310,22 @@
     "republica de nauru"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q31026",
+     "nome": "Yaren",
+     "apelidos": [
+      "iarem",
+      "yaren",
+      "yaren district"
+     ]
+    }
+   ],
    "capital": "Yaren",
+   "nota_capital": "Iarém é um distrito no sul de Nauru. É a capital de facto de Nauru e é coextensiva ao círculo eleitoral de Iarém. Cobre uma área 1,5 km² e, em 2003, possuía uma população de 1 100 habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Iar%C3%A9m",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 13650,
    "adocao": "1968-01-31",
    "arquivo": "Flag of Nauru.svg",
@@ -3809,7 +6351,20 @@
     "reino do barem"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q3882",
+     "nome": "Manama",
+     "apelidos": [
+      "manama"
+     ]
+    }
+   ],
    "capital": "Manama",
+   "nota_capital": "Manama é a capital e maior cidade do Barém, com uma população aproximada de 143 035 pessoas segundo censo de 2001. Há muito tempo um importante centro comercial no Golfo Pérsico, Manama é o lar de uma população muito diversificada.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Manama",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1569666,
    "adocao": "2002-02-14",
    "arquivo": "Flag of Bahrain.svg",
@@ -3831,7 +6386,23 @@
     "republica da guatemala"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q1555",
+     "nome": "Cidade da Guatemala",
+     "apelidos": [
+      "cidade da guatemala",
+      "guate",
+      "guatemala city",
+      "nueva guatemala de la asuncion"
+     ]
+    }
+   ],
    "capital": "Cidade da Guatemala",
+   "nota_capital": "Cidade da Guatemala é a capital e maior cidade da República da Guatemala. O seu nome oficial é Nueva Guatemala de la Asunción, localmente é conhecida como Ciudad de Guatemala, É a cidade mais populosa e cosmopolita da América Central, é a sede dos poderes governamentais que governam a política do país. Foi nomeada como \"Capital Verde das Américas\" nos anos de 2019 e 2021.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Cidade_da_Guatemala",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 17263239,
    "adocao": "1871-08-17",
    "arquivo": "Flag of Guatemala.svg",
@@ -3855,7 +6426,21 @@
     "territorio da nova caledonia e possessoes"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q9733",
+     "nome": "Numeá",
+     "apelidos": [
+      "noumea",
+      "numea"
+     ]
+    }
+   ],
    "capital": "Numeá",
+   "nota_capital": "Numeá, Numea ou Numeia é a principal cidade e capital do território francês da Nova Caledónia. É também a maior cidade francófona da Oceania. Tem cerca 97 000 habitantes e uma área de 67,19 km². A cidade está situada numa península montanhosa irregular perto do extremo sudeste da Nova Caledônia, que fica no sudoeste do Oceano Pacífico.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Nume%C3%A1",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 278500,
    "adocao": "2010-07-17",
    "arquivo": "Flag of FLNKS.svg",
@@ -3879,7 +6464,21 @@
     "republica quirguiz"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q9361",
+     "nome": "Bisqueque",
+     "apelidos": [
+      "bishkek",
+      "bisqueque"
+     ]
+    }
+   ],
    "capital": "Bisqueque",
+   "nota_capital": "Bisqueque ), conhecida anteriormente como Pispeque e Frunze, é a capital e maior cidade do Quirguistão. Bisqueque também é o centro administrativo da Província de Chuy. A cidade não faz parte da província, mas sim tem, si própria, status de província do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Bisqueque",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 7281800,
    "adocao": "1992-03-03",
    "arquivo": "Flag of Kyrgyzstan.svg",
@@ -3900,7 +6499,21 @@
     "belize"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q3043",
+     "nome": "Belmopan",
+     "apelidos": [
+      "belmopa",
+      "belmopan"
+     ]
+    }
+   ],
    "capital": "Belmopan",
+   "nota_capital": "Belmopan ou Belmopã é a capital de Belize, localizada no distrito de Cayo, a 80 km da costa. Com uma população estimada em 20,621 habitantes (2016), é uma das capitais menos populosas do mundo. Está situada a 17° 25' N, 78° 56' W, e tem uma altitude de 76 metros sobre o nível do mar.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Belmopan",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 411106,
    "adocao": "1981-09-21",
    "arquivo": "Flag of Belize.svg",
@@ -3921,7 +6534,29 @@
     "burundi"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q167551",
+     "nome": "Guitega",
+     "apelidos": [
+      "gitega",
+      "guitega"
+     ]
+    }
+   ],
    "capital": "Guitega",
+   "nota_capital": "Guitega é a segunda maior cidade do Burundi e é a capital do país desde 24 de dezembro de 2018, com a transferência da sede do governo de Bujumbura, a cidade mais populosa do Burundi. É também capital da província de Guitega, uma das 17 províncias de Burundi. A cidade abriga o Museu Nacional de Burundi.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Guitega",
+   "varias_capitais": null,
+   "quase": [
+    {
+     "nome": "Bujumbura",
+     "apelidos": [
+      "bujumbura"
+     ],
+     "explica": "Guitega virou a capital política em 2019; Bujumbura, que era a capital, seguiu como capital econômica."
+    }
+   ],
    "populacao": 13689450,
    "adocao": "1967-06-28",
    "arquivo": "Flag of Burundi.svg",
@@ -3945,7 +6580,21 @@
     "republica democratica popular lau"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q9326",
+     "nome": "Vienciana",
+     "apelidos": [
+      "vienciana",
+      "vientiane"
+     ]
+    }
+   ],
    "capital": "Vienciana",
+   "nota_capital": "Vientiane ou Vienciana é a capital e a maior cidade do Laos. Está localizada às margens do rio Mecom, que faz fronteira com a Tailândia neste ponto. As informações sobre o número de habitantes variam muito, mas estima-se que há pelo menos 200 000 pessoas no município, o que corresponde a 10% da população do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Vientiane",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 6858160,
    "adocao": "1945-10-12",
    "arquivo": "Flag of Laos.svg",
@@ -3970,7 +6619,21 @@
     "republique de guinee"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3733",
+     "nome": "Conacri",
+     "apelidos": [
+      "conacri",
+      "conakry"
+     ]
+    }
+   ],
    "capital": "Conacri",
+   "nota_capital": "Conacri é a capital e a maior cidade da República da Guiné. Originalmente situada na ilha de Tombo, uma das Ilhas de Los, cresceu até à vizinha península de Kaloum. Localiza-se no sudoeste do país e é um porto no Oceano Atlântico. Em 2002, a população era estimada entre cerca de 2 milhões de pessoas e quase um quarto da população da Guiné.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Conacri",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 17521167,
    "adocao": "1958-11-10",
    "arquivo": "Flag of Guinea.svg",
@@ -3991,7 +6654,22 @@
     "tajiquistao"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q9365",
+     "nome": "Duxambé",
+     "apelidos": [
+      "duchambe",
+      "dushanbe",
+      "duxambe"
+     ]
+    }
+   ],
    "capital": "Duxambé",
+   "nota_capital": "Duxambé ou Duchambé é a capital e maior cidade do Tajiquistão, situada no oeste do país. Em janeiro de 2020, a cidade tinha 863 400 habitantes, em uma área de 126,6 km². Enquanto o Tajiquistão esteve incorporado na União Soviética, a cidade chamava-se Estalinabade, em homenagem a Josef Stalin.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Duxamb%C3%A9",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 9504000,
    "adocao": "1992-11-24",
    "arquivo": "Flag of Tajikistan.svg",
@@ -4012,7 +6690,20 @@
     "comores"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3901",
+     "nome": "Moroni",
+     "apelidos": [
+      "moroni"
+     ]
+    }
+   ],
    "capital": "Moroni",
+   "nota_capital": "Moroni é a maior cidade das Comores e, desde 1962, a sua capital. Em 1990, a sua população era de cerca de 23.400 habitantes. Está localizada na costa ocidental da ilha Grande Comore, nas respectivas coordenadas 11° 43′ S, 43° 15′ L.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Moroni",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 902348,
    "adocao": "2001-12-23",
    "arquivo": "Flag of the Comoros.svg",
@@ -4033,7 +6724,20 @@
     "serra leoa"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3780",
+     "nome": "Freetown",
+     "apelidos": [
+      "freetown"
+     ]
+    }
+   ],
    "capital": "Freetown",
+   "nota_capital": "Freetown é a capital e maior cidade da Serra Leoa. A cidade tem cerca de 1 070 200 habitantes, e é um importante porto na costa do Oceano Atlântico, situando-se no fim de uma península entre o oceano e a baía de Tangrin.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Freetown",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 7557212,
    "adocao": "1961-04-27",
    "arquivo": "Flag of Sierra Leone.svg",
@@ -4054,7 +6758,20 @@
     "brunei"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q9279",
+     "nome": "Bandar Seri Begawan",
+     "apelidos": [
+      "bandar seri begawan"
+     ]
+    }
+   ],
    "capital": "Bandar Seri Begawan",
+   "nota_capital": "Bandar Seri Begawan ou Bandar Seri Begauã ou Bandar Seri Begauane é a capital e maior cidade do sultanato de Brunei. É nela que toda a família real reside, junto ao conselho de ministros, que foi fundado em 2004, pelo sultão Hassanal Bolkiah.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Bandar_Seri_Begawan",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 458949,
    "adocao": "1959-09-29",
    "arquivo": "Flag of Brunei.svg",
@@ -4076,7 +6793,21 @@
     "republica do chade"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3659",
+     "nome": "Jamena",
+     "apelidos": [
+      "jamena",
+      "n djamena"
+     ]
+    }
+   ],
    "capital": "Jamena",
+   "nota_capital": "Jamena ou N'Djamena é a capital e a maior cidade do Chade, centro da atividade econômica do país, sendo também uma região autônoma.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Jamena",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 19319064,
    "adocao": "1959-11-06",
    "arquivo": "Flag of Chad.svg",
@@ -4102,7 +6833,20 @@
     "republica centro africana"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3832",
+     "nome": "Bangui",
+     "apelidos": [
+      "bangui"
+     ]
+    }
+   ],
    "capital": "Bangui",
+   "nota_capital": "Bangui é a capital e a maior cidade da República Centro-Africana. Fundada pelos franceses em 1889 como \"Bongai\", está situada na margem norte do rio Ubangui. Tornou-se uma cidade durante o período em que fez parte da África Equatorial Francesa e a capital do país após a sua independência em 1958. A sua população foi estimada em 812.407 em 2021.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Bangui",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 5152421,
    "adocao": "1958-12-01",
    "arquivo": "Flag of the Central African Republic.svg",
@@ -4124,7 +6868,20 @@
     "republica do quenia"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3870",
+     "nome": "Nairóbi",
+     "apelidos": [
+      "nairobi"
+     ]
+    }
+   ],
    "capital": "Nairóbi",
+   "nota_capital": "Nairóbi ou Nairobi é a capital, cidade mais populosa e principal centro financeiro, econômico, corporativo e cultural do Quénia. É a maior cidade da África Oriental e está localizada a cerca de 1 700 metros de altitude, às margens do rio Nairobi, no sul do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Nair%C3%B3bi",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 48468138,
    "adocao": "1963-12-12",
    "arquivo": "Flag of Kenya.svg",
@@ -4145,7 +6902,20 @@
     "lesoto"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3909",
+     "nome": "Maseru",
+     "apelidos": [
+      "maseru"
+     ]
+    }
+   ],
    "capital": "Maseru",
+   "nota_capital": "Maseru é a capital e maior cidade do Lesoto. É também capital do distrito de Maseru. Sua população no censo de 1996 era de 137.837 habitantes, a população estimada em 2004 era de 180.000 habitantes. A cidade fica nas margens do Rio Caledon, nas coordenadas 29°30' Sul, 28°0' Este.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Maseru",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 2007201,
    "adocao": "2006-10-04",
    "arquivo": "Flag of Lesotho.svg",
@@ -4166,7 +6936,20 @@
     "tuvalu"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q34126",
+     "nome": "Funafuti",
+     "apelidos": [
+      "funafuti"
+     ]
+    }
+   ],
    "capital": "Funafuti",
+   "nota_capital": "Funafuti é um atol que forma a capital do país insular de Tuvalu. Tem uma população de 4 492, sendo o atol com maior população no país. É uma estreita faixa de terra entre 20 e 400 metros de largura, que circundam uma grande lagoa de 18 km de comprimento e 14 km de largura, com 275 quilômetros quadrados e profundidade máxima de 20 m, sendo a maior lagoa do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Funafuti",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 10643,
    "adocao": "1997-04-11",
    "arquivo": "Flag of Tuvalu.svg",
@@ -4189,7 +6972,20 @@
     "zimbaue"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3921",
+     "nome": "Harare",
+     "apelidos": [
+      "harare"
+     ]
+    }
+   ],
    "capital": "Harare",
+   "nota_capital": "Harare é a cidade capital do Zimbábue, que possui estatuto de província. Situada no nordeste do país, a uma altitude de 1 483 metros acima do nível do mar, é a cidade mais populosa do Zimbábue, sendo o seu principal centro administrativo, de comunicações e comercial. Na cidade de Harare, encontra-se, também, a sede da Universidade do Zimbábue.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Harare",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 15178979,
    "adocao": "1980-04-18",
    "arquivo": "Flag of Zimbabwe.svg",
@@ -4210,7 +7006,20 @@
     "palau"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q515229",
+     "nome": "Ngerulmud",
+     "apelidos": [
+      "ngerulmud"
+     ]
+    }
+   ],
    "capital": "Ngerulmud",
+   "nota_capital": "Ngerulmud, uma localidade no Estado de Melequeoque, é a capital administrativa de Palau desde outubro de 2006. É a menor capital de um estado soberano do mundo. Por questões administrativas a capital foi movida de Koror para Ngerulmud. Ngerulmud localiza-se 20 km (12 mi) nordeste de Koror na Ilha de Babeldaob (Babelthaup) e 2 km a noroeste da localidade de Melequeoque.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Ngerulmud",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 21729,
    "adocao": "1981-01-01",
    "arquivo": "Flag of Palau.svg",
@@ -4233,7 +7042,21 @@
     "png"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q36526",
+     "nome": "Port Moresby",
+     "apelidos": [
+      "port moresby",
+      "porto moresby"
+     ]
+    }
+   ],
    "capital": "Port Moresby",
+   "nota_capital": "Porto Moresby ou Port Moresby é a capital e maior cidade da Papua-Nova Guiné. Possui uma população de 255 000 (2000) e está localizada às margens do golfo de Papua, na costa sudeste da ilha da Nova Guiné.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Porto_Moresby",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 8935000,
    "adocao": "1971-07-01",
    "arquivo": "Flag of Papua New Guinea.svg",
@@ -4256,7 +7079,21 @@
     "republica do niger"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3674",
+     "nome": "Niamey",
+     "apelidos": [
+      "niamei",
+      "niamey"
+     ]
+    }
+   ],
    "capital": "Niamey",
+   "nota_capital": "Niamei ou Niamey é a capital do Níger. Situada no sudoeste do país, junto ao Rio Níger, é um centro administrativo, cultural e econômico, sendo a maior cidade do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Niamei",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 21477348,
    "adocao": "1959-11-23",
    "arquivo": "Flag of Niger.svg",
@@ -4279,7 +7116,20 @@
     "republica de fiji"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q38807",
+     "nome": "Suva",
+     "apelidos": [
+      "suva"
+     ]
+    }
+   ],
    "capital": "Suva",
+   "nota_capital": "Suva é a capital, cidade mais populosa e principal centro cultural e turístico das ilhas Fiji. A cidade está localizada na costa sudeste da ilha de Viti Levu, na província de Rewa, divisão de Fiji Central, de que também é o centro administrativo. Suva é uma das únicas metrópoles do Pacífico Sul.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Suva",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 926276,
    "adocao": "1970-10-10",
    "arquivo": "Flag of Fiji.svg",
@@ -4300,7 +7150,21 @@
     "ilha de man"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q18569",
+     "nome": "Douglas",
+     "apelidos": [
+      "douglas",
+      "douglas ilha de man"
+     ]
+    }
+   ],
    "capital": "Douglas",
+   "nota_capital": "Douglas é a capital e maior cidade da Ilha de Man. É o principal ponto da ilha para negócios, finanças, transportes e diversão. É também a sede do governo autónomo da Ilha de Man.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Douglas_(Ilha_de_Man)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 84523,
    "adocao": "1932-12-01",
    "arquivo": "Flag of the Isle of Man.svg",
@@ -4321,7 +7185,21 @@
     "zambia"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3881",
+     "nome": "Lusaca",
+     "apelidos": [
+      "lusaca",
+      "lusaka"
+     ]
+    }
+   ],
    "capital": "Lusaca",
+   "nota_capital": "Lusaca é a capital e maior cidade da Zâmbia. É também a sede da província de Lusaca e do distrito de Lusaca.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Lusaca",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 19610769,
    "adocao": "1964-10-24",
    "arquivo": "Flag of Zambia.svg",
@@ -4347,7 +7225,20 @@
     "republica do botswana"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3919",
+     "nome": "Gaborone",
+     "apelidos": [
+      "gaborone"
+     ]
+    }
+   ],
    "capital": "Gaborone",
+   "nota_capital": "Gaborone é a capital e maior cidade do Botswana. A sua população estimada para 2010 é de 228 166 habitantes. Está localizada no distrito Sudeste, bem como do subdistrito de Gaborone, no qual é a capital. A população local refere-se frequentemente à cidade como Gabs.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Gaborone",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 2480244,
    "adocao": "1966-09-30",
    "arquivo": "Flag of Botswana.svg",
@@ -4369,7 +7260,20 @@
     "republica gabonesa"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3825",
+     "nome": "Libreville",
+     "apelidos": [
+      "libreville"
+     ]
+    }
+   ],
    "capital": "Libreville",
+   "nota_capital": "Libreville ou Librevile é a capital e a maior cidade do Gabão. Oficialmente, sua população é estimada em 703.904 habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Libreville",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 2025137,
    "adocao": "1960-08-09",
    "arquivo": "Flag of Gabon.svg",
@@ -4392,7 +7296,22 @@
     "martinique"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q81621",
+     "nome": "Forte da França",
+     "apelidos": [
+      "fort de france",
+      "forte da franca",
+      "forte de franca"
+     ]
+    }
+   ],
    "capital": "Forte da França",
+   "nota_capital": "Forte da França (português brasileiro) ou Forte de França (português europeu) é a cidade capital da Martinica, ilha do Caribe que é departamento de ultramar da França. É uma das maiores cidades caribenhas. Suas principais exportações incluem açúcar, rum, frutas enlatadas e cacau.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Forte_da_Fran%C3%A7a",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 360630,
    "adocao": "1766-01-01",
    "arquivo": "Flag-of-Martinique.svg",
@@ -4417,7 +7336,20 @@
     "the gambia"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3726",
+     "nome": "Banjul",
+     "apelidos": [
+      "banjul"
+     ]
+    }
+   ],
    "capital": "Banjul",
+   "nota_capital": "Banjul é a capital da Gâmbia, com uma população de 34.828 habitantes (2003). Fica na Ilha de St. Mary, onde o Rio Gâmbia desagua no Oceano Atlântico. As suas coordenadas são 13° 28' Norte, 16° 36' Oeste . Banjul foi fundada em 1816 pelos britânicos como um entreposto comercial e base para o combate ao tráfico de escravos.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Banjul",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 2639916,
    "adocao": "1965-02-18",
    "arquivo": "Flag of The Gambia.svg",
@@ -4441,7 +7373,21 @@
     "ilhas bermudas"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q30985",
+     "nome": "Hamilton",
+     "apelidos": [
+      "hamilton",
+      "hamilton bermuda"
+     ]
+    }
+   ],
    "capital": "Hamilton",
+   "nota_capital": "A cidade de Hamilton é a capital das ilhas Bermudas, um pequeno arquipélago do Atlântico noroeste. Apesar de existir uma paróquia (parish) com o mesmo nome, a cidade de Hamilton fica situada na parish de Pembroke. A cidade recebeu o nome do primeiro governador das Bermudas, Sir Henry Hamilton.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Hamilton_(Bermuda)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 65024,
    "adocao": "1910-10-04",
    "arquivo": "Flag of Bermuda.svg",
@@ -4465,7 +7411,21 @@
     "republica do malawi"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3876",
+     "nome": "Lilongué",
+     "apelidos": [
+      "lilongue",
+      "lilongwe"
+     ]
+    }
+   ],
    "capital": "Lilongué",
+   "nota_capital": "Lilongué, Lilôngue, Lilóngue, Lilongue ou Lilongwe é, desde 1975, a Capital do Maláui, país localizado no continente Africano. Localizada na zona centro-sul do país, Lilongué é também a capital da Região Central do Maláui e do distrito de Lilongué. A população de Lilongué é de 1.077.116 habitantes segundo o censo de 2015.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Lilongu%C3%A9",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 17563749,
    "adocao": "1964-07-06",
    "arquivo": "Flag of Malawi.svg",
@@ -4486,7 +7446,20 @@
     "togo"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3792",
+     "nome": "Lomé",
+     "apelidos": [
+      "lome"
+     ]
+    }
+   ],
    "capital": "Lomé",
+   "nota_capital": "Lomé é a capital do Togo e a maior cidade do país. A cidade tem cerca de 1 700 000 habitantes (2023) e localiza-se na costa do Golfo da Guiné. Para além de ser a capital administrativa do país, é a capital da Prefeitura do Golfo e do Distrito Autônomo da Grande Lomé (DAGL).",
+   "link_capital": "https://pt.wikipedia.org/wiki/Lom%C3%A9",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 7797694,
    "adocao": "1960-04-28",
    "arquivo": "Flag of Togo (3-2).svg",
@@ -4508,7 +7481,23 @@
     "grenada"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q41547",
+     "nome": "São Jorge",
+     "apelidos": [
+      "saint george s",
+      "sao jorge",
+      "sao jorge granada",
+      "st george s"
+     ]
+    }
+   ],
    "capital": "São Jorge",
+   "nota_capital": "São Jorge é a capital e maior cidade de Granada, é também a capital da paróquia de São Jorge. Está localizada em uma pequena península na costa sudoeste na ilha. A cidade foi a capital da antiga colônia britânica das ilhas de Barlavento.",
+   "link_capital": "https://pt.wikipedia.org/wiki/S%C3%A3o_Jorge_(Granada)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 114299,
    "adocao": "1974-02-07",
    "arquivo": "Flag of Grenada.svg",
@@ -4531,7 +7520,20 @@
     "sao cristovao e nevis"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q41295",
+     "nome": "Basseterre",
+     "apelidos": [
+      "basseterre"
+     ]
+    }
+   ],
    "capital": "Basseterre",
+   "nota_capital": "Basseterre é a capital de São Cristóvão e Neves, com aproximadamente 14 000 habitantes. A cidade encontra-se situada na ilha de São Cristóvão, no mar do Caribe, e representa um dos principais portos comerciais das ilhas de Ilhas de Sotavento caribenhas.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Basseterre",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 46922,
    "adocao": "1983-09-19",
    "arquivo": "Flag of Saint Kitts and Nevis.svg",
@@ -4554,7 +7556,24 @@
     "republica do jibuti"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q3604",
+     "nome": "Djibuti",
+     "apelidos": [
+      "cidade do djibouti",
+      "djibouti",
+      "djibouti cidade",
+      "djibuti",
+      "djibuti cidade"
+     ]
+    }
+   ],
    "capital": "Djibuti",
+   "nota_capital": "Djibuti ou Jibuti, é a capital e maior cidade da República do Djibuti. É um porto no golfo de Tadjoura, a parte mais ocidental do golfo de Adem. A cidade exporta principalmente café, couro e sal. Sua população é de cerca de 600 mil habitantes (2018). O seu porto é principal motor da economia nacional.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Djibuti_(cidade)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1152944,
    "adocao": "1977-06-27",
    "arquivo": "Flag of Djibouti.svg",
@@ -4577,7 +7596,20 @@
     "territorio polinesia francesa"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q130800",
+     "nome": "Papeete",
+     "apelidos": [
+      "papeete"
+     ]
+    }
+   ],
    "capital": "Papeete",
+   "nota_capital": "Papeete é a capital e uma comuna da Polinésia Francesa. Fica na ilha do Taiti, que é parte do arquipélago das Ilhas de Barlavento, no arquipélago da Sociedade.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Papeete",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 278786,
    "adocao": "1985-12-04",
    "arquivo": "Flag of French Polynesia.svg",
@@ -4598,7 +7630,22 @@
     "reuniao"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q47045",
+     "nome": "São Dinis",
+     "apelidos": [
+      "saint denis",
+      "sao dinis",
+      "sao dinis reuniao"
+     ]
+    }
+   ],
    "capital": "São Dinis",
+   "nota_capital": "São Dinis é uma comuna francesa situada no norte do departamento e da região administrativa de Reunião.",
+   "link_capital": "https://pt.wikipedia.org/wiki/S%C3%A3o_Dinis_(Reuni%C3%A3o)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 889679,
    "adocao": null,
    "arquivo": "Proposed flag of Réunion (VAR).svg",
@@ -4619,7 +7666,22 @@
     "tonga"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q38834",
+     "nome": "Nuku'alofa",
+     "apelidos": [
+      "nucu alofa",
+      "nucualofa",
+      "nuku alofa"
+     ]
+    }
+   ],
    "capital": "Nuku'alofa",
+   "nota_capital": "Nucualofa é a capital do Reino de Tonga. A cidade está localizada na ilha de Tongatapu.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Nucualofa",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 108020,
    "adocao": "1875-11-04",
    "arquivo": "Flag of Tonga.svg",
@@ -4640,7 +7702,20 @@
     "santa lucia"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q41699",
+     "nome": "Castries",
+     "apelidos": [
+      "castries"
+     ]
+    }
+   ],
    "capital": "Castries",
+   "nota_capital": "Castries ; pronunciado originalmente em francês: [kastri]) é um distrito da ilha de Santa Lúcia, bem como a capital do país.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Castries",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 167591,
    "adocao": "1967-03-01",
    "arquivo": "Flag of Saint Lucia.svg",
@@ -4661,7 +7736,20 @@
     "ilhas salomao"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q40921",
+     "nome": "Honiara",
+     "apelidos": [
+      "honiara"
+     ]
+    }
+   ],
    "capital": "Honiara",
+   "nota_capital": "Honiara é a capital das Ilhas Salomão e tem uma população de 64 602 habitantes (2009). A cidade está localizada na ilha de Guadalcanal e foi reconstruída para substituir a antiga capital de Tulagi, no final da Segunda Guerra Mundial. A cidade tem um porto, um aeroporto internacional, o museu nacional e a sede do governo.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Honiara",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 611343,
    "adocao": "1977-11-18",
    "arquivo": "Flag of the Solomon Islands.svg",
@@ -4682,7 +7770,20 @@
     "samoa"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q36260",
+     "nome": "Apia",
+     "apelidos": [
+      "apia"
+     ]
+    }
+   ],
    "capital": "Apia",
+   "nota_capital": "Apia é a capital de Samoa e sua única cidade. Ela está localizada na costa norte da ilha de Upolu, a segunda maior ilha do país. Apia está situada dentro do distrito político (itūmālō) de Tuamasaga.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Apia",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 200010,
    "adocao": "1949-02-24",
    "arquivo": "Flag of Samoa.svg",
@@ -4703,7 +7804,21 @@
     "antigua e barbuda"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q36262",
+     "nome": "São João",
+     "apelidos": [
+      "sao joao",
+      "sao joao antiga e barbuda"
+     ]
+    }
+   ],
    "capital": "São João",
+   "nota_capital": "São João é a capital de Antígua e Barbuda, com uma população de 21926 habitantes. Localiza-se na ilha de Antígua, às margens do oceano Atlântico. A cidade é o centro comercial do país e possui o principal porto da ilha de Antígua.",
+   "link_capital": "https://pt.wikipedia.org/wiki/S%C3%A3o_Jo%C3%A3o_(Antiga_e_Barbuda)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 101489,
    "adocao": "1967-02-27",
    "arquivo": "Flag of Antigua and Barbuda.svg",
@@ -4725,7 +7840,20 @@
     "ilhas virgens americanas"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q51681",
+     "nome": "Charlotte Amalie",
+     "apelidos": [
+      "charlotte amalie"
+     ]
+    }
+   ],
    "capital": "Charlotte Amalie",
+   "nota_capital": "Charlotte Amalie é a capital das Ilhas Virgens Americanas, um território dos Estados Unidos. Localizada na ilha de São Tomás, Carlota Amália, é uma conhecida parada nos cruzeiros pelo caribe por oferecer ecoturismo, praias, e muitos distritos de consumo. A sua população estimada em 2010 era de 18 481 habitantes. Está localizada no lado sul da ilha de São Tomás.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Charlotte_Amalie",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 87146,
    "adocao": "1921-05-17",
    "arquivo": "Flag of the United States Virgin Islands.svg",
@@ -4747,7 +7875,20 @@
     "ilhas marshall"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q12919",
+     "nome": "Majuro",
+     "apelidos": [
+      "majuro"
+     ]
+    }
+   ],
    "capital": "Majuro",
+   "nota_capital": "Majuro é o maior atol, considerado a capital das Ilhas Marshall, estando os edifícios governamentais localizados nas comunidades conjuntas de Delap-Uliga-Darrit, no atol. Construída sobre um atól de 64 ilhas, a cidade tem porto e aeroporto internacional. O centro de maior população são as comunidades Dalap–Uliga–Darrit, localizadas no ponto oriental do atol.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Majuro",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 53127,
    "adocao": "1979-05-01",
    "arquivo": "Flag of the Marshall Islands.svg",
@@ -4768,7 +7909,22 @@
     "jersey"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q147738",
+     "nome": "Santo Helério",
+     "apelidos": [
+      "saint helier",
+      "santo helerio",
+      "st helier"
+     ]
+    }
+   ],
    "capital": "Santo Helério",
+   "nota_capital": "Santo Helério é a capital de Jersey, uma das ilhas do Canal. Tem 4,1 km² de área e 33 522 habitantes, cerca de 34,2% do total da população da ilha.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Santo_Hel%C3%A9rio",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 103267,
    "adocao": "1981-04-07",
    "arquivo": "Flag of Jersey.svg",
@@ -4789,7 +7945,21 @@
     "micronesia"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q42751",
+     "nome": "Paliquir",
+     "apelidos": [
+      "palikir",
+      "paliquir"
+     ]
+    }
+   ],
    "capital": "Paliquir",
+   "nota_capital": "Paliquir é a capital dos Estados Federados da Micronésia, uma pequena república federal composta por quatro grupos de ilhas localizadas no oceano Pacífico. É capital desde 1989 e tem uma população de 6 647 habitantes, estando localizada no estado e na ilha de Pohnpei.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Paliquir",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 75817,
    "adocao": "1978-11-30",
    "arquivo": "Flag of the Federated States of Micronesia.svg",
@@ -4810,7 +7980,21 @@
     "vanuatu"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q37806",
+     "nome": "Porto Vila",
+     "apelidos": [
+      "port vila",
+      "porto vila"
+     ]
+    }
+   ],
    "capital": "Porto Vila",
+   "nota_capital": "Porto Vila é capital e a maior cidade do pequeno estado insular de Vanuatu, na Oceania. Situada na costa sul da ilha de Efate, na província de Shefa, Porto Vila tem um clima tropical, com uma estação seca e uma estação quente e úmida. A média de precipitação é de 2 360 milímetros por ano. A área também tem ventos alísios do sudeste.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Porto_Vila",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 300019,
    "adocao": "1980-02-18",
    "arquivo": "Flag of Vanuatu.svg",
@@ -4832,7 +8016,20 @@
     "ilhas pitcairn"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q48273",
+     "nome": "Adamstown",
+     "apelidos": [
+      "adamstown"
+     ]
+    }
+   ],
    "capital": "Adamstown",
+   "nota_capital": "Adamstown é a única cidade das Ilhas Pitcairn e é por isso a capital do território.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Adamstown",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 50,
    "adocao": "1984-04-02",
    "arquivo": "Flag of the Pitcairn Islands.svg",
@@ -4854,7 +8051,30 @@
     "sgssi"
    ],
    "continente": "América do Sul",
+   "capitais": [
+    {
+     "qid": "Q393878",
+     "nome": "Cabo Rei Eduardo",
+     "apelidos": [
+      "cabo rei eduardo",
+      "king edward point",
+      "ponto rei eduardo"
+     ]
+    },
+    {
+     "qid": "Q185672",
+     "nome": "Grytviken",
+     "apelidos": [
+      "estacao baleeira de grytviken",
+      "grytviken"
+     ]
+    }
+   ],
    "capital": "Cabo Rei Eduardo",
+   "nota_capital": "O Ponto do Rei Eduardo é um pequeno promontório na Península Thatcher na costa nordeste da ilha Geórgia do Sul, Antártica. O ponto foi visitado pelos caçadores de focas britânicos e estadunidenses nos séculos XVIII e XIX, e explorado por uma expedição antártica sueca em 1902.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Cabo_Rei_Eduardo",
+   "varias_capitais": "King Edward Point é a base administrativa britânica na ilha; Grytviken é a antiga estação baleeira ao lado. O Wikidata lista as duas, e as duas valem.",
+   "quase": [],
    "populacao": 35,
    "adocao": "1992-01-01",
    "arquivo": "Flag of South Georgia and the South Sandwich Islands.svg",
@@ -4875,7 +8095,22 @@
     "guam"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q30988",
+     "nome": "Aganha",
+     "apelidos": [
+      "agana",
+      "aganha",
+      "hagatna"
+     ]
+    }
+   ],
    "capital": "Aganha",
+   "nota_capital": "Aganha é a capital da dependência norte-americana de Guame, localizada na Micronésia.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Aganha",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 153836,
    "adocao": "1948-02-09",
    "arquivo": "Flag of Guam.svg",
@@ -4901,7 +8136,22 @@
     "sao pedro e miquelon"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q185678",
+     "nome": "Saint-Pierre",
+     "apelidos": [
+      "saint pierre",
+      "sao pedro",
+      "sao pedro sao pedro e miquelao"
+     ]
+    }
+   ],
    "capital": "Saint-Pierre",
+   "nota_capital": "São Pedro, é uma comuna (município) e capital da coletividade ultramarina francesa de São Pedro e Miquelão. Ela está localizada na ilha de São Pedro, no golfo de São Lourenço, perto da costa de Terra Nova. São Pedro é a mais povoada das duas comunas que compõem São Pedro e Miquelão.",
+   "link_capital": "https://pt.wikipedia.org/wiki/S%C3%A3o_Pedro_(S%C3%A3o_Pedro_e_Miquel%C3%A3o)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 5974,
    "adocao": "1982-01-01",
    "arquivo": "Flag of Saint-Pierre and Miquelon.svg",
@@ -4923,7 +8173,20 @@
     "dominica"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q36281",
+     "nome": "Roseau",
+     "apelidos": [
+      "roseau"
+     ]
+    }
+   ],
    "capital": "Roseau",
+   "nota_capital": "Roseau é a capital e maior cidade da Dominica, localizada na paróquia de Saint George. É a cidade mais antiga e importante do país. Segundo o censo de 2007 tem uma população de 16 582 habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Roseau",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 74656,
    "adocao": "1978-11-03",
    "arquivo": "Flag of Dominica.svg",
@@ -4945,7 +8208,20 @@
     "sao vicente e granadinas"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q41474",
+     "nome": "Kingstown",
+     "apelidos": [
+      "kingstown"
+     ]
+    }
+   ],
    "capital": "Kingstown",
+   "nota_capital": "Kingstown é a capital de São Vicente e Granadinas. A cidade possui o principal porto e maior centro comercial das ilhas. No censo de 2005 tinha uma população de 25.148 habitantes, sendo a cidade fundada em 1722 pelos franceses.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Kingstown",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 109897,
    "adocao": "1985-10-21",
    "arquivo": "Flag of Saint Vincent and the Grenadines.svg",
@@ -4967,7 +8243,22 @@
     "ilhas caimao"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q172996",
+     "nome": "George Town",
+     "apelidos": [
+      "george town",
+      "george town ilhas caima",
+      "george town ilhas cayman"
+     ]
+    }
+   ],
    "capital": "George Town",
+   "nota_capital": "George Town é a capital e maior cidade das Ilhas Caimã, localizada em Grande Caimã. Em 2021, a cidade tinha uma população de 34 921, fazendo dela a maior cidade de todos os territórios ultramarinos britânicos.",
+   "link_capital": "https://pt.wikipedia.org/wiki/George_Town_(Ilhas_Caim%C3%A3)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 88833,
    "adocao": "1958-01-01",
    "arquivo": "Flag of the Cayman Islands.svg",
@@ -4988,7 +8279,20 @@
     "samoa americana"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q51678",
+     "nome": "Pago Pago",
+     "apelidos": [
+      "pago pago"
+     ]
+    }
+   ],
    "capital": "Pago Pago",
+   "nota_capital": "Pago Pago é a capital da Samoa Americana, território dependente dos Estados Unidos. A sua população era, em 1990, de 10 640 habitantes. A cidade situa-se na ilha Tutuila. Pago Pago é o único porto de escala na Samoa Americana. O turismo e as conservas de atum são indústrias importantes. Entre 1878 e 1951, serviu à Marinha Americana de porto para reabastecimento de carvão e reparações.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Pago_Pago",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 49710,
    "adocao": "1960-04-27",
    "arquivo": "Flag of American Samoa.svg",
@@ -5010,7 +8314,21 @@
     "santa helena e dependencias"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q30970",
+     "nome": "Jamestown",
+     "apelidos": [
+      "jamestown",
+      "jamestown santa helena"
+     ]
+    }
+   ],
    "capital": "Jamestown",
+   "nota_capital": "Jamestown é a capital do território ultramarino britânico de Santa Helena, Ascensão e Tristão da Cunha, localizada na ilha de Santa Helena, no Oceano Atlântico sul. Situada na costa noroeste da ilha, também constitui seu principal assentamento histórico.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Jamestown_(Santa_Helena)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 5633,
    "adocao": null,
    "arquivo": "Flag of the United Kingdom (1-2).svg",
@@ -5032,7 +8350,20 @@
     "niue"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q30966",
+     "nome": "Alofi",
+     "apelidos": [
+      "alofi"
+     ]
+    }
+   ],
    "capital": "Alofi",
+   "nota_capital": "Alofi é a capital de Niue, uma nação no Oceano Pacífico. Ela tem uma população de 1.611 habitantes e consiste de duas vilas, Alofi Norte e Alofi Sul. A sede do governo está localizada em Alofi Sul.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Alofi",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1821,
    "adocao": "1975-10-15",
    "arquivo": "Flag of Niue.svg",
@@ -5058,7 +8389,20 @@
     "turks e caicos"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q34205",
+     "nome": "Cockburn Town",
+     "apelidos": [
+      "cockburn town"
+     ]
+    }
+   ],
    "capital": "Cockburn Town",
+   "nota_capital": "Cockburn Town é a capital da colónia britânica das Turcas e Caicos. Está localizada na região central da ilha Grande Turca, no arquipélago de Turcas. Sua população é de aproximadamente 5.000 habitantes. Nela se encontra o Museu Nacional de Turcas e Caicos, onde são exibidos artefatos do naufrágio do recife de Molasses, o mais antigo naufrágio conhecido na América.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Cockburn_Town",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 44542,
    "adocao": "1968-11-07",
    "arquivo": "Flag of the Turks and Caicos Islands.svg",
@@ -5083,7 +8427,20 @@
     "st maarten"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q30958",
+     "nome": "Philipsburg",
+     "apelidos": [
+      "philipsburg"
+     ]
+    }
+   ],
    "capital": "Philipsburg",
+   "nota_capital": "Philipsburg é a capital de São Martinho, a parte neerlandesa da Ilha de São Martinho. Situada sobre a Groot Baai.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Philipsburg",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 43847,
    "adocao": "1985-06-13",
    "arquivo": "Flag of Sint Maarten.svg",
@@ -5111,7 +8468,22 @@
     "guernsey"
    ],
    "continente": "Europa",
+   "capitais": [
+    {
+     "qid": "Q174262",
+     "nome": "Saint Peter Port",
+     "apelidos": [
+      "porto de sao pedro",
+      "saint peter port",
+      "sao pedro porto"
+     ]
+    }
+   ],
    "capital": "Saint Peter Port",
+   "nota_capital": "Porto de São Pedro ou São Pedro Porto, é a capital de Guernsey e também principal porto da ilha. Em guernesiais e em francês, historicamente idiomas oficiais de Guernsey, o nome da cidade e de suas cercanias é Saintt Pierre Port. O \"port\" serve para distingui-la de outra região (paróquia) chamada Saint Pierre Du Bois.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Porto_de_S%C3%A3o_Pedro",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 67787,
    "adocao": "1985-04-30",
    "arquivo": "Flag of Guernsey.svg",
@@ -5133,7 +8505,20 @@
     "anguilla"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q30994",
+     "nome": "The Valley",
+     "apelidos": [
+      "the valley"
+     ]
+    }
+   ],
    "capital": "The Valley",
+   "nota_capital": "The Valley é a capital da colônia britânica de Anguila. Ela está localizada na região central da ilha de Anguila. Sua população em 2001 era de 1169 habitantes. Está localizada na latitude 18º 13' e na longitude 63º 03'.",
+   "link_capital": "https://pt.wikipedia.org/wiki/The_Valley",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 19079,
    "adocao": "1990-05-30",
    "arquivo": "Flag of Anguilla.svg",
@@ -5154,7 +8539,28 @@
     "montserrat"
    ],
    "continente": "América do Norte e Central",
-   "capital": "Brades",
+   "capitais": [
+    {
+     "qid": "Q30990",
+     "nome": "Plymouth",
+     "apelidos": [
+      "plymouth",
+      "plymouth monserrate"
+     ]
+    },
+    {
+     "qid": "Q31006",
+     "nome": "Brades",
+     "apelidos": [
+      "brades"
+     ]
+    }
+   ],
+   "capital": "Plymouth",
+   "nota_capital": "Plymouth é uma cidade fantasma localizada na ilha de Monserrate, um território ultramarino do Reino Unido, localizado na cadeia de Ilhas de Barlavento, nas Pequenas Antilhas, Índias Ocidentais.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Plymouth_(Monserrate)",
+   "varias_capitais": "Plymouth continua sendo a capital oficial, mas está abandonada desde a erupção do vulcão Soufrière Hills, em 1997 — o governo funciona em Brades. As duas valem.",
+   "quase": [],
    "populacao": 5440,
    "adocao": "1999-01-25",
    "arquivo": "Flag of Montserrat.svg",
@@ -5175,7 +8581,20 @@
     "ilhas cook"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q170482",
+     "nome": "Avarua",
+     "apelidos": [
+      "avarua"
+     ]
+    }
+   ],
    "capital": "Avarua",
+   "nota_capital": "Avarua é uma cidade na Ilha de Rarotonga, principal cidade e a capital das Ilhas Cook.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Avarua",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 14222,
    "adocao": "1979-08-04",
    "arquivo": "Flag of the Cook Islands.svg",
@@ -5202,7 +8621,21 @@
     "regiao de aland"
    ],
    "continente": null,
+   "capitais": [
+    {
+     "qid": "Q48329",
+     "nome": "Mariehamn",
+     "apelidos": [
+      "marieamene",
+      "mariehamn"
+     ]
+    }
+   ],
    "capital": "Mariehamn",
+   "nota_capital": "Mariehamn ou Maarianhamina é a capital e a única cidade do arquipélago autónomo da Åland, situado no mar Báltico, entre a Finlândia e a Suécia. É a única região finlandesa com o sueco como única língua oficial.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Mariehamn",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 30836,
    "adocao": "1954-01-01",
    "arquivo": "Flag of Åland.svg",
@@ -5224,7 +8657,21 @@
     "sao bartolomeu"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q34112",
+     "nome": "Gustavia",
+     "apelidos": [
+      "gustavia",
+      "gustavia cidade"
+     ]
+    }
+   ],
    "capital": "Gustavia",
+   "nota_capital": "Gustávia com uma população de aproximadamente 3 000 habitantes, é a principal cidade da ilha de Coletividade de São Bartolomeu. Foi assim nomeada em honra de Gustavo III da Suécia. São Bartolomeu era originalmente um território francês chamado Carenage. Em 1785 foi cedida à Suécia pela França; em troca, a França passou a beneficiar de direitos comerciais em Gotemburgo.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Gust%C3%A1via_(cidade)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 10124,
    "adocao": null,
    "arquivo": "Flag of Saint Barthélemy (local).svg",
@@ -5249,7 +8696,21 @@
     "territorios austrais franceses"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q839559",
+     "nome": "Port-aux-Français",
+     "apelidos": [
+      "port aux francais",
+      "porto dos franceses"
+     ]
+    }
+   ],
    "capital": "Port-aux-Français",
+   "nota_capital": "Port-aux-Français é a capital e principal povoação das Ilhas Kerguelen, um dos quatro distritos das Terras Austrais e Antárticas Francesas. Foi criada em 1950 na costa sul da península de Courbet fronteira com o Golfo de Morbihan, na ilha Grande Terre, a principal do arquipélago.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Port-aux-Fran%C3%A7ais",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 196,
    "adocao": "2007-01-01",
    "arquivo": "Flag of the French Southern and Antarctic Lands.svg",
@@ -5273,7 +8734,20 @@
     "ivb"
    ],
    "continente": "América do Norte e Central",
+   "capitais": [
+    {
+     "qid": "Q179431",
+     "nome": "Road Town",
+     "apelidos": [
+      "road town"
+     ]
+    }
+   ],
    "capital": "Road Town",
+   "nota_capital": "Road Town, localizada na ilha de Tortola, é a capital das Ilhas Virgens Britânicas sendo situada no Road Harbour no centro da costa sul da ilha.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Road_Town",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 39369,
    "adocao": "1960-11-15",
    "arquivo": "Flag of the British Virgin Islands.svg",
@@ -5295,7 +8769,24 @@
     "quiribati"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q131233",
+     "nome": "Taraua do Sul",
+     "apelidos": [
+      "south tarawa",
+      "taraua do sul",
+      "tarawa do sul",
+      "tarawa sul",
+      "teinainano urban council"
+     ]
+    }
+   ],
    "capital": "Taraua do Sul",
+   "nota_capital": "Taraua do Sul ou Tarawa do Sul é um centro populacional da República de Quiribáti, no atol de Taraua, que exerce a função de capital tradicional do estado. Teinainano significa \"embaixo do mastro\", aludindo ao formato do atol, semelhante à uma vela. Sua população, de acordo com estimativas de 2014, era de 50 182 habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Taraua_do_Sul",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 134518,
    "adocao": "1979-07-12",
    "arquivo": "Flag of Kiribati.svg",
@@ -5319,7 +8810,20 @@
     "wallis e futuna islands"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q31002",
+     "nome": "Mata-Utu",
+     "apelidos": [
+      "mata utu"
+     ]
+    }
+   ],
    "capital": "Mata-Utu",
+   "nota_capital": "Mata Utu é a capital da coletividade ultramarina francesa de Wallis e Futuna. Está localizada no centro da costa leste da ilha de Wallis, que corresponde ao reino tradicional de Uvéa, do qual é a capital. É também a capital de Hahake, um dos três distritos de Uvéa (Wallis). Possui uma população de 1.126 habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Mata_Utu",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 11558,
    "adocao": "1887-01-01",
    "arquivo": "Flag of Wallis and Futuna.svg",
@@ -5343,7 +8847,20 @@
     "marianas setentrionais"
    ],
    "continente": "Oceania",
-   "capital": null,
+   "capitais": [
+    {
+     "qid": "Q49755159",
+     "nome": "Saipan",
+     "apelidos": [
+      "saipan"
+     ]
+    }
+   ],
+   "capital": "Saipan",
+   "nota_capital": null,
+   "link_capital": null,
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 47329,
    "adocao": "1985-07-01",
    "arquivo": "Flag of the Northern Mariana Islands.svg",
@@ -5368,7 +8885,21 @@
     "territorio da ilha christmas"
    ],
    "continente": "Ásia",
+   "capitais": [
+    {
+     "qid": "Q30980",
+     "nome": "Flying Fish Cove",
+     "apelidos": [
+      "flying fish cove",
+      "the settlement"
+     ]
+    }
+   ],
    "capital": "Flying Fish Cove",
+   "nota_capital": "Flying Fish Cove, é a capital da Ilha Christmas ou Ilha do Natal. Está localizada na parte nordeste da ilha. Em diversos mapas, está marcada apenas como The Settlement. É um território pertencente à Austrália. Cerca de 800 habitantes residem na cidade, tendo a ilha cerca de 1600 habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Flying_Fish_Cove",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1692,
    "adocao": "1986-01-26",
    "arquivo": "Flag of Christmas Island.svg",
@@ -5389,7 +8920,22 @@
     "mayotte"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q132676",
+     "nome": "Mamoudzou",
+     "apelidos": [
+      "mamoudzou",
+      "mamudzu",
+      "mamuzu"
+     ]
+    }
+   ],
    "capital": "Mamoudzou",
+   "nota_capital": "Mamudzu é a capital administrativa do departamento ultramarino francês de Maiote, na ilha de Grande Terre, também dita Mahoré. Em 2007 tinha cerca de 53022 habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Mamudzu",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 320901,
    "adocao": null,
    "arquivo": "Flag of Mayotte (Local).svg",
@@ -5412,7 +8958,20 @@
     "territorio britanico do oceano indico"
    ],
    "continente": "África",
+   "capitais": [
+    {
+     "qid": "Q184851",
+     "nome": "Diego Garcia",
+     "apelidos": [
+      "diego garcia"
+     ]
+    }
+   ],
    "capital": "Diego Garcia",
+   "nota_capital": "Diego Garcia é o maior atol do arquipélago de Chagos, que é a última parte restante do Território Britânico do Oceano Índico. A ilha principal tem o mesmo nome do atol e é a única ilha do arquipélago e, tem sido usada em um acordo conjunto entre Reino Unido e Estados Unidos como base militar desde a década de 1970, após a expulsão forçada dos seus habitantes pelo governo britânico.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Diego_Garcia",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 3000,
    "adocao": "1990-11-08",
    "arquivo": "Flag of the Commissioner of the British Indian Ocean Territory.svg",
@@ -5436,7 +8995,12 @@
     "toquelau"
    ],
    "continente": "Oceania",
+   "capitais": [],
    "capital": null,
+   "nota_capital": null,
+   "link_capital": null,
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 1499,
    "adocao": "2021-01-13",
    "arquivo": "Flag of Tokelau.svg",
@@ -5461,7 +9025,22 @@
     "territorio das ilhas keeling"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q48675",
+     "nome": "Ilha Ocidental",
+     "apelidos": [
+      "ilha ocidental",
+      "ilha oeste",
+      "west island"
+     ]
+    }
+   ],
    "capital": "Ilha Ocidental",
+   "nota_capital": "Ilha Ocidental é a capital das Ilhas Cocos. A população, em 2011, é de 133 habitantes.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Ilha_Ocidental",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 602,
    "adocao": "2004-04-06",
    "arquivo": "Flag of the Cocos (Keeling) Island.svg",
@@ -5488,7 +9067,25 @@
     "territorio da ilha norfolk"
    ],
    "continente": "Oceania",
+   "capitais": [
+    {
+     "qid": "Q30963",
+     "nome": "Kingston",
+     "apelidos": [
+      "kingston",
+      "kingston ilha norfolque"
+     ],
+     "ambigua": [
+      "JM",
+      "NF"
+     ]
+    }
+   ],
    "capital": "Kingston",
+   "nota_capital": "Kingston é a capital do território ultramarino australiano da Ilha Norfolque.",
+   "link_capital": "https://pt.wikipedia.org/wiki/Kingston_(Ilha_Norfolque)",
+   "varias_capitais": null,
+   "quase": [],
    "populacao": 2188,
    "adocao": "1979-06-06",
    "arquivo": "Flag of Norfolk Island.svg",

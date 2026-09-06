@@ -122,6 +122,86 @@ EXCECOES = {
     "XK": "territorio",
 }
 
+# Cidade cujo rótulo do Wikidata não é o nome que a mesa fala. Q-id à esquerda
+# porque rótulo muda; o nome antigo continua valendo como apelido.
+CORRECOES_CIDADE = {
+    "Q239":  "Bruxelas",   # o rótulo é "Cidade de Bruxelas", que é o município
+    "Q3904": "Mbabane",    # o rótulo em português vem "Mebabane"
+}
+
+# Os dez lugares que têm mais de uma capital DE VERDADE — não é grafia
+# diferente da mesma cidade (Bamaco/Bamako), são cidades diferentes. Todas
+# valem o ponto, e a carta abre dizendo por que são várias. A ordem aqui é a
+# ordem em que a carta lista. Escrito à mão porque o Wikidata guarda as três
+# capitais da África do Sul sem dizer qual poder fica em qual — a informação
+# que faz a carta valer alguma coisa não está na fonte.
+CAPITAIS_MULTIPLAS = {
+    "ZA": (["Pretória", "Cidade do Cabo", "Bloemfontein"],
+           "A África do Sul tem três capitais, uma por poder: Pretória é a sede do "
+           "Executivo, a Cidade do Cabo a do Parlamento e Bloemfontein a do "
+           "Judiciário. As três valem."),
+    "BO": (["Sucre", "La Paz"],
+           "Sucre é a capital constitucional e sede do Judiciário; La Paz é a sede "
+           "do governo e do Congresso. As duas valem."),
+    "LK": (["Kotte", "Colombo"],
+           "Sri Jayawardenepura Kotte é a capital oficial e sede do Parlamento; "
+           "Colombo é a capital comercial e onde fica o Executivo. As duas valem."),
+    "SZ": (["Mbabane", "Lobamba"],
+           "Mbabane é a capital administrativa; Lobamba é a sede do parlamento e da "
+           "monarquia. As duas valem."),
+    "YE": (["Sana", "Áden"],
+           "Sana é a capital constitucional e está sob controle houthi desde 2014; "
+           "Áden é a sede do governo reconhecido internacionalmente. As duas valem."),
+    "MY": (["Kuala Lumpur", "Putrajaya"],
+           "Kuala Lumpur é a capital oficial, onde ficam o rei e o parlamento; "
+           "Putrajaya é a capital administrativa, pra onde o governo federal se mudou "
+           "em 1999. As duas valem."),
+    "BJ": (["Porto Novo", "Cotonu"],
+           "Porto Novo é a capital oficial e sede do parlamento; Cotonu é a sede do "
+           "governo e a maior cidade do país. As duas valem."),
+    "GS": (["Cabo Rei Eduardo", "Grytviken"],
+           "King Edward Point é a base administrativa britânica na ilha; Grytviken é "
+           "a antiga estação baleeira ao lado. O Wikidata lista as duas, e as duas "
+           "valem."),
+    "MS": (["Plymouth", "Brades"],
+           "Plymouth continua sendo a capital oficial, mas está abandonada desde a "
+           "erupção do vulcão Soufrière Hills, em 1997 — o governo funciona em "
+           "Brades. As duas valem."),
+    "PK": (["Islamabad", "Rawalpindi"],
+           "Islamabad é a capital desde 1966. Rawalpindi foi a capital interina "
+           "enquanto Islamabad era construída, e o Wikidata ainda a lista sem data "
+           "de término; por isso ela também vale aqui."),
+    "PS": (["Jerusalém Oriental", "Ramallah"],
+           "A Palestina declara Jerusalém Oriental sua capital; Ramallah é a sede "
+           "administrativa da Autoridade Palestina. O status da cidade é disputado. "
+           "Todas valem."),
+}
+
+
+# Cidade que NÃO é a capital oficial mas é onde o governo senta de verdade.
+# Quem responde isso não errou, e marcar como erro seria o jogo mentindo — a
+# mesma regra das bandeiras gêmeas. O Wikidata não serve pra montar esta lista:
+# ele deprecia Haia e Tel Aviv (marca como erradas) e nem lista Abidjã. Então é
+# escrita à mão, e cada linha diz o fato que a torna aceitável.
+QUASE = {
+    "NL": [("Haia", "Amsterdã é a capital pela Constituição, mas o governo, o "
+                    "parlamento e a Suprema Corte ficam em Haia.")],
+    "IL": [("Tel Aviv", "Israel declara Jerusalém sua capital e é lá que ficam o "
+                        "parlamento, o governo e a Suprema Corte. O status da cidade "
+                        "é disputado, e a maior parte das embaixadas fica em Tel Aviv.")],
+    "PS": [("Jerusalém", "A Palestina declara Jerusalém Oriental sua capital; o "
+                         "status da cidade é disputado.")],
+    "CI": [("Abidjã", "Iamussucro é a capital política desde 1983, mas o governo e "
+                      "as embaixadas continuam em Abidjã.")],
+    "TZ": [("Dar es Salaam", "Dodoma é a capital oficial desde 1996; boa parte do "
+                             "governo e das embaixadas ficou em Dar es Salaam.")],
+    "BI": [("Bujumbura", "Guitega virou a capital política em 2019; Bujumbura, que "
+                         "era a capital, seguiu como capital econômica.")],
+    "CL": [("Valparaíso", "Santiago é a capital, mas o Congresso Nacional se reúne "
+                          "em Valparaíso desde 1990.")],
+}
+
+
 # Fora do baralho, com o motivo. Bandeira que não identifica um lugar sozinha
 # não vira carta: a pessoa acertaria e o jogo diria que errou.
 VETADOS = {
@@ -245,16 +325,37 @@ SELECT ?iso2 ?ptbr ?pt ?en ?wpt (GROUP_CONCAT(DISTINCT ?alt; separator="|") AS ?
 GROUP BY ?iso2 ?ptbr ?pt ?en ?wpt
 """
 
-# A língua vem junto: "Copenhaga" é pt-PT e "Copenhague" é pt-BR, e o desempate
-# alfabético escolheria a errada.
+# A língua vem junto: o desempate alfabético entre "América do Norte" (pt-BR) e
+# outra grafia escolheria a errada. Capital não está aqui — ela tem consulta
+# própria, porque precisa de Q-id, rank e data de término pra sair certa.
 Q_FATOS = """
-SELECT ?iso2 ?cap (LANG(?cap) AS ?cap_l) ?cont (LANG(?cont) AS ?cont_l) ?pop WHERE {
+SELECT ?iso2 ?cont (LANG(?cont) AS ?cont_l) ?pop WHERE {
   ?e wdt:P297 ?iso2 .
   FILTER NOT EXISTS { ?e wdt:P576 ?dissolvido }
-  OPTIONAL { ?e wdt:P36 ?c  . ?c  rdfs:label ?cap  FILTER(LANG(?cap)  IN ("pt-br","pt")) }
   OPTIONAL { ?e wdt:P30 ?ct . ?ct rdfs:label ?cont FILTER(LANG(?cont) IN ("pt-br","pt")) }
   OPTIONAL { ?e wdt:P1082 ?pop }
 }
+"""
+
+# Capital por Q-ID, não por nome: "Bamaco" e "Bamako" são rótulos da MESMA
+# cidade, e agrupar por texto faria o Mali parecer ter duas capitais. Também
+# traz o rank e a data de término, porque a Nigéria tem Lagos até 1991 e Abuja
+# como preferencial — sem isso a capital certa se perde no meio.
+Q_CAPITAIS = """
+SELECT ?iso2 ?cap ?rank ?fim ?ptbr ?pt ?en ?wpt
+       (GROUP_CONCAT(DISTINCT ?alt; separator="|") AS ?apelidos) WHERE {
+  ?e wdt:P297 ?iso2 .
+  FILTER NOT EXISTS { ?e wdt:P576 ?dissolvido }
+  ?e p:P36 ?st . ?st ps:P36 ?cap . ?st wikibase:rank ?rank .
+  OPTIONAL { ?st pq:P582 ?fim }
+  OPTIONAL { ?cap rdfs:label ?ptbr FILTER(LANG(?ptbr) = "pt-br") }
+  OPTIONAL { ?cap rdfs:label ?pt   FILTER(LANG(?pt)   = "pt")    }
+  OPTIONAL { ?cap rdfs:label ?en   FILTER(LANG(?en)   = "en")    }
+  OPTIONAL { ?a schema:about ?cap ; schema:isPartOf <https://pt.wikipedia.org/> ;
+                schema:name ?wpt }
+  OPTIONAL { ?cap skos:altLabel ?alt FILTER(LANG(?alt) IN ("pt-br", "pt")) }
+}
+GROUP BY ?iso2 ?cap ?rank ?fim ?ptbr ?pt ?en ?wpt
 """
 
 CONTINENTES = {
@@ -284,11 +385,9 @@ def coleta():
     onu = {v(b, "iso2") for b in sparql(Q_ONU, "wd_onu")}
     nomes = {v(b, "iso2"): b for b in sparql(Q_NOMES, "wd_nomes")}
 
-    fatos = defaultdict(lambda: {"cap": [], "cont": [], "pop": []})
-    for b in sparql(Q_FATOS, "wd_fatos2"):
+    fatos = defaultdict(lambda: {"cont": [], "pop": []})
+    for b in sparql(Q_FATOS, "wd_fatos3"):
         f = fatos[v(b, "iso2")]
-        if v(b, "cap"):
-            f["cap"].append((v(b, "cap_l"), v(b, "cap")))
         if v(b, "cont"):
             f["cont"].append((v(b, "cont_l"), CONTINENTES.get(v(b, "cont"), v(b, "cont"))))
         if v(b, "pop"):
@@ -332,9 +431,9 @@ def nome_de(iso2, b):
     return None
 
 
-def resumo_da_bandeira(titulo):
-    """Primeiras frases do artigo 'Bandeira de X' na Wikipédia lusófona."""
-    chave = "wp_" + re.sub(r"[^A-Za-z0-9]+", "_", titulo)[:70]
+def resumo(titulo, prefixo="wp"):
+    """Primeiras frases de um artigo da Wikipédia lusófona, com o link."""
+    chave = prefixo + "_" + re.sub(r"[^A-Za-z0-9]+", "_", titulo)[:70]
     d = get(WIKI_PT + requests.utils.quote(titulo.replace(" ", "_"), safe=""), None, chave)
     if not d or not d.get("extract"):
         return None, None
@@ -371,6 +470,71 @@ def leitura_do_artigo(titulo, ini, fim):
     if not d or not d.get("items"):
         return None
     return sum(i.get("views", 0) for i in d["items"])
+
+
+def coleta_capitais():
+    """
+    iso2 -> [{qid, nome, apelidos, artigo}], só as capitais de HOJE.
+
+    Três regras aqui, cada uma consertando um erro que apareceu de verdade:
+
+    - agrupar por Q-id, não por nome: "Bamaco" e "Bamako" são rótulos da mesma
+      cidade, e agrupar por texto fazia o Mali parecer ter duas capitais;
+    - jogar fora declaração com data de término: Lagos foi capital da Nigéria
+      até 1991 e continua no item;
+    - onde existe rank preferencial, só ele vale — é o que faz sobrar Abuja.
+
+    Cada rótulo que a cidade tem em português vira apelido, então quem digita
+    "Bamako", "Moscovo" ou "Banguecoque" acerta.
+    """
+    bruto = defaultdict(dict)
+    for b in sparql(Q_CAPITAIS, "wd_capitais2"):
+        if v(b, "fim"):
+            continue
+        rank = (v(b, "rank") or "").rsplit("#", 1)[-1]
+        if rank == "DeprecatedRank":
+            continue
+        qid = v(b, "cap", "").rsplit("/", 1)[-1]
+        nome = CORRECOES_CIDADE.get(qid) or (
+            v(b, "ptbr") or v(b, "pt") or v(b, "wpt") or v(b, "en"))
+        if not nome:
+            continue
+        apelidos = {norm(nome)}
+        for campo in ("ptbr", "pt", "wpt", "en"):
+            if v(b, campo):
+                apelidos.add(norm(v(b, campo)))
+        for a in (v(b, "apelidos", "") or "").split("|"):
+            if len(norm(a)) > 2:
+                apelidos.add(norm(a))
+        bruto[v(b, "iso2")][qid] = {
+            "qid": qid, "nome": nome[0].upper() + nome[1:],
+            "apelidos": sorted(apelidos), "artigo": v(b, "wpt"), "rank": rank}
+
+    saida, avisos = {}, []
+    for iso2, caps in bruto.items():
+        # Rank preferencial ORDENA, não exclui. Ele diz qual a capital que a
+        # carta lê primeiro (Abuja, Amsterdã), mas a outra continua sendo uma
+        # resposta que a mesa daria — Haia e Tel Aviv são disso. O que sai
+        # mesmo é capital de antigamente, e isso já saiu pela data de término.
+        lista = sorted(caps.values(), key=lambda c: c["rank"] != "PreferredRank")
+        ordem = CAPITAIS_MULTIPLAS.get(iso2, (None, None))[0]
+        if ordem:
+            # a mão diz a ordem; se um nome não bate mais, o gerador reclama em
+            # vez de fingir que está tudo certo
+            pos = {norm(n): i for i, n in enumerate(ordem)}
+            for c in lista:
+                if norm(c["nome"]) not in pos:
+                    avisos.append(f"{iso2}: '{c['nome']}' não está em CAPITAIS_MULTIPLAS")
+            for n in ordem:
+                if not any(norm(n) == norm(c["nome"]) for c in lista):
+                    avisos.append(f"{iso2}: '{n}' está em CAPITAIS_MULTIPLAS mas sumiu do Wikidata")
+            lista.sort(key=lambda c: pos.get(norm(c["nome"]), 99))
+        elif len(lista) > 1:
+            avisos.append(f"{iso2}: {len(lista)} capitais e nenhuma explicação escrita")
+        for c in lista:
+            c.pop("rank")
+        saida[iso2] = lista
+    return saida, avisos
 
 
 def baixa_bandeira(iso2, arquivo):
@@ -410,7 +574,9 @@ def encolhe(caminhos):
 
 def main():
     por_iso, onu, nomes, fatos = coleta()
-    print(f"Wikidata: {len(por_iso)} códigos com bandeira, {len(onu)} membros da ONU")
+    capitais, avisos = coleta_capitais()
+    print(f"Wikidata: {len(por_iso)} códigos com bandeira, {len(onu)} membros da ONU, "
+          f"{len(capitais)} com capital")
 
     # Bandeira repetida não vira duas cartas: fica o país soberano e o
     # território sai. Sem isso a Ilha Bouvet seria "erro" pra quem digitasse
@@ -456,13 +622,21 @@ def main():
                 apelidos.add(norm(a))
         apelidos.update(norm(a) for a in APELIDOS.get(iso2, []))
 
-        nota, link = resumo_da_bandeira(d["flagpt"]) if d.get("flagpt") else (None, None)
+        nota, link = resumo(d["flagpt"]) if d.get("flagpt") else (None, None)
+        caps = capitais.get(iso2, [])
+        nota_cap, link_cap = (resumo(caps[0]["artigo"], "cid")
+                              if caps and caps[0].get("artigo") else (None, None))
         artigo = d.get("wpt") or v(nomes.get(iso2), "wpt")
         cartas.append({
             "iso2": iso2, "iso3": d.get("iso3"), "qid": d["qid"], "tipo": tipo,
             "nome": nome, "apelidos": sorted(apelidos),
             "continente": melhor(f.get("cont") or []),
-            "capital": melhor(f.get("cap") or []),
+            "capitais": [{k: c[k] for k in ("qid", "nome", "apelidos")} for c in caps],
+            "capital": caps[0]["nome"] if caps else None,
+            "nota_capital": nota_cap, "link_capital": link_cap,
+            "varias_capitais": CAPITAIS_MULTIPLAS.get(iso2, (None, None))[1],
+            "quase": [{"nome": n, "apelidos": sorted({norm(n)}), "explica": e}
+                      for n, e in QUASE.get(iso2, [])],
             "populacao": max(f.get("pop") or [0]) or None,
             "adocao": (d.get("adocao") or "")[:10] or None,
             "arquivo": d["arquivo"], "img": f"img/{iso2.lower()}.png",
@@ -470,6 +644,19 @@ def main():
             "leitura": leitura_do_artigo(artigo, ini, fim) if artigo else None,
             "sitelinks": d["sitelinks"],
         })
+
+    # Uma capital que serve a mais de um lugar não vira carta do módulo "de que
+    # país é esta capital": Jerusalém aparece em Israel e na Palestina, e a
+    # carta teria duas respostas certas por um motivo que não é geografia.
+    de_quem = defaultdict(set)
+    for c in cartas:
+        for cap in c["capitais"]:
+            de_quem[norm(cap["nome"])].add(c["iso2"])
+    for c in cartas:
+        for cap in c["capitais"]:
+            donos = de_quem[norm(cap["nome"])]
+            if len(donos) > 1:
+                cap["ambigua"] = sorted(donos)
 
     # Bandeiras iguais na tela: cada uma aceita a outra como resposta.
     porcarta = {c["iso2"]: c for c in cartas}
@@ -513,7 +700,17 @@ def main():
     print(f"com nota da Wikipédia: {sum(1 for c in cartas if c['nota'])}")
     print(f"com data de adoção:    {sum(1 for c in cartas if c['adocao'])}")
     print(f"com leitura medida:    {sum(1 for c in cartas if c['leitura'])}")
+    comcap = [c for c in cartas if c["capitais"]]
+    print(f"com capital:           {len(comcap)} "
+          f"({sum(1 for c in comcap if len(c['capitais']) > 1)} com mais de uma)")
+    print(f"com nota da capital:   {sum(1 for c in cartas if c['nota_capital'])}")
+    print(f"capital ambígua:       "
+          f"{sorted({cap['nome'] for c in cartas for cap in c['capitais'] if cap.get('ambigua')})}")
     print(f"pares de gêmeas:       {sum(1 for c in cartas if c.get('gemea'))//2}")
+    if avisos:
+        print(f"\nconferir as capitais escritas à mão ({len(avisos)}):")
+        for a in avisos:
+            print("  -", a)
     if cortes:
         print(f"\nfora do baralho ({len(cortes)}):")
         for iso2, motivo in sorted(cortes):

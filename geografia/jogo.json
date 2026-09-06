@@ -1,0 +1,12 @@
+{
+  "slug": "geografia",
+  "nome": "Geografia",
+  "tagline": "Bandeira, capital, e o que a mesa escolher.",
+  "descricao": "O celular passa de mão em mão e cada um responde a sua carta. A mesa escolhe os módulos antes de começar: que país é essa bandeira, qual a capital deste país, de que país é esta capital. Acertou de cara vale 3; pediu dica vale menos. Toda carta abre explicando o que afirma. São 240 lugares — os 195 países mais 45 territórios — da lista ISO 3166-1, com bandeira do Wikimedia Commons, capital do Wikidata e nota da Wikipédia. Dá pra jogar sozinho.",
+  "emoji": "🌍",
+  "cor": "verde",
+  "jogadores": "1 a 12",
+  "duracao": "15 min",
+  "precisa": "um celular passando de mão em mão",
+  "status": "pronto"
+}
