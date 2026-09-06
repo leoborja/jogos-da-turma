@@ -141,8 +141,11 @@ O gerador joga carta fora sozinha, porque carta ruim estraga a rodada:
   bilheteria, capacidade de estádio, censo e contagem de título são número
   exato, e ali só empate de verdade conta.
 - **carta repetida** — “quem mais exporta” e “maior PIB” devolvem quase a mesma
-  lista; se o top 10 repete mais de 60% de outra carta do mesmo recorte, sai
-  (95 caíram aqui).
+  lista. São duas passadas: dentro do mesmo recorte a régua é 60%, e depois
+  uma passada comparando tudo com tudo a 70%. A segunda existe porque recorte
+  diferente do mesmo indicador é carta legítima (a Ásia é um pedaço do mundo),
+  mas “nomes mais comuns em SP” e “em MG” eram a mesma lista com outra
+  bandeira.
 - **microestado** — todo ranking per capita vira lista de paraíso fiscal, então
   cada indicador tem um `min_pop`.
 - **base pequena** — carta global precisa de pelo menos 60 países com dado.
@@ -156,23 +159,49 @@ O gerador joga carta fora sozinha, porque carta ruim estraga a rodada:
 ## Sinônimos
 
 A parte mais chata não são os dados, é o juiz digital entender “EUA”,
-“Holanda”, “Inglaterra”. O `banco.json` traz um índice de países com os
-apelidos normalizados (minúscula, sem acento, sem pontuação) e o site resolve
-o palpite contra ele antes de olhar a carta — inclusive com tolerância a erro
-de digitação (“alemanya” vira Alemanha). Apelido que aponta para dois países é
-descartado: apelido ambíguo é pior que apelido nenhum.
+“Holanda”, “Maracanã”. O `banco.json` traz **um índice por tipo de resposta**,
+com os apelidos normalizados (minúscula, sem acento, sem pontuação), e o site
+resolve o palpite contra o índice do tipo da carta — inclusive com tolerância a
+erro de digitação (“alemanya” vira Alemanha, “curitba” vira Curitiba). Apelido
+que aponta para dois países é descartado: ambíguo é pior que nenhum. Nome que
+se repete em vários estados ganha a UF colada (“Santo André (SP)”).
 
 Nome que o juiz não reconhecer, anota em `APELIDOS_EXTRA` no `indicadores.py`.
 Enquanto isso o botão *Foi acerto / Foi erro* deixa o juiz decidir na hora.
+
+## Na fila
+
+Anotado da mesa, ainda sem mexer:
+
+- **Tem carta difícil demais.** O baralho não sabe medir dificuldade, então
+  cai “onde mais chove na África” do lado de “quem mais importa” e a rodada
+  trava. Uma saída é marcar cada carta com um nível e deixar escolher no
+  começo — dá pra estimar pelo quanto as respostas aparecem no resto do
+  baralho, que é um bom termômetro de “dá pra chutar?”. Falta o Leo dizer
+  quais cartas travaram de verdade.
+- **Línguas tem só 4 cartas** contra 236 de países. Quem filtra por línguas
+  acaba o baralho em quatro rodadas. Glottolog e Wikidata dariam mais.
 
 ## Arquivos
 
 ```
 index.html        o jogo (sem build, sem backend)
-banco.json        as cartas + o índice de países
-gerador.py        busca, filtra e monta o banco
-indicadores.py    catálogo de indicadores, regiões, apelidos, vetos
-linguas.py        cartas do tema línguas
-revisao.csv       conferência visual
+jogo.json         a ficha que a base lê pra listar o jogo
+banco.json        as cartas, os índices por tipo e as definições dos indicadores
+
+gerador.py        orquestra: busca, filtra, deduplica e monta o banco
+indicadores.py    catálogo de indicadores do Banco Mundial, regiões, apelidos, vetos
+notas.py          a nota de mesa de cada indicador, em português
+wikidata.py       pedaços de SPARQL que os temas do Wikidata dividem
+linguas.py        tema línguas (Glottolog + Wikidata)
+brasil.py         tema Brasil (IBGE: municípios e nomes)
+cinema.py         tema cinema (Wikidata: bilheteria)
+esporte.py        tema esporte (Wikidata: títulos e estádios)
+
+revisao.csv       conferência visual, uma linha por carta
 relatorio.txt     o que caiu e por quê
+cache/            respostas cruas das APIs (fora do git)
 ```
+
+Tema novo é um módulo novo: escreve uma função que devolve `(cartas, índices)`
+e liga no `gerador.py`. Os filtros de qualidade valem pra todo mundo de graça.
