@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-gerador.py — monta o baralho da Mímica a partir de bases abertas.
+gerador.py — monta o baralho do Imagem e Ação a partir de bases abertas.
 
 A carta do jogo de caixa traz uma palavra e uma letra dizendo em que casa ela
 joga: O de objeto, P de pessoa/lugar/animal, A de ação, D de difícil. A letra é
@@ -526,7 +526,7 @@ def escreve(cartas, caiu, por_casa, args):
 
 def main():
     global SEM_CACHE
-    ap = argparse.ArgumentParser(description="monta o baralho da Mímica")
+    ap = argparse.ArgumentParser(description="monta o baralho do Imagem e Ação")
     ap.add_argument("--por-casa", type=int, default=180, help="teto de cartas por casa")
     ap.add_argument("--topo", type=int, default=15000,
                     help="até que posição da lista de frequência a palavra vale")

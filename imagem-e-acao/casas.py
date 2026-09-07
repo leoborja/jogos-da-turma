@@ -5,8 +5,8 @@ casas.py — o que vai em cada casa do jogo, e o que não vai em carta nenhuma.
 A casa de uma carta não é opinião: é o arquivo lexicográfico em que a WordNet
 de Princeton guarda aquele sentido. São 45 arquivos temáticos (noun.animal,
 noun.artifact, verb.motion…), e cada synset mora em exatamente um. O que este
-arquivo faz é dizer qual arquivo cai em qual casa da Mímica — e deixar de fora
-os arquivos que não viram gesto (noun.quantity, verb.stative e afins).
+arquivo faz é dizer qual arquivo cai em qual casa do Imagem e Ação — e deixar
+de fora os arquivos que não viram gesto (noun.quantity, verb.stative e afins).
 
 Referência dos arquivos: https://wordnet.princeton.edu/documentation/lexnames5wn
 """

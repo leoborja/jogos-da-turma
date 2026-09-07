@@ -1,6 +1,6 @@
 {
-  "slug": "mimica",
-  "nome": "Mímica",
+  "slug": "imagem-e-acao",
+  "nome": "Imagem e Ação",
   "tagline": "Mostre a palavra sem falar e sem fazer barulho.",
   "descricao": "O celular sorteia a palavra, guarda o segredo e conta o tempo — o resto é o seu corpo. Sem falar, sem som, sem apontar pras coisas da sala e sem soletrar no ar; vale mostrar nos dedos quantas sílabas a palavra tem. Cada carta cai numa das quatro casas — Objeto, Pessoa/lugar/bicho, Ação e Difícil — e a casa não é palpite: é o arquivo em que a WordNet de Princeton guarda aquele sentido, e a carta mostra a cadeia que prova (chave → aparato → artefato). São 622 palavras da OpenWordnet-PT, todas confirmadas pelo Wikcionário.",
   "emoji": "🎭",

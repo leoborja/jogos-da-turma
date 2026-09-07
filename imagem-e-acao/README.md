@@ -1,4 +1,4 @@
-# Mímica
+# Imagem e Ação
 
 Mostre a palavra sem falar e sem fazer barulho.
 
@@ -59,7 +59,7 @@ corpus etiquetado de Princeton e, no empate, a casa mais concreta — é a que o
 corpo consegue mostrar. "Coração" é o órgão antes de ser o centro de alguma
 coisa.
 
-A casa Ação é a maior da Mímica de propósito: além dos verbos de movimento, de
+A casa Ação é a maior do baralho de propósito: além dos verbos de movimento, de
 contato e de corpo, ela puxa os de mudar de estado (`verb.change`), os de dar e
 receber (`verb.possession`) e os do que se faz com os outros (`verb.social`) —
 *derreter*, *emprestar*, *casar*. Num jogo de desenho metade deles não teria
